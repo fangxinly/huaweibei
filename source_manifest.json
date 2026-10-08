@@ -525,6 +525,24 @@
       }
     },
     {
+      "path": "docs/TEST_vs_previous_059.md",
+      "origin": "outputs/TEST与既有0.59结果对齐分析.md",
+      "kind": "research_result",
+      "bytes": 4896,
+      "original_sha256": "b69c8d35cba1abd0f635aad8546f5d6287c4a483797c9cd6c1dc71d2e718dca1",
+      "published_sha256": "b69c8d35cba1abd0f635aad8546f5d6287c4a483797c9cd6c1dc71d2e718dca1",
+      "sanitizations": {}
+    },
+    {
+      "path": "docs/TRAIN_DEV_diagnosis_and_plan.md",
+      "origin": "outputs/TRAIN_DEV退化定位与下一步训练方案.md",
+      "kind": "research_result",
+      "bytes": 4716,
+      "original_sha256": "75dcecd96d3be863a90e1998356942a8c755a1a52fa094010e90f011dd286cf4",
+      "published_sha256": "75dcecd96d3be863a90e1998356942a8c755a1a52fa094010e90f011dd286cf4",
+      "sanitizations": {}
+    },
+    {
       "path": "docs/code_review_and_pretraining_direction.md",
       "origin": "outputs/code_review_response_20261008T154000Z/REPORT.md",
       "kind": "research_note",
@@ -543,6 +561,15 @@
       "sanitizations": {}
     },
     {
+      "path": "docs/download_and_reproduce.md",
+      "origin": "generated_publication_note",
+      "kind": "research_note",
+      "bytes": 271,
+      "original_sha256": "5c87f8f1b16c47bbf63c90a627168ad8f7038521ca3e3ecb782ee53769d6d72c",
+      "published_sha256": "5c87f8f1b16c47bbf63c90a627168ad8f7038521ca3e3ecb782ee53769d6d72c",
+      "sanitizations": {}
+    },
+    {
       "path": "docs/flexible_calibration_review.md",
       "origin": "outputs/flexible_official_calibration_20261008T125206Z/官方VAL_TEST与非线性校准说明.md",
       "kind": "selected_documentation",
@@ -555,6 +582,15 @@
       "path": "docs/official_VAL_TEST_results.md",
       "origin": "outputs/official_upgrade_completion_20261008T112205Z/官方对齐改进完成总结.md",
       "kind": "selected_documentation",
+      "bytes": 3657,
+      "original_sha256": "d608496b87558d999da59f786b13281386507609d6f05ac9173d69d3c1fc4144",
+      "published_sha256": "d608496b87558d999da59f786b13281386507609d6f05ac9173d69d3c1fc4144",
+      "sanitizations": {}
+    },
+    {
+      "path": "docs/official_upgrade_completion.md",
+      "origin": "outputs/official_upgrade_completion_20261008T112205Z/官方对齐改进完成总结.md",
+      "kind": "research_result",
       "bytes": 3657,
       "original_sha256": "d608496b87558d999da59f786b13281386507609d6f05ac9173d69d3c1fc4144",
       "published_sha256": "d608496b87558d999da59f786b13281386507609d6f05ac9173d69d3c1fc4144",
@@ -657,6 +693,42 @@
       "bytes": 450,
       "original_sha256": "a72f9be4acf3abe823c39f7ff53e95e2fc0577392fbc0455bec0a8d6429b0e2a",
       "published_sha256": "a72f9be4acf3abe823c39f7ff53e95e2fc0577392fbc0455bec0a8d6429b0e2a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_DEV_diagnosis.json",
+      "origin": "outputs/固定双方TRAIN_DEV退化诊断.json",
+      "kind": "research_result",
+      "bytes": 22680,
+      "original_sha256": "1fdab4032ce787fb750f530645a0587510af0b08f4c95e582c202472f60ceb4e",
+      "published_sha256": "1fdab4032ce787fb750f530645a0587510af0b08f4c95e582c202472f60ceb4e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/fixed_models_VAL_TEST_five_metrics.json",
+      "origin": "outputs/所有固定模型VAL_TEST五项实际对齐结果.json",
+      "kind": "research_result",
+      "bytes": 32385,
+      "original_sha256": "5dba1666e9552a368f13fb1f900916f30bf89593d775ec9b214d343746f5baa7",
+      "published_sha256": "5dba1666e9552a368f13fb1f900916f30bf89593d775ec9b214d343746f5baa7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/official_upgrade_VAL_TEST.json",
+      "origin": "outputs/official_aligned_upgrade_review_20261008T111850Z/原方案改进与CaReFlow官方VAL_TEST实际结果.json",
+      "kind": "research_result",
+      "bytes": 166758,
+      "original_sha256": "72c1d8aef4f29b2c7c13984d6705363c728f5642bdca8487cfc6d0f0f013445f",
+      "published_sha256": "72c1d8aef4f29b2c7c13984d6705363c728f5642bdca8487cfc6d0f0f013445f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/official_upgrade_VAL_TEST_predictions.npz",
+      "origin": "preserved_official_prediction_archive/fixed_official_VAL_TEST_prediction.npz",
+      "kind": "prediction_data",
+      "bytes": 63680,
+      "original_sha256": "ef8d91c110f0795e1d8f45b2419690f4bd0117127ac23f8fb5e6cb4e76eb09a2",
+      "published_sha256": "ef8d91c110f0795e1d8f45b2419690f4bd0117127ac23f8fb5e6cb4e76eb09a2",
       "sanitizations": {}
     },
     {
@@ -12436,6 +12508,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/prepare_results_publication_20261008T171229Z.py",
+      "origin": "work/prepare_results_publication_20261008T171229Z.py",
+      "kind": "research_result",
+      "bytes": 6323,
+      "original_sha256": "1ff21d562df04b6eb042024eca2786cef5a24b25df19cfe88c32049686534172",
+      "published_sha256": "1ff21d562df04b6eb042024eca2786cef5a24b25df19cfe88c32049686534172",
+      "sanitizations": {}
+    },
+    {
       "path": "work/prepare_review_reporting_fixes_v2.py",
       "origin": "work/prepare_review_reporting_fixes_v2.py",
       "kind": "source",
@@ -12735,6 +12816,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/publish_release_assets_v1.py",
+      "origin": "work/publish_release_assets_v1.py",
+      "kind": "research_result",
+      "bytes": 8445,
+      "original_sha256": "b4fc480e7f8a9e1dcbbb9154ee2454605d931b683de5ace4036629f10711c539",
+      "published_sha256": "b4fc480e7f8a9e1dcbbb9154ee2454605d931b683de5ace4036629f10711c539",
+      "sanitizations": {}
+    },
+    {
       "path": "work/publish_review_sources_v1.py",
       "origin": "work/publish_review_sources_v1.py",
       "kind": "source",
@@ -12750,6 +12840,15 @@
       "bytes": 8085,
       "original_sha256": "c7da7899974f6b0a6da2fefd588c0d7d0bdb219b43e8670cb8801cebedf181d3",
       "published_sha256": "c7da7899974f6b0a6da2fefd588c0d7d0bdb219b43e8670cb8801cebedf181d3",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/reassemble_release_checkpoint_v1.py",
+      "origin": "work/reassemble_release_checkpoint_v1.py",
+      "kind": "research_result",
+      "bytes": 1983,
+      "original_sha256": "ef050b3e2dd7b5f6245732bb7739644f77229209013874e1ecfd783643477576",
+      "published_sha256": "ef050b3e2dd7b5f6245732bb7739644f77229209013874e1ecfd783643477576",
       "sanitizations": {}
     },
     {
@@ -31144,5 +31243,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Original gradient audit and synthetic optimizer startup completed; MSE health candidate source prepared; external pretraining design only, no real new TRAIN/VAL/TEST."
+  "latest_source_update": "Actual official VAL/TEST results and predictions published; streaming release uploader added; no new scientific training."
 }

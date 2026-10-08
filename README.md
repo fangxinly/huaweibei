@@ -57,7 +57,7 @@ python work/flexible_official_calibration_v1/contract_check.py scratch/flexible_
 
 训练入口为 `train_official.py`，预测入口为 `infer_official.py`，评分入口为 `score_official.py`。正式训练需要外部公共预训练资产及 MOSI 数据，且运行计划包含资产 SHA、源 SHA、ID、预算与一次执行守卫。历史协议的机器、路径和到期时间不可直接套用于新机器；重新执行应先生成完整新计划并冻结来源。不要通过删除守卫绕过来源或标签隔离。
 
-本仓库含不涉及标签的固定训练位置订单文件，以保留原预算的顺序依据。**数据集、逐样本标签/预测、原始日志、模型权重/Adam/RNG 检查点、离线 wheel 包、凭据不在 Git 中**，这些原件仍保留于原研究备份位置。脱敏只改发布副本，原冻结证据不改；发生脱敏的历史文件及其配置不能冒为原字节完全一致的可执行冻结包。
+本仓库含不涉及标签的固定训练位置订单文件，以保留原预算的顺序依据。**本轮已补入逐样本预测和实际结果；对应模型与 MOSI 数据通过 Release 附件发布，下载状态见下方说明。服务器密码仍脱敏，原始捕获包与离线 wheel 不随此次发布**，这些原件仍保留于原研究备份位置。脱敏只改发布副本，原冻结证据不改；发生脱敏的历史文件及其配置不能冒为原字节完全一致的可执行冻结包。
 
 ## 参考与来源
 
@@ -93,3 +93,10 @@ python work/polarity_intensity_official_v1/integration_contract.py scratch/polar
 `work/github_access_check.py` 已改为安全默认：import或无参数执行不访问Git凭据/网络。只有显式 `--check-repo-access` 才进行可选访问核验。历史副本保留为来源，不建议直接运行历史批次工具；旧租期计划不能用于新机器。报告v2移除了负gain的预定结论及backtrack无标签的虚假布尔证书，历史结果未改写或重跑。
 
 合成数学/泄漏/凭据默认行为检查：`python work/check_research_contracts_v1.py`。不读取实际数据、权重或凭据。
+
+
+## 本轮结果与复现文件
+
+[TRAIN/DEV 退化诊断](docs/TRAIN_DEV_diagnosis_and_plan.md)、[旧 0.59 与 TEST 对账](docs/TEST_vs_previous_059.md)、[各固定模型 VAL/TEST 五项](results/fixed_models_VAL_TEST_five_metrics.json)、[原流改进实际结果](results/official_upgrade_VAL_TEST.json)和 [229/685 行预测数组](results/official_upgrade_VAL_TEST_predictions.npz)已补入。历史诊断文件按其原数据角色解释，不能把其中 INNER 或合并折结果当官方 VAL/TEST。
+
+模型/输入发布状态见 [下载与复现](docs/download_and_reproduce.md)。新 MSE 候选仍未完成真实训练；本轮是上传现有产物。存储压缩曾失败且后置 SHA 未完成，该文件不作为此次发布模型。
