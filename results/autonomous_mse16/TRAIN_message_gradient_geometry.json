@@ -1,0 +1,439 @@
+{
+  "status": "ACTUAL_TRAIN_GRADIENT_GEOMETRY_DESCRIPTION_NOT_CAUSAL_ABLATION",
+  "source_health": "A100_TRAIN_health.jsonl",
+  "step400": {
+    "step": 400,
+    "task_RMS": 1.10632987375077e-05,
+    "penalty_RMS": 7.780455054753551e-06,
+    "cosine_from_squared_norms": -0.9885447724962015,
+    "nondecay_update_RMS": 0.001367055825542783,
+    "context_RMS": 0.41251683235168457,
+    "gain": 0.4551072418689728
+  },
+  "latest": {
+    "step": 1840,
+    "task_RMS": 2.242217637811429e-05,
+    "penalty_RMS": 2.1579610551470464e-06,
+    "cosine_from_squared_norms": -0.01689528118642057,
+    "nondecay_update_RMS": 8.144102165231001e-05,
+    "context_RMS": 0.1520359218120575,
+    "gain": 0.818259060382843
+  },
+  "records": [
+    {
+      "step": 40,
+      "task_RMS": 3.6658922169322576e-13,
+      "penalty_RMS": 1.940089845091282e-15,
+      "cosine_from_squared_norms": -0.3461887798590936,
+      "nondecay_update_RMS": 7.639770877194714e-10,
+      "context_RMS": 2.8751694358675195e-09,
+      "gain": 0.0010063886875286698
+    },
+    {
+      "step": 80,
+      "task_RMS": 2.7360446942380012e-12,
+      "penalty_RMS": 7.181714717880353e-14,
+      "cosine_from_squared_norms": -0.2423655728968167,
+      "nondecay_update_RMS": 1.5882573649097206e-08,
+      "context_RMS": 1.2024540296806663e-07,
+      "gain": 0.00874751340597868
+    },
+    {
+      "step": 120,
+      "task_RMS": 6.996268425795369e-12,
+      "penalty_RMS": 4.535136918341552e-13,
+      "cosine_from_squared_norms": -0.2019800428714964,
+      "nondecay_update_RMS": 5.8225869253809925e-08,
+      "context_RMS": 7.66768778248661e-07,
+      "gain": 0.022248737514019012
+    },
+    {
+      "step": 160,
+      "task_RMS": 4.0953887814283903e-11,
+      "penalty_RMS": 9.825132100947985e-13,
+      "cosine_from_squared_norms": -0.6397627937501877,
+      "nondecay_update_RMS": 4.32591038533955e-07,
+      "context_RMS": 2.4730902623559814e-06,
+      "gain": 0.04340134561061859
+    },
+    {
+      "step": 200,
+      "task_RMS": 2.865996189962636e-10,
+      "penalty_RMS": 2.8534655263558386e-11,
+      "cosine_from_squared_norms": -0.8810743929666582,
+      "nondecay_update_RMS": 6.450259340897965e-06,
+      "context_RMS": 5.184258407098241e-05,
+      "gain": 0.08313003927469254
+    },
+    {
+      "step": 240,
+      "task_RMS": 1.8610958293747666e-09,
+      "penalty_RMS": 1.0286428549057259e-09,
+      "cosine_from_squared_norms": -0.9493149262648425,
+      "nondecay_update_RMS": 5.1374408485487785e-05,
+      "context_RMS": 0.0008919507963582873,
+      "gain": 0.13974884152412415
+    },
+    {
+      "step": 280,
+      "task_RMS": 3.985983920586839e-08,
+      "penalty_RMS": 3.376894340978171e-08,
+      "cosine_from_squared_norms": -0.9911249128509961,
+      "nondecay_update_RMS": 0.00010251589448604401,
+      "context_RMS": 0.0079312389716506,
+      "gain": 0.2048904150724411
+    },
+    {
+      "step": 320,
+      "task_RMS": 2.477826137996276e-07,
+      "penalty_RMS": 2.3695809224129352e-07,
+      "cosine_from_squared_norms": -0.9609802912400676,
+      "nondecay_update_RMS": 0.000539073416687689,
+      "context_RMS": 0.03849882259964943,
+      "gain": 0.28071969747543335
+    },
+    {
+      "step": 360,
+      "task_RMS": 1.397751724308326e-06,
+      "penalty_RMS": 1.7361513460438669e-06,
+      "cosine_from_squared_norms": -0.9562018797006535,
+      "nondecay_update_RMS": 0.0007136604729639866,
+      "context_RMS": 0.15248939394950867,
+      "gain": 0.36502817273139954
+    },
+    {
+      "step": 400,
+      "task_RMS": 1.10632987375077e-05,
+      "penalty_RMS": 7.780455054753551e-06,
+      "cosine_from_squared_norms": -0.9885447724962015,
+      "nondecay_update_RMS": 0.001367055825542783,
+      "context_RMS": 0.41251683235168457,
+      "gain": 0.4551072418689728
+    },
+    {
+      "step": 440,
+      "task_RMS": 4.4299194409494874e-05,
+      "penalty_RMS": 3.219411690689028e-05,
+      "cosine_from_squared_norms": -0.983252519457972,
+      "nondecay_update_RMS": 0.0019587291875242207,
+      "context_RMS": 0.9170016646385193,
+      "gain": 0.5426949262619019
+    },
+    {
+      "step": 480,
+      "task_RMS": 4.750394552760682e-05,
+      "penalty_RMS": 6.465185989003847e-05,
+      "cosine_from_squared_norms": -0.9758475246881824,
+      "nondecay_update_RMS": 0.00051845611655134,
+      "context_RMS": 1.394944429397583,
+      "gain": 0.6207479238510132
+    },
+    {
+      "step": 520,
+      "task_RMS": 0.00013035126164762903,
+      "penalty_RMS": 7.296351182267703e-05,
+      "cosine_from_squared_norms": -0.9752439076066629,
+      "nondecay_update_RMS": 0.0007469185362657567,
+      "context_RMS": 1.3394745588302612,
+      "gain": 0.6769227981567383
+    },
+    {
+      "step": 560,
+      "task_RMS": 5.7833444715923016e-05,
+      "penalty_RMS": 5.486375045150711e-05,
+      "cosine_from_squared_norms": -0.9620185904292139,
+      "nondecay_update_RMS": 0.0006452804577604382,
+      "context_RMS": 1.1571681499481201,
+      "gain": 0.7160400748252869
+    },
+    {
+      "step": 600,
+      "task_RMS": 4.8032556375399586e-05,
+      "penalty_RMS": 4.898418779119278e-05,
+      "cosine_from_squared_norms": -0.8050996703518863,
+      "nondecay_update_RMS": 0.0009284917272310942,
+      "context_RMS": 1.0455853939056396,
+      "gain": 0.7384678721427917
+    },
+    {
+      "step": 640,
+      "task_RMS": 6.162842759563537e-05,
+      "penalty_RMS": 4.166001692191888e-05,
+      "cosine_from_squared_norms": -0.6929760707454555,
+      "nondecay_update_RMS": 0.0005227335204159432,
+      "context_RMS": 1.0185260772705078,
+      "gain": 0.7519968152046204
+    },
+    {
+      "step": 680,
+      "task_RMS": 0.00012562553373695774,
+      "penalty_RMS": 2.525424756457881e-05,
+      "cosine_from_squared_norms": 0.04196029834837992,
+      "nondecay_update_RMS": 0.00047101219710353313,
+      "context_RMS": 0.7314056754112244,
+      "gain": 0.7643924951553345
+    },
+    {
+      "step": 720,
+      "task_RMS": 4.232396913759416e-05,
+      "penalty_RMS": 2.473485399402672e-05,
+      "cosine_from_squared_norms": -0.3770813687840108,
+      "nondecay_update_RMS": 0.00027875548481383556,
+      "context_RMS": 0.720533013343811,
+      "gain": 0.7734383344650269
+    },
+    {
+      "step": 760,
+      "task_RMS": 5.678973547407281e-05,
+      "penalty_RMS": 1.5095374517745721e-05,
+      "cosine_from_squared_norms": 0.18983598616201583,
+      "nondecay_update_RMS": 0.0003228018831310939,
+      "context_RMS": 0.569031834602356,
+      "gain": 0.7798143029212952
+    },
+    {
+      "step": 800,
+      "task_RMS": 4.98738353383416e-05,
+      "penalty_RMS": 1.9723912413112113e-05,
+      "cosine_from_squared_norms": 0.0801493134102612,
+      "nondecay_update_RMS": 0.0001991336312583571,
+      "context_RMS": 0.6490541696548462,
+      "gain": 0.7852879166603088
+    },
+    {
+      "step": 840,
+      "task_RMS": 4.7418366766887e-05,
+      "penalty_RMS": 1.017703013343142e-05,
+      "cosine_from_squared_norms": -0.7839846019537416,
+      "nondecay_update_RMS": 0.0001179761781322529,
+      "context_RMS": 0.46226903796195984,
+      "gain": 0.789000391960144
+    },
+    {
+      "step": 880,
+      "task_RMS": 4.0621443950759065e-05,
+      "penalty_RMS": 1.2066185799244213e-05,
+      "cosine_from_squared_norms": -0.32707923952859785,
+      "nondecay_update_RMS": 0.00012028280107273144,
+      "context_RMS": 0.5107836723327637,
+      "gain": 0.7926355600357056
+    },
+    {
+      "step": 920,
+      "task_RMS": 5.6125071988589944e-05,
+      "penalty_RMS": 1.1268628148171096e-05,
+      "cosine_from_squared_norms": -0.4440068856015216,
+      "nondecay_update_RMS": 0.0001433868307810396,
+      "context_RMS": 0.4737764000892639,
+      "gain": 0.7954770922660828
+    },
+    {
+      "step": 960,
+      "task_RMS": 6.107667956679667e-05,
+      "penalty_RMS": 1.0853685393887537e-05,
+      "cosine_from_squared_norms": 0.38013044204973107,
+      "nondecay_update_RMS": 0.00014407025554585582,
+      "context_RMS": 0.47031018137931824,
+      "gain": 0.7975798845291138
+    },
+    {
+      "step": 1000,
+      "task_RMS": 7.831641210887941e-05,
+      "penalty_RMS": 9.950256761975886e-06,
+      "cosine_from_squared_norms": -0.019335944947565426,
+      "nondecay_update_RMS": 0.0001425725329957208,
+      "context_RMS": 0.40863531827926636,
+      "gain": 0.7994385361671448
+    },
+    {
+      "step": 1040,
+      "task_RMS": 6.649362206100415e-05,
+      "penalty_RMS": 6.9503256967222356e-06,
+      "cosine_from_squared_norms": -0.7811211617423157,
+      "nondecay_update_RMS": 7.923176740164542e-05,
+      "context_RMS": 0.35411542654037476,
+      "gain": 0.8010064959526062
+    },
+    {
+      "step": 1080,
+      "task_RMS": 6.514434433435408e-05,
+      "penalty_RMS": 1.1661046367596471e-05,
+      "cosine_from_squared_norms": -0.3781994090370809,
+      "nondecay_update_RMS": 0.00010347623875030926,
+      "context_RMS": 0.4231759309768677,
+      "gain": 0.8026907444000244
+    },
+    {
+      "step": 1120,
+      "task_RMS": 3.090095003968459e-05,
+      "penalty_RMS": 9.70612492821317e-06,
+      "cosine_from_squared_norms": -0.20727650996273975,
+      "nondecay_update_RMS": 9.950883788647094e-05,
+      "context_RMS": 0.38920730352401733,
+      "gain": 0.8040333390235901
+    },
+    {
+      "step": 1160,
+      "task_RMS": 4.861298003907496e-05,
+      "penalty_RMS": 5.603777916858064e-06,
+      "cosine_from_squared_norms": 0.5038815292715466,
+      "nondecay_update_RMS": 0.00014937698208664484,
+      "context_RMS": 0.2979974150657654,
+      "gain": 0.8052785396575928
+    },
+    {
+      "step": 1200,
+      "task_RMS": 5.204422830945042e-05,
+      "penalty_RMS": 5.996848891033258e-06,
+      "cosine_from_squared_norms": 0.08737093560112227,
+      "nondecay_update_RMS": 9.465099121550011e-05,
+      "context_RMS": 0.32072126865386963,
+      "gain": 0.8062689304351807
+    },
+    {
+      "step": 1240,
+      "task_RMS": 6.241048065676966e-05,
+      "penalty_RMS": 1.2432148958394131e-05,
+      "cosine_from_squared_norms": 0.2043178829021349,
+      "nondecay_update_RMS": 0.0001244404341946116,
+      "context_RMS": 0.40965738892555237,
+      "gain": 0.8075692653656006
+    },
+    {
+      "step": 1280,
+      "task_RMS": 2.9968524364287005e-05,
+      "penalty_RMS": 5.8113633946538315e-06,
+      "cosine_from_squared_norms": 0.7060104425615265,
+      "nondecay_update_RMS": 7.399712074158488e-05,
+      "context_RMS": 0.3161884844303131,
+      "gain": 0.8084665536880493
+    },
+    {
+      "step": 1320,
+      "task_RMS": 6.957134326087251e-05,
+      "penalty_RMS": 4.969770147328e-06,
+      "cosine_from_squared_norms": -0.45832375939706116,
+      "nondecay_update_RMS": 7.472298716697736e-05,
+      "context_RMS": 0.2556195557117462,
+      "gain": 0.8093632459640503
+    },
+    {
+      "step": 1360,
+      "task_RMS": 3.9962428144146466e-05,
+      "penalty_RMS": 4.50361779871296e-06,
+      "cosine_from_squared_norms": -0.7161249326900104,
+      "nondecay_update_RMS": 0.00012788140426486382,
+      "context_RMS": 0.2532767057418823,
+      "gain": 0.8101840615272522
+    },
+    {
+      "step": 1400,
+      "task_RMS": 8.17919702122228e-05,
+      "penalty_RMS": 4.3939102276896656e-06,
+      "cosine_from_squared_norms": -0.5407290394295531,
+      "nondecay_update_RMS": 5.764616736117741e-05,
+      "context_RMS": 0.2635270357131958,
+      "gain": 0.8111693263053894
+    },
+    {
+      "step": 1440,
+      "task_RMS": 4.5058478240961665e-05,
+      "penalty_RMS": 6.002671457261268e-06,
+      "cosine_from_squared_norms": 0.0015390972324888755,
+      "nondecay_update_RMS": 9.461718780404549e-05,
+      "context_RMS": 0.30808722972869873,
+      "gain": 0.8120870590209961
+    },
+    {
+      "step": 1480,
+      "task_RMS": 2.810659243842609e-05,
+      "penalty_RMS": 3.626105112289642e-06,
+      "cosine_from_squared_norms": 0.4738845020886986,
+      "nondecay_update_RMS": 4.655310055200472e-05,
+      "context_RMS": 0.2293078899383545,
+      "gain": 0.8128395080566406
+    },
+    {
+      "step": 1520,
+      "task_RMS": 4.890546289622709e-05,
+      "penalty_RMS": 4.394393158443595e-06,
+      "cosine_from_squared_norms": -0.0005856988185956368,
+      "nondecay_update_RMS": 0.00018529108264751592,
+      "context_RMS": 0.24541401863098145,
+      "gain": 0.8135279417037964
+    },
+    {
+      "step": 1560,
+      "task_RMS": 2.5680006699246665e-05,
+      "penalty_RMS": 6.490896111418415e-06,
+      "cosine_from_squared_norms": -0.4605338619987249,
+      "nondecay_update_RMS": 7.452378782271259e-05,
+      "context_RMS": 0.2970718741416931,
+      "gain": 0.8140828609466553
+    },
+    {
+      "step": 1600,
+      "task_RMS": 4.9445272563186354e-05,
+      "penalty_RMS": 3.3965828649859403e-06,
+      "cosine_from_squared_norms": -0.856090164548742,
+      "nondecay_update_RMS": 9.34281651775804e-05,
+      "context_RMS": 0.2057187259197235,
+      "gain": 0.8147215247154236
+    },
+    {
+      "step": 1640,
+      "task_RMS": 3.076728188820387e-05,
+      "penalty_RMS": 2.9392331641643885e-06,
+      "cosine_from_squared_norms": 0.7091147023275297,
+      "nondecay_update_RMS": 6.062783424059997e-05,
+      "context_RMS": 0.19508440792560577,
+      "gain": 0.8155462741851807
+    },
+    {
+      "step": 1680,
+      "task_RMS": 4.299372327314299e-05,
+      "penalty_RMS": 4.454996228751119e-06,
+      "cosine_from_squared_norms": -0.28222626248556854,
+      "nondecay_update_RMS": 9.484997030095594e-05,
+      "context_RMS": 0.23379625380039215,
+      "gain": 0.8161518573760986
+    },
+    {
+      "step": 1720,
+      "task_RMS": 4.628633820567393e-05,
+      "penalty_RMS": 2.5784816568479205e-06,
+      "cosine_from_squared_norms": 0.6775048300455607,
+      "nondecay_update_RMS": 4.981630072606638e-05,
+      "context_RMS": 0.1702839732170105,
+      "gain": 0.8165802955627441
+    },
+    {
+      "step": 1760,
+      "task_RMS": 2.432148150614778e-05,
+      "penalty_RMS": 2.560415975246465e-06,
+      "cosine_from_squared_norms": -0.6405787594211388,
+      "nondecay_update_RMS": 9.049390896874104e-05,
+      "context_RMS": 0.15859460830688477,
+      "gain": 0.8170881867408752
+    },
+    {
+      "step": 1800,
+      "task_RMS": 2.396738034777589e-05,
+      "penalty_RMS": 2.504546745821168e-06,
+      "cosine_from_squared_norms": -0.15613744099375565,
+      "nondecay_update_RMS": 0.00010470239515328213,
+      "context_RMS": 0.17267358303070068,
+      "gain": 0.8176265954971313
+    },
+    {
+      "step": 1840,
+      "task_RMS": 2.242217637811429e-05,
+      "penalty_RMS": 2.1579610551470464e-06,
+      "cosine_from_squared_norms": -0.01689528118642057,
+      "nondecay_update_RMS": 8.144102165231001e-05,
+      "context_RMS": 0.1520359218120575,
+      "gain": 0.818259060382843
+    }
+  ],
+  "interpretation": "Warmup400 task and penalty partly oppose; at1840 penalty smaller than task. Numerical real updates become substantial by400; not evidence of useful held-out messages. Do not change healthy running config. Final selected ON/OFF and calibration baseline remain needed."
+}

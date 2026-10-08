@@ -546,9 +546,9 @@
       "path": "docs/autonomous_mse_training.md",
       "origin": "generated actual report from receipts",
       "kind": "report",
-      "bytes": 2451,
-      "original_sha256": "02aacc71288908ed7ad0561b65c019b88586827a48583c79c7e0740e6b6b65b8",
-      "published_sha256": "02aacc71288908ed7ad0561b65c019b88586827a48583c79c7e0740e6b6b65b8",
+      "bytes": 3062,
+      "original_sha256": "b4bce5b08c00a2f6251eb98aae0a6f2168490396fe937a0a61a1750e85365b00",
+      "published_sha256": "b4bce5b08c00a2f6251eb98aae0a6f2168490396fe937a0a61a1750e85365b00",
       "sanitizations": {}
     },
     {
@@ -759,6 +759,15 @@
       "sanitizations": {}
     },
     {
+      "path": "results/autonomous_mse16/A100_warmup400_ready.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_warmup400_ready.json",
+      "kind": "actual_receipt",
+      "bytes": 279,
+      "original_sha256": "51f42d71c1c679674cecd2215880953fcf0b57d6b2202326aa040056ef389410",
+      "published_sha256": "51f42d71c1c679674cecd2215880953fcf0b57d6b2202326aa040056ef389410",
+      "sanitizations": {}
+    },
+    {
       "path": "results/autonomous_mse16/A_fixed_capture_receipt.json",
       "origin": "outputs/autonomous_mse16_20261008T175549Z/A_fixed_capture_receipt.json",
       "kind": "actual_receipt",
@@ -795,6 +804,15 @@
       "sanitizations": {}
     },
     {
+      "path": "results/autonomous_mse16/A_warm400_publication_receipt.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A_warm400_publication_receipt.json",
+      "kind": "actual_receipt",
+      "bytes": 1644,
+      "original_sha256": "a32417f57fa1c985ff10944784ed57df9778a6eb805b9b657ef6825e96309e74",
+      "published_sha256": "a32417f57fa1c985ff10944784ed57df9778a6eb805b9b657ef6825e96309e74",
+      "sanitizations": {}
+    },
+    {
       "path": "results/autonomous_mse16/B_prefix16_audit_exit.json",
       "origin": "outputs/autonomous_mse16_20261008T175549Z/B_prefix16_audit_exit.json",
       "kind": "actual_receipt",
@@ -819,6 +837,15 @@
       "bytes": 819,
       "original_sha256": "c4ba318ee52ce1db04d2d5e78ad9213a1ed4547428617048339a2c6dcb70a7f0",
       "published_sha256": "c4ba318ee52ce1db04d2d5e78ad9213a1ed4547428617048339a2c6dcb70a7f0",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/TRAIN_message_gradient_geometry.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/TRAIN_message_gradient_geometry.json",
+      "kind": "actual_receipt",
+      "bytes": 15308,
+      "original_sha256": "febb137221e65618c07304c28f6048f858ee8f5f0c26225ea436b716977106e1",
+      "published_sha256": "febb137221e65618c07304c28f6048f858ee8f5f0c26225ea436b716977106e1",
       "sanitizations": {}
     },
     {
@@ -3419,6 +3446,15 @@
       "bytes": 5016,
       "original_sha256": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b",
       "published_sha256": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/audit_public_complete_step_v1.py",
+      "origin": "work/audit_public_complete_step_v1.py",
+      "kind": "source",
+      "bytes": 3893,
+      "original_sha256": "a266404127e2c6de7a0d4bb98e02c6141bf4f387e3e4f1e2db57557cebfbb215",
+      "published_sha256": "a266404127e2c6de7a0d4bb98e02c6141bf4f387e3e4f1e2db57557cebfbb215",
       "sanitizations": {}
     },
     {
@@ -9835,6 +9871,51 @@
       "bytes": 3421,
       "original_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
       "published_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/audit_official.py",
+      "origin": "work/official_mse_posttrain_tools_v1/audit_official.py",
+      "kind": "source",
+      "bytes": 5140,
+      "original_sha256": "89ac9802536a1da2829e51196576624f377d4289d2464fecc34a9772a7ead022",
+      "published_sha256": "89ac9802536a1da2829e51196576624f377d4289d2464fecc34a9772a7ead022",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/download_and_audit_final_v1.py",
+      "origin": "work/official_mse_posttrain_tools_v1/download_and_audit_final_v1.py",
+      "kind": "source",
+      "bytes": 2617,
+      "original_sha256": "844625dc946ac7c12469a224931442c48b3988a2f8ccfa3c5fe3e57bf1eb331b",
+      "published_sha256": "844625dc946ac7c12469a224931442c48b3988a2f8ccfa3c5fe3e57bf1eb331b",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/freeze_posttrain_stage_v1.py",
+      "origin": "work/official_mse_posttrain_tools_v1/freeze_posttrain_stage_v1.py",
+      "kind": "source",
+      "bytes": 3923,
+      "original_sha256": "26663640de28d6f5ec659da8045532bc75b734c8b63b4d16796c3b693157219e",
+      "published_sha256": "26663640de28d6f5ec659da8045532bc75b734c8b63b4d16796c3b693157219e",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/infer_official.py",
+      "origin": "work/official_mse_posttrain_tools_v1/infer_official.py",
+      "kind": "source",
+      "bytes": 4402,
+      "original_sha256": "74db84544c5027c4ee84e98923c8bd48d5271251e66cb283a44fb2cc3d56302d",
+      "published_sha256": "74db84544c5027c4ee84e98923c8bd48d5271251e66cb283a44fb2cc3d56302d",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/score_official.py",
+      "origin": "work/official_mse_posttrain_tools_v1/score_official.py",
+      "kind": "source",
+      "bytes": 2812,
+      "original_sha256": "f7e5d0226bf3455a6ea2f50b0e91b500c1804201dd4dba1214863893d785393b",
+      "published_sha256": "f7e5d0226bf3455a6ea2f50b0e91b500c1804201dd4dba1214863893d785393b",
       "sanitizations": {}
     },
     {
@@ -31684,5 +31765,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Real TRAIN prefix16 complete + public original-state preservation + other-node Adam/RNG/order CPU audit passed; original MSE-only100 epoch continuation started from17 with4000 total budget. No new VAL/TEST final scores."
+  "latest_source_update": "100 epoch MSE-only continuation running; complete warmup400 state publicly preserved with exact two-part hashes; posttraining tools prepared but not executed, no new final scores."
 }

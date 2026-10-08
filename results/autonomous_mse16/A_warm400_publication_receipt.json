@@ -1,0 +1,38 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 1573,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_real_warm400_plan.json",
+    "--receipt",
+    "/data/coding/publish_real_warm400_receipt.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "real-TRAIN-complete-resume-step400.pt.part00",
+      "bytes": 1600000000,
+      "sha256": "51c14c807d7186c705373d3324efe301ae8ea3135a231c34a8462c14adae7ad2",
+      "source_sha256": "885e7672fde2092b0f4e83cf65b77ca312066b6c3422d3440fd4a9d7e93552b2",
+      "source_offset": 0,
+      "id": 622723345,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN-complete-resume-step400.pt.part00"
+    },
+    {
+      "name": "real-TRAIN-complete-resume-step400.pt.part01",
+      "bytes": 1360778223,
+      "sha256": "691811534b186f7122f958f66e49653d6634bfeffcb4ea63649954ea4c2f9f0b",
+      "source_sha256": "885e7672fde2092b0f4e83cf65b77ca312066b6c3422d3440fd4a9d7e93552b2",
+      "source_offset": 1600000000,
+      "id": 622728575,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN-complete-resume-step400.pt.part01"
+    }
+  ],
+  "actual_UTC": "2026-10-08T19:04:32.362390+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

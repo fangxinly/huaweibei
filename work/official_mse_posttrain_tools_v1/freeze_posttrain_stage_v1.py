@@ -1,0 +1,29 @@
+"""Create new stage plan only from actual completed preserved original receipts."""
+import argparse,ast,hashlib,json,shutil,zipfile
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument('--stage',choices=['audit','infer','score'],required=True);p.add_argument('--evidence',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--stamp',required=True);a=p.parse_args()
+base=Path(__file__).resolve().parents[2];bundle=base/'work/autonomous_mse100_resume_qualified_20261008T182923Z';tools=Path(__file__).resolve().parent
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+read=lambda n:json.loads((a.evidence/n).read_text(encoding='utf8'))
+cap=read('A100_capture_receipt.json');exit=read('A100_natural_exit.json');pub=read('A100_publication_receipt.json');client=read('A100_publication_client_exit.json');tr=read('A100_training_result.json');members=read('A100_member_SHA.json')
+assert cap['status']=='ACTUAL_RESUMED_TRAIN100_COMPLETE' and cap['natural_exit']==exit['natural_exit']==client['natural_exit']==0 and pub['status']=='REMOTE_RELEASE_ALL_DIGESTS_VERIFIED' and any(r['source_sha256']==cap['archive_SHA'] for r in pub['assets'])
+assert tr['metadata']['steps']==4000 and tr['metadata']['prefix_updates_counted_in4000'] and tr['checkpoint_SHA']==members['out/complete_final_and_selected.pt']
+a.out.mkdir(exist_ok=False)
+for f in bundle.iterdir():
+ if f.suffix in ('.py','.npy'):shutil.copy2(f,a.out/f.name)
+for f in tools.glob('*.py'):
+ if f.name!=Path(__file__).name:shutil.copy2(f,a.out/f.name)
+plan=json.loads((bundle/'qualified_resume_plan.json').read_text(encoding='utf8'));old=json.loads((base/'work/official_anchored_upgrade_20261008T053429Z/official_score_protocol.json').read_text(encoding='utf8'))
+plan.update(status='ACTUAL_OFFICIAL_MSE_'+a.stage.upper()+'_STAGE_FROZEN',actualclock_stage_freeze_UTC=a.stamp,training_original_reference=dict(archive_SHA=cap['archive_SHA'],member_SHA=members,training_plan_SHA=tr['metadata']['plan_SHA'],public_release=pub['release_url']),selected_state_SHA=tr['metadata']['selected_state_SHA'],official_role_IDs=old['official_role_IDs'],fixed_CaReFlow_five=old['fixed_CaReFlow_five'],CaReFlow_baseline_original_reference=old['CaReFlow_baseline_original_reference'])
+if a.stage in ('infer','score'):
+ audit=read('B100_audit_result.json');ae=read('B100_audit_exit.json');assert ae['natural_exit']==0 and audit['checkpoint_SHA']==tr['checkpoint_SHA'] and audit['selected_state_SHA']==tr['metadata']['selected_state_SHA'] and audit['all_Adam_steps']==4000
+ plan['training_Release_B_CPU_gate']=dict(original=cap,publication=pub,B_original_CPU=audit,B_natural_exit=ae)
+if a.stage=='score':
+ inference=read('A100_inference_result.json');ic=read('A100_inference_capture.json');ie=read('A100_inference_exit.json');ip=read('A100_prediction_publication.json');predaudit=read('B100_prediction_byte_audit.json');assert ic['natural_exit']==ie['natural_exit']==0 and inference['prediction_SHA']==predaudit['prediction_SHA'] and predaudit['SHA_CRC_unique_member_SHA_passed'] and ip['status']=='REMOTE_RELEASE_ALL_DIGESTS_VERIFIED'
+ plan.update(prediction_Release_B_CPU_gate=dict(capture=ic,publication=ip,B_byte_audit=predaudit),prediction_SHA=inference['prediction_SHA'],score_once_token='/data/coding/official_mse100_score_once_'+tr['metadata']['selected_state_SHA'])
+plan['source_sha256']={f.name:sha(f) for f in a.out.iterdir() if f.suffix in ('.py','.npy')};path=a.out/('official_'+a.stage+'_protocol.json');path.write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf8')
+for f in a.out.glob('*.py'):ast.parse(f.read_text(encoding='utf8'))
+with zipfile.ZipFile(a.out/'stage_source.zip','x',zipfile.ZIP_DEFLATED) as z:
+ for f in a.out.iterdir():
+  if f.suffix!='.zip':z.write(f,f.name)
+print(json.dumps(dict(stage=a.stage,plan_SHA=sha(path),bundle_SHA=sha(a.out/'stage_source.zip'))))
