@@ -1,0 +1,65 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 1586,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_real_TRAIN100_plan.json",
+    "--receipt",
+    "/data/coding/publish_real_TRAIN100_receipt.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "real-TRAIN100-complete-original.zip.part00",
+      "bytes": 1600000000,
+      "sha256": "4d786976e9c2e0adc319372c021d0c6d30164d61686b315e566c4b67b83b08de",
+      "source_sha256": "27c9dd730f8d774ecd5163a11bdb377ef6676a0f6f8c7a9a6923262379a053b1",
+      "source_offset": 0,
+      "id": 622821711,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN100-complete-original.zip.part00"
+    },
+    {
+      "name": "real-TRAIN100-complete-original.zip.part01",
+      "bytes": 1600000000,
+      "sha256": "4622e25a212a65f15a245d6bd7c1c5189aa65796802a68dc9d8e97a1c364aa3d",
+      "source_sha256": "27c9dd730f8d774ecd5163a11bdb377ef6676a0f6f8c7a9a6923262379a053b1",
+      "source_offset": 1600000000,
+      "id": 622827931,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN100-complete-original.zip.part01"
+    },
+    {
+      "name": "real-TRAIN100-complete-original.zip.part02",
+      "bytes": 343666247,
+      "sha256": "ccac65f8f9281de2d74bd555da5038570270a2b95fec4a5b4a4320b815a388f5",
+      "source_sha256": "27c9dd730f8d774ecd5163a11bdb377ef6676a0f6f8c7a9a6923262379a053b1",
+      "source_offset": 3200000000,
+      "id": 622832444,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN100-complete-original.zip.part02"
+    },
+    {
+      "name": "real-TRAIN400-public-preservation-and-B-CPU-proof.zip",
+      "bytes": 7489,
+      "sha256": "621968e48c19d5c3a060be5d13de100e4dc115679ba67f87c06a3c4fd1eb42f7",
+      "source_sha256": "621968e48c19d5c3a060be5d13de100e4dc115679ba67f87c06a3c4fd1eb42f7",
+      "source_offset": 0,
+      "id": 622833620,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN400-public-preservation-and-B-CPU-proof.zip"
+    },
+    {
+      "name": "posttrain-native-CPU-contract-original.zip",
+      "bytes": 2051,
+      "sha256": "7ceada3e9c6c49059bf9cbda41368b246fd8f9792ae4ab8d7512b23a94c0f2f6",
+      "source_sha256": "7ceada3e9c6c49059bf9cbda41368b246fd8f9792ae4ab8d7512b23a94c0f2f6",
+      "source_offset": 0,
+      "id": 622833683,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/posttrain-native-CPU-contract-original.zip"
+    }
+  ],
+  "actual_UTC": "2026-10-08T19:48:44.326325+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

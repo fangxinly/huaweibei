@@ -1,0 +1,11 @@
+{
+  "status": "ACTUAL_POSTTRAIN_AUDIT_FAILED",
+  "actual_UTC": "2026-10-08T19:51:30.826583+00:00",
+  "child_PID": 1570,
+  "natural_exit": 1,
+  "archive": "/data/coding/B_official_mse100_audit_actual_20261008T194855Z/complete_small_original.zip",
+  "archive_SHA": "acdccb59d8e9779ddafaaf93688fa56832be937338951b16ee263b85d4170101",
+  "archive_bytes": 353296,
+  "ZIP_CRC_unique_all_members": true,
+  "small_capture_only_large_original_referenced": true
+}

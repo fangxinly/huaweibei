@@ -34,6 +34,8 @@ def run(a):
     if a.stage == 'audit':
         assert a.publication and a.capture
         cmd += ['--publication', str(a.publication), '--capture', str(a.capture)]
+        if a.received_archive:
+            cmd += ['--received-archive', str(a.received_archive)]
     elif a.stage == 'infer':
         assert a.input_root
         cmd += ['--input-root', str(a.input_root)]
@@ -55,6 +57,7 @@ def run(a):
         # Full original archive + extracted states remain on B. The proof is small.
         candidates = [f for f in a.root.rglob('*') if f.is_file() and not f.is_relative_to(a.root / 'out')]
         candidates += list((a.root / 'out/cpu_result').glob('*.json'))
+        candidates += list((a.root / 'out').glob('transport_receipt.json'))
         refs = {'training': p['training_original_reference'], 'B_original_archive': str(a.root / 'out/A_complete_original.zip'), 'B_extracted_original': str(a.root / 'out/original')}
         write(a.root / 'large_original_references.json', refs)
         candidates.append(a.root / 'large_original_references.json')
@@ -86,7 +89,7 @@ if __name__ == '__main__':
     parser.add_argument('--node', choices=['A', 'B'], required=True)
     for n in ('plan', 'assets', 'root'):
         parser.add_argument('--' + n, type=Path, required=True)
-    for n in ('input-root', 'prediction', 'publication', 'capture'):
+    for n in ('input-root', 'prediction', 'publication', 'capture', 'received-archive'):
         parser.add_argument('--' + n, type=Path)
     parser.add_argument('--plan-sha', required=True)
     run(parser.parse_args())

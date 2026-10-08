@@ -544,11 +544,11 @@
     },
     {
       "path": "docs/autonomous_mse_training.md",
-      "origin": "github_upload_20261008T133346Z/docs/autonomous_mse_training.md",
-      "kind": "research_note",
-      "bytes": 4075,
-      "original_sha256": "14a8fd00b85b2ebff3611a9d42afe2fe6b56a045284d50b9766858cb3461a1fa",
-      "published_sha256": "14a8fd00b85b2ebff3611a9d42afe2fe6b56a045284d50b9766858cb3461a1fa",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/TRAIN100_completion_and_transfer_recovery.md",
+      "kind": "actual_result",
+      "bytes": 2030,
+      "original_sha256": "b3a91cc13b417ed151ac90b03667ac73fcab572a98f74fce30de92c7933e8768",
+      "published_sha256": "b3a91cc13b417ed151ac90b03667ac73fcab572a98f74fce30de92c7933e8768",
       "sanitizations": {}
     },
     {
@@ -738,6 +738,51 @@
       "bytes": 14789,
       "original_sha256": "c4a936053692878c6869b1b18a78df624c91b11df0cedb32988562becfced3e2",
       "published_sha256": "c4a936053692878c6869b1b18a78df624c91b11df0cedb32988562becfced3e2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse100/A100_D_full_original_verification.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_D_full_original_verification.json",
+      "kind": "actual_result",
+      "bytes": 1046,
+      "original_sha256": "f6521e4e5eba480a15142af8f2adf75ec7b9fbd853580a446cc93dcb001650f3",
+      "published_sha256": "f6521e4e5eba480a15142af8f2adf75ec7b9fbd853580a446cc93dcb001650f3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse100/A100_publication_receipt.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_publication_receipt.json",
+      "kind": "actual_result",
+      "bytes": 3069,
+      "original_sha256": "32574ac3cf2abeebd51c97c7d2da2b01deab7e2bd218b3980049aad5137215bb",
+      "published_sha256": "32574ac3cf2abeebd51c97c7d2da2b01deab7e2bd218b3980049aad5137215bb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse100/B100_first_audit_capture.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B100_first_audit_capture.json",
+      "kind": "actual_result",
+      "bytes": 453,
+      "original_sha256": "78e0f98cca979e33c2f8841a3b1eb107d5b85f00b74fb31d1666cdce5ae0388c",
+      "published_sha256": "78e0f98cca979e33c2f8841a3b1eb107d5b85f00b74fb31d1666cdce5ae0388c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse100/B100_first_audit_exit.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B100_first_audit_exit.json",
+      "kind": "actual_result",
+      "bytes": 865,
+      "original_sha256": "26a9eef5dd16e8f5be64aacb902bf8a439825e34de317575cea62d213bb7c987",
+      "published_sha256": "26a9eef5dd16e8f5be64aacb902bf8a439825e34de317575cea62d213bb7c987",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse100/TRAIN100_actual_diagnosis.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/TRAIN100_actual_diagnosis.json",
+      "kind": "actual_result",
+      "bytes": 4912,
+      "original_sha256": "6c14148b2528b5b362398d9337c1fcc1f0dd54f4fd78a177224c10886d5f55d0",
+      "published_sha256": "6c14148b2528b5b362398d9337c1fcc1f0dd54f4fd78a177224c10886d5f55d0",
       "sanitizations": {}
     },
     {
@@ -9949,18 +9994,18 @@
       "path": "work/official_mse_posttrain_tools_v1/download_and_audit_final_v1.py",
       "origin": "work/official_mse_posttrain_tools_v1/download_and_audit_final_v1.py",
       "kind": "source",
-      "bytes": 2522,
-      "original_sha256": "9ab1a61e7024b51d8a320c8155779886c3aabcc5780ee59adb1260e2f1d5c3c0",
-      "published_sha256": "9ab1a61e7024b51d8a320c8155779886c3aabcc5780ee59adb1260e2f1d5c3c0",
+      "bytes": 3244,
+      "original_sha256": "1a0f4d2fcbe4a0bd3036588f9c5bae21a3e1835961224cf0214b4ccb3e2c947e",
+      "published_sha256": "1a0f4d2fcbe4a0bd3036588f9c5bae21a3e1835961224cf0214b4ccb3e2c947e",
       "sanitizations": {}
     },
     {
       "path": "work/official_mse_posttrain_tools_v1/freeze_posttrain_stage_v1.py",
       "origin": "work/official_mse_posttrain_tools_v1/freeze_posttrain_stage_v1.py",
       "kind": "source",
-      "bytes": 4562,
-      "original_sha256": "ec4279ed7d24996e89dff0eac899e964e31760394b62cdba6a9ca02bd9d8ebeb",
-      "published_sha256": "ec4279ed7d24996e89dff0eac899e964e31760394b62cdba6a9ca02bd9d8ebeb",
+      "bytes": 5262,
+      "original_sha256": "4d929013783265e5ffb6ad565ff6725f2289e92e21d01f43816130a7d6bd4d2c",
+      "published_sha256": "4d929013783265e5ffb6ad565ff6725f2289e92e21d01f43816130a7d6bd4d2c",
       "sanitizations": {}
     },
     {
@@ -9985,9 +10030,9 @@
       "path": "work/official_mse_posttrain_tools_v1/run_posttrain_capture_v1.py",
       "origin": "work/official_mse_posttrain_tools_v1/run_posttrain_capture_v1.py",
       "kind": "source",
-      "bytes": 5997,
-      "original_sha256": "2e98f653ecffa1108d8006ae41b9320ffdaddc55f396e78cf1a88c81322ca360",
-      "published_sha256": "2e98f653ecffa1108d8006ae41b9320ffdaddc55f396e78cf1a88c81322ca360",
+      "bytes": 6191,
+      "original_sha256": "c96d72ad1160c33c6757d20004fa475a9672e45b9ffcca148f5e7425ebea5216",
+      "published_sha256": "c96d72ad1160c33c6757d20004fa475a9672e45b9ffcca148f5e7425ebea5216",
       "sanitizations": {}
     },
     {
@@ -31864,5 +31909,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Genuine official MSE100 child natural0; best65; full capture in progress; no new final VAL/TEST five scores."
+  "latest_source_update": "TRAIN100 actual complete / D and Release originals verified; first B public request failed before bytes; D-SFTP recovery; final VAL TEST not yet scored"
 }

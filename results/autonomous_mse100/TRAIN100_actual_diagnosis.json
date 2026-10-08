@@ -1,0 +1,130 @@
+{
+  "status": "ACTUAL_TRAIN100_DESCRIPTION_NOT_CAUSAL_ABLATION",
+  "training_source_SHA": "2c6f942bd67c3632af662dcafa239e1ac162a96a2cb6a5e123f73e54230a8a69",
+  "history_SHA": "b69466f4927587b960d4b1ab40502afe5a0a7c5415ffeb1a72003aa886ad369e",
+  "records": 100,
+  "selected_epoch": 65,
+  "selected_VAL_batch_MSE": 0.70459340474218,
+  "last_VAL_batch_MSE": 0.720037877397984,
+  "epoch65_TRAIN_objective": 0.01988229830749333,
+  "last_TRAIN_objective": 0.014699334953911602,
+  "flow_and_message_not_permanently_inactive": true,
+  "examples": [
+    {
+      "step": 40,
+      "gain_tanh": 0.0010063886875286698,
+      "context_RMS": 2.8751694358675195e-09,
+      "flow_minus_base_RMS": 7.807934707670938e-06,
+      "task_grad_RMS": {
+        "gain": 8.004414667084347e-06,
+        "forward_fields": 3.754116124067053e-09,
+        "reader": 9.937447180057478e-11,
+        "role_head": 3.2466770029640423e-07,
+        "message": 3.6658922169322576e-13
+      },
+      "nondecay_update_RMS": {
+        "text_encoder": 3.282078807769325e-07,
+        "other_encoder_decoder": 3.92944341988048e-07,
+        "gain": 0.0001129726879298687,
+        "forward_fields": 5.937337405486116e-08,
+        "reader": 1.0390378270336377e-09,
+        "role_head": 3.426817194473039e-08,
+        "message": 7.639770877194714e-10
+      }
+    },
+    {
+      "step": 400,
+      "gain_tanh": 0.4551072418689728,
+      "context_RMS": 0.41251683235168457,
+      "flow_minus_base_RMS": 0.02910429611802101,
+      "task_grad_RMS": {
+        "gain": 0.060334641486406326,
+        "forward_fields": 0.00014073305318359984,
+        "reader": 6.054296677993675e-05,
+        "role_head": 0.0008522229502431584,
+        "message": 1.10632987375077e-05
+      },
+      "nondecay_update_RMS": {
+        "text_encoder": 8.169162541559992e-06,
+        "other_encoder_decoder": 1.8600529219118965e-05,
+        "gain": 0.003012537956237793,
+        "forward_fields": 3.185055027612049e-05,
+        "reader": 1.1400391509332635e-05,
+        "role_head": 2.391250973512844e-05,
+        "message": 0.001367055825542783
+      }
+    },
+    {
+      "step": 1840,
+      "gain_tanh": 0.818259060382843,
+      "context_RMS": 0.1520359218120575,
+      "flow_minus_base_RMS": 0.5739202499389648,
+      "task_grad_RMS": {
+        "gain": 0.012603714130818844,
+        "forward_fields": 0.00011002416272146841,
+        "reader": 7.515993555381716e-05,
+        "role_head": 0.00014432535600081156,
+        "message": 2.242217637811429e-05
+      },
+      "nondecay_update_RMS": {
+        "text_encoder": 8.262096027217916e-07,
+        "other_encoder_decoder": 6.419579782129365e-07,
+        "gain": 1.8596649169921875e-05,
+        "forward_fields": 6.635278469404704e-07,
+        "reader": 8.077877561460593e-07,
+        "role_head": 5.187892769258842e-07,
+        "message": 8.144102165231001e-05
+      }
+    },
+    {
+      "step": 2600,
+      "gain_tanh": 0.8241806030273438,
+      "context_RMS": 0.09810566902160645,
+      "flow_minus_base_RMS": 0.5073148012161255,
+      "task_grad_RMS": {
+        "gain": 0.0013459643814712763,
+        "forward_fields": 3.293856562475693e-05,
+        "reader": 3.926662811609453e-05,
+        "role_head": 3.809394794217787e-05,
+        "message": 1.6872453997312543e-05
+      },
+      "nondecay_update_RMS": {
+        "text_encoder": 3.8940912505856163e-07,
+        "other_encoder_decoder": 3.3319888389307185e-07,
+        "gain": 4.0531158447265625e-06,
+        "forward_fields": 1.9412827857054687e-07,
+        "reader": 4.912635784691287e-07,
+        "role_head": 2.3249763243181513e-07,
+        "message": 2.4031822420348312e-05
+      }
+    },
+    {
+      "step": 4000,
+      "gain_tanh": 0.8277721405029297,
+      "context_RMS": 0.11548654735088348,
+      "flow_minus_base_RMS": 0.5552434325218201,
+      "task_grad_RMS": {
+        "gain": 0.0025815507397055626,
+        "forward_fields": 2.0322575997901884e-05,
+        "reader": 3.196919372578213e-05,
+        "role_head": 2.972153265183245e-05,
+        "message": 1.1126538526651578e-05
+      },
+      "nondecay_update_RMS": {
+        "text_encoder": 1.8292777552290142e-10,
+        "other_encoder_decoder": 2.7183793153702074e-10,
+        "gain": 0.0,
+        "forward_fields": 3.002491913315739e-10,
+        "reader": 2.440485300020946e-10,
+        "role_head": 3.461137184696795e-10,
+        "message": 2.4323421383667637e-08
+      }
+    }
+  ],
+  "next_decision_basis": "TRAIN/VAL only; official TEST all-five reporting does not select structure",
+  "limits": [
+    "TRAIN objective recorded during optimization includes context penalty, not endpoint task MSE",
+    "Full supervised TRAIN plus small repeated VAL means overfit warning, not proof of exact causal mechanism",
+    "Nonzero task gradients do not prove useful donor information"
+  ]
+}

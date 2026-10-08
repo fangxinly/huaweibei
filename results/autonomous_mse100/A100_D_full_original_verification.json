@@ -1,0 +1,22 @@
+{
+  "status": "NEW_D_COMPLETE_ORIGINAL_SHA_CRC_UNIQUE_ALL_MEMBERS_PASSED",
+  "actual_UTC": "2026-10-08T19:45:58.932263+00:00",
+  "pid": 28244,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "work/verify_new_final_D_archive_v1.py",
+    "--capture",
+    "outputs/autonomous_mse16_20261008T175549Z/A100_capture_receipt.json",
+    "--archive",
+    "D:/CodexBackups/selective_flow_20261003_1105/autonomous_mse100_complete_actual_20261008T194209Z/A_complete_original.zip",
+    "--out",
+    "outputs/autonomous_mse16_20261008T175549Z/A100_D_full_original_verification.json"
+  ],
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\autonomous_mse100_complete_actual_20261008T194209Z\\A_complete_original.zip",
+  "archive_SHA": "27c9dd730f8d774ecd5163a11bdb377ef6676a0f6f8c7a9a6923262379a053b1",
+  "archive_bytes": 3543666247,
+  "member_count": 170,
+  "free_after": 2396430336,
+  "large_original": true,
+  "old_files_modified_or_deleted": false
+}
