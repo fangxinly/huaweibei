@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-10-05T05:17:20.679691+00:00",
+  "seed": 91814,
+  "epochs": 100,
+  "updates": 4000,
+  "shared_fixed_epochs": 10,
+  "modes": [
+    "none",
+    "fixed",
+    "predicted"
+  ],
+  "estimand": "Feedback strategy after identical ten fixed-feedback epochs; none is not zero-feedback from initialization",
+  "expected_initial_sha": "24ad461867a3e254345dcd9f9e34e9ab443b3bde1cf42701f090ce19c0eb9ddf",
+  "expected_orders_sha": "f259ff21f429d58ca0387ca89c05b1a2d052d7eb4844a4490d8da73175b30b80",
+  "mechanism_audit_sha256": "370f9a03b92dbdd8d7bcb63a86596c3f8ef9513f3d3dc2f5dc5486668d429862",
+  "reference_paths_train": 10,
+  "reference_paths_eval": 1,
+  "tau": 0.05,
+  "test_accessed": false,
+  "measured_update_seconds_max": 0.7119820480545361,
+  "estimate_update_seconds": 2847.9281922181444,
+  "reserve_dev_checkpoint_setup_seconds": 600,
+  "reserve_download_independent_cpu_seconds": 300,
+  "latest_launch_utc": "2026-10-05T05:22:00+00:00",
+  "deadline_preservation_utc": "2026-10-05T06:30:00+00:00",
+  "permanent_weights_directory": "D:/CodexBackups/selective_flow_20261003_1105/counterfactual_v5_completed_20261005",
+  "drive_D_free_bytes": 33785393152,
+  "no_stopping_healthy_training": true,
+  "selection": "minimum of100 official229 dev author batch128 MSE; effective mode at selected epoch retained",
+  "limits": "Exploratory one seed; no TEST structure selection/stability/SOTA/semantic truth. No renewal or old deletion."
+}

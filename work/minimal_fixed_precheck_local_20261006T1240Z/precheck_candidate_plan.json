@@ -1,0 +1,40 @@
+{
+  "status": "LOCAL_UNEXECUTED_GPU_PRECHECK_SOURCE_CANDIDATE_NOT_AUTHORIZATION",
+  "created_actual_utc": "2026-10-06T12:51:30.577629+00:00",
+  "runtime_plan_sha256": "e4d0c71a73186ae9073dc0d88ccdd4fd753a4d81a967eb458a52a0669437fa63",
+  "source_sha256": {
+    "encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "minimal_fixed_runtime_v1.py": "e86ac4e2f8243fe1e2ef356af650062c318e75781b4c0722a1222afa7817e84f",
+    "precheck_gates_v1.py": "b74b60e1c6d13298c5f7c23da93ef19e3ee5f62041ac80eab252a305bdade2be",
+    "precheck_minimal_fixed_v1.py": "c37bb00b11b389689f752803a7abce75413a8f198ad2c1dd82cac6a18ede6b0e",
+    "role_guard_v1.py": "e1d4c0e41121ccdb1a05b66bd81be81c419311ab68abba70737b0d9ad38a1145"
+  },
+  "scope": "New full-state fixed reference constructor/two FIT steps/tail no step/INNER dummy-label disk replay only; no formal100 or OUTER.",
+  "actual_GPU_execution_allowed": false,
+  "actual_execution_gate_passed": false,
+  "new_scores": false,
+  "actual_Torch_or_CUDA_imported": false,
+  "actual_gradient_or_replay_verified": false,
+  "gate_proposal": "Trusted human/provider provenance outside JSON, confirmed lease >20min precheck+2h save reserve, fresh <=5min UUID/emptycompute/fullargv/source/assets/completion/space; remote >=4GiB and D>=6GiB. Current estimate already passed and no confirmed future lease.",
+  "budget_proposal": {
+    "torch_allocator_peak_max_bytes": 6442450944,
+    "precheck_max_seconds": 1200,
+    "saving_reserve_seconds": 7200
+  },
+  "objective": "MSE+.02FM+.01cycle+.05unimodal+.01variance; no new counterfactual decoder branch.",
+  "optimizer_updates": 2,
+  "tail_optimizer_updates": 0,
+  "original_INNER_rows": 153,
+  "full_state_initial": "clean_initial_full.pt before any updates, Torch/CUDA plus Python/NumPy RNG saved separately; not inherited by formal runner.",
+  "full_state_replay": "after_two_steps_full.pt every parameter/buffer; own file SHA+tensor SHA+source/fold/seed/scope/steps+exact FIT buffers then strict fresh-instance load and original INNER <=1e-6.",
+  "gradient_probes": "Actual primary and separate weighted auxiliary graph probes; backward field None for primary/nonNone for auxiliary; task decoder nonNone for primary/None for auxiliary. Final aggregate all retained finite nonNone gradients, zeros reported honestly.",
+  "limitations": [
+    "No actual asset/runtime/GPU/gradient/mask/time/budget/reload evidence.",
+    "No model input HVP or full encoder second derivative implemented; control solver needs separate actual audit.",
+    "No process-wrapper natural-exit source, independent CPU checkpoint/array auditor, capture coverage, actual D/other-node preservation, formal100 or OUTER completion authorization yet.",
+    "JSON field validation is not provenance verification or tool/human permission."
+  ]
+}

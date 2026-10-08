@@ -1,0 +1,32 @@
+{
+  "prepared_at": "2026-10-05T02:39:12.816760+00:00",
+  "status": "SOURCE_PREPARED_AST_ONLY_GPU_CHECK_AND_MATCHED_INITIAL_SHA_REQUIRED",
+  "question": "Can zero-initialized trainable gates avoid premature conditional perturbations and support useful ordinary state/task conditioning?",
+  "seed": 91812,
+  "epochs": 100,
+  "train_samples": 1281,
+  "dev_samples": 229,
+  "TEST_forbidden": true,
+  "modes": [
+    "none",
+    "state",
+    "task"
+  ],
+  "same_constructed_parameters": true,
+  "optimizer": "same author groups lr1e-5 warmup10%",
+  "batch_order": "100 precomputed 1280 sample orders, 40updates/epoch, same in three modes",
+  "weights": "fresh encoder pretrained only, no old trained checkpoint initialization",
+  "gate": "three signed tanh scalar gates, initial0, may suppress or reverse conditioning; no independent semantic guarantee",
+  "check": "initial same-model predictions equal across modes at zero gates; gate gradient first backward; feedback gradient after warmup; real three updates; masking/batch checks; three initial state SHAs and 100order arrays exactly equal",
+  "limitations": [
+    "Single new exploratory seed with mode/node binding; not a five-seed confirmation.",
+    "Difference from v2 confounds gate mechanism and seed; compare only this new matched none student for main interpretation.",
+    "Global scalar gate is an optimization control, not sample-specific shared/complementary/conflict classification."
+  ],
+  "source_sha256": {
+    "conditional_flow_model.py": "bbbfbe8cbbdfd5031170ab4dcced2e323bf2b923241286bf9109ce6a748fa1ec",
+    "encoder_adapter.py": "cf0770e6ac22d1b45f0f6311c9d2d1e9a9cd38043cdcfa64ecc6fb319e6821c6",
+    "legacy_flow_model.py": "9f59a3064dbd09734105bb6dc3ac42c4c37b6894cedd30c50186e2d8ef1c8814",
+    "run_inflow_conditions_v3.py": "36bf6bfbf21eff0f9748d944357acef9df340b7022994447835b50a9f97e8f54"
+  }
+}

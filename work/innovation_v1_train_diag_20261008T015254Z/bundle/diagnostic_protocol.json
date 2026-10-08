@@ -1,0 +1,56 @@
+{
+  "GPU_UUID": {
+    "A": "GPU-4e64fc9f-5481-c32d-3fd4-e16a3a9a7198",
+    "B": "GPU-8897bd58-4213-b200-8801-6ac6bfc55f3f",
+    "C": "GPU-8545cacc-dd22-3318-7c4f-26d69a9086c5"
+  },
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "torch": "2.1.0+cu121",
+    "transformers": "4.37.2"
+  },
+  "config": {
+    "latent_dim": 32,
+    "inner_crossfit_k": 5,
+    "outer_crossfit_k": 5,
+    "baseline_steps": 160,
+    "flow_steps": 160,
+    "proposal_steps": 160,
+    "gate_steps": 200
+  },
+  "methods": [
+    "baseline_calibrated",
+    "full_message",
+    "flow_ordinary_gate",
+    "flow_residual_gate",
+    "regression_residual_gate"
+  ],
+  "conservative_lease_end_UTC": "2026-10-08T14:00:00+00:00",
+  "remote_space_floor_bytes": 2000000000,
+  "status": "SAVED_TRAIN_CAL_DIAGNOSTIC_FROZEN_NO_INNER_TARGETS",
+  "actualclock_UTC": "2026-10-08 01:52:54 UTC",
+  "source_sha256": {
+    "cache_features.py": "4e5314a139264100fdcd11290e3fff9ee5b6b4c06241b4b083f29601e877f108",
+    "contract.py": "4c545e6565fc142e9e3c80b54c4a10c2833e045800162a6736a86c2a91600c9d",
+    "innovation_audit_wrapper.py": "3c87e2813eb6f29a1b013b8c03c540bad6762a8d90e3e0ac9eae5f239dcd0836",
+    "innovation_cpu_audit.py": "7e3b49330f57a2eb94d0c9b30dc53ad6803baa57410b97cd8842f9b37d7d04c0",
+    "innovation_saved_diag_wrapper.py": "3f9c52da3ab7091fd3009a8df21a0153f35b6bb517b623c4cbaae992c533b4b8",
+    "innovation_saved_train_diagnostic.py": "49b7786f6168a4fed610c99c80093240f90e0ddbd2fb4cd48db6856073ccaf4d",
+    "models.py": "818bdff2e3c3ce3fbde99767265275b6d4f26d023fc8303151f9360612c22dff",
+    "native_check.py": "ccf1acd756ad39c1f058b894f41e1d3146044e271510e195a0223ed4cf3835e3",
+    "native_wrapper.py": "e35e4e24b69b3ed08ddc54ce048bae8e86c0ba2e2f9ca6b86367e1d006a9d4f2",
+    "pipeline.py": "12a4eca960fb4290eec2838e84618923c850e32864714b1cf39a4beb495a3dda",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "split.json": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+    "train_pilot.py": "54e22eec1a4154eb188674f9c72da833c92a0d1bd12288c97cf8eacf3afbc0e0"
+  },
+  "parent_execution_plan_SHA": "2a3ce32a129012735b6e3d484fa47f8043d9c060694c286eab52671fb4d65230",
+  "train_archive_SHA": "8812b408b291ca7280a627cc7366d91cc549a17e9aa68f5901f5933930b10810",
+  "cache_archive_SHA": "093b3af624a9f301e555464182449b6a16807f71dcc6ce425981656204a74f35",
+  "CPU_prediction_tolerance": 0.0001,
+  "tolerance_predeclared_before_any_CPU_replay": true,
+  "labels_enabled": "only already saved original FIT supervision; TRAIN and CAL indices",
+  "encoder_CPU_forward": false,
+  "no_training": true,
+  "no_INNER_labels": true
+}

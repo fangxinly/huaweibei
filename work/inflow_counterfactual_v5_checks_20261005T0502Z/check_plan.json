@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-10-05T05:03:01.928872+00:00",
+  "stage": "Mechanism checks only; no 100-epoch training launch authorized by this plan",
+  "seed": 91814,
+  "epochs_candidate": 100,
+  "shared_fixed_epochs": 10,
+  "reference_paths_training": 10,
+  "reference_paths_eval": 1,
+  "target_scale": 0.05,
+  "utility_loss": "Per-direction SmoothL1 with positive/negative groups equally averaged when both exist, zero-only batch all mean",
+  "budget_check_updates": 20,
+  "test_accessed": false,
+  "limits": "Space dependency unresolved. Ten references include three joint removals for interaction reporting. No semantic truth claim."
+}

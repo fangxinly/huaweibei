@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-06T16:45:05.026260+00:00",
+  "source_sha256": "dbc0fea15ff1e8f1602e0e8009645c5e0c1f4581e3bc98ef167efb05a50d8eb8",
+  "scope": "Post-hoc descriptive reuse of the original DEV229 frozen diagnostics. All checkpoints were selected on DEV. Not an isolated validation, new confirmation, seed replication, whole-pipeline crossfit, GPU inference, other-node CPU, or confidence/risk guarantee. No TEST or new labels decoded. No model fit, shrink coefficient, cutoff, candidate, or checkpoint selected. Rows are pooled, not assumed independent. Video bootstrap is not performed without an independently verified DEV row-to-video mapping.",
+  "arms": [
+    "a",
+    "b",
+    "c"
+  ],
+  "signed_residual": "rho_true=p0-y; correction delta=-rho_hat",
+  "direct_coefficient": 1.0,
+  "variance_ddof": 0,
+  "diagnostics": [
+    "Pearson and tie-aware Spearman",
+    "sign and majority/independence baselines",
+    "mean/variance/second moment and observed direct correction gain",
+    "all 10 fixed equal-count bins",
+    "all fixed 10%-100% coverage points"
+  ],
+  "direct_order_score": "rho_hat squared",
+  "controller_order_score": "negative original proxy control-vs-raw loss change",
+  "tie_rule": "Original row order, stable sort",
+  "bootstrap": false,
+  "input_snapshot_directory": "D:\\CodexBackups\\selective_flow_20261003_1105\\finite_c2_completed_snapshots_20261005T1627Z"
+}

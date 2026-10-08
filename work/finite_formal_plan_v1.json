@@ -1,0 +1,326 @@
+{
+  "status": "FROZEN_BEFORE_NEW_FINITE_FORMAL_TRAINING",
+  "utc": "2026-10-05T14:51:24.238556+00:00",
+  "seed": 91817,
+  "epochs": 100,
+  "shared_fixed_epochs": 10,
+  "deployment": "/data/coding/finite_task_risk_v1_deployment_20261005T1450Z",
+  "base_root": "/data/coding/soft_vector_research_20261005T1220Z",
+  "arms": {
+    "a": "fixed",
+    "b": "finite_scalar",
+    "c": "finite_vector"
+  },
+  "batch_size": 32,
+  "drop_last": true,
+  "steps_per_epoch": 40,
+  "total_steps": 4000,
+  "lr": 0.0001,
+  "warmup_steps": 400,
+  "weight_decay": 0.01,
+  "head_aux_weight": 0.01,
+  "separate_donor_and_head_optimizers": true,
+  "separate_clip_norm": 1.0,
+  "controller": {
+    "inner_steps": 3,
+    "step_size": 0.25,
+    "trust_fraction": 0.25,
+    "scalar_risk_temperature_relative_squared_residual_rms": 0.05,
+    "beta": 65294.20088076077,
+    "scales": {
+      "residual_rms": 0.22068938092649817,
+      "message_rms": [
+        0.211459962376886,
+        0.18071814585059265,
+        0.05833617765104144,
+        0.07577191351840458,
+        0.07438950340583333,
+        0.10741249855272356
+      ],
+      "beta": 65294.20088076077,
+      "median_reference_normalized_message_sensitivity_norm2": 3.729565734533081e-07,
+      "head_fit_rows": 1153,
+      "head_heldout_rows": 128,
+      "train_rows": 1281,
+      "split_seed": 91990,
+      "dev_requested": false,
+      "test_requested": false,
+      "limits": "Head-label holdout only, main donor loss sees allTRAIN and frozen teacher fitted fullTRAIN/DEVselected; not whole-pipeline crossfit or independent validation."
+    }
+  },
+  "scope": "Frozen fullTRAINfit/DEVselectedA encoder/firstflow/terminal/reader/decoder; only six donor nets and matched214506residual-head parameters train,520506total. Cached deterministic coordinates with fullraw32TRAINlabel-free hook replay; not end-to-end or unbiased validation.",
+  "head_holdout_limits": "1153TRAIN head-fit/128head-label holdout, fixed seed91990; main donor labels all1281TRAIN. Detached head feature coordinates and separate optimizers/clips prevent direct head training on heldout labels; teacher already fullTRAINfit. Not whole-pipelinecrossfit.",
+  "selection": "Earliest strict minimum mean of two officialDEV MSE batches128/101 over100; restore fixed mode ifbest<=10, otherwise requestedmode. DEV never head target, TESTneveraccessed. Global229metrics separately.",
+  "budget": {
+    "observed20fixed_seconds": {
+      "a": 1.2119008153676987,
+      "b": 0.8891331180930138,
+      "c": 1.3495167344808578
+    },
+    "observed8row_mode_probe_seconds": {
+      "a": {
+        "fixed": 0.09905432537198067,
+        "finite_scalar": 0.3898174688220024,
+        "finite_vector": 0.4566451422870159
+      },
+      "b": {
+        "fixed": 0.07385195046663284,
+        "finite_scalar": 0.3530224338173866,
+        "finite_vector": 0.4281909167766571
+      },
+      "c": {
+        "fixed": 0.08468779921531677,
+        "finite_scalar": 0.3722623363137245,
+        "finite_vector": 0.4413413740694523
+      }
+    },
+    "maximum_planned_epochs": 100,
+    "conservative_expected_minutes_per_arm": 120,
+    "observed_fullraw_peak_bytes": 1057001472,
+    "budget_not_authorization_to_stop_healthy_training": true
+  },
+  "diagnostic_plan": "After selected checkpoint, freeze20 conditions default/alloff/6strict final-channelocclusions/6cyclicdonorreplacements/3strategyoverrides/3receiverpairsoff. Off masks applied to final transmitted messages, not merely rawF (vector controller could regenerate a zero raw channel). Swap recomputeslabel-freecontroller. Saveofficial229residual/finiteutility/delta/trust arrays and actualsquaredrisk; no semantictruth.",
+  "checkpoint_contract": "Addon not fullweight. Complete model combine oldA frozen encoder and new traineddonor/head/controller buffers; strict full disk reload/originalinputDEV229replay; wholeSHA/ZIPCRC permanentD and independent CPUsevenfiles+sharedphase/diagnostics. Save immediate on completion, not at lease end.",
+  "preflight_audit": {
+    "status": "THREE_REAL_FINITE_RISK_TRAIN_PREFLIGHTS_AND_FULL_RAW_REPLAY_INDEPENDENTLY_AUDITED",
+    "utc": "2026-10-05T14:44:31.696965+00:00",
+    "reports": {
+      "a": {
+        "gpu_uuid": "GPU-8e10cc68-ef5e-9064-64ba-fec82c5089c7",
+        "twenty_seconds": 1.2119008153676987,
+        "peak_bytes": 161160704,
+        "mode_checks": {
+          "fixed": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.09905432537198067,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true
+          },
+          "finite_scalar": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.3898174688220024,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true
+          },
+          "finite_vector": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.4566451422870159,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true,
+            "trust_max": 0.2500000298023224
+          }
+        },
+        "finite_difference": {
+          "analytic": 0.0003449553156964982,
+          "numerical": 0.00034495504230847013,
+          "absolute_error": 2.733880280904148e-10,
+          "epsilon": 1e-05
+        },
+        "head_metrics": {
+          "head_fit": {
+            "rows": 1153,
+            "mse": 0.048637159168720245,
+            "zero_baseline_mse": 0.04870380461215973,
+            "sign_agreement": 0.7450130095403296,
+            "fit_majority_sign_baseline_agreement": 0.7267996530789246,
+            "head_prediction_mean": 0.00019423590856604278
+          },
+          "head_label_holdout": {
+            "rows": 128,
+            "mse": 0.051314979791641235,
+            "zero_baseline_mse": 0.05137428641319275,
+            "sign_agreement": 0.6875,
+            "fit_majority_sign_baseline_agreement": 0.6875,
+            "head_prediction_mean": 0.00019315531244501472
+          }
+        }
+      },
+      "b": {
+        "gpu_uuid": "GPU-a259ab5e-884a-ec9f-4208-1bc34a6e5067",
+        "twenty_seconds": 0.8891331180930138,
+        "peak_bytes": 161160704,
+        "mode_checks": {
+          "fixed": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.07385195046663284,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true
+          },
+          "finite_scalar": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.3530224338173866,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true
+          },
+          "finite_vector": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.4281909167766571,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true,
+            "trust_max": 0.2500000298023224
+          }
+        },
+        "finite_difference": {
+          "analytic": 0.0003449553156964982,
+          "numerical": 0.00034495504230847013,
+          "absolute_error": 2.733880280904148e-10,
+          "epsilon": 1e-05
+        },
+        "head_metrics": {
+          "head_fit": {
+            "rows": 1153,
+            "mse": 0.048637159168720245,
+            "zero_baseline_mse": 0.04870380461215973,
+            "sign_agreement": 0.7450130095403296,
+            "fit_majority_sign_baseline_agreement": 0.7267996530789246,
+            "head_prediction_mean": 0.00019423590856604278
+          },
+          "head_label_holdout": {
+            "rows": 128,
+            "mse": 0.051314979791641235,
+            "zero_baseline_mse": 0.05137428641319275,
+            "sign_agreement": 0.6875,
+            "fit_majority_sign_baseline_agreement": 0.6875,
+            "head_prediction_mean": 0.00019315531244501472
+          }
+        }
+      },
+      "c": {
+        "gpu_uuid": "GPU-2a0c83a4-0a1a-494d-6e80-0c756fb075aa",
+        "twenty_seconds": 1.3495167344808578,
+        "peak_bytes": 161160704,
+        "mode_checks": {
+          "fixed": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.08468779921531677,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true
+          },
+          "finite_scalar": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.3722623363137245,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true
+          },
+          "finite_vector": {
+            "label_replacement_max_error": 0.0,
+            "train_vs_no_grad_max_error": 0.0,
+            "forward_backward_seconds": 0.4413413740694523,
+            "main_head_gradients_none": true,
+            "frozen_gradients_none": true,
+            "trust_max": 0.2500000298023224
+          }
+        },
+        "finite_difference": {
+          "analytic": 0.0003449553156964982,
+          "numerical": 0.00034495504230847013,
+          "absolute_error": 2.733880280904148e-10,
+          "epsilon": 1e-05
+        },
+        "head_metrics": {
+          "head_fit": {
+            "rows": 1153,
+            "mse": 0.048637159168720245,
+            "zero_baseline_mse": 0.04870380461215973,
+            "sign_agreement": 0.7450130095403296,
+            "fit_majority_sign_baseline_agreement": 0.7267996530789246,
+            "head_prediction_mean": 0.00019423590856604278
+          },
+          "head_label_holdout": {
+            "rows": 128,
+            "mse": 0.051314979791641235,
+            "zero_baseline_mse": 0.05137428641319275,
+            "sign_agreement": 0.6875,
+            "fit_majority_sign_baseline_agreement": 0.6875,
+            "head_prediction_mean": 0.00019315531244501472
+          }
+        }
+      }
+    },
+    "common": {
+      "initial_tensor_sha256": "ca79f8edc0b7d573cbdc6457dc7ddebcb6f4147e573e819e5f59deb911dce762",
+      "after20_tensor_sha256": "a0498ed422d0d5b8e58f7f6326730a6fa2b55cd2b52194166edd84dbf54d3915",
+      "scales_sha256": "1bae3a8a2291f48941dca6dd1501bc203bdf9a832e1abcf8990bc57027de2991",
+      "orders_sha256": "99548580464a178410422b006315818b11d1282114e0493e2037015f05196c8a",
+      "after20_addon_sha256": "b734167f986425609a70726c299475a0e370674d83f7d37ba7e6034ec62f501d",
+      "head_fit_rows_sha256": "d6c3a2ad839ee20801d5ed8160841ad68ffc0d4ab026b8b17a49e1f3668e3603",
+      "head_heldout_rows_sha256": "7687c234b779dc7f1257b8c05a7d3179d2d9ee4cd42b94c85ff005fe04acdda1"
+    },
+    "full_inference": {
+      "status": "FINITE_RISK_FULL_RAW_TRAIN32_THREE_MODE_REPLAY_CHECKED_NOT_FORMAL_TRAINING",
+      "utc": "2026-10-05T14:35:15.986092+00:00",
+      "modes": {
+        "fixed": {
+          "full_vs_cached_prediction_max_error": 1.1920928955078125e-06,
+          "label_replacement_max_error": 0.0,
+          "seconds": 0.8607963845133781
+        },
+        "finite_scalar": {
+          "full_vs_cached_prediction_max_error": 1.341104507446289e-06,
+          "label_replacement_max_error": 0.0,
+          "seconds": 0.6884464658796787
+        },
+        "finite_vector": {
+          "full_vs_cached_prediction_max_error": 1.2814998626708984e-06,
+          "label_replacement_max_error": 0.0,
+          "seconds": 0.7712959349155426
+        }
+      },
+      "split": "train",
+      "rows": 32,
+      "dev_requested": false,
+      "test_requested": false,
+      "source_sha256": "f0f76db17fd0e5e5110c14a8e69bd6c6d66d1c5b3e8a9fac666196fc1124b61a",
+      "addon_sha256": "b734167f986425609a70726c299475a0e370674d83f7d37ba7e6034ec62f501d",
+      "scales_sha256": "1bae3a8a2291f48941dca6dd1501bc203bdf9a832e1abcf8990bc57027de2991",
+      "peak_allocated_bytes": 1057001472,
+      "elapsed_seconds": 7.841090060770512,
+      "argv": [
+        "check_finite_full_inference_v1.py",
+        "--base-root",
+        "/data/coding/soft_vector_research_20261005T1220Z",
+        "--checks",
+        "/data/coding/finite_task_risk_preflight_20261005T1428Z/checks",
+        "--out",
+        "/data/coding/finite_task_risk_preflight_20261005T1428Z/checks/full_inference_check.json"
+      ],
+      "checkpoint_contract": "Eventual new complete model must include finite controller buffers/donor/head tensors and strict reload/official229 replay;2MBaddon not fullweight."
+    },
+    "source_sha256": "eba9b991444fe6a0b422f9969ceab5ce9d24f032aab4024c05972f91d6b30686",
+    "limits": "20fixedpilot and three-mode mechanics only. Head holdout majority baseline shown; not independent validation or a100epoch efficacy result. Inspectionv1 lacked CUBLAS process env and failed before arrays;v1 sources/logs retained, onlyv2 actual arrays/receipts accepted. Formal training not started."
+  },
+  "initial_tensor_sha256": "ca79f8edc0b7d573cbdc6457dc7ddebcb6f4147e573e819e5f59deb911dce762",
+  "preflight_after20_tensor_sha256": "a0498ed422d0d5b8e58f7f6326730a6fa2b55cd2b52194166edd84dbf54d3915",
+  "orders_sha256": "99548580464a178410422b006315818b11d1282114e0493e2037015f05196c8a",
+  "scales_sha256": "1bae3a8a2291f48941dca6dd1501bc203bdf9a832e1abcf8990bc57027de2991",
+  "head_fit_rows_sha256": "d6c3a2ad839ee20801d5ed8160841ad68ffc0d4ab026b8b17a49e1f3668e3603",
+  "source_sha256": {
+    "train_finite_task_risk_v1.py": "9a8519ebc19d006bfd53e5113915cd7a31190bd97d7dc6ae804c6d0ccec86d6c",
+    "finite_task_risk_feedback_v1.py": "793c0dbfb218093c0b2b6695a36a266286a33b82b76008814aa2d222174b78cb",
+    "finite_task_risk_runtime_v1.py": "c0b331a3e8c9519b72a8e621ee1028bf3900ed42c7cf19f1a6ff49645584e32d"
+  },
+  "base_source_sha256": {
+    "soft_vector_runtime_v1.py": "20afa67f43c4abd9417b145afca98a7b5b7dcbb85f6232f1311ede11e364305d",
+    "task_gradient_vector_candidate_v3.py": "f8f171e49c57846ec99ea9395a2f2ae1f2d74e1c03f02cbb391b37eeef63447b",
+    "frozen_v5/run_counterfactual_v5.py": "2b74376ec59de09977734a7ae5e237033b817212b0f035b96a601c424c71fc0b",
+    "frozen_v5/counterfactual_flow_model.py": "50a0e652a1502ed7a06b58e5876a90aecf4e1435b5d5154043b76eabc806655b",
+    "frozen_v5/legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "frozen_v5/encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  "teacher_file_sha256": {
+    "collection.json": "0d806b54326667a0c4463965f09af5188ee6f6bbefa41a2ba233ae0d6600772a",
+    "frozen_terminal.pt": "78279251bfc261275d8626e5ba7231f41a7323575488e4adc0c8bc3aa9f916a1",
+    "train_cache.npz": "3c839342ca037542aafd2c02cc615fdca2e05620fb75660bb4c70137b026c6a5",
+    "dev_cache.npz": "d4cda58e8ba6684f6c2fad427becc9acf684d61116dbcc8bf8bfb03ec133aa59"
+  },
+  "test_requested": false,
+  "interpretation": "Head20pilot heldout sign.6875 equals TRAINfit majority baseline, not evidence of residual predictive advantage. Finite-risk estimator still unknown true risk, no superiority/stability/SOTA/semanticclaim."
+}

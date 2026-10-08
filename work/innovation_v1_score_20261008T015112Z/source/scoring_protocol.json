@@ -1,0 +1,27 @@
+{
+  "status": "FIXED_ALL_FIVE_INNER_ONCE_SCORE_FROZEN",
+  "actualclock_UTC": "2026-10-08 01:51:12 UTC",
+  "D": "D:\\CodexBackups\\selective_flow_20261003_1105\\innovation_v1_actual_20261008T014426Z",
+  "methods": [
+    "baseline_calibrated",
+    "full_message",
+    "flow_ordinary_gate",
+    "flow_residual_gate",
+    "regression_residual_gate"
+  ],
+  "source_SHA": {
+    "score_innovation_pilot.py": "df8b79d8946b6053b57019843b3d1a8ddd48fe9bcdabedcf1b89b69cbbeaa00f",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  "train_D_verification_SHA": "7f99feb803a51fd968146c8b2adcf671c7effe745684044ac0b207cd4cba71b5",
+  "CPU_D_verification_SHA": "4e510f42d956cde0234bd1a33433f3cd61c9aa1a4e985ff2baa7fd7941efdba1",
+  "prediction_SHA": "2c8bbb9eefbb9174350c751a130579311b9820a3f21c41f05b216fba2a026653",
+  "gate_details_SHA": "5466a2eac539618710f0087546c4928b2da510d98bc53e1bc8f463ee1756d40c",
+  "labels_CSV": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\best20_best36_FIT_INNER_review_20261008T012035Z\\best36_inner_y_b_p_video.csv",
+  "labels_CSV_SHA": "36bc71f28d0c5a29df9b3aff2a774ab97ff4183515f96720f85596d1c3908cbe",
+  "bootstrap_seed": 128,
+  "bootstrap_repeats": 5000,
+  "weak_definition": "abs(y)<=1",
+  "no_fit_no_selection": true,
+  "not_official_TEST_or_formal_CaReFlow": true
+}

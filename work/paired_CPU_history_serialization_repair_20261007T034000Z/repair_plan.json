@@ -1,0 +1,21 @@
+{
+  "status": "CPU_HISTORY_TUPLE_LIST_ONLY_PRESERVATION_REPAIR_PROTOCOL_FROZEN",
+  "actual_local_freeze_UTC": "2026-10-07T03:41:11.164512+00:00",
+  "original_training_plan_sha256": "8dc4093ae64a61018fee0781d250b40e0ecf26fe11b6c9feb8529fd4ef1a95eb",
+  "original_CPU_source_sha256": "3a709a38418dda7951f8603b338893b835ddef268447e792108e7fc6cab1532c",
+  "source_sha256": {
+    "paired_CPU_history_repair_entry_v1.py": "ab3089fe4b84aa90ac37b285f2d9916487d1eb15d291896d579830d4ec9d47fa",
+    "paired_CPU_history_repair_saved_joint_v1.py": "84b86801fc14bbf0378c886509d4f9cf142b5d2062b2b2df307962534efaf9c3",
+    "paired_CPU_history_repair_wrapper_v1.py": "f2a0d0d7716789da8147ae32a6b595b166d3241c882932749940bb9aa17c6e05",
+    "repair_gate.py": "bda83e1cb93fa9ee4949d40a24be10b9eab721e563501856c8d0dca9bc54a526"
+  },
+  "prior_original_failure_ZIP_SHA": "26ba08440dffd5e1cbe95d86ee08fb346524da304d42cb3effc64231daaf45a8",
+  "diagnosis_SHA": "5bf0388c61392135da6d3d2c9f07d68559dcde6d11c02cc0a27be5e02b07c747",
+  "sole_allowed_representation_change": "100 dropped_TRAIN_rows tuple->list in copied comparison view; one integer row each, every value/other field/type exact",
+  "training_or_model_change_enabled": false,
+  "TEST_enabled": false,
+  "CPU_model_forward": false,
+  "public_assets": "/data/coding/multimodal_flow_public_20261006T1341Z",
+  "conservative_lease_end_UTC": "2026-10-07T13:30:00+00:00",
+  "not_platform_lease_confirmation": true
+}

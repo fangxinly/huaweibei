@@ -1,0 +1,15 @@
+{
+  "operator_SHA": "d0a062bd01b721df3608aadc101a37c5c76f60b4195f46cd4d5efadebe359545",
+  "bundle": "/data/coding/weak_retention_train40_source_20261007T145201Z",
+  "python": "/data/coding/multimodal_flow_public_20261007T141430Z/.venv/bin/python",
+  "protocol_name": "training_execution_protocol.json",
+  "protocol_SHA": "cff9da9c18a4ac10a0d53b585a24126beb492735b4310aa1b6fd113f0f268092",
+  "original_capsule": "/data/coding/weak_retention_train40_B_original_20261007T145201Z/A_complete_capture.zip",
+  "original_capsule_SHA": "4d9ed56c5a3609419164122e5d9e14cc0e3b83161ac5dc8ae7ce4b98942bb021",
+  "checkpoint_SHA": "e173bf8b56327161a7fff430597cf7441e6d51d4a35381fa14c3b8743a01d7e6",
+  "original": "/data/coding/weak_retention_train40_B_original_20261007T145201Z",
+  "CPU_root": "/data/coding/weak_retention_train40_B_CPU_20261007T145201Z",
+  "CPU_execution": "/data/coding/weak_retention_train40_B_CPU_execution_20261007T145201Z",
+  "CPU_capture": "/data/coding/weak_retention_train40_B_CPU_capture_20261007T145201Z",
+  "B_UUID": "GPU-8897bd58-4213-b200-8801-6ac6bfc55f3f"
+}

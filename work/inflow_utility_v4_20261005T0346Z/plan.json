@@ -1,0 +1,34 @@
+{
+  "prepared_at": "2026-10-05T03:47:28.842862+00:00",
+  "status": "AST_ONLY_REAL_GPU_CHECK_REQUIRED_BEFORE_TRAINING",
+  "question": "Does directed sample utility supervised by task-head error reduction improve feedback beyond fixed weights?",
+  "seed": 91813,
+  "epochs": 100,
+  "updates_per_epoch": 40,
+  "total_updates": 4000,
+  "train_samples": 1281,
+  "dev_samples": 229,
+  "TEST_forbidden": true,
+  "modes": [
+    "none",
+    "fixed",
+    "predicted"
+  ],
+  "init": "Same full parameters, six pair heads, six zero utility outputs, six zero feedback outputs; initial predictions identical",
+  "objective": ".02FM+.01cycle+.05unimodal(split half source/stage1)+.01variance+.025pairMSE+.01utilitySmoothL1, same all modes",
+  "utility_target": "detach(tanh(((p_m-y)^2-(p_mj-y)^2)/.5)), TRAIN only, not semantic ground truth",
+  "utility_weight": "sigmoid(4u); fixed .5; none0; average two directed donors per receiver then .5 context update",
+  "optimizer": "author groups lr1e-5 linear warmup10%, same encoder pretrained only, no old supervised checkpoint",
+  "check": "real first feedback-output/pair/utility gradients; utility-only gradient isolated from pair heads and encoder; after warmup hidden feedback gradient; exact same-model zero-feedback predictions across modes; labels mutation and batch/mask invariance; cross-node full initial SHA and100orders exact",
+  "limitations": [
+    "Single exploratory seed/node binding, no stable five-seed or semantic evidence claims",
+    "Task-head utility is endogenous proxy; poor pair teachers may make targets misleading",
+    "New objective/seed confound comparison to old runs; matched new none/fixed controls needed"
+  ],
+  "source_sha256": {
+    "encoder_adapter.py": "cf0770e6ac22d1b45f0f6311c9d2d1e9a9cd38043cdcfa64ecc6fb319e6821c6",
+    "legacy_flow_model.py": "9f59a3064dbd09734105bb6dc3ac42c4c37b6894cedd30c50186e2d8ef1c8814",
+    "run_inflow_utility_v4.py": "e3893333cde8b1506982175dd0025335bde98baa90341d81cc61b51451713c0d",
+    "utility_flow_model.py": "88196badfc20787babdbf40e96b0efd255ddd818026e908fd6d62f57da951a22"
+  }
+}

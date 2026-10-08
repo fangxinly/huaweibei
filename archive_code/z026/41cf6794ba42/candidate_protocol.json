@@ -1,0 +1,43 @@
+{
+  "status": "WEAK_RETENTION_TRAINING_CANDIDATE_GPU_DISABLED",
+  "actualclock_UTC": "2026-10-07 12:43:21 UTC",
+  "execution_enabled": false,
+  "human_request": "直接针对流修正损害弱情绪继续优化",
+  "single_change": "Add mean relu((p-y)^2-(stop_gradient(b)-y)^2) on FIT rows abs(y)<=1, coefficient fixed1. All inference and previous losses/optimizer unchanged.",
+  "source_sha256": {
+    "anchored_flow.py": "4c58ca4709c8cfcef01031906cd20054b68e615f2dc6cbeb28f1ff78b1524995",
+    "careflow_train_dev_author_components_candidate.py": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+    "check_weak_retention_native.py": "bb3e975bb9f2ffa922ca4a0612417a8a0fce96bd80e7ba7d8bfb13b52f195a0c",
+    "encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "fixed_flow_components_candidate.py": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+    "fold_contract.py": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+    "fold_cpu_audit.py": "b2f08da234f7b3b362b8dce175cf6d78c602e00b5553726a650116c615fcaa5c",
+    "fold_evidence.py": "62d8a7ad3791548fab7a41241d93e142dedace431680519521f2667e801ab067",
+    "fold_runtime.py": "6253f0c3ba9b4ec2fed2d8b5ddca7bec73a06a48ab8f140e9ea7dac677de193f",
+    "fold_score.py": "86bca960ed111c2b3425a360340935bc81e814b035382776f36b9547503778a0",
+    "fold_session.py": "37fc3050a3f302557b7910294c53611705101d7070ad458b7446019b60effb23",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "official_fulltrain_dev_guard_candidate.py": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+    "paired_fulltrain_session_candidate.py": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+    "prepare.py": "669c2b573961b68f4f116eec77c7d42421871142307221c30b2b29c5c31bd208",
+    "run_native_synthetic_check.py": "40cf53942f1b75941c8b965faaf0964c3aac56d47174d8b79c2f5b338fa560ee",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "test_fold_contract.py": "c1de6090cb7cd9aa7761162c827575ab47392393d8dac8b73555105f7c250030"
+  },
+  "prior_anchored_source_SHA": "74c6e8997ef007df284a1174bc0a438dbf4f82a9af5eaf3aeaa1a3b2891ab552",
+  "no_true_labels_at_inference": true,
+  "no_TEST_or_OUTER_tuning": true,
+  "whole_video_folds_required": true,
+  "no_new_performance_claim": true,
+  "native_synthetic_check_only": true,
+  "full_training_not_started": true,
+  "resource_gate": "Fresh lease/asset/source/space; full model optimizer states and at least2h saving; current lease time and D capacity insufficient",
+  "limitations": [
+    "Finite penalty is not a risk bound",
+    "Shared representation can change strong predictions",
+    "Detached comparison does not freeze the backbone",
+    "FIT/INNER history already explored; no fresh independent validation"
+  ]
+}

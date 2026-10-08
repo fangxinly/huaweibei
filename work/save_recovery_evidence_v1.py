@@ -1,0 +1,19 @@
+from pathlib import Path
+import datetime,hashlib,json,re
+out=Path('outputs');roll=Path('C:/Users/21234/.codex/sessions/2026/10/05/rollout-2026-10-05T10-19-15-01a109db-b31a-78d3-82f7-282321c5bf58.jsonl');needle='06:14:45.652347';items=[]
+for line in roll.open(encoding='utf-8'):
+ if needle not in line:continue
+ v=json.loads(line);p=v.get('payload',{})
+ if v.get('type')=='response_item' and p.get('type') in ['function_call_output','custom_tool_call_output']:
+  raw=p['output'] if isinstance(p['output'],str) else json.dumps(p['output'],ensure_ascii=False)
+  if 'NEW_INFLOW_INDEPE' not in raw or 'closed by remote host' not in raw:continue
+  items.append({'rollout_timestamp':v.get('timestamp'),'call_id':p.get('call_id'),'output':raw,'raw_line_sha256':hashlib.sha256(line.encode()).hexdigest()})
+assert len(items)==1
+base=Path('D:/CodexBackups/selective_flow_20261003_1105/counterfactual_v5_completed_20261005');m=json.loads((base/'a/independent_manifest.json').read_text());b=json.loads((base/'b/destination_verification.json').read_text());bm=json.loads((base/'b/independent_manifest.json').read_text())
+assert b['status']=='NEW_INFLOW_INDEPENDENT_LEASED_COPY_ALL_SEVEN_FILES_SHA_VERIFIED' and b['files']==bm['files'] and b['source_gpu_uuid']!=b['target_gpu_uuid']
+raw=items[0]['output'];assert '06:14:45.652347' in raw and 'GPU-5902bbd4-2328-0822-777c-' in raw and '1311d53ee5a3' in raw and 'GPU-2a0c83a' in raw
+r={'status':'A_INDEPENDENT_CPU_SUCCESS_TERMINAL_EVIDENCE_PRESERVED_B_ORIGINAL_RECEIPT_VERIFIED','recorded_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'A':{'verification_seen_at':'2026-10-05T06:14:45.652347+00:00','target_gpu_uuid':'GPU-2a0c83a4-0a1a-494d-6e80-0c756fb075aa','source_gpu_uuid':m['source_gpu_uuid'],'local_manifest_sha256':hashlib.sha256((base/'a/independent_manifest.json').read_bytes()).hexdigest(),'checkpoint_sha256':m['files']['best.pt']['sha256'],'original_remote_receipt_file_downloaded':False,'terminal_tool_output_evidence':items[0]},'B':{'original_receipt':str(base/'b/destination_verification.json'),'original_receipt_sha256':hashlib.sha256((base/'b/destination_verification.json').read_bytes()).hexdigest(),'verification':b},'limits':'A preserves the actual terminal tool output, not a downloaded destination_verification.json and not a reconstructed signed receipt. Neither node claim implies C final preservation.'}
+with (out/'主任务反事实效用AB独立保存证据.json').open('x',encoding='utf-8') as f:json.dump(r,f,ensure_ascii=False,indent=2)
+deadline={'status':'DEADLINE_1430_NOT_EXECUTED_NO_REAL_CAPTURE_EVIDENCE','recorded_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'required_deadline':'2026-10-05T06:30:00+00:00','last_work_evidence_before_gap':'2026-10-05T06:14:45.652347+00:00','resumed_actual_clock':'2026-10-05 07:25:39 UTC','capture_exists_in_workspace':False,'previous_deadlines_completed':['13:40','14:10'],'C_last_verified_epochs':81,'C_final_weight_downloaded':False,'A_B_final_weights_permanently_saved':True,'remote_connections_closed_by_host':True,'C_one_fresh_authentication':'Permission denied; no retry; cancelled with Ctrl-C exit1','A_B_fresh_connection_results':'Calls returned no session; original command results lost when store(undefined) rejected. Network cause undetermined; no further retry.','SFTP_cleanup':'bye attempts auto-review rejected approval required while AskForApproval Never; previous outputs showed remote closure; no exit0 assertion.','cause_of_missing_deadline':'Not established. No claim of platform or user fault.','limits':'A later capture cannot be relabeled as a real 14:30 save. No claim that all leased data are lost or that C training failed.'}
+with (out/'租期1430保存缺口与恢复记录.json').open('x',encoding='utf-8') as f:json.dump(deadline,f,ensure_ascii=False,indent=2)
+print(json.dumps({'status':r['status'],'deadline_status':deadline['status']}))

@@ -1,0 +1,13 @@
+{
+  "stage": "precheck",
+  "actual_source_finish_UTC": "2026-10-07T14:33:26.211049+00:00",
+  "operator_source_SHA": "c4b1ec20c828bba5c8674522a606fd5992792c5b44ab29f124389e5043b029b9",
+  "archive": "/data/coding/weak_retention_pilot40_source_20261007T143015Z.zip",
+  "archive_SHA": "93edbf4a7afd1c92c52a12425013b609c16b85ef116f7177e57e30014f175355",
+  "bundle": "/data/coding/weak_retention_pilot40_source_20261007T143015Z",
+  "assets": "/data/coding/multimodal_flow_public_20261007T141430Z",
+  "protocol_SHA": "2cab1dfb9ad00075f7a4fb6609b9bad1f6b2241c422a170c86503830089e3c68",
+  "root": "/data/coding/weak_retention_pilot40_precheck_20261007T143015Z",
+  "execution": "/data/coding/weak_retention_pilot40_precheck_execution_20261007T143015Z",
+  "operator_record": "/data/coding/weak_retention_precheck_dispatch_20261007T143015Z"
+}

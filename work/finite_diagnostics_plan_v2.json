@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-10-05T16:02:07.594716+00:00",
+  "source_sha256": "dac4db547cfe45f6e8d66009cfafe2f26024fd63e69e6dfcaf89b5241266cacf",
+  "conditions": [
+    "default",
+    "alloff",
+    "off0",
+    "off1",
+    "off2",
+    "off3",
+    "off4",
+    "off5",
+    "swap0",
+    "swap1",
+    "swap2",
+    "swap3",
+    "swap4",
+    "swap5",
+    "fixed",
+    "finite_scalar",
+    "finite_vector",
+    "receiver_off0",
+    "receiver_off1",
+    "receiver_off2"
+  ],
+  "scope": "20primary conditions preplanned by finite_formal_plan_v1; masks applied to final transmitted message after control so vector cannot regenerate channels. Swaps replace only donor pooled representation by cyclic shift1 inside fixed officialDEV128/101 batches, recompute label-free control. Additional7terminal rawfixed/all6rawwithout predictions quantify proxy estimand exact risk; distinguish rawproxy and finaltransmission estimands. DEV229 only frozendiagnostic, no parameter update or structure selection, no TEST. Frozen source byteSHA/currentselectedaddon must replay0 and params unchanged.",
+  "budget": "2completed arms times20primary plus7raw calibration; under30min each, no newtraining.",
+  "amendment": "v1 late validation failed without logging components; v2 logs exact components before the same assertions. No scientific condition/parameters/selection/control changes, original source/output kept."
+}

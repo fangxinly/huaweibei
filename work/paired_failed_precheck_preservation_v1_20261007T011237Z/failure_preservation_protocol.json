@@ -1,0 +1,13 @@
+{
+  "status": "FAILED_PAIRED_PRECHECK_PRESERVATION_PROTOCOL_FROZEN_NO_RETRY_OR_TRAINING",
+  "clock_source_freeze_utc": "2026-10-07 01:12:37 UTC",
+  "original_plan_sha256": "721184ac15333be42e9f7493ce0da6d648b824bbb509060673bd6f94b43448fd",
+  "worker_sha256": "602abca67c2f73073aaf915cc8257e3c2fc4720f084cf1e4e4b951284cf1c6c5",
+  "wrapper_sha256": "faa23d8a52b199ee7d5a143e3005f4760676d2fa288c81ec35e75e7cee1f075b",
+  "clean_initial_sha256": {
+    "minimal_fixed_F": "135853fea8bfa5402cf057bbbcc05a0386dc0fbe4c97ff81096971f4b7df12f16",
+    "careflow": "700e0903f7e1a9cfe373ac15f5b0b23222cfe964053a1957979004297e34a7a80"
+  },
+  "not_full_resume_after_failed_update": true,
+  "CPU_forward_or_labels_or_training": false
+}

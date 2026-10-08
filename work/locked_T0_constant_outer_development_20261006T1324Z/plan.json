@@ -1,0 +1,89 @@
+{
+  "scope": "ONE_LOCKED_T0_CONSTANT_OUTER_DEVELOPMENT",
+  "frozen_actual_utc": "2026-10-06T13:28:00.432307+00:00",
+  "source_sha256": "5db4ade88ddade5d9131e354d443b61173114cdb612dc315e11e8a11a6558b9b",
+  "fold": 0,
+  "checkpoint_sha256": "338df042d648d3bdcb221bc0cacbd3d5574a1dd1efac49b1823f091a75706695",
+  "locked_constant": -0.07411910583740507,
+  "pins": {
+    "outer_predictions": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_completed_20261006\\a\\run_v1\\outer_scalar_predictions.npz",
+      "sha256": "b02469e0fbd3329b7d3f8f115f04bfeddc9896f6cda5d9581c7b9eaaf7cfc9a4",
+      "bytes": 5700
+    },
+    "teacher_completion": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_completed_20261006\\a\\run_v1\\completion.json",
+      "sha256": "8f76454c98c0640f166a3f6e623c0c0366aa9aef77e8eb057c4a1b08970e57ca",
+      "bytes": 18078
+    },
+    "teacher_manifest": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_completed_20261006\\a\\preservation_manifest.json",
+      "sha256": "593f6833826f0c32b5a6ccb41fd6f4de31d31eb95231ba5b38c0a4753b66aa88",
+      "bytes": 4693
+    },
+    "mapping": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_completed_20261006\\a\\train_row_video_mapping.json",
+      "sha256": "62536b398854df5c6abf1987ff6c8373aabc980a273687484da2df275149b12c",
+      "bytes": 149012
+    },
+    "teacher_plan": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\group_teacher_plan_v3.json",
+      "sha256": "f0878166da09433c27119a08fdfd8682f9b9e29f2bfe0a758f29eee45cf131a4",
+      "bytes": 14662
+    },
+    "fit_rows": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\fit_0.npy",
+      "sha256": "b93d8e4f5271354a1b5741e824f895ecec292b1397be3521ae8474600cce110d",
+      "bytes": 5688
+    },
+    "inner_rows": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\inner_0.npy",
+      "sha256": "c3484b79520d283d9b3785d8f374c804f9c67e9f4df8fa5a9ce68bb83294d081",
+      "bytes": 1352
+    },
+    "outer_rows": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\outer_0.npy",
+      "sha256": "4a2ec5a27bd0a48e1a67fe746d28c0061c0c8ec855239b40a1299bd5d620e4c0",
+      "bytes": 3592
+    },
+    "old_rule": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\plain_scalar_residual_fold0_20261006T1157Z\\execute\\A_frozen_rule.json",
+      "sha256": "57997150be74484475e523cf1f98bebddfe3ce0926161a240110a12dfb150c3b",
+      "bytes": 200
+    },
+    "old_plan": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\plain_scalar_residual_fold0_20261006T1157Z\\plan.json",
+      "sha256": "35770d0c98696cc994f7a8f88036fadf100f6274ae73ed47d1778d9ad817cadf",
+      "bytes": 4912
+    },
+    "labels": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_oof_20261006T0308Z\\train_scalar_oof.npz",
+      "sha256": "cff1a52f7e828c96cacf070ae4e051a5c34042ebb9435f44f5b3242cad91a7ea",
+      "bytes": 52484
+    }
+  },
+  "comparisons": [
+    "Original T0 F",
+    "Original T0 F plus same previously frozen FIT-only constant"
+  ],
+  "rows": 433,
+  "videos": 18,
+  "no_refit_no_sweeps": true,
+  "primary": "Video equal paired squared loss difference constant minus F",
+  "secondary": [
+    "Pooled MSE/MAE",
+    "every video Q",
+    "delete-one-video Q",
+    "improved video count"
+  ],
+  "cost_heuristic": "meanQ<0 and at least12of18 videos improve and every delete-one meanQ<0; no statistical or safety claim",
+  "stop": "No switching fold/seed/sign/scale/refit. Constant fails: stop extending this scalar branch. Pass: retain only development baseline, not authorization for message/Q/new100.",
+  "labels": "Decode only exact T0 OUTER433 y after locked prediction SHA. Do not read FIT/INNER values or mixed OOF mu. Old CAL/EVAL row overlap and all TRAIN exploration recorded, not fresh confirmation.",
+  "new_confirmation": false,
+  "whole_pipeline_crossfit": false,
+  "new_GPU_or_Torch": false,
+  "minimum_D_free_bytes": 1073741824,
+  "maximum_seconds": 60,
+  "maximum_output_bytes": 1048576,
+  "asset_graph_sha256": "30e80f5ee625aa27189ba3472921a0115941156b15d7c5dc0b82d768ffccfb9e"
+}

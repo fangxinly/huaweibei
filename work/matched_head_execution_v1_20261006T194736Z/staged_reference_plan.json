@@ -1,0 +1,120 @@
+{
+  "format": "MINIMAL_FIXED_STAGED_REFERENCE_PLAN_V1",
+  "actual_frozen_utc": "2026-10-06T15:11:17.491122+00:00",
+  "question": "One video-isolated full-chain fixed reference trainability and replay; no donor superiority comparison.",
+  "phase_schedule": [
+    "gated_reference_first10_220steps",
+    "only_after_actual_D_B_CPU_and_resume_fresh_replay_continue11_to100"
+  ],
+  "fold": 0,
+  "seed": 91819,
+  "epochs_total": 100,
+  "updates_per_epoch": 22,
+  "total_updates": 2200,
+  "batch_size": 32,
+  "tail_rows": 23,
+  "runtime_plan_sha256": "e4d0c71a73186ae9073dc0d88ccdd4fd753a4d81a967eb458a52a0669437fa63",
+  "source_sha256": {
+    "audit_staged_reference_CPU_v1.py": "528ecddefa9203fcae7d55bd7250494035e97c7edc002f5ec8e550d0449409c5",
+    "donor_terminal_mechanism_precheck_v1.py": "43f5596f011bcdfbf7b00537add949db609f713a3bc72d2b218fcd47079b4ba7",
+    "encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "launch_staged_reference_v1.py": "dd350cff7ad424c666f5a5dc3515b72db415d96dcbbdc8c055dbe95b9056984c",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "minimal_fixed_runtime_v1.py": "e86ac4e2f8243fe1e2ef356af650062c318e75781b4c0722a1222afa7817e84f",
+    "minimal_fixed_staged_training_v3.py": "f8295d4002a15c7ffdb6d8c1ce941fe3e8cc3f2862ee40437da3bc2af36741ad",
+    "resume_next_update_check_v2.py": "5c5f08230b89ba6ca4b2cbcb83d403ee73ac1d3172f1a9175287e71ae0c75291",
+    "role_guard_v1.py": "e1d4c0e41121ccdb1a05b66bd81be81c419311ab68abba70737b0d9ad38a1145",
+    "staged_reference_wrapper_v1.py": "61c857abe0d39defaf09c6553ea6adf7292c41c0e2874b9b52764de3cfb511db"
+  },
+  "role_order_sha256": {
+    "fit_0.npy": "b93d8e4f5271354a1b5741e824f895ecec292b1397be3521ae8474600cce110d",
+    "fit_orders_seed91819_100.npy": "40d6374c33e77828a87206deb9457f41417cb7a4c2d2aae5879ce93858de638d",
+    "inner_0.npy": "c3484b79520d283d9b3785d8f374c804f9c67e9f4df8fa5a9ce68bb83294d081",
+    "outer_0.npy": "4a2ec5a27bd0a48e1a67fe746d28c0061c0c8ec855239b40a1299bd5d620e4c0",
+    "train_row_video_mapping.json": "62536b398854df5c6abf1987ff6c8373aabc980a273687484da2df275149b12c"
+  },
+  "actual_precheck_root": "/data/coding/minimal_fixed_fold0_activation_checkpoint_v6_actual_20261006T144244Z",
+  "actual_precheck_receipt_sha256": "6816dfab22f9e173f140996979884df5e36d378e2e650277ccf4d3f1f9807f93",
+  "actual_precheck_exit_sha256": "cbea7fd8befbc72e0ed8b76437b1fd7b9575ca1941ab4d9a145fda5362bf8c38",
+  "original_complete_joint_audit_sha256": "064e453546dbd4adda1757cb99cf873e9c5cabc1736087478c7f31d706dbb4df",
+  "clean_initial_full_sha256": "38d589de501ddaf7caa9f5328db421f3406b017b1753bfef19ebb62d71adca57",
+  "clean_initial_state_sha256": "db38bab70ccedac095d48277b584ec96b2192597cd2aa04c5bb636185c3e4947",
+  "fit_statistics_sha256": "acc9d34e6adb3d4dfbbbfdd09160ec8b8534e800a9300660ba4de89127c66784",
+  "clean_rng_sha256": {
+    "clean_initial_torch_rng.pt": "649813a60fe75612224b667925c450ca0c806b745c95695b4fca6f184df610c9",
+    "clean_initial_python_numpy_rng.json": "2d68714fc775ec8579725daa79cfa465b0c2db889eab6f743a4a799de83d239c"
+  },
+  "initial_restore": "All 374 parameters/buffers plus torch CPU/CUDA/Python/NumPy captured before precheck steps, not reseed or post-precheck state.",
+  "optimizer": "Original source pinned author/control AdamW groups lr1e-5 warmup0.1 over2200 updates; optimizer then scheduler every actual batch including23 tail.",
+  "precision": "Source/default FP32, no autocast or GradScaler; original author backend deterministic seed function. Log actual backend state.",
+  "task_parameters": 185402807,
+  "parameter_tensors": 364,
+  "full_state_tensors": 374,
+  "matching_protocol": {
+    "shared_first10_order_content_sha256": "f0aa667ed0e899899df14c741fc8193f3c7966b80877786113d8d8727d3258c8",
+    "exact_clean_initial_and_model_source_pinned": true,
+    "actual_comparison_control_trained": false,
+    "future_training_donor_ablation_only_if_separate_question": "Same constructed modules/initial state/roles/statistics/all orders/objective weights/optimizer/selection. Disable donor contribution; allow honest unused donor gradients, no dummy loss. Random stream strategy must separately freeze and verify.",
+    "no_old_C2_plain_teacher_or_old_task_weight_initialization": true
+  },
+  "shared_first10_order_content_sha256": "f0aa667ed0e899899df14c741fc8193f3c7966b80877786113d8d8727d3258c8",
+  "selection": "Every epoch exactly original INNER153/4 video equal float64 MSE, strictly less selects new best, exact ties retain earliest. No hyperparameter or seed/loss changes at10.",
+  "reference_roles": {
+    "FIT": [
+      695,
+      30
+    ],
+    "INNER": [
+      153,
+      4
+    ],
+    "OUTER": [
+      433,
+      18
+    ]
+  },
+  "future_head_roles": {
+    "role_reservation_plan_sha256": "e143c8a54b830a703698b4e1c54c6a6d47a4ebf2081491c16ea874777ec9cca4",
+    "head_development_FIT": [
+      232,
+      9
+    ],
+    "head_development_EVAL": [
+      201,
+      9
+    ],
+    "OUTER_disabled_through_training_and_this_runner": true,
+    "head_training_not_authorized_by_this_plan": true,
+    "legal_next_minimum_proposal": "After100 earliest best full replay/zero-label real candidate nondegeneracy, separate fixed protocol U/W affine h(1,pF,delta), same 3 parameters ridge.01 slopes only, FIT-only feature stats and globalW normalization; fixed free/interval/discrete reads pluszero/all-accept/constant. No EVAL selection or oldT0 c transfer.",
+    "stop_before_head": "No actual delta output changes => stop candidate/W, no epsilon weights or direction/amplitude sweep.",
+    "past_allTRAIN_exploration_not_fresh_confirmation_or_wholecrossfit": true
+  },
+  "mechanism_fit_rows": [
+    1089,
+    822,
+    373,
+    564
+  ],
+  "mechanism": "One same four-row zero-label zero-donor check at predeclared stage10/final selected checkpoint;<=120s no sweep/extra formal steps/score claim.",
+  "resume_check": "At saved220, continuous and fresh-disk-restored same next FIT batch each isolated one update. Exact complete model/Adam/scheduler/ending RNG digest and objective. Restore220; diagnostic2 steps never count formal221 or select.<=240s.",
+  "conservative_100_projection_seconds": 15024.461647868156,
+  "projection_method": "100*(21*3*max precheck normal/mixed seconds+3*backward-only tail seconds+entire76.5s precheck as INNER upper bound)+600. Update using full real epoch INCLUDINGtail optimizer and INNER, not just two-step minimum.",
+  "actual_phase10_seconds_limit": 1800,
+  "actual_continue100_seconds_limit": 18000,
+  "whole_cumulative_GPU_bytes_limit": 6442450944,
+  "saving_reserve_seconds": 7200,
+  "space_gate_bytes": {
+    "remote_free_before_start": 12884901888,
+    "D_free_before_start": 12884901888,
+    "remote_min_during_execution": 4294967296
+  },
+  "space_ledger": "Keep existing initial/post-precheck originals; stage10 resume includesmodel+2Adam+best (~2.97GB) plusselectedbest~.742GB. Final100 another~3.71GB, new smallZIP/receipt/RNG and temp margin. Maxnew<10GiB each A,D,B. No all100 full weight snapshots; bestCPU RAM cloned, immutable boundary files. No old deletion.",
+  "next_update_GPUBudget_included": true,
+  "fresh_instance_strict_replay_required": true,
+  "assets_must_be_actual_verified_before_launch": true,
+  "actual_stage10_executed": false,
+  "actual100_completed": false,
+  "new_performance_scores": false
+}

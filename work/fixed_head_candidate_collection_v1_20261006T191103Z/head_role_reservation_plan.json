@@ -1,0 +1,63 @@
+{
+  "status": "FUTURE_HEAD_ROLE_RESERVATION_ONLY_NO_HEAD_EXPERIMENT_AUTHORIZATION_GATE",
+  "actual_frozen_utc": "2026-10-06T14:00:48.899635+00:00",
+  "reference_runtime_plan_sha256": "e4d0c71a73186ae9073dc0d88ccdd4fd753a4d81a967eb458a52a0669437fa63",
+  "mapping_metadata_sha256": "62536b398854df5c6abf1987ff6c8373aabc980a273687484da2df275149b12c",
+  "original_reference_roles": {
+    "fit": {
+      "rows": 695,
+      "videos": 30,
+      "role_array_sha256": "b93d8e4f5271354a1b5741e824f895ecec292b1397be3521ae8474600cce110d"
+    },
+    "inner": {
+      "rows": 153,
+      "videos": 4,
+      "role_array_sha256": "c3484b79520d283d9b3785d8f374c804f9c67e9f4df8fa5a9ce68bb83294d081"
+    },
+    "outer": {
+      "rows": 433,
+      "videos": 18,
+      "role_array_sha256": "4a2ec5a27bd0a48e1a67fe746d28c0061c0c8ec855239b40a1299bd5d620e4c0"
+    }
+  },
+  "rule": "SHA256 salt:video sorted; first9 head FIT, last9 development EVAL. No head selection role, no labels/predictions/Q used.",
+  "head_development_fit": {
+    "videos": [
+      "Oz06ZWiO20M",
+      "6Egk_28TtTM",
+      "TvyZBvOMOTc",
+      "HEsqda8_d0Q",
+      "8qrpnFRGt2A",
+      "GWuJjcEuzt8",
+      "Vj1wYRQjB-o",
+      "2WGyTLYerpo",
+      "Af8D0E4ZXaw"
+    ],
+    "rows": 232,
+    "array_sha256": "80c163a1ed85d3f2541bd85eb88d90c6d45577ce27aedc5b0fd48a24f73adcf5"
+  },
+  "head_development_eval": {
+    "videos": [
+      "POKffnXeBds",
+      "6_0THN4chvY",
+      "1iG0909rllw",
+      "Dg_0XKD0Mf4",
+      "Jkswaaud0hk",
+      "Nzq88NnDkEk",
+      "Sqr0AcuoNnk",
+      "LSi-o-IrDMs",
+      "8OtFthrtaJM"
+    ],
+    "rows": 201,
+    "array_sha256": "4d5b444070ed452687ef72543c35f46b93ae3d085977f5ec22d81542a31c37cd"
+  },
+  "head_hyperparameter_selection_on_eval_allowed": false,
+  "reference_FIT_INNER_unchanged": true,
+  "precheck_OUTER_still_disabled": true,
+  "past_T0_and_old_allTRAIN_exploration_retained": true,
+  "fresh_confirmation_or_whole_pipeline_crossfit": false,
+  "reference_training_already_complete": false,
+  "head_architecture_candidate_budget_and_stop_protocol_complete": false,
+  "actual_task_label_or_prediction_read_this_freeze": false,
+  "actual_GPU": false
+}

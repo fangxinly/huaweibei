@@ -1,0 +1,253 @@
+{
+  "status": "THIRD_LEASE_PUBLIC_RESTORE_ONLY",
+  "execution_enabled": true,
+  "actualclock_preparation_utc": "2026-10-07 08:41:36 UTC",
+  "methods": [
+    "anchored_flow"
+  ],
+  "single_candidate": "Source-supervised zero-gain residual flow, fixed coefficients, no sweep",
+  "objective": {
+    "final_mse": 1.0,
+    "final_mae": 0.25,
+    "source_mse": 0.5,
+    "nonzero_sign_softplus": 0.1
+  },
+  "flow": {
+    "euler_steps": 2,
+    "passes": 1,
+    "slots": 8,
+    "donor_scale": 0.125,
+    "role_head_scale": 0.1,
+    "initial_gain": 0.0,
+    "gain_activation": "tanh",
+    "risk_bound_claimed": false
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "base_lr": 1e-05,
+    "gain_lr": 0.001,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "gain_weight_decay": 0.0,
+    "clip_norm": 1.0
+  },
+  "task_seed": 128,
+  "fold_budgets": [
+    {
+      "fold": 0,
+      "fit": 1494,
+      "inner": 264,
+      "outer": 437,
+      "epochs": 40,
+      "batch": 32,
+      "drop_last": false,
+      "updates": 1880,
+      "tail_rows": 22
+    },
+    {
+      "fold": 1,
+      "fit": 1494,
+      "inner": 266,
+      "outer": 435,
+      "epochs": 100,
+      "batch": 32,
+      "drop_last": false,
+      "updates": 4700,
+      "tail_rows": 22
+    },
+    {
+      "fold": 2,
+      "fit": 1486,
+      "inner": 268,
+      "outer": 441,
+      "epochs": 100,
+      "batch": 32,
+      "drop_last": false,
+      "updates": 4700,
+      "tail_rows": 14
+    },
+    {
+      "fold": 3,
+      "fit": 1484,
+      "inner": 270,
+      "outer": 441,
+      "epochs": 100,
+      "batch": 32,
+      "drop_last": false,
+      "updates": 4700,
+      "tail_rows": 12
+    },
+    {
+      "fold": 4,
+      "fit": 1486,
+      "inner": 268,
+      "outer": 441,
+      "epochs": 100,
+      "batch": 32,
+      "drop_last": false,
+      "updates": 4700,
+      "tail_rows": 14
+    }
+  ],
+  "inner_selection": "FP64 all-row MSE, strict min, earliest tie",
+  "source_sha256": {
+    "anchored_flow.py": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+    "careflow_train_dev_author_components_candidate.py": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+    "encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "fixed_flow_components_candidate.py": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+    "fold_contract.py": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+    "fold_cpu_audit.py": "f69c688145531b41cd8562f1599613eb54a2132d4328a66dab449d2866530860",
+    "fold_evidence.py": "12fdbc69d917edb1a35785daa40ba9da3403513f452f4bd2b9d38a14835faff1",
+    "fold_runtime.py": "211e127eb3863af16c579720f3d513d9dd14f4e0d4ce3741105346f0d2f90269",
+    "fold_score.py": "86bca960ed111c2b3425a360340935bc81e814b035382776f36b9547503778a0",
+    "fold_session.py": "daa446f09c33c0f7979a8e05d44d311d892d5d20108987d671d5bc11fc0c0f92",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "native_fixture_runner.py": "630a30b9ea114f76f96c8b54047c0f3e5487fe24c0aeda1eea94f39b87e21cd9",
+    "official_fulltrain_dev_guard_candidate.py": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+    "paired_fulltrain_session_candidate.py": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+    "prepare.py": "669c2b573961b68f4f116eec77c7d42421871142307221c30b2b29c5c31bd208",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "test_fold_contract.py": "32ec5635241d73cde9edcd47b803f6ff4707982b0b0625211f97696d59638ed3",
+    "test_pilot_budget.py": "ad8f68aea9e4a125afdefe95c63f9813bf4897339480c69da7c18660c56f153c"
+  },
+  "split_sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+  "order_sha256": {
+    "orders_fold0.npy": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163",
+    "orders_fold1.npy": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd",
+    "orders_fold2.npy": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5",
+    "orders_fold3.npy": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69",
+    "orders_fold4.npy": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+  },
+  "asset_sha256": {
+    "assets/CaReFlow/global_configs.py": "03298964c57bf2a0032c71cb64cf915903d3050e7598282140b35a06428ad218",
+    "assets/CaReFlow/model_new.py": "c4fc45c2b92908dc03cc785c76bc42f74f4492200f5f812f244e2ed4d204e00e",
+    "assets/CaReFlow/model_reflow_new.py": "3ae983077f0796fa52f8912927d85cf1214723d3edeabd8f6ce49d119ee23df6",
+    "assets/CaReFlow/modules/multihead_attention.py": "218581c6d8e2c599f68ee9910d9c7aee4c27b74cd77c7ca862007cfba09fd325",
+    "assets/CaReFlow/modules/position_embedding.py": "d8590edfdbbaeb7f1fecb51afc7eb39550bd630d1d385830a01119747f7b5e83",
+    "assets/CaReFlow/modules/transformer.py": "adc246d15f78514988e06c84bfa62df0b78b5ddf91382f85f9b0e2f701dbbab3",
+    "assets/CaReFlow/rectified_flow_new.py": "6614593438d3c4e626c52633c662bf7134ad60fcaa46bfc660dce57caadc9ef3",
+    "assets/CaReFlow/train_reflow_new.py": "d0266a55931fbae4329c2123b3b0f0d475799f31b8e202fa393ecef406ce841e",
+    "assets/run_careflow.py": "7ac39282e776d12486e90857981acc186921d5a6f05e9228c8dfa524666a955e",
+    "assets/run_control_baseline.py": "acc37dcef3c804d9875b2da49c968cb07378c3910efc1eba00ccc2390bdb966b",
+    "assets/deberta-v3-base/config.json": "649f6a1ec33c6bdd9a6486d5c66019d461139e54957073eafe9bbc2d34c75b0b",
+    "assets/deberta-v3-base/download_manifest.json": "1919b103f05042daa7af47c279573bf7dc3e727f3759e9821977cd01683d112a",
+    "assets/deberta-v3-base/pytorch_model.bin": "691d48a2800b926a19e3051def466fc2cca4f59a15e42ce4a0cf7f1b380b5e33",
+    "assets/deberta-v3-base/spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+    "assets/deberta-v3-base/tokenizer_config.json": "3f3978e0c036f2c2588cac34a6047cbb0af0b0dc1814254e291028529805496d",
+    "assets/mosi.pkl": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b"
+  },
+  "precheck_fold": 0,
+  "precheck_D_other_CPU_joint": {
+    "anchored_flow": {
+      "path": "parents/precheck_D_B_CPU_joint.json",
+      "sha256": "c6e550d104039b8f756c9157e668ef2687b4a4e20d0a0d99e9c4d2ba3db6df4a"
+    }
+  },
+  "native_dependency_freeze_pending": false,
+  "remote_free_floor_bytes": 8589934592,
+  "max_gpu_peak_bytes": 6442450944,
+  "storage_estimate_not_actual_new_file_bytes": {
+    "ten_final_full_states_bytes": 37080000000,
+    "two_full_precheck_states_bytes": 5940000000,
+    "additional_saving_margin_bytes": 8000000000
+  },
+  "conservative_lease_end_UTC": "2026-10-08T14:00:00+00:00",
+  "human_asset_and_lease_budget_reference": {
+    "original_human_message_id": "01a1116c-0fb4-77b2-8fee-efbc44859787",
+    "scope": "Original second24h threeP4 asset lease; human authorized optimization and merged video fivefold; conservative13:30 not platform confirmation"
+  },
+  "complete_storage_reservation_reference": {
+    "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\anchored_flow_pilot40_20261007T091746Z\\actual_local_pilot_capacity.json",
+    "sha256": "56c3a18847acb514558a2e18681cd819ea81c9717b61e02f6dbb610101e42515"
+  },
+  "remaining_queue_execution_budget_seconds": 5000,
+  "checkpoint_cadence": "Every10epochs plus completion; full model/Adam/scheduler/RNG/orders/stats/history/selected state",
+  "score_rule": "Selected INNER five are development diagnostics only; OUTER remains unscored; no CaReFlow superiority claim",
+  "global_score_token": "/data/coding/multimodal_flow_public_20261006T1341Z/locks/group5_2026-10-07_084136_UTC.score_once",
+  "pooled_metric_rule": "Acc7/Acc2/support-weightedF1/MAE/Pearson on concatenated OOF, plus fold mean/std",
+  "not_five_independent_seeds": true,
+  "official_TEST_no_longer_holdout": true,
+  "task_weights_reused": false,
+  "new_training_started": false,
+  "native_Torch_check_passed": true,
+  "source_parents": {
+    "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\paired_official_fulltrain_v2_20261007T011543Z\\paired_fulltrain_execution_plan.json": "8dc4093ae64a61018fee0781d250b40e0ecf26fe11b6c9feb8529fd4ef1a95eb",
+    "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\paired_final_TEST_pipeline_frozen_20261007T043535Z\\source\\parents\\input_identity_A.json": "c5bd3d65e1d87a275e2627de9f80336a2188801fb73bbf67fbb3f494d0e3224d"
+  },
+  "pending": [
+    "Fresh A physical assets/runtime/UUID/fullargv/space before actual training"
+  ],
+  "authorized_stages": [
+    "train"
+  ],
+  "authorized_methods": [
+    "anchored_flow"
+  ],
+  "runtime_exact_versions": {
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.2",
+    "colorama": "0.4.6",
+    "filelock": "3.15.4",
+    "fsspec": "2026.9.0",
+    "hf-xet": "1.6.0",
+    "huggingface-hub": "0.36.2",
+    "idna": "3.20",
+    "joblib": "1.4.2",
+    "numpy": "1.26.4",
+    "packaging": "24.1",
+    "pyyaml": "6.0.3",
+    "regex": "2026.9.29",
+    "requests": "2.32.3",
+    "safetensors": "0.8.0",
+    "scikit-learn": "1.5.2",
+    "scipy": "1.13.1",
+    "sentencepiece": "0.1.99",
+    "threadpoolctl": "3.5.0",
+    "tokenizers": "0.15.2",
+    "tqdm": "4.66.5",
+    "transformers": "4.37.2",
+    "typing-extensions": "4.16.0",
+    "urllib3": "2.8.0",
+    "torch": "2.1.0+cu121"
+  },
+  "native_synthetic_D_reference": {
+    "path": "D:/CodexBackups/selective_flow_20261003_1105/group5_native_synthetic_20261007T083554Z/actual_D_native_fixture_receipt.json",
+    "sha256": "7973c7cd845f5248ac11c3dd1afbc9cb73c930d42fbb090d4fb3b2ee7e9521fa"
+  },
+  "full_ten_training_execution_frozen": false,
+  "CPU_other_node": "B",
+  "actual_scope_freeze_utc": "2026-10-07 08:41:36 UTC",
+  "runtime_source_plan_sha256": "f41d05150d5ff1522c45508869981ea9e878aa75327e79f8a6895a0323ef62b6",
+  "actualclock_scope_freeze_utc": "2026-10-07 09:17:46 UTC",
+  "authorized_folds": [
+    0
+  ],
+  "pilot_not_full_fivefold": true,
+  "old_precheck_weights_reused": false,
+  "restore_source_SHA": "674c735a07bc3b305590e193bc82f61d03a7e5331998bf97220593282db27eca",
+  "public_archive_SHA": "9ba39814c6969667ab4b256f6718d839328c44d33142ade4a0a64c7725affa8d",
+  "wheel_archive_SHA": "735be36344370cc3e2119ad6da5e62e60ff538bfc84374d5d92d04ef9100ed39",
+  "public_root": "/data/coding/multimodal_flow_public_20261007T141430Z",
+  "remote_record_prefix": "/data/coding/third_lease_public_restore_20261007T141430Z",
+  "platform_expiry_confirmed": false,
+  "lease_provenance": "Human new three endpoints and explicit 24hours in this chat; first actualclock connection2026-10-07 14:11:29 UTC; conservative end earlier than that plus24h",
+  "nodes": {
+    "A": {
+      "host": "REDACTED_SERVER_HOST.invalid",
+      "port": 53423,
+      "uuid": "GPU-4e64fc9f-5481-c32d-3fd4-e16a3a9a7198"
+    },
+    "B": {
+      "host": "REDACTED_SERVER_HOST.invalid",
+      "port": 53428,
+      "uuid": "GPU-8897bd58-4213-b200-8801-6ac6bfc55f3f"
+    },
+    "C": {
+      "host": "REDACTED_SERVER_HOST.invalid",
+      "port": 53495,
+      "uuid": "GPU-8545cacc-dd22-3318-7c4f-26d69a9086c5"
+    }
+  }
+}

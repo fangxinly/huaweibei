@@ -1,0 +1,35 @@
+{
+  "frozen_utc": "2026-10-05T16:02:07.594716+00:00",
+  "source_sha256": "d324f8a4182ea4d18459c0279c1ae0cdae522c767cb05e0c6028812de4d625c1",
+  "conditions": [
+    "default",
+    "alloff",
+    "off0",
+    "off1",
+    "off2",
+    "off3",
+    "off4",
+    "off5",
+    "swap0",
+    "swap1",
+    "swap2",
+    "swap3",
+    "swap4",
+    "swap5",
+    "fixed",
+    "finite_scalar",
+    "finite_vector",
+    "receiver_off0",
+    "receiver_off1",
+    "receiver_off2"
+  ],
+  "scope": "20primary conditions preplanned by finite_formal_plan_v1; masks applied to final transmitted message after control so vector cannot regenerate channels. Swaps replace only donor pooled representation by cyclic shift1 inside fixed officialDEV128/101 batches, recompute label-free control. Additional7terminal rawfixed/all6rawwithout predictions quantify proxy estimand exact risk; distinguish rawproxy and finaltransmission estimands. DEV229 only frozendiagnostic, no parameter update or structure selection, no TEST. Frozen source byteSHA/currentselectedaddon must replay0 and params unchanged.",
+  "budget": "2completed arms times20primary plus7raw calibration; under30min each, no newtraining.",
+  "amendment": "V3 verifies algebra in float64 from the SAME model predictions with tighter 1e-12 tolerance; float32 predictions, utility arrays, conditions and parameters unchanged; reports original float32 cancellation separately. V1/V2 rejected attempts retained.",
+  "freeze_utc": "2026-10-05T16:08:14.213948+00:00",
+  "prior_attempt_errors": {
+    "a": 2.2649765014648438e-06,
+    "b": 2.734363079071045e-06,
+    "replay_label_context": 0
+  }
+}

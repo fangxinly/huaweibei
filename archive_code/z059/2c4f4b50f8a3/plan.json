@@ -1,0 +1,65 @@
+{
+  "status": "PREPARED_NOT_LAUNCHED",
+  "created_at": "2026-10-04T06:51:45.081971+00:00",
+  "human_fixed_five_random_seeds_confirmed": true,
+  "human_confirmation": "\u56fa\u5b9a\u4e94\u968f\u673a\u79cd\u5b50",
+  "nodes": {
+    "p4_a": {
+      "seed": 0,
+      "endpoint": "REDACTED_SERVER_HOST.invalid:53439",
+      "gpu_uuid": "GPU-5902bbd4-2328-0822-777c-1311d53ee5a3",
+      "deadline_beijing_estimate": "2026-10-05T14:40:00+08:00"
+    },
+    "p4_b": {
+      "seed": 1,
+      "endpoint": "REDACTED_SERVER_HOST.invalid:53450",
+      "gpu_uuid": "GPU-c65ea6c9-c9b4-d2d8-a1ab-5867662ed26d",
+      "deadline_beijing_estimate": "2026-10-05T14:40:00+08:00"
+    },
+    "4060_new": {
+      "seed": 2,
+      "endpoint": "REDACTED_SERVER_HOST.invalid:53478",
+      "gpu_uuid": "GPU-4bd54d2d-01d5-65c9-3d1d-b76b7a42f61f",
+      "deadline_beijing_estimate": "2026-10-05T00:40:00+08:00"
+    },
+    "p4_c": {
+      "seed": 3,
+      "endpoint": "REDACTED_SERVER_HOST.invalid:53442",
+      "gpu_uuid": "GPU-2a0c83a4-0a1a-494d-6e80-0c756fb075aa",
+      "deadline_beijing_estimate": "2026-10-05T14:40:00+08:00"
+    }
+  },
+  "case_order": [
+    "seven_aligned",
+    "full_only_aligned",
+    "seven_train_AV_null"
+  ],
+  "protocol": "official MOSI1281/229/685; seeds128/0/1/2/3; 100epochs/train32/dev128; frozen capacity/optimizer/dev batchMSE selection",
+  "unique_jobs": {
+    "seven_aligned_seed0": "p4_a",
+    "full_only_aligned_seed0": "p4_a",
+    "seven_train_AV_null_seed0": "p4_a",
+    "seven_aligned_seed1": "p4_b",
+    "full_only_aligned_seed1": "p4_b",
+    "seven_train_AV_null_seed1": "p4_b",
+    "seven_aligned_seed2": "4060_new",
+    "full_only_aligned_seed2": "4060_new",
+    "seven_train_AV_null_seed2": "4060_new",
+    "seven_aligned_seed3": "p4_c",
+    "full_only_aligned_seed3": "p4_c",
+    "seven_train_AV_null_seed3": "p4_c"
+  },
+  "reuse_128_count": 3,
+  "new_runs": 12,
+  "estimated_new_weight_bytes": 8902419156,
+  "maximum_training_processes_per_new_node": 1,
+  "paired_same_seed_cases_same_node": true,
+  "test_policy": "No test used by these training processes. Frozen structure receives one test evaluation per selected checkpoint later; never test-select structure.",
+  "old_4060_recovery_two_runs_continue": true,
+  "deadline_platform_verified": false,
+  "limits": [
+    "P4/4060 assignment differs across seeds; paired comparisons within each seed use the same GPU.",
+    "Five random seeds are not data cross-validation.",
+    "No assertion of guard reliability, shared semantics, raw-input causality, statistical significance or hardware trajectory equivalence."
+  ]
+}

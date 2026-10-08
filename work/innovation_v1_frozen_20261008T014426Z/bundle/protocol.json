@@ -1,0 +1,112 @@
+{
+  "status": "INNOVATION_V1_SOURCE_NATIVE_CACHE_PROTOCOL_FROZEN",
+  "actualclock_freeze_UTC": "2026-10-08 01:44:26 UTC",
+  "scope": "single_fold0_fixed_mechanism_trial",
+  "real_train_enabled": false,
+  "allowed_stages": [
+    "native",
+    "cache"
+  ],
+  "config": {
+    "latent_dim": 32,
+    "inner_crossfit_k": 5,
+    "outer_crossfit_k": 5,
+    "baseline_steps": 160,
+    "flow_steps": 160,
+    "proposal_steps": 160,
+    "gate_steps": 200
+  },
+  "CAL_fraction": 0.2,
+  "task_seed": 128,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "batch": 64,
+    "clip_norm": 1
+  },
+  "all_fixed_heads_use_final_step_no_INNER_selection": true,
+  "source_sha256": {
+    "cache_features.py": "4e5314a139264100fdcd11290e3fff9ee5b6b4c06241b4b083f29601e877f108",
+    "contract.py": "4c545e6565fc142e9e3c80b54c4a10c2833e045800162a6736a86c2a91600c9d",
+    "models.py": "818bdff2e3c3ce3fbde99767265275b6d4f26d023fc8303151f9360612c22dff",
+    "native_check.py": "ccf1acd756ad39c1f058b894f41e1d3146044e271510e195a0223ed4cf3835e3",
+    "native_wrapper.py": "e35e4e24b69b3ed08ddc54ce048bae8e86c0ba2e2f9ca6b86367e1d006a9d4f2",
+    "pipeline.py": "12a4eca960fb4290eec2838e84618923c850e32864714b1cf39a4beb495a3dda",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "split.json": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+    "train_pilot.py": "54e22eec1a4154eb188674f9c72da833c92a0d1bd12288c97cf8eacf3afbc0e0"
+  },
+  "split_SHA": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+  "asset_sha256": {
+    "assets/CaReFlow/global_configs.py": "03298964c57bf2a0032c71cb64cf915903d3050e7598282140b35a06428ad218",
+    "assets/CaReFlow/model_new.py": "c4fc45c2b92908dc03cc785c76bc42f74f4492200f5f812f244e2ed4d204e00e",
+    "assets/CaReFlow/model_reflow_new.py": "3ae983077f0796fa52f8912927d85cf1214723d3edeabd8f6ce49d119ee23df6",
+    "assets/CaReFlow/modules/multihead_attention.py": "218581c6d8e2c599f68ee9910d9c7aee4c27b74cd77c7ca862007cfba09fd325",
+    "assets/CaReFlow/modules/position_embedding.py": "d8590edfdbbaeb7f1fecb51afc7eb39550bd630d1d385830a01119747f7b5e83",
+    "assets/CaReFlow/modules/transformer.py": "adc246d15f78514988e06c84bfa62df0b78b5ddf91382f85f9b0e2f701dbbab3",
+    "assets/CaReFlow/rectified_flow_new.py": "6614593438d3c4e626c52633c662bf7134ad60fcaa46bfc660dce57caadc9ef3",
+    "assets/CaReFlow/train_reflow_new.py": "d0266a55931fbae4329c2123b3b0f0d475799f31b8e202fa393ecef406ce841e",
+    "assets/run_careflow.py": "7ac39282e776d12486e90857981acc186921d5a6f05e9228c8dfa524666a955e",
+    "assets/run_control_baseline.py": "acc37dcef3c804d9875b2da49c968cb07378c3910efc1eba00ccc2390bdb966b",
+    "assets/deberta-v3-base/config.json": "649f6a1ec33c6bdd9a6486d5c66019d461139e54957073eafe9bbc2d34c75b0b",
+    "assets/deberta-v3-base/download_manifest.json": "1919b103f05042daa7af47c279573bf7dc3e727f3759e9821977cd01683d112a",
+    "assets/deberta-v3-base/pytorch_model.bin": "691d48a2800b926a19e3051def466fc2cca4f59a15e42ce4a0cf7f1b380b5e33",
+    "assets/deberta-v3-base/spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+    "assets/deberta-v3-base/tokenizer_config.json": "3f3978e0c036f2c2588cac34a6047cbb0af0b0dc1814254e291028529805496d",
+    "assets/mosi.pkl": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b"
+  },
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "torch": "2.1.0+cu121",
+    "transformers": "4.37.2"
+  },
+  "GPU_UUID": {
+    "A": "GPU-4e64fc9f-5481-c32d-3fd4-e16a3a9a7198",
+    "B": "GPU-8897bd58-4213-b200-8801-6ac6bfc55f3f",
+    "C": "GPU-8545cacc-dd22-3318-7c4f-26d69a9086c5"
+  },
+  "public_assets_root": "/data/coding/multimodal_flow_public_20261007T141430Z",
+  "allowed_endpoints": [
+    "REDACTED_SERVER_HOST.invalid:53423",
+    "REDACTED_SERVER_HOST.invalid:53428",
+    "REDACTED_SERVER_HOST.invalid:53495"
+  ],
+  "conservative_lease_end_UTC": "2026-10-08T14:00:00+00:00",
+  "platform_expiry_verified": false,
+  "human_lease_reference": {
+    "path": "outputs/第三租期恢复与弱情绪损失原生检查实际接续.json",
+    "SHA": "360f3da77d0bf296da83dc4093820259632dd1bad28a0b708620285ce72c4438",
+    "human_confirmed_hours": 24
+  },
+  "local_storage_reservation": {
+    "actual_UTC": "2026-10-08T01:44:37.432763+00:00",
+    "D_free_bytes": 2624311296,
+    "C_free_bytes": 1684762624,
+    "single_trial_new_originals_upper_bytes": 300000000,
+    "additional_local_margin_bytes": 1000000000,
+    "no_additional_deletion": true
+  },
+  "remote_space_floor_bytes": 2000000000,
+  "stage_budget_seconds": {
+    "native": 300,
+    "cache": 900,
+    "train": 1800
+  },
+  "native_D_and_other_CPU_reference": null,
+  "cache_D_reference": null,
+  "cache_reference": null,
+  "methods": [
+    "baseline_calibrated",
+    "full_message",
+    "flow_ordinary_gate",
+    "flow_residual_gate",
+    "regression_residual_gate"
+  ],
+  "gate_calibration": "CAL videos excluded from every trainable predecessor, normalization and gate fitting; one nonnegative slope per residual gate and ordinary gate. Clip final gate to [0,1]. No no-harm guarantee.",
+  "baseline_calibration": "Whole-video internal OOF within each declared task-training set. Complete-pipeline OOF for outer gate features excludes held videos from every predecessor.",
+  "frozen_features": "Public DeBERTa masked aligned subtoken mean; aligned raw A/V means. No task checkpoint. Train-only raw scaling plus deterministic fixed orthogonal projection, common orientation across OOF models.",
+  "flow": "Conditional noise-to-donor CFM MSE; eight Euler steps/eight fixed antithetic noise draws estimate conditional mean. Finite-sample estimate, not exact expectation/PID.",
+  "correction": "For each direction h(receiver,message)-h(receiver,zero); all message-off corrections exactly zero. Sum divided by six is one total delta; gates use joint utility, no additive per-direction utility claim.",
+  "evaluation": "Fold0 INNER inputs only until all predictions and complete small state D+other-node CPU saved; then all five arms scored together once. No original TEST score/selection. No OUTER scoring or full fivefold claim."
+}

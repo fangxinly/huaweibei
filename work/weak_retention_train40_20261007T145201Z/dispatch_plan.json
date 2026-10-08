@@ -1,0 +1,12 @@
+{
+  "stage": "train",
+  "operator_source_SHA": "7229be0dd245be6666f4c01681eaa491e46cca6cba94b229a2e2570db9a62fa5",
+  "archive": "/data/coding/weak_retention_train40_source_20261007T145201Z.zip",
+  "archive_SHA": "5a564e0061293cbd43fb65853c6689dd9902e05dbab37ecdb930a82c7c7e60d2",
+  "bundle": "/data/coding/weak_retention_train40_source_20261007T145201Z",
+  "assets": "/data/coding/multimodal_flow_public_20261007T141430Z",
+  "protocol_SHA": "cff9da9c18a4ac10a0d53b585a24126beb492735b4310aa1b6fd113f0f268092",
+  "root": "/data/coding/weak_retention_train40_run_20261007T145201Z",
+  "execution": "/data/coding/weak_retention_train40_execution_20261007T145201Z",
+  "operator_record": "/data/coding/weak_retention_train40_operator_20261007T145201Z"
+}

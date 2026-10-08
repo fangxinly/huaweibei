@@ -1,0 +1,39 @@
+{
+  "status": "LOCAL_MATCHED_HEAD_FIT_RUNNER_AUDIT_WRAPPER_PREPARATION_NOT_EXECUTION_FREEZE",
+  "actual_utc": "2026-10-06T19:36:42+00:00",
+  "source_and_record_SHA": {
+    "audit_matched_head_fit_original_CPU_v1.py": "d2b41a2df0f58e590b953ece354de551cbab491fe9f182c990ed508469c3d2b1",
+    "check_matched_head_preparation_v2.json": "24925b5dfaf7b53dd7b0535df660fc84cffeaebedad87de32958728c271715ce",
+    "check_matched_head_preparation_v2.py": "14b8e071c0efaa702e3566982cfa86260f7db5895d1d91113dd03c5e2db6ca82",
+    "fit_matched_fixed_heads_original_v1.py": "d3e4c90f9f845f2618ef3e63967824efebd101d37c7d9f1e2b7ddb4ecc2a02e2",
+    "matched_fixed_residual_heads_v1.py": "94802a4430af99b04b3b524f363f15ce15d9f7dfb381803327146275968ec333",
+    "matched_fixed_residual_heads_v2.py": "4f8ad9d963d01b089286d9dfb645a302ca3abf7794d88e07b15321e781e3f0ad",
+    "matched_head_fit_stage_wrapper_v1.py": "1720c0981359bee8cb31a0299abf587e11fbe3655f6c2828333553d502b7a706",
+    "preserve_matched_head_preparation_v2.py": "2436b3fdc21693419ca03414a1212344c7d50af04963668a75e99beaf37fe4a0",
+    "review15_actual_once_wait.json": "8ddbc73c1f7b83dfe6b47cb34c4433b5ce24ece7eb0399e0fad42056d67d459e",
+    "review15_independent_decision.json": "cb06f0ebe3fa42abb20f905a6d3dcb6598dd5ba6b1838a8f1dc34c5231aba3b5",
+    "第十五次独立审视_UW闭式协议的权重标准化与冻结顺序.md": "19e886de5df040f960f42bee033fa1aa1c3702c0da587aecdd11aeff97b57da1"
+  },
+  "review15_report_sha256": "19e886de5df040f960f42bee033fa1aa1c3702c0da587aecdd11aeff97b57da1",
+  "same_predeclared_recipe": true,
+  "complete_execution_protocol_ready": false,
+  "true_headFIT232_labels_or201_inputs_accessed": false,
+  "synthetic_check": {
+    "status": "SYNTHETIC_PREPARATION_CHECKS_PASSED_NOT_TASK_EXPERIMENT",
+    "independent_augmented_lstsq_max_error": 2.220446049250313e-16,
+    "structured_Q_data_identity_error": 8.673617379884035e-19,
+    "physical_JSON_head_replay_error": 0,
+    "negative_core_checks": 4,
+    "incomplete_protocol_entrypoints_rejected": 2,
+    "official_task_data_or_labels_accessed": false,
+    "GPU_or_remote_used": false,
+    "headFIT232_fit_or_headEVAL201_prediction_executed": false,
+    "source_sha256": "14b8e071c0efaa702e3566982cfa86260f7db5895d1d91113dd03c5e2db6ca82"
+  },
+  "missing": [
+    "exact201-only original-input collector and role/source/checkpoint guard",
+    "nine-readout physical prediction freeze then once201 label metric runner",
+    "independent othernode original prediction/metric audit and all roots/source/fullargv capture",
+    "complete protocol source freeze and real fresh identity/assets/space/human lease budget with two-hour preservation reserve"
+  ]
+}

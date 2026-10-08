@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-10-05T16:16:24.483371+00:00",
+  "source_sha256": "79f5bec4ace9c5434c3a061ddd512ef6dcebfcc87f77c6438ec23c9a753a4e83",
+  "conditions": [
+    "default",
+    "alloff",
+    "off0",
+    "off1",
+    "off2",
+    "off3",
+    "off4",
+    "off5",
+    "swap0",
+    "swap1",
+    "swap2",
+    "swap3",
+    "swap4",
+    "swap5",
+    "fixed",
+    "finite_scalar",
+    "finite_vector",
+    "receiver_off0",
+    "receiver_off1",
+    "receiver_off2"
+  ],
+  "scope": "20primary conditions preplanned by finite_formal_plan_v1; masks applied to final transmitted message after control so vector cannot regenerate channels. Swaps replace only donor pooled representation by cyclic shift1 inside fixed officialDEV128/101 batches, recompute label-free control. Additional7terminal rawfixed/all6rawwithout predictions quantify proxy estimand exact risk; distinguish rawproxy and finaltransmission estimands. DEV229 only frozendiagnostic, no parameter update or structure selection, no TEST. Frozen source byteSHA/currentselectedaddon must replay0 and params unchanged.",
+  "budget": "Only completedC2:20primary plus7raw calibration; max estimate30min; no training.",
+  "amendment": "C2 runtime analytic-single-token only; same20 primary +7raw calibration; same precision v3. Run only after natural100completion and selectedepoch restoration; no additional training or TEST.",
+  "freeze_utc": "2026-10-05T16:16:24.483371+00:00",
+  "prior_attempt_errors": {
+    "a": 2.2649765014648438e-06,
+    "b": 2.734363079071045e-06,
+    "replay_label_context": 0
+  },
+  "c2_formal_plan_sha256": "aebbe5ec854f65ddc2029a2aba2a436fa088a8ef17fe5ac158c39f86f91122c4"
+}

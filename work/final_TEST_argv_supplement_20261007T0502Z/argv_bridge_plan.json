@@ -1,0 +1,27 @@
+{
+  "status": "EXACT_PROCESS_SYS_ARGV_COMPARISON_SUPPLEMENT_FROZEN",
+  "actual_UTC": "2026-10-07T04:58:18.614589+00:00",
+  "original_plan_sha256": "f41d05150d5ff1522c45508869981ea9e878aa75327e79f8a6895a0323ef62b6",
+  "bridge_source_sha256": "f3b697ccdde8a0a0f655248237a0e8af744982a63ac63266af45379eda12d9d0",
+  "original_sources": {
+    "paired_final_TEST_capture_candidate_v1.py": "bc7249430eae7d9cb933f2e1902ab6899eb667d5d8c7b52de582b8af85d3d49c",
+    "paired_final_TEST_D_audit_candidate_v1.py": "77de3ca137e68ebf10b61c1b74111f387edc59464587386e4b60985ce439cc11",
+    "paired_final_TEST_guard_candidate_v1.py": "7e1c56a64b860c7d5f69f2d069809d423cc373428e992be523ee854e12f83b7a",
+    "paired_final_TEST_identity_candidate_v1.py": "b4109ae0eeb86eb0f78fd2912c719a2c48d87590ad6fbf33eaf0ee29bc383085",
+    "paired_final_TEST_natural_wrapper_candidate_v1.py": "e00697e32e6bd617e7daf586782b667b6723861781767392520bdecd2c09f350",
+    "paired_final_TEST_pipeline_candidate_v1.py": "0be6f4d140b7bfa0965ffbba6c3519130227c6a2d715fe1b937d649dbef0042d",
+    "paired_final_TEST_saved_joint_candidate_v1.py": "921594e7cedb91763c58a5a0eebe356980f84a54b6bb923485338957c0b3536a",
+    "paired_final_TEST_score_binding_candidate_v1.py": "bf173ff5e0c44eac8af4e91a2af7daac043f643eb2f3846f857b2c4f2097f97f",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "test_paired_final_TEST_guard_candidate_v1.py": "dda9ee298559a941464ec6021f32ba47daf6397fc0fe064e2c799d4339687e0e",
+    "test_paired_final_TEST_pipeline_candidate_v1.py": "67f6bf9237cb57195fba092de787d7715fe87bb5cd7f97a740196d31808a266f"
+  },
+  "original_function_sha256": {
+    "original_prediction_gate": "98d65a3f23fe8421ccfb73075969d6785de50ac30700d1590798970aa65f0762",
+    "audit_capsule": "1e98fc6a2099cd360009487413de6f7e0d09b8664cbd457c8a5370ffb07c6b30",
+    "pipeline_main": "ee25383c10aef33583ab069ed554fb271c7d90019a153b6b5615ba6477315555",
+    "wrapper_main": "965cb7463eb56a142f0f35329dc185d9334c8d13fc1fd06f45b30b0fb6d3e43d"
+  },
+  "scope": "Only exact interpreter prefix in comparison view, explicit supplemental cpu/score entry. All original plan/source/model/order/metrics/token/roots unchanged. Never predictive rerun. Original failed auditor preserved. Supplemental function source is separately identified, not claimed original-only execution.",
+  "fivefold_user_scope": "all TRAIN DEV TEST combined, split by video; distinct new experiments; not run by this bridge"
+}

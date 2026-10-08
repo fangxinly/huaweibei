@@ -1,0 +1,33 @@
+{
+  "status": "LOCAL_MATCHED_HEAD_CORE_AND_PROTOCOL_DRAFT_NOT_EXECUTION_FREEZE",
+  "actual_utc": "2026-10-06T19:26:05.747394+00:00",
+  "parent_actual_candidate_joint_sha256": "da44e83279048a7e615ca6ee5cc2cd20e3d251a054c5812f79a857972154aed0",
+  "source_sha256": "94802a4430af99b04b3b524f363f15ce15d9f7dfb381803327146275968ec333",
+  "shared_information": "Z=(pF,delta); target r=y-pF; common 3 slots intercept/standardizedpF/standardizeddelta; no extra inputs",
+  "FIT_only_statistics": "Both heads use identical headFIT232 nine-video-equal mean/std; population variance, exact constant feature structurally0/coefficient0; no threshold epsilon. Statistics never refit with W or201.",
+  "objectives": "U sum(a*(h-r)^2)+.01*(b^2+c^2); W sum(a*4delta²/global_c*(h-r)^2)+same ridge. a=1/(9*n_v),global_c=sum(a*4delta²). Intercept unpenalized, weights sum1; factor4 cancels only after this normalization.",
+  "baseline_and_readouts": [
+    "F",
+    "C",
+    "constant_free",
+    "U_free",
+    "U_interval",
+    "U_discrete",
+    "W_free",
+    "W_interval",
+    "W_discrete"
+  ],
+  "readout": "free=pF+h; interval=pF+clip(h,min(0,delta),max(0,delta)); discrete acceptsC only when delta²-2delta*h<0, tieF. Fixed no amplitude scan.",
+  "label_roles": "Only232 headFIT labels after complete protocol+source freeze and original candidate D/CPU audit; fit heads/constant once. Whole head state and stats SHA frozen before201 input inference. All9 outputs201 finite/row/order/own-headSHA saved and SHA verified before one201 label read. No model/head updates after evaluation.",
+  "metrics": "All9 outputs reported together with pooled Acc7/Acc2/weightedF1/MAE/Pearson, pooledMSE and videoequalMSE plus paired9 per-video differences. Allfive must pointwisebeat matchedF and simpleconstant to motivate further method claims; never use201 to choose one of9 for publication. This is development, not independent confirmation or officialCaReFlowbenchmark.",
+  "stop": "Engineering/source/role/nonfinite/replay mismatches invalidate run; exactdelta0 W/selection stop no epsilon. exactabsdelta constant U/W identical. No newESS/coverage/concentration/condition threshold; report allpredeclaredcomparisons. No expansion if matched weighted or constrained outputs fail simplefree/constant; new features need separate protocol.",
+  "still_missing_before_actual_execution": [
+    "source-pinned original-label extraction/runtime chronology and receipt wrapper",
+    "201 input-only collector with newrole gate and sameF-C-C-F/dummy replay",
+    "complete original arrays/head state/prediction hashes and one-label evaluation runner",
+    "independentCPU original-objective/replay/metric audit and capture newroots/fullargv",
+    "fresh human-backed assets/lease/source/space/budget evidence and D+othernodeCPU saving"
+  ],
+  "actual_official_labels_or_GPU_or_head_fit_or201_prediction_or_scores": false,
+  "no_new_remote_or_othernodeCPU_claim": true
+}

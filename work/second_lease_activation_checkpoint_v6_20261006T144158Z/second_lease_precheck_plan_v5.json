@@ -1,0 +1,55 @@
+{
+  "status": "CACHE_RELEASE_V5_FROZEN_BEFORE_ACTUAL_RUN",
+  "frozen_actual_utc": "2026-10-06T14:36:40.891121+00:00",
+  "runtime_plan_sha256": "e4d0c71a73186ae9073dc0d88ccdd4fd753a4d81a967eb458a52a0669437fa63",
+  "parent_precheck_plan_sha256": "88b32e03e162af8cd9d2afec3efcb34b72f2e7aef00575632d8f7e5d3bba8d5c",
+  "runner": "precheck_minimal_fixed_v5.py",
+  "source_sha256": {
+    "donor_terminal_mechanism_precheck_v1.py": "43f5596f011bcdfbf7b00537add949db609f713a3bc72d2b218fcd47079b4ba7",
+    "encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "minimal_fixed_runtime_v1.py": "e86ac4e2f8243fe1e2ef356af650062c318e75781b4c0722a1222afa7817e84f",
+    "precheck_gates_v1.py": "b74b60e1c6d13298c5f7c23da93ef19e3ee5f62041ac80eab252a305bdade2be",
+    "precheck_gates_v2.py": "a63116cb41b060319a7de9ef6acbf960f6ba587c0dc02fa10b0f0a304ce3fb7c",
+    "precheck_minimal_fixed_v1.py": "c37bb00b11b389689f752803a7abce75413a8f198ad2c1dd82cac6a18ede6b0e",
+    "precheck_minimal_fixed_v2.py": "647a98c14a7218df48443af9ed65630b4a8d642e36c21cd94feacd67e7ee1d54",
+    "precheck_minimal_fixed_v3.py": "1c9b32db760b570706b670cb2f0bad6bd9cfdb958246dd7ce0e5b885e01a704a",
+    "role_guard_v1.py": "e1d4c0e41121ccdb1a05b66bd81be81c419311ab68abba70737b0d9ad38a1145",
+    "precheck_minimal_fixed_v4.py": "01b2a56cdafaf464838287556ece8f2e6c1f5fdbd42adb15fd5635c2da165fa7",
+    "precheck_minimal_fixed_v5.py": "cd5bbbceb9c8b436aa17b8175592ea7086ae93acc115892d89c785ca12d2d453",
+    "parent_v4_partial_actual_progress.json": "71c6b04ccf3f42cbeaa39ef21ef60e2a89b93e4e142232ca7578e0c8bbc6254e"
+  },
+  "changes": "Only empty unused CUDA cache before each actual batch/INNER phase; same max-memory stats never reset after construction, same6GiB/1200s gate. Compare two objectives and all gradient L1 norms to actual v4; no claim gradient tensor byte equality. No scientific model/runtime/seed/batch/loss/order/role/LR change.",
+  "scope": "fold0 public full fixed reference two FIT steps tail23 no step INNER153 dummy-label own full disk replay; no formal100/OUTER/performance metrics",
+  "mechanism": {
+    "rows": [
+      1089,
+      822,
+      373,
+      564
+    ],
+    "eval": true,
+    "dummy_labels": 0,
+    "same_checkpoint_first_state": true,
+    "zero_only_donor_term": true,
+    "calls_each_state": 3,
+    "combined_seconds_max": 120,
+    "no_threshold_for_small_nonzero_effect": true,
+    "no_extra_training_to_force_nonzero": true
+  },
+  "budget": {
+    "max_precheck_seconds": 1200,
+    "max_Torch_peak_bytes": 6442450944,
+    "remote_min_free_bytes": 4294967296,
+    "D_min_free_bytes": 6442450944,
+    "save_reserve_seconds": 7200
+  },
+  "formal_training_allowed": false,
+  "actual_GPU_executed": false,
+  "natural_wrapper_and_independent_CPU_auditor_pending": true,
+  "parent_plan_sha256": "590feff76d087a700d4eeb1eb60d5c4e3fd963f29d3c43d64e5082eb70ccff03",
+  "reference_documentation": "https://github.com/pytorch/pytorch/blob/v2.1.0/torch/cuda/memory.py",
+  "parent_actual_snapshot_sha256": "72ee117a071860c3cbf97f10487a1d35648b5692d2178af8b1232258dd0d580f"
+}

@@ -1,0 +1,58 @@
+{
+  "actual_frozen_utc": "2026-10-06T18:38:18.585205+00:00",
+  "source_sha256": "e75a3edb92a15a8a8e69c67c3f7d835d76d2697b3fc1d29a36ca18af2dc0695d",
+  "metric_module_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+  "author_evaluator_source_sha256": "d88739d1d1a224a2f159f29fa723cc24c347eadcf921e93bf57bd0e2cdaa3cb7",
+  "metric_semantics": {
+    "Acc7": "All rows: clip predictions and labels to [-3,3], NumPy round (half to even), exact class match.",
+    "Acc2": "Exclude labels exactly equal to 0; classify prediction >=0 and label >=0.",
+    "F1": "Same nonzero rows and binary thresholds; class-support-weighted F1, not macro or positive-class-only F1.",
+    "MAE": "All rows, original unclipped regression predictions.",
+    "Corr": "All rows, Pearson correlation; undefined for a constant vector or fewer than 2 rows.",
+    "Has0_Acc2_and_F1": "Additional all-row binary metrics; neutral label belongs to the nonnegative class.",
+    "units": "Acc7, Acc2 and F1 stored as fractions; display as percentages. Corr fraction, MAE original sentiment scale.",
+    "precision": "Independent CPU float64 aggregation; no rounding, clipping or calibration of regression predictions."
+  },
+  "official_paper": "https://arxiv.org/html/2602.19140v1#S4.T1",
+  "published_MOSI_reference_only_not_DEV_baseline": {
+    "Acc7_percent": 50.6,
+    "Acc2_percent": 89.8,
+    "F1_percent": 89.7,
+    "MAE": 0.616,
+    "Corr": 0.858
+  },
+  "published_MOSEI_reference_only_not_this_run": {
+    "Acc7_percent": 55.7,
+    "Acc2_percent": 87.9,
+    "F1_percent": 88.0,
+    "MAE": 0.504,
+    "Corr": 0.799
+  },
+  "reference_predeclared_seed": 128,
+  "reference_files_pins": {
+    "protocol.json": "8b094cc669f36966f8026a65b4a8ab6c5730a604ec5a1aacde4660f49eaea00d",
+    "history.json": "b4f220c111eb61d17d677b987997497ceec04878e3fa2a340ae685638d1cb0db",
+    "selection.json": "2c9f50f3d36ab9df1a19712fcf73d93ca90a92cadbc9ab4c4c40c762e2b09470",
+    "results.json": "c64c8a1c314d88f5d0d1fa2af8b113c2e7c60e01b0759567cf5ad4c12e1b9e94",
+    "predictions.npz": "6b4e8b85c73738057eae3c30436c4b2babb1d92d38f2d89963dd5185f761bed8"
+  },
+  "own_arm_sources": {
+    "a": {
+      "zip": "D:\\CodexBackups\\selective_flow_20261003_1105\\finite_c2_completed_snapshots_20261005T1627Z\\a\\snapshot.zip",
+      "zip_sha256": "a8aeb1f5e591d3b2b66828639443c20b733b938bfc7d93630aa48a4f3fcac937"
+    },
+    "b": {
+      "zip": "D:\\CodexBackups\\selective_flow_20261003_1105\\finite_c2_completed_snapshots_20261005T1627Z\\b\\snapshot.zip",
+      "zip_sha256": "2c23a6715833bbb67ea77e316c937b61ea4685453a13f841e10c69ba12800a91"
+    },
+    "c": {
+      "zip": "D:\\CodexBackups\\selective_flow_20261003_1105\\finite_c2_completed_snapshots_20261005T1627Z\\c\\snapshot.zip",
+      "zip_sha256": "cf82b957a6ed7c472e545c39a92b56f9c685c1bb265c5438b2233dab6f057a9d"
+    }
+  },
+  "roles": "Existing official DEV229 only, selected and previously explored. Descriptive reaggregation, no new model inference, fit, seed choice, checkpoint/threshold/readout selection, TEST arrays, new generalization or stability claim.",
+  "comparisons": "Three prespecified own final default-control predictions and one predeclared cached CaReFlow seed128 DEV; no matched seed/training-capacity claim.",
+  "future_new_flow": "After original100 preservation and earliest INNER-selected full-state replay: same five metrics on fixed predictions; no separate best checkpoint per metric, no Test-guided optimization.",
+  "all_five_rule": "Acc7,Acc2,F1,Corr strictly higher and MAE strictly lower on the same eligible evaluation rows/protocol, using unrounded values; partial wins recorded separately. Paper row cannot decide DEV superiority.",
+  "new_TEST_decode_allowed": false
+}

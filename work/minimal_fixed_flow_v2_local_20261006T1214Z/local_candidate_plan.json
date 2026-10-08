@@ -1,0 +1,53 @@
+{
+  "status": "LOCAL_FLOW_SUBMODULE_CANDIDATE_ONLY_SOURCE_PINS_NOT_FORMAL_TRAINING_AUTHORIZATION",
+  "utc": "2026-10-06T12:21:48.370161+00:00",
+  "new_source_sha256": {
+    "check_static_and_numpy_schedule_v1.py": "6c4234cdd23f34ad561cbe1abc407509bc9bdc0e2e224f2f05bc87744f549c91",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  "teacher_role_plan_sha256": "f0878166da09433c27119a08fdfd8682f9b9e29f2bfe0a758f29eee45cf131a4",
+  "seed_proposed_not_initialization_executed": 91819,
+  "fold": 0,
+  "rows": {
+    "FIT": 695,
+    "INNER": 153,
+    "OUTER": 433
+  },
+  "architecture": "Direct retained module constructor; one pass, two Euler, six directed donors; fixed .5 weights each, .125 donor coefficient from zero context",
+  "objectives": {
+    "task_MSE": 1.0,
+    "flow_matching": 0.02,
+    "cycle_reconstruction": 0.01,
+    "unimodal": 0.05,
+    "variance_floor": 0.01
+  },
+  "removed_without_constructing": [
+    "old_feedback",
+    "pair_heads",
+    "utility_heads",
+    "predicted_gate",
+    "10_counterfactual_reference_terminal_branches"
+  ],
+  "gradient_boundaries": "Donor features detach; stage context and cycle terminal remain attached; targets retain original detach. Actual parameter gradients untested.",
+  "singleton_patch": "Exact original analytic single-token source copied and attached to new reader; AST compiled, no new Torch/HVP replay.",
+  "constructor_RNG_equivalence_to_old": false,
+  "public_pretrained_initialization_verified": false,
+  "full_encoder_runtime_or_guarded_trainer_implemented": false,
+  "complete100orders_frozen": false,
+  "GPU_memory_time_budget_passed": false,
+  "at_least_two_hour_save_reserve_passed": false,
+  "new_training_allowed": false,
+  "new_scores": false,
+  "actual_local_checks": "AST compile/call and parameter construction boundary, independent NumPy algebra and synthetic masking/two-stage schedule only",
+  "formal_execution_remaining": [
+    "full_model_public_pretrain_and_task_initialization_audit",
+    "FIT_only_statistics_and_label_guard",
+    "all_retained_gradient_optimizer_coverage_and_singleton_second_order_if_needed",
+    "whole_process_GPU_memory_and_epoch_timing",
+    "strict_full_INNER_original_input_disk_reload",
+    "fresh_space_and_two_hour_save_reserve",
+    "full_new_weight_D_and_other_node_CPU_preservation"
+  ]
+}

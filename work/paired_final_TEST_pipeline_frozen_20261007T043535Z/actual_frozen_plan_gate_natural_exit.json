@@ -1,0 +1,14 @@
+{
+  "actual_utc": "2026-10-07T04:35:41.285595+00:00",
+  "pid": 13512,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-c",
+    "from pathlib import Path; from paired_final_TEST_pipeline_candidate_v1 import plan_gate,sha; p=Path('.'); plan=plan_gate(p,sha(p/'final_pair_execution_plan.json')); print(plan['status'])"
+  ],
+  "cwd": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\paired_final_TEST_pipeline_frozen_20261007T043535Z\\source",
+  "natural_exit_code": 0,
+  "stdout_sha256": "2db030735ceb8584b80d3a33689030fa450e849291681e5efba74262fe6cf9ba",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "reads_only_source_parent_JSON_no_assets_or_labels": true
+}

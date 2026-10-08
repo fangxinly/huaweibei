@@ -1,0 +1,92 @@
+{
+  "status": "FROZEN_BEFORE_REAL_LABEL_FIT",
+  "frozen_utc": "2026-10-06T11:54:04.880948+00:00",
+  "fold": 0,
+  "ridge": 0.01,
+  "B_predeclared": true,
+  "checkpoint_sha256": "338df042d648d3bdcb221bc0cacbd3d5574a1dd1efac49b1823f091a75706695",
+  "source_sha256": "2ee7579e57a45d3c557fc94d0f73ab9f69f4338b95723e24fc8e92e997c174a7",
+  "pins": {
+    "fit_predictions": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\same_teacher_collection_actual_20261006T053835Z\\a\\execute\\fit_scalar_inputs.npz",
+      "sha256": "0884ea7a8b127e2e20a124edae6a58264afc29226b96d854a070e1aedbc43afc",
+      "bytes": 4332
+    },
+    "inner_predictions": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\same_teacher_collection_actual_20261006T053835Z\\a\\execute\\inner_scalar_inputs.npz",
+      "sha256": "5b6ffbf9e0877c64c7ba18cf7f0ba097ce9ecdfb2f79ebe73ebb872179efea0a",
+      "bytes": 1493
+    },
+    "collection_receipt": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\same_teacher_collection_actual_20261006T053835Z\\a\\execute\\receipt.json",
+      "sha256": "9f83346ffd63c8e3a45c9bd0c59634a884720d28d181c85946ebaa4c38fed593",
+      "bytes": 12950
+    },
+    "original_other_node_CPU_receipt": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\same_teacher_collection_actual_20261006T053835Z\\a\\independent_cpu\\cpu_preservation_receipt.json",
+      "sha256": "6c486f4639f6be84fcafc02bba21726dfe5e2bbdb479939e5c23569c38180283",
+      "bytes": 6249
+    },
+    "label_container": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_oof_20261006T0308Z\\train_scalar_oof.npz",
+      "sha256": "cff1a52f7e828c96cacf070ae4e051a5c34042ebb9435f44f5b3242cad91a7ea",
+      "bytes": 52484
+    },
+    "video_mapping": {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\group_teacher_completed_20261006\\a\\train_row_video_mapping.json",
+      "sha256": "62536b398854df5c6abf1987ff6c8373aabc980a273687484da2df275149b12c",
+      "bytes": 149012
+    },
+    "fit_rows": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\fit_0.npy",
+      "sha256": "b93d8e4f5271354a1b5741e824f895ecec292b1397be3521ae8474600cce110d",
+      "bytes": 5688
+    },
+    "inner_rows": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\inner_0.npy",
+      "sha256": "c3484b79520d283d9b3785d8f374c804f9c67e9f4df8fa5a9ce68bb83294d081",
+      "bytes": 1352
+    },
+    "teacher_plan": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group_teacher_plan_20261005T1650Z\\group_teacher_plan_v3.json",
+      "sha256": "f0878166da09433c27119a08fdfd8682f9b9e29f2bfe0a758f29eee45cf131a4",
+      "bytes": 14662
+    },
+    "synthetic_selfcheck": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\plain_scalar_residual_fold0_v1_selfcheck.json",
+      "sha256": "3140a57597be31f2656ba0dc9429dd78989a5a50e2609206057a5e13ef0a09a8",
+      "bytes": 208
+    },
+    "review_protocol": {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-06\\multimodal-flow-research-review\\outputs\\第六次独立审视_v2目标与低成本残差探索协议.md",
+      "sha256": "920af6c25b43fc3a3717fd07ff63504eec75317e23a044c849b73a9b8ca5bb11",
+      "bytes": 15248
+    }
+  },
+  "arms": [
+    "zero",
+    "video_equal_FIT_constant",
+    "video_equal_FIT_affine_ridge_0.01",
+    "predeclared_INNER_leave_one_video_constant_and_affine"
+  ],
+  "input": "same T_0 scalar p_F only; video ID is weighting and partition metadata, not a predictive feature",
+  "A": "FIT695/30 only fit, freeze predictions before INNER153/4 label access; INNER selected original teacher",
+  "B": "same fixed teacher; for each INNER held video train only other videos; diagnostic not deployment/independent teacher validation",
+  "label_guard": "only allowed FIT/INNER rows decoded from y.npy; no outer values materialized; whole container hashed as opaque bytes; mixed OOF mu unused",
+  "primary": "video-equal paired Q relative to zero correction",
+  "secondary": [
+    "pooled MSE/MAE",
+    "each video Q",
+    "correction/residual RMS",
+    "fit-vs-INNER residual distribution"
+  ],
+  "no_clipping_or_sweeps": true,
+  "stop_rule": "stable cost heuristic: Qmean<0, >=ceil(2G/3) videos improve, all delete-one-video Q means<0; affine needs same test vs constant. Neither A nor B stable: stop this scalar branch without switching fold/seed/ridge; no message/GPU100 authorization follows.",
+  "maximum_seconds": 60,
+  "maximum_peak_working_set_bytes": 268435456,
+  "maximum_output_bytes": 1048576,
+  "minimum_D_free_bytes": 1073741824,
+  "maximum_teacher_models_updated": 0,
+  "not_new_confirmation": true,
+  "not_whole_pipeline_crossfit": true
+}

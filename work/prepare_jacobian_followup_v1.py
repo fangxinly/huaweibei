@@ -1,0 +1,15 @@
+from pathlib import Path
+r=Path(__file__).resolve().parent
+s=(r/'audit_soft_snapshot_v1.py').read_text().replace('formal_plan_v1.json','formal_plan_v2.json').replace('91815','91816')
+s=s.replace("'teacher_collection_sha256']:common", "'teacher_collection_sha256','jacobian_receipt_sha256']:common")
+s=s.replace("get=lambda n:json.loads(z.read(n));", "assert sha(z.read('source/capture_soft_vector_v2.py'))==json.loads(z.read('inventory.json'))['capture_source_sha256']\n  get=lambda n:json.loads(z.read(n));")
+s=s.replace("state='LIVE_TRAINING'", "assert protocol['jacobian_receipt_sha256']==sha(z.read('source/label_free_jacobian_v1/jacobian_receipt.json'))\n  large=get('large_file_manifest.json');old=json.loads((Path(__file__).resolve().parents[1]/'outputs/连续向量三完整权重本地核验.json').read_text())\n  for name,meta in large.items():\n   if name.startswith(('previous_full_checkpoints/','previous_preservation/')):\n    n=name.split('/')[1];assert meta['sha256']==old['rows'][n]['full_checkpoint_receipt']['full_checkpoint_sha256'] and meta['bytes']==746206408\n  state='LIVE_TRAINING'")
+(r/'audit_soft_snapshot_v2.py').write_text(s,encoding='utf-8')
+s=(r/'assemble_soft_full_checkpoint_v1.py').read_text().replace('soft_vector_runtime_v1','soft_vector_runtime_v2')
+(r/'assemble_soft_full_checkpoint_v2.py').write_text(s,encoding='utf-8')
+s=(r/'diagnose_soft_vector_v1.py').read_text().replace('soft_vector_runtime_v1','soft_vector_runtime_v2')
+s=s.replace("cache=np.load(a.root/'teacher_cache_v1/dev_cache.npz');", "jac=np.load(a.root/'label_free_jacobian_v1/dev_jacobian.npz');cache=np.load(a.root/'teacher_cache_v1/dev_cache.npz');")
+s=s.replace("pool=b['pooled_state'];", "b['reference_jacobian']=torch.as_tensor(jac['reference_jacobian'][indices],device='cuda');pool=b['pooled_state'];")
+s=s.replace("learner.feedback(b['old_context'],pool,b['reference_prediction'],current)","learner.feedback(b['old_context'],pool,b['reference_prediction'],current,b['reference_jacobian'])")
+(r/'diagnose_soft_vector_v2.py').write_text(s,encoding='utf-8')
+print('FOLLOWUP_SOURCES_PREPARED_NOT_EXECUTED')

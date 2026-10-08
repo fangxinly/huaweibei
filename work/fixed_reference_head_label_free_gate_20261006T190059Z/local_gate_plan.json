@@ -1,0 +1,22 @@
+{
+  "actual_frozen_utc": "2026-10-06T19:00:59.365786+00:00",
+  "status": "LOCAL_LABEL_FREE_GATE_PREPARATION_NOT_EXECUTION_OR_FULL_HEAD_PROTOCOL",
+  "source_sha256": "9cb550575bcb23ab6c3bf1b18e5596b6e6c1a72bbc6aa03fbb092a56310b6dc3",
+  "reference_joint_sha256": "0aa9455338b2f47e074d58180497d3ff3c77b9fc2e1cc109ef7b7a2af53949b7",
+  "reference_checkpoint_sha256": "da42330af1d9c7eb39f58744949adda0af53c62c77b367e1f302d6b1d4ab3f62",
+  "reference_state_sha256": "8d418b8bf050186505d4d9ea0605894669ba7868afdd44c1129b86b32b6d5fbd",
+  "role_reservation_sha256": "e143c8a54b830a703698b4e1c54c6a6d47a4ebf2081491c16ea874777ec9cca4",
+  "head_fit_sha256": "80c163a1ed85d3f2541bd85eb88d90c6d45577ce27aedc5b0fd48a24f73adcf5",
+  "head_eval_sha256": "4d5b444070ed452687ef72543c35f46b93ae3d085977f5ec22d81542a31c37cd",
+  "candidate": "One fixed condition: zero all six donor feedback inputs to the one fixed context update, matching the existing predeclared four-FIT mechanism. No channel/scale search; pC-pF, whole original weight unchanged, eval and dummy labels only.",
+  "collection_scope": "232 head-FIT original inputs only. First stage forbids actual labels from every role and forbids201EVAL input inference; public constructor FIT labels are historical referenceFIT only, never head supervision.",
+  "Z": "[pF, delta] with constant candidate identity and condition; all selection/scale flags fixed. No candidate picking, uncertainty threshold or teacher output. Capacity candidate h=a+b*standardized(pF)+c*standardized(delta).",
+  "fit_later": "Not implemented: U/W same three-parameter closed-form ridge .01 on slopes; feature means/std from headFIT only using video equal weights. Normalize W=video_equal*delta^2 globally to total1; zero constant feature uses slope0, never epsilon to rescue candidate. True task residual r=y-pF; loss and fitting only after separate label-access protocol frozen and collection preserved.",
+  "predeclared_empirical_W_stop": "Exact delta_squared_mass0 OR fewer than3 positive-mass videos OR effective mass ESS<3. Cost feasibility only, chosen before any new actual collection; not statistical independence or safety. Record complete spectrum; never lower gate or reweight by EVAL.",
+  "readouts_later": "No labels or fitting now. Same h free, interval clip to [min(0,delta),max(0,delta)], discrete {0,delta} minimizing Qhat with tie F. Include F and a headFIT learned constant. All reported, none picked on201.",
+  "five_metrics": "Frozen Acc7/Acc2/weightedF1/MAE/Pearson all same prediction, along with paired video equal squared-risk effects. Zero-label boundary diagnostics are counts, not accuracy/gain. No amplitude rescue if no boundary crosses.",
+  "budgets_candidate_not_actual": "Future GPU collection20min/6GiB cumulativepeak/remote4GiB-D6GiB and >=2h preservation reserve; fresh5min UUID/fullargv/emptycompute/assets/source/space/current actual completed reference identity. Existing whole checkpoint D+othernode CPU pin, no new weights or optimizer updates; fresh original receipts/array CPU audit/new-root capture required before any head label fitting.",
+  "actual_GPU_or_labels_or_scores_or_head_fit": false,
+  "full_runtime_and_label_access_and_CPU_auditor_implemented": false,
+  "review14_complete": false
+}
