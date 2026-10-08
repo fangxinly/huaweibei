@@ -1,0 +1,147 @@
+{
+  "status": "REAL_TRAIN16_NATURAL_COMPLETE_NOT_PERFORMANCE",
+  "checkpoint_SHA": "2d1e08145a80f4dec044ebbee4e7436974325dff610d3da453b115820acec4ad",
+  "checkpoint_bytes": 2220624858,
+  "GPU_peak": {
+    "allocated_peak": 3738300928,
+    "reserved_peak": 4297064448
+  },
+  "wall_seconds": 46.51465455442667,
+  "last_step_task_gradients": {
+    "gain": {
+      "numel": 1,
+      "missing": 0,
+      "nonzero_tensors": 1,
+      "square_sum": 3.441525856096376e-14,
+      "gradient_RMS": 1.855134996731067e-07
+    },
+    "forward_fields": {
+      "numel": 120600,
+      "missing": 0,
+      "nonzero_tensors": 12,
+      "square_sum": 3.0269438933435727e-15,
+      "gradient_RMS": 1.5842675676235558e-10
+    },
+    "reader": {
+      "numel": 1000,
+      "missing": 0,
+      "nonzero_tensors": 3,
+      "square_sum": 5.54623204212016e-23,
+      "gradient_RMS": 2.355043957577047e-13
+    },
+    "role_head": {
+      "numel": 105301,
+      "missing": 0,
+      "nonzero_tensors": 4,
+      "square_sum": 1.6030803462188954e-11,
+      "gradient_RMS": 1.2338472489110453e-08
+    },
+    "message": {
+      "numel": 28848,
+      "missing": 0,
+      "nonzero_tensors": 30,
+      "square_sum": 7.894855686654711e-24,
+      "gradient_RMS": 1.6542998988650823e-14
+    }
+  },
+  "last_step_actual_updates": {
+    "text_encoder": {
+      "sample_count": 101376,
+      "full_tensors": 0,
+      "sampled_tensors": 198,
+      "changed_values": 95618,
+      "beyond_decay_values": 95618,
+      "actual_square_sum": 1.6230697184642228e-09,
+      "beyond_decay_square_sum": 1.6230697184642228e-09,
+      "actual_update_RMS": 1.265321862649462e-07,
+      "versus_rounded_pure_decay_RMS": 1.265321862649462e-07,
+      "quantization_sensitive": true
+    },
+    "other_encoder_decoder": {
+      "sample_count": 24711,
+      "full_tensors": 0,
+      "sampled_tensors": 93,
+      "changed_values": 24130,
+      "beyond_decay_values": 24130,
+      "actual_square_sum": 4.4234773333981053e-10,
+      "beyond_decay_square_sum": 4.4234773333981053e-10,
+      "actual_update_RMS": 1.3379403230186507e-07,
+      "versus_rounded_pure_decay_RMS": 1.3379403230186507e-07,
+      "quantization_sensitive": true
+    },
+    "gain": {
+      "sample_count": 1,
+      "full_tensors": 1,
+      "sampled_tensors": 0,
+      "changed_values": 1,
+      "beyond_decay_values": 1,
+      "actual_square_sum": 3.6615772728577383e-10,
+      "beyond_decay_square_sum": 3.6615772728577383e-10,
+      "actual_update_RMS": 1.9135248294332996e-05,
+      "versus_rounded_pure_decay_RMS": 1.9135248294332996e-05,
+      "quantization_sensitive": true
+    },
+    "forward_fields": {
+      "sample_count": 120600,
+      "full_tensors": 12,
+      "sampled_tensors": 0,
+      "changed_values": 29187,
+      "beyond_decay_values": 29187,
+      "actual_square_sum": 5.4628997995159064e-14,
+      "beyond_decay_square_sum": 5.4628997995159064e-14,
+      "actual_update_RMS": 6.730354865302525e-10,
+      "versus_rounded_pure_decay_RMS": 6.730354865302525e-10,
+      "quantization_sensitive": true
+    },
+    "reader": {
+      "sample_count": 1000,
+      "full_tensors": 3,
+      "sampled_tensors": 0,
+      "changed_values": 100,
+      "beyond_decay_values": 100,
+      "actual_square_sum": 4.942221397724235e-26,
+      "beyond_decay_square_sum": 4.942221397724235e-26,
+      "actual_update_RMS": 7.030093454374724e-15,
+      "versus_rounded_pure_decay_RMS": 7.030093454374724e-15,
+      "quantization_sensitive": true
+    },
+    "role_head": {
+      "sample_count": 105301,
+      "full_tensors": 4,
+      "sampled_tensors": 0,
+      "changed_values": 185,
+      "beyond_decay_values": 185,
+      "actual_square_sum": 1.8185694834432782e-12,
+      "beyond_decay_square_sum": 1.8185694834432782e-12,
+      "actual_update_RMS": 4.155743189284916e-09,
+      "versus_rounded_pure_decay_RMS": 4.155743189284916e-09,
+      "quantization_sensitive": true
+    },
+    "message": {
+      "sample_count": 28848,
+      "full_tensors": 30,
+      "sampled_tensors": 0,
+      "changed_values": 28848,
+      "beyond_decay_values": 7200,
+      "actual_square_sum": 3.0900815494435577e-10,
+      "beyond_decay_square_sum": 1.9560231010425954e-18,
+      "actual_update_RMS": 1.0349684614769315e-07,
+      "versus_rounded_pure_decay_RMS": 8.23434644344145e-12,
+      "quantization_sensitive": true
+    }
+  },
+  "first_nonzero_task_gradient_step": {
+    "gain": 1,
+    "forward_fields": 3,
+    "reader": 4,
+    "role_head": 3,
+    "message": 3
+  },
+  "interpretation": "Messages receive task gradient but remain numerically tiny before end of400 warmup; continue identical state; no VAL/TEST score or permanent deadness claim",
+  "fixed32_TRAIN_probe": {
+    "ON_OFF_maxabs": 0.0,
+    "p_minus_base_maxabs": 1.7462298274040222e-10,
+    "flow_minus_base_maxabs": 2.2380263544619083e-06,
+    "no_labels": true
+  }
+}

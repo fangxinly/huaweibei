@@ -1,0 +1,20 @@
+{
+  "status": "OFFICIAL_FLOW_PREFIX16_RESUME_TO40_CPU_TRAJECTORY_IDENTICAL",
+  "actual_UTC": "2026-10-08T18:23:42.981403+00:00",
+  "pid": 1310,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/healthfix_181431_A/qualify_resume_official_v1.py",
+    "--bundle",
+    "/data/coding/healthfix_181431_A",
+    "--out",
+    "/data/coding/healthfix_181431_A/resume_qualification"
+  ],
+  "UUID": "GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde",
+  "source_SHA": "18864ecf201026758877a2a5887c2ae8c20d03c09be702032534b5776419663e",
+  "candidate_SHA": "e80d01e07f129b05f3323763740088526c9eeb54e14ce6895a1dee7f93a916e6",
+  "prefix_counted_once": true,
+  "prediction_parameter_Adam_scheduler_python_numpy_torch_RNG_identical": true,
+  "real_TRAIN": false,
+  "final_steps": 40
+}

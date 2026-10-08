@@ -1,0 +1,19 @@
+{
+  "actual_UTC": "2026-10-08T18:17:58.857815+00:00",
+  "pid": 1149,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/autonomous_mse16_healthfix_qualified_20261008T181637Z/precheck16.py",
+    "--plan",
+    "/data/coding/autonomous_mse16_healthfix_qualified_20261008T181637Z/qualified_precheck_plan.json",
+    "--plan-sha",
+    "eb879edd40325655938d79c2ef7af30efc63c9f7de85588d3cbf5b8eb6380586",
+    "--bundle",
+    "/data/coding/autonomous_mse16_healthfix_qualified_20261008T181637Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T174420Z",
+    "--out",
+    "/data/coding/autonomous_mse16_healthfix_actual_20261008T181637Z/out"
+  ],
+  "natural_exit": 0
+}

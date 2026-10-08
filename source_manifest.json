@@ -543,6 +543,15 @@
       "sanitizations": {}
     },
     {
+      "path": "docs/autonomous_mse_training.md",
+      "origin": "generated actual report from receipts",
+      "kind": "report",
+      "bytes": 2451,
+      "original_sha256": "02aacc71288908ed7ad0561b65c019b88586827a48583c79c7e0740e6b6b65b8",
+      "published_sha256": "02aacc71288908ed7ad0561b65c019b88586827a48583c79c7e0740e6b6b65b8",
+      "sanitizations": {}
+    },
+    {
       "path": "docs/code_review_and_pretraining_direction.md",
       "origin": "outputs/code_review_response_20261008T154000Z/REPORT.md",
       "kind": "research_note",
@@ -729,6 +738,96 @@
       "bytes": 14789,
       "original_sha256": "c4a936053692878c6869b1b18a78df624c91b11df0cedb32988562becfced3e2",
       "published_sha256": "c4a936053692878c6869b1b18a78df624c91b11df0cedb32988562becfced3e2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/A100_actual_dispatch.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_actual_dispatch.json",
+      "kind": "actual_receipt",
+      "bytes": 837,
+      "original_sha256": "6dde860064de6113de602a307f95a70bf3f9d8ad3b90775666dc930e0421dbb5",
+      "published_sha256": "6dde860064de6113de602a307f95a70bf3f9d8ad3b90775666dc930e0421dbb5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/A100_complete_prefix_restore.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_complete_prefix_restore.json",
+      "kind": "actual_receipt",
+      "bytes": 377,
+      "original_sha256": "09ff83bf2ac1e2781eb13c029a6da000c9fbf2bd87024666802b343f94c82c30",
+      "published_sha256": "09ff83bf2ac1e2781eb13c029a6da000c9fbf2bd87024666802b343f94c82c30",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/A_fixed_capture_receipt.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A_fixed_capture_receipt.json",
+      "kind": "actual_receipt",
+      "bytes": 432,
+      "original_sha256": "c2d0c44502b8be6463f527a7037684541e73ff067bbee60ba988c4fcf7cf343b",
+      "published_sha256": "c2d0c44502b8be6463f527a7037684541e73ff067bbee60ba988c4fcf7cf343b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/A_fixed_natural_exit.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A_fixed_natural_exit.json",
+      "kind": "actual_receipt",
+      "bytes": 736,
+      "original_sha256": "4316e97b8dd0baa8c1a179d0ada87737a211e33e12e33b77bca912384cb9110e",
+      "published_sha256": "4316e97b8dd0baa8c1a179d0ada87737a211e33e12e33b77bca912384cb9110e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/A_prefix_publication_receipt.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A_prefix_publication_receipt.json",
+      "kind": "actual_receipt",
+      "bytes": 1635,
+      "original_sha256": "78b0faa96a2ff8f173cbadf3018ed687ab60523fce9b6ba7609ef09f3d4a2fe7",
+      "published_sha256": "78b0faa96a2ff8f173cbadf3018ed687ab60523fce9b6ba7609ef09f3d4a2fe7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/A_resume_qualification.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A_resume_qualification.json",
+      "kind": "actual_receipt",
+      "bytes": 818,
+      "original_sha256": "cc40da7f23a1ce2736dc863fe728f17190ac90ea90530a53d6e416fb3650f5f2",
+      "published_sha256": "cc40da7f23a1ce2736dc863fe728f17190ac90ea90530a53d6e416fb3650f5f2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/B_prefix16_audit_exit.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_prefix16_audit_exit.json",
+      "kind": "actual_receipt",
+      "bytes": 434,
+      "original_sha256": "ca456bee545afe0bdf65f4e7c630e6717b31024a12d1c9c066038f58638a8b5b",
+      "published_sha256": "ca456bee545afe0bdf65f4e7c630e6717b31024a12d1c9c066038f58638a8b5b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/B_prefix16_audit_result.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_prefix16_audit_result.json",
+      "kind": "actual_receipt",
+      "bytes": 2291,
+      "original_sha256": "3b0763ef4ec5aff97dfa890a96aeb8ebe9170c5d0a66c63289ce0fc8f7e4dc90",
+      "published_sha256": "3b0763ef4ec5aff97dfa890a96aeb8ebe9170c5d0a66c63289ce0fc8f7e4dc90",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/B_resume_qualification.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_resume_qualification.json",
+      "kind": "actual_receipt",
+      "bytes": 819,
+      "original_sha256": "c4ba318ee52ce1db04d2d5e78ad9213a1ed4547428617048339a2c6dcb70a7f0",
+      "published_sha256": "c4ba318ee52ce1db04d2d5e78ad9213a1ed4547428617048339a2c6dcb70a7f0",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse16/real_TRAIN16_diagnostic_summary.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/real_TRAIN16_diagnostic_summary.json",
+      "kind": "actual_receipt",
+      "bytes": 4965,
+      "original_sha256": "44811c69708812ef907a81882c62999c27c0c109025ac3709f43a8b64cb6bd65",
+      "published_sha256": "44811c69708812ef907a81882c62999c27c0c109025ac3709f43a8b64cb6bd65",
       "sanitizations": {}
     },
     {
@@ -3302,6 +3401,285 @@
       "bytes": 2418,
       "original_sha256": "0bc5703873fc7b4623fcfdaf6cb7624af1b9e49e577e72bced8079261c1d45cd",
       "published_sha256": "0bc5703873fc7b4623fcfdaf6cb7624af1b9e49e577e72bced8079261c1d45cd",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/anchored_flow.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/anchored_flow.py",
+      "kind": "source",
+      "bytes": 6334,
+      "original_sha256": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76",
+      "published_sha256": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/audit_official.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/audit_official.py",
+      "kind": "source",
+      "bytes": 5016,
+      "original_sha256": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b",
+      "published_sha256": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/audit_public_prefix16_v1.py",
+      "origin": "work/audit_public_prefix16_v1.py",
+      "kind": "source",
+      "bytes": 5014,
+      "original_sha256": "671b5ff7a0a99e91005b22abd1c011b4e0afc261e749dd9cb79d0ae2ebad8f26",
+      "published_sha256": "671b5ff7a0a99e91005b22abd1c011b4e0afc261e749dd9cb79d0ae2ebad8f26",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/careflow_train_dev_author_components_candidate.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/careflow_train_dev_author_components_candidate.py",
+      "kind": "source",
+      "bytes": 11852,
+      "original_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "published_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/common.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/common.py",
+      "kind": "source",
+      "bytes": 665,
+      "original_sha256": "576f3c5961a47938a3a5c4113108ca139db870ef88a3df8b98fd4dc95cdbe3e6",
+      "published_sha256": "576f3c5961a47938a3a5c4113108ca139db870ef88a3df8b98fd4dc95cdbe3e6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/common_budget_selection_candidate.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/common_budget_selection_candidate.py",
+      "kind": "source",
+      "bytes": 1154,
+      "original_sha256": "9cb0fd95a2f89464f9e19a0142cb710a9adf363a26f9419d478b031a231ca1de",
+      "published_sha256": "9cb0fd95a2f89464f9e19a0142cb710a9adf363a26f9419d478b031a231ca1de",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/encoder_adapter.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/encoder_adapter.py",
+      "kind": "source",
+      "bytes": 3867,
+      "original_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "published_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/finite_single_token_reader_v1.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/finite_single_token_reader_v1.py",
+      "kind": "source",
+      "bytes": 2184,
+      "original_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "published_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/fixed_flow_components_candidate.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/fixed_flow_components_candidate.py",
+      "kind": "source",
+      "bytes": 2137,
+      "original_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "published_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/incremental_message.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/incremental_message.py",
+      "kind": "source",
+      "bytes": 4171,
+      "original_sha256": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd",
+      "published_sha256": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/infer_official.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/infer_official.py",
+      "kind": "source",
+      "bytes": 4353,
+      "original_sha256": "9f2ffc3485487995b317a01e4e3b00d2b04e67f9955fd3f8ffd50552be3f2108",
+      "published_sha256": "9f2ffc3485487995b317a01e4e3b00d2b04e67f9955fd3f8ffd50552be3f2108",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/launch_remote_release_stream_v1.py",
+      "origin": "work/launch_remote_release_stream_v1.py",
+      "kind": "source",
+      "bytes": 1511,
+      "original_sha256": "f008b7747cade2955db68f38df74e0663aa74ce38448da162a1b87109b46283d",
+      "published_sha256": "f008b7747cade2955db68f38df74e0663aa74ce38448da162a1b87109b46283d",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/legacy_flow_model.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/legacy_flow_model.py",
+      "kind": "source",
+      "bytes": 15003,
+      "original_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "published_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/minimal_fixed_flow_v2.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/minimal_fixed_flow_v2.py",
+      "kind": "source",
+      "bytes": 4555,
+      "original_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "published_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/official_fulltrain_dev_guard_candidate.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/official_fulltrain_dev_guard_candidate.py",
+      "kind": "source",
+      "bytes": 3113,
+      "original_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "published_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/official_upgrade.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/official_upgrade.py",
+      "kind": "source",
+      "bytes": 3554,
+      "original_sha256": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9",
+      "published_sha256": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/paired_fulltrain_session_candidate.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/paired_fulltrain_session_candidate.py",
+      "kind": "source",
+      "bytes": 8569,
+      "original_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "published_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/precheck16.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/precheck16.py",
+      "kind": "source",
+      "bytes": 11031,
+      "original_sha256": "956f79442135a99f6c37c5100aa33bb2857a1b35218c50c92e67f210198b75bc",
+      "published_sha256": "956f79442135a99f6c37c5100aa33bb2857a1b35218c50c92e67f210198b75bc",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/prospective_common_TRAIN_position_orders_seed128_100.npy",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/prospective_common_TRAIN_position_orders_seed128_100.npy",
+      "kind": "generated_order",
+      "bytes": 1024928,
+      "original_sha256": "d3cfd5621cc7a51275c7847410519148f62443e5e2b07b356286fead34d000e4",
+      "published_sha256": "d3cfd5621cc7a51275c7847410519148f62443e5e2b07b356286fead34d000e4",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/qualify_health_components_v2.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/qualify_health_components_v2.py",
+      "kind": "source",
+      "bytes": 4235,
+      "original_sha256": "f4d7ecfe853b4358f97d71d6e2afd00fe3d2ffdfd22ab923c33313da577e5cea",
+      "published_sha256": "f4d7ecfe853b4358f97d71d6e2afd00fe3d2ffdfd22ab923c33313da577e5cea",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/qualify_resume_official_v1.py",
+      "origin": "work/qualify_resume_official_v1.py",
+      "kind": "source",
+      "bytes": 3840,
+      "original_sha256": "18864ecf201026758877a2a5887c2ae8c20d03c09be702032534b5776419663e",
+      "published_sha256": "18864ecf201026758877a2a5887c2ae8c20d03c09be702032534b5776419663e",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/remote_release_stream_v1.py",
+      "origin": "work/remote_release_stream_v1.py",
+      "kind": "source",
+      "bytes": 4434,
+      "original_sha256": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+      "published_sha256": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/restore_public.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/restore_public.py",
+      "kind": "source",
+      "bytes": 5360,
+      "original_sha256": "4b2b9dc5fdd38513a5a908b6eb999bcdddf09d645abcdc50c6f7354af2f895e8",
+      "published_sha256": "4b2b9dc5fdd38513a5a908b6eb999bcdddf09d645abcdc50c6f7354af2f895e8",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/resume_official_mse100_v1.py",
+      "origin": "work/resume_official_mse100_v1.py",
+      "kind": "source",
+      "bytes": 16947,
+      "original_sha256": "e80d01e07f129b05f3323763740088526c9eeb54e14ce6895a1dee7f93a916e6",
+      "published_sha256": "e80d01e07f129b05f3323763740088526c9eeb54e14ce6895a1dee7f93a916e6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/run_prefix16_capture_v1.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/run_prefix16_capture_v1.py",
+      "kind": "source",
+      "bytes": 4564,
+      "original_sha256": "702f0a87dc8fc9ae1a37b8607de23c8a3d3aadf2bfff18e8ac0e69e3b4c6daa3",
+      "published_sha256": "702f0a87dc8fc9ae1a37b8607de23c8a3d3aadf2bfff18e8ac0e69e3b4c6daa3",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/run_resumed100_capture_v1.py",
+      "origin": "work/run_resumed100_capture_v1.py",
+      "kind": "source",
+      "bytes": 4949,
+      "original_sha256": "6c679d2869128c987259d6e759bc36cfbd398973eba266625760a6c79545c0a8",
+      "published_sha256": "6c679d2869128c987259d6e759bc36cfbd398973eba266625760a6c79545c0a8",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/score_official.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/score_official.py",
+      "kind": "source",
+      "bytes": 2746,
+      "original_sha256": "7cb7e77b3aff9a9f4f6ccfdc49848e542f04b1d778d9cb1f8f86056ca221830d",
+      "published_sha256": "7cb7e77b3aff9a9f4f6ccfdc49848e542f04b1d778d9cb1f8f86056ca221830d",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/sentiment_metrics_careflow_v1.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/sentiment_metrics_careflow_v1.py",
+      "kind": "source",
+      "bytes": 3027,
+      "original_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "published_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/train_official.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/train_official.py",
+      "kind": "source",
+      "bytes": 13989,
+      "original_sha256": "31547fe7179a467f3c60b164f5f5e9f2fae115b54b6885a45aaf1b1310c42b18",
+      "published_sha256": "31547fe7179a467f3c60b164f5f5e9f2fae115b54b6885a45aaf1b1310c42b18",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/training_health_components_v2.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/training_health_components_v2.py",
+      "kind": "source",
+      "bytes": 4127,
+      "original_sha256": "0cb3b901d30b63bfbb7f08f773e372213d77ff5a99d4e80073a520e6704cf8ab",
+      "published_sha256": "0cb3b901d30b63bfbb7f08f773e372213d77ff5a99d4e80073a520e6704cf8ab",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/autonomous_mse_prefix16_v1/training_health_v1.py",
+      "origin": "work/autonomous_mse16_healthfix_20261008T181431Z/training_health_v1.py",
+      "kind": "source",
+      "bytes": 3421,
+      "original_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
+      "published_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
       "sanitizations": {}
     },
     {
@@ -31306,5 +31684,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Existing official VAL TEST predictions replayed; models and MOSI input assets actually published with remote SHA verification; no new scientific training."
+  "latest_source_update": "Real TRAIN prefix16 complete + public original-state preservation + other-node Adam/RNG/order CPU audit passed; original MSE-only100 epoch continuation started from17 with4000 total budget. No new VAL/TEST final scores."
 }

@@ -100,3 +100,8 @@ python work/polarity_intensity_official_v1/integration_contract.py scratch/polar
 [TRAIN/DEV 退化诊断](docs/TRAIN_DEV_diagnosis_and_plan.md)、[旧 0.59 与 TEST 对账](docs/TEST_vs_previous_059.md)、[各固定模型 VAL/TEST 五项](results/fixed_models_VAL_TEST_five_metrics.json)、[原流改进实际结果](results/official_upgrade_VAL_TEST.json)和 [229/685 行预测数组](results/official_upgrade_VAL_TEST_predictions.npz)已补入。历史诊断文件按其原数据角色解释，不能把其中 INNER 或合并折结果当官方 VAL/TEST。
 
 模型/输入发布状态见 [下载与复现](docs/download_and_reproduce.md)。新 MSE 候选仍未完成真实训练；本轮是上传现有产物。存储压缩曾失败且后置 SHA 未完成，该文件不作为此次发布模型。
+
+
+## 最新真实训练接续
+
+[原流MSE单变量训练及真实健康诊断](docs/autonomous_mse_training.md)：完整TRAIN16预检、GitHub完整状态保存和另一节点CPU审计已通过，原模型从17步续训至总4000步。训练完成后按固定流程报告同checkpoint的官方VAL/TEST五项；当前没有新的最终分数。

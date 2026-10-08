@@ -1,0 +1,38 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 1307,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_real_prefix16_plan.json",
+    "--receipt",
+    "/data/coding/publish_real_prefix16_receipt.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "real-TRAIN-prefix16-complete-original.zip",
+      "bytes": 1180925397,
+      "sha256": "ffd24c655f5a507094f7897e2696a490a2b2fade05bc65e66e4cfd7d1c3bb0e4",
+      "source_sha256": "ffd24c655f5a507094f7897e2696a490a2b2fade05bc65e66e4cfd7d1c3bb0e4",
+      "source_offset": 0,
+      "id": 622639949,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN-prefix16-complete-original.zip"
+    },
+    {
+      "name": "first-TRAIN-prefix-failure-complete-original.zip",
+      "bytes": 590683,
+      "sha256": "20f5db596a294cbdbd3eb407cef19f7d0014b597f9250188b3717274919914d6",
+      "source_sha256": "20f5db596a294cbdbd3eb407cef19f7d0014b597f9250188b3717274919914d6",
+      "source_offset": 0,
+      "id": 622644202,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/first-TRAIN-prefix-failure-complete-original.zip"
+    }
+  ],
+  "actual_UTC": "2026-10-08T18:25:34.028290+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

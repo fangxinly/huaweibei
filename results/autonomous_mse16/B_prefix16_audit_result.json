@@ -1,0 +1,30 @@
+{
+  "status": "B_ORIGINAL_PREFIX16_COMPLETE_MODEL_ADAM_RNG_ORDER_SHA_CRC_PASSED",
+  "actual_UTC": "2026-10-08T18:29:16.612892+00:00",
+  "pid": 1110,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/audit_public_prefix16_v1.py",
+    "--publication",
+    "/data/coding/A_prefix16_publication_receipt.json",
+    "--capture",
+    "/data/coding/A_fixed_prefix16_capture_receipt.json",
+    "--out",
+    "/data/coding/B_original_prefix16_audit_20261008T182534Z/original_audit"
+  ],
+  "UUID": "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+  "source_SHA": "671b5ff7a0a99e91005b22abd1c011b4e0afc261e749dd9cb79d0ae2ebad8f26",
+  "A_archive_SHA": "ffd24c655f5a507094f7897e2696a490a2b2fade05bc65e66e4cfd7d1c3bb0e4",
+  "checkpoint_SHA": "2d1e08145a80f4dec044ebbee4e7436974325dff610d3da453b115820acec4ad",
+  "model_state_SHA": "8f72f21326388d42da418401fe5aea634b2d9f85e1fa612265037ef52ef23d2b",
+  "Adam_parameter_states": 341,
+  "all_Adam_steps": 16,
+  "scheduler_last_epoch": 16,
+  "all_source_and_member_SHA": true,
+  "ZIP_CRC_unique": true,
+  "full_original_retained": "/data/coding/B_original_prefix16_audit_20261008T182534Z/original_audit/original",
+  "CPU_encoder_forward": false,
+  "VAL_labels_used": false,
+  "TEST_entry_not_indexed": true,
+  "processes": "  PID  PPID COMMAND\n    1     0 s6-svscan -t 10 /etc/services.d/\n    7     1 s6-supervise 01sshd\n    8     1 s6-supervise 02codeserver\n    9     8 /bin/bash /usr/local/bin/code-server.sh\n   10     7 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n  232     9 /usr/lib/code-server/lib/node /usr/lib/code-server --trusted-origins=* /data/coding/coding.code-workspace\n  250   232 /usr/lib/code-server/lib/node /usr/lib/code-server/out/node/entry\n  532    10 sshd: root@pts/0\n  543   532 -bash\n  559    10 sshd: root@notty\n  570   559 /usr/lib/openssh/sftp-server\n 1109   543 python -\n 1110  1109 /data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python /data/coding/audit_public_prefix16_v1.py --publication /data/coding/A_prefix16_publication_receipt.json --capture /data/coding/A_fixed_prefix16_capture_receipt.json --out /data/coding/B_original_prefix16_audit_20261008T182534Z/original_audit\n 1240  1110 ps -eo pid,ppid,args --width 10000\n"
+}

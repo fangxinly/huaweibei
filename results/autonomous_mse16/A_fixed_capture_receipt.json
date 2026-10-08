@@ -1,0 +1,11 @@
+{
+  "status": "ACTUAL_PREFIX16_COMPLETE",
+  "actual_UTC": "2026-10-08T18:21:24.821824+00:00",
+  "child_PID": 1149,
+  "natural_exit": 0,
+  "archive": "/data/coding/autonomous_mse16_healthfix_actual_20261008T181637Z/complete_actual_prefix16.zip",
+  "archive_SHA": "ffd24c655f5a507094f7897e2696a490a2b2fade05bc65e66e4cfd7d1c3bb0e4",
+  "archive_bytes": 1180925397,
+  "ZIP_CRC_unique_all_members": true,
+  "no_D_capacity_claimed": true
+}
