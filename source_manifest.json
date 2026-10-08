@@ -562,11 +562,11 @@
     },
     {
       "path": "docs/download_and_reproduce.md",
-      "origin": "generated_publication_note",
-      "kind": "research_note",
-      "bytes": 271,
-      "original_sha256": "5c87f8f1b16c47bbf63c90a627168ad8f7038521ca3e3ecb782ee53769d6d72c",
-      "published_sha256": "5c87f8f1b16c47bbf63c90a627168ad8f7038521ca3e3ecb782ee53769d6d72c",
+      "origin": "release_publication_finalization",
+      "kind": "publication_result",
+      "bytes": 5699,
+      "original_sha256": "2c0e0a5c1d435172360ce9b289ed27316fce58d5ff2b7a58fd0e83a839db09ba",
+      "published_sha256": "2c0e0a5c1d435172360ce9b289ed27316fce58d5ff2b7a58fd0e83a839db09ba",
       "sanitizations": {}
     },
     {
@@ -696,12 +696,39 @@
       "sanitizations": {}
     },
     {
+      "path": "results/CaReFlow_and_fixed_F_TEST_predictions.npz",
+      "origin": "preserved_result/joint_targets_and_fixed_predictions.npz",
+      "kind": "prediction_data",
+      "bytes": 53082,
+      "original_sha256": "67593daf686d246772aef3776789ee7f089dee106368b7cb44ab4e2fcf2df63c",
+      "published_sha256": "67593daf686d246772aef3776789ee7f089dee106368b7cb44ab4e2fcf2df63c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TEST_actual_predictions.csv",
+      "origin": "preserved_result/TEST_actual_predictions.csv",
+      "kind": "prediction_data",
+      "bytes": 44468,
+      "original_sha256": "f79e447e2f56514178fd88d9dcc58bd37f31e6ef1ab37f4fb78fc6c1af379b31",
+      "published_sha256": "f79e447e2f56514178fd88d9dcc58bd37f31e6ef1ab37f4fb78fc6c1af379b31",
+      "sanitizations": {}
+    },
+    {
       "path": "results/TRAIN_DEV_diagnosis.json",
       "origin": "outputs/固定双方TRAIN_DEV退化诊断.json",
       "kind": "research_result",
       "bytes": 22680,
       "original_sha256": "1fdab4032ce787fb750f530645a0587510af0b08f4c95e582c202472f60ceb4e",
       "published_sha256": "1fdab4032ce787fb750f530645a0587510af0b08f4c95e582c202472f60ceb4e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/VAL_actual_predictions.csv",
+      "origin": "preserved_result/VAL_actual_predictions.csv",
+      "kind": "prediction_data",
+      "bytes": 14789,
+      "original_sha256": "c4a936053692878c6869b1b18a78df624c91b11df0cedb32988562becfced3e2",
+      "published_sha256": "c4a936053692878c6869b1b18a78df624c91b11df0cedb32988562becfced3e2",
       "sanitizations": {}
     },
     {
@@ -729,6 +756,24 @@
       "bytes": 63680,
       "original_sha256": "ef8d91c110f0795e1d8f45b2419690f4bd0117127ac23f8fb5e6cb4e76eb09a2",
       "published_sha256": "ef8d91c110f0795e1d8f45b2419690f4bd0117127ac23f8fb5e6cb4e76eb09a2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/release_asset_manifest.json",
+      "origin": "release_publication_finalization",
+      "kind": "publication_result",
+      "bytes": 4723,
+      "original_sha256": "cb13950adb2ad07159165ada4406365d330f6dc693675434eecc3428d2091066",
+      "published_sha256": "cb13950adb2ad07159165ada4406365d330f6dc693675434eecc3428d2091066",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/upload_score_reproduction.json",
+      "origin": "release_publication_finalization",
+      "kind": "publication_result",
+      "bytes": 1392,
+      "original_sha256": "b67fd35a231ff4409aa3b9fc542b7e51b2d9779d499e6b38cb0094be85189403",
+      "published_sha256": "b67fd35a231ff4409aa3b9fc542b7e51b2d9779d499e6b38cb0094be85189403",
       "sanitizations": {}
     },
     {
@@ -4754,6 +4799,15 @@
       "bytes": 10685,
       "original_sha256": "0ba65090b803102c80ad44b860b9689b72b3a95ec245e1aeeb9531dc8a868181",
       "published_sha256": "0ba65090b803102c80ad44b860b9689b72b3a95ec245e1aeeb9531dc8a868181",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/finalize_results_publication_20261008T171229Z.py",
+      "origin": "release_publication_finalization",
+      "kind": "publication_result",
+      "bytes": 7809,
+      "original_sha256": "20fe559a4fbcd3e45765851f4ba92cb3d382d97a181067f6e6ef8af635b6e12b",
+      "published_sha256": "20fe559a4fbcd3e45765851f4ba92cb3d382d97a181067f6e6ef8af635b6e12b",
       "sanitizations": {}
     },
     {
@@ -12819,9 +12873,9 @@
       "path": "work/publish_release_assets_v1.py",
       "origin": "work/publish_release_assets_v1.py",
       "kind": "research_result",
-      "bytes": 8445,
-      "original_sha256": "b4fc480e7f8a9e1dcbbb9154ee2454605d931b683de5ace4036629f10711c539",
-      "published_sha256": "b4fc480e7f8a9e1dcbbb9154ee2454605d931b683de5ace4036629f10711c539",
+      "bytes": 8869,
+      "original_sha256": "3a51d78bcba3c6e1a34f9e435dd203371f6a1c6de36197c01ef3d69b159d3024",
+      "published_sha256": "3a51d78bcba3c6e1a34f9e435dd203371f6a1c6de36197c01ef3d69b159d3024",
       "sanitizations": {}
     },
     {
@@ -13236,6 +13290,15 @@
       "bytes": 8229,
       "original_sha256": "84c1ebb8ae1d7c0087b0e59bbcf5d71ae1bc9d9cab6febc0eaa77d2edc05f9e6",
       "published_sha256": "84c1ebb8ae1d7c0087b0e59bbcf5d71ae1bc9d9cab6febc0eaa77d2edc05f9e6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/reproduce_published_VAL_TEST_v1.py",
+      "origin": "preserved_result/reproduce_published_VAL_TEST_v1.py",
+      "kind": "source",
+      "bytes": 3012,
+      "original_sha256": "731c0a352bf1270ec728a92e9e9ff964cf20e75913ef9eeb8ccc3a5ea8b52f30",
+      "published_sha256": "731c0a352bf1270ec728a92e9e9ff964cf20e75913ef9eeb8ccc3a5ea8b52f30",
       "sanitizations": {}
     },
     {
@@ -31243,5 +31306,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Actual official VAL/TEST results and predictions published; streaming release uploader added; no new scientific training."
+  "latest_source_update": "Existing official VAL TEST predictions replayed; models and MOSI input assets actually published with remote SHA verification; no new scientific training."
 }

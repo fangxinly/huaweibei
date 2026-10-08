@@ -10,7 +10,7 @@
 |[原流逐方向残差控制](work/residual_direction_v2_frozen_20261008T114041Z/bundle/)|同流消息 OFF / 六单方向 / ALL 八个实际干预；视频隔离残差估计、校准和效用选择|原服务器 CPU 合成代码检查通过；完整真实 OOF 训练及新 VAL/TEST 尚未完成|
 |[线性校准与增量对照](work/linear_control_addendum_v1/)|无约束融合、仿射校准、正交化增量|本地合成检查通过；真实官方双方 OOF 拟合尚未完成|
 |[单调非线性校准](work/flexible_official_calibration_v1/)|固定五锚点单调分段线性校准；对完整同一非线性基空间残差化增量|本地合成检查通过；没有新校准后的官方 VAL/TEST 分数|
-|[极性与强度候选审阅](docs/polarity_intensity_review.md)|在原流内允许消息同时纠正极性和强度，增加辅助监督|数学与文献审阅，尚无实现冻结或训练结果|
+|[极性与强度候选审阅](docs/polarity_intensity_review.md)|在原流内允许消息同时纠正极性和强度，增加辅助监督|源码已实现并冻结；双节点CPU合成模块及原流集成检查通过，真实候选训练尚未完成|
 |[归档独有源码](archive_code/)|本地 ZIP 中未被其他源码覆盖的历史版本|归档号与原包内路径的对应关系在 manifest；不把旧实验当现行方法|
 
 `work/` 保留原本研究版本目录；`outputs/` 仅包含源码，不包含原始实验输出。源码归档没有按结果优劣删除旧方案。

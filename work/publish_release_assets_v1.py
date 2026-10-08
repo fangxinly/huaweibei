@@ -141,6 +141,12 @@ def run(plan, receipt):
                     print(json.dumps(dict(status='ASSET_REMOTE_SHA_VERIFIED', name=name, bytes=length)), flush=True)
                     offset += length
         release = request(base + '/releases/' + str(release['id']), headers, {'draft': False}, method='PATCH')
+        final_assets = {asset['id']: asset for asset in request(release['assets_url'] + '?per_page=100', headers)}
+        for row in state['assets']:
+            remote = final_assets[row['id']]
+            if remote['size'] != row['bytes'] or remote.get('digest') != 'sha256:' + row['sha256']:
+                raise ValueError('Published asset verification failed')
+            row['url'] = remote['browser_download_url']
         state.update(status='PUBLISHED_ALL_ASSETS_REMOTE_SHA_VERIFIED', release_url=release['html_url'])
         save()
         print(json.dumps(dict(status=state['status'], url=state['release_url'], assets=len(state['assets']))), flush=True)
