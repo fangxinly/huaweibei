@@ -546,9 +546,9 @@
       "path": "docs/autonomous_mse_training.md",
       "origin": "github_upload_20261008T133346Z/docs/autonomous_mse_training.md",
       "kind": "research_note",
-      "bytes": 3529,
-      "original_sha256": "d68083f3529bd5e20940f99e7a177bc6de79c85e657ba27bb8c3112704b93842",
-      "published_sha256": "d68083f3529bd5e20940f99e7a177bc6de79c85e657ba27bb8c3112704b93842",
+      "bytes": 4075,
+      "original_sha256": "14a8fd00b85b2ebff3611a9d42afe2fe6b56a045284d50b9766858cb3461a1fa",
+      "published_sha256": "14a8fd00b85b2ebff3611a9d42afe2fe6b56a045284d50b9766858cb3461a1fa",
       "sanitizations": {}
     },
     {
@@ -855,6 +855,24 @@
       "bytes": 4965,
       "original_sha256": "44811c69708812ef907a81882c62999c27c0c109025ac3709f43a8b64cb6bd65",
       "published_sha256": "44811c69708812ef907a81882c62999c27c0c109025ac3709f43a8b64cb6bd65",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse_prefix16_v1/A100_natural_exit.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_natural_exit.json",
+      "kind": "research_note",
+      "bytes": 858,
+      "original_sha256": "e73330acfc9e6dfe68291b8021e3211f6425b3a72b060a92680f234eb8e0a189",
+      "published_sha256": "e73330acfc9e6dfe68291b8021e3211f6425b3a72b060a92680f234eb8e0a189",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse_prefix16_v1/A100_training_result.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/A100_training_result.json",
+      "kind": "research_note",
+      "bytes": 124652,
+      "original_sha256": "4ca607c9b26973e5f2a523b6b0a5baaf01e1c2ec1f909c74e716fcfb4dae8c1a",
+      "published_sha256": "4ca607c9b26973e5f2a523b6b0a5baaf01e1c2ec1f909c74e716fcfb4dae8c1a",
       "sanitizations": {}
     },
     {
@@ -12486,6 +12504,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/prepare_actual_capture_publication_v1.py",
+      "origin": "work/prepare_actual_capture_publication_v1.py",
+      "kind": "source",
+      "bytes": 1436,
+      "original_sha256": "f741a146c4ddeee7a44ddf88ed514009c6a47a7f91f18615e412e34fd11294ed",
+      "published_sha256": "f741a146c4ddeee7a44ddf88ed514009c6a47a7f91f18615e412e34fd11294ed",
+      "sanitizations": {}
+    },
+    {
       "path": "work/prepare_actual_paired_formal_dispatch_v2.py",
       "origin": "work/prepare_actual_paired_formal_dispatch_v2.py",
       "kind": "source",
@@ -16237,6 +16264,15 @@
       "bytes": 2771,
       "original_sha256": "d1bede1c9aade83c1398ec680261854b1f2aa432f4a46543e2b4a33eacdbfec2",
       "published_sha256": "d1bede1c9aade83c1398ec680261854b1f2aa432f4a46543e2b4a33eacdbfec2",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/verify_new_final_D_archive_v1.py",
+      "origin": "work/verify_new_final_D_archive_v1.py",
+      "kind": "source",
+      "bytes": 1607,
+      "original_sha256": "0ebc34d6be7ef543f2d32f8de325440bc8ad147f8cf22419deb1f10e860cc7ae",
+      "published_sha256": "0ebc34d6be7ef543f2d32f8de325440bc8ad147f8cf22419deb1f10e860cc7ae",
       "sanitizations": {}
     },
     {
@@ -31828,5 +31864,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Real MSE100 running; complete400 public+B CPU passed; posttrain contract synthetic passed; no new final VAL/TEST five scores."
+  "latest_source_update": "Genuine official MSE100 child natural0; best65; full capture in progress; no new final VAL/TEST five scores."
 }
