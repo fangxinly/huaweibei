@@ -1,0 +1,19 @@
+{
+  "status": "CPU_SYNTHETIC_POSTTRAIN_FLOW_ON_OFF_AND_INDEPENDENT_FIVE_PASSED",
+  "actual_UTC": "2026-10-08T19:14:16.941509+00:00",
+  "pid": 1374,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/posttrain_CPU_qualification_20261008T191347Z/bundle/qualify_posttrain_contract_v1.py",
+    "--out",
+    "/data/coding/posttrain_CPU_qualification_20261008T191347Z/result.json"
+  ],
+  "source_SHA": "bdfd0824924aeac5aafa22f1edd3ecb0097a96413833edc7cfbda0d618158c59",
+  "CPU_only": true,
+  "real_data_or_labels_indexed": false,
+  "CPU_encoder_forward": false,
+  "nonzero_message_ON_equals_full_flow_maxerror": 0.0,
+  "nonzero_functional_message_difference": true,
+  "dummy_label_replay_state_RNG_passed": true,
+  "author_semantics_sklearn_scipy_maxerror": 0.0
+}

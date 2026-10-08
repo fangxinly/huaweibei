@@ -544,11 +544,11 @@
     },
     {
       "path": "docs/autonomous_mse_training.md",
-      "origin": "generated actual report from receipts",
-      "kind": "report",
-      "bytes": 3062,
-      "original_sha256": "b4bce5b08c00a2f6251eb98aae0a6f2168490396fe937a0a61a1750e85365b00",
-      "published_sha256": "b4bce5b08c00a2f6251eb98aae0a6f2168490396fe937a0a61a1750e85365b00",
+      "origin": "github_upload_20261008T133346Z/docs/autonomous_mse_training.md",
+      "kind": "research_note",
+      "bytes": 3529,
+      "original_sha256": "d68083f3529bd5e20940f99e7a177bc6de79c85e657ba27bb8c3112704b93842",
+      "published_sha256": "d68083f3529bd5e20940f99e7a177bc6de79c85e657ba27bb8c3112704b93842",
       "sanitizations": {}
     },
     {
@@ -855,6 +855,42 @@
       "bytes": 4965,
       "original_sha256": "44811c69708812ef907a81882c62999c27c0c109025ac3709f43a8b64cb6bd65",
       "published_sha256": "44811c69708812ef907a81882c62999c27c0c109025ac3709f43a8b64cb6bd65",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse_prefix16_v1/B_posttrain_native_exit.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_posttrain_native_exit.json",
+      "kind": "research_note",
+      "bytes": 354,
+      "original_sha256": "517273516d0cba05797d31b5a26f67a310e8c5e93ccbcb542e827cd4f8b8a4e3",
+      "published_sha256": "517273516d0cba05797d31b5a26f67a310e8c5e93ccbcb542e827cd4f8b8a4e3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse_prefix16_v1/B_posttrain_native_result.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_posttrain_native_result.json",
+      "kind": "research_note",
+      "bytes": 820,
+      "original_sha256": "dc1e3b834823e0e646198b9b7e95f4d3b279f6d562b134bce64b7b6ff5ada02f",
+      "published_sha256": "dc1e3b834823e0e646198b9b7e95f4d3b279f6d562b134bce64b7b6ff5ada02f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse_prefix16_v1/B_warm400_audit_exit.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_warm400_audit_exit.json",
+      "kind": "research_note",
+      "bytes": 483,
+      "original_sha256": "464bf03f4236843ea03aecfe5f53584cf10f27f135f35ffdaac666ecefb8ca8c",
+      "published_sha256": "464bf03f4236843ea03aecfe5f53584cf10f27f135f35ffdaac666ecefb8ca8c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/autonomous_mse_prefix16_v1/B_warm400_audit_result.json",
+      "origin": "outputs/autonomous_mse16_20261008T175549Z/B_warm400_audit_result.json",
+      "kind": "research_note",
+      "bytes": 1326,
+      "original_sha256": "7c292f1cbacc20af3c301c379ec7d6d32b2597b9ba015b7927fce32e4676bf34",
+      "published_sha256": "7c292f1cbacc20af3c301c379ec7d6d32b2597b9ba015b7927fce32e4676bf34",
       "sanitizations": {}
     },
     {
@@ -9883,30 +9919,57 @@
       "sanitizations": {}
     },
     {
+      "path": "work/official_mse_posttrain_tools_v1/audit_public_small_stage_v1.py",
+      "origin": "work/official_mse_posttrain_tools_v1/audit_public_small_stage_v1.py",
+      "kind": "source",
+      "bytes": 5193,
+      "original_sha256": "536ae2a7a95e6d7f0777726186b2fa057a96b57ca7b10461df1bf408bc46e3f5",
+      "published_sha256": "536ae2a7a95e6d7f0777726186b2fa057a96b57ca7b10461df1bf408bc46e3f5",
+      "sanitizations": {}
+    },
+    {
       "path": "work/official_mse_posttrain_tools_v1/download_and_audit_final_v1.py",
       "origin": "work/official_mse_posttrain_tools_v1/download_and_audit_final_v1.py",
       "kind": "source",
-      "bytes": 2617,
-      "original_sha256": "844625dc946ac7c12469a224931442c48b3988a2f8ccfa3c5fe3e57bf1eb331b",
-      "published_sha256": "844625dc946ac7c12469a224931442c48b3988a2f8ccfa3c5fe3e57bf1eb331b",
+      "bytes": 2522,
+      "original_sha256": "9ab1a61e7024b51d8a320c8155779886c3aabcc5780ee59adb1260e2f1d5c3c0",
+      "published_sha256": "9ab1a61e7024b51d8a320c8155779886c3aabcc5780ee59adb1260e2f1d5c3c0",
       "sanitizations": {}
     },
     {
       "path": "work/official_mse_posttrain_tools_v1/freeze_posttrain_stage_v1.py",
       "origin": "work/official_mse_posttrain_tools_v1/freeze_posttrain_stage_v1.py",
       "kind": "source",
-      "bytes": 3923,
-      "original_sha256": "26663640de28d6f5ec659da8045532bc75b734c8b63b4d16796c3b693157219e",
-      "published_sha256": "26663640de28d6f5ec659da8045532bc75b734c8b63b4d16796c3b693157219e",
+      "bytes": 4562,
+      "original_sha256": "ec4279ed7d24996e89dff0eac899e964e31760394b62cdba6a9ca02bd9d8ebeb",
+      "published_sha256": "ec4279ed7d24996e89dff0eac899e964e31760394b62cdba6a9ca02bd9d8ebeb",
       "sanitizations": {}
     },
     {
       "path": "work/official_mse_posttrain_tools_v1/infer_official.py",
       "origin": "work/official_mse_posttrain_tools_v1/infer_official.py",
       "kind": "source",
-      "bytes": 4402,
-      "original_sha256": "74db84544c5027c4ee84e98923c8bd48d5271251e66cb283a44fb2cc3d56302d",
-      "published_sha256": "74db84544c5027c4ee84e98923c8bd48d5271251e66cb283a44fb2cc3d56302d",
+      "bytes": 5011,
+      "original_sha256": "f4c3e132137226025efd10ccee1c35da9a28ac683836251f9033e9becfd033ba",
+      "published_sha256": "f4c3e132137226025efd10ccee1c35da9a28ac683836251f9033e9becfd033ba",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/qualify_posttrain_contract_v1.py",
+      "origin": "work/official_mse_posttrain_tools_v1/qualify_posttrain_contract_v1.py",
+      "kind": "source",
+      "bytes": 3505,
+      "original_sha256": "bdfd0824924aeac5aafa22f1edd3ecb0097a96413833edc7cfbda0d618158c59",
+      "published_sha256": "bdfd0824924aeac5aafa22f1edd3ecb0097a96413833edc7cfbda0d618158c59",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_mse_posttrain_tools_v1/run_posttrain_capture_v1.py",
+      "origin": "work/official_mse_posttrain_tools_v1/run_posttrain_capture_v1.py",
+      "kind": "source",
+      "bytes": 5997,
+      "original_sha256": "2e98f653ecffa1108d8006ae41b9320ffdaddc55f396e78cf1a88c81322ca360",
+      "published_sha256": "2e98f653ecffa1108d8006ae41b9320ffdaddc55f396e78cf1a88c81322ca360",
       "sanitizations": {}
     },
     {
@@ -31765,5 +31828,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "100 epoch MSE-only continuation running; complete warmup400 state publicly preserved with exact two-part hashes; posttraining tools prepared but not executed, no new final scores."
+  "latest_source_update": "Real MSE100 running; complete400 public+B CPU passed; posttrain contract synthetic passed; no new final VAL/TEST five scores."
 }

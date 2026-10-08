@@ -1,0 +1,1 @@
+{"actual_UTC": "2026-10-08T19:14:17.321087+00:00", "pid": 1374, "fullargv": ["/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python", "/data/coding/posttrain_CPU_qualification_20261008T191347Z/bundle/qualify_posttrain_contract_v1.py", "--out", "/data/coding/posttrain_CPU_qualification_20261008T191347Z/result.json"], "natural_exit": 0}

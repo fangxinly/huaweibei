@@ -34,8 +34,14 @@ def run(a):
                 on.append(prediction.cpu().numpy());off.append(p0.cpu().numpy())
             result.update({role+'_ids':np.asarray(ids),role+'_prediction':np.concatenate(on),role+'_p0':np.concatenate(off)})
     assert state==tensor_sha(model.state_dict()) and torch.equal(rng,torch.get_rng_state()) and all(torch.equal(x,y) for x,y in zip(cuda,torch.cuda.get_rng_state_all()))
+    frozen=a.input_root/'out/selected_DEV_frozen_prediction.npz';assert sha(frozen)==p['training_original_reference']['member_SHA']['out/selected_DEV_frozen_prediction.npz']
+    with np.load(frozen,allow_pickle=False) as z:
+        selection_replay_error=float(np.max(np.abs(result['VAL_prediction']-z['prediction'])))
+    assert selection_replay_error<=1e-4
+    peak=dict(allocated_peak=torch.cuda.max_memory_allocated(),reserved_peak=torch.cuda.max_memory_reserved())
+    assert max(peak.values())<=p['GPU_peak_ceiling_bytes']
     np.savez(a.out/'fixed_official_VAL_TEST_prediction.npz',**result)
-    write(a.out/'inference_result.json',dict(status='TRAIN_ONLY_SELECTED_UPGRADE_VAL_TEST_PREDICTION_COMPLETE',actual_UTC=utc(),pid=os.getpid(),fullargv=[sys.executable]+sys.argv,selected_state_SHA=state,prediction_SHA=sha(a.out/'fixed_official_VAL_TEST_prediction.npz'),checks=checks,TRAIN_VAL_TEST_no_training_overlap=True,scalar_VAL_TEST_true_labels_not_indexed=True,all_parameters_buffers_RNG_unchanged=True))
+    write(a.out/'inference_result.json',dict(status='TRAIN_ONLY_SELECTED_UPGRADE_VAL_TEST_PREDICTION_COMPLETE',actual_UTC=utc(),pid=os.getpid(),fullargv=[sys.executable]+sys.argv,selected_state_SHA=state,prediction_SHA=sha(a.out/'fixed_official_VAL_TEST_prediction.npz'),checks=checks,VAL_inference16_vs_selection128_maxerror=selection_replay_error,peak=peak,TRAIN_VAL_TEST_no_training_overlap=True,scalar_VAL_TEST_true_labels_not_indexed=True,all_parameters_buffers_RNG_unchanged=True))
 
 if __name__=='__main__':
     p=argparse.ArgumentParser()

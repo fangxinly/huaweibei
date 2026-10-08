@@ -4,7 +4,7 @@ from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('--publication',type=Path,required=True);p.add_argument('--capture',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
 for n in ('plan','bundle','assets'):p.add_argument('--'+n,type=Path,required=True)
 p.add_argument('--plan-sha',required=True);a=p.parse_args()
-sha=lambda p:hashlib.file_digest(Path(p).open('rb'),'sha256').hexdigest() if hasattr(hashlib,'file_digest') else digest(p)
+def sha(p):return digest(p)
 def digest(p):
  h=hashlib.sha256()
  with Path(p).open('rb') as f:

@@ -1,0 +1,31 @@
+{
+  "status": "B_PUBLIC_COMPLETE_STEP_CHECKPOINT_MODEL_ADAM_RNG_ORDERS_HISTORY_PASSED",
+  "actual_UTC": "2026-10-08T19:12:16.607640+00:00",
+  "pid": 1242,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/audit_public_complete_step_v1.py",
+    "--publication",
+    "/data/coding/A_warm400_publication_receipt.json",
+    "--expected",
+    "/data/coding/A100_warmup400_ready.json",
+    "--bundle",
+    "/data/coding/B_warm400_audit_20261008T190510Z/bundle",
+    "--out",
+    "/data/coding/B_warm400_audit_20261008T190510Z/original_cpu"
+  ],
+  "UUID": "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+  "source_SHA": "a266404127e2c6de7a0d4bb98e02c6141bf4f387e3e4f1e2db57557cebfbb215",
+  "checkpoint_SHA": "885e7672fde2092b0f4e83cf65b77ca312066b6c3422d3440fd4a9d7e93552b2",
+  "checkpoint_bytes": 2960778223,
+  "steps": 400,
+  "all_Adam_steps": 400,
+  "Adam_states": 341,
+  "model_state_SHA": "472b42774d4e74d988a0089e494c2e8d3e88aaf539a4ae9937f32f43ba00599e",
+  "selected_state_SHA": "472b42774d4e74d988a0089e494c2e8d3e88aaf539a4ae9937f32f43ba00599e",
+  "best_epoch": 10,
+  "scheduler_step": 400,
+  "RNG_orders_history_passed": true,
+  "CPU_encoder_forward": false,
+  "original_retained": "/data/coding/B_warm400_audit_20261008T190510Z/original_cpu/complete_original.pt"
+}
