@@ -4,7 +4,7 @@
 
 |目录|文件数|
 |---|---:|
-|[](/)|1|
+|[.](./)|1|
 |[archive_code/z025/cdb4ee2aea69](archive_code/z025/cdb4ee2aea69/)|1|
 |[archive_code/z026/41cf6794ba42](archive_code/z026/41cf6794ba42/)|4|
 |[archive_code/z031/08cd2700aa5e](archive_code/z031/08cd2700aa5e/)|1|
@@ -48,7 +48,7 @@
 |[outputs](outputs/)|3|
 |[outputs/anchored_increment_review_20261008T025421Z](outputs/anchored_increment_review_20261008T025421Z/)|2|
 |[outputs/flexible_official_calibration_20261008T125206Z/failure01_source](outputs/flexible_official_calibration_20261008T125206Z/failure01_source/)|4|
-|[work](work/)|756|
+|[work](work/)|762|
 |[work/anchored_VAL_TEST_eval_20261008T051335Z](work/anchored_VAL_TEST_eval_20261008T051335Z/)|35|
 |[work/anchored_increment_candidate](work/anchored_increment_candidate/)|9|
 |[work/anchored_increment_inference_20261008T025648Z](work/anchored_increment_inference_20261008T025648Z/)|29|
@@ -130,6 +130,7 @@
 |[work/paired_official_fulltrain_v1_20261007T010817Z](work/paired_official_fulltrain_v1_20261007T010817Z/)|24|
 |[work/paired_official_fulltrain_v2_20261007T011543Z](work/paired_official_fulltrain_v2_20261007T011543Z/)|23|
 |[work/plain_scalar_residual_fold0_20261006T1157Z](work/plain_scalar_residual_fold0_20261006T1157Z/)|1|
+|[work/polarity_intensity_official_v1](work/polarity_intensity_official_v1/)|27|
 |[work/residual_direction_v2_candidate](work/residual_direction_v2_candidate/)|3|
 |[work/residual_direction_v2_frozen_20261008T114041Z/bundle](work/residual_direction_v2_frozen_20261008T114041Z/bundle/)|11|
 |[work/second_lease_activation_checkpoint_v6_20261006T144158Z](work/second_lease_activation_checkpoint_v6_20261006T144158Z/)|37|

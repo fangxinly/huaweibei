@@ -67,3 +67,19 @@ python work/flexible_official_calibration_v1/contract_check.py scratch/flexible_
 - [Tensor Fusion Network for Multimodal Sentiment Analysis](https://aclanthology.org/D17-1115/)
 
 方法限制与核对见 [残差几何审阅](docs/coupling_residual_math_review.md) 和 [非线性校准说明](docs/flexible_calibration_review.md)。
+
+## 原流极性／强度候选：实现和验证状态
+
+实现位于 [polarity_intensity_official_v1](work/polarity_intensity_official_v1/)。保留原100维、两步Euler、六方向消息流，在同一读出上加入零初始化的符号与非负幅度头（共2002参数）；文本、音频和视觉均可影响符号和幅度。固定比较 `regression_aux` 与 `factorized_aux` 两种等容量模式，使用同样的辅助监督。全局原gain及一维重标定捷径仍可能存在，这一候选没有替代折外效用控制或校准消融。
+
+两台 Linux PyTorch 2.1.0+cu121 的 CPU 合成检查实际通过：标签／padding／排列／状态／RNG守卫、真实消息关闭与开启、梯度、优化器覆盖、保存／严格加载和回放。首次集成曾因 deepcopy 前向计算图失败，已改为重建模块再严格加载参数，原失败证据保留于研究备份。未使用真实数据、预训练权重或GPU前向；**完整编码器预检、正式训练及新的VAL/TEST五项结果仍未执行**。官方五项表仍是上方既有结果。
+
+可运行的合成检查：
+
+```bash
+mkdir -p scratch
+python work/polarity_intensity_official_v1/native_contract.py scratch/polarity_native.json
+python work/polarity_intensity_official_v1/integration_contract.py scratch/polarity_integration.json
+```
+
+训练／推理接入已写入该目录的 `train_official.py`、`infer_official.py`，但运行前仍需新公共资产、完整编码器预检、来源冻结、保存容量及真实预算门通过。旧计划不能直接复用。主目标固定为最终带符号预测的Huber损失，幅度与符号监督仅作辅助；符号头零真值权重为0，最终MAE/Corr不裁剪预测。零头初始化的乘积读出仅在原预测约[-3,3]内还原原回归，范围外的anchor有显式裁剪，不能声称无条件恒等。
