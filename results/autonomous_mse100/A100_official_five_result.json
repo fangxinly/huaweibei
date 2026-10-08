@@ -1,0 +1,431 @@
+{
+  "status": "OFFICIAL_TRAIN_VAL_TEST_ALIGNED_UPGRADE_CAREFLOW_FIVE_COMPLETE",
+  "actual_UTC": "2026-10-08T20:19:05.497079+00:00",
+  "pid": 1769,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/official_mse100_score_frozen_20261008T201836Z/score_official.py",
+    "--plan",
+    "/data/coding/official_mse100_score_frozen_20261008T201836Z/official_score_protocol.json",
+    "--plan-sha",
+    "eea4906283b1b0641a4b2759b29c0118457fdf0e5f11d6489ee230676e576c4b",
+    "--bundle",
+    "/data/coding/official_mse100_score_frozen_20261008T201836Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T174420Z",
+    "--out",
+    "/data/coding/A_official_mse100_score_actual_20261008T201836Z/out",
+    "--prediction",
+    "/data/coding/A_official_mse100_infer_actual_20261008T201250Z/out/fixed_official_VAL_TEST_prediction.npz"
+  ],
+  "roles": {
+    "VAL": {
+      "rows": 229,
+      "new": {
+        "Acc7": 0.5021834061135371,
+        "Acc2": 0.875,
+        "F1": 0.8749094739614194,
+        "MAE": 0.6080797817151359,
+        "Corr": 0.8608168687258427,
+        "MSE": 0.713777298108202,
+        "Has0_Acc2": 0.8384279475982532,
+        "Has0_F1": 0.839451495256444,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0,
+        "correlation_defined": true,
+        "nonzero_confusion_matrix": [
+          [
+            78,
+            14
+          ],
+          [
+            13,
+            111
+          ]
+        ],
+        "haszero_confusion_matrix": [
+          [
+            78,
+            14
+          ],
+          [
+            23,
+            114
+          ]
+        ]
+      },
+      "messages_off": {
+        "Acc7": 0.5021834061135371,
+        "Acc2": 0.875,
+        "F1": 0.8747111003499812,
+        "MAE": 0.6037390712307009,
+        "Corr": 0.8613278642937346,
+        "MSE": 0.7095255483263857,
+        "Has0_Acc2": 0.8384279475982532,
+        "Has0_F1": 0.8392707063083511,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0,
+        "correlation_defined": true,
+        "nonzero_confusion_matrix": [
+          [
+            77,
+            15
+          ],
+          [
+            12,
+            112
+          ]
+        ],
+        "haszero_confusion_matrix": [
+          [
+            77,
+            15
+          ],
+          [
+            22,
+            115
+          ]
+        ]
+      },
+      "careflow": {
+        "Acc7": 0.4978165938864629,
+        "Acc2": 0.8796296296296297,
+        "F1": 0.8792475014697237,
+        "MAE": 0.6045238262758688,
+        "Corr": 0.8594938469285841,
+        "MSE": 0.7200654767787426,
+        "Has0_Acc2": 0.8427947598253275,
+        "Has0_F1": 0.8435171876768766,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0,
+        "correlation_defined": true,
+        "nonzero_confusion_matrix": [
+          [
+            77,
+            15
+          ],
+          [
+            11,
+            113
+          ]
+        ],
+        "haszero_confusion_matrix": [
+          [
+            77,
+            15
+          ],
+          [
+            21,
+            116
+          ]
+        ]
+      },
+      "new_minus_careflow": {
+        "Acc7": 0.0043668122270741905,
+        "Acc2": -0.00462962962962965,
+        "F1": -0.004338027508304365,
+        "MAE": 0.003555955439267122,
+        "Corr": 0.0013230217972586278
+      },
+      "all_five_strict_point_improvement": false,
+      "groups": {
+        "weak": {
+          "Acc7": 0.44047619047619047,
+          "Acc2": 0.7183098591549296,
+          "F1": 0.7175198627663416,
+          "MAE": 0.6914193079407726,
+          "Corr": 0.4884244184098604,
+          "MSE": 0.8150725004013895,
+          "Has0_Acc2": 0.6428571428571429,
+          "Has0_F1": 0.6469645937731043,
+          "samples": 84,
+          "nonzero_samples": 71,
+          "zero_label_samples": 13,
+          "exact_zero_predictions": 0,
+          "correlation_defined": true,
+          "nonzero_confusion_matrix": [
+            [
+              22,
+              11
+            ],
+            [
+              9,
+              29
+            ]
+          ],
+          "haszero_confusion_matrix": [
+            [
+              22,
+              11
+            ],
+            [
+              19,
+              32
+            ]
+          ]
+        },
+        "strong": {
+          "Acc7": 0.5379310344827586,
+          "Acc2": 0.9517241379310345,
+          "F1": 0.951785820196197,
+          "MAE": 0.5598003320395947,
+          "Corr": 0.9177734594136034,
+          "MSE": 0.6550959395383554,
+          "Has0_Acc2": 0.9517241379310345,
+          "Has0_F1": 0.951785820196197,
+          "samples": 145,
+          "nonzero_samples": 145,
+          "zero_label_samples": 0,
+          "exact_zero_predictions": 0,
+          "correlation_defined": true,
+          "nonzero_confusion_matrix": [
+            [
+              56,
+              3
+            ],
+            [
+              4,
+              82
+            ]
+          ],
+          "haszero_confusion_matrix": [
+            [
+              56,
+              3
+            ],
+            [
+              4,
+              82
+            ]
+          ]
+        }
+      }
+    },
+    "TEST": {
+      "rows": 685,
+      "new": {
+        "Acc7": 0.4510948905109489,
+        "Acc2": 0.8625954198473282,
+        "F1": 0.8622294068405669,
+        "MAE": 0.6527124574802218,
+        "Corr": 0.8358475960531998,
+        "MSE": 0.7883866231097787,
+        "Has0_Acc2": 0.8408759124087591,
+        "Has0_F1": 0.8398710458313415,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0,
+        "correlation_defined": true,
+        "nonzero_confusion_matrix": [
+          [
+            338,
+            40
+          ],
+          [
+            50,
+            227
+          ]
+        ],
+        "haszero_confusion_matrix": [
+          [
+            338,
+            40
+          ],
+          [
+            69,
+            238
+          ]
+        ]
+      },
+      "messages_off": {
+        "Acc7": 0.4467153284671533,
+        "Acc2": 0.8625954198473282,
+        "F1": 0.8625954198473282,
+        "MAE": 0.6591003570025855,
+        "Corr": 0.8356574159580432,
+        "MSE": 0.802470481587428,
+        "Has0_Acc2": 0.8423357664233576,
+        "Has0_F1": 0.8417882357230173,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0,
+        "correlation_defined": true,
+        "nonzero_confusion_matrix": [
+          [
+            333,
+            45
+          ],
+          [
+            45,
+            232
+          ]
+        ],
+        "haszero_confusion_matrix": [
+          [
+            333,
+            45
+          ],
+          [
+            63,
+            244
+          ]
+        ]
+      },
+      "careflow": {
+        "Acc7": 0.5065693430656935,
+        "Acc2": 0.8763358778625954,
+        "F1": 0.8761118749578298,
+        "MAE": 0.619535293923368,
+        "Corr": 0.851188467828589,
+        "MSE": 0.7062478886626934,
+        "Has0_Acc2": 0.8569343065693431,
+        "Has0_F1": 0.8562255065236631,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0,
+        "correlation_defined": true,
+        "nonzero_confusion_matrix": [
+          [
+            341,
+            37
+          ],
+          [
+            44,
+            233
+          ]
+        ],
+        "haszero_confusion_matrix": [
+          [
+            341,
+            37
+          ],
+          [
+            61,
+            246
+          ]
+        ]
+      },
+      "new_minus_careflow": {
+        "Acc7": -0.055474452554744536,
+        "Acc2": -0.013740458015267132,
+        "F1": -0.013882468117262903,
+        "MAE": 0.03317716355685374,
+        "Corr": -0.015340871775389231
+      },
+      "all_five_strict_point_improvement": false,
+      "groups": {
+        "weak": {
+          "Acc7": 0.4980392156862745,
+          "Acc2": 0.7111111111111111,
+          "F1": 0.7092098061245066,
+          "MAE": 0.6063618581084644,
+          "Corr": 0.4964888092805985,
+          "MSE": 0.6440018626518733,
+          "Has0_Acc2": 0.6705882352941176,
+          "Has0_F1": 0.6686900472009338,
+          "samples": 255,
+          "nonzero_samples": 225,
+          "zero_label_samples": 30,
+          "exact_zero_predictions": 0,
+          "correlation_defined": true,
+          "nonzero_confusion_matrix": [
+            [
+              91,
+              25
+            ],
+            [
+              40,
+              69
+            ]
+          ],
+          "haszero_confusion_matrix": [
+            [
+              91,
+              25
+            ],
+            [
+              59,
+              80
+            ]
+          ]
+        },
+        "strong": {
+          "Acc7": 0.4232558139534884,
+          "Acc2": 0.9418604651162791,
+          "F1": 0.9420066524776228,
+          "MAE": 0.6801994408285895,
+          "Corr": 0.8840564378946173,
+          "MSE": 0.8740101438464435,
+          "Has0_Acc2": 0.9418604651162791,
+          "Has0_F1": 0.9420066524776228,
+          "samples": 430,
+          "nonzero_samples": 430,
+          "zero_label_samples": 0,
+          "exact_zero_predictions": 0,
+          "correlation_defined": true,
+          "nonzero_confusion_matrix": [
+            [
+              247,
+              15
+            ],
+            [
+              10,
+              158
+            ]
+          ],
+          "haszero_confusion_matrix": [
+            [
+              247,
+              15
+            ],
+            [
+              10,
+              158
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "prediction_SHA": "1b22b555618cc623dcbf51f5e0b57eaa8f3becd1448e5a4d2298971ef3509f17",
+  "selected_state_SHA": "b1af7ce9de4e53d6c06d0cf2d8381227491f0fa59ebbf94003509c9057aca61e",
+  "baseline_source_reference": {
+    "DEV_source": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\正式双方fullTRAIN100固定best一次DEV五项实际结果.json",
+    "DEV_source_SHA": "60f835f75562189a3f119fc68b001f20d9b30b9e6376f1a50ce0fe2a9a2ae741",
+    "TEST_source": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\正式双方TEST685一次五项实际结果.json",
+    "TEST_source_SHA": "0d8802122eaf00f23bcfd92f1ba1289e055e256adcb9d9cc980e27eb4a6aee3a",
+    "original_DEV_result_SHA": "6e7e0d62de1aa933c7ffa1b5b374d09149c965c4552104ea47e7f569fa50cf87",
+    "original_TEST_score_receipt_SHA": "93b07c655f607fac4b8c43ca1c045da297cf472b78d1c6f9925b3e7f479f8399",
+    "selected_state_SHA": "d11ca1b31541a42495a96aa3559dd999812405c77658d90fa6fa8a0ad3a6d7f3",
+    "selected_epoch": 93,
+    "original_training_plan_SHA": "8dc4093ae64a61018fee0781d250b40e0ecf26fe11b6c9feb8529fd4ef1a95eb",
+    "complete_D_CPU_qualification": "bb8685aad5723fe17750ed79632472a437745a86543cf5adb8a8f82b48add66e",
+    "whole_original_model_SHA": "9890b4fd2138e49a6500c52e72b0cbcc58151dc26e4b927656b39b6aa9e280f7"
+  },
+  "same_official_roles": true,
+  "TRAIN1281_only": true,
+  "VAL229_selection_only": true,
+  "TEST685_not_used_for_training_or_selection": true,
+  "seed128_100epochs_4000updates_common_orders_common_selection": true,
+  "metric_semantics": {
+    "Acc7": "All rows: clip predictions and labels to [-3,3], NumPy round (half to even), exact class match.",
+    "Acc2": "Exclude labels exactly equal to 0; classify prediction >=0 and label >=0.",
+    "F1": "Same nonzero rows and binary thresholds; class-support-weighted F1, not macro or positive-class-only F1.",
+    "MAE": "All rows, original unclipped regression predictions.",
+    "Corr": "All rows, Pearson correlation; undefined for a constant vector or fewer than 2 rows.",
+    "Has0_Acc2_and_F1": "Additional all-row binary metrics; neutral label belongs to the nonnegative class.",
+    "units": "Acc7, Acc2 and F1 stored as fractions; display as percentages. Corr fraction, MAE original sentiment scale.",
+    "precision": "Independent CPU float64 aggregation; no rounding, clipping or calibration of regression predictions."
+  },
+  "historical_TEST_access_disclosed": true,
+  "not_a_fresh_blinded_dataset_or_multiseed": true
+}

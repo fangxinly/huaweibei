@@ -1,0 +1,11 @@
+{
+  "status": "ACTUAL_B_SMALL_CPU_SCORE_FAILED",
+  "actual_UTC": "2026-10-08T20:21:43.464949+00:00",
+  "child_PID": 1857,
+  "natural_exit": 1,
+  "archive": "/data/coding/B_mse100_five_independent_actual_20261008T202026Z/complete_small_original.zip",
+  "archive_SHA": "f3d824d65567922bf75828e1e8e35c8862de06b8dfe270dd8687b924e51d53c3",
+  "archive_bytes": 1072265,
+  "ZIP_CRC_unique_all_members": true,
+  "original_transport": "verified_C_original_SFTP"
+}

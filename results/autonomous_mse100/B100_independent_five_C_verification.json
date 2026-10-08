@@ -1,0 +1,10 @@
+{
+  "status": "LOCAL_ORIGINAL_B_RAW_ARRAY_FIVE_AUDIT_VERIFIED",
+  "actualclock_UTC": "2026-10-08 20:30:47 UTC",
+  "archive_SHA": "66896023c0a38f7f572816431043430bf1c5e7434d0c1ce15a1f14036b22c78c",
+  "members": 87,
+  "SHA_CRC_unique_all_members": true,
+  "independent_maxerror": 5.551115123125783e-16,
+  "CSV_numeric_rounding_maxerror": 1.175842285761064e-07,
+  "A_once_score_rerun": false
+}

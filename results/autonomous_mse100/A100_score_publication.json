@@ -1,0 +1,29 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 1828,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_mse100_score_plan.json",
+    "--receipt",
+    "/data/coding/publish_mse100_score_receipt.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "real-TRAIN100-selected65-official-five-score-original.zip",
+      "bytes": 366651,
+      "sha256": "cb62874e305fc87678c791bc61be7ec923e167c0fbe22b1a179dd20b9f34201a",
+      "source_sha256": "cb62874e305fc87678c791bc61be7ec923e167c0fbe22b1a179dd20b9f34201a",
+      "source_offset": 0,
+      "id": 622906281,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/real-TRAIN100-selected65-official-five-score-original.zip"
+    }
+  ],
+  "actual_UTC": "2026-10-08T20:20:26.231117+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

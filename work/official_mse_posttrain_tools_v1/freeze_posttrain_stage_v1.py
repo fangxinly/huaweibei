@@ -23,13 +23,15 @@ plan.update(status='ACTUAL_OFFICIAL_MSE_'+a.stage.upper()+'_STAGE_FROZEN',actual
 plan['posttrain_native_CPU_qualification']={n:sha(a.out/n) for n in ('B_posttrain_native_result.json','B_posttrain_native_exit.json')}
 if a.received_archive:
  assert a.stage=='audit'
- dv=read('A100_D_full_original_verification.json');assert dv['status']=='NEW_D_COMPLETE_ORIGINAL_SHA_CRC_UNIQUE_ALL_MEMBERS_PASSED'
+ dv=read('A100_D_full_original_verification.json');assert dv['status']=='NEW_D_COMPLETE_ORIGINAL_SHA_CRC_UNIQUE_ALL_MEMBERS_PASSED' and dv['archive_SHA']==cap['archive_SHA'] and dv['archive_bytes']==cap['archive_bytes']
  plan['received_original_transport']=dict(method='D_verified_original_SFTP',remote_archive=a.received_archive,D_verification=dv,previous_failed_download=read('B100_first_audit_capture.json'),public_download=False)
 if a.stage in ('infer','score'):
  audit=read('B100_audit_result.json');ae=read('B100_audit_exit.json');assert ae['natural_exit']==0 and audit['checkpoint_SHA']==tr['checkpoint_SHA'] and audit['selected_state_SHA']==tr['metadata']['selected_state_SHA'] and audit['all_Adam_steps']==4000
+ assert all(datetime.datetime.fromisoformat(r['actual_UTC'])<=stamp for r in (audit,ae)), 'Stage timestamp precedes actual full CPU audit'
  plan['training_Release_B_CPU_gate']=dict(original=cap,publication=pub,B_original_CPU=audit,B_natural_exit=ae)
 if a.stage=='score':
  inference=read('A100_inference_result.json');ic=read('A100_inference_capture.json');ie=read('A100_inference_exit.json');ip=read('A100_prediction_publication.json');predaudit=read('B100_prediction_byte_audit.json');assert ic['natural_exit']==ie['natural_exit']==0 and inference['prediction_SHA']==predaudit['prediction_SHA'] and predaudit['SHA_CRC_unique_member_SHA_passed'] and ip['status']=='REMOTE_RELEASE_ALL_DIGESTS_VERIFIED'
+ assert all(datetime.datetime.fromisoformat(r['actual_UTC'])<=stamp for r in (inference,ic,ie,ip,predaudit)), 'Stage timestamp precedes actual prediction preservation'
  plan.update(prediction_Release_B_CPU_gate=dict(capture=ic,publication=ip,B_byte_audit=predaudit),prediction_SHA=inference['prediction_SHA'],score_once_token='/data/coding/official_mse100_score_once_'+tr['metadata']['selected_state_SHA'])
 plan['source_sha256']={f.name:sha(f) for f in a.out.iterdir() if f.suffix in ('.py','.npy')};path=a.out/('official_'+a.stage+'_protocol.json');path.write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf8')
 for f in a.out.glob('*.py'):ast.parse(f.read_text(encoding='utf8'))

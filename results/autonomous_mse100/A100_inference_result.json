@@ -1,0 +1,41 @@
+{
+  "status": "TRAIN_ONLY_SELECTED_UPGRADE_VAL_TEST_PREDICTION_COMPLETE",
+  "actual_UTC": "2026-10-08T20:14:48.139856+00:00",
+  "pid": 1605,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/official_mse100_infer_frozen_20261008T201250Z/infer_official.py",
+    "--plan",
+    "/data/coding/official_mse100_infer_frozen_20261008T201250Z/official_infer_protocol.json",
+    "--plan-sha",
+    "7c47e028d958c36185d615f978ca1e88a8aade03019ad7b9e0a3c1cd995c1497",
+    "--bundle",
+    "/data/coding/official_mse100_infer_frozen_20261008T201250Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T174420Z",
+    "--out",
+    "/data/coding/A_official_mse100_infer_actual_20261008T201250Z/out",
+    "--input-root",
+    "/data/coding/autonomous_mse100_resume_actual_20261008T182923Z"
+  ],
+  "selected_state_SHA": "b1af7ce9de4e53d6c06d0cf2d8381227491f0fa59ebbf94003509c9057aca61e",
+  "prediction_SHA": "1b22b555618cc623dcbf51f5e0b57eaa8f3becd1448e5a4d2298971ef3509f17",
+  "checks": {
+    "VAL": {
+      "dummy0vs7_and_replay_exact": true,
+      "explicit_maxerror": 0.0
+    },
+    "TEST": {
+      "dummy0vs7_and_replay_exact": true,
+      "explicit_maxerror": 0.0
+    }
+  },
+  "VAL_inference16_vs_selection128_maxerror": 3.0100345611572266e-06,
+  "peak": {
+    "allocated_peak": 871800832,
+    "reserved_peak": 956301312
+  },
+  "TRAIN_VAL_TEST_no_training_overlap": true,
+  "scalar_VAL_TEST_true_labels_not_indexed": true,
+  "all_parameters_buffers_RNG_unchanged": true
+}

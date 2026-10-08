@@ -1,0 +1,21 @@
+{
+  "actual_UTC": "2026-10-08T20:24:00.972994+00:00",
+  "pid": 1990,
+  "natural_exit": 0,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/official_mse100_independent_bytefix_frozen_20261008T202250Z/audit_public_small_stage_v1.py",
+    "--stage",
+    "score",
+    "--publication",
+    "/data/coding/A100_score_publication.json",
+    "--capture",
+    "/data/coding/A100_score_capture.json",
+    "--received-archive",
+    "/data/coding/A100_verified_C_score_original.zip",
+    "--out",
+    "/data/coding/B_mse100_independent_bytefix_actual_20261008T202250Z/out",
+    "--prediction-original",
+    "/data/coding/B_mse100_prediction_original_audit_actual_20261008T201521Z/out/original/out/fixed_official_VAL_TEST_prediction.npz"
+  ]
+}
