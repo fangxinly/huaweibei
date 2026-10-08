@@ -1,6 +1,6 @@
 # 源码目录索引
 
-完整逐文件来源和SHA见 `source_manifest.json`。
+逐文件来源和SHA见 `source_manifest.json`。
 
 |目录|文件数|
 |---|---:|
@@ -44,11 +44,11 @@
 |[archive_code/z063/68accc6ba83a](archive_code/z063/68accc6ba83a/)|1|
 |[archive_code/z063/889311d47e93](archive_code/z063/889311d47e93/)|1|
 |[archive_code/z063/b3be050c1837](archive_code/z063/b3be050c1837/)|1|
-|[docs](docs/)|4|
+|[docs](docs/)|5|
 |[outputs](outputs/)|3|
 |[outputs/anchored_increment_review_20261008T025421Z](outputs/anchored_increment_review_20261008T025421Z/)|2|
 |[outputs/flexible_official_calibration_20261008T125206Z/failure01_source](outputs/flexible_official_calibration_20261008T125206Z/failure01_source/)|4|
-|[work](work/)|762|
+|[work](work/)|772|
 |[work/anchored_VAL_TEST_eval_20261008T051335Z](work/anchored_VAL_TEST_eval_20261008T051335Z/)|35|
 |[work/anchored_increment_candidate](work/anchored_increment_candidate/)|9|
 |[work/anchored_increment_inference_20261008T025648Z](work/anchored_increment_inference_20261008T025648Z/)|29|
@@ -106,6 +106,7 @@
 |[work/official_anchored_upgrade_candidate](work/official_anchored_upgrade_candidate/)|20|
 |[work/official_baseline_artifact_guard_preparation_20261007T000208TZ](work/official_baseline_artifact_guard_preparation_20261007T000208TZ/)|2|
 |[work/official_benchmark_provenance_preparation_20261006T235037Z](work/official_benchmark_provenance_preparation_20261006T235037Z/)|3|
+|[work/official_flow_health_candidate_v1](work/official_flow_health_candidate_v1/)|20|
 |[work/official_train_dev_source_adapter_preparation_20261007T000857Z](work/official_train_dev_source_adapter_preparation_20261007T000857Z/)|3|
 |[work/paired_CPU_history_serialization_repair_20261007T034000Z](work/paired_CPU_history_serialization_repair_20261007T034000Z/)|5|
 |[work/paired_failed_precheck_CPU_preservation_v2_20261007T011436Z](work/paired_failed_precheck_CPU_preservation_v2_20261007T011436Z/)|3|

@@ -525,6 +525,15 @@
       }
     },
     {
+      "path": "docs/code_review_and_pretraining_direction.md",
+      "origin": "outputs/code_review_response_20261008T154000Z/REPORT.md",
+      "kind": "research_note",
+      "bytes": 9306,
+      "original_sha256": "5d406292abb039951a1540d5c1aeb5d4d4acf7a3b48b19d8c2b5a3e8e6eeda74",
+      "published_sha256": "5d406292abb039951a1540d5c1aeb5d4d4acf7a3b48b19d8c2b5a3e8e6eeda74",
+      "sanitizations": {}
+    },
+    {
       "path": "docs/coupling_residual_math_review.md",
       "origin": "outputs/coupling_residual_math_review_20261008T120037Z/耦合与任务残差几何核对.md",
       "kind": "selected_documentation",
@@ -3757,6 +3766,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/check_research_contracts_v1.py",
+      "origin": "work/check_research_contracts_v1.py",
+      "kind": "source",
+      "bytes": 3129,
+      "original_sha256": "40a91e19e6e23b70b8d8849bb9e2c3820005367fcd2eb07c9721c5a816e429cd",
+      "published_sha256": "40a91e19e6e23b70b8d8849bb9e2c3820005367fcd2eb07c9721c5a816e429cd",
+      "sanitizations": {}
+    },
+    {
       "path": "work/check_same_teacher_collection_v2_preparation.py",
       "origin": "work/check_same_teacher_collection_v2_preparation.py",
       "kind": "source",
@@ -4341,6 +4359,15 @@
       "bytes": 2428,
       "original_sha256": "d90df1322bdc5648d8dee594c0bd6f0668643583f37657e6fa147db6e6630a1a",
       "published_sha256": "d90df1322bdc5648d8dee594c0bd6f0668643583f37657e6fa147db6e6630a1a",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/external_pretraining_guard_v1.py",
+      "origin": "work/external_pretraining_guard_v1.py",
+      "kind": "source",
+      "bytes": 2964,
+      "original_sha256": "84760a63213955a5f858f3f99bf681cd9b4bdf0201c754e593bb1a00d227a8d3",
+      "published_sha256": "84760a63213955a5f858f3f99bf681cd9b4bdf0201c754e593bb1a00d227a8d3",
       "sanitizations": {}
     },
     {
@@ -5749,11 +5776,20 @@
     },
     {
       "path": "work/github_access_check.py",
-      "origin": "work/github_access_check.py",
+      "origin": "work/github_access_check_guarded_v2.py",
       "kind": "source",
-      "bytes": 1323,
-      "original_sha256": "eafae5c8430ff4939dff38398ad104227dc75013ca81bda8debf1ec694bb711f",
-      "published_sha256": "eafae5c8430ff4939dff38398ad104227dc75013ca81bda8debf1ec694bb711f",
+      "bytes": 2020,
+      "original_sha256": "c92b4b42dbc76a332b250d4f09f41b4e308248eb95c733202bc4a0ac1e3d78a6",
+      "published_sha256": "c92b4b42dbc76a332b250d4f09f41b4e308248eb95c733202bc4a0ac1e3d78a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/github_access_check_guarded_v2.py",
+      "origin": "work/github_access_check_guarded_v2.py",
+      "kind": "source",
+      "bytes": 2020,
+      "original_sha256": "c92b4b42dbc76a332b250d4f09f41b4e308248eb95c733202bc4a0ac1e3d78a6",
+      "published_sha256": "c92b4b42dbc76a332b250d4f09f41b4e308248eb95c733202bc4a0ac1e3d78a6",
       "sanitizations": {}
     },
     {
@@ -8020,6 +8056,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/message_output_backtrack_v2.py",
+      "origin": "work/message_output_backtrack_v2.py",
+      "kind": "source",
+      "bytes": 3887,
+      "original_sha256": "70442a023eef1d849326b3324485a4671a104cd982f6f86e7cbf5b71171ea1c2",
+      "published_sha256": "70442a023eef1d849326b3324485a4671a104cd982f6f86e7cbf5b71171ea1c2",
+      "sanitizations": {}
+    },
+    {
       "path": "work/minimal_fixed_flow_v2_local_20261006T1214Z/check_static_and_numpy_schedule_v1.py",
       "origin": "work/minimal_fixed_flow_v2_local_20261006T1214Z/check_static_and_numpy_schedule_v1.py",
       "kind": "source",
@@ -8407,12 +8452,30 @@
       "sanitizations": {}
     },
     {
+      "path": "work/native_training_health_v1.py",
+      "origin": "work/native_training_health_v1.py",
+      "kind": "source",
+      "bytes": 3798,
+      "original_sha256": "a5600bc9ad85b5c841f0e855167fc8fe042c54284b1a997f39168a8eb2ac5b45",
+      "published_sha256": "a5600bc9ad85b5c841f0e855167fc8fe042c54284b1a997f39168a8eb2ac5b45",
+      "sanitizations": {}
+    },
+    {
       "path": "work/negative_gain_review_v1.py",
       "origin": "work/negative_gain_review_v1.py",
       "kind": "source",
       "bytes": 8442,
       "original_sha256": "39442e57df3d7708dae659e165218fd32f533340c48dd787c5fb1ca9bed83cae",
       "published_sha256": "39442e57df3d7708dae659e165218fd32f533340c48dd787c5fb1ca9bed83cae",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/negative_gain_review_v2.py",
+      "origin": "work/negative_gain_review_v2.py",
+      "kind": "source",
+      "bytes": 8654,
+      "original_sha256": "a4a47665ebeed2b6942462865304ecb102f386b696dab47c4370bc07e1e56b4e",
+      "published_sha256": "a4a47665ebeed2b6942462865304ecb102f386b696dab47c4370bc07e1e56b4e",
       "sanitizations": {}
     },
     {
@@ -9088,6 +9151,186 @@
       "bytes": 16422,
       "original_sha256": "d0266a55931fbae4329c2123b3b0f0d475799f31b8e202fa393ecef406ce841e",
       "published_sha256": "d0266a55931fbae4329c2123b3b0f0d475799f31b8e202fa393ecef406ce841e",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/anchored_flow.py",
+      "origin": "work/official_flow_health_candidate_v1/anchored_flow.py",
+      "kind": "source",
+      "bytes": 6334,
+      "original_sha256": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76",
+      "published_sha256": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/audit_official.py",
+      "origin": "work/official_flow_health_candidate_v1/audit_official.py",
+      "kind": "source",
+      "bytes": 5016,
+      "original_sha256": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b",
+      "published_sha256": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/careflow_train_dev_author_components_candidate.py",
+      "origin": "work/official_flow_health_candidate_v1/careflow_train_dev_author_components_candidate.py",
+      "kind": "source",
+      "bytes": 11852,
+      "original_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "published_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/common.py",
+      "origin": "work/official_flow_health_candidate_v1/common.py",
+      "kind": "source",
+      "bytes": 665,
+      "original_sha256": "576f3c5961a47938a3a5c4113108ca139db870ef88a3df8b98fd4dc95cdbe3e6",
+      "published_sha256": "576f3c5961a47938a3a5c4113108ca139db870ef88a3df8b98fd4dc95cdbe3e6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/common_budget_selection_candidate.py",
+      "origin": "work/official_flow_health_candidate_v1/common_budget_selection_candidate.py",
+      "kind": "source",
+      "bytes": 1154,
+      "original_sha256": "9cb0fd95a2f89464f9e19a0142cb710a9adf363a26f9419d478b031a231ca1de",
+      "published_sha256": "9cb0fd95a2f89464f9e19a0142cb710a9adf363a26f9419d478b031a231ca1de",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/encoder_adapter.py",
+      "origin": "work/official_flow_health_candidate_v1/encoder_adapter.py",
+      "kind": "source",
+      "bytes": 3867,
+      "original_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "published_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/finite_single_token_reader_v1.py",
+      "origin": "work/official_flow_health_candidate_v1/finite_single_token_reader_v1.py",
+      "kind": "source",
+      "bytes": 2184,
+      "original_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "published_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/fixed_flow_components_candidate.py",
+      "origin": "work/official_flow_health_candidate_v1/fixed_flow_components_candidate.py",
+      "kind": "source",
+      "bytes": 2137,
+      "original_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "published_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/incremental_message.py",
+      "origin": "work/official_flow_health_candidate_v1/incremental_message.py",
+      "kind": "source",
+      "bytes": 4171,
+      "original_sha256": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd",
+      "published_sha256": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/infer_official.py",
+      "origin": "work/official_flow_health_candidate_v1/infer_official.py",
+      "kind": "source",
+      "bytes": 4353,
+      "original_sha256": "9f2ffc3485487995b317a01e4e3b00d2b04e67f9955fd3f8ffd50552be3f2108",
+      "published_sha256": "9f2ffc3485487995b317a01e4e3b00d2b04e67f9955fd3f8ffd50552be3f2108",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/legacy_flow_model.py",
+      "origin": "work/official_flow_health_candidate_v1/legacy_flow_model.py",
+      "kind": "source",
+      "bytes": 15003,
+      "original_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "published_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/minimal_fixed_flow_v2.py",
+      "origin": "work/official_flow_health_candidate_v1/minimal_fixed_flow_v2.py",
+      "kind": "source",
+      "bytes": 4555,
+      "original_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "published_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/official_fulltrain_dev_guard_candidate.py",
+      "origin": "work/official_flow_health_candidate_v1/official_fulltrain_dev_guard_candidate.py",
+      "kind": "source",
+      "bytes": 3113,
+      "original_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "published_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/official_upgrade.py",
+      "origin": "work/official_flow_health_candidate_v1/official_upgrade.py",
+      "kind": "source",
+      "bytes": 3554,
+      "original_sha256": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9",
+      "published_sha256": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/paired_fulltrain_session_candidate.py",
+      "origin": "work/official_flow_health_candidate_v1/paired_fulltrain_session_candidate.py",
+      "kind": "source",
+      "bytes": 8569,
+      "original_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "published_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/prospective_common_TRAIN_position_orders_seed128_100.npy",
+      "origin": "work/official_flow_health_candidate_v1/prospective_common_TRAIN_position_orders_seed128_100.npy",
+      "kind": "generated_order",
+      "bytes": 1024928,
+      "original_sha256": "d3cfd5621cc7a51275c7847410519148f62443e5e2b07b356286fead34d000e4",
+      "published_sha256": "d3cfd5621cc7a51275c7847410519148f62443e5e2b07b356286fead34d000e4",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/score_official.py",
+      "origin": "work/official_flow_health_candidate_v1/score_official.py",
+      "kind": "source",
+      "bytes": 2746,
+      "original_sha256": "7cb7e77b3aff9a9f4f6ccfdc49848e542f04b1d778d9cb1f8f86056ca221830d",
+      "published_sha256": "7cb7e77b3aff9a9f4f6ccfdc49848e542f04b1d778d9cb1f8f86056ca221830d",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/sentiment_metrics_careflow_v1.py",
+      "origin": "work/official_flow_health_candidate_v1/sentiment_metrics_careflow_v1.py",
+      "kind": "source",
+      "bytes": 3027,
+      "original_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "published_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/train_official.py",
+      "origin": "work/official_flow_health_candidate_v1/train_official.py",
+      "kind": "source",
+      "bytes": 13989,
+      "original_sha256": "31547fe7179a467f3c60b164f5f5e9f2fae115b54b6885a45aaf1b1310c42b18",
+      "published_sha256": "31547fe7179a467f3c60b164f5f5e9f2fae115b54b6885a45aaf1b1310c42b18",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/official_flow_health_candidate_v1/training_health_v1.py",
+      "origin": "work/official_flow_health_candidate_v1/training_health_v1.py",
+      "kind": "source",
+      "bytes": 3421,
+      "original_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
+      "published_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
       "sanitizations": {}
     },
     {
@@ -12092,6 +12335,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/prepare_official_flow_health_candidate.py",
+      "origin": "work/prepare_official_flow_health_candidate.py",
+      "kind": "source",
+      "bytes": 3676,
+      "original_sha256": "f99bcdc121f8bccad45631c411e4d856810c452487c356a792cfe3dca37d231f",
+      "published_sha256": "f99bcdc121f8bccad45631c411e4d856810c452487c356a792cfe3dca37d231f",
+      "sanitizations": {}
+    },
+    {
       "path": "work/prepare_official_report_precision_repair.py",
       "origin": "work/prepare_official_report_precision_repair.py",
       "kind": "source",
@@ -12181,6 +12433,15 @@
       "bytes": 4083,
       "original_sha256": "6f9489a14b56fa6e3c828d4a8f07c98523794442b4185e6b351a3d3e7d70ad80",
       "published_sha256": "6f9489a14b56fa6e3c828d4a8f07c98523794442b4185e6b351a3d3e7d70ad80",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/prepare_review_reporting_fixes_v2.py",
+      "origin": "work/prepare_review_reporting_fixes_v2.py",
+      "kind": "source",
+      "bytes": 1161,
+      "original_sha256": "6f2502404bc5e512060c5585f9c761d25c48af5d857336102f048b74b0ed3e30",
+      "published_sha256": "6f2502404bc5e512060c5585f9c761d25c48af5d857336102f048b74b0ed3e30",
       "sanitizations": {}
     },
     {
@@ -12471,6 +12732,15 @@
       "bytes": 7271,
       "original_sha256": "c773dcbc96d4c13222184fe4b1f1ebbd8e36bd73f8ed61698459a622f3374e84",
       "published_sha256": "c773dcbc96d4c13222184fe4b1f1ebbd8e36bd73f8ed61698459a622f3374e84",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/publish_review_sources_v1.py",
+      "origin": "work/publish_review_sources_v1.py",
+      "kind": "source",
+      "bytes": 6315,
+      "original_sha256": "3acf26015837940935e2932161b5e6d4fe32aab3f9237c56e40278e5f103375e",
+      "published_sha256": "3acf26015837940935e2932161b5e6d4fe32aab3f9237c56e40278e5f103375e",
       "sanitizations": {}
     },
     {
@@ -14981,6 +15251,15 @@
       "bytes": 11004,
       "original_sha256": "ac15571ba1b07f54f5638962c5b5fb1843a78cd97b57541d9f891857bf45e3c2",
       "published_sha256": "ac15571ba1b07f54f5638962c5b5fb1843a78cd97b57541d9f891857bf45e3c2",
+      "sanitizations": {}
+    },
+    {
+      "path": "work/training_health_v1.py",
+      "origin": "work/training_health_v1.py",
+      "kind": "source",
+      "bytes": 3421,
+      "original_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
+      "published_sha256": "f37854b6342425db8f47e043ca0aa2321f81888c431f33dce67c25e72acf57a2",
       "sanitizations": {}
     },
     {
@@ -30865,5 +31144,5 @@
   "source_guard_note": "Historical plans retain original source hashes; sanitization requires a new explicit source/config freeze before execution.",
   "python_syntax_findings": [],
   "local_originals_modified": false,
-  "latest_source_update": "Polarity/intensity CPU synthetic module and export integration passed on two nodes; full encoder/real TRAIN/VAL/TEST not executed."
+  "latest_source_update": "Original gradient audit and synthetic optimizer startup completed; MSE health candidate source prepared; external pretraining design only, no real new TRAIN/VAL/TEST."
 }
