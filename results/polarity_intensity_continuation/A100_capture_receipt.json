@@ -1,0 +1,11 @@
+{
+  "status": "ACTUAL_RESUMED_TRAIN100_COMPLETE",
+  "actual_UTC": "2026-10-09T01:38:47.773525+00:00",
+  "child_PID": 3079,
+  "natural_exit": 0,
+  "archive": "/data/coding/A_candidate_recovery400_actual_20261009T002805Z/complete_actual_TRAIN100.zip",
+  "archive_SHA": "c166b30c1c81bd8eac775c166ed56b1d41077c5a4c357efff5b1e6459e54a206",
+  "archive_bytes": 3546084367,
+  "ZIP_CRC_unique_all_members": true,
+  "no_D_capacity_claimed": true
+}

@@ -1,0 +1,58 @@
+{
+  "actual_UTC": "2026-10-09T04:03:23.133282+00:00",
+  "UUID": "GPU-daa2c09a-4ce5-26dd-b375-6b61242c6795",
+  "source_SHA": "ebea3f15d7644275f0279a63525c22b095c9dfe85dc0261bca9cf87321e69f35",
+  "fullargv": [
+    "/data/coding/launch_C_full4000_pair_20261009T040237Z.py"
+  ],
+  "sequential_CPU_only": true,
+  "no_training_rerun": true,
+  "commands": [
+    {
+      "node": "A",
+      "cmd": [
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+        "/data/coding/A_audit_C_qualified_20261009T040110Z/run_posttrain_capture_v1.py",
+        "--stage",
+        "audit",
+        "--node",
+        "C",
+        "--plan",
+        "/data/coding/A_audit_C_qualified_20261009T040110Z/official_audit_protocol.json",
+        "--plan-sha",
+        "16db6344a0bb883dc797c3e5b430315b3cb8912326229d7e999293af49c1926a",
+        "--assets",
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z",
+        "--root",
+        "/data/coding/C_A_candidate_full4000_audit_actual_20261009T040237Z",
+        "--publication",
+        "/data/coding/A100_publication_receipt_20261009T040110Z.json",
+        "--capture",
+        "/data/coding/A100_capture_receipt_20261009T040110Z.json"
+      ]
+    },
+    {
+      "node": "B",
+      "cmd": [
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+        "/data/coding/B_audit_C_qualified_20261009T040110Z/run_posttrain_capture_v1.py",
+        "--stage",
+        "audit",
+        "--node",
+        "C",
+        "--plan",
+        "/data/coding/B_audit_C_qualified_20261009T040110Z/official_audit_protocol.json",
+        "--plan-sha",
+        "11a1a8841ff942795100d09e54f575c53f1ec827c97fc70eca803bc49a57a8b5",
+        "--assets",
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z",
+        "--root",
+        "/data/coding/C_B_candidate_full4000_audit_actual_20261009T040237Z",
+        "--publication",
+        "/data/coding/B100_publication_receipt_20261009T040110Z.json",
+        "--capture",
+        "/data/coding/B100_capture_receipt_20261009T040110Z.json"
+      ]
+    }
+  ]
+}

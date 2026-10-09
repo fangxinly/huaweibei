@@ -1110,12 +1110,41 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/A100_capture_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_capture_receipt.json",
+      "kind": "result",
+      "bytes": 437,
+      "original_sha256": "4c0254b9a4165426973870ee12dbbace639eeaff6eca4a91c907c194db51fcd0",
+      "published_sha256": "4c0254b9a4165426973870ee12dbbace639eeaff6eca4a91c907c194db51fcd0",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/A100_natural_exit.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_natural_exit.json",
       "kind": "result",
       "bytes": 874,
       "original_sha256": "bf4da32984dc1c1cbd12fd43d99f7bafff931be14eda2228899d540d8aa371a9",
       "published_sha256": "bf4da32984dc1c1cbd12fd43d99f7bafff931be14eda2228899d540d8aa371a9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/A100_publication_client_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_publication_client_exit.json",
+      "kind": "result",
+      "bytes": 668,
+      "original_sha256": "c4a3b2206ca308f0e40417aa0811ef0ef29f74b5b558fd537760cfdac52f377c",
+      "published_sha256": "1aa7de48ffe1bcce0f5313f38387459e2a99d2bba2fd9597c0d4aab240bb7a7d",
+      "sanitizations": {
+        "server_endpoint": 1
+      }
+    },
+    {
+      "path": "results/polarity_intensity_continuation/A100_publication_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_publication_receipt.json",
+      "kind": "result",
+      "bytes": 2299,
+      "original_sha256": "b627d34e8e415f96cbe6da6ad8300f4a4d1510c760f6ed8644f62b565d0d6342",
+      "published_sha256": "b627d34e8e415f96cbe6da6ad8300f4a4d1510c760f6ed8644f62b565d0d6342",
       "sanitizations": {}
     },
     {
@@ -1600,12 +1629,41 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/B100_capture_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B100_capture_receipt.json",
+      "kind": "result",
+      "bytes": 437,
+      "original_sha256": "6bc307f2a19202bf5fac8183c506c36ac39c614429063af50f6fa3fb3b73f9a2",
+      "published_sha256": "6bc307f2a19202bf5fac8183c506c36ac39c614429063af50f6fa3fb3b73f9a2",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/B100_natural_exit.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B100_natural_exit.json",
       "kind": "result",
       "bytes": 878,
       "original_sha256": "c6b5b675e81f2d179cad3d80deac37ab0d4f3dbe40ffdbe43312b3f53db012b4",
       "published_sha256": "c6b5b675e81f2d179cad3d80deac37ab0d4f3dbe40ffdbe43312b3f53db012b4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/B100_publication_client_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B100_publication_client_exit.json",
+      "kind": "result",
+      "bytes": 668,
+      "original_sha256": "1d22a1081e2f5931bb6db0277ac89984ac2a2e29a31baab3fdaccbc4ea3a522e",
+      "published_sha256": "81262bc9ffc89b7343c72f2e03779143fac6e278e0f46992ea788834f9ac7d2a",
+      "sanitizations": {
+        "server_endpoint": 1
+      }
+    },
+    {
+      "path": "results/polarity_intensity_continuation/B100_publication_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B100_publication_receipt.json",
+      "kind": "result",
+      "bytes": 2299,
+      "original_sha256": "77bda02c10bbea3bb8c7e0a440e865044da7c2200e3433a973e71b19f8f57321",
+      "published_sha256": "77bda02c10bbea3bb8c7e0a440e865044da7c2200e3433a973e71b19f8f57321",
       "sanitizations": {}
     },
     {
@@ -2090,6 +2148,24 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/C_A_audit_dispatch_20261009T040237Z.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_A_audit_dispatch_20261009T040237Z.json",
+      "kind": "result",
+      "bytes": 875,
+      "original_sha256": "dbb9694816f055e24f1fdf0d7c7f40372ef031a6eb32a8cb08b8ff5797fa5be8",
+      "published_sha256": "dbb9694816f055e24f1fdf0d7c7f40372ef031a6eb32a8cb08b8ff5797fa5be8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/C_A_audit_fresh_preflight_20261009T040237Z.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_A_audit_fresh_preflight_20261009T040237Z.json",
+      "kind": "result",
+      "bytes": 3264,
+      "original_sha256": "12d769e75d993f357511de9aae34cefcb08a28204fa1558a6bfa7d2cdb93f199",
+      "published_sha256": "12d769e75d993f357511de9aae34cefcb08a28204fa1558a6bfa7d2cdb93f199",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/C_candidate_pureCPU_runtime_capture.json",
       "origin": "outputs/polarity_intensity_prefix_v2_20261008T203225Z/C_candidate_pureCPU_runtime_capture.json",
       "kind": "result",
@@ -2114,6 +2190,24 @@
       "bytes": 1122,
       "original_sha256": "8f7b86a7f6edde07cb08c09d3e137b7aabd2f2a2661d0c8183f19457f3f9d476",
       "published_sha256": "8f7b86a7f6edde07cb08c09d3e137b7aabd2f2a2661d0c8183f19457f3f9d476",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/C_full4000_coordinator_start_20261009T040237Z.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_full4000_coordinator_start_20261009T040237Z.json",
+      "kind": "result",
+      "bytes": 2123,
+      "original_sha256": "2cbcaa6384eefea91baee5e4db5bc2776dca20b4236e43a6b4199fcae682cd28",
+      "published_sha256": "2cbcaa6384eefea91baee5e4db5bc2776dca20b4236e43a6b4199fcae682cd28",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/C_full4000_pair_launcher_dispatch_20261009T040237Z.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_full4000_pair_launcher_dispatch_20261009T040237Z.json",
+      "kind": "result",
+      "bytes": 341,
+      "original_sha256": "41f120fc1e8836c8312744dee6b1563df6cb009bd846ae968732b64cb1ca1109",
+      "published_sha256": "41f120fc1e8836c8312744dee6b1563df6cb009bd846ae968732b64cb1ca1109",
       "sanitizations": {}
     },
     {
@@ -2180,6 +2274,15 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/launch_C_full4000_pair_20261009T040237Z.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\launch_C_full4000_pair_20261009T040237Z.py",
+      "kind": "result",
+      "bytes": 3057,
+      "original_sha256": "ebea3f15d7644275f0279a63525c22b095c9dfe85dc0261bca9cf87321e69f35",
+      "published_sha256": "ebea3f15d7644275f0279a63525c22b095c9dfe85dc0261bca9cf87321e69f35",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/prefix16_and_resume_native_D_small_receipt.json",
       "origin": "outputs/polarity_intensity_prefix_v2_20261008T203225Z/prefix16_and_resume_native_D_small_receipt.json",
       "kind": "result",
@@ -2195,6 +2298,15 @@
       "bytes": 848,
       "original_sha256": "9fc1ae648e325d38925706b6e2dc27148f2b5d0e20c818fc248fd25f854638e7",
       "published_sha256": "9fc1ae648e325d38925706b6e2dc27148f2b5d0e20c818fc248fd25f854638e7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/real100_full_preservation.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\real100_full_preservation.md",
+      "kind": "result",
+      "bytes": 1283,
+      "original_sha256": "098713f609fb2e7ffadc2c6bad697eea99024f9914fd296577f3f3aec91980fb",
+      "published_sha256": "098713f609fb2e7ffadc2c6bad697eea99024f9914fd296577f3f3aec91980fb",
       "sanitizations": {}
     },
     {

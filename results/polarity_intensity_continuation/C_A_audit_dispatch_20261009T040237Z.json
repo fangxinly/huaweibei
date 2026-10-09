@@ -1,0 +1,22 @@
+{
+  "actual_UTC": "2026-10-09T04:03:23.400679+00:00",
+  "pid": 463,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/A_audit_C_qualified_20261009T040110Z/download_and_audit_final_v1.py",
+    "--plan",
+    "/data/coding/A_audit_C_qualified_20261009T040110Z/official_audit_protocol.json",
+    "--plan-sha",
+    "16db6344a0bb883dc797c3e5b430315b3cb8912326229d7e999293af49c1926a",
+    "--bundle",
+    "/data/coding/A_audit_C_qualified_20261009T040110Z",
+    "--assets",
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z",
+    "--out",
+    "/data/coding/C_A_candidate_full4000_audit_actual_20261009T040237Z/out",
+    "--publication",
+    "/data/coding/A100_publication_receipt_20261009T040110Z.json",
+    "--capture",
+    "/data/coding/A100_capture_receipt_20261009T040110Z.json"
+  ]
+}

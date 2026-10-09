@@ -1,0 +1,47 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 3453,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_final100_A_plan_20261009T032935Z.json",
+    "--receipt",
+    "/data/coding/A100_publication_receipt_20261009T032935Z.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "A-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part00",
+      "bytes": 1600000000,
+      "sha256": "249d2695dc3fa4e27e0e7bd56e794df8884826fa00d0feee9b948840602eee50",
+      "source_sha256": "c166b30c1c81bd8eac775c166ed56b1d41077c5a4c357efff5b1e6459e54a206",
+      "source_offset": 0,
+      "id": 623780825,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part00"
+    },
+    {
+      "name": "A-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part01",
+      "bytes": 1600000000,
+      "sha256": "bb56a236228aaf983d698c2d5bf3d8204609f4396108327292ad6e332e26c18e",
+      "source_sha256": "c166b30c1c81bd8eac775c166ed56b1d41077c5a4c357efff5b1e6459e54a206",
+      "source_offset": 1600000000,
+      "id": 623785013,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part01"
+    },
+    {
+      "name": "A-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02",
+      "bytes": 346084367,
+      "sha256": "6fc67ed2ca8cb465f4066fdae5b78c2b924fa4cd6d6105ab5319b630dff2c120",
+      "source_sha256": "c166b30c1c81bd8eac775c166ed56b1d41077c5a4c357efff5b1e6459e54a206",
+      "source_offset": 3200000000,
+      "id": 623788763,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02"
+    }
+  ],
+  "actual_UTC": "2026-10-09T03:36:19.583470+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}
