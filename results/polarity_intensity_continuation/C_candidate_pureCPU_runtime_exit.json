@@ -1,0 +1,31 @@
+{
+  "actual_UTC": "2026-10-09T00:46:17.175071+00:00",
+  "natural_exit": 0,
+  "children": [
+    {
+      "pid": 334,
+      "fullargv": [
+        "/data/miniconda/envs/torch/bin/python",
+        "-m",
+        "venv",
+        "--system-site-packages",
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv"
+      ],
+      "natural_exit": 0
+    },
+    {
+      "pid": 339,
+      "fullargv": [
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-cache-dir",
+        "--disable-pip-version-check",
+        "-r",
+        "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/requirements.txt"
+      ],
+      "natural_exit": 0
+    }
+  ]
+}

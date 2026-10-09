@@ -1,0 +1,9 @@
+{
+  "actual_UTC": "2026-10-09T00:46:17.354556+00:00",
+  "natural_exit": 0,
+  "archive": "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/complete_small_original.zip",
+  "archive_SHA": "e4b65e82fb6eb1dabb9d25c264c119db654fd463c918a5f9f4294ae526c3ed67",
+  "archive_bytes": 6225,
+  "ZIP_CRC_unique_all_members": true,
+  "CPU_only": true
+}

@@ -1,0 +1,102 @@
+{
+  "status": "BOTH_PERIODIC800_CHECKPOINTS_REAL_READY_AND_TRAJECTORY_RECEIPTS_C_D_VERIFIED",
+  "actualclock_UTC": "2026-10-09 00:38:44 UTC",
+  "nodes": {
+    "A": {
+      "checkpoint_ready_original": {
+        "actual_UTC": "2026-10-09T00:35:51.607198+00:00",
+        "checkpoint_SHA": "16f708ab21f3495cd546e3dacc6739dde0e3968ded60688baae25e5f055893cf",
+        "checkpoint_bytes": 2960840167,
+        "steps": 800,
+        "full_model_Adam_scheduler_RNG_orders_history": true,
+        "training_continues": true
+      },
+      "remote_stat_original": {
+        "actual_UTC": "2026-10-09T00:38:07.684276+00:00",
+        "root": "/data/coding/A_candidate_recovery400_actual_20261009T002805Z",
+        "ready": {
+          "actual_UTC": "2026-10-09T00:35:51.607198+00:00",
+          "checkpoint_SHA": "16f708ab21f3495cd546e3dacc6739dde0e3968ded60688baae25e5f055893cf",
+          "checkpoint_bytes": 2960840167,
+          "steps": 800,
+          "full_model_Adam_scheduler_RNG_orders_history": true,
+          "training_continues": true
+        },
+        "checkpoint_exists": true,
+        "checkpoint_actual_bytes": 2960840167,
+        "child_pid": 3079,
+        "child_process_exists": true,
+        "free_bytes": 16640057344
+      },
+      "observed_progress_original": {
+        "actual_UTC": "2026-10-09T00:37:52.690246+00:00",
+        "epoch": 23,
+        "steps": 920,
+        "TRAIN_objective": 0.027559391339309514,
+        "DEV_batch_MSE": 0.7376897615822482,
+        "best_epoch": 23,
+        "best_MSE": 0.7376897615822482,
+        "dropped_rows": [
+          346
+        ],
+        "prediction_SHA": "430234dd359654b4eb1b6dd4bfb13e6bb9ca97f02fabfd09e82a37e7bc25e93e",
+        "state_SHA": "82db6e363cc38f31633e507db14fb23febcf943e8ec69dc4e85ba6ab30acf79e",
+        "seconds": 36.957730300724506
+      },
+      "recorded_trajectory_exact": true,
+      "large_checkpoint_not_downloaded_or_independently_CPU_audited": true,
+      "no_final_VAL_TEST_five": true
+    },
+    "B": {
+      "checkpoint_ready_original": {
+        "actual_UTC": "2026-10-09T00:35:53.299454+00:00",
+        "checkpoint_SHA": "436c21226b2440e640d57424c4feb81e5690d4b2a272e03a2498e735f40462e4",
+        "checkpoint_bytes": 2960840167,
+        "steps": 800,
+        "full_model_Adam_scheduler_RNG_orders_history": true,
+        "training_continues": true
+      },
+      "remote_stat_original": {
+        "actual_UTC": "2026-10-09T00:38:08.797204+00:00",
+        "root": "/data/coding/B_candidate_recovery400_actual_20261009T002805Z",
+        "ready": {
+          "actual_UTC": "2026-10-09T00:35:53.299454+00:00",
+          "checkpoint_SHA": "436c21226b2440e640d57424c4feb81e5690d4b2a272e03a2498e735f40462e4",
+          "checkpoint_bytes": 2960840167,
+          "steps": 800,
+          "full_model_Adam_scheduler_RNG_orders_history": true,
+          "training_continues": true
+        },
+        "checkpoint_exists": true,
+        "checkpoint_actual_bytes": 2960840167,
+        "child_pid": 3696,
+        "child_process_exists": true,
+        "free_bytes": 13671927808
+      },
+      "observed_progress_original": {
+        "actual_UTC": "2026-10-09T00:37:18.390280+00:00",
+        "epoch": 22,
+        "steps": 880,
+        "TRAIN_objective": 0.044714615354314445,
+        "DEV_batch_MSE": 0.8310693917241823,
+        "best_epoch": 21,
+        "best_MSE": 0.8070559085784141,
+        "dropped_rows": [
+          62
+        ],
+        "prediction_SHA": "90fcbfae2beb0e206cd3c9fa8f7dd7b55c3e51c0c03bf5636da7a43c583b4597",
+        "state_SHA": "30eaca0d993f1cab29d281cabff35ed61737ec126a37ea058cf442050f32e276",
+        "seconds": 36.06643060129136
+      },
+      "recorded_trajectory_exact": true,
+      "large_checkpoint_not_downloaded_or_independently_CPU_audited": true,
+      "no_final_VAL_TEST_five": true
+    }
+  },
+  "D_archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\matched_recovery_checkpoint800_20261009T003844Z\\checkpoint800_small_actual_receipts.zip",
+  "archive_SHA": "767f32f6cbf659266537bdcf92bb6929a91f44742e0cc71cd02abbb52eefbeb2",
+  "archive_bytes": 30777,
+  "original_large_interrupted_states_Release_and_peer_CPU_already_saved": true,
+  "periodic_large_states_remote_only": true,
+  "overall_complete": false
+}

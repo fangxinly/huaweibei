@@ -1,0 +1,201 @@
+{
+  "status": "TWO_NODE_CANDIDATE_POSTTRAIN_NATIVE_AND_C_ISOLATED_RUNTIME_C_D_PASSED",
+  "actualclock_UTC": "2026-10-09 00:48:00 UTC",
+  "nodes": {
+    "A": {
+      "capture": {
+        "status": "CANDIDATE_POSTTRAIN_NATIVE_COMPLETE",
+        "actual_UTC": "2026-10-09T00:44:13.523541+00:00",
+        "natural_exit": 0,
+        "child_PID": 3237,
+        "archive": "/data/coding/A_candidate_posttrain_native_actual_20261009T004259Z/complete_small_original.zip",
+        "archive_SHA": "3b1e83b717247b94f2e35ab031f8f77cd79a6d3173e15aa34f5a69b441f0559c",
+        "archive_bytes": 351053,
+        "ZIP_CRC_unique_all_members": true,
+        "CPU_only": true,
+        "no_real_VAL_TEST_scores": true
+      },
+      "exit": {
+        "actual_UTC": "2026-10-09T00:44:13.410380+00:00",
+        "pid": 3237,
+        "fullargv": [
+          "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+          "/data/coding/candidate_posttrain_preparation_20261009T004259Z/qualify_candidate_posttrain_v1.py",
+          "--out",
+          "/data/coding/A_candidate_posttrain_native_actual_20261009T004259Z/native_result.json"
+        ],
+        "natural_exit": 0
+      },
+      "result": {
+        "status": "CANDIDATE_BOTH_MODES_SAVED_TAIL_AND_INDEPENDENT_FIVE_CPU_PASSED",
+        "actual_UTC": "2026-10-09T00:44:12.547358+00:00",
+        "pid": 3237,
+        "fullargv": [
+          "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+          "/data/coding/candidate_posttrain_preparation_20261009T004259Z/qualify_candidate_posttrain_v1.py",
+          "--out",
+          "/data/coding/A_candidate_posttrain_native_actual_20261009T004259Z/native_result.json"
+        ],
+        "source_SHA": "8beedfbcd511f30d473b36db15e0bb9d061a9b8fe886c025400aa19f2f6474ab",
+        "modes": {
+          "factorized_aux": {
+            "saved_tail_exact": true,
+            "same_flow_ON_OFF_nonzero": true,
+            "dummy_labels0vs7_exact": true,
+            "parameters_buffers_RNG_unchanged": true
+          },
+          "regression_aux": {
+            "saved_tail_exact": true,
+            "same_flow_ON_OFF_nonzero": true,
+            "dummy_labels0vs7_exact": true,
+            "parameters_buffers_RNG_unchanged": true
+          }
+        },
+        "independent_five_maxerror": 0.0,
+        "real_data_or_labels_indexed": false,
+        "CPU_encoder_forward": false,
+        "CPU_only": true
+      },
+      "actual_training_progress": {
+        "actual_UTC": "2026-10-09T00:45:32.325680+00:00",
+        "epoch": 35,
+        "steps": 1400,
+        "TRAIN_objective": 0.017582964058965443,
+        "DEV_batch_MSE": 0.7303542300799991,
+        "best_epoch": 26,
+        "best_MSE": 0.7185302837980747,
+        "dropped_rows": [
+          578
+        ],
+        "prediction_SHA": "a1cacc81d3c0b05d6850bbba99060d6bed2bc7cc926eead4990a1840c7347a26",
+        "state_SHA": "faa4458a841eebefb6ba365c256cbc4ec856499c0f7bad0ad429ee5af4a8268c",
+        "seconds": 36.47652231529355
+      }
+    },
+    "B": {
+      "capture": {
+        "status": "CANDIDATE_POSTTRAIN_NATIVE_COMPLETE",
+        "actual_UTC": "2026-10-09T00:44:14.002343+00:00",
+        "natural_exit": 0,
+        "child_PID": 3901,
+        "archive": "/data/coding/B_candidate_posttrain_native_actual_20261009T004259Z/complete_small_original.zip",
+        "archive_SHA": "149deb4d6b68177a671ec02d6610dc7db84fa7f55af390dc4f83b9dc1034c6fa",
+        "archive_bytes": 351061,
+        "ZIP_CRC_unique_all_members": true,
+        "CPU_only": true,
+        "no_real_VAL_TEST_scores": true
+      },
+      "exit": {
+        "actual_UTC": "2026-10-09T00:44:13.904285+00:00",
+        "pid": 3901,
+        "fullargv": [
+          "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+          "/data/coding/candidate_posttrain_preparation_20261009T004259Z/qualify_candidate_posttrain_v1.py",
+          "--out",
+          "/data/coding/B_candidate_posttrain_native_actual_20261009T004259Z/native_result.json"
+        ],
+        "natural_exit": 0
+      },
+      "result": {
+        "status": "CANDIDATE_BOTH_MODES_SAVED_TAIL_AND_INDEPENDENT_FIVE_CPU_PASSED",
+        "actual_UTC": "2026-10-09T00:44:13.462789+00:00",
+        "pid": 3901,
+        "fullargv": [
+          "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+          "/data/coding/candidate_posttrain_preparation_20261009T004259Z/qualify_candidate_posttrain_v1.py",
+          "--out",
+          "/data/coding/B_candidate_posttrain_native_actual_20261009T004259Z/native_result.json"
+        ],
+        "source_SHA": "8beedfbcd511f30d473b36db15e0bb9d061a9b8fe886c025400aa19f2f6474ab",
+        "modes": {
+          "factorized_aux": {
+            "saved_tail_exact": true,
+            "same_flow_ON_OFF_nonzero": true,
+            "dummy_labels0vs7_exact": true,
+            "parameters_buffers_RNG_unchanged": true
+          },
+          "regression_aux": {
+            "saved_tail_exact": true,
+            "same_flow_ON_OFF_nonzero": true,
+            "dummy_labels0vs7_exact": true,
+            "parameters_buffers_RNG_unchanged": true
+          }
+        },
+        "independent_five_maxerror": 0.0,
+        "real_data_or_labels_indexed": false,
+        "CPU_encoder_forward": false,
+        "CPU_only": true
+      },
+      "actual_training_progress": {
+        "actual_UTC": "2026-10-09T00:45:27.880735+00:00",
+        "epoch": 35,
+        "steps": 1400,
+        "TRAIN_objective": 0.0168211811222136,
+        "DEV_batch_MSE": 0.782270580300326,
+        "best_epoch": 34,
+        "best_MSE": 0.7552713269164095,
+        "dropped_rows": [
+          578
+        ],
+        "prediction_SHA": "4961b3f9a0eb9960959ddfadeee33c46acaa4aaee60d1fc98aaf7c9276275435",
+        "state_SHA": "96bed477b9b1b634fa0a364c78d9217e10e18d47e03c05e08ffffc6ace753111",
+        "seconds": 36.04196572303772
+      }
+    }
+  },
+  "C_runtime": {
+    "status": "NEW_ISOLATED_CANDIDATE_PURE_CPU_RUNTIME_PINNED_PASSED",
+    "actual_UTC": "2026-10-09T00:46:17.346364+00:00",
+    "runtime_python": "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "runtime_versions": {
+      "certifi": "2026.7.22",
+      "charset-normalizer": "3.5.2",
+      "colorama": "0.4.6",
+      "filelock": "3.15.4",
+      "fsspec": "2026.9.0",
+      "hf-xet": "1.6.0",
+      "huggingface-hub": "0.36.2",
+      "idna": "3.20",
+      "joblib": "1.4.2",
+      "numpy": "1.26.4",
+      "packaging": "24.1",
+      "pyyaml": "6.0.3",
+      "regex": "2026.9.29",
+      "requests": "2.32.3",
+      "safetensors": "0.8.0",
+      "scikit-learn": "1.5.2",
+      "scipy": "1.13.1",
+      "sentencepiece": "0.1.99",
+      "threadpoolctl": "3.5.0",
+      "tokenizers": "0.15.2",
+      "tqdm": "4.66.5",
+      "transformers": "4.37.2",
+      "typing-extensions": "4.16.0",
+      "urllib3": "2.8.0",
+      "torch": "2.1.0+cu121"
+    },
+    "UUID": "GPU-daa2c09a-4ce5-26dd-b375-6b61242c6795",
+    "CPU_only": true,
+    "GPU_forward": false,
+    "model_data_download": false,
+    "old_environment_modified": false,
+    "free_bytes": 46689415168
+  },
+  "C_runtime_capture": {
+    "actual_UTC": "2026-10-09T00:46:17.354556+00:00",
+    "natural_exit": 0,
+    "archive": "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/complete_small_original.zip",
+    "archive_SHA": "e4b65e82fb6eb1dabb9d25c264c119db654fd463c918a5f9f4294ae526c3ed67",
+    "archive_bytes": 6225,
+    "ZIP_CRC_unique_all_members": true,
+    "CPU_only": true
+  },
+  "prepared_source": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\candidate_posttrain_preparation_20261009T004259Z",
+  "prepared_source_zip_SHA": "574f2b4a5595709369a93b7d3ca07ec7c173cd1bfe38de5fa2d7277b788c8df0",
+  "prepared_source_plan_SHA": "10cb6747475014b46512566553ad56bce3392fbd0c400e0ea2f0cae4a2f44f63",
+  "D_archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_posttrain_native_20261009T004800Z\\all_small_native_runtime_and_prepared_source_originals.zip",
+  "archive_SHA": "06709e75bf54cbdc1e417b79aa3314cb031e0dd960f8fa18f3d9674b177fc8f6",
+  "archive_bytes": 1043059,
+  "actual_final100_stage_not_yet_frozen": true,
+  "no_new_VAL_TEST_five": true
+}

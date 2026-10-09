@@ -1,0 +1,30 @@
+{
+  "status": "CANDIDATE_BOTH_MODES_SAVED_TAIL_AND_INDEPENDENT_FIVE_CPU_PASSED",
+  "actual_UTC": "2026-10-09T00:44:13.462789+00:00",
+  "pid": 3901,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/candidate_posttrain_preparation_20261009T004259Z/qualify_candidate_posttrain_v1.py",
+    "--out",
+    "/data/coding/B_candidate_posttrain_native_actual_20261009T004259Z/native_result.json"
+  ],
+  "source_SHA": "8beedfbcd511f30d473b36db15e0bb9d061a9b8fe886c025400aa19f2f6474ab",
+  "modes": {
+    "factorized_aux": {
+      "saved_tail_exact": true,
+      "same_flow_ON_OFF_nonzero": true,
+      "dummy_labels0vs7_exact": true,
+      "parameters_buffers_RNG_unchanged": true
+    },
+    "regression_aux": {
+      "saved_tail_exact": true,
+      "same_flow_ON_OFF_nonzero": true,
+      "dummy_labels0vs7_exact": true,
+      "parameters_buffers_RNG_unchanged": true
+    }
+  },
+  "independent_five_maxerror": 0.0,
+  "real_data_or_labels_indexed": false,
+  "CPU_encoder_forward": false,
+  "CPU_only": true
+}

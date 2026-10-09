@@ -115,3 +115,5 @@ python work/polarity_intensity_official_v1/integration_contract.py scratch/polar
 ## 原流极性与强度升级
 
 [实际训练、完整中断保存及恢复](docs/polarity_intensity_training.md)。当前状态：MATCHED_PAIR_DETACHED_RECOVERY400_RUNNING。尚无新最终VAL/TEST五项，恢复额外计算成本单列。
+
+[极性／强度完成后评价流程核验](docs/candidate_posttrain_qualification.md)：两节点合成CPU和独立CPU依赖已核验，真实100及新最终VAL／TEST五项尚未完成。

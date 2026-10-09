@@ -1,0 +1,11 @@
+{
+  "actual_UTC": "2026-10-09T00:44:13.410380+00:00",
+  "pid": 3237,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/candidate_posttrain_preparation_20261009T004259Z/qualify_candidate_posttrain_v1.py",
+    "--out",
+    "/data/coding/A_candidate_posttrain_native_actual_20261009T004259Z/native_result.json"
+  ],
+  "natural_exit": 0
+}

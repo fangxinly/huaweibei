@@ -1,0 +1,12 @@
+{
+  "status": "CANDIDATE_POSTTRAIN_NATIVE_COMPLETE",
+  "actual_UTC": "2026-10-09T00:44:13.523541+00:00",
+  "natural_exit": 0,
+  "child_PID": 3237,
+  "archive": "/data/coding/A_candidate_posttrain_native_actual_20261009T004259Z/complete_small_original.zip",
+  "archive_SHA": "3b1e83b717247b94f2e35ab031f8f77cd79a6d3173e15aa34f5a69b441f0559c",
+  "archive_bytes": 351053,
+  "ZIP_CRC_unique_all_members": true,
+  "CPU_only": true,
+  "no_real_VAL_TEST_scores": true
+}
