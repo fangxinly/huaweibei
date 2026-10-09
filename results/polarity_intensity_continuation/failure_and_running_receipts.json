@@ -1,0 +1,71 @@
+{
+  "status": "LOCAL_C_RESERVED200MB_GATE_FAILED_D_ONLY_ORIGINAL_SAVE",
+  "actualclock_UTC": "2026-10-09 00:52:29 UTC",
+  "capacity": {
+    "C": 192090112,
+    "D": 2132500480
+  },
+  "failed_command": "work/finalize_candidate_posttrain_preparation_v1.py --stamp 2026-10-09 00:51:41 UTC --tag 20261009T005141Z",
+  "actual_process_exit": 1,
+  "exception": "AssertionError: C free bytes below 200000000 reserved floor",
+  "cause_of_capacity_change_not_established": true,
+  "old_frozen_originals_deleted": false,
+  "healthy_remote_training_not_stopped": true,
+  "nodes": {
+    "A": {
+      "progress": {
+        "actual_UTC": "2026-10-09T00:49:33.410567+00:00",
+        "epoch": 41,
+        "steps": 1640,
+        "TRAIN_objective": 0.016596925328485668,
+        "DEV_batch_MSE": 0.7118662034097224,
+        "best_epoch": 41,
+        "best_MSE": 0.7118662034097224,
+        "dropped_rows": [
+          114
+        ],
+        "prediction_SHA": "f7120539f3cc889d6872aa349de9f2103b9340d1558ccdb824026ad8c5da040d",
+        "state_SHA": "7c922b62b132fca7f949c572f5be5dbc880b04f3620714f092af9375278693a1",
+        "seconds": 36.98458841815591
+      },
+      "checkpoint_ready": {
+        "actual_UTC": "2026-10-09T00:48:44.456407+00:00",
+        "checkpoint_SHA": "294893581f870d4be18ff3b82b720ac53b12fbc72b59ec689cbf562db6e5b725",
+        "checkpoint_bytes": 2960846247,
+        "steps": 1600,
+        "full_model_Adam_scheduler_RNG_orders_history": true,
+        "training_continues": true
+      },
+      "recorded_trajectory_exact": true
+    },
+    "B": {
+      "progress": {
+        "actual_UTC": "2026-10-09T00:49:23.528989+00:00",
+        "epoch": 41,
+        "steps": 1640,
+        "TRAIN_objective": 0.01459171816240996,
+        "DEV_batch_MSE": 0.74165664021223,
+        "best_epoch": 41,
+        "best_MSE": 0.74165664021223,
+        "dropped_rows": [
+          114
+        ],
+        "prediction_SHA": "8bbac0afc63e4cc5e376ae28ff7564a8605a9b5817c623c83138da7811cc6436",
+        "state_SHA": "470577c5420202b270d39388ad796a12f7d56643e431c81609b9148028a3fb24",
+        "seconds": 36.432895969599485
+      },
+      "checkpoint_ready": {
+        "actual_UTC": "2026-10-09T00:48:37.049304+00:00",
+        "checkpoint_SHA": "a00b2a8051a4f5799d34d8365c6d40ccb4157ed809d8e2367be19f81ca0cef6c",
+        "checkpoint_bytes": 2960846247,
+        "steps": 1600,
+        "full_model_Adam_scheduler_RNG_orders_history": true,
+        "training_continues": true
+      },
+      "recorded_trajectory_exact": true
+    }
+  },
+  "C_identity_guard_source_SHA": "2d602b6c5207350de7d72af7a6dbc58949473dd13f46e18bbc5357c3dc50700c",
+  "C_artifacts_not_written_by_this_fallback": true,
+  "D_fallback_not_C_capacity_solution": true
+}

@@ -1402,6 +1402,24 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/A_recovery400_finalprep_current_checkpoint.json",
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\polarity_intensity_prefix_v2_20261008T203225Z\\A_recovery400_finalprep_current_checkpoint.json",
+      "kind": "result",
+      "bytes": 280,
+      "original_sha256": "fb40ea211768090f8070fd57ea53dfa410e539cacafccf4701ad49cecb623999",
+      "published_sha256": "fb40ea211768090f8070fd57ea53dfa410e539cacafccf4701ad49cecb623999",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/A_recovery400_finalprep_current_progress.json",
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\polarity_intensity_prefix_v2_20261008T203225Z\\A_recovery400_finalprep_current_progress.json",
+      "kind": "result",
+      "bytes": 459,
+      "original_sha256": "e6715c8519db15d325ebf8ae66a5a32d216d5e561674f906b5763d4b0bc24e59",
+      "published_sha256": "e6715c8519db15d325ebf8ae66a5a32d216d5e561674f906b5763d4b0bc24e59",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/A_recovery400_first_native_failure_capture.json",
       "origin": "outputs/polarity_intensity_prefix_v2_20261008T203225Z/A_recovery400_first_native_failure_capture.json",
       "kind": "result",
@@ -1856,6 +1874,24 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/B_recovery400_finalprep_current_checkpoint.json",
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\polarity_intensity_prefix_v2_20261008T203225Z\\B_recovery400_finalprep_current_checkpoint.json",
+      "kind": "result",
+      "bytes": 280,
+      "original_sha256": "143758a74453760ff110ba13799e8fae6dfc5fcd77fe581ae12b9149176026a1",
+      "published_sha256": "143758a74453760ff110ba13799e8fae6dfc5fcd77fe581ae12b9149176026a1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/B_recovery400_finalprep_current_progress.json",
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\polarity_intensity_prefix_v2_20261008T203225Z\\B_recovery400_finalprep_current_progress.json",
+      "kind": "result",
+      "bytes": 455,
+      "original_sha256": "3ddbf9e5d5d3297e51f28f10aa342764b00d98e1cf03e2695e7974fc9947aa49",
+      "published_sha256": "3ddbf9e5d5d3297e51f28f10aa342764b00d98e1cf03e2695e7974fc9947aa49",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/B_recovery400_first_native_failure_capture.json",
       "origin": "outputs/polarity_intensity_prefix_v2_20261008T203225Z/B_recovery400_first_native_failure_capture.json",
       "kind": "result",
@@ -2087,6 +2123,15 @@
       "bytes": 34295,
       "original_sha256": "62b1f56dceb6a1886b66599bcc6b4d64be4ddb6a285735303b1854fb599b74e6",
       "published_sha256": "62b1f56dceb6a1886b66599bcc6b4d64be4ddb6a285735303b1854fb599b74e6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/failure_and_running_receipts.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_posttrain_lowC_20261009T005229Z\\failure_and_running_receipts.json",
+      "kind": "result",
+      "bytes": 2777,
+      "original_sha256": "18c71e5718255ebc6313add59f418aab5aea5eee75d0637bd26f9720c40b2bd5",
+      "published_sha256": "18c71e5718255ebc6313add59f418aab5aea5eee75d0637bd26f9720c40b2bd5",
       "sanitizations": {}
     },
     {
@@ -8628,6 +8673,15 @@
       "sanitizations": {}
     },
     {
+      "path": "work/finalize_candidate_posttrain_preparation_v1.py",
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\finalize_candidate_posttrain_preparation_v1.py",
+      "kind": "source",
+      "bytes": 7869,
+      "original_sha256": "78a07c70248a1f5ce0e4a8a5c9ba5ab539e2424171821ac415e30c7454eb6168",
+      "published_sha256": "78a07c70248a1f5ce0e4a8a5c9ba5ab539e2424171821ac415e30c7454eb6168",
+      "sanitizations": {}
+    },
+    {
       "path": "work/finalize_collection_v2_local_preparation.py",
       "origin": "work/finalize_collection_v2_local_preparation.py",
       "kind": "source",
@@ -9550,11 +9604,11 @@
     },
     {
       "path": "work/freeze_candidate_posttrain_stage_v1.py",
-      "origin": "work/freeze_candidate_posttrain_stage_v1.py",
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\freeze_candidate_posttrain_stage_v1.py",
       "kind": "source",
-      "bytes": 6899,
-      "original_sha256": "2327f64e2b7042872a401b566e3bbfd1bb814b31a2fc22e49e4a8905a00d00cc",
-      "published_sha256": "2327f64e2b7042872a401b566e3bbfd1bb814b31a2fc22e49e4a8905a00d00cc",
+      "bytes": 7481,
+      "original_sha256": "2d602b6c5207350de7d72af7a6dbc58949473dd13f46e18bbc5357c3dc50700c",
+      "published_sha256": "2d602b6c5207350de7d72af7a6dbc58949473dd13f46e18bbc5357c3dc50700c",
       "sanitizations": {}
     },
     {

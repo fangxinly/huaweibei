@@ -42,6 +42,13 @@ shutil.copy2(native_ev/'A_candidate_posttrain_native_result.json',a.out/'candida
 shutil.copy2(native_ev/'A_candidate_posttrain_native_exit.json',a.out/'candidate_posttrain_native_exit.json')
 source=base/'work'/(a.training_node+'_candidate_recovery400_qualified_20261009T002805Z')
 plan=read(source/'qualified_resume_plan.json');baseline=read(base/'work/official_anchored_upgrade_20261008T053429Z/official_score_protocol.json')
+if a.execution_node=='C':
+    cr=read(native_ev/'C_candidate_pureCPU_runtime_result.json');cc=read(native_ev/'C_candidate_pureCPU_runtime_capture.json')
+    assert cc['natural_exit']==0 and cr['status']=='NEW_ISOLATED_CANDIDATE_PURE_CPU_RUNTIME_PINNED_PASSED'
+    assert cr['runtime_versions']==plan['runtime_versions'] and cr['CPU_only']
+    assert cr['UUID']=='GPU-daa2c09a-4ce5-26dd-b375-6b61242c6795'
+    plan['GPU_UUID']={**plan['GPU_UUID'],'C':cr['UUID']}
+    plan['pure_CPU_runtime_original_reference']=dict(runtime=cr,capture=cc,execution_requires_new_fresh_preflight=True)
 plan.update(status='ACTUAL_OFFICIAL_CANDIDATE_'+a.stage.upper()+'_STAGE_FROZEN',actualclock_stage_freeze_UTC=a.stamp,candidate_mode=mode,training_node=a.training_node,execution_node=a.execution_node,final_checkpoint_bytes=tr['checkpoint_bytes'],posttrain_stage_budget_seconds=dict(audit=3600,infer=1800,score=300),training_original_reference=dict(archive_SHA=cap['archive_SHA'],member_SHA=members,training_plan_SHA=m['plan_SHA'],public_release=pub['release_url']),selected_state_SHA=m['selected_state_SHA'],official_role_IDs=baseline['official_role_IDs'],fixed_CaReFlow_five=baseline['fixed_CaReFlow_five'],CaReFlow_baseline_original_reference=baseline['CaReFlow_baseline_original_reference'],recovery_compute_disclosure=dict(logical_updates=4000,recorded_interrupted_last_step=dict(A=3893,B=3873)[a.training_node],known_replayed_updates=dict(A=3493,B=3473)[a.training_node],unknown_unlogged_interrupted_updates_not_excluded=True,not_new_independent_replicate=True))
 plan['posttrain_native_CPU_qualification']={n:sha(a.out/n) for n in ('candidate_posttrain_native_result.json','candidate_posttrain_native_exit.json')}
 if a.stage=='audit':
