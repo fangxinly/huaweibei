@@ -1,0 +1,16 @@
+{
+  "status": "N2_FULL4000_CPU_AUDIT_ORIGINAL_RELEASE_REMOTE_DIGEST_VERIFIED",
+  "actual_UTC": "2026-10-09T17:42:54.880581+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_retry_actual_20261009T172929Z\\N2_complete_actual_small_original.zip",
+  "source_SHA": "aa9876da9eba95ad8e9eb5a0fda883933d806e81b861aabe4ca9c659229ff00a",
+  "source_bytes": 6734876,
+  "pid": 8280,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/batch5_retry_actual_20261009T172929Z/publish_N2_audit_original_v1.py"
+  ],
+  "name": "B-original-full4000-CPU-audit-N2-20261009T173131Z.zip",
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/B-original-full4000-CPU-audit-N2-20261009T173131Z.zip",
+  "id": 625699135,
+  "remote_digest_verified": true
+}

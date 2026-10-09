@@ -1,0 +1,108 @@
+{
+  "status": "A_OTHER_NODE_COMPLETE_ORIGINAL_D_ALL_SHA_CRC_UNIQUE_VERIFIED",
+  "actual_UTC": "2026-10-09T17:37:08.454107+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_retry_actual_20261009T172929Z\\N1_complete_actual_small_original.zip",
+  "archive_SHA": "8ec5bd3cff895b93039fc3933960ddb1de49dee928e865bca9acec230c9a1791",
+  "archive_bytes": 171347,
+  "member_count": 73,
+  "all_member_SHA_CRC_unique_passed": true,
+  "natural_exit": {
+    "actual_UTC": "2026-10-09T17:31:32.481212+00:00",
+    "pid": 295,
+    "natural_exit": 0,
+    "fullargv": [
+      "/data/miniconda/envs/torch/bin/python",
+      "-B",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/batch5_continue_originals_v1.py",
+      "--worker",
+      "--payload",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z",
+      "--node",
+      "N1",
+      "--root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N1_stage_actual_20261009T173131Z"
+    ]
+  },
+  "result": {
+    "status": "A_OTHER_NODE_ORIGINAL_NPZ_OFFICIAL_VAL_TEST_ALL_FIVE_VERIFIED",
+    "actual_UTC": "2026-10-09T17:31:32.455623+00:00",
+    "pid": 295,
+    "fullargv": [
+      "/data/miniconda/envs/torch/bin/python",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/batch5_continue_originals_v1.py",
+      "--worker",
+      "--payload",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z",
+      "--node",
+      "N1",
+      "--root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N1_stage_actual_20261009T173131Z"
+    ],
+    "execution_node": "N1",
+    "hostname": "xqrjxqovbsgxpxfq-snow-8c68ff845-6f95k",
+    "GPU_UUID": "GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde",
+    "original_author_host": "FangXin",
+    "different_host_from_author_actual": true,
+    "original_prediction_SHA": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+    "official_dataset_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+    "selected_state_SHA": "a21718410b3daa24030f6bc9245109bd4ff8495279d344f10e12656b2c1455ec",
+    "selected_epoch": 73,
+    "original_author_result_SHA": "c8b5ad19c21cbc8766c8a3e6d36e967f176e65e12b6bd3a8f5b806d8ae8d47e5",
+    "independent_runner_original_SHA": "285f02aa9ab1be7952875e6d2bcf2f45a0c1505647e08d7e37a11c9123f275dc",
+    "roles": {
+      "VAL": {
+        "new": {
+          "Acc7": 0.47161572052401746,
+          "Acc2": 0.8888888888888888,
+          "F1": 0.8880997474747474,
+          "MAE": 0.5934321316666739,
+          "Corr": 0.8635775796997227
+        },
+        "messages_off": {
+          "Acc7": 0.47161572052401746,
+          "Acc2": 0.8888888888888888,
+          "F1": 0.8880997474747474,
+          "MAE": 0.5934402608682755,
+          "Corr": 0.8635723035334018
+        }
+      },
+      "TEST": {
+        "new": {
+          "Acc7": 0.4686131386861314,
+          "Acc2": 0.8809160305343512,
+          "F1": 0.8807329455189361,
+          "MAE": 0.6381757583333193,
+          "Corr": 0.8409977851337935
+        },
+        "messages_off": {
+          "Acc7": 0.4686131386861314,
+          "Acc2": 0.8809160305343512,
+          "F1": 0.8807329455189361,
+          "MAE": 0.638171882661277,
+          "Corr": 0.840996736336161
+        }
+      }
+    },
+    "max_error": 1.5543122344752192e-15,
+    "original_NPZ_bytes_verified": true,
+    "official_original_dataset_labels_and_IDs_verified": true,
+    "primary_author_scoring_not_repeated": true,
+    "no_model_inference_training_or_new_blind_TEST": true
+  },
+  "original_capture_receipt": {
+    "status": "BATCH5_ACTUAL_STAGE_CAPTURED",
+    "actual_UTC": "2026-10-09T17:31:32.536417+00:00",
+    "node": "N1",
+    "natural_exit": 0,
+    "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N1_stage_actual_20261009T173131Z/complete_actual_small_original.zip",
+    "archive_SHA": "8ec5bd3cff895b93039fc3933960ddb1de49dee928e865bca9acec230c9a1791",
+    "archive_bytes": 171347,
+    "all_member_SHA_CRC_unique_passed": true,
+    "no_new_primary_author_score_or_training": true
+  },
+  "SCP_64119_natural_exit": 1,
+  "SCP_64119_error": "Connection closed",
+  "SCP_75309_natural_exit": 0,
+  "no_policy_rejection_in_human_retry": true,
+  "no_underlying_approval_policy_fix_claimed": true
+}

@@ -1,0 +1,331 @@
+{
+  "status": "B_FULL4000_D_AND_RELEASE_PASSED_ORIGINAL_B_INFERENCE_ACTUALLY_DISPATCHED",
+  "actual_UTC": "2026-10-09T17:54:12.278566+00:00",
+  "A_other_node_five_complete": {
+    "status": "A_OTHER_NODE_ORIGINAL_NPZ_OFFICIAL_VAL_TEST_ALL_FIVE_VERIFIED",
+    "actual_UTC": "2026-10-09T17:31:32.455623+00:00",
+    "pid": 295,
+    "fullargv": [
+      "/data/miniconda/envs/torch/bin/python",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/batch5_continue_originals_v1.py",
+      "--worker",
+      "--payload",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z",
+      "--node",
+      "N1",
+      "--root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N1_stage_actual_20261009T173131Z"
+    ],
+    "execution_node": "N1",
+    "hostname": "xqrjxqovbsgxpxfq-snow-8c68ff845-6f95k",
+    "GPU_UUID": "GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde",
+    "original_author_host": "FangXin",
+    "different_host_from_author_actual": true,
+    "original_prediction_SHA": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+    "official_dataset_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+    "selected_state_SHA": "a21718410b3daa24030f6bc9245109bd4ff8495279d344f10e12656b2c1455ec",
+    "selected_epoch": 73,
+    "original_author_result_SHA": "c8b5ad19c21cbc8766c8a3e6d36e967f176e65e12b6bd3a8f5b806d8ae8d47e5",
+    "independent_runner_original_SHA": "285f02aa9ab1be7952875e6d2bcf2f45a0c1505647e08d7e37a11c9123f275dc",
+    "roles": {
+      "VAL": {
+        "new": {
+          "Acc7": 0.47161572052401746,
+          "Acc2": 0.8888888888888888,
+          "F1": 0.8880997474747474,
+          "MAE": 0.5934321316666739,
+          "Corr": 0.8635775796997227
+        },
+        "messages_off": {
+          "Acc7": 0.47161572052401746,
+          "Acc2": 0.8888888888888888,
+          "F1": 0.8880997474747474,
+          "MAE": 0.5934402608682755,
+          "Corr": 0.8635723035334018
+        }
+      },
+      "TEST": {
+        "new": {
+          "Acc7": 0.4686131386861314,
+          "Acc2": 0.8809160305343512,
+          "F1": 0.8807329455189361,
+          "MAE": 0.6381757583333193,
+          "Corr": 0.8409977851337935
+        },
+        "messages_off": {
+          "Acc7": 0.4686131386861314,
+          "Acc2": 0.8809160305343512,
+          "F1": 0.8807329455189361,
+          "MAE": 0.638171882661277,
+          "Corr": 0.840996736336161
+        }
+      }
+    },
+    "max_error": 1.5543122344752192e-15,
+    "original_NPZ_bytes_verified": true,
+    "official_original_dataset_labels_and_IDs_verified": true,
+    "primary_author_scoring_not_repeated": true,
+    "no_model_inference_training_or_new_blind_TEST": true
+  },
+  "B_full4000": {
+    "status": "B_N2_FULL4000_COMPLETE_ORIGINAL_D_SHA_CRC_UNIQUE_VERIFIED",
+    "actual_UTC": "2026-10-09T17:42:38.980122+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_retry_actual_20261009T172929Z\\N2_complete_actual_small_original.zip",
+    "archive_SHA": "aa9876da9eba95ad8e9eb5a0fda883933d806e81b861aabe4ca9c659229ff00a",
+    "archive_bytes": 6734876,
+    "member_count": 278,
+    "all_member_SHA_CRC_unique_passed": true,
+    "original_capture_receipt": {
+      "status": "BATCH5_ACTUAL_STAGE_CAPTURED",
+      "actual_UTC": "2026-10-09T17:39:16.985242+00:00",
+      "node": "N2",
+      "natural_exit": 0,
+      "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/complete_actual_small_original.zip",
+      "archive_SHA": "aa9876da9eba95ad8e9eb5a0fda883933d806e81b861aabe4ca9c659229ff00a",
+      "archive_bytes": 6734876,
+      "all_member_SHA_CRC_unique_passed": true,
+      "no_new_primary_author_score_or_training": true
+    },
+    "natural_exit": {
+      "actual_UTC": "2026-10-09T17:39:15.895005+00:00",
+      "pid": 354,
+      "natural_exit": 0,
+      "fullargv": [
+        "/data/miniconda/envs/torch/bin/python",
+        "-B",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/batch5_continue_originals_v1.py",
+        "--worker",
+        "--payload",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z",
+        "--node",
+        "N2",
+        "--root",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z"
+      ]
+    },
+    "core_natural_exit": {
+      "actual_UTC": "2026-10-09T17:39:07.115881+00:00",
+      "pid": 539,
+      "natural_exit": 0,
+      "fullargv": [
+        "/data/miniconda/envs/torch/bin/python",
+        "-B",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle/audit_official.py",
+        "--plan",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/official_B_new_N2_CPU_audit_protocol.json",
+        "--plan-sha",
+        "a4dcee975bdd1c6113b47d2adcc6ff6a3c334ffb0748f65352f34548832dcffb",
+        "--bundle",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+        "--assets",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+        "--input-root",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/original",
+        "--out",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/cpu_result"
+      ]
+    },
+    "result": {
+      "status": "CANDIDATE_FULL4000_ADAM_SELECTION_AND_CPU_TAIL_PASSED",
+      "actual_UTC": "2026-10-09T17:38:58.006683+00:00",
+      "pid": 539,
+      "fullargv": [
+        "/data/miniconda/envs/torch/bin/python",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle/audit_official.py",
+        "--plan",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/official_B_new_N2_CPU_audit_protocol.json",
+        "--plan-sha",
+        "a4dcee975bdd1c6113b47d2adcc6ff6a3c334ffb0748f65352f34548832dcffb",
+        "--bundle",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+        "--assets",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+        "--input-root",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/original",
+        "--out",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/cpu_result"
+      ],
+      "candidate_mode": "regression_aux",
+      "training_archive_SHA": "29ff0e21acb449c74dc059274f83e08679080a986740bb66d64fb23b86021e27",
+      "checkpoint_SHA": "90bb9136a2e7323df171965806efc7c180cdd522c3226c1706d43c4f2be2d986",
+      "selected_state_SHA": "323f474e6b50da98a9bfd85d515fefa5db4a618f90a8cc246852ccb31b012833",
+      "best_epoch": 92,
+      "Adam_parameter_states": 345,
+      "all_Adam_steps": 4000,
+      "all100_prediction_then_label_selection_recomputed": true,
+      "CPU_actual_DEV_flow_maxerror": 2.8312206268310547e-06,
+      "CPU_encoder_forward": false,
+      "parameters_buffers_RNG_unchanged": true,
+      "TEST_not_indexed": true,
+      "extra_replayed_compute_disclosed": {
+        "logical_updates": 4000,
+        "recorded_interrupted_last_step": 3873,
+        "known_replayed_updates": 3473,
+        "unknown_unlogged_interrupted_updates_not_excluded": true,
+        "not_new_independent_replicate": true
+      }
+    },
+    "full_archive_transport": {
+      "actual_UTC": "2026-10-09T17:38:30.281916+00:00",
+      "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/complete_training_original.zip",
+      "archive_SHA": "29ff0e21acb449c74dc059274f83e08679080a986740bb66d64fb23b86021e27",
+      "bytes": 3546223606,
+      "all_member_SHA_CRC_unique_passed": true,
+      "final_PT_SHA": "90bb9136a2e7323df171965806efc7c180cdd522c3226c1706d43c4f2be2d986",
+      "CPU4000_pending": true
+    },
+    "SCP_94889_natural_exit": 0,
+    "official_B_inference_and_five_not_yet_completed": true,
+    "only_new_temporary_PT_removed_after_original_CPU_success": {
+      "actual_UTC": "2026-10-09T17:39:15.881207+00:00",
+      "removed": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/original/out/complete_final_and_selected.pt",
+      "original_SHA": "90bb9136a2e7323df171965806efc7c180cdd522c3226c1706d43c4f2be2d986",
+      "only_new_temporary_PT_removed_after_actual_success": true,
+      "full_archive_retained": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/complete_training_original.zip"
+    }
+  },
+  "B_full4000_Release": {
+    "status": "N2_FULL4000_CPU_AUDIT_ORIGINAL_RELEASE_REMOTE_DIGEST_VERIFIED",
+    "actual_UTC": "2026-10-09T17:42:54.880581+00:00",
+    "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_retry_actual_20261009T172929Z\\N2_complete_actual_small_original.zip",
+    "source_SHA": "aa9876da9eba95ad8e9eb5a0fda883933d806e81b861aabe4ca9c659229ff00a",
+    "source_bytes": 6734876,
+    "pid": 8280,
+    "fullargv": [
+      "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/batch5_retry_actual_20261009T172929Z/publish_N2_audit_original_v1.py"
+    ],
+    "name": "B-original-full4000-CPU-audit-N2-20261009T173131Z.zip",
+    "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/B-original-full4000-CPU-audit-N2-20261009T173131Z.zip",
+    "id": 625699135,
+    "remote_digest_verified": true
+  },
+  "new_N2_runtime": {
+    "status": "N2_NEW_EXACT24_RUNTIME_ASSETS_CANDIDATE_QUALIFICATION_D_FULLY_VERIFIED",
+    "actual_UTC": "2026-10-09T17:51:57.313214+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_inference_manifest_repair_prepared_20261009T174820Z\\complete_public_runtime_restore_original.zip",
+    "archive_SHA": "fda3801a0821c947d62a32b7731cd64d037946deb2f76137d299541eaaedd64e",
+    "archive_bytes": 378024,
+    "member_count": 59,
+    "all_member_SHA_CRC_unique_passed": true,
+    "original_capture": {
+      "status": "NEW_BATCH5_N2_RESTORE_ACTUAL_CAPTURED",
+      "actual_UTC": "2026-10-09T17:51:18.596729+00:00",
+      "stage": "restore",
+      "node": "N2",
+      "natural_exit": 0,
+      "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_restore_actual_20261009T174820Z/complete_actual_small_original.zip",
+      "archive_SHA": "fda3801a0821c947d62a32b7731cd64d037946deb2f76137d299541eaaedd64e",
+      "archive_bytes": 378024,
+      "all_member_SHA_CRC_unique_passed": true,
+      "large_public_archives_assets_and_training_archive_permanently_retained": true
+    },
+    "result": {
+      "status": "NEW_BATCH5_N2_ORIGINAL_EXACT24_ISOLATED_RUNTIME_AND_PUBLIC_ASSETS_VERIFIED",
+      "actual_UTC": "2026-10-09T17:51:18.495414+00:00",
+      "node": "N2",
+      "UUID": "GPU-5c35273d-8d80-5183-be46-0c9107d57373",
+      "interpreter": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python",
+      "versions": {
+        "certifi": "2026.7.22",
+        "charset-normalizer": "3.5.2",
+        "colorama": "0.4.6",
+        "filelock": "3.15.4",
+        "fsspec": "2026.9.0",
+        "hf-xet": "1.6.0",
+        "huggingface-hub": "0.36.2",
+        "idna": "3.20",
+        "joblib": "1.4.2",
+        "numpy": "1.26.4",
+        "packaging": "24.1",
+        "pyyaml": "6.0.3",
+        "regex": "2026.9.29",
+        "requests": "2.32.3",
+        "safetensors": "0.8.0",
+        "scikit-learn": "1.5.2",
+        "scipy": "1.13.1",
+        "sentencepiece": "0.1.99",
+        "threadpoolctl": "3.5.0",
+        "tokenizers": "0.15.2",
+        "tqdm": "4.66.5",
+        "transformers": "4.37.2",
+        "typing-extensions": "4.16.0",
+        "urllib3": "2.8.0",
+        "torch": "2.1.0+cu121"
+      },
+      "original_candidate_both_modes_synthetic_passed": true,
+      "global_runtime_not_changed": true,
+      "no_inference_training_scoring": true
+    },
+    "natural_exit": {
+      "actual_UTC": "2026-10-09T17:51:18.495895+00:00",
+      "pid": 723,
+      "natural_exit": 0,
+      "fullargv": [
+        "/data/miniconda/envs/torch/bin/python",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_posttrain_prepared_actual_20261009T174820Z/batch5_B_posttrain_v1.py",
+        "--stage",
+        "restore",
+        "--plan",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_posttrain_prepared_actual_20261009T174820Z/official_new_N2_inference_protocol.json",
+        "--plan-sha",
+        "fce90632ac66c5b440b7671a020d02e9931e35e3ed0dd657154d399822861c68",
+        "--root",
+        "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_restore_actual_20261009T174820Z"
+      ],
+      "stage": "restore"
+    },
+    "SCP_41313_natural_exit": 0,
+    "B_real_inference_not_yet_dispatched": true
+  },
+  "first_asset_manifest_guard_failure": {
+    "actual_UTC": "2026-10-09T17:50:02.527300+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_inference_prepared_20261009T174412Z\\first_public_restore_failure_original.zip",
+    "archive_SHA": "616c7556225115a2109092ab921f7a59384ddc9cb8e42a148ae48041714c8367",
+    "archive_bytes": 369623,
+    "all_member_SHA_CRC_unique_passed": true,
+    "original_capture_receipt": {
+      "status": "NEW_BATCH5_N2_RESTORE_ACTUAL_CAPTURED",
+      "actual_UTC": "2026-10-09T17:47:42.404137+00:00",
+      "stage": "restore",
+      "node": "N2",
+      "natural_exit": 1,
+      "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_restore_actual_20261009T174412Z/complete_actual_small_original.zip",
+      "archive_SHA": "616c7556225115a2109092ab921f7a59384ddc9cb8e42a148ae48041714c8367",
+      "archive_bytes": 369623,
+      "all_member_SHA_CRC_unique_passed": true,
+      "large_public_archives_assets_and_training_archive_permanently_retained": true
+    },
+    "diagnosis": "Expected original file inventory omits self-describing asset_manifest.json; strict member-set equality rejected that one original manifest before asset extraction. No B inference, scoring, or model load.",
+    "local_preservation_SCP_88050_natural_exit": 0
+  },
+  "B_official_inference_dispatch": {
+    "actual_UTC": "2026-10-09T17:52:26.534478+00:00",
+    "pid": 1028,
+    "fullargv": [
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python",
+      "-B",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_posttrain_prepared_actual_20261009T174820Z/batch5_B_posttrain_v1.py",
+      "--stage",
+      "infer",
+      "--plan",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_posttrain_prepared_actual_20261009T174820Z/official_new_N2_inference_protocol.json",
+      "--plan-sha",
+      "fce90632ac66c5b440b7671a020d02e9931e35e3ed0dd657154d399822861c68",
+      "--root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_B_official_inference_actual_20261009T175226Z"
+    ],
+    "root": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_B_official_inference_actual_20261009T175226Z",
+    "source_SHA": "683a457d77c61effb9c0708aa69407429689bb5c0f078b507057a298ea9fbec2",
+    "plan_SHA": "fce90632ac66c5b440b7671a020d02e9931e35e3ed0dd657154d399822861c68",
+    "runtime_original_D_saved_before_actual_dispatch": true,
+    "original_B_infer_source_unchanged": true,
+    "B_selected92_same_checkpoint": true,
+    "no_new_train_or_A_score": true
+  },
+  "B_official_inference_result_pending": true,
+  "B_five_not_yet_computed": true,
+  "original_A_author_score_not_repeated": true,
+  "old_batch4_endpoints_permanently_forbidden": true,
+  "extra_replay_cost_A3493_B3473_separate": true
+}

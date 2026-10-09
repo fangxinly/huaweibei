@@ -1,0 +1,9 @@
+{
+  "actual_UTC": "2026-10-09T17:54:13.375623+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_audit_and_inference_started_saved_actual_20261009T175221Z\\complete_B_audit_runtime_failure_repair_and_infer_start_original.zip",
+  "archive_SHA": "b7f4ce953ef4e25f031d271beab6c9886548aae59e65b72208b8ddb3c5a7d3b0",
+  "archive_bytes": 13025278,
+  "member_count": 43,
+  "all_member_SHA_CRC_unique_passed": true,
+  "no_new_remote_inference_completion_claim": true
+}

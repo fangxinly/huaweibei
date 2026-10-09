@@ -1,0 +1,21 @@
+{
+  "actual_UTC": "2026-10-09T17:50:02.527300+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_inference_prepared_20261009T174412Z\\first_public_restore_failure_original.zip",
+  "archive_SHA": "616c7556225115a2109092ab921f7a59384ddc9cb8e42a148ae48041714c8367",
+  "archive_bytes": 369623,
+  "all_member_SHA_CRC_unique_passed": true,
+  "original_capture_receipt": {
+    "status": "NEW_BATCH5_N2_RESTORE_ACTUAL_CAPTURED",
+    "actual_UTC": "2026-10-09T17:47:42.404137+00:00",
+    "stage": "restore",
+    "node": "N2",
+    "natural_exit": 1,
+    "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_restore_actual_20261009T174412Z/complete_actual_small_original.zip",
+    "archive_SHA": "616c7556225115a2109092ab921f7a59384ddc9cb8e42a148ae48041714c8367",
+    "archive_bytes": 369623,
+    "all_member_SHA_CRC_unique_passed": true,
+    "large_public_archives_assets_and_training_archive_permanently_retained": true
+  },
+  "diagnosis": "Expected original file inventory omits self-describing asset_manifest.json; strict member-set equality rejected that one original manifest before asset extraction. No B inference, scoring, or model load.",
+  "local_preservation_SCP_88050_natural_exit": 0
+}

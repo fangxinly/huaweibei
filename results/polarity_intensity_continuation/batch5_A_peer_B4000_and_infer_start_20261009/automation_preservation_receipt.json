@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-09T17:54:28.958101+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_audit_and_inference_started_saved_actual_20261009T175221Z\\complete_automation_current_update_original.zip",
+  "archive_SHA": "7957c844187ad23435bade6b0bd9c6906c551d30c1c3c9294537877f20430575",
+  "archive_bytes": 26574,
+  "all_member_SHA_CRC_unique_passed": true,
+  "status": "EXISTING_HEARTBEAT_A_PEER_B4000_COMPLETE_B_INFER_STARTED_UPDATED_CONFIRMED"
+}

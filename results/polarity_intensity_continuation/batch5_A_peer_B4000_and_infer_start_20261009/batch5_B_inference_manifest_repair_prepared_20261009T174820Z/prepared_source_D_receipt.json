@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-09T17:50:07.731335+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_inference_manifest_repair_prepared_20261009T174820Z\\posttrain_manifest_repair_source.zip",
+  "archive_SHA": "307d576b0fcfb8cc03801adc455b4bcadb5fad5939eed25398e9b0d0ebcf951f",
+  "archive_bytes": 33557,
+  "plan_path": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_posttrain_prepared_actual_20261009T174820Z/official_new_N2_inference_protocol.json",
+  "plan_SHA": "fce90632ac66c5b440b7671a020d02e9931e35e3ed0dd657154d399822861c68",
+  "source_SHA": "683a457d77c61effb9c0708aa69407429689bb5c0f078b507057a298ea9fbec2",
+  "all_member_SHA_CRC_unique_passed": true,
+  "actual_original_public_archive_all_member_SHA_CRC_unique_passed": true,
+  "not_inference_dispatched": true
+}
