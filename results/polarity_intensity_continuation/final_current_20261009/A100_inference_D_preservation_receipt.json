@@ -1,0 +1,17 @@
+{
+  "status": "PREDICTION_ORIGINAL_D_SHA_CRC_UNIQUE_ALL_MEMBERS_PASSED",
+  "capture": {
+    "status": "ACTUAL_POSTTRAIN_INFER_COMPLETE",
+    "actual_UTC": "2026-10-09T08:25:45.930082+00:00",
+    "child_PID": 3629,
+    "natural_exit": 0,
+    "archive": "/data/coding/A_official_infer_actual_20261009T082232Z/complete_small_original.zip",
+    "archive_SHA": "404c0991ecc2c89d98ffdcf0abac4ad4fdcdcff82f1e6eb1da9ef214408d7f6e",
+    "archive_bytes": 375023,
+    "ZIP_CRC_unique_all_members": true,
+    "small_capture_only_large_original_referenced": false
+  },
+  "prediction_SHA": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+  "members": 49,
+  "true_labels_not_consumed": true
+}

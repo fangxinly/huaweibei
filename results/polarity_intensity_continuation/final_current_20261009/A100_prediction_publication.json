@@ -1,0 +1,47 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 3787,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/A100_publish_prediction_plan_20261009T082232Z.json",
+    "--receipt",
+    "/data/coding/A100_prediction_publication_receipt_20261009T082232Z.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "A-factorized-TRAIN100-selected73-official-prediction-original-20261009.zip",
+      "bytes": 375023,
+      "sha256": "404c0991ecc2c89d98ffdcf0abac4ad4fdcdcff82f1e6eb1da9ef214408d7f6e",
+      "source_sha256": "404c0991ecc2c89d98ffdcf0abac4ad4fdcdcff82f1e6eb1da9ef214408d7f6e",
+      "source_offset": 0,
+      "id": 624370227,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-factorized-TRAIN100-selected73-official-prediction-original-20261009.zip"
+    },
+    {
+      "name": "A-factorized-TRAIN100-selected73-official-prediction-20261009.npz",
+      "bytes": 63680,
+      "sha256": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+      "source_sha256": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+      "source_offset": 0,
+      "id": 624370288,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-factorized-TRAIN100-selected73-official-prediction-20261009.npz"
+    },
+    {
+      "name": "A-factorized-TRAIN100-C-original-CPU4000-proof-20261009.zip",
+      "bytes": 211041,
+      "sha256": "5161a0a4dd40ef5db0267973bb43d1d1ff90a8378b3641e545cc2b843055dfd2",
+      "source_sha256": "5161a0a4dd40ef5db0267973bb43d1d1ff90a8378b3641e545cc2b843055dfd2",
+      "source_offset": 0,
+      "id": 624370336,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-factorized-TRAIN100-C-original-CPU4000-proof-20261009.zip"
+    }
+  ],
+  "actual_UTC": "2026-10-09T08:28:30.890023+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

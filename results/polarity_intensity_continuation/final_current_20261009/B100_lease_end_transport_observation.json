@@ -1,0 +1,18 @@
+{
+  "actual_UTC": "2026-10-09T14:42:01.728845+00:00",
+  "parts": [
+    {
+      "name": "B-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part00",
+      "bytes": 1600000000
+    },
+    {
+      "name": "B-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part01",
+      "bytes": 1600000000
+    },
+    {
+      "name": "B-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02",
+      "bytes": 268435456
+    }
+  ],
+  "transport_last": "didate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02\", \"start\": 201326592, \"requested_end\": 268435455, \"response_status\": 206, \"received\": 67108864, \"committed\": 268435456}\n{\"actual_UTC\": \"2026-10-09T08:31:00.397252+00:00\", \"name\": \"B-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02\", \"start\": 268435456, \"error_type\": \"URLError\", \"consecutive_errors\": 1}\n{\"actual_UTC\": \"2026-10-09T08:32:48.082946+00:00\", \"name\": \"B-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02\", \"start\": 268435456, \"error_type\": \"RemoteDisconnected\", \"consecutive_errors\": 2}\n{\"actual_UTC\": \"2026-10-09T08:34:50.259990+00:00\", \"name\": \"B-candidate-recovery-real-TRAIN100-4000-complete-20261009.zip.part02\", \"start\": 268435456, \"error_type\": \"URLError\", \"consecutive_errors\": 3}\n"
+}

@@ -1,0 +1,13 @@
+{
+  "actual_UTC": "2026-10-09T08:34:50.302879+00:00",
+  "pid": 820,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/C_B_range_resume_actual_20261009T081939Z/repair_public_transport_v1.py",
+    "--child",
+    "B",
+    "--root",
+    "/data/coding/C_B_range_resume_actual_20261009T081939Z/B"
+  ],
+  "natural_exit": 1
+}

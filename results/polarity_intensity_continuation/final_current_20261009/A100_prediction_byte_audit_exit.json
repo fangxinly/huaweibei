@@ -1,0 +1,21 @@
+{
+  "actual_UTC": "2026-10-09T08:29:15.416535+00:00",
+  "pid": 832,
+  "natural_exit": 0,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/A_audit_C_qualified_20261009T040110Z/audit_public_small_stage_v1.py",
+    "--stage",
+    "prediction",
+    "--uuid",
+    "GPU-daa2c09a-4ce5-26dd-b375-6b61242c6795",
+    "--publication",
+    "/data/coding/A100_official_prediction_publication_received_20261009T082232Z.json",
+    "--capture",
+    "/data/coding/A100_official_prediction_capture_received_20261009T082232Z.json",
+    "--received-archive",
+    "/data/coding/A100_official_prediction_original_received_20261009T082232Z.zip",
+    "--out",
+    "/data/coding/A100_prediction_peer_byte_actual_20261009T082841Z/out"
+  ]
+}

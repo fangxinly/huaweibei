@@ -1,0 +1,21 @@
+{
+  "actual_UTC": "2026-10-09T08:25:45.823026+00:00",
+  "pid": 3629,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/A_infer_qualified_20261009T082232Z/infer_official.py",
+    "--plan",
+    "/data/coding/A_infer_qualified_20261009T082232Z/official_infer_protocol.json",
+    "--plan-sha",
+    "7312f0f3f6a512ebb08c472d61b8f30682334d363cd97e4484e48a8db824d138",
+    "--bundle",
+    "/data/coding/A_infer_qualified_20261009T082232Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T174420Z",
+    "--out",
+    "/data/coding/A_official_infer_actual_20261009T082232Z/out",
+    "--input-root",
+    "/data/coding/A_candidate_recovery400_actual_20261009T002805Z"
+  ],
+  "natural_exit": 0
+}

@@ -1,0 +1,9 @@
+{
+  "status": "CURRENT_ORIGINALS_D_SHA_CRC_UNIQUE_ALL_MEMBERS_SAVED",
+  "actualclock_before_snapshot_UTC": "2026-10-09 14:42:58 UTC",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\lease_window_actual_20261009T144258Z\\complete_local_evidence_snapshot.zip",
+  "archive_SHA": "2dcb23d5c4b41807125162805cf1a95102f87a6d402612959781f0100e4647b0",
+  "archive_bytes": 1665471,
+  "member_count": 30,
+  "not_remote_new_capture": true
+}

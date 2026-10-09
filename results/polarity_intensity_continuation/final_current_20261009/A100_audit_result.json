@@ -1,0 +1,35 @@
+{
+  "status": "CANDIDATE_FULL4000_ADAM_SELECTION_AND_CPU_TAIL_PASSED",
+  "actual_UTC": "2026-10-09T08:21:35.642839+00:00",
+  "pid": 749,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/C_A_prefix_tail_reassembly_actual_20261009T074716Z/CPU4000_actual/audit_direct_original_v1.py",
+    "--child",
+    "--node",
+    "A",
+    "--root",
+    "/data/coding/C_A_prefix_tail_reassembly_actual_20261009T074716Z/CPU4000_actual",
+    "--archive",
+    "/data/coding/C_A_prefix_tail_reassembly_actual_20261009T074716Z/complete_training_original.zip"
+  ],
+  "candidate_mode": "factorized_aux",
+  "training_archive_SHA": "c166b30c1c81bd8eac775c166ed56b1d41077c5a4c357efff5b1e6459e54a206",
+  "checkpoint_SHA": "38336327c70fe5e6738583ced073b15f69c5f7f3d64db501d67bba8ed94214d5",
+  "selected_state_SHA": "a21718410b3daa24030f6bc9245109bd4ff8495279d344f10e12656b2c1455ec",
+  "best_epoch": 73,
+  "Adam_parameter_states": 345,
+  "all_Adam_steps": 4000,
+  "all100_prediction_then_label_selection_recomputed": true,
+  "CPU_actual_DEV_flow_maxerror": 3.337860107421875e-06,
+  "CPU_encoder_forward": false,
+  "parameters_buffers_RNG_unchanged": true,
+  "TEST_not_indexed": true,
+  "extra_replayed_compute_disclosed": {
+    "logical_updates": 4000,
+    "recorded_interrupted_last_step": 3893,
+    "known_replayed_updates": 3493,
+    "unknown_unlogged_interrupted_updates_not_excluded": true,
+    "not_new_independent_replicate": true
+  }
+}

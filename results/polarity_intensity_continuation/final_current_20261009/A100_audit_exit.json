@@ -1,0 +1,16 @@
+{
+  "actual_UTC": "2026-10-09T08:22:16.852029+00:00",
+  "pid": 749,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/C_A_prefix_tail_reassembly_actual_20261009T074716Z/CPU4000_actual/audit_direct_original_v1.py",
+    "--child",
+    "--node",
+    "A",
+    "--root",
+    "/data/coding/C_A_prefix_tail_reassembly_actual_20261009T074716Z/CPU4000_actual",
+    "--archive",
+    "/data/coding/C_A_prefix_tail_reassembly_actual_20261009T074716Z/complete_training_original.zip"
+  ],
+  "natural_exit": 0
+}

@@ -1,0 +1,13 @@
+{
+  "status": "B_RESUME_FAILURE_ORIGINAL_D_ALL_MEMBERS_VERIFIED",
+  "capture": {
+    "actual_UTC": "2026-10-09T08:34:50.313435+00:00",
+    "natural_exit": 1,
+    "archive_SHA": "301805083f0113ee1a9a008ea18b377b5e19c6d4a6e9b6b462b4be15f4156a06",
+    "archive_bytes": 9585,
+    "ZIP_CRC_unique_all_members": true,
+    "original_failed_roots_untouched": true,
+    "large_originals_retained": true
+  },
+  "members": 8
+}

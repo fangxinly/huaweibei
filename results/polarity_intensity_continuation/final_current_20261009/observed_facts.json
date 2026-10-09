@@ -1,0 +1,76 @@
+{
+  "status": "A_CPU_AND_OFFICIAL_PREDICTION_PEER_BYTE_PASS_B_TRANSPORT_FAIL_LEASE_SAVE_WINDOW",
+  "actualclock_snapshot_UTC": "2026-10-09 14:42:58 UTC",
+  "A_cpu4000_natural_exit0": true,
+  "A_prediction_natural_exit0": true,
+  "A_prediction_SHA": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+  "A_selected_epoch": 73,
+  "A_official_prediction_Release_and_C_byte_audit_passed": true,
+  "A_score_stage_frozen_but_not_executed": true,
+  "A_score_original_observation": {
+    "actual_UTC": "2026-10-09T14:42:29.100145+00:00",
+    "UUID": "GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde",
+    "score_root_exists": false,
+    "score_exit": null,
+    "score_result": null,
+    "score_once_token_exists": false,
+    "infer_exit": {
+      "actual_UTC": "2026-10-09T08:25:45.823026+00:00",
+      "pid": 3629,
+      "fullargv": [
+        "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+        "/data/coding/A_infer_qualified_20261009T082232Z/infer_official.py",
+        "--plan",
+        "/data/coding/A_infer_qualified_20261009T082232Z/official_infer_protocol.json",
+        "--plan-sha",
+        "7312f0f3f6a512ebb08c472d61b8f30682334d363cd97e4484e48a8db824d138",
+        "--bundle",
+        "/data/coding/A_infer_qualified_20261009T082232Z",
+        "--assets",
+        "/data/coding/multimodal_flow_public_20261008T174420Z",
+        "--out",
+        "/data/coding/A_official_infer_actual_20261009T082232Z/out",
+        "--input-root",
+        "/data/coding/A_candidate_recovery400_actual_20261009T002805Z"
+      ],
+      "natural_exit": 0
+    },
+    "infer_capture": {
+      "status": "ACTUAL_POSTTRAIN_INFER_COMPLETE",
+      "actual_UTC": "2026-10-09T08:25:45.930082+00:00",
+      "child_PID": 3629,
+      "natural_exit": 0,
+      "archive": "/data/coding/A_official_infer_actual_20261009T082232Z/complete_small_original.zip",
+      "archive_SHA": "404c0991ecc2c89d98ffdcf0abac4ad4fdcdcff82f1e6eb1da9ef214408d7f6e",
+      "archive_bytes": 375023,
+      "ZIP_CRC_unique_all_members": true,
+      "small_capture_only_large_original_referenced": false
+    },
+    "new_remote_stage_not_launched_insufficient_save_margin": true
+  },
+  "B_resume_transport_natural_exit": 1,
+  "B_failure_actual_UTC": "2026-10-09T08:34:50.302879+00:00",
+  "B_failure_original_SHA": "301805083f0113ee1a9a008ea18b377b5e19c6d4a6e9b6b462b4be15f4156a06",
+  "B_remaining_download_bytes": 77788150,
+  "B_CPU4000_not_passed": true,
+  "new_OFFICIAL_VAL_TEST_five": null,
+  "formal_all_five_exceeded": false,
+  "conservative_not_platform_verified_lease_end_UTC": "2026-10-09T15:00:00+00:00",
+  "execution_plus_2h_preservation_margin_unavailable": true,
+  "no_new_remote_stage_launched": true,
+  "no_lease_extension_or_release_or_shutdown": true,
+  "training_pair_complete_originals_still_public_Release_saved": true,
+  "extra_actual_replayed_updates": {
+    "A": 3493,
+    "B": 3473
+  },
+  "read_only_new_sessions": {
+    "A_SSH": 79608,
+    "C_SSH": 50890,
+    "C_SFTP": 40971
+  },
+  "closed_or_unknown_session_not_reused": [
+    89661
+  ],
+  "not_all_research_complete": true
+}

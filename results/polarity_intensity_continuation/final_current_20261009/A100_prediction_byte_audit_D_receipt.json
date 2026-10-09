@@ -1,0 +1,15 @@
+{
+  "capture": {
+    "status": "ACTUAL_C_SMALL_CPU_PREDICTION_COMPLETE",
+    "actual_UTC": "2026-10-09T08:29:15.629154+00:00",
+    "child_PID": 832,
+    "natural_exit": 0,
+    "archive": "/data/coding/A100_prediction_peer_byte_actual_20261009T082841Z/complete_small_original.zip",
+    "archive_SHA": "283c20d2b2b26a3ec5f53e801004541b9ec417a194fe83d949dce6984801e9b0",
+    "archive_bytes": 1101232,
+    "ZIP_CRC_unique_all_members": true,
+    "original_transport": "verified_C_original_SFTP"
+  },
+  "all_member_SHA_CRC_unique_passed": true,
+  "member_count": 100
+}

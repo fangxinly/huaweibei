@@ -1,0 +1,13 @@
+{
+  "status": "A_REAL4000_OTHER_NODE_CPU_ORIGINAL_D_VERIFIED",
+  "capture": {
+    "actual_UTC": "2026-10-09T08:22:16.935236+00:00",
+    "natural_exit": 0,
+    "archive_SHA": "5161a0a4dd40ef5db0267973bb43d1d1ff90a8378b3641e545cc2b843055dfd2",
+    "archive_bytes": 211041,
+    "ZIP_CRC_unique_all_members": true,
+    "source_direct_original_retained": true
+  },
+  "members": 83,
+  "no_new_five": true
+}
