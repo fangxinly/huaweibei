@@ -1,0 +1,113 @@
+{
+  "actualclock_UTC": "2026-10-09 06:16:09 UTC",
+  "status": "BOTH_HTTP_SHORT_READ_FAILURES_PRESERVED_NEW_RANGE_TRANSPORT_DISPATCHED",
+  "failure_originals": {
+    "status": "BOTH_PUBLIC_TRANSPORT_SHORT_READ_FAILURES_PRESERVED",
+    "originals": [
+      {
+        "node": "A",
+        "archive_SHA": "a2fe87eedda07208f07a3f58c7604cf316d0accb61f328c25a6d030165c6c88d",
+        "bytes": 369199,
+        "natural_exit": 1,
+        "SHA_CRC_unique_all_members": true
+      },
+      {
+        "node": "B",
+        "archive_SHA": "df53410cde57e02c98502d5bfdd43208a520d399cb8c0ab1063e5a5a1e342da4",
+        "bytes": 369177,
+        "natural_exit": 1,
+        "SHA_CRC_unique_all_members": true
+      }
+    ]
+  },
+  "qualification": {
+    "actual_UTC": "2026-10-09T06:12:20.069408+00:00",
+    "status": "SHORT_HTTP_RESUME_AND_BAD_SHA_REJECTION_PASSED",
+    "source_SHA": "a2089129192d35e5ba1bf82bfaa392cb9ed9946aeb23b2ccd5fa3f5096519c46",
+    "real_data_or_labels_indexed": false,
+    "real_network": false
+  },
+  "dispatch": {
+    "actual_UTC": "2026-10-09T06:13:34.929701+00:00",
+    "pid": 520,
+    "fullargv": [
+      "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+      "/data/coding/repair_public_transport_v1_20261009T060902Z.py",
+      "--root",
+      "/data/coding/C_public_transport_repair_actual_20261009T061400Z"
+    ],
+    "source_SHA": "a2089129192d35e5ba1bf82bfaa392cb9ed9946aeb23b2ccd5fa3f5096519c46",
+    "detached": true,
+    "training_rerun": false
+  },
+  "A_child_dispatch": {
+    "actual_UTC": "2026-10-09T06:13:35.031926+00:00",
+    "pid": 521,
+    "fullargv": [
+      "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+      "/data/coding/C_public_transport_repair_actual_20261009T061400Z/repair_public_transport_v1.py",
+      "--child",
+      "A",
+      "--root",
+      "/data/coding/C_public_transport_repair_actual_20261009T061400Z/A"
+    ]
+  },
+  "C_fresh_preflight": {
+    "actual_UTC": "2026-10-09T06:13:35.229746+00:00",
+    "UUID": "GPU-daa2c09a-4ce5-26dd-b375-6b61242c6795",
+    "compute": "",
+    "runtime_versions": {
+      "certifi": "2026.7.22",
+      "charset-normalizer": "3.5.2",
+      "colorama": "0.4.6",
+      "filelock": "3.15.4",
+      "fsspec": "2026.9.0",
+      "hf-xet": "1.6.0",
+      "huggingface-hub": "0.36.2",
+      "idna": "3.20",
+      "joblib": "1.4.2",
+      "numpy": "1.26.4",
+      "packaging": "24.1",
+      "pyyaml": "6.0.3",
+      "regex": "2026.9.29",
+      "requests": "2.32.3",
+      "safetensors": "0.8.0",
+      "scikit-learn": "1.5.2",
+      "scipy": "1.13.1",
+      "sentencepiece": "0.1.99",
+      "threadpoolctl": "3.5.0",
+      "tokenizers": "0.15.2",
+      "tqdm": "4.66.5",
+      "transformers": "4.37.2",
+      "typing-extensions": "4.16.0",
+      "urllib3": "2.8.0",
+      "torch": "2.1.0+cu121"
+    },
+    "processes": "  PID  PPID COMMAND\n    1     0 s6-svscan -t 10 /etc/services.d/\n    7     1 s6-supervise 01sshd\n    8     1 s6-supervise 02codeserver\n    9     7 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n   10     8 /bin/bash /usr/local/bin/code-server.sh\n  221    10 /usr/lib/code-server/lib/node /usr/lib/code-server --trusted-origins=* /data/coding/coding.code-workspace\n  239   221 /usr/lib/code-server/lib/node /usr/lib/code-server/out/node/entry\n  476     9 sshd: root@pts/0\n  487   476 -bash\n  501     9 sshd: root@notty\n  512   501 /usr/lib/openssh/sftp-server\n  520     1 /data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python /data/coding/repair_public_transport_v1_20261009T060902Z.py --root /data/coding/C_public_transport_repair_actual_20261009T061400Z\n  521   520 /data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python /data/coding/C_public_transport_repair_actual_20261009T061400Z/repair_public_transport_v1.py --child A --root /data/coding/C_public_transport_repair_actual_20261009T061400Z/A\n  524   521 ps -eo pid,ppid,args --width 10000\n",
+    "space_free": 43502911488,
+    "remaining_seconds": 31584.770371,
+    "source_SHA": "a2089129192d35e5ba1bf82bfaa392cb9ed9946aeb23b2ccd5fa3f5096519c46",
+    "plan_SHA": "16db6344a0bb883dc797c3e5b430315b3cb8912326229d7e999293af49c1926a",
+    "fullargv": [
+      "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+      "/data/coding/C_public_transport_repair_actual_20261009T061400Z/repair_public_transport_v1.py",
+      "--child",
+      "A",
+      "--root",
+      "/data/coding/C_public_transport_repair_actual_20261009T061400Z/A"
+    ]
+  },
+  "D_archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\repair_start_original.zip",
+  "archive_SHA": "67deef489f4be4ec5ff72bf5d78fe54f0abb7cfac899feea2a236b576d9ffb2e",
+  "archive_bytes": 727525,
+  "SHA_CRC_unique_all_members": true,
+  "root_suffix_is_identifier_actual_execution_time_is_receipt": true,
+  "training_not_rerun": true,
+  "qualified_CPU_audit_source_unchanged": true,
+  "new_final_five_pending": true,
+  "local_current_capacity": {
+    "C": 8573128704,
+    "D": 3380523008
+  },
+  "capacity_change_origin_not_established": true
+}

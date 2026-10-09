@@ -1,0 +1,13 @@
+{
+  "actual_UTC": "2026-10-09T06:13:34.929701+00:00",
+  "pid": 520,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/repair_public_transport_v1_20261009T060902Z.py",
+    "--root",
+    "/data/coding/C_public_transport_repair_actual_20261009T061400Z"
+  ],
+  "source_SHA": "a2089129192d35e5ba1bf82bfaa392cb9ed9946aeb23b2ccd5fa3f5096519c46",
+  "detached": true,
+  "training_rerun": false
+}

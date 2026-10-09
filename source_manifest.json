@@ -2337,6 +2337,114 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/A_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\A_natural_exit.json",
+      "kind": "result",
+      "bytes": 896,
+      "original_sha256": "0fe3670624dc9076d53f9da638b5b91167aa8a945ac5e17ace6aac012e004f17",
+      "published_sha256": "0fe3670624dc9076d53f9da638b5b91167aa8a945ac5e17ace6aac012e004f17",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/A_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\A_stderr.log",
+      "kind": "result",
+      "bytes": 401,
+      "original_sha256": "89e024f8eb2f8d6bffd78db7f8bd426e30f46ea274c7fa89d7b25d88736cfa58",
+      "published_sha256": "89e024f8eb2f8d6bffd78db7f8bd426e30f46ea274c7fa89d7b25d88736cfa58",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/B_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\B_natural_exit.json",
+      "kind": "result",
+      "bytes": 896,
+      "original_sha256": "eb0fa33b34f34984b3f50c492e90e4d563dbe0dd3abc5fa12cbf6f7fd404576c",
+      "published_sha256": "eb0fa33b34f34984b3f50c492e90e4d563dbe0dd3abc5fa12cbf6f7fd404576c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/B_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\B_stderr.log",
+      "kind": "result",
+      "bytes": 401,
+      "original_sha256": "58283a4a0828bb7ba2a12188390ea30b8d5dc165e486a144c12526082c260e24",
+      "published_sha256": "58283a4a0828bb7ba2a12188390ea30b8d5dc165e486a144c12526082c260e24",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/C_A_repair_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\C_A_repair_dispatch.json",
+      "kind": "result",
+      "bytes": 388,
+      "original_sha256": "92044d8ee66cd815a0389a815dde498f3902dc58f070f074a5e54446b41dcc3a",
+      "published_sha256": "92044d8ee66cd815a0389a815dde498f3902dc58f070f074a5e54446b41dcc3a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/C_A_repair_fresh_preflight.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\C_A_repair_fresh_preflight.json",
+      "kind": "result",
+      "bytes": 2517,
+      "original_sha256": "a69353204676ce9e8f06ba85dfa4269452313550ce0eb446cfe7d50bd2995ab5",
+      "published_sha256": "a69353204676ce9e8f06ba85dfa4269452313550ce0eb446cfe7d50bd2995ab5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/C_synthetic_qualification_result.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\C_synthetic_qualification_result.json",
+      "kind": "result",
+      "bytes": 266,
+      "original_sha256": "a9c2aef52154d88219f695390702aeeb4e76faf36e09bc88f28ec95c748556e4",
+      "published_sha256": "a9c2aef52154d88219f695390702aeeb4e76faf36e09bc88f28ec95c748556e4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/failure_D_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\failure_D_receipt.json",
+      "kind": "result",
+      "bytes": 528,
+      "original_sha256": "1c1d376b35f6bd0b325d4645ba6311b757e4b5287cbda1b066a64a32e2be11bd",
+      "published_sha256": "1c1d376b35f6bd0b325d4645ba6311b757e4b5287cbda1b066a64a32e2be11bd",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/repair_actual_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\repair_actual_dispatch.json",
+      "kind": "result",
+      "bytes": 459,
+      "original_sha256": "3b5d2532e1f5f9834143fb8da5b4376cbf7e5ed4d6b24f51dc53446eec47f90e",
+      "published_sha256": "3b5d2532e1f5f9834143fb8da5b4376cbf7e5ed4d6b24f51dc53446eec47f90e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/repair_public_transport_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\repair_public_transport_v1.py",
+      "kind": "result",
+      "bytes": 8299,
+      "original_sha256": "a2089129192d35e5ba1bf82bfaa392cb9ed9946aeb23b2ccd5fa3f5096519c46",
+      "published_sha256": "a2089129192d35e5ba1bf82bfaa392cb9ed9946aeb23b2ccd5fa3f5096519c46",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/repair_start_D_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\repair_start_D_receipt.json",
+      "kind": "result",
+      "bytes": 5317,
+      "original_sha256": "fa6c0d254abde347fce6d0fd008158ca44144ece5558168f21db3ac7a1dba192",
+      "published_sha256": "fa6c0d254abde347fce6d0fd008158ca44144ece5558168f21db3ac7a1dba192",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/transport_repair_20261009/transport_repair_report.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\C_transport_failure_actual_20261009T060902Z\\transport_repair_report.md",
+      "kind": "result",
+      "bytes": 1607,
+      "original_sha256": "0a29ffd5ab1d7d41cc2bbdd1bcdbe90f8889aff3322b0145a2c517c63fe58d58",
+      "published_sha256": "0a29ffd5ab1d7d41cc2bbdd1bcdbe90f8889aff3322b0145a2c517c63fe58d58",
+      "sanitizations": {}
+    },
+    {
       "path": "results/release_asset_manifest.json",
       "origin": "release_publication_finalization",
       "kind": "publication_result",

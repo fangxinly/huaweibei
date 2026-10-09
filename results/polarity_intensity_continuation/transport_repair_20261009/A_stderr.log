@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data/coding/A_audit_C_qualified_20261009T040110Z/download_and_audit_final_v1.py", line 66, in <module>
+    p.add_argument('--plan-sha',required=True); run(p.parse_args())
+  File "/data/coding/A_audit_C_qualified_20261009T040110Z/download_and_audit_final_v1.py", line 27, in run
+    assert count==row['bytes'] and h.hexdigest()==row['sha256']
+AssertionError

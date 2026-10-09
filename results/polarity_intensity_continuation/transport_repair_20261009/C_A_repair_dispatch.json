@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-09T06:13:35.031926+00:00",
+  "pid": 521,
+  "fullargv": [
+    "/data/coding/C_candidate_pureCPU_runtime_actual_20261009T004259Z/.venv/bin/python",
+    "/data/coding/C_public_transport_repair_actual_20261009T061400Z/repair_public_transport_v1.py",
+    "--child",
+    "A",
+    "--root",
+    "/data/coding/C_public_transport_repair_actual_20261009T061400Z/A"
+  ]
+}

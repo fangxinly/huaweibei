@@ -1,0 +1,19 @@
+{
+  "status": "BOTH_PUBLIC_TRANSPORT_SHORT_READ_FAILURES_PRESERVED",
+  "originals": [
+    {
+      "node": "A",
+      "archive_SHA": "a2fe87eedda07208f07a3f58c7604cf316d0accb61f328c25a6d030165c6c88d",
+      "bytes": 369199,
+      "natural_exit": 1,
+      "SHA_CRC_unique_all_members": true
+    },
+    {
+      "node": "B",
+      "archive_SHA": "df53410cde57e02c98502d5bfdd43208a520d399cb8c0ab1063e5a5a1e342da4",
+      "bytes": 369177,
+      "natural_exit": 1,
+      "SHA_CRC_unique_all_members": true
+    }
+  ]
+}
