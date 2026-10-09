@@ -1110,6 +1110,24 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/A100_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_natural_exit.json",
+      "kind": "result",
+      "bytes": 874,
+      "original_sha256": "bf4da32984dc1c1cbd12fd43d99f7bafff931be14eda2228899d540d8aa371a9",
+      "published_sha256": "bf4da32984dc1c1cbd12fd43d99f7bafff931be14eda2228899d540d8aa371a9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/A100_training_result.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_training_result.json",
+      "kind": "result",
+      "bytes": 126642,
+      "original_sha256": "9095f530a0be5e5e7c01e6a90bf5e0b0ce88eb11858171c8912a214781628c87",
+      "published_sha256": "9095f530a0be5e5e7c01e6a90bf5e0b0ce88eb11858171c8912a214781628c87",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/A_candidate_posttrain_native_capture.json",
       "origin": "outputs/polarity_intensity_prefix_v2_20261008T203225Z/A_candidate_posttrain_native_capture.json",
       "kind": "result",
@@ -1579,6 +1597,24 @@
       "bytes": 279,
       "original_sha256": "1a4cf19b567b76c872346eb4055f50e4e39694bf201aee407280c4bb9c8551ac",
       "published_sha256": "1a4cf19b567b76c872346eb4055f50e4e39694bf201aee407280c4bb9c8551ac",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/B100_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B100_natural_exit.json",
+      "kind": "result",
+      "bytes": 878,
+      "original_sha256": "c6b5b675e81f2d179cad3d80deac37ab0d4f3dbe40ffdbe43312b3f53db012b4",
+      "published_sha256": "c6b5b675e81f2d179cad3d80deac37ab0d4f3dbe40ffdbe43312b3f53db012b4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/B100_training_result.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B100_training_result.json",
+      "kind": "result",
+      "bytes": 126646,
+      "original_sha256": "5546aa24ef8c53224034822086f3dd0d015e9cffedfcb05c0d152450bc54672b",
+      "published_sha256": "5546aa24ef8c53224034822086f3dd0d015e9cffedfcb05c0d152450bc54672b",
       "sanitizations": {}
     },
     {
@@ -2150,6 +2186,15 @@
       "bytes": 364,
       "original_sha256": "ffbfef6ee01d5aa0b98553539c16ddf34c8d28bb61d35781d352089701f202e2",
       "published_sha256": "ffbfef6ee01d5aa0b98553539c16ddf34c8d28bb61d35781d352089701f202e2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/real100_completion.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\real100_completion.md",
+      "kind": "result",
+      "bytes": 848,
+      "original_sha256": "9fc1ae648e325d38925706b6e2dc27148f2b5d0e20c818fc248fd25f854638e7",
+      "published_sha256": "9fc1ae648e325d38925706b6e2dc27148f2b5d0e20c818fc248fd25f854638e7",
       "sanitizations": {}
     },
     {
