@@ -1,0 +1,117 @@
+{
+  "status": "B_N2_FULL4000_COMPLETE_ORIGINAL_D_SHA_CRC_UNIQUE_VERIFIED",
+  "actual_UTC": "2026-10-09T17:42:38.980122+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_retry_actual_20261009T172929Z\\N2_complete_actual_small_original.zip",
+  "archive_SHA": "aa9876da9eba95ad8e9eb5a0fda883933d806e81b861aabe4ca9c659229ff00a",
+  "archive_bytes": 6734876,
+  "member_count": 278,
+  "all_member_SHA_CRC_unique_passed": true,
+  "original_capture_receipt": {
+    "status": "BATCH5_ACTUAL_STAGE_CAPTURED",
+    "actual_UTC": "2026-10-09T17:39:16.985242+00:00",
+    "node": "N2",
+    "natural_exit": 0,
+    "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/complete_actual_small_original.zip",
+    "archive_SHA": "aa9876da9eba95ad8e9eb5a0fda883933d806e81b861aabe4ca9c659229ff00a",
+    "archive_bytes": 6734876,
+    "all_member_SHA_CRC_unique_passed": true,
+    "no_new_primary_author_score_or_training": true
+  },
+  "natural_exit": {
+    "actual_UTC": "2026-10-09T17:39:15.895005+00:00",
+    "pid": 354,
+    "natural_exit": 0,
+    "fullargv": [
+      "/data/miniconda/envs/torch/bin/python",
+      "-B",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/batch5_continue_originals_v1.py",
+      "--worker",
+      "--payload",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z",
+      "--node",
+      "N2",
+      "--root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z"
+    ]
+  },
+  "core_natural_exit": {
+    "actual_UTC": "2026-10-09T17:39:07.115881+00:00",
+    "pid": 539,
+    "natural_exit": 0,
+    "fullargv": [
+      "/data/miniconda/envs/torch/bin/python",
+      "-B",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle/audit_official.py",
+      "--plan",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/official_B_new_N2_CPU_audit_protocol.json",
+      "--plan-sha",
+      "a4dcee975bdd1c6113b47d2adcc6ff6a3c334ffb0748f65352f34548832dcffb",
+      "--bundle",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+      "--assets",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+      "--input-root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/original",
+      "--out",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/cpu_result"
+    ]
+  },
+  "result": {
+    "status": "CANDIDATE_FULL4000_ADAM_SELECTION_AND_CPU_TAIL_PASSED",
+    "actual_UTC": "2026-10-09T17:38:58.006683+00:00",
+    "pid": 539,
+    "fullargv": [
+      "/data/miniconda/envs/torch/bin/python",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle/audit_official.py",
+      "--plan",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/official_B_new_N2_CPU_audit_protocol.json",
+      "--plan-sha",
+      "a4dcee975bdd1c6113b47d2adcc6ff6a3c334ffb0748f65352f34548832dcffb",
+      "--bundle",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+      "--assets",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/payload_verified_20261009T172929Z/bundle",
+      "--input-root",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/original",
+      "--out",
+      "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/cpu_result"
+    ],
+    "candidate_mode": "regression_aux",
+    "training_archive_SHA": "29ff0e21acb449c74dc059274f83e08679080a986740bb66d64fb23b86021e27",
+    "checkpoint_SHA": "90bb9136a2e7323df171965806efc7c180cdd522c3226c1706d43c4f2be2d986",
+    "selected_state_SHA": "323f474e6b50da98a9bfd85d515fefa5db4a618f90a8cc246852ccb31b012833",
+    "best_epoch": 92,
+    "Adam_parameter_states": 345,
+    "all_Adam_steps": 4000,
+    "all100_prediction_then_label_selection_recomputed": true,
+    "CPU_actual_DEV_flow_maxerror": 2.8312206268310547e-06,
+    "CPU_encoder_forward": false,
+    "parameters_buffers_RNG_unchanged": true,
+    "TEST_not_indexed": true,
+    "extra_replayed_compute_disclosed": {
+      "logical_updates": 4000,
+      "recorded_interrupted_last_step": 3873,
+      "known_replayed_updates": 3473,
+      "unknown_unlogged_interrupted_updates_not_excluded": true,
+      "not_new_independent_replicate": true
+    }
+  },
+  "full_archive_transport": {
+    "actual_UTC": "2026-10-09T17:38:30.281916+00:00",
+    "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/complete_training_original.zip",
+    "archive_SHA": "29ff0e21acb449c74dc059274f83e08679080a986740bb66d64fb23b86021e27",
+    "bytes": 3546223606,
+    "all_member_SHA_CRC_unique_passed": true,
+    "final_PT_SHA": "90bb9136a2e7323df171965806efc7c180cdd522c3226c1706d43c4f2be2d986",
+    "CPU4000_pending": true
+  },
+  "SCP_94889_natural_exit": 0,
+  "official_B_inference_and_five_not_yet_completed": true,
+  "only_new_temporary_PT_removed_after_original_CPU_success": {
+    "actual_UTC": "2026-10-09T17:39:15.881207+00:00",
+    "removed": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/original/out/complete_final_and_selected.pt",
+    "original_SHA": "90bb9136a2e7323df171965806efc7c180cdd522c3226c1706d43c4f2be2d986",
+    "only_new_temporary_PT_removed_after_actual_success": true,
+    "full_archive_retained": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_stage_actual_20261009T173131Z/complete_training_original.zip"
+  }
+}

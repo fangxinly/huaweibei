@@ -1,0 +1,15 @@
+{
+  "actual_UTC": "2026-10-09T18:03:05.221282+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B_array_protocol_actual_20261009T180428Z\\B_array_payload.zip",
+  "SHA": "0d55c1ad34136152556898ea0116effcea879f2c95484497b8002eb2f2a2f713",
+  "bytes": 12461379,
+  "plan_SHA": "0c7e6d94bbc1adece645a07ad890f4a8469dde823b02501c8de27ba951951306",
+  "driver_SHA": "7390f7bcdfe8a30e75cd8714d00ad45da9ccb8da35ffed00ec80d26c3a378d50",
+  "synthetic": {
+    "cases": 8,
+    "max_error": 1.7763568394002505e-15,
+    "threshold": 1e-12,
+    "real_candidate_predictions_not_scored": true
+  },
+  "actual_B_author_not_dispatched": true
+}

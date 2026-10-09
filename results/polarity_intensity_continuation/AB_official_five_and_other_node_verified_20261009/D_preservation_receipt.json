@@ -1,0 +1,9 @@
+{
+  "actual_UTC": "2026-10-09T18:10:45.863001+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\AB_official_five_complete_saved_actual_20261009T180914Z\\complete_actual_AB_verified_original.zip",
+  "archive_SHA": "59e21121ae7d1e62816c1553b50d9a4ff92b9c7feaef48ed7a78ed167d60a4a2",
+  "archive_bytes": 8030930,
+  "member_count": 68,
+  "all_member_SHA_CRC_unique_passed": true,
+  "contains_real_completed_originals_not_static_remote_capture": true
+}

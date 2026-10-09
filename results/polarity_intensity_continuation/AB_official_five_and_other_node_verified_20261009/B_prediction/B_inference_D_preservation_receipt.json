@@ -1,0 +1,23 @@
+{
+  "status": "B_N2_OFFICIAL_INFERENCE_ORIGINAL_D_SHA_CRC_UNIQUE_VERIFIED",
+  "actual_UTC": "2026-10-09T18:00:07.415115+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_inference_manifest_repair_prepared_20261009T174820Z\\B_complete_official_inference_original.zip",
+  "archive_SHA": "bb4d34d18225bc55c3ae86b47b8aa6b8b64208f1951be47b7dc2914d2ee1fdba",
+  "archive_bytes": 390867,
+  "member_count": 54,
+  "all_member_SHA_CRC_unique_passed": true,
+  "original_capture_receipt": {
+    "status": "NEW_BATCH5_N2_INFER_ACTUAL_CAPTURED",
+    "actual_UTC": "2026-10-09T17:54:04.328617+00:00",
+    "stage": "infer",
+    "node": "N2",
+    "natural_exit": 0,
+    "archive": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_B_official_inference_actual_20261009T175226Z/complete_actual_small_original.zip",
+    "archive_SHA": "bb4d34d18225bc55c3ae86b47b8aa6b8b64208f1951be47b7dc2914d2ee1fdba",
+    "archive_bytes": 390867,
+    "all_member_SHA_CRC_unique_passed": true,
+    "large_public_archives_assets_and_training_archive_permanently_retained": true
+  },
+  "SCP_29510_natural_exit": 0,
+  "official_B_five_not_yet_scored": true
+}

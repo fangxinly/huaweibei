@@ -1,0 +1,16 @@
+{
+  "status": "B_N2_OFFICIAL_PREDICTION_ORIGINAL_RELEASE_REMOTE_DIGEST_VERIFIED",
+  "actual_UTC": "2026-10-09T18:01:00.094329+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\batch5_B_inference_manifest_repair_prepared_20261009T174820Z\\B_complete_official_inference_original.zip",
+  "source_SHA": "bb4d34d18225bc55c3ae86b47b8aa6b8b64208f1951be47b7dc2914d2ee1fdba",
+  "source_bytes": 390867,
+  "pid": 26836,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/batch5_B_inference_manifest_repair_prepared_20261009T174820Z/publish_B_inference_original_v1.py"
+  ],
+  "name": "B-official-selected92-prediction-N2-20261009T175226Z.zip",
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/B-official-selected92-prediction-N2-20261009T175226Z.zip",
+  "id": 625744083,
+  "remote_digest_verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "B_N3_INDEPENDENT_FIVE_ORIGINAL_RELEASE_REMOTE_DIGEST_VERIFIED",
+  "actual_UTC": "2026-10-09T18:08:14.052977+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B_array_protocol_actual_20261009T180428Z\\N3_peer_complete_original.zip",
+  "source_SHA": "c5c91c8b40f38f558bdffc6f26221b915052b9f23a443b67d56a408ccdb2c526",
+  "source_bytes": 422836,
+  "pid": 10856,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/B_array_protocol_actual_20261009T180428Z/publish_N3_peer_original_v1.py"
+  ],
+  "name": "B-original-NPZ-other-node-five-verified-N3-20261009T180736Z.zip",
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/B-original-NPZ-other-node-five-verified-N3-20261009T180736Z.zip",
+  "id": 625761251,
+  "remote_digest_verified": true
+}

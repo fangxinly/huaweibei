@@ -1,0 +1,68 @@
+{
+  "status": "N3_peer_ORIGINAL_D_SHA_CRC_UNIQUE_VERIFIED",
+  "actual_UTC": "2026-10-09T18:08:10.337931+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B_array_protocol_actual_20261009T180428Z\\N3_peer_complete_original.zip",
+  "archive_SHA": "c5c91c8b40f38f558bdffc6f26221b915052b9f23a443b67d56a408ccdb2c526",
+  "archive_bytes": 422836,
+  "member_count": 65,
+  "all_member_SHA_CRC_unique_passed": true,
+  "original_capture": {
+    "actual_UTC": "2026-10-09T18:07:37.939851+00:00",
+    "stage": "peer",
+    "natural_exit": 0,
+    "archive": "/data/coding/B_peer_checks_actual_20261009T180720Z/N3_peer/complete_actual_original.zip",
+    "archive_SHA": "c5c91c8b40f38f558bdffc6f26221b915052b9f23a443b67d56a408ccdb2c526",
+    "archive_bytes": 422836,
+    "all_member_SHA_CRC_unique_passed": true
+  },
+  "result": {
+    "status": "B_N3_OTHER_NODE_OFFICIAL_ORIGINAL_NPZ_ALL_FIVE_VERIFIED",
+    "actual_UTC": "2026-10-09T18:07:37.762549+00:00",
+    "node": "N3",
+    "hostname": "navgoemtfheifqen-snow-5f7885cf6f-jxjbn",
+    "UUID": "GPU-4e64fc9f-5481-c32d-3fd4-e16a3a9a7198",
+    "author_host": "ymqlqnfrvbeqkyox-snow-7c75c4986d-l2nrf",
+    "different_host_actual": true,
+    "selected_epoch": 92,
+    "selected_state_SHA": "323f474e6b50da98a9bfd85d515fefa5db4a618f90a8cc246852ccb31b012833",
+    "prediction_SHA": "fcf70a4774a066e54d563d6083480354e5289ae15b61758ccf97dba0d5116703",
+    "official_dataset_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+    "author_result_SHA": "ba3f8ae8ed9d95ec7e8b3ecfe10f7ea6c4ac97338fc00615ab57477ed5f7111a",
+    "roles": {
+      "VAL": {
+        "new": {
+          "Acc7": 0.4847161572052402,
+          "Acc2": 0.8888888888888888,
+          "F1": 0.8885361552028219,
+          "MAE": 0.6009184160558547,
+          "Corr": 0.8593062225627298
+        },
+        "messages_off": {
+          "Acc7": 0.4847161572052402,
+          "Acc2": 0.8888888888888888,
+          "F1": 0.8885361552028219,
+          "MAE": 0.5990832279391555,
+          "Corr": 0.8591679536203933
+        }
+      },
+      "TEST": {
+        "new": {
+          "Acc7": 0.4832116788321168,
+          "Acc2": 0.8748091603053435,
+          "F1": 0.8746166863147791,
+          "MAE": 0.6355054317422918,
+          "Corr": 0.8424081379817001
+        },
+        "messages_off": {
+          "Acc7": 0.48175182481751827,
+          "Acc2": 0.8748091603053435,
+          "F1": 0.8746166863147791,
+          "MAE": 0.6343636171049336,
+          "Corr": 0.84262709172534
+        }
+      }
+    },
+    "max_error": 7.771561172376096e-16,
+    "primary_author_scoring_not_repeated": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "B_N2_AUTHOR_FIVE_ORIGINAL_RELEASE_REMOTE_DIGEST_VERIFIED",
+  "actual_UTC": "2026-10-09T18:07:02.736361+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B_array_protocol_actual_20261009T180428Z\\N2_score_complete_original.zip",
+  "source_SHA": "3d6b463e059695e2b73e4fab66925b2a70337024412c35b0760eb1bf9c37e3c4",
+  "source_bytes": 449004,
+  "pid": 1136,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/B_array_protocol_actual_20261009T180428Z/publish_N2_score_original_v1.py"
+  ],
+  "name": "B-original-selected92-author-five-once-N2-20261009T180550Z.zip",
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/B-original-selected92-author-five-once-N2-20261009T180550Z.zip",
+  "id": 625758093,
+  "remote_digest_verified": true
+}

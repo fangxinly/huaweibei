@@ -1,0 +1,1 @@
+{"status":"LOCAL_VERIFIER_ASSERTION_FAILURE_BEFORE_EXTRACTION","reason":"Summary transcribed bb4c where original capture and downloaded archive both contain bb4d; fixed verifier to bind original receipt instead of summary text.","remote_experiment_failure":false,"original_archive_not_modified":true}

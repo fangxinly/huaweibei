@@ -1,0 +1,60 @@
+{
+  "status": "B_N3_OTHER_NODE_ORIGINAL_PREDICTION_BYTES_PASSED",
+  "actual_UTC": "2026-10-09T18:03:52.235900+00:00",
+  "node": "N3",
+  "hostname": "navgoemtfheifqen-snow-5f7885cf6f-jxjbn",
+  "UUID": "GPU-4e64fc9f-5481-c32d-3fd4-e16a3a9a7198",
+  "prediction_SHA": "fcf70a4774a066e54d563d6083480354e5289ae15b61758ccf97dba0d5116703",
+  "archive_SHA": "bb4d34d18225bc55c3ae86b47b8aa6b8b64208f1951be47b7dc2914d2ee1fdba",
+  "member_count": 54,
+  "selected_state_SHA": "323f474e6b50da98a9bfd85d515fefa5db4a618f90a8cc246852ccb31b012833",
+  "arrays": {
+    "VAL_ids": {
+      "shape": [
+        229
+      ],
+      "dtype": "<U15",
+      "byte_SHA": "697fb0081cc4dcb8e82d29f7e521708feef28093793e617632350d4a1a47aea5"
+    },
+    "VAL_prediction": {
+      "shape": [
+        229
+      ],
+      "dtype": "float32",
+      "byte_SHA": "18bd7972fa726b6911f946dfd5a49115e739aac8cc2dcc1c7a28b48e80a97cab"
+    },
+    "VAL_p0": {
+      "shape": [
+        229
+      ],
+      "dtype": "float32",
+      "byte_SHA": "7959ebbb3aef467491d70d03d9e94e915cfc914397059f5e244f770ad127f2a1"
+    },
+    "TEST_ids": {
+      "shape": [
+        685
+      ],
+      "dtype": "<U15",
+      "byte_SHA": "8350ab50e45379085b9bffd445143395ab4643644f7871ec9218c31aa1110856"
+    },
+    "TEST_prediction": {
+      "shape": [
+        685
+      ],
+      "dtype": "float32",
+      "byte_SHA": "0175f0d5dbbf0b965ebf4d7762d36b974140e27adf49b6a134550a919b360702"
+    },
+    "TEST_p0": {
+      "shape": [
+        685
+      ],
+      "dtype": "float32",
+      "byte_SHA": "fbd9d547f3b4167ccf905b8edec27ffaa8428009be7bafd56e1e0dac564f998b"
+    }
+  },
+  "official_IDs_verified": true,
+  "true_labels_not_consumed": true,
+  "all_member_SHA_CRC_unique_passed": true,
+  "Release_original_digest_verified": true,
+  "different_node_from_inference": true
+}

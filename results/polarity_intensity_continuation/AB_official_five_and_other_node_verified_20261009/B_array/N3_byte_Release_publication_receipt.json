@@ -1,0 +1,16 @@
+{
+  "status": "B_N3_PREDICTION_BYTE_ORIGINAL_RELEASE_REMOTE_DIGEST_VERIFIED",
+  "actual_UTC": "2026-10-09T18:05:33.820719+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\B_array_protocol_actual_20261009T180428Z\\N3_byte_complete_original.zip",
+  "source_SHA": "71b6b92c56ccbeb6381f726d829ffc5855361d30ca7b1fc5c4f354175cebbbe0",
+  "source_bytes": 419133,
+  "pid": 16760,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/B_array_protocol_actual_20261009T180428Z/publish_N3_byte_original_v1.py"
+  ],
+  "name": "B-original-prediction-other-node-byte-audit-N3-20261009T180351Z.zip",
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/B-original-prediction-other-node-byte-audit-N3-20261009T180351Z.zip",
+  "id": 625754457,
+  "remote_digest_verified": true
+}

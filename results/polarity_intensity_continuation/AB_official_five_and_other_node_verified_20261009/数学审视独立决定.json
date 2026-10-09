@@ -1,0 +1,18 @@
+{
+  "actual_UTC": "2026-10-09T18:10:44.394461+00:00",
+  "report_SHA": "9378b8f0d2766bf257f1c9197bf68c6494fa41e411cdbe26971526b446df13ba",
+  "full_report_read": true,
+  "advice_not_new_experimental_facts": true,
+  "accepted": [
+    "Scalar readout does not imply one-dimensional ODE; two Euler steps do not guarantee exact invertibility.",
+    "Conditional invertibility preserves conditional MI; noise independence requires correct conditional transport.",
+    "Negative gain can be pure calibration; uncentered second moments are required in the MSE formula.",
+    "Residual prediction includes text underfit; text-only correction and supervised fitting provenance are necessary.",
+    "Old frozen features lacking row/video/fold provenance are not qualified strict OOF inputs."
+  ],
+  "deferred": [
+    "Literature claims require root primary-source verification before being newly asserted as independent facts.",
+    "No real CCA/OOF/nonlinear residual probe execution; first audit input provenance and freeze a legal protocol."
+  ],
+  "new_GPU_training_or_TEST_based_structure_change": false
+}
