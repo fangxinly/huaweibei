@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-08T21:00:45.656983+00:00",
+  "input_SHA": "e60b11f45ae0182d16f0b46910d7210d0cfd68b8c43f4bcbfa0fd112334817a0",
+  "restored_state_SHA": "22934c8bdcaf636fbf6a500f17830889e1888c711193cc56518d6c2aa9c68ca2",
+  "restored_optimizer_steps": 16,
+  "scheduler_step": 16,
+  "start_next_batch": 16,
+  "first16_counted_in4000": true,
+  "full_RNG_restored": true
+}

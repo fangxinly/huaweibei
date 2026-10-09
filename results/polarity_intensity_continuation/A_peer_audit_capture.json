@@ -1,0 +1,13 @@
+{
+  "status": "CANDIDATE_PEER_PREFIX16_CPU_COMPLETE",
+  "actual_UTC": "2026-10-08T20:53:16.913536+00:00",
+  "node": "A",
+  "mode": "regression_aux",
+  "child_PID": 2224,
+  "natural_exit": 0,
+  "archive": "/data/coding/A_peer_candidate_prefix16_CPU_actual_20261008T204756Z/complete_small_CPU_original.zip",
+  "archive_SHA": "2c48ff60905f945c4fc76134127d5eaa71b3f509cf690ee8dc5b9e0b090d0b07",
+  "archive_bytes": 21483,
+  "ZIP_CRC_unique_all_members": true,
+  "large_original_referenced_not_recopied": true
+}

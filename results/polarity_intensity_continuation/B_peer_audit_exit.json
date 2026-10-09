@@ -1,0 +1,19 @@
+{
+  "actual_UTC": "2026-10-08T20:53:13.029801+00:00",
+  "pid": 2608,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/candidate_peer_prefix_audit_B_20261008T204756Z/audit_public_prefix16_candidate_v2.py",
+    "--publication",
+    "/data/coding/candidate_peer_prefix_audit_B_20261008T204756Z/peer_publication.json",
+    "--capture",
+    "/data/coding/candidate_peer_prefix_audit_B_20261008T204756Z/peer_capture.json",
+    "--out",
+    "/data/coding/B_peer_candidate_prefix16_CPU_actual_20261008T204756Z/out",
+    "--expected-uuid",
+    "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+    "--mode",
+    "factorized_aux"
+  ],
+  "natural_exit": 0
+}

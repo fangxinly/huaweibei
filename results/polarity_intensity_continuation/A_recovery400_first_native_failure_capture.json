@@ -1,0 +1,12 @@
+{
+  "status": "CANDIDATE_NATIVE_FAILED",
+  "actual_UTC": "2026-10-09T00:06:45.807585+00:00",
+  "node": "A",
+  "child_PID": 2628,
+  "natural_exit": 1,
+  "archive": "/data/coding/A_recovery400_native_actual_20261009T000700Z/complete_native_original.zip",
+  "archive_SHA": "760eb4ad82c0693f258b753bd1234e3a567a783f44a9a952d048d9d231704f81",
+  "archive_bytes": 3256193,
+  "ZIP_CRC_unique_all_members": true,
+  "real_TRAIN": false
+}

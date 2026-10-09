@@ -1,0 +1,11 @@
+{
+  "status": "ACTUAL_PREFIX16_COMPLETE",
+  "actual_UTC": "2026-10-08T20:41:11.001608+00:00",
+  "child_PID": 1954,
+  "natural_exit": 0,
+  "archive": "/data/coding/A_polarity_intensity_factorized_aux_prefix16_actual_20261008T203626Z/complete_actual_prefix16.zip",
+  "archive_SHA": "b430c336e613babe7c602dbd587664ab45c94a1236b5cf28f1fa89f3150e58ed",
+  "archive_bytes": 1184820328,
+  "ZIP_CRC_unique_all_members": true,
+  "no_D_capacity_claimed": true
+}

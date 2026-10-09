@@ -1,0 +1,13 @@
+{
+  "actual_UTC": "2026-10-08T20:34:11.378092+00:00",
+  "pid": 1848,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/polarity_intensity_prefix_v2_20261008T203225Z/qualify_health_components_v2.py",
+    "--bundle",
+    "/data/coding/polarity_intensity_prefix_v2_20261008T203225Z",
+    "--out",
+    "/data/coding/A_polarity_intensity_native_actual_20261008T203225Z/out"
+  ],
+  "natural_exit": 0
+}

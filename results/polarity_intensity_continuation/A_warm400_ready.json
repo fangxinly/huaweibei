@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-08T21:06:51.500727+00:00",
+  "checkpoint_SHA": "5cf03b7e317e524bf8a799965301ff154b0802f5ae51b68d37cb2bcd1864f271",
+  "checkpoint_bytes": 2960829851,
+  "steps": 400,
+  "full_model_Adam_scheduler_RNG_orders_history": true,
+  "training_continues": true
+}

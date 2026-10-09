@@ -1,0 +1,57 @@
+{
+  "actual_UTC": "2026-10-09T00:04:53.230727+00:00",
+  "pid": 3112,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/capture_interrupted_candidate_v1.py",
+    "--prior",
+    "/data/coding/B_polarity_intensity_regression_aux_resume100_actual_20261008T205936Z",
+    "--bundle",
+    "/data/coding/B_candidate_resume100_qualified_20261008T205936Z",
+    "--out",
+    "/data/coding/B_interrupted_capture_actual_20261009T000500Z",
+    "--uuid",
+    "GPU-609b23d6-282d-8a2b-23f5-9433b824d212"
+  ],
+  "UUID": "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+  "prior_dispatch": {
+    "actual_UTC": "2026-10-08T21:00:21.783474+00:00",
+    "pid": 2878,
+    "fullargv": [
+      "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+      "/data/coding/B_candidate_resume100_qualified_20261008T205936Z/resume_official_mse100_v1.py",
+      "--plan",
+      "/data/coding/B_candidate_resume100_qualified_20261008T205936Z/qualified_resume_plan.json",
+      "--plan-sha",
+      "de85648ad62571fd6d4d4cab42ab04fba24b919c573e81b8321183f75c441b4c",
+      "--bundle",
+      "/data/coding/B_candidate_resume100_qualified_20261008T205936Z",
+      "--assets",
+      "/data/coding/multimodal_flow_public_20261008T175549Z_B",
+      "--out",
+      "/data/coding/B_polarity_intensity_regression_aux_resume100_actual_20261008T205936Z/out",
+      "--resume",
+      "/data/coding/B_polarity_intensity_regression_aux_prefix16_actual_20261008T203626Z/out/complete_resume_step16.pt"
+    ]
+  },
+  "last_progress": {
+    "actual_UTC": "2026-10-08T21:59:15.603613+00:00",
+    "epoch": 96,
+    "steps": 3840,
+    "TRAIN_objective": 0.006170564272906631,
+    "DEV_batch_MSE": 0.7243337353163051,
+    "best_epoch": 92,
+    "best_MSE": 0.7206814501430391,
+    "dropped_rows": [
+      126
+    ],
+    "prediction_SHA": "4d67f39add460562bda8d449c3e0887e9ae81ff6f7ae80791801afa5d848d7d6",
+    "state_SHA": "80d0964a8d2274d5491df4209d0c0b4bd080407f15728bb58ad698ca903512c0",
+    "seconds": 35.97122532967478
+  },
+  "prior_process_absent": true,
+  "prior_natural_exit_unknown": true,
+  "interruption_cause_not_established": true,
+  "compute": "",
+  "processes": "  PID  PPID COMMAND\n    1     0 s6-svscan -t 10 /etc/services.d/\n    7     1 s6-supervise 01sshd\n    8     1 s6-supervise 02codeserver\n    9     8 /bin/bash /usr/local/bin/code-server.sh\n   10     7 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n  232     9 /usr/lib/code-server/lib/node /usr/lib/code-server --trusted-origins=* /data/coding/coding.code-workspace\n  250   232 /usr/lib/code-server/lib/node /usr/lib/code-server/out/node/entry\n 3072    10 sshd: root@pts/0\n 3083  3072 -bash\n 3099    10 sshd: root@notty\n 3110  3099 /usr/lib/openssh/sftp-server\n 3112     1 /data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python /data/coding/capture_interrupted_candidate_v1.py --prior /data/coding/B_polarity_intensity_regression_aux_resume100_actual_20261008T205936Z --bundle /data/coding/B_candidate_resume100_qualified_20261008T205936Z --out /data/coding/B_interrupted_capture_actual_20261009T000500Z --uuid GPU-609b23d6-282d-8a2b-23f5-9433b824d212\n 3115  3112 ps -eo pid,ppid,args --width 10000\n"
+}

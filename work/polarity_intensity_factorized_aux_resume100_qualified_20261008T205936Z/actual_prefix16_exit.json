@@ -1,0 +1,19 @@
+{
+  "actual_UTC": "2026-10-08T20:37:47.723088+00:00",
+  "pid": 1954,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/polarity_intensity_factorized_aux_qualified_20261008T203626Z/precheck16.py",
+    "--plan",
+    "/data/coding/polarity_intensity_factorized_aux_qualified_20261008T203626Z/qualified_precheck_plan.json",
+    "--plan-sha",
+    "6eaae3a8847ae69a74cd14e8c7aa56867f5ea46c009a6a72223eff83bcc399cd",
+    "--bundle",
+    "/data/coding/polarity_intensity_factorized_aux_qualified_20261008T203626Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T174420Z",
+    "--out",
+    "/data/coding/A_polarity_intensity_factorized_aux_prefix16_actual_20261008T203626Z/out"
+  ],
+  "natural_exit": 0
+}

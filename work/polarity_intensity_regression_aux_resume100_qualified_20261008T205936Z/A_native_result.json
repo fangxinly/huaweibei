@@ -1,0 +1,3406 @@
+{
+  "status": "POLARITY_INTENSITY_HEALTH_NATIVE_CPU_SYNTHETIC_TRAJECTORY_IDENTICAL",
+  "actual_UTC": "2026-10-08T20:34:10.830791+00:00",
+  "pid": 1848,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/polarity_intensity_prefix_v2_20261008T203225Z/qualify_health_components_v2.py",
+    "--bundle",
+    "/data/coding/polarity_intensity_prefix_v2_20261008T203225Z",
+    "--out",
+    "/data/coding/A_polarity_intensity_native_actual_20261008T203225Z/out"
+  ],
+  "UUID": "GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde",
+  "source_SHA": "532cc237a6b132f08ca02442975a5ec4c7b1de428219b7a47f1fe31509bf3ac5",
+  "helper_SHA": "0cb3b901d30b63bfbb7f08f773e372213d77ff5a99d4e80073a520e6704cf8ab",
+  "first16_same_parameter_trajectory": true,
+  "gradient_RNG_no_accumulation": true,
+  "rounded_pure_decay_control_passed": true,
+  "qualified_modes": [
+    "regression_aux",
+    "factorized_aux"
+  ],
+  "real_TRAIN": false,
+  "GPU_large_index_qualification_only": true,
+  "large_index_bounds_and_real_gather_passed": true,
+  "steps": [
+    {
+      "step": 1,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2574738883883692e-09,
+            "gradient_RMS": 3.546087827999145e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 147.0667671287697,
+            "gradient_RMS": 0.3833012487345798
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.1379741209748708,
+            "gradient_RMS": 0.011740369870246023
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 2,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2574738883883692e-09,
+            "gradient_RMS": 3.546087827999145e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 147.0667671287697,
+            "gradient_RMS": 0.3833012487345798
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.1379741209748708,
+            "gradient_RMS": 0.011740369870246023
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 6.24647588916846e-12,
+          "beyond_decay_square_sum": 6.24647588916846e-12,
+          "actual_update_RMS": 2.499295078450814e-06,
+          "versus_rounded_pure_decay_RMS": 2.499295078450814e-06,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 0,
+          "beyond_decay_values": 0,
+          "actual_square_sum": 0.0,
+          "beyond_decay_square_sum": 0.0,
+          "actual_update_RMS": 0.0,
+          "versus_rounded_pure_decay_RMS": 0.0,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 6.256189898806206e-09,
+          "beyond_decay_square_sum": 6.256189898806206e-09,
+          "actual_update_RMS": 2.499987991740632e-06,
+          "versus_rounded_pure_decay_RMS": 2.499987991740632e-06,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 6.255452573570823e-09,
+          "beyond_decay_square_sum": 6.255452573570823e-09,
+          "actual_update_RMS": 2.4998406689628485e-06,
+          "versus_rounded_pure_decay_RMS": 2.4998406689628485e-06,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 4.4992881084249606e-13,
+          "beyond_decay_square_sum": 4.4992881084249606e-13,
+          "actual_update_RMS": 2.5120433920219345e-08,
+          "versus_rounded_pure_decay_RMS": 2.5120433920219345e-08,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 3,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2536770183556263e-09,
+            "gradient_RMS": 3.540730176609941e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.3105562745373857e-09,
+            "gradient_RMS": 1.0424474783200713e-07
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 4.7240965936921605e-09,
+            "gradient_RMS": 2.1734986988015796e-06
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 5.17689621606365e-15,
+            "gradient_RMS": 2.2172694922273317e-10
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 6,
+            "square_sum": 4.024367845985324e-17,
+            "gradient_RMS": 3.7350032195626345e-11
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 146.99494138882648,
+            "gradient_RMS": 0.3832076373136774
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.13744106762751063,
+            "gradient_RMS": 0.011717668874978802
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 2.4983216829866412e-11,
+          "beyond_decay_square_sum": 2.4983216829866412e-11,
+          "actual_update_RMS": 4.998321401217254e-06,
+          "versus_rounded_pure_decay_RMS": 4.998321401217254e-06,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 69014,
+          "beyond_decay_values": 69014,
+          "actual_square_sum": 2.313276731930773e-11,
+          "beyond_decay_square_sum": 2.313276731930773e-11,
+          "actual_update_RMS": 1.3849692813887097e-08,
+          "versus_rounded_pure_decay_RMS": 1.3849692813887097e-08,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 933,
+          "beyond_decay_values": 933,
+          "actual_square_sum": 8.973225672122382e-13,
+          "beyond_decay_square_sum": 8.973225672122382e-13,
+          "actual_update_RMS": 2.995534288256835e-08,
+          "versus_rounded_pure_decay_RMS": 2.995534288256835e-08,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 151,
+          "beyond_decay_values": 151,
+          "actual_square_sum": 8.014878353446727e-15,
+          "beyond_decay_square_sum": 8.014878353446727e-15,
+          "actual_update_RMS": 2.758876245528916e-10,
+          "versus_rounded_pure_decay_RMS": 2.758876245528916e-10,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 26448,
+          "beyond_decay_values": 4800,
+          "actual_square_sum": 9.972888010919124e-12,
+          "beyond_decay_square_sum": 1.3226547110252033e-12,
+          "actual_update_RMS": 1.8593134735174047e-08,
+          "versus_rounded_pure_decay_RMS": 6.771196027297252e-09,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 2.5017788409245604e-08,
+          "beyond_decay_square_sum": 2.5017790684914178e-08,
+          "actual_update_RMS": 4.999279509452534e-06,
+          "versus_rounded_pure_decay_RMS": 4.999279736824811e-06,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 2.501039014725547e-08,
+          "beyond_decay_square_sum": 2.501039242258453e-08,
+          "actual_update_RMS": 4.99854026116755e-06,
+          "versus_rounded_pure_decay_RMS": 4.998540488539525e-06,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 1.7547155086988432e-12,
+          "beyond_decay_square_sum": 1.7547155086988432e-12,
+          "actual_update_RMS": 4.960878519982711e-08,
+          "versus_rounded_pure_decay_RMS": 4.960878519982711e-08,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 4,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2510344375136732e-09,
+            "gradient_RMS": 3.5369965189602226e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.1780657934412207e-08,
+            "gradient_RMS": 3.1254396618625974e-07
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 4.246018772579688e-08,
+            "gradient_RMS": 6.516148227733688e-06
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 4.6534981751406595e-14,
+            "gradient_RMS": 6.647732358904306e-10
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 3.6181915933352375e-16,
+            "gradient_RMS": 1.1199223850559355e-10
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 146.85144869936312,
+            "gradient_RMS": 0.38302055291512455
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.136381721374024,
+            "gradient_RMS": 0.011672423737087592
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 6.513677138934816e-25,
+            "gradient_RMS": 4.751768338168886e-15
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 5.620455661596329e-11,
+          "beyond_decay_square_sum": 5.620455661596329e-11,
+          "actual_update_RMS": 7.496969828935107e-06,
+          "versus_rounded_pure_decay_RMS": 7.496969828935107e-06,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 82017,
+          "beyond_decay_values": 82017,
+          "actual_square_sum": 8.852582570084929e-11,
+          "beyond_decay_square_sum": 8.852582570084929e-11,
+          "actual_update_RMS": 2.70932646469119e-08,
+          "versus_rounded_pure_decay_RMS": 2.70932646469119e-08,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 954,
+          "beyond_decay_values": 954,
+          "actual_square_sum": 2.6899315525875277e-12,
+          "beyond_decay_square_sum": 2.6899315525875277e-12,
+          "actual_update_RMS": 5.186455005673459e-08,
+          "versus_rounded_pure_decay_RMS": 5.186455005673459e-08,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 151,
+          "beyond_decay_values": 151,
+          "actual_square_sum": 7.480719609844989e-14,
+          "beyond_decay_square_sum": 7.480719609844989e-14,
+          "actual_update_RMS": 8.428599939923288e-10,
+          "versus_rounded_pure_decay_RMS": 8.428599939923288e-10,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28848,
+          "beyond_decay_values": 7201,
+          "actual_square_sum": 3.516089033475716e-11,
+          "beyond_decay_square_sum": 2.6510658049397235e-11,
+          "actual_update_RMS": 3.491178682959713e-08,
+          "versus_rounded_pure_decay_RMS": 3.031463889217952e-08,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 5.626492471156076e-08,
+          "beyond_decay_square_sum": 5.626493153691755e-08,
+          "actual_update_RMS": 7.4972472278540475e-06,
+          "versus_rounded_pure_decay_RMS": 7.497247682590155e-06,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 5.617566747448858e-08,
+          "beyond_decay_square_sum": 5.617567429231261e-08,
+          "actual_update_RMS": 7.491298146954373e-06,
+          "versus_rounded_pure_decay_RMS": 7.491298601549336e-06,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 3.977734246475026e-12,
+          "beyond_decay_square_sum": 3.977734246475026e-12,
+          "actual_update_RMS": 7.469183295986694e-08,
+          "versus_rounded_pure_decay_RMS": 7.469183295986694e-08,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 5,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.247138617150517e-09,
+            "gradient_RMS": 3.5314849810674787e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 4.704279347661238e-08,
+            "gradient_RMS": 6.245581753526015e-07
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 1.695521199545493e-07,
+            "gradient_RMS": 1.3021218067237385e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 1.8580198215105774e-13,
+            "gradient_RMS": 1.3283389997504118e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.445068473704633e-15,
+            "gradient_RMS": 2.2381354107460186e-10
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 146.63650352136568,
+            "gradient_RMS": 0.3827401383548083
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.13480931590356518,
+            "gradient_RMS": 0.011604940381678093
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.931283313005999e-23,
+            "gradient_RMS": 2.5874093269364738e-14
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 9.989779387168163e-11,
+          "beyond_decay_square_sum": 9.989779387168163e-11,
+          "actual_update_RMS": 9.994888387154788e-06,
+          "versus_rounded_pure_decay_RMS": 9.994888387154788e-06,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 86431,
+          "beyond_decay_values": 86431,
+          "actual_square_sum": 2.1379016934295677e-10,
+          "beyond_decay_square_sum": 2.1379016934295677e-10,
+          "actual_update_RMS": 4.21036950733601e-08,
+          "versus_rounded_pure_decay_RMS": 4.21036950733601e-08,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 999,
+          "beyond_decay_values": 999,
+          "actual_square_sum": 5.81410296721525e-12,
+          "beyond_decay_square_sum": 5.81410296721525e-12,
+          "actual_update_RMS": 7.625026535832679e-08,
+          "versus_rounded_pure_decay_RMS": 7.625026535832679e-08,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 151,
+          "beyond_decay_values": 151,
+          "actual_square_sum": 2.629354232665322e-13,
+          "beyond_decay_square_sum": 2.629354232665322e-13,
+          "actual_update_RMS": 1.5801863350691298e-09,
+          "versus_rounded_pure_decay_RMS": 1.5801863350691298e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28846,
+          "beyond_decay_values": 7212,
+          "actual_square_sum": 2.1709642805031384e-10,
+          "beyond_decay_square_sum": 1.8278148434676768e-10,
+          "actual_update_RMS": 8.67498004145278e-08,
+          "versus_rounded_pure_decay_RMS": 7.959911610975135e-08,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 9.994275340762614e-08,
+          "beyond_decay_square_sum": 9.994278978931977e-08,
+          "actual_update_RMS": 9.992142437792259e-06,
+          "versus_rounded_pure_decay_RMS": 9.992144256488558e-06,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 9.961542909120741e-08,
+          "beyond_decay_square_sum": 9.961546538512226e-08,
+          "actual_update_RMS": 9.975766295279245e-06,
+          "versus_rounded_pure_decay_RMS": 9.975768112565897e-06,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 7.158358516730888e-12,
+          "beyond_decay_square_sum": 7.158358516730888e-12,
+          "actual_update_RMS": 1.0019867022945762e-07,
+          "versus_rounded_pure_decay_RMS": 1.0019867022945762e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 6,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2425780888091524e-09,
+            "gradient_RMS": 3.52502211171668e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.3038796520850038e-07,
+            "gradient_RMS": 1.0397887159746264e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 4.699937844368086e-07,
+            "gradient_RMS": 2.1679340036929366e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 5.148652716099877e-13,
+            "gradient_RMS": 2.2112128614385703e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 4.005848925636735e-15,
+            "gradient_RMS": 3.72639963433021e-10
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 146.3505249022457,
+            "gradient_RMS": 0.3823667357154176
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.13274387339252067,
+            "gradient_RMS": 0.011515696337190828
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.8831741208364774e-22,
+            "gradient_RMS": 8.079553926675987e-14
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 1.560426733967931e-10,
+          "beyond_decay_square_sum": 1.560426733967931e-10,
+          "actual_update_RMS": 1.2491704183048569e-05,
+          "versus_rounded_pure_decay_RMS": 1.2491704183048569e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 88445,
+          "beyond_decay_values": 88445,
+          "actual_square_sum": 4.167254004305563e-10,
+          "beyond_decay_square_sum": 4.167254004305563e-10,
+          "actual_update_RMS": 5.8782943935854446e-08,
+          "versus_rounded_pure_decay_RMS": 5.8782943935854446e-08,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 999,
+          "beyond_decay_values": 999,
+          "actual_square_sum": 1.018662207894572e-11,
+          "beyond_decay_square_sum": 1.018662207894572e-11,
+          "actual_update_RMS": 1.0092879707469876e-07,
+          "versus_rounded_pure_decay_RMS": 1.0092879707469876e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 151,
+          "beyond_decay_values": 151,
+          "actual_square_sum": 6.157777675659507e-13,
+          "beyond_decay_square_sum": 6.157777675659507e-13,
+          "actual_update_RMS": 2.418219698998675e-09,
+          "versus_rounded_pure_decay_RMS": 2.418219698998675e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28832,
+          "beyond_decay_values": 7285,
+          "actual_square_sum": 7.914368484106828e-10,
+          "beyond_decay_square_sum": 7.571220096659624e-10,
+          "actual_update_RMS": 1.6563430076342464e-07,
+          "versus_rounded_pure_decay_RMS": 1.6200375502197983e-07,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.5603340309585873e-07,
+          "beyond_decay_square_sum": 1.5603349393585612e-07,
+          "actual_update_RMS": 1.2485092133031637e-05,
+          "versus_rounded_pure_decay_RMS": 1.248509576733541e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.5500240284748969e-07,
+          "beyond_decay_square_sum": 1.5500249325085584e-07,
+          "actual_update_RMS": 1.2443775765104315e-05,
+          "versus_rounded_pure_decay_RMS": 1.244377939394823e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 1.1242827135505847e-11,
+          "beyond_decay_square_sum": 1.1242827135505847e-11,
+          "actual_update_RMS": 1.2557205502624584e-07,
+          "versus_rounded_pure_decay_RMS": 1.2557205502624584e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 7,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2344996024255352e-09,
+            "gradient_RMS": 3.5135446523781866e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 2.9256849067611266e-07,
+            "gradient_RMS": 1.5575432739999106e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 1.0547500646023945e-06,
+            "gradient_RMS": 3.247691587269941e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 1.1549270395206814e-12,
+            "gradient_RMS": 3.3117765516961174e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 8.989414230269283e-15,
+            "gradient_RMS": 5.582231484021393e-10
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 145.99416592051608,
+            "gradient_RMS": 0.3819009264232193
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.1302120035795405,
+            "gradient_RMS": 0.011405346187550933
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.0551251430438745e-21,
+            "gradient_RMS": 1.912467798535429e-13
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 2.2458386911084757e-10,
+          "beyond_decay_square_sum": 2.2458386911084757e-10,
+          "actual_update_RMS": 1.4986122550908476e-05,
+          "versus_rounded_pure_decay_RMS": 1.4986122550908476e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 89342,
+          "beyond_decay_values": 89342,
+          "actual_square_sum": 7.142740978278575e-10,
+          "beyond_decay_square_sum": 7.142740978278575e-10,
+          "actual_update_RMS": 7.695889028950793e-08,
+          "versus_rounded_pure_decay_RMS": 7.695889028950793e-08,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 999,
+          "beyond_decay_values": 999,
+          "actual_square_sum": 1.5096883694092246e-11,
+          "beyond_decay_square_sum": 1.5096883694092246e-11,
+          "actual_update_RMS": 1.2286937655124748e-07,
+          "versus_rounded_pure_decay_RMS": 1.2286937655124748e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 152,
+          "beyond_decay_values": 152,
+          "actual_square_sum": 1.164234735535362e-12,
+          "beyond_decay_square_sum": 1.164234735535362e-12,
+          "actual_update_RMS": 3.325094775163348e-09,
+          "versus_rounded_pure_decay_RMS": 3.325094775163348e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28829,
+          "beyond_decay_values": 7565,
+          "actual_square_sum": 2.3916787625935942e-09,
+          "beyond_decay_square_sum": 2.314406524287753e-09,
+          "actual_update_RMS": 2.879344099586117e-07,
+          "versus_rounded_pure_decay_RMS": 2.832448144991288e-07,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 2.245104244939427e-07,
+          "beyond_decay_square_sum": 2.2451064242999637e-07,
+          "actual_update_RMS": 1.4976185707835862e-05,
+          "versus_rounded_pure_decay_RMS": 1.4976192976652058e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 2.2225015235113062e-07,
+          "beyond_decay_square_sum": 2.2225036859712282e-07,
+          "actual_update_RMS": 1.4900608183121375e-05,
+          "versus_rounded_pure_decay_RMS": 1.4900615432151316e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 1.5961913330278822e-11,
+          "beyond_decay_square_sum": 1.5961913330278822e-11,
+          "actual_update_RMS": 1.4962277640046103e-07,
+          "versus_rounded_pure_decay_RMS": 1.4962277640046103e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 8,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.228492901390136e-09,
+            "gradient_RMS": 3.504986307234503e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 5.715378571862522e-07,
+            "gradient_RMS": 2.1769519694210688e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 2.0608271626660846e-06,
+            "gradient_RMS": 4.5396334242602505e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 2.2553075434740517e-12,
+            "gradient_RMS": 4.627928477401891e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.7561279710833606e-14,
+            "gradient_RMS": 7.802256531562488e-10
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 145.56823557675312,
+            "gradient_RMS": 0.38134343152070826
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.12724700036627884,
+            "gradient_RMS": 0.011274745251480986
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 4.2043302107704e-21,
+            "gradient_RMS": 3.817601165169482e-13
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 3.0549548282741206e-10,
+          "beyond_decay_square_sum": 3.0549548282741206e-10,
+          "actual_update_RMS": 1.7478429072070867e-05,
+          "versus_rounded_pure_decay_RMS": 1.7478429072070867e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 89827,
+          "beyond_decay_values": 89827,
+          "actual_square_sum": 1.1227249112732646e-09,
+          "beyond_decay_square_sum": 1.1227249112732646e-09,
+          "actual_update_RMS": 9.6485716352097e-08,
+          "versus_rounded_pure_decay_RMS": 9.6485716352097e-08,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 2.2212786559973053e-11,
+          "beyond_decay_square_sum": 2.2212786559973053e-11,
+          "actual_update_RMS": 1.4903954696647818e-07,
+          "versus_rounded_pure_decay_RMS": 1.4903954696647818e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 157,
+          "beyond_decay_values": 157,
+          "actual_square_sum": 1.9346016251052482e-12,
+          "beyond_decay_square_sum": 1.9346016251052482e-12,
+          "actual_update_RMS": 4.2862700177095576e-09,
+          "versus_rounded_pure_decay_RMS": 4.2862700177095576e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28790,
+          "beyond_decay_values": 8382,
+          "actual_square_sum": 5.855954822760818e-09,
+          "beyond_decay_square_sum": 5.778685235666185e-09,
+          "actual_update_RMS": 4.505479356021984e-07,
+          "versus_rounded_pure_decay_RMS": 4.4756556467249374e-07,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 3.052765200171512e-07,
+          "beyond_decay_square_sum": 3.052769007821844e-07,
+          "actual_update_RMS": 1.7463434612603632e-05,
+          "versus_rounded_pure_decay_RMS": 1.7463445503489024e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 3.011330189024147e-07,
+          "beyond_decay_square_sum": 3.011333953618101e-07,
+          "actual_update_RMS": 1.734451460017544e-05,
+          "versus_rounded_pure_decay_RMS": 1.734452544173553e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 2.179872450445044e-11,
+          "beyond_decay_square_sum": 2.179872450445044e-11,
+          "actual_update_RMS": 1.7485206933090427e-07,
+          "versus_rounded_pure_decay_RMS": 1.7485206933090427e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 9,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.216993992521144e-09,
+            "gradient_RMS": 3.4885440982179716e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.0121297516343778e-06,
+            "gradient_RMS": 2.8969729607431208e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 3.6501463247404227e-06,
+            "gradient_RMS": 6.041644084800447e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 3.992123430321611e-12,
+            "gradient_RMS": 6.157235044093026e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 3.109538227338905e-14,
+            "gradient_RMS": 1.038221684550613e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 145.0736287754592,
+            "gradient_RMS": 0.3806950223937579
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.12388805101646873,
+            "gradient_RMS": 0.011124939852859384
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.327776906812572e-20,
+            "gradient_RMS": 6.784294637641442e-13
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 3.9863878952000526e-10,
+          "beyond_decay_square_sum": 3.9863878952000526e-10,
+          "actual_update_RMS": 1.996594073716551e-05,
+          "versus_rounded_pure_decay_RMS": 1.996594073716551e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 90046,
+          "beyond_decay_values": 90046,
+          "actual_square_sum": 1.6574678323845507e-09,
+          "beyond_decay_square_sum": 1.6574678323845507e-09,
+          "actual_update_RMS": 1.172327358919613e-07,
+          "versus_rounded_pure_decay_RMS": 1.172327358919613e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 3.066948203451412e-11,
+          "beyond_decay_square_sum": 3.066948203451412e-11,
+          "actual_update_RMS": 1.7512704541136447e-07,
+          "versus_rounded_pure_decay_RMS": 1.7512704541136447e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 169,
+          "beyond_decay_values": 169,
+          "actual_square_sum": 2.9519271692888307e-12,
+          "beyond_decay_square_sum": 2.9519271692888307e-12,
+          "actual_update_RMS": 5.294641646230711e-09,
+          "versus_rounded_pure_decay_RMS": 5.294641646230711e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28672,
+          "beyond_decay_values": 10198,
+          "actual_square_sum": 1.2567555581566203e-08,
+          "beyond_decay_square_sum": 1.249029437444403e-08,
+          "actual_update_RMS": 6.600358920003692e-07,
+          "versus_rounded_pure_decay_RMS": 6.580039221927551e-07,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 3.982905475782484e-07,
+          "beyond_decay_square_sum": 3.9829112751468577e-07,
+          "actual_update_RMS": 1.9947246800581905e-05,
+          "versus_rounded_pure_decay_RMS": 1.9947261322808337e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 3.9106888776413484e-07,
+          "beyond_decay_square_sum": 3.9106945970101745e-07,
+          "actual_update_RMS": 1.976558143730106e-05,
+          "versus_rounded_pure_decay_RMS": 1.976559589084269e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 2.85822246676804e-11,
+          "beyond_decay_square_sum": 2.85822246676804e-11,
+          "actual_update_RMS": 2.0021806018357878e-07,
+          "versus_rounded_pure_decay_RMS": 2.0021806018357878e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 10,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.2066086575643556e-09,
+            "gradient_RMS": 3.4736272937152535e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.6656873736446165e-06,
+            "gradient_RMS": 3.716405489835674e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 6.008634524323294e-06,
+            "gradient_RMS": 7.751538250130288e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 6.566314651905006e-12,
+            "gradient_RMS": 7.896681052574606e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 5.116111244815526e-14,
+            "gradient_RMS": 1.331717586181609e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 144.51159859978048,
+            "gradient_RMS": 0.3799568809331028
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.1201809925651656,
+            "gradient_RMS": 0.010957231932998957
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 3.5415604039531595e-20,
+            "gradient_RMS": 1.1079992642801881e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 5.039383055823054e-10,
+          "beyond_decay_square_sum": 5.039383055823054e-10,
+          "actual_update_RMS": 2.2448570234701037e-05,
+          "versus_rounded_pure_decay_RMS": 2.2448570234701037e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 90192,
+          "beyond_decay_values": 90192,
+          "actual_square_sum": 2.333711088409879e-09,
+          "beyond_decay_square_sum": 2.333711088409879e-09,
+          "actual_update_RMS": 1.3910729029189626e-07,
+          "versus_rounded_pure_decay_RMS": 1.3910729029189626e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 4.235222578911421e-11,
+          "beyond_decay_square_sum": 4.235222578911421e-11,
+          "actual_update_RMS": 2.057965640848122e-07,
+          "versus_rounded_pure_decay_RMS": 2.057965640848122e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 190,
+          "beyond_decay_values": 190,
+          "actual_square_sum": 4.241100550283188e-12,
+          "beyond_decay_square_sum": 4.241100550283188e-12,
+          "actual_update_RMS": 6.346335636752373e-09,
+          "versus_rounded_pure_decay_RMS": 6.346335636752373e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28577,
+          "beyond_decay_values": 13183,
+          "actual_square_sum": 2.4376422869848456e-08,
+          "beyond_decay_square_sum": 2.423912434637372e-08,
+          "actual_update_RMS": 9.19236229953418e-07,
+          "versus_rounded_pure_decay_RMS": 9.166438070003047e-07,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 5.0349402906442e-07,
+          "beyond_decay_square_sum": 5.034950068893647e-07,
+          "actual_update_RMS": 2.242746169378946e-05,
+          "versus_rounded_pure_decay_RMS": 2.2427483471724827e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 4.913358182796947e-07,
+          "beyond_decay_square_sum": 4.913367785276482e-07,
+          "actual_update_RMS": 2.2155021401623343e-05,
+          "versus_rounded_pure_decay_RMS": 2.21550430510765e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 3.591300456365145e-11,
+          "beyond_decay_square_sum": 3.591300456365145e-11,
+          "actual_update_RMS": 2.244301012693092e-07,
+          "versus_rounded_pure_decay_RMS": 2.244301012693092e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 11,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.1961633905599456e-09,
+            "gradient_RMS": 3.458559513092041e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 2.5896619574141283e-06,
+            "gradient_RMS": 4.633913093594813e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 9.345315898547986e-06,
+            "gradient_RMS": 9.667117408280498e-05
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 1.0201880248963488e-11,
+            "gradient_RMS": 9.842917906536672e-09
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 7.950877889482604e-14,
+            "gradient_RMS": 1.6601590113095478e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 143.883682403882,
+            "gradient_RMS": 0.3791305084814734
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.11617809182524508,
+            "gradient_RMS": 0.010773208890365472
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 8.310126294215972e-20,
+            "gradient_RMS": 1.6972505471473574e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 6.21291201470055e-10,
+          "beyond_decay_square_sum": 6.21291201470055e-10,
+          "actual_update_RMS": 2.492571366019547e-05,
+          "versus_rounded_pure_decay_RMS": 2.492571366019547e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 90313,
+          "beyond_decay_values": 90313,
+          "actual_square_sum": 3.16678063578933e-09,
+          "beyond_decay_square_sum": 3.16678063578933e-09,
+          "actual_update_RMS": 1.6204488854038998e-07,
+          "versus_rounded_pure_decay_RMS": 1.6204488854038998e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 5.474163105880809e-11,
+          "beyond_decay_square_sum": 5.474163105880809e-11,
+          "actual_update_RMS": 2.3396929511969746e-07,
+          "versus_rounded_pure_decay_RMS": 2.3396929511969746e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 228,
+          "beyond_decay_values": 228,
+          "actual_square_sum": 5.827100361264691e-12,
+          "beyond_decay_square_sum": 5.827100361264691e-12,
+          "actual_update_RMS": 7.438921936634756e-09,
+          "versus_rounded_pure_decay_RMS": 7.438921936634756e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28370,
+          "beyond_decay_values": 16583,
+          "actual_square_sum": 4.341447368373946e-08,
+          "beyond_decay_square_sum": 4.327722083666814e-08,
+          "actual_update_RMS": 1.2267594595606687e-06,
+          "versus_rounded_pure_decay_RMS": 1.2248187528862956e-06,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 6.208144463935154e-07,
+          "beyond_decay_square_sum": 6.208158922882158e-07,
+          "actual_update_RMS": 2.490369956736095e-05,
+          "versus_rounded_pure_decay_RMS": 2.490372856806033e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 6.009230476641202e-07,
+          "beyond_decay_square_sum": 6.009244563641208e-07,
+          "actual_update_RMS": 2.4501484137479938e-05,
+          "versus_rounded_pure_decay_RMS": 2.4501512855982767e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 4.43770650709856e-11,
+          "beyond_decay_square_sum": 4.43770650709856e-11,
+          "actual_update_RMS": 2.4947930367208644e-07,
+          "versus_rounded_pure_decay_RMS": 2.4947930367208644e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 12,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.188132382206491e-09,
+            "gradient_RMS": 3.44692962244153e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 3.847215018127119e-06,
+            "gradient_RMS": 5.6480635655820176e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 1.389109299599703e-05,
+            "gradient_RMS": 0.00011786048106128292
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 1.5143747817089568e-11,
+            "gradient_RMS": 1.1992243458342704e-08
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.1805698719225466e-13,
+            "gradient_RMS": 2.022963249870093e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 143.19181776211963,
+            "gradient_RMS": 0.3782178856071279
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.11193763167988939,
+            "gradient_RMS": 0.010574772142888725
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.7637199392653074e-19,
+            "gradient_RMS": 2.472617608358563e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 7.50672552686304e-10,
+          "beyond_decay_square_sum": 7.50672552686304e-10,
+          "actual_update_RMS": 2.7398404199630022e-05,
+          "versus_rounded_pure_decay_RMS": 2.7398404199630022e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 90506,
+          "beyond_decay_values": 90506,
+          "actual_square_sum": 4.171211600359648e-09,
+          "beyond_decay_square_sum": 4.171211600359648e-09,
+          "actual_update_RMS": 1.8597623736740412e-07,
+          "versus_rounded_pure_decay_RMS": 1.8597623736740412e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 6.813125972519122e-11,
+          "beyond_decay_square_sum": 6.813125972519122e-11,
+          "actual_update_RMS": 2.610196539059678e-07,
+          "versus_rounded_pure_decay_RMS": 2.610196539059678e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 310,
+          "beyond_decay_values": 310,
+          "actual_square_sum": 7.734995927616647e-12,
+          "beyond_decay_square_sum": 7.734995927616647e-12,
+          "actual_update_RMS": 8.570650725644764e-09,
+          "versus_rounded_pure_decay_RMS": 8.570650725644764e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28329,
+          "beyond_decay_values": 19562,
+          "actual_square_sum": 7.252924882786602e-08,
+          "beyond_decay_square_sum": 7.231481795871694e-08,
+          "actual_update_RMS": 1.5856186126464114e-06,
+          "versus_rounded_pure_decay_RMS": 1.583272957208286e-06,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 7.501495209103818e-07,
+          "beyond_decay_square_sum": 7.501519051938434e-07,
+          "actual_update_RMS": 2.7375173438529887e-05,
+          "versus_rounded_pure_decay_RMS": 2.7375216943271014e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 7.187400257935176e-07,
+          "beyond_decay_square_sum": 7.18742338539214e-07,
+          "actual_update_RMS": 2.6795932597872534e-05,
+          "versus_rounded_pure_decay_RMS": 2.6795975709516326e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 5.374889552556294e-11,
+          "beyond_decay_square_sum": 5.374889552556294e-11,
+          "actual_update_RMS": 2.745617329438736e-07,
+          "versus_rounded_pure_decay_RMS": 2.745617329438736e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 13,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.1742127690285673e-09,
+            "gradient_RMS": 3.426678813411854e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 5.506834820890274e-06,
+            "gradient_RMS": 6.757364891192573e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 1.9897769065775544e-05,
+            "gradient_RMS": 0.00014105945223832233
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 2.1655988458206112e-11,
+            "gradient_RMS": 1.4340779487798487e-08
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.6888569472230703e-13,
+            "gradient_RMS": 2.4195721536306e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 142.43843958942006,
+            "gradient_RMS": 0.37722161052354103
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.10752449712077292,
+            "gradient_RMS": 0.010364221149740688
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 3.453491371716267e-19,
+            "gradient_RMS": 3.459962031058335e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 8.917355551892778e-10,
+          "beyond_decay_square_sum": 8.917355551892778e-10,
+          "actual_update_RMS": 2.986194158438593e-05,
+          "versus_rounded_pure_decay_RMS": 2.986194158438593e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 90556,
+          "beyond_decay_values": 90556,
+          "actual_square_sum": 5.36035799160733e-09,
+          "beyond_decay_square_sum": 5.36035799160733e-09,
+          "actual_update_RMS": 2.1082555078958627e-07,
+          "versus_rounded_pure_decay_RMS": 2.1082555078958627e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 8.552700512596431e-11,
+          "beyond_decay_square_sum": 8.552700512596431e-11,
+          "actual_update_RMS": 2.9245000448959533e-07,
+          "versus_rounded_pure_decay_RMS": 2.9245000448959533e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 417,
+          "beyond_decay_values": 417,
+          "actual_square_sum": 9.989841653277874e-12,
+          "beyond_decay_square_sum": 9.989841653277874e-12,
+          "actual_update_RMS": 9.740091896916432e-09,
+          "versus_rounded_pure_decay_RMS": 9.740091896916432e-09,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28227,
+          "beyond_decay_values": 21819,
+          "actual_square_sum": 1.1471806531267598e-07,
+          "beyond_decay_square_sum": 1.1450381929988297e-07,
+          "actual_update_RMS": 1.9941510539525763e-06,
+          "versus_rounded_pure_decay_RMS": 1.9922880580327938e-06,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 8.913771106500701e-07,
+          "beyond_decay_square_sum": 8.913797086885031e-07,
+          "actual_update_RMS": 2.984102250302499e-05,
+          "versus_rounded_pure_decay_RMS": 2.9841065990829386e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 8.438689020327036e-07,
+          "beyond_decay_square_sum": 8.438714033510647e-07,
+          "actual_update_RMS": 2.903490788958262e-05,
+          "versus_rounded_pure_decay_RMS": 2.903495092084863e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 6.37384052674292e-11,
+          "beyond_decay_square_sum": 6.37384052674292e-11,
+          "actual_update_RMS": 2.989894275629673e-07,
+          "versus_rounded_pure_decay_RMS": 2.989894275629673e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 14,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.1615614414162946e-09,
+            "gradient_RMS": 3.4081687772413716e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 7.641887612877248e-06,
+            "gradient_RMS": 7.960249300702235e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 2.763685030151632e-05,
+            "gradient_RMS": 0.00016624334663834317
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 3.001809672459518e-11,
+            "gradient_RMS": 1.6883999420198424e-08
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 2.3422924537458633e-13,
+            "gradient_RMS": 2.8494609191255396e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 141.6261769836804,
+            "gradient_RMS": 0.3761445098514519
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.10300983316423547,
+            "gradient_RMS": 0.010144305113609186
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 6.330483510612373e-19,
+            "gradient_RMS": 4.684471340154804e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 1.0443627842714675e-09,
+          "beyond_decay_square_sum": 1.0443627842714675e-09,
+          "actual_update_RMS": 3.231660230085254e-05,
+          "versus_rounded_pure_decay_RMS": 3.231660230085254e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 90867,
+          "beyond_decay_values": 90867,
+          "actual_square_sum": 6.749559759427796e-09,
+          "beyond_decay_square_sum": 6.749559759427796e-09,
+          "actual_update_RMS": 2.3657239660280107e-07,
+          "versus_rounded_pure_decay_RMS": 2.3657239660280107e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 1.0609350381339122e-10,
+          "beyond_decay_square_sum": 1.0609350381339122e-10,
+          "actual_update_RMS": 3.257199776086681e-07,
+          "versus_rounded_pure_decay_RMS": 3.257199776086681e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 557,
+          "beyond_decay_values": 557,
+          "actual_square_sum": 1.2616499373563903e-11,
+          "beyond_decay_square_sum": 1.2616499373563903e-11,
+          "actual_update_RMS": 1.0945943131321317e-08,
+          "versus_rounded_pure_decay_RMS": 1.0945943131321317e-08,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28194,
+          "beyond_decay_values": 23439,
+          "actual_square_sum": 1.7362638367156463e-07,
+          "beyond_decay_square_sum": 1.7341242737315044e-07,
+          "actual_update_RMS": 2.4532963075958527e-06,
+          "versus_rounded_pure_decay_RMS": 2.4517842678042482e-06,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.0443857744080441e-06,
+          "beyond_decay_square_sum": 1.0443895213400866e-06,
+          "actual_update_RMS": 3.2300811630299135e-05,
+          "versus_rounded_pure_decay_RMS": 3.2300869572891096e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 9.755631950959583e-07,
+          "beyond_decay_square_sum": 9.75566760943594e-07,
+          "actual_update_RMS": 3.121840172861944e-05,
+          "versus_rounded_pure_decay_RMS": 3.121845878282301e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 7.482601668782153e-11,
+          "beyond_decay_square_sum": 7.482601668782153e-11,
+          "actual_update_RMS": 3.239526584978989e-07,
+          "versus_rounded_pure_decay_RMS": 3.239526584978989e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 15,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.14862228518404e-09,
+            "gradient_RMS": 3.389133053133264e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.0330113754791385e-05,
+            "gradient_RMS": 9.255052743421328e-06
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 3.7398899295290115e-05,
+            "gradient_RMS": 0.0001933879502329194
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 4.052348579497767e-11,
+            "gradient_RMS": 1.9617205890584114e-08
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 3.164614673305646e-13,
+            "gradient_RMS": 3.3120933143885033e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 140.7581240517418,
+            "gradient_RMS": 0.37499000859382453
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.09847022108665243,
+            "gradient_RMS": 0.009918258377226066
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.0984340648339986e-18,
+            "gradient_RMS": 6.170624820699162e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 1.2083617906326555e-09,
+          "beyond_decay_square_sum": 1.2083617906326555e-09,
+          "actual_update_RMS": 3.476149868220091e-05,
+          "versus_rounded_pure_decay_RMS": 3.476149868220091e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 91160,
+          "beyond_decay_values": 91160,
+          "actual_square_sum": 8.352235102337715e-09,
+          "beyond_decay_square_sum": 8.352235102337715e-09,
+          "actual_update_RMS": 2.631647407656209e-07,
+          "versus_rounded_pure_decay_RMS": 2.631647407656209e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 1.2695564543503076e-10,
+          "beyond_decay_square_sum": 1.2695564543503076e-10,
+          "actual_update_RMS": 3.563083572343354e-07,
+          "versus_rounded_pure_decay_RMS": 3.563083572343354e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 794,
+          "beyond_decay_values": 794,
+          "actual_square_sum": 1.563929205435965e-11,
+          "beyond_decay_square_sum": 1.563929205435965e-11,
+          "actual_update_RMS": 1.2186873332359479e-08,
+          "versus_rounded_pure_decay_RMS": 1.2186873332359479e-08,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28322,
+          "beyond_decay_values": 24507,
+          "actual_square_sum": 2.533011158786247e-07,
+          "beyond_decay_square_sum": 2.529934706022368e-07,
+          "actual_update_RMS": 2.9631981701671024e-06,
+          "versus_rounded_pure_decay_RMS": 2.9613981566064686e-06,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.2090578199541587e-06,
+          "beyond_decay_square_sum": 1.2090638387507157e-06,
+          "actual_update_RMS": 3.475413601262697e-05,
+          "versus_rounded_pure_decay_RMS": 3.47542225170978e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.1131825903934804e-06,
+          "beyond_decay_square_sum": 1.1131880291907883e-06,
+          "actual_update_RMS": 3.334772135954129e-05,
+          "versus_rounded_pure_decay_RMS": 3.33478028247372e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 8.669483969199526e-11,
+          "beyond_decay_square_sum": 8.669483969199526e-11,
+          "actual_update_RMS": 3.4869992905323697e-07,
+          "versus_rounded_pure_decay_RMS": 3.4869992905323697e-07,
+          "quantization_sensitive": true
+        }
+      }
+    },
+    {
+      "step": 16,
+      "components": {
+        "task": {
+          "gain": {
+            "numel": 1,
+            "missing": 0,
+            "nonzero_tensors": 1,
+            "square_sum": 1.133452070682927e-09,
+            "gradient_RMS": 3.366677992744371e-05
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 0,
+            "nonzero_tensors": 12,
+            "square_sum": 1.3653081010167891e-05,
+            "gradient_RMS": 1.0640001266446471e-05
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 0,
+            "nonzero_tensors": 3,
+            "square_sum": 4.9492217741680893e-05,
+            "gradient_RMS": 0.00022246846460044825
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 0,
+            "nonzero_tensors": 4,
+            "square_sum": 5.347683654627832e-11,
+            "gradient_RMS": 2.253546928861148e-08
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 4.180756397018662e-13,
+            "gradient_RMS": 3.806883414536462e-09
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 139.83760016361524,
+            "gradient_RMS": 0.3737618255806147
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 0,
+            "nonzero_tensors": 2,
+            "square_sum": 0.09398743876078372,
+            "gradient_RMS": 0.009689868173281211
+          }
+        },
+        "context_penalty": {
+          "gain": {
+            "numel": 1,
+            "missing": 1,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "forward_fields": {
+            "numel": 120600,
+            "missing": 12,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "reader": {
+            "numel": 1000,
+            "missing": 3,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "role_head": {
+            "numel": 105301,
+            "missing": 4,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "message": {
+            "numel": 28848,
+            "missing": 0,
+            "nonzero_tensors": 30,
+            "square_sum": 1.8196973844618758e-18,
+            "gradient_RMS": 7.942216669027954e-12
+          },
+          "polarity_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          },
+          "magnitude_delta": {
+            "numel": 1001,
+            "missing": 2,
+            "nonzero_tensors": 0,
+            "square_sum": 0.0,
+            "gradient_RMS": 0.0
+          }
+        }
+      },
+      "updates": {
+        "gain": {
+          "sample_count": 1,
+          "full_tensors": 1,
+          "sampled_tensors": 0,
+          "changed_values": 1,
+          "beyond_decay_values": 1,
+          "actual_square_sum": 1.3833760805718326e-09,
+          "beyond_decay_square_sum": 1.3833760805718326e-09,
+          "actual_update_RMS": 3.719376400113106e-05,
+          "versus_rounded_pure_decay_RMS": 3.719376400113106e-05,
+          "quantization_sensitive": true
+        },
+        "forward_fields": {
+          "sample_count": 120600,
+          "full_tensors": 12,
+          "sampled_tensors": 0,
+          "changed_values": 91705,
+          "beyond_decay_values": 91705,
+          "actual_square_sum": 1.0182717375200907e-08,
+          "beyond_decay_square_sum": 1.0182717375200907e-08,
+          "actual_update_RMS": 2.905749629291345e-07,
+          "versus_rounded_pure_decay_RMS": 2.905749629291345e-07,
+          "quantization_sensitive": true
+        },
+        "reader": {
+          "sample_count": 1000,
+          "full_tensors": 3,
+          "sampled_tensors": 0,
+          "changed_values": 1000,
+          "beyond_decay_values": 1000,
+          "actual_square_sum": 1.5174192769567261e-10,
+          "beyond_decay_square_sum": 1.5174192769567261e-10,
+          "actual_update_RMS": 3.8954066244189783e-07,
+          "versus_rounded_pure_decay_RMS": 3.8954066244189783e-07,
+          "quantization_sensitive": true
+        },
+        "role_head": {
+          "sample_count": 105301,
+          "full_tensors": 4,
+          "sampled_tensors": 0,
+          "changed_values": 1122,
+          "beyond_decay_values": 1122,
+          "actual_square_sum": 1.9081562780575302e-11,
+          "beyond_decay_square_sum": 1.9081562780575302e-11,
+          "actual_update_RMS": 1.3461415286951301e-08,
+          "versus_rounded_pure_decay_RMS": 1.3461415286951301e-08,
+          "quantization_sensitive": true
+        },
+        "message": {
+          "sample_count": 28848,
+          "full_tensors": 30,
+          "sampled_tensors": 0,
+          "changed_values": 28358,
+          "beyond_decay_values": 25237,
+          "actual_square_sum": 3.5785606824254834e-07,
+          "beyond_decay_square_sum": 3.5754931763502264e-07,
+          "actual_update_RMS": 3.522056660516504e-06,
+          "versus_rounded_pure_decay_RMS": 3.520546801188925e-06,
+          "quantization_sensitive": true
+        },
+        "polarity_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.3852181897853805e-06,
+          "beyond_decay_square_sum": 1.3852246548321692e-06,
+          "actual_update_RMS": 3.719992413204563e-05,
+          "versus_rounded_pure_decay_RMS": 3.720001094110257e-05,
+          "quantization_sensitive": true
+        },
+        "magnitude_delta": {
+          "sample_count": 1001,
+          "full_tensors": 2,
+          "sampled_tensors": 0,
+          "changed_values": 1001,
+          "beyond_decay_values": 1001,
+          "actual_square_sum": 1.2562041841373208e-06,
+          "beyond_decay_square_sum": 1.2562101800688062e-06,
+          "actual_update_RMS": 3.5425262665256536e-05,
+          "versus_rounded_pure_decay_RMS": 3.5425347208516706e-05,
+          "quantization_sensitive": true
+        },
+        "other_encoder_decoder": {
+          "sample_count": 713,
+          "full_tensors": 0,
+          "sampled_tensors": 4,
+          "changed_values": 713,
+          "beyond_decay_values": 713,
+          "actual_square_sum": 9.937156527824007e-11,
+          "beyond_decay_square_sum": 9.937156527824007e-11,
+          "actual_update_RMS": 3.733243352585917e-07,
+          "versus_rounded_pure_decay_RMS": 3.733243352585917e-07,
+          "quantization_sensitive": true
+        }
+      }
+    }
+  ],
+  "decay_control": {
+    "gain": {
+      "sample_count": 1,
+      "full_tensors": 1,
+      "sampled_tensors": 0,
+      "changed_values": 0,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 0.0,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 0.0,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "forward_fields": {
+      "sample_count": 120600,
+      "full_tensors": 12,
+      "sampled_tensors": 0,
+      "changed_values": 120300,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 1.0112413785130037e-08,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 2.8957013066477963e-07,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "reader": {
+      "sample_count": 1000,
+      "full_tensors": 3,
+      "sampled_tensors": 0,
+      "changed_values": 900,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 1.0876311570637323e-08,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 3.297925343399593e-06,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "role_head": {
+      "sample_count": 105301,
+      "full_tensors": 4,
+      "sampled_tensors": 0,
+      "changed_values": 105150,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 4.995637565738751e-09,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 2.1781070142367497e-07,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "message": {
+      "sample_count": 28848,
+      "full_tensors": 30,
+      "sampled_tensors": 0,
+      "changed_values": 21648,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 2.4226890712970765e-07,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 2.8979506496166e-06,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "polarity_delta": {
+      "sample_count": 1001,
+      "full_tensors": 2,
+      "sampled_tensors": 0,
+      "changed_values": 0,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 0.0,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 0.0,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "magnitude_delta": {
+      "sample_count": 1001,
+      "full_tensors": 2,
+      "sampled_tensors": 0,
+      "changed_values": 0,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 0.0,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 0.0,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    },
+    "other_encoder_decoder": {
+      "sample_count": 713,
+      "full_tensors": 0,
+      "sampled_tensors": 4,
+      "changed_values": 713,
+      "beyond_decay_values": 0,
+      "actual_square_sum": 9.825128912613611e-11,
+      "beyond_decay_square_sum": 0.0,
+      "actual_update_RMS": 3.7121401441309374e-07,
+      "versus_rounded_pure_decay_RMS": 0.0,
+      "quantization_sensitive": true
+    }
+  }
+}

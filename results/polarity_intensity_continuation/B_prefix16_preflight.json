@@ -1,0 +1,53 @@
+{
+  "actual_UTC": "2026-10-08T20:36:50.003173+00:00",
+  "UUID": "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+  "compute": "",
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/polarity_intensity_regression_aux_qualified_20261008T203626Z/run_prefix16_capture_v1.py",
+    "--plan",
+    "/data/coding/polarity_intensity_regression_aux_qualified_20261008T203626Z/qualified_precheck_plan.json",
+    "--plan-sha",
+    "c9e2596a3f409c13c8c40e038370fedbd92b24bc5b880ab494064ee77bd99692",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B",
+    "--root",
+    "/data/coding/B_polarity_intensity_regression_aux_prefix16_actual_20261008T203626Z"
+  ],
+  "pid": 2256,
+  "source_SHA": "256ac8191bf7a609ff3e917078b402c6fc9434ed53110cfb9e923b5deeea629b",
+  "space": {
+    "total": 53619982336,
+    "used": 23602909184,
+    "free": 30017073152
+  },
+  "runtime_versions": {
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.2",
+    "colorama": "0.4.6",
+    "filelock": "3.15.4",
+    "fsspec": "2026.9.0",
+    "hf-xet": "1.6.0",
+    "huggingface-hub": "0.36.2",
+    "idna": "3.20",
+    "joblib": "1.4.2",
+    "numpy": "1.26.4",
+    "packaging": "24.1",
+    "pyyaml": "6.0.3",
+    "regex": "2026.9.29",
+    "requests": "2.32.3",
+    "safetensors": "0.8.0",
+    "scikit-learn": "1.5.2",
+    "scipy": "1.13.1",
+    "sentencepiece": "0.1.99",
+    "threadpoolctl": "3.5.0",
+    "tokenizers": "0.15.2",
+    "tqdm": "4.66.5",
+    "transformers": "4.37.2",
+    "typing-extensions": "4.16.0",
+    "urllib3": "2.8.0",
+    "torch": "2.1.0+cu121"
+  },
+  "remaining_seconds": 66191.24206,
+  "processes": "  PID  PPID COMMAND\n    1     0 s6-svscan -t 10 /etc/services.d/\n    7     1 s6-supervise 01sshd\n    8     1 s6-supervise 02codeserver\n    9     8 /bin/bash /usr/local/bin/code-server.sh\n   10     7 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n  232     9 /usr/lib/code-server/lib/node /usr/lib/code-server --trusted-origins=* /data/coding/coding.code-workspace\n  250   232 /usr/lib/code-server/lib/node /usr/lib/code-server/out/node/entry\n  532    10 sshd: root@pts/0\n  543   532 -bash\n  559    10 sshd: root@notty\n  570   559 /usr/lib/openssh/sftp-server\n 2256   543 /data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python /data/coding/polarity_intensity_regression_aux_qualified_20261008T203626Z/run_prefix16_capture_v1.py --plan /data/coding/polarity_intensity_regression_aux_qualified_20261008T203626Z/qualified_precheck_plan.json --plan-sha c9e2596a3f409c13c8c40e038370fedbd92b24bc5b880ab494064ee77bd99692 --assets /data/coding/multimodal_flow_public_20261008T175549Z_B --root /data/coding/B_polarity_intensity_regression_aux_prefix16_actual_20261008T203626Z\n 2259  2256 ps -eo pid,ppid,args --width 10000\n"
+}

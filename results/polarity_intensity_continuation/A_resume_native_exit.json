@@ -1,0 +1,13 @@
+{
+  "actual_UTC": "2026-10-08T20:46:31.908927+00:00",
+  "pid": 2119,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T174420Z/.venv/bin/python",
+    "/data/coding/polarity_intensity_resume_native_20261008T204150Z/qualify_resume_official_v1.py",
+    "--bundle",
+    "/data/coding/polarity_intensity_resume_native_20261008T204150Z",
+    "--out",
+    "/data/coding/A_polarity_intensity_resume_native_actual_20261008T204150Z/out"
+  ],
+  "natural_exit": 0
+}

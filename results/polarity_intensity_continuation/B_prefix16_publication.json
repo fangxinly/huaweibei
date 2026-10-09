@@ -1,0 +1,29 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 2465,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_polarity_intensity_B_prefix16_plan.json",
+    "--receipt",
+    "/data/coding/publish_polarity_intensity_B_prefix16_receipt.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "polarity-intensity-regression_aux-actual-prefix16-original.zip",
+      "bytes": 1182660705,
+      "sha256": "6761ee565714fbfde0da6352f9778a05f48646ff7eeee8d9247e80c36ecceae6",
+      "source_sha256": "6761ee565714fbfde0da6352f9778a05f48646ff7eeee8d9247e80c36ecceae6",
+      "source_offset": 0,
+      "id": 622960242,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/polarity-intensity-regression_aux-actual-prefix16-original.zip"
+    }
+  ],
+  "actual_UTC": "2026-10-08T20:46:33.776501+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

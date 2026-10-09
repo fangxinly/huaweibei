@@ -1,0 +1,24 @@
+{
+  "status": "POLARITY_INTENSITY_BOTH_MODES_PREFIX16_RESUME_TO40_CPU_TRAJECTORY_IDENTICAL",
+  "actual_UTC": "2026-10-08T20:55:21.769675+00:00",
+  "pid": 2742,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/polarity_intensity_resume_native_v2_20261008T205030Z/qualify_resume_official_v1.py",
+    "--bundle",
+    "/data/coding/polarity_intensity_resume_native_v2_20261008T205030Z",
+    "--out",
+    "/data/coding/B_polarity_intensity_resume_native_v2_actual_20261008T205030Z/out"
+  ],
+  "UUID": "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+  "source_SHA": "9f8e3e4247d6e09c4d6d3e101667dd1dda703509dc1ccadc85e57cc106853a8c",
+  "candidate_SHA": "3f6d09d324e063d366a74d25b3a19b8b00664a4cb026ef4f0efe0d5fbd223681",
+  "qualified_modes": [
+    "regression_aux",
+    "factorized_aux"
+  ],
+  "prefix_counted_once": true,
+  "prediction_parameter_Adam_scheduler_python_numpy_torch_RNG_identical": true,
+  "real_TRAIN": false,
+  "final_steps": 40
+}

@@ -1,0 +1,12 @@
+{
+  "status": "CANDIDATE_NATIVE_COMPLETE",
+  "actual_UTC": "2026-10-08T20:34:12.390949+00:00",
+  "node": "B",
+  "child_PID": 2123,
+  "natural_exit": 0,
+  "archive": "/data/coding/B_polarity_intensity_native_actual_20261008T203225Z/complete_native_original.zip",
+  "archive_SHA": "54692af7085f8f6fb4e8ad9b926ea4cd96ead17a3abdf9c0179c79b9219bc033",
+  "archive_bytes": 345539,
+  "ZIP_CRC_unique_all_members": true,
+  "real_TRAIN": false
+}

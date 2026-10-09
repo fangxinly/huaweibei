@@ -1,0 +1,59 @@
+{
+  "status": "NATIVE_RECOVERY400_TO440_BOTH_MODES_TWO_NODES_C_D_ALL_ORIGINAL_SHA_CRC_UNIQUE_VERIFIED",
+  "actualclock_UTC": "2026-10-09 00:09:29 UTC",
+  "D_original": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_recovery_native_20261009T000929Z\\complete_native_success_and_failure_small_originals.zip",
+  "archive_SHA": "b1040bc452a5aed0aa2ab1ef60fc200b8fdd2f8a34be32f72431d582c157a502",
+  "bytes": 18855324,
+  "proofs": {
+    "A_recovery400_first_native_failure": {
+      "status": "CANDIDATE_NATIVE_FAILED",
+      "actual_UTC": "2026-10-09T00:06:45.807585+00:00",
+      "node": "A",
+      "child_PID": 2628,
+      "natural_exit": 1,
+      "archive": "/data/coding/A_recovery400_native_actual_20261009T000700Z/complete_native_original.zip",
+      "archive_SHA": "760eb4ad82c0693f258b753bd1234e3a567a783f44a9a952d048d9d231704f81",
+      "archive_bytes": 3256193,
+      "ZIP_CRC_unique_all_members": true,
+      "real_TRAIN": false
+    },
+    "A_recovery400_native": {
+      "status": "CANDIDATE_NATIVE_COMPLETE",
+      "actual_UTC": "2026-10-09T00:08:54.840881+00:00",
+      "node": "A",
+      "child_PID": 2736,
+      "natural_exit": 0,
+      "archive": "/data/coding/A_recovery400_native_actual_20261009T000900Z/complete_native_original.zip",
+      "archive_SHA": "7cf846f5bbb0381233cd77b7fcf408b53680de9123f5d95c9d85f823ed6fc6d5",
+      "archive_bytes": 6186956,
+      "ZIP_CRC_unique_all_members": true,
+      "real_TRAIN": false
+    },
+    "B_recovery400_first_native_failure": {
+      "status": "CANDIDATE_NATIVE_FAILED",
+      "actual_UTC": "2026-10-09T00:06:39.253310+00:00",
+      "node": "B",
+      "child_PID": 3121,
+      "natural_exit": 1,
+      "archive": "/data/coding/B_recovery400_native_actual_20261009T000700Z/complete_native_original.zip",
+      "archive_SHA": "8d85a5fd4cadf11f5c5fb0a86a82a8beb3d3c6b8b78235dd2890de83ce551c72",
+      "archive_bytes": 3256193,
+      "ZIP_CRC_unique_all_members": true,
+      "real_TRAIN": false
+    },
+    "B_recovery400_native": {
+      "status": "CANDIDATE_NATIVE_COMPLETE",
+      "actual_UTC": "2026-10-09T00:08:59.666537+00:00",
+      "node": "B",
+      "child_PID": 3260,
+      "natural_exit": 0,
+      "archive": "/data/coding/B_recovery400_native_actual_20261009T000900Z/complete_native_original.zip",
+      "archive_SHA": "7d8be9be969cc20faa454b18c4f1937042e7d7bcb590f412404cc15c3e102097",
+      "archive_bytes": 6186967,
+      "ZIP_CRC_unique_all_members": true,
+      "real_TRAIN": false
+    }
+  },
+  "real_recovery_started": false,
+  "prior_training_natural_exit_unknown": true
+}

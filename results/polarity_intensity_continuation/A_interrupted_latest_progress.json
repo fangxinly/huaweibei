@@ -1,0 +1,15 @@
+{
+  "actual_UTC": "2026-10-08T21:59:31.211218+00:00",
+  "epoch": 97,
+  "steps": 3880,
+  "TRAIN_objective": 0.008245361666195095,
+  "DEV_batch_MSE": 0.6918270061223526,
+  "best_epoch": 73,
+  "best_MSE": 0.6832845743042053,
+  "dropped_rows": [
+    552
+  ],
+  "prediction_SHA": "8a07402727c6d3282df17e36c01a415bb871a46a837822949a73136b7dd127a9",
+  "state_SHA": "eb03fa9829207c61e2723c7ef0651be5e351d9724607111de21116a33bc2980b",
+  "seconds": 36.17289776355028
+}

@@ -110,3 +110,8 @@ python work/polarity_intensity_official_v1/integration_contract.py scratch/polar
 ## 最新完整MSE实验
 
 [官方VAL/TEST全五项、原状态与独立核验](docs/autonomous_mse_training.md)：100轮/4000更新完成，VAL选65；VAL MAE0.608080，TEST0.652712，未超过CaReFlow TEST0.619535。B从冻结原NPZ独立重算最大差异5.55e-16；完整原状态及失败核验原件均保留。[Release](https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008)。新极性/强度匹配两臂源码正在原环境资格核验，尚无真实性能结果。
+
+
+## 原流极性与强度升级
+
+[真实两臂续训、中断及恢复记录](docs/polarity_intensity_training.md)。完整prefix16已保存并跨服务器CPU通过；100续训在97/96轮中断，尚无新最终VAL/TEST五项，完整400状态恢复资格已核验，禁止将选模MSE当MAE。
