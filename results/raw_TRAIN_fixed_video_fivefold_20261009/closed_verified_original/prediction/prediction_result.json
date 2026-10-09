@@ -1,0 +1,20 @@
+{
+  "status": "RAW_TRAIN_FIXED_FIVEFOLD_PREDICTIONS_COMPLETE_METRICS_NOT_YET_COMPUTED",
+  "actual_UTC": "2026-10-09T19:46:34.838251+00:00",
+  "prediction_SHA": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+  "states_SHA": "b50f61d9f3189be5836a7905c176e27432fae8be1a91ff6c55df65e20bafeacc",
+  "protocol_SHA": "b7888c0c4fe51b559f6135c82bc38bdde49510168f1e28bd7cc2f20dc3c3bb2b",
+  "TRAIN_rows": 1281,
+  "video_groups": 52,
+  "decoder_ledger": {
+    "decoded_arrays": 3843,
+    "decoded_roles": [
+      "train"
+    ],
+    "decoded_TRAIN_labels": 1281
+  },
+  "VAL_TEST_numeric_decode": false,
+  "official_AB_tokens_untouched": true,
+  "no_AB_model_forward": true,
+  "no_performance_or_mechanism_claim": true
+}

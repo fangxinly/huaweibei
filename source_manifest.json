@@ -3880,6 +3880,294 @@
       "sanitizations": {}
     },
     {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/D_C_state_sync_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\D_C_state_sync_receipt.json",
+      "kind": "result",
+      "bytes": 137,
+      "original_sha256": "053bf9029927a3362b2da648c2b4dac3e079dec092be6f272d9ab14ffe99e56d",
+      "published_sha256": "053bf9029927a3362b2da648c2b4dac3e079dec092be6f272d9ab14ffe99e56d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/TRAIN固定视频五折实际结果.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\TRAIN固定视频五折实际结果.md",
+      "kind": "result",
+      "bytes": 1214,
+      "original_sha256": "d2a443a8c9bbb72ea16dfb338cd590598a3509d41a296be8c1f2660c717f1a0b",
+      "published_sha256": "d2a443a8c9bbb72ea16dfb338cd590598a3509d41a296be8c1f2660c717f1a0b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/analysis_batch_sent_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\analysis_batch_sent_receipt.json",
+      "kind": "result",
+      "bytes": 413,
+      "original_sha256": "de3556a894b0ddc4dc19fa0ce580ed0cdd418cdbca429564778d8a7d9bec31f5",
+      "published_sha256": "de3556a894b0ddc4dc19fa0ce580ed0cdd418cdbca429564778d8a7d9bec31f5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/TRAIN_raw_conditional_ridge_core_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\TRAIN_raw_conditional_ridge_core_v1.py",
+      "kind": "result",
+      "bytes": 3517,
+      "original_sha256": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+      "published_sha256": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/TRAIN_raw_probe_driver_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\TRAIN_raw_probe_driver_v1.py",
+      "kind": "result",
+      "bytes": 11653,
+      "original_sha256": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+      "published_sha256": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/TRAIN_raw_probe_report_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\TRAIN_raw_probe_report_v1.py",
+      "kind": "result",
+      "bytes": 3944,
+      "original_sha256": "401a55db6a78e42d4301985ebde20388b91c354e05b5548f44ef6f00aa72afed",
+      "published_sha256": "401a55db6a78e42d4301985ebde20388b91c354e05b5548f44ef6f00aa72afed",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/TRAIN_video_fivefold_rows.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\TRAIN_video_fivefold_rows.json",
+      "kind": "result",
+      "bytes": 178995,
+      "original_sha256": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+      "published_sha256": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/execution_plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\execution_plan.json",
+      "kind": "result",
+      "bytes": 1608,
+      "original_sha256": "ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7",
+      "published_sha256": "ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/frozen_raw_TRAIN_probe_protocol.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\frozen_raw_TRAIN_probe_protocol.json",
+      "kind": "result",
+      "bytes": 3829,
+      "original_sha256": "b7888c0c4fe51b559f6135c82bc38bdde49510168f1e28bd7cc2f20dc3c3bb2b",
+      "published_sha256": "b7888c0c4fe51b559f6135c82bc38bdde49510168f1e28bd7cc2f20dc3c3bb2b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/bundle/raw_TRAIN_capture_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\bundle\\raw_TRAIN_capture_v1.py",
+      "kind": "result",
+      "bytes": 2597,
+      "original_sha256": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+      "published_sha256": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_Release_receipt.json",
+      "kind": "result",
+      "bytes": 715,
+      "original_sha256": "f9316466e6856775ca3a519366f24655cf5395c40b89e3e88aaa2b0cc49cc633",
+      "published_sha256": "f9316466e6856775ca3a519366f24655cf5395c40b89e3e88aaa2b0cc49cc633",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/analysis/TRAIN_finite_prediction_report.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\analysis\\TRAIN_finite_prediction_report.json",
+      "kind": "result",
+      "bytes": 41871,
+      "original_sha256": "ab49fc87b77c3a3004eedfca2e3d08e49c68c7650d52c12f0c947875ebc3d137",
+      "published_sha256": "ab49fc87b77c3a3004eedfca2e3d08e49c68c7650d52c12f0c947875ebc3d137",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/analysis/saved_fit_CPU_audit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\analysis\\saved_fit_CPU_audit.json",
+      "kind": "result",
+      "bytes": 4150,
+      "original_sha256": "adb0a4bc9e95f7c0f2979cee946850b5f6d83dd1bac55f580cef9a48e509e705",
+      "published_sha256": "adb0a4bc9e95f7c0f2979cee946850b5f6d83dd1bac55f580cef9a48e509e705",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/audit_report_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\audit_report_natural_exit.json",
+      "kind": "result",
+      "bytes": 160,
+      "original_sha256": "975ee67e4ac577dde9b8425d8644d9e73b4cefbf3deaba2dd9d1f22a28d2c2e1",
+      "published_sha256": "975ee67e4ac577dde9b8425d8644d9e73b4cefbf3deaba2dd9d1f22a28d2c2e1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/audit_report_qualification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\audit_report_qualification.json",
+      "kind": "result",
+      "bytes": 249,
+      "original_sha256": "fe9154e849e42dc17516300a94a9ef67e7d7d96f0020ef43e4756f7fff1dce61",
+      "published_sha256": "fe9154e849e42dc17516300a94a9ef67e7d7d96f0020ef43e4756f7fff1dce61",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\natural_exit.json",
+      "kind": "result",
+      "bytes": 175,
+      "original_sha256": "d6723eb2855c42308992901caf21c6377e19350f66e91046e3bfe029df1366ba",
+      "published_sha256": "d6723eb2855c42308992901caf21c6377e19350f66e91046e3bfe029df1366ba",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/prediction/TRAIN_decoder_ledger.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\prediction\\TRAIN_decoder_ledger.json",
+      "kind": "result",
+      "bytes": 99,
+      "original_sha256": "b9f6ecd9cf9629d3d88b6d9e2d1896a9327739d374cfce5a495c556cf77b13dd",
+      "published_sha256": "b9f6ecd9cf9629d3d88b6d9e2d1896a9327739d374cfce5a495c556cf77b13dd",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/prediction/fit_identity_records.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\prediction\\fit_identity_records.json",
+      "kind": "result",
+      "bytes": 6515,
+      "original_sha256": "efbe0fcb6fc74f8ba9f19b92a39ea378d20b548b4d9a89f679610989a11af73e",
+      "published_sha256": "efbe0fcb6fc74f8ba9f19b92a39ea378d20b548b4d9a89f679610989a11af73e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/prediction/fresh_preflight.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\prediction\\fresh_preflight.json",
+      "kind": "result",
+      "bytes": 2957,
+      "original_sha256": "b897a937688041266a956a2b1c27c1f7151114d09f3adf22512bae6308551607",
+      "published_sha256": "b897a937688041266a956a2b1c27c1f7151114d09f3adf22512bae6308551607",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/prediction/prediction_result.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\prediction\\prediction_result.json",
+      "kind": "result",
+      "bytes": 727,
+      "original_sha256": "f3703abf4bfcd488f08782db5fd67b3087aa3ed2864e31db65d8e7a54791ee59",
+      "published_sha256": "f3703abf4bfcd488f08782db5fd67b3087aa3ed2864e31db65d8e7a54791ee59",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/closed_verified_original/remote_qualification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\closed_verified_original\\remote_qualification.json",
+      "kind": "result",
+      "bytes": 1544,
+      "original_sha256": "8458cc1720f3055c07b420bbc6827edc27aab4a801fe6a819d10360c7a56be3e",
+      "published_sha256": "8458cc1720f3055c07b420bbc6827edc27aab4a801fe6a819d10360c7a56be3e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/prediction_D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\prediction_D_preservation_receipt.json",
+      "kind": "result",
+      "bytes": 784,
+      "original_sha256": "ede850716545eaa18d66c96716f667b983fb7a54e94d1886504494ab3de5c544",
+      "published_sha256": "ede850716545eaa18d66c96716f667b983fb7a54e94d1886504494ab3de5c544",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/prediction_Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\prediction_Release_receipt.json",
+      "kind": "result",
+      "bytes": 696,
+      "original_sha256": "c804a5b377ab69b72eabd3810071114a9811ef2eaf5b518302ff3b2c992002c2",
+      "published_sha256": "c804a5b377ab69b72eabd3810071114a9811ef2eaf5b518302ff3b2c992002c2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/prepared_reference.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\prepared_reference.json",
+      "kind": "result",
+      "bytes": 605,
+      "original_sha256": "4ac0a0fc2dc1dbe77accd5676b25e479c39521f6e9fb691d91804c5edb6eb1eb",
+      "published_sha256": "4ac0a0fc2dc1dbe77accd5676b25e479c39521f6e9fb691d91804c5edb6eb1eb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/raw_TRAIN_complete_D_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\raw_TRAIN_complete_D_receipt.json",
+      "kind": "result",
+      "bytes": 2308,
+      "original_sha256": "d712945bc79db9f24a655b3f2949bdedbf43a1b289d4ad3a4d065b5082ff4279",
+      "published_sha256": "d712945bc79db9f24a655b3f2949bdedbf43a1b289d4ad3a4d065b5082ff4279",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/finalize_raw_TRAIN_actual_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\finalize_raw_TRAIN_actual_v1.py",
+      "kind": "result",
+      "bytes": 6506,
+      "original_sha256": "e327430a1e9eeeefc5f64d1c9cb73ed226cd237aa8de8525f3031ef0f75b4bf3",
+      "published_sha256": "e327430a1e9eeeefc5f64d1c9cb73ed226cd237aa8de8525f3031ef0f75b4bf3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/prepare_raw_TRAIN_retry_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\prepare_raw_TRAIN_retry_v1.py",
+      "kind": "result",
+      "bytes": 3276,
+      "original_sha256": "3e8464d53fb5476967bfc1db16c92c1995c6e44f3e5e281ddfd6b7704a058326",
+      "published_sha256": "3e8464d53fb5476967bfc1db16c92c1995c6e44f3e5e281ddfd6b7704a058326",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/publish_raw_TRAIN_report_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\publish_raw_TRAIN_report_v1.py",
+      "kind": "result",
+      "bytes": 3454,
+      "original_sha256": "ceaf80175586d431288c76eb78c65064818442974b62597477b3c195e815c8a1",
+      "published_sha256": "ceaf80175586d431288c76eb78c65064818442974b62597477b3c195e815c8a1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/raw_TRAIN_audit_report_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\raw_TRAIN_audit_report_v1.py",
+      "kind": "result",
+      "bytes": 6668,
+      "original_sha256": "c78be91fc4b64e8d8930ff02b276b231ec6e4422153282bc46f334fad29e759c",
+      "published_sha256": "c78be91fc4b64e8d8930ff02b276b231ec6e4422153282bc46f334fad29e759c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/raw_TRAIN_capture_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\raw_TRAIN_capture_v1.py",
+      "kind": "result",
+      "bytes": 2597,
+      "original_sha256": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+      "published_sha256": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/raw_TRAIN_finalize_metadata_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\raw_TRAIN_finalize_metadata_v1.py",
+      "kind": "result",
+      "bytes": 3452,
+      "original_sha256": "f580cdad0bb08fc2118cf5c8eb9c441a92876799db21c9cdb2b0047f1be3d3db",
+      "published_sha256": "f580cdad0bb08fc2118cf5c8eb9c441a92876799db21c9cdb2b0047f1be3d3db",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/raw_TRAIN_save_and_publish_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\raw_TRAIN_save_and_publish_v1.py",
+      "kind": "result",
+      "bytes": 4923,
+      "original_sha256": "91cd7e796e8af4137cebaf6c7720a347acdc975a457ab47945de60ed1559e06c",
+      "published_sha256": "91cd7e796e8af4137cebaf6c7720a347acdc975a457ab47945de60ed1559e06c",
+      "sanitizations": {}
+    },
+    {
       "path": "results/release_asset_manifest.json",
       "origin": "release_publication_finalization",
       "kind": "publication_result",

@@ -1,0 +1,5 @@
+{
+  "natural_exit": 0,
+  "output": "{\"status\": \"SYNTHETIC_SAVED_RIDGE_AUDIT_QUALIFIED\", \"wrong_coefficients_rejected\": true, \"real_data_loaded\": false}\n",
+  "source_SHA": "c78be91fc4b64e8d8930ff02b276b231ec6e4422153282bc46f334fad29e759c"
+}

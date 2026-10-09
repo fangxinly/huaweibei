@@ -1,0 +1,13 @@
+{
+  "actual_UTC": "2026-10-09T19:48:06.198983+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\remote_original\\complete_actual_raw_TRAIN_capture.zip",
+  "archive_SHA": "23ff304405386bbc14fa38033f9985427171b26b0146cc149af1e395cb203a54",
+  "archive_bytes": 536999,
+  "natural_exit": 0,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "inner_prediction_archive_SHA": "d33bc7528c1ade2aa201c5567c31409d03d4264deb9d24b57a42f263a4c88817",
+  "prediction_SHA": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+  "plan_SHA": "ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7",
+  "metrics_not_computed": true,
+  "content_members": 29
+}

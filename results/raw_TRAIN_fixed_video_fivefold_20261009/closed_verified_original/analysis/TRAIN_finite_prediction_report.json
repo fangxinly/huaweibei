@@ -1,0 +1,1765 @@
+{
+  "status": "FINITE_RAW_TRAIN_ESTIMATOR_DESCRIPTIVE_REPORT",
+  "rows": 1281,
+  "videos": 52,
+  "pooled_row_weighted_MSE": {
+    "T": 2.1579748261017837,
+    "T_A": 3.3320438089828355,
+    "T_V": 10.407500872574273,
+    "T_A_V": 14.945894099502395
+  },
+  "paired_comparisons": [
+    {
+      "baseline": "T",
+      "augmented": "T_A",
+      "pooled_row_MSE_reduction": -1.1740689828810518
+    },
+    {
+      "baseline": "T",
+      "augmented": "T_V",
+      "pooled_row_MSE_reduction": -8.24952604647249
+    },
+    {
+      "baseline": "T_A",
+      "augmented": "T_A_V",
+      "pooled_row_MSE_reduction": -11.61385029051956
+    },
+    {
+      "baseline": "T_V",
+      "augmented": "T_A_V",
+      "pooled_row_MSE_reduction": -4.538393226928122
+    }
+  ],
+  "per_video": [
+    {
+      "video_id": "03bSnISJMiM",
+      "fold": 2,
+      "rows": 13,
+      "MSE": {
+        "T": 1.2640933693756773,
+        "T_A": 1.2436818329415997,
+        "T_V": 1.2639905584937183,
+        "T_A_V": 1.234868467915709
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.02041153643407756
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.00010281088195895904
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.008813365025890807
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.029122090578009407
+        }
+      ]
+    },
+    {
+      "video_id": "0h-zjBukYpk",
+      "fold": 1,
+      "rows": 25,
+      "MSE": {
+        "T": 1.9375371524302167,
+        "T_A": 1.7089898558003633,
+        "T_V": 1.9439718605061227,
+        "T_A_V": 1.722240202066816
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.2285472966298534
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.006434708075905959
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.013250346266452606
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.22173165843930676
+        }
+      ]
+    },
+    {
+      "video_id": "1DmNV9C1hbY",
+      "fold": 1,
+      "rows": 14,
+      "MSE": {
+        "T": 2.565446118653611,
+        "T_A": 2.3570973509026394,
+        "T_V": 2.7117165929247853,
+        "T_A_V": 2.4899925831716456
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.20834876775097166
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.14627047427117423
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.13289523226900624
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.22172400975313966
+        }
+      ]
+    },
+    {
+      "video_id": "1iG0909rllw",
+      "fold": 1,
+      "rows": 30,
+      "MSE": {
+        "T": 1.7333064586152838,
+        "T_A": 1.7800425301689502,
+        "T_V": 1.719146188594068,
+        "T_A_V": 1.7582342685410288
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.046736071553666436
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.014160270021215782
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.021808261627921377
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.03908807994696084
+        }
+      ]
+    },
+    {
+      "video_id": "2WGyTLYerpo",
+      "fold": 0,
+      "rows": 62,
+      "MSE": {
+        "T": 1.4033304236912378,
+        "T_A": 25.774398289712664,
+        "T_V": 1.3703796478615766,
+        "T_A_V": 22.54309649654899
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -24.371067866021427
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.032950775829661216
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 3.2313017931636736
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -21.172716848687415
+        }
+      ]
+    },
+    {
+      "video_id": "2iD-tVS8NPw",
+      "fold": 0,
+      "rows": 30,
+      "MSE": {
+        "T": 1.9397317771192732,
+        "T_A": 2.085337122784319,
+        "T_V": 1.9902199616023308,
+        "T_A_V": 2.134861643870721
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.1456053456650459
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.050488184483057585
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.04952452108640193
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.14464168226839025
+        }
+      ]
+    },
+    {
+      "video_id": "5W7Z1C_fDaE",
+      "fold": 2,
+      "rows": 23,
+      "MSE": {
+        "T": 2.3037876759527136,
+        "T_A": 2.2050293558423943,
+        "T_V": 2.241817969277457,
+        "T_A_V": 2.2407017134375598
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.09875832011031926
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.061969706675256475
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.035672357595165405
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.0011162558398973843
+        }
+      ]
+    },
+    {
+      "video_id": "6Egk_28TtTM",
+      "fold": 3,
+      "rows": 12,
+      "MSE": {
+        "T": 2.973934223969062,
+        "T_A": 2.8487009516200827,
+        "T_V": 2.632687990689293,
+        "T_A_V": 2.498554894242218
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.12523327234897907
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.3412462332797688
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.35014605737786475
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.13413309644707505
+        }
+      ]
+    },
+    {
+      "video_id": "6_0THN4chvY",
+      "fold": 3,
+      "rows": 14,
+      "MSE": {
+        "T": 1.4224886632545102,
+        "T_A": 1.7826534172858228,
+        "T_V": 1.4290054046920975,
+        "T_A_V": 1.7934045131051053
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.36016475403131265
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.006516741437587292
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.010751095819282463
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.3643991084130078
+        }
+      ]
+    },
+    {
+      "video_id": "73jzhE8R1TQ",
+      "fold": 1,
+      "rows": 19,
+      "MSE": {
+        "T": 1.1110786821498175,
+        "T_A": 1.0655310947871042,
+        "T_V": 1.1358810637611083,
+        "T_A_V": 1.0683863557495141
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.04554758736271336
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.02480238161129078
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.0028552609624099556
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.06749470801159418
+        }
+      ]
+    },
+    {
+      "video_id": "7JsX8y1ysxY",
+      "fold": 3,
+      "rows": 39,
+      "MSE": {
+        "T": 2.159134795784976,
+        "T_A": 2.0872434484038505,
+        "T_V": 2.151004147509789,
+        "T_A_V": 2.0877289892799493
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.07189134738112557
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.008130648275186836
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.00048554087609886665
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.06327515822983987
+        }
+      ]
+    },
+    {
+      "video_id": "8OtFthrtaJM",
+      "fold": 3,
+      "rows": 23,
+      "MSE": {
+        "T": 3.245191257128287,
+        "T_A": 3.2833078546065497,
+        "T_V": 3.2781321877550194,
+        "T_A_V": 3.308219284382242
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.038116597478262904
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.032940930626732534
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.024911429775692273
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.030087096627222643
+        }
+      ]
+    },
+    {
+      "video_id": "8d-gEyoeBzc",
+      "fold": 4,
+      "rows": 30,
+      "MSE": {
+        "T": 1.3856359605584123,
+        "T_A": 1.513467542786098,
+        "T_V": 1.2672330341604954,
+        "T_A_V": 1.4283260225116339
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.12783158222768565
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.11840292639791694
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.08514152027446409
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.1610929883511385
+        }
+      ]
+    },
+    {
+      "video_id": "8qrpnFRGt2A",
+      "fold": 0,
+      "rows": 26,
+      "MSE": {
+        "T": 1.9500384719998938,
+        "T_A": 2.091161405440044,
+        "T_V": 2.009597433783836,
+        "T_A_V": 2.1826012901998832
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.14112293344015003
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.059558961783942044
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.09143988475983944
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.17300385641604743
+        }
+      ]
+    },
+    {
+      "video_id": "9J25DZhivz8",
+      "fold": 4,
+      "rows": 25,
+      "MSE": {
+        "T": 2.5787353513591147,
+        "T_A": 1.7117025232425371,
+        "T_V": 2.5347343691457365,
+        "T_A_V": 1.72902329866076
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.8670328281165776
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.044000982213378226
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.017320775418222967
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.8057110704849764
+        }
+      ]
+    },
+    {
+      "video_id": "9T9Hf74oK10",
+      "fold": 0,
+      "rows": 25,
+      "MSE": {
+        "T": 1.6536976686596068,
+        "T_A": 1.6271111046981466,
+        "T_V": 1.7706459283841698,
+        "T_A_V": 1.7332088631321354
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.026586563961460197
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.11694825972456302
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.10609775843398883
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.037437065252034385
+        }
+      ]
+    },
+    {
+      "video_id": "9c67fiY0wGQ",
+      "fold": 1,
+      "rows": 12,
+      "MSE": {
+        "T": 2.4272178513093317,
+        "T_A": 1.491448802789287,
+        "T_V": 2.404644072648577,
+        "T_A_V": 1.4942062367108404
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.9357690485200447
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.022573778660754495
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.002757433921553476
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.9104378359377368
+        }
+      ]
+    },
+    {
+      "video_id": "9qR7uwkblbs",
+      "fold": 4,
+      "rows": 33,
+      "MSE": {
+        "T": 1.8169520325111412,
+        "T_A": 1.9349335564170151,
+        "T_V": 1.8616114784939481,
+        "T_A_V": 1.927254757350299
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.11798152390587391
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.04465944598280691
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.007678799066716202
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.0656432788563508
+        }
+      ]
+    },
+    {
+      "video_id": "Af8D0E4ZXaw",
+      "fold": 0,
+      "rows": 31,
+      "MSE": {
+        "T": 2.1245883134332075,
+        "T_A": 2.0685268418928437,
+        "T_V": 2.2605609001634255,
+        "T_A_V": 2.2208404417681358
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.05606147154036378
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.13597258673021795
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.15231359987529203
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.039720458395289704
+        }
+      ]
+    },
+    {
+      "video_id": "BI97DNYfe5I",
+      "fold": 3,
+      "rows": 31,
+      "MSE": {
+        "T": 1.8261702333576182,
+        "T_A": 2.0297750929525664,
+        "T_V": 1.9732948216623787,
+        "T_A_V": 2.165086537406373
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.20360485959494823
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.1471245883047605
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.13531144445380638
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.19179171574399412
+        }
+      ]
+    },
+    {
+      "video_id": "BXuRRbG0Ugk",
+      "fold": 4,
+      "rows": 31,
+      "MSE": {
+        "T": 1.508143302573929,
+        "T_A": 1.5141356744023338,
+        "T_V": 1.469366316859302,
+        "T_A_V": 1.4660743214324496
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.00599237182840473
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.038776985714626955
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.04806135296988412
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.0032919954268524343
+        }
+      ]
+    },
+    {
+      "video_id": "Bfr499ggo-0",
+      "fold": 1,
+      "rows": 22,
+      "MSE": {
+        "T": 1.9883926073328468,
+        "T_A": 2.1322133718140717,
+        "T_V": 1.980429424026206,
+        "T_A_V": 2.104021061668741
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.14382076448122483
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.00796318330664092
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.028192310145330524
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.12359163764253522
+        }
+      ]
+    },
+    {
+      "video_id": "BioHAh1qJAQ",
+      "fold": 2,
+      "rows": 29,
+      "MSE": {
+        "T": 2.5531613180424952,
+        "T_A": 2.496569805037947,
+        "T_V": 2.53890018045137,
+        "T_A_V": 2.493515999421041
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.05659151300454823
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.014261137591125461
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.003053805616906047
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.04538418103032882
+        }
+      ]
+    },
+    {
+      "video_id": "BvYR0L6f2Ig",
+      "fold": 3,
+      "rows": 26,
+      "MSE": {
+        "T": 2.4329586097807328,
+        "T_A": 2.378506514667976,
+        "T_V": 2.5236207051996478,
+        "T_A_V": 2.5075463676363565
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.05445209511275673
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.09066209541891501
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.1290398529683805
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.01607433756329124
+        }
+      ]
+    },
+    {
+      "video_id": "Ci-AH39fi3Y",
+      "fold": 2,
+      "rows": 44,
+      "MSE": {
+        "T": 2.2129354306029088,
+        "T_A": 2.298408937627708,
+        "T_V": 2.2410996382583313,
+        "T_A_V": 2.333759413545344
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.08547350702479939
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.02816420765542249
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.03535047591763574
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.09265977528701264
+        }
+      ]
+    },
+    {
+      "video_id": "Clx4VXItLTE",
+      "fold": 2,
+      "rows": 31,
+      "MSE": {
+        "T": 0.8613737392054761,
+        "T_A": 0.8596369181491508,
+        "T_V": 0.8492546634086404,
+        "T_A_V": 0.8481665129704645
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.0017368210563253328
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.012119075796835688
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.01147040517868625
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.0010881504381758944
+        }
+      ]
+    },
+    {
+      "video_id": "Dg_0XKD0Mf4",
+      "fold": 2,
+      "rows": 18,
+      "MSE": {
+        "T": 1.2616017928945484,
+        "T_A": 1.4374521020231954,
+        "T_V": 1.260029801938773,
+        "T_A_V": 1.4320185657190014
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.17585030912864696
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.0015719909557754264
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.005433536304193964
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.17198876378022843
+        }
+      ]
+    },
+    {
+      "video_id": "G-xst2euQUc",
+      "fold": 4,
+      "rows": 21,
+      "MSE": {
+        "T": 1.7547920793003648,
+        "T_A": 1.7228448772344913,
+        "T_V": 1.8269706265648875,
+        "T_A_V": 1.7847468488699345
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.03194720206587354
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.07217854726452266
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.0619019716354432
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.042223777694953
+        }
+      ]
+    },
+    {
+      "video_id": "G6GlGvlkxAQ",
+      "fold": 1,
+      "rows": 29,
+      "MSE": {
+        "T": 1.5778386074680204,
+        "T_A": 1.6311436650692481,
+        "T_V": 1.5571016940663776,
+        "T_A_V": 1.6417065713898873
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.05330505760122772
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.020736913401642854
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.010562906320639165
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.08460487732350974
+        }
+      ]
+    },
+    {
+      "video_id": "GWuJjcEuzt8",
+      "fold": 3,
+      "rows": 18,
+      "MSE": {
+        "T": 1.3158622242532627,
+        "T_A": 1.2236621130301417,
+        "T_V": 1.3081975244698003,
+        "T_A_V": 1.211353906547532
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.092200111223121
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.007664699783462403
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.012308206482609663
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.09684361792226825
+        }
+      ]
+    },
+    {
+      "video_id": "HEsqda8_d0Q",
+      "fold": 3,
+      "rows": 34,
+      "MSE": {
+        "T": 2.001953965296408,
+        "T_A": 1.8502211586162705,
+        "T_V": 2.027292790215782,
+        "T_A_V": 1.8746250158482785
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.15173280668013756
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.02533882491937378
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.024403857232007997
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.15266777436750334
+        }
+      ]
+    },
+    {
+      "video_id": "I5y0__X72p0",
+      "fold": 4,
+      "rows": 39,
+      "MSE": {
+        "T": 1.4916293785366217,
+        "T_A": 2.2136952293845127,
+        "T_V": 1.6272065477905822,
+        "T_A_V": 2.2226281030359596
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.722065850847891
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.13557716925396046
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.008932873651446904
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.5954215552453774
+        }
+      ]
+    },
+    {
+      "video_id": "Iu2PFX3z_1s",
+      "fold": 4,
+      "rows": 16,
+      "MSE": {
+        "T": 1.9892731245884225,
+        "T_A": 1.971404753212085,
+        "T_V": 649.1031297837193,
+        "T_A_V": 926.7280076983557
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.017868371376337455
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -647.1138566591309
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -924.7566029451435
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -277.6248779146364
+        }
+      ]
+    },
+    {
+      "video_id": "IumbAb8q2dM",
+      "fold": 3,
+      "rows": 22,
+      "MSE": {
+        "T": 2.472227011804725,
+        "T_A": 2.0442779735327474,
+        "T_V": 2.4785888214501255,
+        "T_A_V": 2.053104472710567
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.4279490382719775
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.006361809645400562
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.008826499177819525
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.42548434873955854
+        }
+      ]
+    },
+    {
+      "video_id": "Jkswaaud0hk",
+      "fold": 2,
+      "rows": 20,
+      "MSE": {
+        "T": 1.312713147166514,
+        "T_A": 1.3608013442305864,
+        "T_V": 1.47195206494262,
+        "T_A_V": 1.6458203451426496
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.0480881970640723
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.159238917776106
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.2850190009120632
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.17386828020002953
+        }
+      ]
+    },
+    {
+      "video_id": "LSi-o-IrDMs",
+      "fold": 3,
+      "rows": 29,
+      "MSE": {
+        "T": 1.9049579291419059,
+        "T_A": 1.8490904751718769,
+        "T_V": 1.9326241505550295,
+        "T_A_V": 1.9354852061628063
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.05586745397002901
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.027666221413123582
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.08639473099092942
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.00286105560777683
+        }
+      ]
+    },
+    {
+      "video_id": "MLal-t_vJPM",
+      "fold": 4,
+      "rows": 18,
+      "MSE": {
+        "T": 2.6560766026735534,
+        "T_A": 2.536716503288176,
+        "T_V": 2.582401314162231,
+        "T_A_V": 2.4387149146977105
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.11936009938537717
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.07367528851132255
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.0980015885904657
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.14368639946452033
+        }
+      ]
+    },
+    {
+      "video_id": "Njd1F0vZSm4",
+      "fold": 4,
+      "rows": 13,
+      "MSE": {
+        "T": 3.089415664137942,
+        "T_A": 3.2026797735069312,
+        "T_V": 3.3101388188162266,
+        "T_A_V": 3.419683583839142
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.11326410936898901
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.2207231546782844
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.21700381033221072
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.10954476502291532
+        }
+      ]
+    },
+    {
+      "video_id": "Nzq88NnDkEk",
+      "fold": 2,
+      "rows": 32,
+      "MSE": {
+        "T": 3.6720729965205963,
+        "T_A": 3.6593509388743763,
+        "T_V": 3.6812669379567136,
+        "T_A_V": 3.6659364729212602
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.01272205764621992
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.009193941436117292
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.00658553404688389
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.015330465035453322
+        }
+      ]
+    },
+    {
+      "video_id": "OQvJTdtJ2H4",
+      "fold": 0,
+      "rows": 16,
+      "MSE": {
+        "T": 2.489234787052156,
+        "T_A": 2.2642963401452407,
+        "T_V": 13.43739403400096,
+        "T_A_V": 17.355500658357037
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.22493844690691533
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -10.948159246948803
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -15.091204318211798
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -3.918106624356078
+        }
+      ]
+    },
+    {
+      "video_id": "OtBXNcAL_lE",
+      "fold": 4,
+      "rows": 24,
+      "MSE": {
+        "T": 3.6198670269186906,
+        "T_A": 3.3523246101302036,
+        "T_V": 3.698654344734971,
+        "T_A_V": 3.412540837798872
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.267542416788487
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.07878731781628057
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.06021622766866841
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.28611350693609916
+        }
+      ]
+    },
+    {
+      "video_id": "Oz06ZWiO20M",
+      "fold": 2,
+      "rows": 25,
+      "MSE": {
+        "T": 1.4090195282745686,
+        "T_A": 1.2041232858712352,
+        "T_V": 1.3617880238848854,
+        "T_A_V": 1.1692010488317388
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.20489624240333337
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.047231504389683154
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.03492223703949637
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.1925869750531466
+        }
+      ]
+    },
+    {
+      "video_id": "POKffnXeBds",
+      "fold": 3,
+      "rows": 13,
+      "MSE": {
+        "T": 3.480045676377021,
+        "T_A": 3.48866994472423,
+        "T_V": 3.840790599671592,
+        "T_A_V": 3.7915223828917277
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.008624268347209085
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.360744923294571
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.3028524381674975
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.04926821677986437
+        }
+      ]
+    },
+    {
+      "video_id": "PZ-lDQFboO8",
+      "fold": 0,
+      "rows": 12,
+      "MSE": {
+        "T": 2.507724345350935,
+        "T_A": 2.5212745884997614,
+        "T_V": 2.5970457067954507,
+        "T_A_V": 2.6827496241004467
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.013550243148826357
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.08932136144451563
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.16147503560068532
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.08570391730499605
+        }
+      ]
+    },
+    {
+      "video_id": "QN9ZIUWUXsY",
+      "fold": 0,
+      "rows": 18,
+      "MSE": {
+        "T": 3.5240063982588556,
+        "T_A": 3.487903262479162,
+        "T_V": 3.4306291813007066,
+        "T_A_V": 3.390424205646218
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.036103135779693485
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.09337721695814905
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.097479056832944
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.04020497565448844
+        }
+      ]
+    },
+    {
+      "video_id": "Qr1Ca94K55A",
+      "fold": 0,
+      "rows": 14,
+      "MSE": {
+        "T": 3.6144753253031574,
+        "T_A": 3.7169087626026607,
+        "T_V": 3.600800518453103,
+        "T_A_V": 3.7173312884410885
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.10243343729950327
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.013674806850054289
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.0004225258384278341
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.1165307699879854
+        }
+      ]
+    },
+    {
+      "video_id": "Sqr0AcuoNnk",
+      "fold": 0,
+      "rows": 22,
+      "MSE": {
+        "T": 2.43864859762567,
+        "T_A": 2.804789815692842,
+        "T_V": 2.525815019751249,
+        "T_A_V": 2.8853354952259633
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.36614121806717215
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.08716642212557879
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.0805456795331212
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.35952047547471455
+        }
+      ]
+    },
+    {
+      "video_id": "TvyZBvOMOTc",
+      "fold": 2,
+      "rows": 15,
+      "MSE": {
+        "T": 1.4497593818944707,
+        "T_A": 1.5717829246913817,
+        "T_V": 1.3916301103502213,
+        "T_A_V": 1.5154316890514936
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.12202354279691097
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": 0.058129271544249406
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": 0.056351235639888086
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.12380157870127229
+        }
+      ]
+    },
+    {
+      "video_id": "VCslbP0mgZI",
+      "fold": 1,
+      "rows": 17,
+      "MSE": {
+        "T": 3.086527045175737,
+        "T_A": 2.899329473128524,
+        "T_V": 3.2489356162716088,
+        "T_A_V": 3.0188954491320312
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.187197572047213
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.1624085710958716
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.11956597600350705
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.23004016713957753
+        }
+      ]
+    },
+    {
+      "video_id": "VbQk4H8hgr0",
+      "fold": 1,
+      "rows": 55,
+      "MSE": {
+        "T": 4.04416741955396,
+        "T_A": 3.9992693431202353,
+        "T_V": 4.159198956826458,
+        "T_A_V": 4.045274267640195
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": 0.04489807643372501
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.11503153727249771
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.04600492451996008
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": 0.11392468918626264
+        }
+      ]
+    },
+    {
+      "video_id": "Vj1wYRQjB-o",
+      "fold": 2,
+      "rows": 9,
+      "MSE": {
+        "T": 1.1773375695076456,
+        "T_A": 1.3937914280753108,
+        "T_V": 1.2219223078721964,
+        "T_A_V": 1.4586640274804619
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.2164538585676652
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.04458473836455079
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.06487259940515111
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.2367417196082655
+        }
+      ]
+    },
+    {
+      "video_id": "W8NXH0Djyww",
+      "fold": 1,
+      "rows": 32,
+      "MSE": {
+        "T": 2.3656327201772807,
+        "T_A": 2.5277078883653767,
+        "T_V": 2.449663549446304,
+        "T_A_V": 2.619225012084887
+      },
+      "paired_MSE_reductions": [
+        {
+          "baseline": "T",
+          "augmented": "T_A",
+          "reduction": -0.16207516818809609
+        },
+        {
+          "baseline": "T",
+          "augmented": "T_V",
+          "reduction": -0.0840308292690235
+        },
+        {
+          "baseline": "T_A",
+          "augmented": "T_A_V",
+          "reduction": -0.09151712371951026
+        },
+        {
+          "baseline": "T_V",
+          "augmented": "T_A_V",
+          "reduction": -0.16956146263858285
+        }
+      ]
+    }
+  ],
+  "positive_reduction_definition": "baseline MSE minus augmented MSE; positive means smaller squared prediction error for this fixed estimator.",
+  "not_claimed": [
+    "Official VAL/TEST five metrics",
+    "Mutual information or PID",
+    "Bayes ceiling",
+    "A/B flow mechanism",
+    "Statistical significance or stable benefit",
+    "Upstream raw-data construction isolation"
+  ],
+  "actual_UTC": "2026-10-09T19:49:49.406452+00:00",
+  "prediction_SHA": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+  "protocol_SHA": "b7888c0c4fe51b559f6135c82bc38bdde49510168f1e28bd7cc2f20dc3c3bb2b",
+  "saved_fit_CPU_audit_passed": true,
+  "official_AB_tokens_untouched": true
+}

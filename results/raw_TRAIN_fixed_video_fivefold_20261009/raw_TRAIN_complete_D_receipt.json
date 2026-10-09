@@ -1,0 +1,61 @@
+{
+  "actual_UTC": "2026-10-09T19:51:32.913438+00:00",
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z",
+  "remote_root": "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z",
+  "SSH_session": 10986,
+  "old_unknown_session_31293_never_reuse": true,
+  "prediction_natural_exit": {
+    "actual_UTC": "2026-10-09T19:46:34.880093+00:00",
+    "child": 1465,
+    "natural_exit": 0,
+    "plan_SHA": "ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7"
+  },
+  "analysis_natural_exit": {
+    "actual_UTC": "2026-10-09T19:49:49.434640+00:00",
+    "natural_exit": 0,
+    "source_SHA": "c78be91fc4b64e8d8930ff02b276b231ec6e4422153282bc46f334fad29e759c"
+  },
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\remote_original\\complete_actual_raw_TRAIN_closed.zip",
+  "archive_SHA": "6c3799526decdedbe2ff328573e34d916593d2bcaf167597ddf87edef21c802f",
+  "archive_bytes": 1102833,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "content_members": 45,
+  "prediction_SHA": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+  "CPU_checks": 20,
+  "max_normal_equation_relative_residual": 1.4290968121613013e-15,
+  "max_prediction_abs_error": 0.0,
+  "MSE": {
+    "T": 2.1579748261017837,
+    "T_A": 3.3320438089828355,
+    "T_V": 10.407500872574273,
+    "T_A_V": 14.945894099502395
+  },
+  "pairs": [
+    {
+      "baseline": "T",
+      "augmented": "T_A",
+      "pooled_row_MSE_reduction": -1.1740689828810518
+    },
+    {
+      "baseline": "T",
+      "augmented": "T_V",
+      "pooled_row_MSE_reduction": -8.24952604647249
+    },
+    {
+      "baseline": "T_A",
+      "augmented": "T_A_V",
+      "pooled_row_MSE_reduction": -11.61385029051956
+    },
+    {
+      "baseline": "T_V",
+      "augmented": "T_A_V",
+      "pooled_row_MSE_reduction": -4.538393226928122
+    }
+  ],
+  "real_probe_executed": true,
+  "official_AB_reexecuted": false,
+  "not_full_neural_video_fivefold": true,
+  "upstream_preprocessing_and_pretraining_scope_unknown": true,
+  "old_approval_rejection_retained_this_protocol_now_executed": true,
+  "bottom_level_approval_policy_repair_not_claimed": true
+}

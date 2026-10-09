@@ -1,0 +1,145 @@
+{
+  "status": "REAL_TRAIN_SAVED_FIT_CPU_AUDIT_PASSED",
+  "actual_UTC": "2026-10-09T19:49:49.401481+00:00",
+  "prediction_SHA": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+  "checks": [
+    {
+      "fold": 0,
+      "path": "T",
+      "relative_normal_equation_residual": 7.786753727103119e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 0,
+      "path": "T_A",
+      "relative_normal_equation_residual": 7.786753727103121e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 0,
+      "path": "T_V",
+      "relative_normal_equation_residual": 6.674360337516961e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 0,
+      "path": "T_A_V",
+      "relative_normal_equation_residual": 6.674360337516961e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 1,
+      "path": "T",
+      "relative_normal_equation_residual": 7.01484544424916e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 1,
+      "path": "T_A",
+      "relative_normal_equation_residual": 6.012724666499277e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 1,
+      "path": "T_V",
+      "relative_normal_equation_residual": 6.012724666499277e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 1,
+      "path": "T_A_V",
+      "relative_normal_equation_residual": 9.019086999748915e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 2,
+      "path": "T",
+      "relative_normal_equation_residual": 7.145484060806506e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 2,
+      "path": "T_A",
+      "relative_normal_equation_residual": 9.527312081075343e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 2,
+      "path": "T_V",
+      "relative_normal_equation_residual": 8.336398070940924e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 2,
+      "path": "T_A_V",
+      "relative_normal_equation_residual": 1.4290968121613013e-15,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 3,
+      "path": "T",
+      "relative_normal_equation_residual": 7.704167915326123e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 3,
+      "path": "T_A",
+      "relative_normal_equation_residual": 8.98819590121381e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 3,
+      "path": "T_V",
+      "relative_normal_equation_residual": 7.704167915326123e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 3,
+      "path": "T_A_V",
+      "relative_normal_equation_residual": 1.0272223887101496e-15,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 4,
+      "path": "T",
+      "relative_normal_equation_residual": 5.373269045676434e-16,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 4,
+      "path": "T_A",
+      "relative_normal_equation_residual": 1.1940597879280966e-15,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 4,
+      "path": "T_V",
+      "relative_normal_equation_residual": 1.3134657667209062e-15,
+      "prediction_max_abs_error": 0.0
+    },
+    {
+      "fold": 4,
+      "path": "T_A_V",
+      "relative_normal_equation_residual": 1.0149508197388822e-15,
+      "prediction_max_abs_error": 0.0
+    }
+  ],
+  "TRAIN_decoder_ledger": {
+    "decoded_arrays": 3843,
+    "decoded_roles": [
+      "train"
+    ],
+    "decoded_TRAIN_labels": 1281
+  },
+  "fit_states_retrained": false,
+  "VAL_TEST_numeric_decode": false,
+  "UUID": "GPU-5c35273d-8d80-5183-be46-0c9107d57373",
+  "RAM_available": 118050996224,
+  "entry_source_SHA": "c78be91fc4b64e8d8930ff02b276b231ec6e4422153282bc46f334fad29e759c",
+  "original_sources": {
+    "raw_TRAIN_capture_v1.py": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+    "TRAIN_raw_conditional_ridge_core_v1.py": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+    "TRAIN_raw_probe_driver_v1.py": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+    "TRAIN_raw_probe_report_v1.py": "401a55db6a78e42d4301985ebde20388b91c354e05b5548f44ef6f00aa72afed"
+  }
+}

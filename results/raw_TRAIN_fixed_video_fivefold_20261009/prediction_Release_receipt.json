@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-09T19:48:17.372173+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\remote_original\\complete_actual_raw_TRAIN_capture.zip",
+  "source_SHA": "23ff304405386bbc14fa38033f9985427171b26b0146cc149af1e395cb203a54",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "raw-TRAIN-fixed-video5-prediction-original-20261009T194633Z.zip",
+  "id": 625999144,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/raw-TRAIN-fixed-video5-prediction-original-20261009T194633Z.zip",
+  "remote_digest_verified": true
+}

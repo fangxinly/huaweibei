@@ -1,0 +1,22 @@
+{
+  "actualclock_preparation_UTC": "2026-10-09 19:45:23 UTC",
+  "execution_identity": "BATCH5_N2_RAW_TRAIN_FIXED_RIDGE",
+  "UUID": "GPU-5c35273d-8d80-5183-be46-0c9107d57373",
+  "human_conservative_deadline": "2026-10-10T16:30:58+00:00",
+  "interpreter": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python",
+  "data": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/assets/mosi.pkl",
+  "root": "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/prediction",
+  "once_token": "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/once_raw_TRAIN_prediction.json",
+  "protocol": "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/frozen_raw_TRAIN_probe_protocol.json",
+  "protocol_SHA": "b7888c0c4fe51b559f6135c82bc38bdde49510168f1e28bd7cc2f20dc3c3bb2b",
+  "fold_manifest": "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/TRAIN_video_fivefold_rows.json",
+  "fold_SHA": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+  "source_SHA": {
+    "raw_TRAIN_capture_v1.py": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+    "TRAIN_raw_conditional_ridge_core_v1.py": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+    "TRAIN_raw_probe_driver_v1.py": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+    "TRAIN_raw_probe_report_v1.py": "401a55db6a78e42d4301985ebde20388b91c354e05b5548f44ef6f00aa72afed"
+  },
+  "no_AB_reexecution": true,
+  "no_metrics_before_prediction_preservation": true
+}

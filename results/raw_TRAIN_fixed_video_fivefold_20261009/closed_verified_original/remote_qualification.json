@@ -1,0 +1,12 @@
+{
+  "TRAIN_raw_probe_driver_v1.py": {
+    "natural_exit": 0,
+    "output": "{\"status\": \"SYNTHETIC_TRAIN_DECODER_AND_DRIVER_QUALIFIED\", \"numpy\": \"1.26.4\", \"no_other_split_indexed\": true, \"numeric_decoder_role_rejections\": {\"dev_numeric_decode\": true, \"wrong_ID\": true, \"wrong_split\": true, \"duplicate_row\": true, \"once_token_reuse\": true, \"wrong_source_SHA\": true}, \"TRAIN_decode_ledger\": {\"decoded_arrays\": 30, \"decoded_roles\": [\"train\"], \"decoded_TRAIN_labels\": 10}, \"core\": {\"status\": \"SYNTHETIC_FIXED_RIDGE_AND_FEATURE_QUALIFICATION_PASSED\", \"numpy_version\": \"1.26.4\", \"conditional_signal_detected\": true, \"held_feature_shift_cannot_change_fit_statistics_or_weights\": true, \"constant_channel_rejected_from_fit\": true, \"nonfinite_fit_rejected\": true, \"raw_modality_missingness_handling_finite\": true, \"real_data_loaded\": false, \"real_probe_executed\": false}, \"real_data_loaded\": false, \"real_probe_executed\": false}\n",
+    "actual_UTC": "2026-10-09T19:46:22.875272+00:00"
+  },
+  "TRAIN_raw_probe_report_v1.py": {
+    "natural_exit": 0,
+    "output": "{\"status\": \"SYNTHETIC_TRAIN_REPORTER_QUALIFIED\", \"known_MSE_and_paired_delta_passed\": true, \"unequal_video_size_weighting_distinguished\": true, \"standard_library_fsum_crosscheck_passed\": true, \"rejections\": {\"video_cross_fold\": true, \"duplicate_row\": true, \"nonfinite_prediction\": true}, \"real_data_loaded\": false, \"real_probe_scored\": false}\n",
+    "actual_UTC": "2026-10-09T19:46:23.006547+00:00"
+  }
+}

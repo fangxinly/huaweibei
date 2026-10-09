@@ -1,0 +1,36 @@
+{
+  "actual_UTC": "2026-10-09T19:46:33.826422+00:00",
+  "identity": "BATCH5_N2_RAW_TRAIN_FIXED_RIDGE",
+  "UUID": "GPU-5c35273d-8d80-5183-be46-0c9107d57373",
+  "compute": "",
+  "RAM_available": 118038130688,
+  "space": {
+    "total": 53619982336,
+    "used": 11350028288,
+    "free": 42269954048
+  },
+  "runtime": {
+    "python": "3.10.14 (main, May  6 2024, 19:42:50) [GCC 11.2.0]",
+    "numpy": "1.26.4",
+    "interpreter": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python"
+  },
+  "fullargv": [
+    "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/TRAIN_raw_probe_driver_v1.py",
+    "--plan",
+    "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/execution_plan.json",
+    "--plan-sha",
+    "ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7"
+  ],
+  "processes": "  PID  PPID COMMAND\n    1     0 s6-svscan -t 10 /etc/services.d/\n    7     1 s6-supervise 01sshd\n    8     1 s6-supervise 02codeserver\n    9     7 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n   10     8 /bin/bash /usr/local/bin/code-server.sh\n  271    10 /usr/lib/code-server/lib/node /usr/lib/code-server --trusted-origins=* /data/coding/coding.code-workspace\n  289   271 /usr/lib/code-server/lib/node /usr/lib/code-server/out/node/entry\n 1363     9 sshd: root@pts/0\n 1374  1363 -bash\n 1464     1 /data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python -B /data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/raw_TRAIN_capture_v1.py /data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/execution_plan.json ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7\n 1465  1464 /data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python -B /data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/TRAIN_raw_probe_driver_v1.py --plan /data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z/payload/execution_plan.json --plan-sha ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7\n 1468  1465 ps -eo pid,ppid,args --width 10000\n",
+  "source_SHA": {
+    "raw_TRAIN_capture_v1.py": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+    "TRAIN_raw_conditional_ridge_core_v1.py": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+    "TRAIN_raw_probe_driver_v1.py": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+    "TRAIN_raw_probe_report_v1.py": "401a55db6a78e42d4301985ebde20388b91c354e05b5548f44ef6f00aa72afed"
+  },
+  "data_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+  "protocol_SHA": "b7888c0c4fe51b559f6135c82bc38bdde49510168f1e28bd7cc2f20dc3c3bb2b",
+  "fold_SHA": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+  "remaining_seconds": 74664.173578,
+  "no_old_node_contract_reused": true
+}

@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-09T19:53:15.227638+00:00",
+  "threadId": "01a10fcb-6663-70a2-9a76-60e5634d0c03",
+  "sent_once": true,
+  "original_tool_response": {
+    "threadId": "01a10fcb-6663-70a2-9a76-60e5634d0c03"
+  },
+  "batch_archive_SHA": "6c3799526decdedbe2ff328573e34d916593d2bcaf167597ddf87edef21c802f",
+  "analysis_only_no_credentials": true,
+  "full_reply_received": false,
+  "no_same_SHA_resend": true
+}

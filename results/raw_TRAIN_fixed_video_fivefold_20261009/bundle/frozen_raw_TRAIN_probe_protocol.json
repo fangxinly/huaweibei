@@ -1,0 +1,59 @@
+{
+  "actual_UTC": "2026-10-09T19:06:59.411257+00:00",
+  "status": "FIXED_RAW_TRAIN_CONDITIONAL_PREDICTION_PROTOCOL_SYNTHETIC_QUALIFIED_REAL_RUN_NOT_DISPATCHED",
+  "core_SHA": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+  "fold_manifest_SHA": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+  "official_data_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+  "scope": "Official TRAIN1281 only; existing52 video groups; no VAL/TEST numerical inputs or labels.",
+  "estimand": "Paired out-of-video squared prediction-error changes for a prespecified finite ridge estimator when adding raw audio/visual summaries to a fixed text and sequence-length baseline.",
+  "features": {
+    "text": "256 signed SHA256 word-hash bag dimensions normalized by word count, plus log1p(word count); fixed casefold and seed128 namespace; no vocabulary fit or pretrained encoder.",
+    "audio": "74 per-example means +74 population standard deviations +1 nonfinite fraction; nonfinite raw entries replaced by0 before summary.",
+    "visual": "47 per-example means +47 population standard deviations +1 nonfinite fraction; nonfinite raw entries replaced by0 before summary.",
+    "modalities_share_alignment_context": true,
+    "common_word_count_in_all_paths": true
+  },
+  "paths": [
+    "T",
+    "T+A",
+    "T+V",
+    "T+A+V"
+  ],
+  "dimensions": {
+    "T": 257,
+    "T+A": 406,
+    "T+V": 352,
+    "T+A+V": 501
+  },
+  "estimator": "Each outer fit fold alone fits feature mean/std and target intercept. Constant channels masked. Ridge minimizes mean squared error + lambda1 squared coefficient norm; intercept unpenalized. No hyperparameter search or inner tuning.",
+  "outer_folds": 5,
+  "seed": 128,
+  "outputs_before_metrics": [
+    "Original fixed fold/row IDs and raw input identity receipts",
+    "Per-row out-of-fold predictions for all four prespecified paths",
+    "Fit-fold scaler and coefficient states with exact fit/held row ID hashes",
+    "Complete small output archive with SHA/CRC/unique/member receipts"
+  ],
+  "primary_comparisons": [
+    "MSE(T)-MSE(T+A)",
+    "MSE(T)-MSE(T+V)",
+    "MSE(T+A)-MSE(T+A+V)",
+    "MSE(T+V)-MSE(T+A+V)"
+  ],
+  "reporting": "Pooled row-weighted squared error and paired per-video mean squared-error differences for all52 videos; no significance/stability or information decomposition claim.",
+  "interpretation_limits": [
+    "Finite estimator predictive accessibility only, not conditional MI, PID redundancy/synergy, Bayes ceiling, causality, or independent message contribution.",
+    "Raw official artifact retains upstream alignment and preprocessing; this run would isolate this new fold-fitted ridge pipeline, not establish unknown upstream data construction or pretraining isolation.",
+    "This is separate from old full-TRAIN supervised frozen features and current A/B representations; no A/B encoder or flow forwards.",
+    "No TEST-driven structure, weight, gain, subgroup or feature selection. TEST remains previously seen, not a new blind test.",
+    "Identity fivefold preparation is not full-data neural fivefold training."
+  ],
+  "before_real_run_gates": [
+    "Implement and qualify TRAIN-only numeric decoder that never decodes VAL/TEST buffers or labels; bind exact rowIDs and all source hashes.",
+    "Freeze concrete driver and run synthetic group isolation, source mismatch, disallowed split and once-token rejection qualifications.",
+    "Actual fresh<=5min runtime/source/assets/RAM>=6GiB/C200MiB/D40MiB/space/completion guards, plus lease identity and execution+2h保存余量 if remote.",
+    "Use a new explicit execution identity and output root, never alter an old C/node contract or reuse an A/B inference/score token."
+  ],
+  "real_probe_executed": false,
+  "new_training_inference_scoring": false
+}

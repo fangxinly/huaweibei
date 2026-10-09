@@ -1,0 +1,9 @@
+{
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z",
+  "remote_root": "/data/coding/N2_raw_TRAIN_probe_actual_20261009T194523Z",
+  "payload_SHA": "7df1bd31160faa1aca7a8fdc826942406d8224ad66126b3379bc60c8cca2bf7a",
+  "plan_SHA": "ea3a2afdd84b3dc75c98194ef6387a20a9cf93c79a3baea915b0a60328b2e9e7",
+  "interpreter": "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python",
+  "prepared_only": true,
+  "actualclock_UTC": "2026-10-09 19:45:23 UTC"
+}

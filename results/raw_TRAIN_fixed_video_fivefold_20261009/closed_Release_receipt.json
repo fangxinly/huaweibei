@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-09T19:51:46.061675+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\remote_original\\complete_actual_raw_TRAIN_closed.zip",
+  "source_SHA": "6c3799526decdedbe2ff328573e34d916593d2bcaf167597ddf87edef21c802f",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "raw-TRAIN-fixed-video5-CPU-audit-and-report-original-20261009T194949Z.zip",
+  "id": 626008436,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/raw-TRAIN-fixed-video5-CPU-audit-and-report-original-20261009T194949Z.zip",
+  "remote_digest_verified": true
+}
