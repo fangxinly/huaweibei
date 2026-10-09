@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-09T19:57:01.380815+00:00",
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\complete_saved_error_concentration_original.zip",
+  "archive_SHA": "9bc0b4a45d6cca525403d4e1d40f56f6dbf1d7d462650065d6f588184f2d07c3",
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "analysis_of_saved_report_only": true
+}

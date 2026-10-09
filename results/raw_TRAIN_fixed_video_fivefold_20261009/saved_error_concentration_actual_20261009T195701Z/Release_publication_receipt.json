@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-09T19:57:27.952859+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\complete_saved_error_concentration_original.zip",
+  "source_SHA": "9bc0b4a45d6cca525403d4e1d40f56f6dbf1d7d462650065d6f588184f2d07c3",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "raw-TRAIN-saved-error-concentration-20261009T195701Z.zip",
+  "id": 626021984,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/raw-TRAIN-saved-error-concentration-20261009T195701Z.zip",
+  "remote_digest_verified": true
+}

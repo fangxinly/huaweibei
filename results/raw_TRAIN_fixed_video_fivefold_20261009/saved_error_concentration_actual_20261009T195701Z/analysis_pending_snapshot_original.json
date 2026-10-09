@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"timedOut\":true,\"wake\":null,\"polls\":[{\"schemaVersion\":1,\"cursor\":\"2fafc6b4-d501-43bc-b9d5-89445ddcc16b:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a10fcb-6663-70a2-9a76-60e5634d0c03\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a12239-0bf9-7031-88d8-530974a2c0bf\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1791575526,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":\"msg_0e2a8085b8238287016ac946525e2887d080aa326bc0bd4e54\",\"latestAssistantMessage\":{\"id\":\"msg_0e2a8085b8238287016ac946525e2887d080aa326bc0bd4e54\",\"turnId\":\"01a12239-0bf9-7031-88d8-530974a2c0bf\",\"phase\":\"commentary\",\"text\":\"已保存的每视频报告显示，视觉路径的大误差高度集中：一个仅16条片段的视频贡献了T+V总平方误差约77.9%、T+A+V约77.4%。这更像需要解释的外视频外推失稳，不能概括为音视频普遍无用；该视频仍须保留在原结果中，不能事后删除来改写结论。\"},\"latestToolMarkerId\":\"exec-60fbb35f-fae8-4162-b0b4-a3144620d642\",\"latestToolMarker\":{\"id\":\"exec-60fbb35f-fae8-4162-b0b4-a3144620d642\",\"turnId\":\"01a12239-0bf9-7031-88d8-530974a2c0bf\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+    }
+  ],
+  "isError": false
+}

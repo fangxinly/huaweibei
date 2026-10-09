@@ -1,0 +1,286 @@
+{
+  "status": "SAVED_PER_VIDEO_ERROR_CONCENTRATION_DESCRIBED",
+  "actual_UTC": "2026-10-09T19:57:01.279155+00:00",
+  "original_report_SHA": "ab49fc87b77c3a3004eedfca2e3d08e49c68c7650d52c12f0c947875ebc3d137",
+  "original_archive_SHA": "6c3799526decdedbe2ff328573e34d916593d2bcaf167597ddf87edef21c802f",
+  "paths": {
+    "T": {
+      "original_pooled_row_MSE": 2.1579748261017837,
+      "total_squared_error": 2764.365752236385,
+      "largest_three_video_contributions": [
+        {
+          "video_id": "VbQk4H8hgr0",
+          "rows": 55,
+          "fold": 1,
+          "MSE": 4.04416741955396,
+          "squared_error_sum": 222.4292080754678,
+          "fraction_of_path_total_SSE": 0.08046301684048919
+        },
+        {
+          "video_id": "Nzq88NnDkEk",
+          "rows": 32,
+          "fold": 2,
+          "MSE": 3.6720729965205963,
+          "squared_error_sum": 117.50633588865908,
+          "fraction_of_path_total_SSE": 0.04250752122565398
+        },
+        {
+          "video_id": "Ci-AH39fi3Y",
+          "rows": 44,
+          "fold": 2,
+          "MSE": 2.2129354306029088,
+          "squared_error_sum": 97.36915894652799,
+          "fraction_of_path_total_SSE": 0.03522296529240238
+        }
+      ],
+      "all_five_fold_squared_errors": [
+        {
+          "fold": 0,
+          "rows": 256,
+          "SSE": 540.7096068950658
+        },
+        {
+          "fold": 1,
+          "rows": 255,
+          "SSE": 626.6933492739465
+        },
+        {
+          "fold": 2,
+          "rows": 259,
+          "SSE": 501.57110159886764
+        },
+        {
+          "fold": 3,
+          "rows": 261,
+          "SSE": 580.9412318654988
+        },
+        {
+          "fold": 4,
+          "rows": 250,
+          "SSE": 514.4504626030061
+        }
+      ]
+    },
+    "T_A": {
+      "original_pooled_row_MSE": 3.3320438089828355,
+      "total_squared_error": 4268.348119307012,
+      "largest_three_video_contributions": [
+        {
+          "video_id": "2WGyTLYerpo",
+          "rows": 62,
+          "fold": 0,
+          "MSE": 25.774398289712664,
+          "squared_error_sum": 1598.0126939621853,
+          "fraction_of_path_total_SSE": 0.3743866829263286
+        },
+        {
+          "video_id": "VbQk4H8hgr0",
+          "rows": 55,
+          "fold": 1,
+          "MSE": 3.9992693431202353,
+          "squared_error_sum": 219.95981387161294,
+          "fraction_of_path_total_SSE": 0.05153277280188771
+        },
+        {
+          "video_id": "Nzq88NnDkEk",
+          "rows": 32,
+          "fold": 2,
+          "MSE": 3.6593509388743763,
+          "squared_error_sum": 117.09923004398004,
+          "fraction_of_path_total_SSE": 0.027434320437526003
+        }
+      ],
+      "all_five_fold_squared_errors": [
+        {
+          "fold": 0,
+          "rows": 256,
+          "SSE": 2062.7535077539133
+        },
+        {
+          "fold": 1,
+          "rows": 255,
+          "SSE": 611.6147894565487
+        },
+        {
+          "fold": 2,
+          "rows": 259,
+          "SSE": 503.4761447117979
+        },
+        {
+          "fold": 3,
+          "rows": 261,
+          "SSE": 569.7082175746559
+        },
+        {
+          "fold": 4,
+          "rows": 250,
+          "SSE": 520.7954598100961
+        }
+      ]
+    },
+    "T_V": {
+      "original_pooled_row_MSE": 10.407500872574273,
+      "total_squared_error": 13332.008617767644,
+      "largest_three_video_contributions": [
+        {
+          "video_id": "Iu2PFX3z_1s",
+          "rows": 16,
+          "fold": 4,
+          "MSE": 649.1031297837193,
+          "squared_error_sum": 10385.650076539509,
+          "fraction_of_path_total_SSE": 0.77900115236188
+        },
+        {
+          "video_id": "VbQk4H8hgr0",
+          "rows": 55,
+          "fold": 1,
+          "MSE": 4.159198956826458,
+          "squared_error_sum": 228.7559426254552,
+          "fraction_of_path_total_SSE": 0.017158400446920716
+        },
+        {
+          "video_id": "OQvJTdtJ2H4",
+          "rows": 16,
+          "fold": 0,
+          "MSE": 13.43739403400096,
+          "squared_error_sum": 214.99830454401535,
+          "fraction_of_path_total_SSE": 0.01612647506524155
+        }
+      ],
+      "all_five_fold_squared_errors": [
+        {
+          "fold": 0,
+          "rows": 256,
+          "SSE": 725.1565223903823
+        },
+        {
+          "fold": 1,
+          "rows": 255,
+          "SSE": 639.6776616955218
+        },
+        {
+          "fold": 2,
+          "rows": 259,
+          "SSE": 502.3936472075144
+        },
+        {
+          "fold": 3,
+          "rows": 261,
+          "SSE": 590.651653973455
+        },
+        {
+          "fold": 4,
+          "rows": 250,
+          "SSE": 10874.129132500771
+        }
+      ]
+    },
+    "T_A_V": {
+      "original_pooled_row_MSE": 14.945894099502395,
+      "total_squared_error": 19145.690341462567,
+      "largest_three_video_contributions": [
+        {
+          "video_id": "Iu2PFX3z_1s",
+          "rows": 16,
+          "fold": 4,
+          "MSE": 926.7280076983557,
+          "squared_error_sum": 14827.64812317369,
+          "fraction_of_path_total_SSE": 0.7744640103711709
+        },
+        {
+          "video_id": "2WGyTLYerpo",
+          "rows": 62,
+          "fold": 0,
+          "MSE": 22.54309649654899,
+          "squared_error_sum": 1397.6719827860375,
+          "fraction_of_path_total_SSE": 0.07300191102324427
+        },
+        {
+          "video_id": "OQvJTdtJ2H4",
+          "rows": 16,
+          "fold": 0,
+          "MSE": 17.355500658357037,
+          "squared_error_sum": 277.6880105337126,
+          "fraction_of_path_total_SSE": 0.014503943476634105
+        }
+      ],
+      "all_five_fold_squared_errors": [
+        {
+          "fold": 0,
+          "rows": 256,
+          "SSE": 2117.070401578168
+        },
+        {
+          "fold": 1,
+          "rows": 255,
+          "SSE": 620.4172065412658
+        },
+        {
+          "fold": 2,
+          "rows": 259,
+          "SSE": 509.9721555964232
+        },
+        {
+          "fold": 3,
+          "rows": 261,
+          "SSE": 581.0434654678738
+        },
+        {
+          "fold": 4,
+          "rows": 250,
+          "SSE": 15317.187112278836
+        }
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "baseline": "T",
+      "augmented": "T_A",
+      "original_pooled_reduction": -1.1740689828810518,
+      "video_count_positive": 28,
+      "video_count_negative": 24,
+      "video_count_equal": 0,
+      "video_counts_not_significance_or_weighted_score": true
+    },
+    {
+      "baseline": "T",
+      "augmented": "T_V",
+      "original_pooled_reduction": -8.24952604647249,
+      "video_count_positive": 21,
+      "video_count_negative": 31,
+      "video_count_equal": 0,
+      "video_counts_not_significance_or_weighted_score": true
+    },
+    {
+      "baseline": "T_A",
+      "augmented": "T_A_V",
+      "original_pooled_reduction": -11.61385029051956,
+      "video_count_positive": 16,
+      "video_count_negative": 36,
+      "video_count_equal": 0,
+      "video_counts_not_significance_or_weighted_score": true
+    },
+    {
+      "baseline": "T_V",
+      "augmented": "T_A_V",
+      "original_pooled_reduction": -4.538393226928122,
+      "video_count_positive": 27,
+      "video_count_negative": 25,
+      "video_count_equal": 0,
+      "video_counts_not_significance_or_weighted_score": true
+    }
+  ],
+  "no_prediction_or_label_array_read": true,
+  "no_fit_or_scoring_rerun": true,
+  "all_52_videos_retained": true,
+  "original_primary_results_unchanged": true,
+  "outlier_not_excluded": true,
+  "not_claimed": [
+    "Modality contains no information",
+    "Uniform harm across videos",
+    "Statistical significance",
+    "A/B mechanism",
+    "Confirmed cause of extrapolation error"
+  ]
+}

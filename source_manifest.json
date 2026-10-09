@@ -4105,6 +4105,78 @@
       "sanitizations": {}
     },
     {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\D_preservation_receipt.json",
+      "kind": "analysis",
+      "bytes": 697,
+      "original_sha256": "6f5a15618ff435101c8c6622fa0d2c7f83761c34062484f54df80bf989d49aea",
+      "published_sha256": "6f5a15618ff435101c8c6622fa0d2c7f83761c34062484f54df80bf989d49aea",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/Release_publication_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\Release_publication_receipt.json",
+      "kind": "analysis",
+      "bytes": 726,
+      "original_sha256": "65beb586b5237c89f0654c8e78f7c4864005b7b0ff38014c64b56edb6cabeff2",
+      "published_sha256": "65beb586b5237c89f0654c8e78f7c4864005b7b0ff38014c64b56edb6cabeff2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/analysis_pending_snapshot_original.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\analysis_pending_snapshot_original.json",
+      "kind": "analysis",
+      "bytes": 1429,
+      "original_sha256": "31eed4c46f3632f25f9f04bdf1cc2b95241d07bb3c8ee79b7b2d7d72855ba453",
+      "published_sha256": "31eed4c46f3632f25f9f04bdf1cc2b95241d07bb3c8ee79b7b2d7d72855ba453",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/analyze_saved_TRAIN_error_concentration_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\analyze_saved_TRAIN_error_concentration_v1.py",
+      "kind": "analysis",
+      "bytes": 6849,
+      "original_sha256": "264c1527e4d119a79fc180f7227ef2ee456ac3f6e503c1532fa7838968ade2eb",
+      "published_sha256": "264c1527e4d119a79fc180f7227ef2ee456ac3f6e503c1532fa7838968ade2eb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/original_per_video_report.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\original_per_video_report.json",
+      "kind": "analysis",
+      "bytes": 41871,
+      "original_sha256": "ab49fc87b77c3a3004eedfca2e3d08e49c68c7650d52c12f0c947875ebc3d137",
+      "published_sha256": "ab49fc87b77c3a3004eedfca2e3d08e49c68c7650d52c12f0c947875ebc3d137",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/publish_saved_TRAIN_concentration_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\publish_saved_TRAIN_concentration_v1.py",
+      "kind": "analysis",
+      "bytes": 4967,
+      "original_sha256": "0d5f8ab1cfe1025f65919081889b01c870fa8bc172e979bf397551b3d4570722",
+      "published_sha256": "0d5f8ab1cfe1025f65919081889b01c870fa8bc172e979bf397551b3d4570722",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/saved_error_concentration.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\saved_error_concentration.json",
+      "kind": "analysis",
+      "bytes": 7710,
+      "original_sha256": "fc364b61999d19e1450c8c17058a9b6076cceea90025c8532464bdd50862384f",
+      "published_sha256": "fc364b61999d19e1450c8c17058a9b6076cceea90025c8532464bdd50862384f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_error_concentration_actual_20261009T195701Z/已保存TRAIN误差集中分析.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_error_concentration_actual_20261009T195701Z\\已保存TRAIN误差集中分析.md",
+      "kind": "analysis",
+      "bytes": 939,
+      "original_sha256": "371291c47a7a33d3e513bcc74c9e3e546df19406d7704247855d907d02931fa7",
+      "published_sha256": "371291c47a7a33d3e513bcc74c9e3e546df19406d7704247855d907d02931fa7",
+      "sanitizations": {}
+    },
+    {
       "path": "results/raw_TRAIN_fixed_video_fivefold_20261009/saved_local_sources/finalize_raw_TRAIN_actual_v1.py",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_retry_prepared_actual_20261009T194523Z\\saved_local_sources\\finalize_raw_TRAIN_actual_v1.py",
       "kind": "result",
