@@ -1,0 +1,38 @@
+{
+  "status": "LOCAL_SMALL_ORIGINAL_RELEASE_ALL_REMOTE_DIGESTS_VERIFIED",
+  "actual_UTC": "2026-10-09T14:58:55.779386+00:00",
+  "pid": 1444,
+  "fullargv": [
+    "C:\\Users\\21234\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:/CodexBackups/selective_flow_20261003_1105/candidate_final100_actual_20261009T012656Z/local_official_score_preparation_20261009T145240Z/publish_local_score_small_retry_v1.py"
+  ],
+  "original_failure_retained": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_local_official_publication_actual_20261009T145730Z",
+  "assets": [
+    {
+      "name": "A-factorized-selected73-local-score-qualification-original-20261009.zip",
+      "bytes": 51796,
+      "sha256": "1dc5d95e3b3d71550bc6594e6fb600e02fd96f885a3411bb65c16b37d8699e4b",
+      "remote_digest_verified": true,
+      "id": 625288253,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-factorized-selected73-local-score-qualification-original-20261009.zip"
+    },
+    {
+      "name": "A-factorized-selected73-official-author-five-once-original-20261009.zip",
+      "bytes": 74183,
+      "sha256": "d4551af9278dffe45c95e2721762f5eb87226aed849eafe44c592d90abee4e45",
+      "remote_digest_verified": true,
+      "id": 625288354,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-factorized-selected73-official-author-five-once-original-20261009.zip"
+    },
+    {
+      "name": "A-factorized-selected73-same-host-independent-five-original-20261009.zip",
+      "bytes": 46310,
+      "sha256": "f1c19e7a5b044b4472927e7fbe5e39101c8cac8d7eea1189dee27389879b9766",
+      "remote_digest_verified": true,
+      "id": 625288456,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/A-factorized-selected73-same-host-independent-five-original-20261009.zip"
+    }
+  ],
+  "no_remote_compute": true,
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}

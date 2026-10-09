@@ -2528,6 +2528,231 @@
       "sanitizations": {}
     },
     {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\D_preservation_receipt.json",
+      "kind": "result",
+      "bytes": 581,
+      "original_sha256": "7142b2815482091cf1ee561043a2f8e1431cb48244c38f396a53e92e80bb4206",
+      "published_sha256": "7142b2815482091cf1ee561043a2f8e1431cb48244c38f396a53e92e80bb4206",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/member_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\member_manifest.json",
+      "kind": "result",
+      "bytes": 5530,
+      "original_sha256": "0ddb1ff08e482dd4b364817f7cfde6e22f414e97a442addb4e4c3ad06a7a3f61",
+      "published_sha256": "0ddb1ff08e482dd4b364817f7cfde6e22f414e97a442addb4e4c3ad06a7a3f61",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/observed_facts.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\observed_facts.json",
+      "kind": "result",
+      "bytes": 15199,
+      "original_sha256": "28ca285a8f2de259e00d97690905734433b0f9b1f15cd86c51d8d23de750c1ce",
+      "published_sha256": "28ca285a8f2de259e00d97690905734433b0f9b1f15cd86c51d8d23de750c1ce",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_independent_metric_actual_20261009T145615Z/capture_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_independent_metric_actual_20261009T145615Z\\capture_receipt.json",
+      "kind": "result",
+      "bytes": 593,
+      "original_sha256": "e5cc57838efef7e743b97cd3d4e2dea391a6f2573e62e20df4ce6c2d219859bb",
+      "published_sha256": "e5cc57838efef7e743b97cd3d4e2dea391a6f2573e62e20df4ce6c2d219859bb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_independent_metric_actual_20261009T145615Z/natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_independent_metric_actual_20261009T145615Z\\natural_exit.json",
+      "kind": "result",
+      "bytes": 1168,
+      "original_sha256": "a1a11784286f7a9c0e741786b955c6defaff026879952f3cf0ff80fe2450f39a",
+      "published_sha256": "a1a11784286f7a9c0e741786b955c6defaff026879952f3cf0ff80fe2450f39a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_independent_metric_actual_20261009T145615Z/out/independent_same_host_metric_check.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_independent_metric_actual_20261009T145615Z\\out\\independent_same_host_metric_check.json",
+      "kind": "result",
+      "bytes": 2004,
+      "original_sha256": "bbf4302c64a5408a1cc89f3e913bd2b8b0d1ee455dd11239abb6f607bf4773f6",
+      "published_sha256": "bbf4302c64a5408a1cc89f3e913bd2b8b0d1ee455dd11239abb6f607bf4773f6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_publication_actual_20261009T145730Z/publication_plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_publication_actual_20261009T145730Z\\publication_plan.json",
+      "kind": "result",
+      "bytes": 1335,
+      "original_sha256": "b5a6681421808b074c0396e562c37172a69e88d3a344b1969b6fe8ce55165b0b",
+      "published_sha256": "b5a6681421808b074c0396e562c37172a69e88d3a344b1969b6fe8ce55165b0b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_publication_actual_20261009T145730Z/publication_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_publication_actual_20261009T145730Z\\publication_receipt.json",
+      "kind": "result",
+      "bytes": 317,
+      "original_sha256": "d96b394267aa585facd7664f50c9e62604d7be66769bfd63f2fac7aab8aee897",
+      "published_sha256": "d96b394267aa585facd7664f50c9e62604d7be66769bfd63f2fac7aab8aee897",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_publication_retry_actual_20261009T145820Z/natural_exit_tool_result.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_publication_retry_actual_20261009T145820Z\\natural_exit_tool_result.json",
+      "kind": "result",
+      "bytes": 2180,
+      "original_sha256": "d2dd2ee1ef65d90c6830288136a53de70eb662f33c992fb4241b8ff9fa8864c5",
+      "published_sha256": "d2dd2ee1ef65d90c6830288136a53de70eb662f33c992fb4241b8ff9fa8864c5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_publication_retry_actual_20261009T145820Z/plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_publication_retry_actual_20261009T145820Z\\plan.json",
+      "kind": "result",
+      "bytes": 1335,
+      "original_sha256": "b5a6681421808b074c0396e562c37172a69e88d3a344b1969b6fe8ce55165b0b",
+      "published_sha256": "b5a6681421808b074c0396e562c37172a69e88d3a344b1969b6fe8ce55165b0b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_publication_retry_actual_20261009T145820Z/receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_publication_retry_actual_20261009T145820Z\\receipt.json",
+      "kind": "result",
+      "bytes": 2155,
+      "original_sha256": "3d6acff4f097f7bc665202b3c3efd050046ad4cbeef6efca38144f42824d6f6e",
+      "published_sha256": "3d6acff4f097f7bc665202b3c3efd050046ad4cbeef6efca38144f42824d6f6e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_score_actual_20261009T145600Z/capture_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_score_actual_20261009T145600Z\\capture_receipt.json",
+      "kind": "result",
+      "bytes": 590,
+      "original_sha256": "ef91d99931d57cd91d3a4d05c6de0cc729bfef096ba54e5b8c29c06178bfdb87",
+      "published_sha256": "ef91d99931d57cd91d3a4d05c6de0cc729bfef096ba54e5b8c29c06178bfdb87",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_score_actual_20261009T145600Z/natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_score_actual_20261009T145600Z\\natural_exit.json",
+      "kind": "result",
+      "bytes": 961,
+      "original_sha256": "cec6d6572442323e38acb7303f023cae00aa8525d58dc61d60c561cc9de7b714",
+      "published_sha256": "cec6d6572442323e38acb7303f023cae00aa8525d58dc61d60c561cc9de7b714",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_official_score_actual_20261009T145600Z/out/official_aligned_five_result.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_official_score_actual_20261009T145600Z\\out\\official_aligned_five_result.json",
+      "kind": "result",
+      "bytes": 9105,
+      "original_sha256": "c8b5ad19c21cbc8766c8a3e6d36e967f176e65e12b6bd3a8f5b806d8ae8d47e5",
+      "published_sha256": "c8b5ad19c21cbc8766c8a3e6d36e967f176e65e12b6bd3a8f5b806d8ae8d47e5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_score_qualification_actual_20261009T145520Z/capture_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_score_qualification_actual_20261009T145520Z\\capture_receipt.json",
+      "kind": "result",
+      "bytes": 596,
+      "original_sha256": "145a58c02ac172d0dcae2dd9fdb0c5e316f6c2afbdc4dfcc1f0ca64b154558ee",
+      "published_sha256": "145a58c02ac172d0dcae2dd9fdb0c5e316f6c2afbdc4dfcc1f0ca64b154558ee",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/A_local_score_qualification_actual_20261009T145520Z/natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\A_local_score_qualification_actual_20261009T145520Z\\natural_exit.json",
+      "kind": "result",
+      "bytes": 1593,
+      "original_sha256": "58194fe306208dd5270b776c4d2e2568ac1150640611adff79e9ff75e5dfa795",
+      "published_sha256": "58194fe306208dd5270b776c4d2e2568ac1150640611adff79e9ff75e5dfa795",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/finalize_local_official_A_five_actual_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\finalize_local_official_A_five_actual_v1.py",
+      "kind": "result",
+      "bytes": 7624,
+      "original_sha256": "9202fa3f9ba431808f4e9fa6b4e0b711f699663a33b9c73b9c3258b033b56119",
+      "published_sha256": "9202fa3f9ba431808f4e9fa6b4e0b711f699663a33b9c73b9c3258b033b56119",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/local_official_score_preparation_20261009T145240Z/capture_local_score_stage_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\local_official_score_preparation_20261009T145240Z\\capture_local_score_stage_v1.py",
+      "kind": "result",
+      "bytes": 3897,
+      "original_sha256": "9bc9ffe4f83618e6c2eea9c762fcaa306df4bc04b2b315990a306403e69f110d",
+      "published_sha256": "9bc9ffe4f83618e6c2eea9c762fcaa306df4bc04b2b315990a306403e69f110d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/local_official_score_preparation_20261009T145240Z/local_official_protocol.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\local_official_score_preparation_20261009T145240Z\\local_official_protocol.json",
+      "kind": "result",
+      "bytes": 30734,
+      "original_sha256": "ab3020fbefd6990c3d464c9c04e50e562841b6f3b178c5fc8e21ea84ed77eb9d",
+      "published_sha256": "ab3020fbefd6990c3d464c9c04e50e562841b6f3b178c5fc8e21ea84ed77eb9d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/local_official_score_preparation_20261009T145240Z/local_official_score_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\local_official_score_preparation_20261009T145240Z\\local_official_score_v1.py",
+      "kind": "result",
+      "bytes": 11047,
+      "original_sha256": "285f02aa9ab1be7952875e6d2bcf2f45a0c1505647e08d7e37a11c9123f275dc",
+      "published_sha256": "285f02aa9ab1be7952875e6d2bcf2f45a0c1505647e08d7e37a11c9123f275dc",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/local_official_score_preparation_20261009T145240Z/publish_local_score_originals_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\local_official_score_preparation_20261009T145240Z\\publish_local_score_originals_v1.py",
+      "kind": "result",
+      "bytes": 2154,
+      "original_sha256": "5225e83f91ad597088e24996c9e7966c2a390311318406aed7fad9b3207b981f",
+      "published_sha256": "5225e83f91ad597088e24996c9e7966c2a390311318406aed7fad9b3207b981f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/local_official_score_preparation_20261009T145240Z/publish_local_score_small_retry_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\local_official_score_preparation_20261009T145240Z\\publish_local_score_small_retry_v1.py",
+      "kind": "result",
+      "bytes": 2866,
+      "original_sha256": "b1bba6f52ba4feb08f4d91e8ee7310996b57a7d917bd6ccddb309a4a7dec8cae",
+      "published_sha256": "b1bba6f52ba4feb08f4d91e8ee7310996b57a7d917bd6ccddb309a4a7dec8cae",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/original/local_official_score_preparation_20261009T145240Z/sentiment_metrics_careflow_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\original\\local_official_score_preparation_20261009T145240Z\\sentiment_metrics_careflow_v1.py",
+      "kind": "result",
+      "bytes": 3027,
+      "original_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "published_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/publish_verified_local_five_report_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\publish_verified_local_five_report_v1.py",
+      "kind": "result",
+      "bytes": 3077,
+      "original_sha256": "67c900c7d3f86f7c7a51e12be3c166710fb202766007165448f4eea98c635868",
+      "published_sha256": "67c900c7d3f86f7c7a51e12be3c166710fb202766007165448f4eea98c635868",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/polarity_intensity_continuation/local_A_official_once_20261009/research_current_report.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\research_current_report.md",
+      "kind": "result",
+      "bytes": 1224,
+      "original_sha256": "af2b1ef618f518d6cfe8caf4f927dda33134df899c3778f42dbaa177d3e0235a",
+      "published_sha256": "af2b1ef618f518d6cfe8caf4f927dda33134df899c3778f42dbaa177d3e0235a",
+      "sanitizations": {}
+    },
+    {
       "path": "results/polarity_intensity_continuation/prefix16_and_resume_native_D_small_receipt.json",
       "origin": "outputs/polarity_intensity_prefix_v2_20261008T203225Z/prefix16_and_resume_native_D_small_receipt.json",
       "kind": "result",

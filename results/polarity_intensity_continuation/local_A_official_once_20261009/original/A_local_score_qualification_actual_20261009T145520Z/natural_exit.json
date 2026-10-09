@@ -1,0 +1,25 @@
+{
+  "actual_UTC": "2026-10-09T14:55:58.951873+00:00",
+  "child_PID": 6020,
+  "natural_exit": 0,
+  "fullargv": [
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\runtime\\Scripts\\python.exe",
+    "-B",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\local_official_score_v1.py",
+    "qualify",
+    "--plan",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\local_official_protocol.json",
+    "--old-plan",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_score_qualified_20261009T082953Z\\official_score_protocol.json",
+    "--old-plan-sha",
+    "c5f0e43535fbe4330fc2d38db11a4edb415e8a9f2995036d887a336c2584e2ac",
+    "--dataset",
+    "C:/Users/21234/Documents/Codex/2026-10-01/1-zhang-s-yang-y-chen/work/careflow_data/mosi.pkl",
+    "--prediction",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A100_fixed_official_VAL_TEST_prediction.npz",
+    "--metric-source",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\sentiment_metrics_careflow_v1.py",
+    "--evidence",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z"
+  ]
+}

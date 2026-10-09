@@ -1,0 +1,40 @@
+{
+  "status": "INDEPENDENT_STDLIB_SAME_HOST_METRIC_CALCULATION_PASSED",
+  "actual_UTC": "2026-10-09T14:56:18.647300+00:00",
+  "pid": 29972,
+  "fullargv": [
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\runtime\\Scripts\\python.exe",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\local_official_score_v1.py",
+    "peer",
+    "--plan",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\local_official_protocol.json",
+    "--plan-sha",
+    "ab3020fbefd6990c3d464c9c04e50e562841b6f3b178c5fc8e21ea84ed77eb9d",
+    "--out",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_local_independent_metric_actual_20261009T145615Z\\out",
+    "--result",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_local_official_score_actual_20261009T145600Z\\out\\official_aligned_five_result.json"
+  ],
+  "max_error": 1.1102230246251565e-16,
+  "roles": {
+    "VAL": {
+      "Acc7": 0.47161572052401746,
+      "Acc2": 0.8888888888888888,
+      "F1": 0.8880997474747474,
+      "MAE": 0.5934321316666739,
+      "Corr": 0.8635775796997229
+    },
+    "TEST": {
+      "Acc7": 0.4686131386861314,
+      "Acc2": 0.8809160305343512,
+      "F1": 0.8807329455189361,
+      "MAE": 0.6381757583333193,
+      "Corr": 0.840997785133795
+    }
+  },
+  "result_SHA": "c8b5ad19c21cbc8766c8a3e6d36e967f176e65e12b6bd3a8f5b806d8ae8d47e5",
+  "prediction_SHA": "ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f",
+  "official_dataset_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+  "same_host_not_other_node": true,
+  "other_node_metric_recalculation_pending": true
+}

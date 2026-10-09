@@ -1,0 +1,19 @@
+{
+  "actual_UTC": "2026-10-09T14:56:18.670068+00:00",
+  "child_PID": 30044,
+  "natural_exit": 0,
+  "fullargv": [
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\runtime\\Scripts\\python.exe",
+    "-B",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\local_official_score_v1.py",
+    "peer",
+    "--plan",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\local_official_score_preparation_20261009T145240Z\\local_official_protocol.json",
+    "--plan-sha",
+    "ab3020fbefd6990c3d464c9c04e50e562841b6f3b178c5fc8e21ea84ed77eb9d",
+    "--out",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_local_independent_metric_actual_20261009T145615Z\\out",
+    "--result",
+    "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_local_official_score_actual_20261009T145600Z\\out\\official_aligned_five_result.json"
+  ]
+}

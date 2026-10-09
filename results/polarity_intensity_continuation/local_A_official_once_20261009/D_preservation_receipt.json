@@ -1,0 +1,11 @@
+{
+  "status": "A_LOCAL_OFFICIAL_FIVE_ALL_ORIGINALS_D_SAVED",
+  "actual_UTC": "2026-10-09T15:00:37.175725+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_official_local_five_saved_actual_20261009T145922Z\\complete_actual_local_current_original.zip",
+  "archive_SHA": "1e799cf9d5e9eb9ad2041ab057d5098715f496bb1c71bb24049c87dc10ae7a37",
+  "archive_bytes": 199983,
+  "member_count": 25,
+  "all_SHA_CRC_unique_passed": true,
+  "not_remote_capture": true,
+  "other_node_metric_recalculation_pending": true
+}

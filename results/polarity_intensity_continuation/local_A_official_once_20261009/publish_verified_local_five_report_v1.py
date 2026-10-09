@@ -1,0 +1,15 @@
+import argparse,hashlib,json,subprocess,sys
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument('--stamp',required=True);a=p.parse_args();r=Path(__file__).resolve().parent;prior=r.parent.parent/'candidate_posttrain_lowC_20261009T005229Z';bare=prior/'publication.git'
+sys.path.insert(0,'C:/Users/21234/Documents/Codex/2026-10-05/ni/work');from prepare_github_source_upload import sanitize
+git='C:/Users/21234/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd/git.exe'
+def cmd(args,data=None):return subprocess.check_output([git,'--git-dir='+str(bare)]+args,input=data,cwd=r)
+old=cmd(['rev-parse','HEAD']).decode().strip();assert old==cmd(['ls-remote','origin','refs/heads/main']).decode().split()[0];cmd(['read-tree','HEAD']);manifest=json.loads(cmd(['show','HEAD:source_manifest.json']));records={v['path']:v for v in manifest['records']}
+files=[f for f in r.rglob('*') if f.is_file() and f.suffix in ('.json','.md','.py','.log') and f.name not in ('D_state_before_update.json','C_state_before_update.json')]
+for f in files:
+    rel='results/polarity_intensity_continuation/local_A_official_once_20261009/'+f.relative_to(r).as_posix();raw=f.read_bytes();data,changes=sanitize(raw);oid=cmd(['hash-object','-w','--stdin'],data).decode().strip();cmd(['update-index','--add','--cacheinfo','100644',oid,rel]);assert cmd(['show',':'+rel])==data;records[rel]=dict(path=rel,origin=str(f),kind='result',bytes=len(data),original_sha256=hashlib.sha256(raw).hexdigest(),published_sha256=hashlib.sha256(data).hexdigest(),sanitizations=changes)
+manifest['records']=[records[k] for k in sorted(records)];data=json.dumps(manifest,ensure_ascii=False,indent=2).encode();oid=cmd(['hash-object','-w','--stdin'],data).decode().strip();cmd(['update-index','--add','--cacheinfo','100644',oid,'source_manifest.json']);assert cmd(['show',':source_manifest.json'])==data
+tree=cmd(['write-tree']).decode().strip();commit=cmd(['-c','user.name=Codex','-c','user.email=codex@users.noreply.github.com','commit-tree',tree,'-p',old,'-m','Report factorized candidate official five scored once from preserved predictions; disclose mixed TEST result and pending peer-node check']).decode().strip();cmd(['update-ref','refs/heads/main',commit,old]);cmd(['push','origin','refs/heads/main:refs/heads/main']);assert commit==cmd(['ls-remote','origin','refs/heads/main']).decode().split()[0]
+receipt=dict(status='D_BARE_LOCAL_OFFICIAL_FIVE_EXACT_BLOB_GITHUB_VERIFIED',actualclock_before_publication_UTC=a.stamp,commit=commit,parent_commit=old,C_checkout_not_modified=True,D_bare=str(bare),files=len(files)+1,A_primary_five_computed_once=True,other_node_metric_recalculation_pending=True,all_five_exceeded=False)
+for f in (r/'GitHub_publication_receipt.json',prior/'GitHub_publication_receipt.json'):f.write_text(json.dumps(receipt,indent=2),encoding='utf8')
+sp=prior/'D_current_research_state.json';state=json.loads(sp.read_text(encoding='utf8'));state['github_source']=receipt;sp.write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf8');print(json.dumps(receipt))

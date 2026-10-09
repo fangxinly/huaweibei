@@ -1,0 +1,12 @@
+{
+  "status": "ACTUAL_LOCAL_PEER_ORIGINALS_CAPTURED",
+  "actual_UTC": "2026-10-09T14:56:18.893174+00:00",
+  "natural_exit": 0,
+  "child_PID": 30044,
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\A_local_independent_metric_actual_20261009T145615Z\\complete_actual_local_original.zip",
+  "archive_bytes": 46310,
+  "archive_SHA": "f1c19e7a5b044b4472927e7fbe5e39101c8cac8d7eea1189dee27389879b9766",
+  "all_member_SHA_CRC_unique_passed": true,
+  "not_remote_capture": true,
+  "other_node_metric_recalculation_pending": true
+}
