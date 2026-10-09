@@ -1,0 +1,18 @@
+{
+  "actual_UTC": "2026-10-09T00:17:25.033344+00:00",
+  "pid": 3410,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/B_interrupted_peer400_qualified_20261009T001701Z/audit_interrupted_candidate400_v1.py",
+    "--publication",
+    "/data/coding/B_interrupted_peer400_qualified_20261009T001701Z/publication.json",
+    "--capture",
+    "/data/coding/B_interrupted_peer400_qualified_20261009T001701Z/interrupted_capture.json",
+    "--out",
+    "/data/coding/B_interrupted_peer400_actual_20261009T001701Z/out",
+    "--uuid",
+    "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+    "--peer",
+    "A"
+  ]
+}

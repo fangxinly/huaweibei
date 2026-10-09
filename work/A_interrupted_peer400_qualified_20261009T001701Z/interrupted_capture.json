@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_CANDIDATE_ORIGINAL_COMPLETE_SHA_CRC_VERIFIED",
+  "actual_UTC": "2026-10-09T00:09:39.179537+00:00",
+  "capture_process_natural_exit": 0,
+  "prior_training_natural_exit_unknown": true,
+  "prior_training_process_absent": true,
+  "prior_complete100": false,
+  "last_epoch": 96,
+  "archive": "/data/coding/B_interrupted_capture_actual_20261009T000500Z/complete_interrupted_original.zip",
+  "archive_SHA": "8261a1c5a9674c9e4d8564737dc5953a6a84382154d55f7bf931e414fe2d5c4d",
+  "archive_bytes": 1765683267,
+  "ZIP_CRC_unique_all_members": true,
+  "warm400_checkpoint_SHA": "fabb3c961f6f9b3c2a34751594ad6840f5b11930fecee0019988181c76e08a62",
+  "warm400_checkpoint_bytes": 2960829851
+}

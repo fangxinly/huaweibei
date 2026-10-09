@@ -1,0 +1,21 @@
+{
+  "actual_UTC": "2026-10-09T00:27:29.438761+00:00",
+  "pid": 3558,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/B_interrupted_peer400_seekfix_qualified_20261009T002536Z/audit_interrupted_candidate400_v1.py",
+    "--publication",
+    "/data/coding/B_interrupted_peer400_seekfix_qualified_20261009T002536Z/publication.json",
+    "--capture",
+    "/data/coding/B_interrupted_peer400_seekfix_qualified_20261009T002536Z/interrupted_capture.json",
+    "--out",
+    "/data/coding/B_interrupted_peer400_seekfix_actual_20261009T002536Z/out",
+    "--uuid",
+    "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+    "--peer",
+    "A",
+    "--retained-archive",
+    "/data/coding/B_interrupted_peer400_actual_20261009T001701Z/out/peer_interrupted_original.zip"
+  ],
+  "natural_exit": 0
+}

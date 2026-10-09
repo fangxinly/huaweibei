@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-09T00:29:38.821617+00:00",
+  "input_SHA": "5cf03b7e317e524bf8a799965301ff154b0802f5ae51b68d37cb2bcd1864f271",
+  "restored_state_SHA": "6618dd8b6edaafb1d30104a8e81a3397c0915756075cf062c7501dd1c2cdfbf9",
+  "restored_optimizer_steps": 400,
+  "scheduler_step": 400,
+  "start_next_epoch": 10,
+  "first400_counted_in4000": true,
+  "full_RNG_restored": true,
+  "prior_interrupted_training_natural_exit_unknown": true,
+  "replayed_work_not_extra_independent_budget": true
+}

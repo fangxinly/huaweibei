@@ -1,0 +1,13 @@
+{
+  "status": "INTERRUPTED_PEER400_CPU_COMPLETE",
+  "actual_UTC": "2026-10-09T00:27:33.759048+00:00",
+  "node": "A",
+  "source_peer": "B",
+  "child_PID": 2971,
+  "natural_exit": 0,
+  "archive": "/data/coding/A_interrupted_peer400_seekfix_actual_20261009T002536Z/complete_peer400_small_original.zip",
+  "archive_SHA": "e514689380ca4627be858d78dbca7bf262a6320d9ef11284043f37e10ff71890",
+  "archive_bytes": 386181,
+  "all_small_original_member_SHA_CRC_unique": true,
+  "complete_large_original_retained_on_peer": true
+}

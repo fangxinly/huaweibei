@@ -1,0 +1,20 @@
+{
+  "actual_UTC": "2026-10-09T00:29:09.836052+00:00",
+  "pid": 3696,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/B_candidate_recovery400_qualified_20261009T002805Z/resume_official_mse100_v1.py",
+    "--plan",
+    "/data/coding/B_candidate_recovery400_qualified_20261009T002805Z/qualified_resume_plan.json",
+    "--plan-sha",
+    "39db78c81d6903a86146901161419da421790d3c5dd10a6633885c9cf41f8913",
+    "--bundle",
+    "/data/coding/B_candidate_recovery400_qualified_20261009T002805Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B",
+    "--out",
+    "/data/coding/B_candidate_recovery400_actual_20261009T002805Z/out",
+    "--resume",
+    "/data/coding/B_polarity_intensity_regression_aux_resume100_actual_20261008T205936Z/out/complete_resume_step400.pt"
+  ]
+}

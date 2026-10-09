@@ -1,0 +1,28 @@
+{
+  "status": "BOTH_ACTUAL_RECOVERY400_TRAJECTORIES_MATCH_PRIOR_AND_SMALL_ORIGINALS_C_D_PASSED",
+  "actualclock_UTC": "2026-10-09 00:31:33 UTC",
+  "proofs": {
+    "A": {
+      "child_PID": 3079,
+      "actual_dispatch_UTC": "2026-10-09T00:29:06.440665+00:00",
+      "epoch": 12,
+      "steps": 480,
+      "recorded_state_and_prediction_SHA_identical": true,
+      "input_SHA": "5cf03b7e317e524bf8a799965301ff154b0802f5ae51b68d37cb2bcd1864f271",
+      "current_training_not_completed": true
+    },
+    "B": {
+      "child_PID": 3696,
+      "actual_dispatch_UTC": "2026-10-09T00:29:09.836052+00:00",
+      "epoch": 12,
+      "steps": 480,
+      "recorded_state_and_prediction_SHA_identical": true,
+      "input_SHA": "fabb3c961f6f9b3c2a34751594ad6840f5b11930fecee0019988181c76e08a62",
+      "current_training_not_completed": true
+    }
+  },
+  "D_original": "D:\\CodexBackups\\selective_flow_20261003_1105\\matched_recovery_actual_start_20261009T003133Z\\all_small_original_recovery_start_evidence.zip",
+  "archive_SHA": "2a997447350100e815b2c044f9d78d557a06044de9a10ffedec0ba61f17eb10c",
+  "archive_bytes": 35370,
+  "no_new_final_VAL_TEST_five": true
+}

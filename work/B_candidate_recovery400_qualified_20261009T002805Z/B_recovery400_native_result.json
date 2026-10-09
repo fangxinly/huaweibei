@@ -1,0 +1,24 @@
+{
+  "status": "POLARITY_INTENSITY_BOTH_MODES_RECOVERY400_RESUME_TO440_CPU_TRAJECTORY_IDENTICAL",
+  "actual_UTC": "2026-10-09T00:08:58.706586+00:00",
+  "pid": 3260,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261008T175549Z_B/.venv/bin/python",
+    "/data/coding/B_recovery400_native_source_20261009T000900Z/qualify_resume_official_v1.py",
+    "--bundle",
+    "/data/coding/B_recovery400_native_source_20261009T000900Z",
+    "--out",
+    "/data/coding/B_recovery400_native_actual_20261009T000900Z/out"
+  ],
+  "UUID": "GPU-609b23d6-282d-8a2b-23f5-9433b824d212",
+  "source_SHA": "90e4ca422d0e60cb530702e85ff6bc434981dc74c04f95aa2ce2b6aaea63f766",
+  "candidate_SHA": "2c35b22f53471fb794cd03de6f546d612f67d05c620573b79d28db6e69a633dd",
+  "qualified_modes": [
+    "regression_aux",
+    "factorized_aux"
+  ],
+  "prefix_counted_once": true,
+  "prediction_parameter_Adam_scheduler_python_numpy_torch_RNG_identical": true,
+  "real_TRAIN": false,
+  "final_steps": 440
+}

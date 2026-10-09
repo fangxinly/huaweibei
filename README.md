@@ -114,4 +114,4 @@ python work/polarity_intensity_official_v1/integration_contract.py scratch/polar
 
 ## 原流极性与强度升级
 
-[真实两臂续训、中断及恢复记录](docs/polarity_intensity_training.md)。完整prefix16已保存并跨服务器CPU通过；100续训在97/96轮中断，尚无新最终VAL/TEST五项，完整400状态恢复资格已核验，禁止将选模MSE当MAE。
+[实际训练、完整中断保存及恢复](docs/polarity_intensity_training.md)。当前状态：MATCHED_PAIR_DETACHED_RECOVERY400_RUNNING。尚无新最终VAL/TEST五项，恢复额外计算成本单列。

@@ -1,0 +1,38 @@
+{
+  "status": "REMOTE_RELEASE_ALL_DIGESTS_VERIFIED",
+  "source_SHA": "e12d8e854cea8aa9d2dd49ce953987b01759a86e85bf8fe45ec24bbae5286e19",
+  "pid": 3403,
+  "fullargv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/remote_release_stream_v1.py",
+    "--plan",
+    "/data/coding/publish_interrupted_B_plan.json",
+    "--receipt",
+    "/data/coding/publish_interrupted_B_receipt.json"
+  ],
+  "release_id": 407120472,
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "assets": [
+    {
+      "name": "polarity-intensity-B-interrupted-original-20261009.zip.part00",
+      "bytes": 1600000000,
+      "sha256": "246c1ad65dbbfa319d7af2cef4b6db8b80e7cfac82be6f5f0e43640775cce808",
+      "source_sha256": "8261a1c5a9674c9e4d8564737dc5953a6a84382154d55f7bf931e414fe2d5c4d",
+      "source_offset": 0,
+      "id": 623379802,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/polarity-intensity-B-interrupted-original-20261009.zip.part00"
+    },
+    {
+      "name": "polarity-intensity-B-interrupted-original-20261009.zip.part01",
+      "bytes": 165683267,
+      "sha256": "601471d887dcad455753b74d1e9a11da310238efbf41b4d1f8ae56a91b048448",
+      "source_sha256": "8261a1c5a9674c9e4d8564737dc5953a6a84382154d55f7bf931e414fe2d5c4d",
+      "source_offset": 1600000000,
+      "id": 623383540,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/polarity-intensity-B-interrupted-original-20261009.zip.part01"
+    }
+  ],
+  "actual_UTC": "2026-10-09T00:16:42.019854+00:00",
+  "release_url": "https://github.com/fangxinly/huaweibei/releases/tag/autonomous-flow-health-20261008"
+}
