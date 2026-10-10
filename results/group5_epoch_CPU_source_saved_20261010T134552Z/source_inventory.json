@@ -1,0 +1,22 @@
+[
+  {
+    "name": "group5_composite_stopped_epoch_CPU_audit_v1.py",
+    "SHA": "7070353ea7c8543377ba98b8de44e38adcb5da674c7615f31d6e5cf256b1fc59",
+    "bytes": 14838
+  },
+  {
+    "name": "check_group5_stopped_epoch_CPU_metadata_v1.py",
+    "SHA": "e61e691ca2b0d010ae6edf3e0a485b5a5e24d106fb03ed954fc2c1060fb9e024",
+    "bytes": 8674
+  },
+  {
+    "name": "group5_composite_epoch_resume_v2.py",
+    "SHA": "0d3859b230e7b556b8b321badbb40d8b7e1460296f957519c693defa83a335fa",
+    "bytes": 7216
+  },
+  {
+    "name": "preserve_group5_stopped_epoch_CPU_source_v1.py",
+    "SHA": "84c300f452b0e1795a49cffedcbe6ed8382449e27446243eb7fa828fe327304f",
+    "bytes": 11211
+  }
+]

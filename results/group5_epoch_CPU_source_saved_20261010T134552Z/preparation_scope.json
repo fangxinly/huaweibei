@@ -1,0 +1,17 @@
+{
+  "actual_UTC": "2026-10-10T13:45:52.791165+00:00",
+  "status": "STOPPED_EPOCH_CPU_AUDIT_SOURCE_PREPARATION_ONLY",
+  "nonfinal_epoch_CPU_audit_source_implemented": true,
+  "separately_frozen_audit_driver_pending": true,
+  "original_stopped_checkpoint_CPU_audit_executed": false,
+  "real_recovery_qualified": false,
+  "CUDA_recovery_qualified": false,
+  "metadata_synthetic_cases_passed": 34,
+  "scientific_imports": false,
+  "new_fit_inference_score_or_task_target_decode": false,
+  "new_training_native_audit_or_score_once_consumed": false,
+  "outputs_preserved_unscored": 1,
+  "outer_scores": 0,
+  "current_leases_unchanged": true,
+  "future_new_node_details_not_received": true
+}

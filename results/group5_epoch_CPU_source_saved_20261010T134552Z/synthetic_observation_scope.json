@@ -1,0 +1,19 @@
+{
+  "observed_record_UTC": "2026-10-10T13:45:52.791165+00:00",
+  "prior_check": {
+    "tool_chunk_id": "fad8fc",
+    "exit_code": 0,
+    "passed_cases": 33
+  },
+  "final_check": {
+    "tool_chunk_id": "2a7e75",
+    "exit_code": 0,
+    "passed_cases": 34
+  },
+  "no_test_rerun_by_preservation": true,
+  "no_invented_exact_exit_timestamp": true,
+  "prior_source_is_reconstruction_not_capture": true,
+  "prior_source_SHA_matches_original_report": true,
+  "reason_for_final_check": "Added strict boolean execution-enabled gate and an adversarial string-flag case after source review.",
+  "no_new_real_model_or_array_execution": true
+}

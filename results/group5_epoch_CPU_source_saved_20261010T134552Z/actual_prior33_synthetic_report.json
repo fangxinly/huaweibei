@@ -1,0 +1,151 @@
+{
+  "status": "STOPPED_EPOCH_CPU_AUDITOR_SOURCE_AND_SYNTHETIC_METADATA_PASS",
+  "actual_UTC": "2026-10-10T13:43:33.327033+00:00",
+  "passed_cases": 33,
+  "cases": [
+    {
+      "case": "synthetic_nonfinal_metadata_anchored_message20",
+      "passed": true,
+      "real_model_qualification": false
+    },
+    {
+      "case": "synthetic_nonfinal_metadata_old_fixed_A",
+      "passed": true,
+      "real_model_qualification": false
+    },
+    {
+      "case": "not_frozen",
+      "passed": true
+    },
+    {
+      "case": "not_enabled",
+      "passed": true
+    },
+    {
+      "case": "resume_chain",
+      "passed": true
+    },
+    {
+      "case": "wrong_method",
+      "passed": true
+    },
+    {
+      "case": "wrong_fold",
+      "passed": true
+    },
+    {
+      "case": "boolean_fold",
+      "passed": true
+    },
+    {
+      "case": "missing_fresh_scope",
+      "passed": true
+    },
+    {
+      "case": "wrong_dispatch_plan",
+      "passed": true
+    },
+    {
+      "case": "historical_weight",
+      "passed": true
+    },
+    {
+      "case": "outer_exposed_flag",
+      "passed": true
+    },
+    {
+      "case": "changed_cache",
+      "passed": true
+    },
+    {
+      "case": "different_parent",
+      "passed": true
+    },
+    {
+      "case": "wrong_fit_ids",
+      "passed": true
+    },
+    {
+      "case": "wrong_full_budget",
+      "passed": true
+    },
+    {
+      "case": "no_durable_epoch",
+      "passed": true
+    },
+    {
+      "case": "mid_epoch_updates",
+      "passed": true
+    },
+    {
+      "case": "boolean_epoch",
+      "passed": true
+    },
+    {
+      "case": "NaN_inner",
+      "passed": true
+    },
+    {
+      "case": "negative_inner",
+      "passed": true
+    },
+    {
+      "case": "boolean_inner",
+      "passed": true
+    },
+    {
+      "case": "tie_selects_late",
+      "passed": true
+    },
+    {
+      "case": "boolean_best_epoch",
+      "passed": true
+    },
+    {
+      "case": "missing_atomic_marker",
+      "passed": true
+    },
+    {
+      "case": "missing_selected_model",
+      "passed": true
+    },
+    {
+      "case": "missing_selected_inner",
+      "passed": true
+    },
+    {
+      "case": "outer_access_journal",
+      "passed": true
+    },
+    {
+      "case": "string_access_journal",
+      "passed": true
+    },
+    {
+      "case": "message_inner_exposure",
+      "passed": true
+    },
+    {
+      "case": "message_INNER_selection",
+      "passed": true
+    },
+    {
+      "case": "message_selected_state",
+      "passed": true
+    },
+    {
+      "case": "completed_stage_not_recovery",
+      "passed": true
+    }
+  ],
+  "source_SHA": "14738cd83c3858d0a1d33b6d6b7001a1055eef58729f35d70b8e36fd46dc9a49",
+  "original_partial_CPU_audit_source_implemented": true,
+  "dedicated_frozen_audit_driver_pending": true,
+  "real_original_checkpoint_audit_executed": false,
+  "real_model_Adam_RNG_CUDA_recovery_qualified": false,
+  "scientific_imports": false,
+  "task_array_or_target_decode": false,
+  "new_fit_inference_score": false,
+  "new_once_consumed": false,
+  "RAM_gate_precedes_scientific_import": true
+}
