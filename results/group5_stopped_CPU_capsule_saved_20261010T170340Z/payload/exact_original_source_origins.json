@@ -1,0 +1,132 @@
+{
+  "previous_driver_source": {
+    "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z",
+    "proof": {
+      "actual_UTC": "2026-10-10T16:15:45.554625+00:00",
+      "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z\\payload\\complete_CPU_driver_source_original.zip",
+      "archive_SHA": "ea44e855333e781ab6be978b72e0ff2891972826b2e41c0bcc7f7faf5036fb9e",
+      "bytes": 107610,
+      "all_member_SHA_CRC_unique_exact_set_passed": true,
+      "members": 16,
+      "D_exact_copy_verified": true,
+      "D_verification_UTC": "2026-10-10T16:15:56.965584+00:00"
+    },
+    "github": {
+      "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+      "actual_UTC": "2026-10-10T16:16:13.772275+00:00",
+      "commit": "7655c9dc046fe11b84f066d2f0efdee6763040c8",
+      "parent_commit": "33c56332a0e2969cd476b2a50b268b4a2bf7e0c8",
+      "files": 19,
+      "all_published_blobs_verified": true,
+      "C_checkout_not_modified": true
+    }
+  },
+  "original_pipeline": {
+    "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5pipe_20261010T032228Z",
+    "source_root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5pipe_20261010T032228Z\\source",
+    "proof": {
+      "actual_UTC": "2026-10-10T03:22:30.458671+00:00",
+      "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5pipe_20261010T032228Z\\source\\source.zip",
+      "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+      "bytes": 32387717,
+      "all_member_SHA_CRC_unique_exact_set_passed": true,
+      "members": 133
+    },
+    "Release": {
+      "remote_digest_verified": true,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+      "whole_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+      "range_receipt": {
+        "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+        "actual_UTC": "2026-10-10T03:22:38.944541+00:00",
+        "whole_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+        "parts": [
+          {
+            "name": "group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+            "bytes": 32387717,
+            "digest": "sha256:f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+            "state": "uploaded",
+            "id": 626882569,
+            "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+            "offset": 0
+          }
+        ]
+      }
+    }
+  },
+  "selected_member_source_bindings": [
+    {
+      "capsule_name": "fixed_flow_components_candidate.py",
+      "family": "anchored_parent",
+      "original_member": "anchored_parent/fixed_flow_components_candidate.py",
+      "SHA": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "bytes": 2137
+    },
+    {
+      "capsule_name": "fixed_flow_components_candidate.py",
+      "family": "old_A_teacher",
+      "original_member": "old_A_teacher/fixed_flow_components_candidate.py",
+      "SHA": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "bytes": 2137
+    },
+    {
+      "capsule_name": "encoder_adapter.py",
+      "family": "anchored_parent",
+      "original_member": "anchored_parent/encoder_adapter.py",
+      "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "bytes": 3867
+    },
+    {
+      "capsule_name": "encoder_adapter.py",
+      "family": "old_A_teacher",
+      "original_member": "old_A_teacher/encoder_adapter.py",
+      "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "bytes": 3867
+    },
+    {
+      "capsule_name": "minimal_fixed_flow_v2.py",
+      "family": "anchored_parent",
+      "original_member": "anchored_parent/minimal_fixed_flow_v2.py",
+      "SHA": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "bytes": 4555
+    },
+    {
+      "capsule_name": "minimal_fixed_flow_v2.py",
+      "family": "old_A_teacher",
+      "original_member": "old_A_teacher/minimal_fixed_flow_v2.py",
+      "SHA": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "bytes": 4555
+    },
+    {
+      "capsule_name": "legacy_flow_model.py",
+      "family": "anchored_parent",
+      "original_member": "anchored_parent/legacy_flow_model.py",
+      "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "bytes": 15003
+    },
+    {
+      "capsule_name": "legacy_flow_model.py",
+      "family": "old_A_teacher",
+      "original_member": "old_A_teacher/legacy_flow_model.py",
+      "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "bytes": 15003
+    },
+    {
+      "capsule_name": "finite_single_token_reader_v1.py",
+      "family": "anchored_parent",
+      "original_member": "anchored_parent/finite_single_token_reader_v1.py",
+      "SHA": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "bytes": 2184
+    },
+    {
+      "capsule_name": "finite_single_token_reader_v1.py",
+      "family": "old_A_teacher",
+      "original_member": "old_A_teacher/finite_single_token_reader_v1.py",
+      "SHA": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "bytes": 2184
+    }
+  ],
+  "whole_pipeline_SHA_bound": true,
+  "selected_members_CRC_SHA_exact_bytes_verified": true,
+  "no_original_archive_recompression_or_republication": true
+}

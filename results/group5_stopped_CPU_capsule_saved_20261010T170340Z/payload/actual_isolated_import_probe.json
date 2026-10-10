@@ -1,0 +1,9 @@
+{
+  "actual_observed_completion_UTC": "2026-10-10T17:03:40.985712+00:00",
+  "natural_exit": 0,
+  "stdout": "{\"isolated_inert_module_imports\": [\"group5_stopped_epoch_CPU_driver_v1\", \"group5_composite_stopped_epoch_CPU_audit_v1\", \"group5_composite_epoch_resume_v2\", \"group5_test_selected_contract_v1\"], \"scientific_imports\": false, \"original_checkpoint_audit\": false, \"task_arrays_or_targets_loaded\": false, \"training_prediction_or_score\": false, \"actual_once_consumed\": false}\n",
+  "stderr": "",
+  "isolated_without_site_packages": true,
+  "probe_SHA": "b15c8da64936c78dadb2a27dff1d49a29cff2a6964d65b4ab0ed00cbf08de117",
+  "inventory_SHA": "0b2fc9feb1c8565200f532cb19b0ef669da3f8001f63b2fe1294316a8529ed5f"
+}

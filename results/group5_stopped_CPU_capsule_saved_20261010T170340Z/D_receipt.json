@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T17:03:41.216453+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_stopped_CPU_capsule_saved_20261010T170340Z\\payload\\complete_stopped_CPU_dependency_capsule_original.zip",
+  "archive_SHA": "bd0b4ae3f3f91da7af3cf5254cd49e8995de6bb3cdf847a64d252889de8c79d7",
+  "bytes": 121526,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 18,
+  "D_exact_copy_verified": true,
+  "D_verification_UTC": "2026-10-10T17:04:01.960912+00:00"
+}

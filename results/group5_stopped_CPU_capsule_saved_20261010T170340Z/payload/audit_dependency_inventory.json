@@ -1,0 +1,341 @@
+{
+  "source_files": [
+    {
+      "name": "encoder_adapter.py",
+      "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "bytes": 3867,
+      "dependencies": [
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "torch.nn.functional",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "types",
+          "kind": "standard_library"
+        }
+      ]
+    },
+    {
+      "name": "finite_single_token_reader_v1.py",
+      "SHA": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "bytes": 2184,
+      "dependencies": [
+        {
+          "module": "sys",
+          "kind": "standard_library"
+        },
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "torch.nn",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "types",
+          "kind": "standard_library"
+        }
+      ]
+    },
+    {
+      "name": "fixed_flow_components_candidate.py",
+      "SHA": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "bytes": 2137,
+      "dependencies": [
+        {
+          "module": "encoder_adapter",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "hashlib",
+          "kind": "standard_library"
+        },
+        {
+          "module": "minimal_fixed_flow_v2",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        }
+      ]
+    },
+    {
+      "name": "group5_composite_epoch_resume_v2.py",
+      "SHA": "0d3859b230e7b556b8b321badbb40d8b7e1460296f957519c693defa83a335fa",
+      "bytes": 7216,
+      "dependencies": [
+        {
+          "module": "fixed_flow_components_candidate",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "math",
+          "kind": "standard_library"
+        },
+        {
+          "module": "numpy",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "random",
+          "kind": "standard_library"
+        },
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        }
+      ]
+    },
+    {
+      "name": "group5_composite_stopped_epoch_CPU_audit_v1.py",
+      "SHA": "7070353ea7c8543377ba98b8de44e38adcb5da674c7615f31d6e5cf256b1fc59",
+      "bytes": 14838,
+      "dependencies": [
+        {
+          "module": "datetime",
+          "kind": "standard_library"
+        },
+        {
+          "module": "fixed_flow_components_candidate",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "group5_composite_epoch_resume_v2",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "group5_release_transport_v1",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "group5_test_selected_contract_v1",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "json",
+          "kind": "standard_library"
+        },
+        {
+          "module": "math",
+          "kind": "standard_library"
+        },
+        {
+          "module": "numpy",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "pathlib",
+          "kind": "standard_library"
+        },
+        {
+          "module": "sys",
+          "kind": "standard_library"
+        },
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "zipfile",
+          "kind": "standard_library"
+        }
+      ]
+    },
+    {
+      "name": "group5_release_transport_v1.py",
+      "SHA": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+      "bytes": 10893,
+      "dependencies": [
+        {
+          "module": "argparse",
+          "kind": "standard_library"
+        },
+        {
+          "module": "datetime",
+          "kind": "standard_library"
+        },
+        {
+          "module": "hashlib",
+          "kind": "standard_library"
+        },
+        {
+          "module": "json",
+          "kind": "standard_library"
+        },
+        {
+          "module": "os",
+          "kind": "standard_library"
+        },
+        {
+          "module": "pathlib",
+          "kind": "standard_library"
+        },
+        {
+          "module": "urllib.parse",
+          "kind": "standard_library"
+        },
+        {
+          "module": "urllib.request",
+          "kind": "standard_library"
+        },
+        {
+          "module": "zipfile",
+          "kind": "standard_library"
+        }
+      ]
+    },
+    {
+      "name": "group5_stopped_epoch_CPU_driver_v1.py",
+      "SHA": "a92ec9d7434431de99df652d72d6b0d864b72647b09551e7fa3a4ad9b0797576",
+      "bytes": 13156,
+      "dependencies": [
+        {
+          "module": "argparse",
+          "kind": "standard_library"
+        },
+        {
+          "module": "datetime",
+          "kind": "standard_library"
+        },
+        {
+          "module": "group5_composite_stopped_epoch_CPU_audit_v1",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "group5_release_transport_v1",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "importlib.metadata",
+          "kind": "standard_library"
+        },
+        {
+          "module": "json",
+          "kind": "standard_library"
+        },
+        {
+          "module": "math",
+          "kind": "standard_library"
+        },
+        {
+          "module": "pathlib",
+          "kind": "standard_library"
+        },
+        {
+          "module": "shutil",
+          "kind": "standard_library"
+        },
+        {
+          "module": "subprocess",
+          "kind": "standard_library"
+        },
+        {
+          "module": "sys",
+          "kind": "standard_library"
+        }
+      ]
+    },
+    {
+      "name": "group5_test_selected_contract_v1.py",
+      "SHA": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+      "bytes": 5151,
+      "dependencies": [
+        {
+          "module": "datetime",
+          "kind": "standard_library"
+        },
+        {
+          "module": "hashlib",
+          "kind": "standard_library"
+        },
+        {
+          "module": "json",
+          "kind": "standard_library"
+        },
+        {
+          "module": "pathlib",
+          "kind": "standard_library"
+        }
+      ]
+    },
+    {
+      "name": "legacy_flow_model.py",
+      "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "bytes": 15003,
+      "dependencies": [
+        {
+          "module": "math",
+          "kind": "standard_library"
+        },
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        },
+        {
+          "module": "torch.nn.functional",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        }
+      ]
+    },
+    {
+      "name": "minimal_fixed_flow_v2.py",
+      "SHA": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "bytes": 4555,
+      "dependencies": [
+        {
+          "module": "finite_single_token_reader_v1",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "legacy_flow_model",
+          "kind": "exact_capsule_source"
+        },
+        {
+          "module": "torch",
+          "kind": "scientific_runtime_pending_original_version_binding"
+        }
+      ]
+    }
+  ],
+  "excluded_deferred_transport_functions": [
+    {
+      "source": "group5_release_transport_v1.py",
+      "function": "plan",
+      "reason": "Not called by the frozen CPU audit entry; publication/restoration CLI is outside this capsule scope."
+    },
+    {
+      "source": "group5_release_transport_v1.py",
+      "function": "verify_zip",
+      "reason": "Not called by the frozen CPU audit entry; publication/restoration CLI is outside this capsule scope."
+    },
+    {
+      "source": "group5_release_transport_v1.py",
+      "function": "seal",
+      "reason": "Not called by the frozen CPU audit entry; publication/restoration CLI is outside this capsule scope."
+    },
+    {
+      "source": "group5_release_transport_v1.py",
+      "function": "asset_inventory",
+      "reason": "Not called by the frozen CPU audit entry; publication/restoration CLI is outside this capsule scope."
+    },
+    {
+      "source": "group5_release_transport_v1.py",
+      "function": "upload",
+      "reason": "Not called by the frozen CPU audit entry; publication/restoration CLI is outside this capsule scope."
+    },
+    {
+      "source": "group5_release_transport_v1.py",
+      "function": "restore",
+      "reason": "Not called by the frozen CPU audit entry; publication/restoration CLI is outside this capsule scope."
+    }
+  ],
+  "closure_scope": "Stopped-epoch CPU audit entry and its imported scientific definitions only; transport publication/restore CLI is excluded.",
+  "source_AST_dependency_closure_verified": true,
+  "scientific_package_runtime_execution_qualified": false
+}

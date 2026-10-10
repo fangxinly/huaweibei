@@ -1,0 +1,5 @@
+Exact CPU-audit entry dependencies have been assembled from the preserved driver and original pipeline source members. The ten files retain their original bytes; both parent families share the selected five scientific definition files. AST dependency inventory covers the audit entry. Deferred transport publication and restoration functions are explicitly outside this entry scope.
+
+An isolated Python process with site packages disabled imported only the inert metadata modules while forbidding NumPy and Torch imports. This is a standard-library source/import observation. It does not execute scientific definitions or audit an original checkpoint, qualify the native runtime, restore CPU/CUDA model/Adam/RNG state, train, predict, decode task targets or score.
+
+The future actual plan still must bind an eligible original stopped same-fold composite, observed natural exit, complete Release restoration, the current source and asset inventory, human-provided node/actual lease, exact runtime, fresh resource and saving gates, and a new audit token. The unchanged inert template is not an execution plan. One of25 unscored outputs remains preserved; zero OUTER scores exist.
