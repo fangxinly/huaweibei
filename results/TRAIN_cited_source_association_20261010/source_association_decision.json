@@ -1,0 +1,48 @@
+{
+  "actual_UTC": "2026-10-10T01:15:20.322275+00:00",
+  "exact_download_script_byte_equality": true,
+  "download_script_SHA": "d6e52690af421f333cb2144a5e2793489a3e6077104750d0071eeb10e79ab5e8",
+  "current_official_pickle_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+  "source_commits": {
+    "BERT_multimodal_transformer": {
+      "repository": "WasifurRahman/BERT_multimodal_transformer",
+      "commit": "dc7876fc30f7ef362999200911e3d4d8a2bca107",
+      "selected": [
+        "README.md",
+        "datasets/download_datasets.sh",
+        "examine.ipynb"
+      ],
+      "tree_inventory_only": true,
+      "all_tree_files_not_fetched": true,
+      "no_dataset_download": true,
+      "notebook_outputs_not_inspected": true,
+      "source_not_executed": true
+    },
+    "ITHP": {
+      "repository": "joshuaxiao98/ITHP",
+      "commit": "c5414d53e635126cdaf5ad1a5b165c5e7128a412",
+      "selected": [
+        "README.md",
+        "datasets/download_datasets.sh"
+      ],
+      "tree_inventory_only": true,
+      "all_tree_files_not_fetched": true,
+      "no_dataset_download": true,
+      "notebook_outputs_not_inspected": true,
+      "source_not_executed": true
+    }
+  },
+  "supported": "The cited public repositories and pinned CaReFlow download scripts share identical bytes and resource locations.",
+  "not_proven": [
+    "Downloaded artifact byte identity: no dataset was fetched or compared",
+    "Construction recipe or per-segment centering for the current SHA-bound pickle",
+    "Channel semantics/units/sentinel/imputation/precision or upstream fit/pretraining exposure"
+  ],
+  "notebook_scope": "Only code-cell source inspected; contains loading, interactive viewing, shape/alignment assertions, no construction or normalization recipe. Fetched notebook code never executed and outputs not inspected.",
+  "audit_scope": "Selected pinned public files plus recursive filename inventory, not exhaustive content/history inspection.",
+  "new_arrays_or_labels_inspected": false,
+  "new_fit_score_diagnostic": false,
+  "new_SSH_connections": false,
+  "original_results_unchanged": true,
+  "decision": "Shared download location supports a source association, not artifact identity or a preprocessing proof. The near-zero mean/centering hypothesis remains unconfirmed. Do not import any recipe/threshold from another dataset branch or retune the completed probe."
+}

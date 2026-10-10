@@ -750,6 +750,96 @@
       "sanitizations": {}
     },
     {
+      "path": "results/TRAIN_cited_source_association_20261010/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\D_preservation_receipt.json",
+      "kind": "cited_public_source_association",
+      "bytes": 353,
+      "original_sha256": "98568e230ac7de3f3da37e1daec37fbe850aea8525b2281e48ecb2d1f0912dfb",
+      "published_sha256": "98568e230ac7de3f3da37e1daec37fbe850aea8525b2281e48ecb2d1f0912dfb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/decision_D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\decision_D_preservation_receipt.json",
+      "kind": "cited_public_source_association",
+      "bytes": 380,
+      "original_sha256": "17b66b323cb22c39e0aa37c6997c5c66cadef3be33d5ffa7bec8b1265c5d87bc",
+      "published_sha256": "17b66b323cb22c39e0aa37c6997c5c66cadef3be33d5ffa7bec8b1265c5d87bc",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/decision_Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\decision_Release_receipt.json",
+      "kind": "cited_public_source_association",
+      "bytes": 709,
+      "original_sha256": "2907362e5005d443b045034aab688d755321ed8c52823a44804be393d987dddd",
+      "published_sha256": "2907362e5005d443b045034aab688d755321ed8c52823a44804be393d987dddd",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/fetch_ledger.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\fetch_ledger.json",
+      "kind": "cited_public_source_association",
+      "bytes": 4765,
+      "original_sha256": "363d88549ed6db4131ce0e9a4ca978617a00f99a05f86a81d171060c7ec852fd",
+      "published_sha256": "363d88549ed6db4131ce0e9a4ca978617a00f99a05f86a81d171060c7ec852fd",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/fetch_raw_TRAIN_cited_source_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\fetch_raw_TRAIN_cited_source_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 3739,
+      "original_sha256": "2dc1ddf1d4780a00939eb6fc491c1a242c309395d5ef2418d2563c2a7f7e298a",
+      "published_sha256": "2dc1ddf1d4780a00939eb6fc491c1a242c309395d5ef2418d2563c2a7f7e298a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/publish_raw_TRAIN_cited_source_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\publish_raw_TRAIN_cited_source_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 5043,
+      "original_sha256": "3d39f0a307c9d90d204d01414e9ccb6319f00183fb56e9c388ed64be0f14d3e7",
+      "published_sha256": "3d39f0a307c9d90d204d01414e9ccb6319f00183fb56e9c388ed64be0f14d3e7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/save_raw_TRAIN_cited_source_decision_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\save_raw_TRAIN_cited_source_decision_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 5657,
+      "original_sha256": "0de88d2c199f48dd2d601812d6db47ac8aedbd73e37fb3bd3ae2a8068f6a4960",
+      "published_sha256": "0de88d2c199f48dd2d601812d6db47ac8aedbd73e37fb3bd3ae2a8068f6a4960",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/source_Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\source_Release_receipt.json",
+      "kind": "cited_public_source_association",
+      "bytes": 678,
+      "original_sha256": "1e023efa042c6bbe1e2aeae0f3409dc7ea85ed1b9cf44f3e452e4ef66005cde4",
+      "published_sha256": "1e023efa042c6bbe1e2aeae0f3409dc7ea85ed1b9cf44f3e452e4ef66005cde4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/source_association_decision.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\source_association_decision.json",
+      "kind": "cited_public_source_association",
+      "bytes": 2396,
+      "original_sha256": "af2ef9968a174d3132bc3b44ba2dd820a85814b217363e461c4becd6b49a67a8",
+      "published_sha256": "af2ef9968a174d3132bc3b44ba2dd820a85814b217363e461c4becd6b49a67a8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_cited_source_association_20261010/引用仓库输入来源关联.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\public_source_and_summary\\引用仓库输入来源关联.md",
+      "kind": "cited_public_source_association",
+      "bytes": 1480,
+      "original_sha256": "e7a0acca64ae65a4ca5d767d6df71f6669eb8a9e4b6314c1b74aab05323c40ad",
+      "published_sha256": "e7a0acca64ae65a4ca5d767d6df71f6669eb8a9e4b6314c1b74aab05323c40ad",
+      "sanitizations": {}
+    },
+    {
       "path": "results/TRAIN_saved_fit_support_20261010/Release_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\Release_receipt.json",
       "kind": "saved_support_source_or_analysis",

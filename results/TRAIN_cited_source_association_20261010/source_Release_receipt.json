@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T01:15:38.692738+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_cited_public_source_actual_20261010T011420Z\\complete_actual_cited_source_fetch_original.zip",
+  "source_SHA": "aa31b202ea877b682461ee588c64a80a2ed7bb624d794f6505e31a14f1aae9ef",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "TRAIN-cited-public-source-original-20261010T011420Z.zip",
+  "id": 626650847,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/TRAIN-cited-public-source-original-20261010T011420Z.zip",
+  "remote_digest_verified": true
+}
