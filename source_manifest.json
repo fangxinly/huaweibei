@@ -1947,6 +1947,51 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_human_continue_progress_20261010/actual_progress_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_human_resume_progress_20261010T045836Z\\metadata\\actual_progress_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1003,
+      "original_sha256": "e22f4fda2212c3a4fdd63fd49beb7cfc5ea06e35ebfb2e9c9dab1d3f559bd94c",
+      "published_sha256": "e22f4fda2212c3a4fdd63fd49beb7cfc5ea06e35ebfb2e9c9dab1d3f559bd94c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_human_continue_progress_20261010/original/capture_actual.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_human_resume_progress_20261010T045836Z\\metadata\\original\\capture_actual.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 84,
+      "original_sha256": "3272432e5b34a4e43ee9c889c1daa7fb6a5b98bbe05f8e75fba03067b11ae4b3",
+      "published_sha256": "3272432e5b34a4e43ee9c889c1daa7fb6a5b98bbe05f8e75fba03067b11ae4b3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_human_continue_progress_20261010/original/dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_human_resume_progress_20261010T045836Z\\metadata\\original\\dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 802,
+      "original_sha256": "760a05c8765a93852ba442495e28f20cf80b93d1d697171f8e98e3676bb81652",
+      "published_sha256": "760a05c8765a93852ba442495e28f20cf80b93d1d697171f8e98e3676bb81652",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_human_continue_progress_20261010/original/out/history.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_human_resume_progress_20261010T045836Z\\metadata\\original\\out\\history.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3125,
+      "original_sha256": "a6ddc464222a38dc33c30fdadd0f978b0908723ae28d3e450b7433e942f0ca2a",
+      "published_sha256": "a6ddc464222a38dc33c30fdadd0f978b0908723ae28d3e450b7433e942f0ca2a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_human_continue_progress_20261010/save_group5_human_resume_progress_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_human_resume_progress_20261010T045836Z\\metadata\\save_group5_human_resume_progress_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4719,
+      "original_sha256": "057556977d480fda52f339e7cb816ebbd5fac0d3d11a1ec853a69de7dd0066ab",
+      "published_sha256": "057556977d480fda52f339e7cb816ebbd5fac0d3d11a1ec853a69de7dd0066ab",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_native_precheck_and_transport_20261010/D_metadata_preservation_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_review_block_20261010T041219Z\\public\\D_metadata_preservation_receipt.json",
       "kind": "group5_native_observation_pending_CPU_and_full_capture_not_formal_training",

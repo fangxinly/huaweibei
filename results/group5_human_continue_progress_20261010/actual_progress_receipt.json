@@ -1,0 +1,24 @@
+{
+  "status": "HUMAN_CONTINUE_SAME_PROTOCOL_REAL_PROGRESS10",
+  "actual_UTC": "2026-10-10T04:58:36.583381+00:00",
+  "original_remote_capture": {
+    "actual_UTC": "2026-10-10T04:58:07.619687+00:00",
+    "formal_once_not_repeated": true
+  },
+  "original_SHA": "cdf23fd7651715f338a9de24c7466262547135a065cb4eb7a21c6eabd0bf3a39",
+  "last_completed_epoch": 10,
+  "logical_updates_at_completed_epoch": 470,
+  "remote_root": "/data/coding/g5careflow100_20261010T043810Z",
+  "SSH_session": 23105,
+  "child": 2302,
+  "later_human_continue_after_0452_rejection": true,
+  "permission_profile_changed": true,
+  "new_approval_rejection": false,
+  "no_claim_underlying_approval_policy_fixed": true,
+  "training_restarted": false,
+  "new_train_once_consumed": false,
+  "original_wrapper_exit_absent": true,
+  "formal_final_outputs_completed": 0,
+  "outer_scores_computed": false,
+  "permission_grant_scope": "This turn only: D preservation write and network approved by request_permissions"
+}

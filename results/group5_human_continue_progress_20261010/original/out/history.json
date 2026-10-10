@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 1,
+    "updates": 47,
+    "inner_MSE": 2.3885390228408374,
+    "best_epoch": 1,
+    "best_MSE": 2.3885390228408374,
+    "prediction_SHA": "46abaf0f5dc8ddeb7dafb0b9c1d3d7587bcf9430d29da5f9dba5a5eadd0afc5f",
+    "state_SHA": "ca819b88234ef05a94adaaf85022c5498c03f81863cdd680386a8471c63273dc"
+  },
+  {
+    "epoch": 2,
+    "updates": 94,
+    "inner_MSE": 2.3880268551323205,
+    "best_epoch": 2,
+    "best_MSE": 2.3880268551323205,
+    "prediction_SHA": "43f17d413647d7724cafcf73f09f9c82fd4c8023c99bc316d07ca7223edaafcf",
+    "state_SHA": "1a668ee93e69c7bc2aecda193fd36360c95a206eca8dfc80d141643fd7dee370"
+  },
+  {
+    "epoch": 3,
+    "updates": 141,
+    "inner_MSE": 2.387438611646803,
+    "best_epoch": 3,
+    "best_MSE": 2.387438611646803,
+    "prediction_SHA": "43933acf927099b539a971060b8bcfe53bd75547c58247a07e058fad4e0a1cf7",
+    "state_SHA": "b06c1a5df6f8419feefc2580e74f458c36f3eb7d24d0d6a272afff083b95731f"
+  },
+  {
+    "epoch": 4,
+    "updates": 188,
+    "inner_MSE": 2.3859401041220107,
+    "best_epoch": 4,
+    "best_MSE": 2.3859401041220107,
+    "prediction_SHA": "458aa33134cb7024d8211e5526c789fb70aa255b3b7c2df117dde56b6c272629",
+    "state_SHA": "abc2875c1b14f567407e2427f9e0807ef8f58d8f21e327fea3292f3052006753"
+  },
+  {
+    "epoch": 5,
+    "updates": 235,
+    "inner_MSE": 2.3848320232506612,
+    "best_epoch": 5,
+    "best_MSE": 2.3848320232506612,
+    "prediction_SHA": "0210e2a015ccab6f4c6eb48d4624083f1cf2bb0bfed32aa716fb1505fb71e4a9",
+    "state_SHA": "79d9fe3a6d47ecc5b34013a7903294604af8a3e4dae029770b098cfe7ea8f8dc"
+  },
+  {
+    "epoch": 6,
+    "updates": 282,
+    "inner_MSE": 2.380624503289235,
+    "best_epoch": 6,
+    "best_MSE": 2.380624503289235,
+    "prediction_SHA": "23203518f530ffcf3ec6f22cd27ee7645e9594cdcea4d9569f529067d2e569eb",
+    "state_SHA": "201e12b43b1ee2f1f1b7ae203268d246b8714dc69da7f377c63e6dddd69a54b1"
+  },
+  {
+    "epoch": 7,
+    "updates": 329,
+    "inner_MSE": 2.368596531233998,
+    "best_epoch": 7,
+    "best_MSE": 2.368596531233998,
+    "prediction_SHA": "bc9c6712b27a76f695886fa8fcc383ea931f7569ea3fcce6f831c833fab2a5ac",
+    "state_SHA": "dfbd1084257abae5efcc6f4b85212a62b0bc6308c56d811e2506a73a651db4cd"
+  },
+  {
+    "epoch": 8,
+    "updates": 376,
+    "inner_MSE": 2.3125080045636692,
+    "best_epoch": 8,
+    "best_MSE": 2.3125080045636692,
+    "prediction_SHA": "a45d426bf5ebf353a584e18f268cc4060a797bdf2260144046fba7a0c23ee38a",
+    "state_SHA": "b05818a2ffbc658920882a75acfaea643485d9fbf255e34373186008e32a1a3b"
+  },
+  {
+    "epoch": 9,
+    "updates": 423,
+    "inner_MSE": 2.2520110302170466,
+    "best_epoch": 9,
+    "best_MSE": 2.2520110302170466,
+    "prediction_SHA": "b69ab92ea91d9d656baf2e6abd5a3947a7c41a9f7633a9fe74fe82556689b992",
+    "state_SHA": "e17fe5b6581e2c3e8c749c67bafa00f94bb5f66448173d398b27b2ab16e91b31"
+  },
+  {
+    "epoch": 10,
+    "updates": 470,
+    "inner_MSE": 2.125495464366461,
+    "best_epoch": 10,
+    "best_MSE": 2.125495464366461,
+    "prediction_SHA": "2fe6f8550687da3118c93a5292b755f164c99f44c403b3e0d2a832b08103aa07",
+    "state_SHA": "81267d050631f42337f4a9941c2866c8b4da0107eaf9734c0e20e9c68e372caa"
+  }
+]
