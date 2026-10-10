@@ -840,6 +840,78 @@
       "sanitizations": {}
     },
     {
+      "path": "results/TRAIN_recipe_scope_20261010/fetch_MAG_recipe_PR10_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\fetch_MAG_recipe_PR10_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 1745,
+      "original_sha256": "68ca950f3d47e108d6d45ed9bd5e4249875cd60ba3d8050479953f9a78a07c6b",
+      "published_sha256": "68ca950f3d47e108d6d45ed9bd5e4249875cd60ba3d8050479953f9a78a07c6b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/fetch_raw_TRAIN_recipe_sources_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\fetch_raw_TRAIN_recipe_sources_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 2527,
+      "original_sha256": "e0ee014da06656b25de2efd171e0ea488d3516017e93dd89722e410862467701",
+      "published_sha256": "e0ee014da06656b25de2efd171e0ea488d3516017e93dd89722e410862467701",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/publish_raw_TRAIN_cited_source_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\publish_raw_TRAIN_cited_source_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 5517,
+      "original_sha256": "96ccbc38899de1b97ef60649940711b2d1509859a62d20eca297ee1adadec132",
+      "published_sha256": "96ccbc38899de1b97ef60649940711b2d1509859a62d20eca297ee1adadec132",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/recipe_Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\recipe_Release_receipt.json",
+      "kind": "cited_public_source_association",
+      "bytes": 696,
+      "original_sha256": "7d25fdb9bc8fbbf988650cbcf1ab288970f46458478662b6532f8e5b774225b9",
+      "published_sha256": "7d25fdb9bc8fbbf988650cbcf1ab288970f46458478662b6532f8e5b774225b9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/recipe_scope_D_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\recipe_scope_D_receipt.json",
+      "kind": "cited_public_source_association",
+      "bytes": 371,
+      "original_sha256": "bfdd86d9679dd8d6d5564482c9245ff6b0c972aef27a04829669782da25102f3",
+      "published_sha256": "bfdd86d9679dd8d6d5564482c9245ff6b0c972aef27a04829669782da25102f3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/recipe_scope_decision.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\recipe_scope_decision.json",
+      "kind": "cited_public_source_association",
+      "bytes": 1786,
+      "original_sha256": "914722a93c8297ccd3a4558a9872e52b26eedfc1aef9acc343df54888fe5edb1",
+      "published_sha256": "914722a93c8297ccd3a4558a9872e52b26eedfc1aef9acc343df54888fe5edb1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/save_raw_TRAIN_recipe_scope_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\save_raw_TRAIN_recipe_scope_v1.py",
+      "kind": "cited_public_source_association",
+      "bytes": 6894,
+      "original_sha256": "b93dcc1944db3f747d0ca71934a330bcf0b2644ca26143e9dc4157668f07a3a6",
+      "published_sha256": "b93dcc1944db3f747d0ca71934a330bcf0b2644ca26143e9dc4157668f07a3a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_scope_20261010/归一化配方适用范围.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\归一化配方适用范围.md",
+      "kind": "cited_public_source_association",
+      "bytes": 1646,
+      "original_sha256": "ff9fbbf8fab109a566e63a075ddd80101ff9f25c7cb62f3fb96df804cb8ce697",
+      "published_sha256": "ff9fbbf8fab109a566e63a075ddd80101ff9f25c7cb62f3fb96df804cb8ce697",
+      "sanitizations": {}
+    },
+    {
       "path": "results/TRAIN_saved_fit_support_20261010/Release_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\Release_receipt.json",
       "kind": "saved_support_source_or_analysis",

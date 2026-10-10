@@ -1,0 +1,27 @@
+{
+  "actual_UTC": "2026-10-10T01:32:31.209657+00:00",
+  "MAG_issue11_maintainer_points_to_PR10": true,
+  "MAG_PR10_dataset_scope": "MOSEI, not proof for current MOSI",
+  "MAG_PR10_example_reduction_axis": "No axis argument: whole-array reduction as written; does not imply each channel has zero temporal mean",
+  "MAG_PR10_head": "a239a6353a7f57962abaa979c1a3c69d7959c7ca",
+  "MAG_PR10_merge": "02987db0917fadd204d1d9a2ffbed18102812407",
+  "MISA_commit": "ec42faddde0d210cf7368aebf2118fe9570e7102",
+  "MISA_source_SHA": "fa1a347d6e146f499cdd06d619c1826c7877c9db3c20370189bc7ebea0da5e86",
+  "MISA_MOSI_recipe": "SDK word alignment/averaging; remove sp; per-instance per-channel centering/scaling with EPS1e-6; separate split pickles and four-element modality tuple",
+  "MISA_current_pickle_binding": false,
+  "source_AST_axis_check_passed": true,
+  "external_code_executed": false,
+  "current_dataset_array_or_label_decodes": 0,
+  "new_fit_solve_score_diagnostic": false,
+  "new_SSH_connection": false,
+  "public_PR_patch_metadata_inspected": true,
+  "notebook_dataset_outputs_executed": false,
+  "uncertainty": [
+    "Actual current MOSI pickle generator, exact source version and artifact SHA binding",
+    "Channel units/sentinels/precision/imputation and upstream exposure scope",
+    "Whether current near-zero channel means came from per-channel centering; hypothesis only"
+  ],
+  "independent_decision": "Two primary sources specify different normalization axes and datasets. Do not transfer PR10 MOSEI operations or MISA EPS/row filtering to this MOSI pickle. Shared URLs, formats or similar moments are not construction proof. Preserve all original videos/folds/lambda/predictions and results.",
+  "original_results_unchanged": true,
+  "whole_neural_fivefold_complete": false
+}
