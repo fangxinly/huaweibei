@@ -1,0 +1,12 @@
+{
+  "observed_record_UTC": "2026-10-10T13:15:19.830709+00:00",
+  "human_answer": "24小时后提供新节点",
+  "preceding_clarification": "Current nodes extended, or provide new nodes after24h?",
+  "interpretation": "Human will provide new nodes after24h; current N1/N2/N3 leases are not extended.",
+  "exact_future_node_arrival_not_confirmed": true,
+  "new_endpoints_ports_UUID_or_actual_lease_not_yet_supplied": true,
+  "current_leases_extended": false,
+  "renewal_or_purchase_authorized": false,
+  "future_timing_is_not_a_valid_new_lease_or_execution_proof": true,
+  "repeat_lease_question_now": false
+}

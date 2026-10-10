@@ -1,0 +1,140 @@
+{
+  "status": "COMPOSITE_V2_METADATA_SYNTHETIC_AND_AST_CHECKS_PASS",
+  "actual_UTC": "2026-10-10T13:12:56.259028+00:00",
+  "cases": [
+    {
+      "case": "synthetic_metadata_accept_old_fixed_A",
+      "passed": true,
+      "model_qualification": false
+    },
+    {
+      "case": "synthetic_metadata_accept_anchored_message20",
+      "passed": true,
+      "model_qualification": false
+    },
+    {
+      "case": "absent_CUDA",
+      "passed": true
+    },
+    {
+      "case": "string_CUDA_flag",
+      "passed": true
+    },
+    {
+      "case": "wrong_fold",
+      "passed": true
+    },
+    {
+      "case": "wrong_method",
+      "passed": true
+    },
+    {
+      "case": "same_once",
+      "passed": true
+    },
+    {
+      "case": "changed_source",
+      "passed": true
+    },
+    {
+      "case": "held_outer_exposed",
+      "passed": true
+    },
+    {
+      "case": "fake_CPU_status",
+      "passed": true
+    },
+    {
+      "case": "unknown_child_exit",
+      "passed": true
+    },
+    {
+      "case": "boolean_exit",
+      "passed": true
+    },
+    {
+      "case": "wrong_child",
+      "passed": true
+    },
+    {
+      "case": "missing_whole_restore",
+      "passed": true
+    },
+    {
+      "case": "unbound_member_manifest",
+      "passed": true
+    },
+    {
+      "case": "final_epoch_restart",
+      "passed": true
+    },
+    {
+      "case": "zero_epoch",
+      "passed": true
+    },
+    {
+      "case": "partial_epoch_updates",
+      "passed": true
+    },
+    {
+      "case": "hidden_replay_cost",
+      "passed": true
+    },
+    {
+      "case": "undisclosed_inflight",
+      "passed": true
+    },
+    {
+      "case": "missing_Adam_qualification",
+      "passed": true
+    },
+    {
+      "case": "wrong_parent",
+      "passed": true
+    },
+    {
+      "case": "changed_checkpoint",
+      "passed": true
+    },
+    {
+      "case": "stale_evidence_SHA",
+      "passed": true
+    },
+    {
+      "case": "chain_recovery_not_qualified",
+      "passed": true
+    },
+    {
+      "case": "precheck_recovery_rejected",
+      "passed": true
+    },
+    {
+      "case": "fresh_path_has_no_recovery",
+      "passed": true
+    },
+    {
+      "case": "tampered_original_freeze_rejected",
+      "passed": true
+    }
+  ],
+  "passed_cases": 28,
+  "unchanged_science_functions": [
+    "cpu",
+    "rng",
+    "rng_SHA",
+    "combined",
+    "fixed_state",
+    "forward",
+    "predict",
+    "step",
+    "save"
+  ],
+  "qualification_precedes_token_creation": true,
+  "scientific_imports": false,
+  "dataset_or_model_decode": false,
+  "model_Adam_RNG_or_CUDA_execution": false,
+  "real_partial_CPU_audit_implemented": false,
+  "real_recovery_qualified": false,
+  "fixture_root": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_recovery_synthetic_20261010T131250315437Z",
+  "new_training_or_scoring_once_consumed": false
+}

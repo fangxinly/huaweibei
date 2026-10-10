@@ -1,0 +1,52 @@
+[
+  {
+    "name": "group5_composite_runtime_v2.py",
+    "SHA": "53332595f8fbb39afcd57de4a54a269786e7c7f9004b69c0875970f4e348ce91",
+    "bytes": 23041
+  },
+  {
+    "name": "group5_composite_epoch_resume_v2.py",
+    "SHA": "0d3859b230e7b556b8b321badbb40d8b7e1460296f957519c693defa83a335fa",
+    "bytes": 7216
+  },
+  {
+    "name": "group5_composite_CPU_audit_v2.py",
+    "SHA": "9249f9f07093f82b9d7ca4ba32acfe1098b6a57f4c464fb74333a6b186e5a7ad",
+    "bytes": 11184
+  },
+  {
+    "name": "group5_composite_resume_contract_v2.py",
+    "SHA": "7c8dfaa5837bb439278bb67467b13a5568668af091a7f04082b4a601773300c9",
+    "bytes": 10910
+  },
+  {
+    "name": "prepare_group5_composite_recovery_v2.py",
+    "SHA": "f5141528faee6e5931d8fc46bc6d7d4a81b9abeaf613128cb7dd103d4f1737c5",
+    "bytes": 8503
+  },
+  {
+    "name": "check_group5_composite_recovery_contract_v2.py",
+    "SHA": "47914c9a03f12d906b58aef53b5e3b35e174075110e88f21015f7fd5c3eeb8a6",
+    "bytes": 12374
+  },
+  {
+    "name": "group5_composite_runtime_v1.py",
+    "SHA": "a60e9c466aaef0ec791dc4218b5461d3baa16654bb5d6bb98d6c0eb766d481e9",
+    "bytes": 21445
+  },
+  {
+    "name": "group5_composite_epoch_resume_v1.py",
+    "SHA": "127aae5d3480d053d787aad8dd7926e4c98614d64a8bc8d1988a0badfaa7a9b6",
+    "bytes": 5666
+  },
+  {
+    "name": "group5_composite_CPU_audit_v1.py",
+    "SHA": "4560414d7fa47c16531de901d4d01bddf733e851b3af02f8545e299f2da4c746",
+    "bytes": 10178
+  },
+  {
+    "name": "preserve_group5_future_nodes_v1.py",
+    "SHA": "9fe7881583de75be1fcc10d029306eb904fc4dffafe1a9a14633abc3c324ab2f",
+    "bytes": 13111
+  }
+]

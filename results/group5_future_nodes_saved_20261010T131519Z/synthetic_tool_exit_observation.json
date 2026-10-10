@@ -1,0 +1,9 @@
+{
+  "observed_record_UTC": "2026-10-10T13:15:19.830709+00:00",
+  "source": "Actual exec_command tool return for the already executed check; no rerun or invented exact process-exit timestamp.",
+  "tool_chunk_id": "caef4d",
+  "exit_code": 0,
+  "wall_time_seconds": 6.7373425000000005,
+  "report_SHA": "9a171a2de4cae9a29f0cc29a1b6d206e79542a609e8aeef623b927070224c377",
+  "new_execution_by_this_record": false
+}

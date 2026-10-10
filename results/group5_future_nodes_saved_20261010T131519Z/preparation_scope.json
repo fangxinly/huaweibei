@@ -1,0 +1,32 @@
+{
+  "actual_UTC": "2026-10-10T13:15:19.830709+00:00",
+  "status": "LOCAL_COMPOSITE_V2_SOURCE_PREPARED_FUTURE_NODES_NOT_CURRENT_LEASE_EXTENSION",
+  "preserved_unscored_method_fold_outputs": 1,
+  "outer_score_outputs": 0,
+  "required_outputs": 25,
+  "required_training_stages": 35,
+  "source_AST_passed_files": 10,
+  "metadata_synthetic_passed_cases": 28,
+  "unchanged_science_functions": [
+    "cpu",
+    "rng",
+    "rng_SHA",
+    "combined",
+    "fixed_state",
+    "forward",
+    "predict",
+    "step",
+    "save"
+  ],
+  "composite_recovery_branch_integrated_as_prepared_source": true,
+  "original_partial_CPU_audit_implemented": false,
+  "real_composite_model_Adam_RNG_CUDA_recovery_qualified": false,
+  "real_composite_recovery_execution": false,
+  "old_v1_sources_retained": true,
+  "scientific_imports_or_task_arrays_decoded": false,
+  "new_model_fit_inference_score": false,
+  "new_training_scoring_or_native_once_consumed": false,
+  "current_node_leases_unchanged": true,
+  "new_valid_lease_proof_received": false,
+  "actual_source_checks_scope": "Standard-library synthetic metadata and AST only; positive fixtures are not original audit evidence."
+}
