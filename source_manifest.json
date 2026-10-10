@@ -4766,6 +4766,35 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_epoch_CPU_source_saved_20261010T134552Z_heartbeat/actual_automation_verification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z\\heartbeat_closure\\actual_automation_verification.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 527,
+      "original_sha256": "92988eb439e3597bb5aa498e8b7852f90d16c41c59d954ab5fb47b20a5e69657",
+      "published_sha256": "92988eb439e3597bb5aa498e8b7852f90d16c41c59d954ab5fb47b20a5e69657",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_epoch_CPU_source_saved_20261010T134552Z_heartbeat/actual_prompt.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z\\heartbeat_closure\\actual_prompt.txt",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 10589,
+      "original_sha256": "ddffc3ca41d832d19b65014f44dcaae522542f01499fc6309c93beb65a3acdbe",
+      "published_sha256": "947fea55c3f946231fb0b49bf00a884e8a76ef89193571b19977dac53d58e76b",
+      "sanitizations": {
+        "server_endpoint": 3
+      }
+    },
+    {
+      "path": "results/group5_epoch_CPU_source_saved_20261010T134552Z_heartbeat/preparation_reference.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z\\heartbeat_closure\\preparation_reference.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1631,
+      "original_sha256": "f8b57182c050e7336706b9b2ddd9d0acf39710350de64b3ec1de3bc9194bccc8",
+      "published_sha256": "f8b57182c050e7336706b9b2ddd9d0acf39710350de64b3ec1de3bc9194bccc8",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_formal_progress_policy_block_20261010/exact_policy_failure_and_prior_observation.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_formal_progress_policy_block_20261010T045258Z\\metadata\\exact_policy_failure_and_prior_observation.json",
       "kind": "group5_actual_evidence_and_source",

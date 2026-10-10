@@ -1,0 +1,38 @@
+{
+  "proof": {
+    "actual_UTC": "2026-10-10T13:45:53.074444+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z\\payload\\complete_epoch_CPU_source_original.zip",
+    "archive_SHA": "2c21a5e61885a86465bb1c2bec3640b86ab35bea6558e12297b8392658c91f22",
+    "bytes": 72167,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 12,
+    "D_exact_copy_verified": true,
+    "D_verification_UTC": "2026-10-10T13:46:04.883127+00:00"
+  },
+  "scope": {
+    "actual_UTC": "2026-10-10T13:45:52.791165+00:00",
+    "status": "STOPPED_EPOCH_CPU_AUDIT_SOURCE_PREPARATION_ONLY",
+    "nonfinal_epoch_CPU_audit_source_implemented": true,
+    "separately_frozen_audit_driver_pending": true,
+    "original_stopped_checkpoint_CPU_audit_executed": false,
+    "real_recovery_qualified": false,
+    "CUDA_recovery_qualified": false,
+    "metadata_synthetic_cases_passed": 34,
+    "scientific_imports": false,
+    "new_fit_inference_score_or_task_target_decode": false,
+    "new_training_native_audit_or_score_once_consumed": false,
+    "outputs_preserved_unscored": 1,
+    "outer_scores": 0,
+    "current_leases_unchanged": true,
+    "future_new_node_details_not_received": true
+  },
+  "github": {
+    "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+    "actual_UTC": "2026-10-10T13:46:18.186531+00:00",
+    "commit": "192c920c8b7e67e26f67756984b4c4279f972e4b",
+    "parent_commit": "3807f37906ac291d481896633b220a2edad2c805",
+    "files": 13,
+    "all_published_blobs_verified": true,
+    "C_checkout_not_modified": true
+  }
+}

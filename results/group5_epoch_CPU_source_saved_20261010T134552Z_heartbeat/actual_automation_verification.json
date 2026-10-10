@@ -1,0 +1,12 @@
+{
+  "status": "EXISTING_HEARTBEAT_SOURCE_PREPARATION_CURRENT_PROMPT_SCHEDULE_UNCHANGED",
+  "actual_UTC": "2026-10-10T13:47:21.428732+00:00",
+  "prompt_SHA": "73e49c2bff4518f44eb84387e838382d7a0d9072951f4855b42bfede6d097ede",
+  "actual_TOML_SHA": "d28908e6f7a6b4e36168f85d04cb6ca83c591bdc45b5d2110f7aca3ed7b4eb49",
+  "id": "automation",
+  "active": true,
+  "rrule_unchanged": true,
+  "target_and_other_fields_unchanged": true,
+  "no_new_automation_or_chat": true,
+  "no_new_original_training_audit_or_score": true
+}
