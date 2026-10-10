@@ -5654,6 +5654,35 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_stopped_CPU_capsule_saved_20261010T170340Z_heartbeat/actual_automation_verification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_stopped_CPU_capsule_saved_20261010T170340Z\\heartbeat_closure\\actual_automation_verification.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 520,
+      "original_sha256": "1c2fa03ad125c0ae305c2d0d81175bee1a45f1859e468ae5084da2fc769dd3ae",
+      "published_sha256": "1c2fa03ad125c0ae305c2d0d81175bee1a45f1859e468ae5084da2fc769dd3ae",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_stopped_CPU_capsule_saved_20261010T170340Z_heartbeat/actual_prompt.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_stopped_CPU_capsule_saved_20261010T170340Z\\heartbeat_closure\\actual_prompt.txt",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 13964,
+      "original_sha256": "5d461298754f9b42ccd09e1afca02a6cf55e71a9879804aabcba109bdb837766",
+      "published_sha256": "08deb7a4e2e327ca6663b20dbba5f2d7b98d35f8ef34034284318bb9391d517c",
+      "sanitizations": {
+        "server_endpoint": 3
+      }
+    },
+    {
+      "path": "results/group5_stopped_CPU_capsule_saved_20261010T170340Z_heartbeat/preparation_reference.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_stopped_CPU_capsule_saved_20261010T170340Z\\heartbeat_closure\\preparation_reference.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1702,
+      "original_sha256": "1dd826d3472c47125dbf55285b6739afe080c1bb52cfeef04c281c9a65078be0",
+      "published_sha256": "1dd826d3472c47125dbf55285b6739afe080c1bb52cfeef04c281c9a65078be0",
+      "sanitizations": {}
+    },
+    {
       "path": "results/historical_TEST_selected_group5_20261010/D_preservation_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\historical_TEST_selected_group5_prepared_actual_20261010T023343Z\\pub\\D_preservation_receipt.json",
       "kind": "TEST_selected_pooled_group5_preparation_not_training",

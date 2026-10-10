@@ -1,0 +1,38 @@
+{
+  "proof": {
+    "actual_UTC": "2026-10-10T17:03:41.216453+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_stopped_CPU_capsule_saved_20261010T170340Z\\payload\\complete_stopped_CPU_dependency_capsule_original.zip",
+    "archive_SHA": "bd0b4ae3f3f91da7af3cf5254cd49e8995de6bb3cdf847a64d252889de8c79d7",
+    "bytes": 121526,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 18,
+    "D_exact_copy_verified": true,
+    "D_verification_UTC": "2026-10-10T17:04:01.960912+00:00"
+  },
+  "scope": {
+    "actual_UTC": "2026-10-10T17:03:40.517344+00:00",
+    "status": "STOPPED_CPU_AUDIT_DEPENDENCY_CAPSULE_PREPARATION_ONLY",
+    "audit_entry_source_dependency_capsule_assembled": true,
+    "source_files": 10,
+    "isolated_standard_library_module_probe_natural_exit": 0,
+    "transport_publication_CLI_outside_audit_capsule_scope": true,
+    "actual_original_and_new_node_audit_plan_frozen": false,
+    "scientific_runtime_import_or_original_CPU_audit": false,
+    "CPU_CUDA_recovery_qualification": false,
+    "task_arrays_or_targets_loaded": false,
+    "actual_audit_training_prediction_scoring_once_consumed": false,
+    "outputs_preserved_unscored": 1,
+    "outer_scores": 0,
+    "current_leases_extended": false,
+    "new_valid_node_details_received": false
+  },
+  "github": {
+    "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+    "actual_UTC": "2026-10-10T17:04:16.285453+00:00",
+    "commit": "64ad643db2546734b1b9379ed7404fb6265036c9",
+    "parent_commit": "cbf9dc23f495fb0ea89f939d2c814e76f783e46e",
+    "files": 21,
+    "all_published_blobs_verified": true,
+    "C_checkout_not_modified": true
+  }
+}
