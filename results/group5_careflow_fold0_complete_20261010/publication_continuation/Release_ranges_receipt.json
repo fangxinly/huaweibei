@@ -1,0 +1,16 @@
+{
+  "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+  "actual_UTC": "2026-10-10T11:46:35.485900+00:00",
+  "whole_SHA": "ac53141ee5c296a443fce7dd6d15c968cb5e44c7df03d53daf58c467753d781c",
+  "parts": [
+    {
+      "name": "group5-careflow0-completion-metadata-ac53141ee5c2.zip.part0000",
+      "bytes": 12364720,
+      "digest": "sha256:ac53141ee5c296a443fce7dd6d15c968cb5e44c7df03d53daf58c467753d781c",
+      "state": "uploaded",
+      "id": 627834536,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow0-completion-metadata-ac53141ee5c2.zip.part0000",
+      "offset": 0
+    }
+  ]
+}

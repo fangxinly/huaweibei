@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-10T11:16:16.166640+00:00",
+  "archive": "/data/coding/g5careflow100_20261010T043810Z/complete_actual_careflow_fold0_train100_original.zip",
+  "archive_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "bytes": 2978140883,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 265
+}

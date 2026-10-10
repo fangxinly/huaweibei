@@ -1,0 +1,7 @@
+{
+  "actual_UTC": "2026-10-10T11:19:06.623108+00:00",
+  "error_type": "AssertionError",
+  "message": "",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\preserve_group5_careflow0_complete_v1.py\", line 88, in <module>\n    try:main()\n        ^^^^^^\n  File \"C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\preserve_group5_careflow0_complete_v1.py\", line 14, in main\n    assert original.stat().st_size==p['bytes'] and digest(original)==p['expected_SHA']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "original_preserved": true
+}

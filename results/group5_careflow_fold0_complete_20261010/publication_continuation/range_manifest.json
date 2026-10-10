@@ -1,0 +1,14 @@
+{
+  "schema": "GROUP5_CONTIGUOUS_ORIGINAL_V1",
+  "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\complete_actual_careflow0_completion_metadata.zip",
+  "bytes": 12364720,
+  "whole_SHA": "ac53141ee5c296a443fce7dd6d15c968cb5e44c7df03d53daf58c467753d781c",
+  "parts": [
+    {
+      "name": "group5-careflow0-completion-metadata-ac53141ee5c2.zip.part0000",
+      "offset": 0,
+      "bytes": 12364720,
+      "SHA": "ac53141ee5c296a443fce7dd6d15c968cb5e44c7df03d53daf58c467753d781c"
+    }
+  ]
+}

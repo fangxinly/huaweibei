@@ -1,0 +1,15 @@
+{
+  "actual_UTC": "2026-10-10T11:20:25.519676+00:00",
+  "retired_session_ids": [
+    45985,
+    23105
+  ],
+  "new_SSH_session": 7670,
+  "old_session_error": "Unknown process id",
+  "not_authentication_failure": true,
+  "not_training_failure": true,
+  "CPU_launch_first_input_error": "AssertionError from a manually transcribed auditor SHA containing one extra digit; no CPU dispatch or training execution occurred in that failed command",
+  "correction": "Exact original plan SHA and its exact auditor source SHA matched; independent CPU process then ran once and exited0. A separate local archive verification initially rejected a 65-character manually transcribed SHA; exact remote original receipt was then copied as machine-parsed hex chunks and matched the downloaded archive SHA. No upload occurred before correction.",
+  "original_training_once_not_repeated": true,
+  "outer_scores_computed": false
+}

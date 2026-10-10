@@ -1,0 +1,11 @@
+{
+  "observed_UTC": "2026-10-10T11:48:46.159140+00:00",
+  "stage": "v2_text_publication",
+  "original_process_exit": 1,
+  "error_type": "UnicodeDecodeError",
+  "original_error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x93 in position 0: invalid start byte; decoding with 'utf-8-sig' codec failed",
+  "source": "group5_publish_exact_local_v1.py line18 sanitize(original); prepare_github_source_upload.py line17 utf-8-sig decode",
+  "meaning": "Text publisher received original numeric NPY/NPZ evidence. Complete original binaries and their actual Release restoration remain intact.",
+  "new_approval_rejection": false,
+  "model_upload_or_training_repeated": false
+}

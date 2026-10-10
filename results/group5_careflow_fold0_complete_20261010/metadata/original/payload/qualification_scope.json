@@ -1,0 +1,7 @@
+{
+  "fresh_step_predict_save_rng_checkpoint_and_validate_AST_equal_to_native_v1": true,
+  "CPU_synthetic_resume_original_report_SHA": "c95a4422ffc564106350aed88f4c0b0b2d41de0b59191690880a5185aea13c20",
+  "actual_full_model_resume_not_exercised": true,
+  "CUDA_RNG_resume_not_exercised": true,
+  "fresh_training_resume_branch_disabled": true
+}

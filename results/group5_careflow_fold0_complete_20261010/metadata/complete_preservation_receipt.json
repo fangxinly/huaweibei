@@ -1,0 +1,87 @@
+{
+  "status": "CAREFLOW_FOLD0_FORMAL100_CPU_FULL_RELEASE_RESTORE_CLOSED_OUTER_UNSCORED",
+  "actual_UTC": "2026-10-10T11:44:03.831774+00:00",
+  "original_archive": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_careflow0_complete_20261010T111701Z\\complete_actual_careflow_fold0_train100_original.zip",
+  "archive_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "bytes": 2978140883,
+  "method": "careflow",
+  "fold": 0,
+  "updates": 4700,
+  "best_epoch": 81,
+  "training_original_exit": 0,
+  "independent_CPU_exit": 0,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "actual_GitHub_restoration": {
+    "actual_UTC": "2026-10-10T11:43:15.196096+00:00",
+    "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+    "destination": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_careflow0_complete_20261010T111701Z\\GitHub_restored_complete_original.zip",
+    "whole_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+    "bytes": 2978140883,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 265
+  },
+  "method_fold_predictions_preserved": 1,
+  "total_method_fold_predictions": 25,
+  "outer_scores_computed": false,
+  "all_original_once_preserved": true,
+  "D_stores_metadata_C_stages_large_original_GitHub_permanent": true,
+  "other24_predictions_not_completed": true,
+  "permanent_original_archive_remote": "/data/coding/g5careflow100_20261010T043810Z/complete_actual_careflow_fold0_train100_original.zip",
+  "permanent_original_archive_GitHub_parts": [
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0000",
+      "bytes": 536870912,
+      "digest": "sha256:d20dec9977f18eaad8afe090e70464e20ef6724190768a6368c36ae7d6aac48a",
+      "state": "uploaded",
+      "id": 627778703,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-train100-c6b04b2d5751.zip.part0000",
+      "offset": 0
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0001",
+      "bytes": 536870912,
+      "digest": "sha256:c2821c4fb47084d008372fdfbba5a6515c7a128af63f5ae08dc0a083919f3bfd",
+      "state": "uploaded",
+      "id": 627784993,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-train100-c6b04b2d5751.zip.part0001",
+      "offset": 536870912
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0002",
+      "bytes": 536870912,
+      "digest": "sha256:815544251722f5f99af16460a06c46912e2796c7ae340b26e2ce36c08ab5e718",
+      "state": "uploaded",
+      "id": 627788349,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-train100-c6b04b2d5751.zip.part0002",
+      "offset": 1073741824
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0003",
+      "bytes": 536870912,
+      "digest": "sha256:d58ded0bffc028f08746e07c60d3c06e35e20825a1474d9448bd882128807264",
+      "state": "uploaded",
+      "id": 627792877,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-train100-c6b04b2d5751.zip.part0003",
+      "offset": 1610612736
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0004",
+      "bytes": 536870912,
+      "digest": "sha256:904cfefe129c2568f9fd9482ed58f056acd50d824e1d33d4806cab7c5380e60e",
+      "state": "uploaded",
+      "id": 627797119,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-train100-c6b04b2d5751.zip.part0004",
+      "offset": 2147483648
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0005",
+      "bytes": 293786323,
+      "digest": "sha256:d5ca39513a66e5292a676742b5078e505b12798bfd1abd8991868b06a7b3c067",
+      "state": "uploaded",
+      "id": 627800408,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-train100-c6b04b2d5751.zip.part0005",
+      "offset": 2684354560
+    }
+  ],
+  "local_download_is_new_temporary_transport_copy": true
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "GROUP5_CONTIGUOUS_ORIGINAL_V1",
+  "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_careflow0_complete_20261010T111701Z\\complete_actual_careflow_fold0_train100_original.zip",
+  "bytes": 2978140883,
+  "whole_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "parts": [
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0000",
+      "offset": 0,
+      "bytes": 536870912,
+      "SHA": "d20dec9977f18eaad8afe090e70464e20ef6724190768a6368c36ae7d6aac48a"
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0001",
+      "offset": 536870912,
+      "bytes": 536870912,
+      "SHA": "c2821c4fb47084d008372fdfbba5a6515c7a128af63f5ae08dc0a083919f3bfd"
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0002",
+      "offset": 1073741824,
+      "bytes": 536870912,
+      "SHA": "815544251722f5f99af16460a06c46912e2796c7ae340b26e2ce36c08ab5e718"
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0003",
+      "offset": 1610612736,
+      "bytes": 536870912,
+      "SHA": "d58ded0bffc028f08746e07c60d3c06e35e20825a1474d9448bd882128807264"
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0004",
+      "offset": 2147483648,
+      "bytes": 536870912,
+      "SHA": "904cfefe129c2568f9fd9482ed58f056acd50d824e1d33d4806cab7c5380e60e"
+    },
+    {
+      "name": "group5-careflow-fold0-train100-c6b04b2d5751.zip.part0005",
+      "offset": 2684354560,
+      "bytes": 293786323,
+      "SHA": "d5ca39513a66e5292a676742b5078e505b12798bfd1abd8991868b06a7b3c067"
+    }
+  ]
+}

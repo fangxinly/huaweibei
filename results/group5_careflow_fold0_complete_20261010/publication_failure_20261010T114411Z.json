@@ -1,0 +1,7 @@
+{
+  "actual_UTC": "2026-10-10T11:44:11.306517+00:00",
+  "error_type": "AssertionError",
+  "message": "",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\preserve_group5_careflow0_complete_v1.py\", line 110, in <module>\n    try:main()\n        ^^^^^^\n  File \"C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\preserve_group5_careflow0_complete_v1.py\", line 84, in main\n    publish(P(proof['archive']),proof['archive_SHA'],'group5-careflow0-complete-metadata-'+proof['archive_SHA'][:12]+'.zip',root/'metadata_Release_receipt.json')\n  File \"C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\raw_TRAIN_save_and_publish_v1.py\", line 31, in publish\n    assert sha(path)==expected and path.stat().st_size<10*1024**2\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "original_preserved": true
+}

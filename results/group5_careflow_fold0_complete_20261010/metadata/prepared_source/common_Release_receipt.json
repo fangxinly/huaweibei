@@ -1,0 +1,16 @@
+{
+  "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+  "actual_UTC": "2026-10-10T05:18:11.231910+00:00",
+  "whole_SHA": "9ba39814c6969667ab4b256f6718d839328c44d33142ade4a0a64c7725affa8d",
+  "parts": [
+    {
+      "name": "group5-public-common-original-9ba39814c696.zip.part0000",
+      "bytes": 355816524,
+      "digest": "sha256:9ba39814c6969667ab4b256f6718d839328c44d33142ade4a0a64c7725affa8d",
+      "state": "uploaded",
+      "id": 627076404,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-public-common-original-9ba39814c696.zip.part0000",
+      "offset": 0
+    }
+  ]
+}

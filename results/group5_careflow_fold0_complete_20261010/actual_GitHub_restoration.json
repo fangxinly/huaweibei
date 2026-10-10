@@ -1,0 +1,9 @@
+{
+  "actual_UTC": "2026-10-10T11:43:15.196096+00:00",
+  "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+  "destination": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_careflow0_complete_20261010T111701Z\\GitHub_restored_complete_original.zip",
+  "whole_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "bytes": 2978140883,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 265
+}

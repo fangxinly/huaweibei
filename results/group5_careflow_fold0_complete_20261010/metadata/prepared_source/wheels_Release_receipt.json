@@ -1,0 +1,16 @@
+{
+  "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+  "actual_UTC": "2026-10-10T05:18:32.928209+00:00",
+  "whole_SHA": "735be36344370cc3e2119ad6da5e62e60ff538bfc84374d5d92d04ef9100ed39",
+  "parts": [
+    {
+      "name": "group5-public-wheels-original-735be3634437.zip.part0000",
+      "bytes": 92020899,
+      "digest": "sha256:735be36344370cc3e2119ad6da5e62e60ff538bfc84374d5d92d04ef9100ed39",
+      "state": "uploaded",
+      "id": 627078328,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-public-wheels-original-735be3634437.zip.part0000",
+      "offset": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "CAREFLOW_FOLD0_ORIGINAL100_CPU_PASS_RELEASE_PARTS_ACTIVE_FOLD1_NATIVE3_DISPATCHED",
+  "recorded_actual_UTC": "2026-10-10T11:24:00.510402+00:00",
+  "formal0_natural_exit_UTC": "2026-10-10T06:24:13.904586+00:00",
+  "formal0_updates": 4700,
+  "formal0_selected_epoch": 81,
+  "formal0_CPU_exit0": true,
+  "formal0_CPU_original_exit_UTC": "2026-10-10T11:14:48.857432+00:00",
+  "formal0_original_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "formal0_archive_bytes": 2978140883,
+  "formal0_all_member_SHA_CRC_unique_exact_set_passed": true,
+  "formal0_Release_full_restoration_pending": true,
+  "fold1_precheck_root": "/data/coding/g5careflow1_native_20261010T112228Z",
+  "fold1_precheck_dispatch_UTC": "2026-10-10T11:23:03.178465+00:00",
+  "fold1_precheck_child": 2660,
+  "fold1_new_precheck_once_consumed": true,
+  "fold1_formal_training_dispatched": false,
+  "SSH_session": 7670,
+  "retired_Unknown_sessions": [
+    23105,
+    45985
+  ],
+  "outer_scores_computed": false,
+  "no_original_once_repeated": true
+}

@@ -1,0 +1,8 @@
+{
+  "AST_pass": true,
+  "synthetic_score_source_checks_passed": 10,
+  "original_arrays_labels_or_models_loaded_by_synthetic_checks": false,
+  "new_composite_native_execution": false,
+  "new_score_once_consumed": false,
+  "composite_resume_qualified": false
+}

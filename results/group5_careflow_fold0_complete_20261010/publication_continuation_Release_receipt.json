@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T11:46:50.414647+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\publication_continuation\\complete_publication_continuation.zip",
+  "source_SHA": "19bb647eaba958d38200058dc22474488f58c586842b4b642abe2d7496b10442",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "group5-careflow0-publication-closed-19bb647eaba9.zip",
+  "id": 627835086,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow0-publication-closed-19bb647eaba9.zip",
+  "remote_digest_verified": true
+}

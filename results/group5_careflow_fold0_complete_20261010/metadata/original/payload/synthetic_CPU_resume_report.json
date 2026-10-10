@@ -1,0 +1,10 @@
+{
+  "status": "SYNTHETIC_CPU_FULL_ADAM_SCHEDULER_RNG_RESUME_PASS",
+  "actual_UTC": "2026-10-10T04:28:50.925931+00:00",
+  "CPU_available_RAM_bytes": 115679084544,
+  "continuous_vs_resumed_model_moments_scheduler_rng_exact": true,
+  "provenance_negatives_rejected": 2,
+  "actual_task_arrays_or_labels": false,
+  "native_full_model_retraining": false,
+  "CUDA_RNG_restore_exercised": false
+}

@@ -1,0 +1,38 @@
+{
+  "status": "CAREFLOW_FOLD0_FORMAL100_CPU_FULL_RELEASE_RESTORE_CLOSED_OUTER_UNSCORED",
+  "actual_UTC": "2026-10-10T11:46:46.559689+00:00",
+  "original_model_archive_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "original_model_archive_bytes": 2978140883,
+  "original_model_members": 265,
+  "complete_model_GitHub_restoration": {
+    "actual_UTC": "2026-10-10T11:43:15.196096+00:00",
+    "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+    "destination": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_careflow0_complete_20261010T111701Z\\GitHub_restored_complete_original.zip",
+    "whole_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+    "bytes": 2978140883,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 265
+  },
+  "original_completion_metadata": {
+    "actual_UTC": "2026-10-10T11:44:11.269413+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\complete_actual_careflow0_completion_metadata.zip",
+    "archive_SHA": "ac53141ee5c296a443fce7dd6d15c968cb5e44c7df03d53daf58c467753d781c",
+    "bytes": 12364720,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 280
+  },
+  "complete_metadata_GitHub_restoration": {
+    "actual_UTC": "2026-10-10T11:46:46.559689+00:00",
+    "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+    "destination": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata_full_GitHub_restored_original.zip",
+    "whole_SHA": "ac53141ee5c296a443fce7dd6d15c968cb5e44c7df03d53daf58c467753d781c",
+    "bytes": 12364720,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 280
+  },
+  "training_natural_exit": 0,
+  "independent_CPU_exit": 0,
+  "method_fold_predictions_preserved": 1,
+  "total_predictions": 25,
+  "outer_scores_computed": false
+}

@@ -1,0 +1,11 @@
+{
+  "actual_UTC": "2026-10-10T11:46:28.593205+00:00",
+  "original_metadata_bytes": 12364720,
+  "first_publisher_limit_bytes": 10485760,
+  "original_metadata_preserved_unchanged": true,
+  "failure": "AssertionError: exact sealed metadata exceeds the small-publisher size limit",
+  "new_approval_rejection": false,
+  "new_training_inference_scoring": 0,
+  "model_ranges_reuploaded": false,
+  "next": "Same qualified range upload and whole download restoration for the unchanged metadata ZIP"
+}

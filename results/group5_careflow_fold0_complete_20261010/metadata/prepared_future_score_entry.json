@@ -1,0 +1,28 @@
+{
+  "method": "careflow",
+  "fold": 0,
+  "receipt": {
+    "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\original\\out\\actual_stage_receipt.json",
+    "SHA": "36bbe0d1adaf74fa3139767e77547024480a0c0097dfa8b28df1714feab4430c"
+  },
+  "CPU_audit": {
+    "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\original\\independent_CPU_audit.json",
+    "SHA": "cafb2aa3c023e9115b386044c8285cb7abd9af14009f57d50c6aed0a383be225"
+  },
+  "restoration": {
+    "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\actual_GitHub_restoration.json",
+    "SHA": "0492044b89b1c49932433498e4aab77f81170d84eaffca51104c7c0ae68fc733"
+  },
+  "stage_plan": {
+    "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\original\\plan.json",
+    "SHA": "443b6eb01ba6f4f3f2e14119d93715abe8a8a6a2590019a42dc05a33f91e6845"
+  },
+  "original_member_manifest": {
+    "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\original\\member_manifest.json",
+    "SHA": "83b0030ad22aeca2b5558636f4fbba42106b90a587a46bc12caf66fca31c0987"
+  },
+  "original_archive_SHA": "c6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852",
+  "original_archive_bytes": 2978140883,
+  "prediction_member": "out/OUTER_prediction_only.npz",
+  "prediction_path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow0_complete_20261010T112022Z\\metadata\\original\\out\\OUTER_prediction_only.npz"
+}
