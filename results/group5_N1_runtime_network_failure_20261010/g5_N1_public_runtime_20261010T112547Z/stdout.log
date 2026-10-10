@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/data/coding/g5_N1_public_runtime_20261010T112547Z/group5_public_runtime_v1.py", line 124, in <module>
+    try:run(a)
+  File "/data/coding/g5_N1_public_runtime_20261010T112547Z/group5_public_runtime_v1.py", line 72, in run
+    common=a.root/'public_original_assets.zip';fetch(p['common'],common)
+  File "/data/coding/g5_N1_public_runtime_20261010T112547Z/group5_public_runtime_v1.py", line 44, in fetch
+    with urllib.request.urlopen(urllib.request.Request(part['url'],headers={'User-Agent':'Group5-public-runtime'}),timeout=180) as stream:
+  File "/data/miniconda/envs/torch/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/data/miniconda/envs/torch/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/data/miniconda/envs/torch/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/data/miniconda/envs/torch/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/data/miniconda/envs/torch/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/data/miniconda/envs/torch/lib/python3.10/urllib/request.py", line 1352, in do_open
+    r = h.getresponse()
+  File "/data/miniconda/envs/torch/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/data/miniconda/envs/torch/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/data/miniconda/envs/torch/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response

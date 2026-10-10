@@ -1,0 +1,18 @@
+{
+  "actual_UTC": "2026-10-10T11:26:06.301188+00:00",
+  "GPU_UUID": "GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde",
+  "compute": "",
+  "meminfo": "MemTotal:       131890072 kB\nMemFree:        42192780 kB\nMemAvailable:   126639148 kB\nBuffers:         1117204 kB\nCached:         82472876 kB\nSwapCached:            0 kB\nActive:         11907540 kB\nInactive:       73328756 kB\nActive(anon):       2476 kB\nInactive(anon):  1673648 kB\nActive(file):   11905064 kB\nInactive(file): 71655108 kB\nUnevictable:       64564 kB\nMlocked:           61492 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               232 kB\nWriteback:             0 kB\nAnonPages:       1710932 kB\nMapped:          1037536 kB\nShmem:             19884 kB\nKReclaimable:    1956656 kB\nSlab:            3058744 kB\nSReclaimable:    1956656 kB\nSUnreclaim:      1102088 kB\nKernelStack:       32384 kB\nPageTables:        28528 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    65945036 kB\nCommitted_AS:    9192416 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      300504 kB\nVmallocChunk:          0 kB\nPercpu:            67584 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:      4096 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:    26596084 kB\nDirectMap2M:    105426944 kB\nDirectMap1G:     4194304 kB\n",
+  "fullargv": "  PID  PPID COMMAND\n    1     0 s6-svscan -t 10 /etc/services.d/\n    7     1 s6-supervise 01sshd\n    8     1 s6-supervise 02codeserver\n    9     7 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n   10     8 /bin/bash /usr/local/bin/code-server.sh\n  210    10 /usr/lib/code-server/lib/node /usr/lib/code-server --trusted-origins=* /data/coding/coding.code-workspace\n  228   210 /usr/lib/code-server/lib/node /usr/lib/code-server/out/node/entry\n  501     9 sshd: root@pts/0\n  512   501 -bash\n  530     1 /data/miniconda/envs/torch/bin/python /data/coding/g5_N1_public_runtime_20261010T112547Z/wrapper.py\n  531   530 /data/miniconda/envs/torch/bin/python -B /data/coding/g5_N1_public_runtime_20261010T112547Z/group5_public_runtime_v1.py --plan /data/coding/g5_N1_public_runtime_20261010T112547Z/plan.json --plan-sha b6c4ae0ddbc015cc61c29614eecad5ecbf9a5145ec874f5ce50f9e3fc5935d07 --root /data/coding/g5_N1_public_runtime_20261010T112547Z/runtime\n  534   531 ps -eo pid,ppid,args --width 10000\n",
+  "remote_free": 47151116288,
+  "argv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "/data/coding/g5_N1_public_runtime_20261010T112547Z/group5_public_runtime_v1.py",
+    "--plan",
+    "/data/coding/g5_N1_public_runtime_20261010T112547Z/plan.json",
+    "--plan-sha",
+    "b6c4ae0ddbc015cc61c29614eecad5ecbf9a5145ec874f5ce50f9e3fc5935d07",
+    "--root",
+    "/data/coding/g5_N1_public_runtime_20261010T112547Z/runtime"
+  ]
+}

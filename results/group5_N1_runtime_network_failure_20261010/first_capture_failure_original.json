@@ -1,0 +1,9 @@
+{
+  "scientific_execution": false,
+  "stage": "first_failure_capture_scp",
+  "original_output": "Connection closed by 198.18.0.31 port 53423; scp Connection closed",
+  "natural_exit": 1,
+  "local_capture_pointer_error": "PowerShell False was missing dollar prefix; pointer write failed before scp; no scientific dispatch",
+  "actual_UTC": "2026-10-10T11:34:31.4597507Z",
+  "next": "capture unchanged original runtime failure via a new authenticated SCP; this is a network failure not an approval rejection"
+}

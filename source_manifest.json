@@ -1560,6 +1560,123 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_N1_runtime_network_failure_20261010/failure_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\failure_preservation_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 880,
+      "original_sha256": "485df42eefd8ab69df54812f138d88a642354ea3dbb56958910321b34b21e275",
+      "published_sha256": "485df42eefd8ab69df54812f138d88a642354ea3dbb56958910321b34b21e275",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/first_capture_failure_original.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\first_capture_failure_original.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 518,
+      "original_sha256": "a8359cf3754db7168c23e166ef1086841eee20ad680cc1d0f52f9c956a17da2f",
+      "published_sha256": "a8359cf3754db7168c23e166ef1086841eee20ad680cc1d0f52f9c956a17da2f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 431,
+      "original_sha256": "3d91f455bd8281d9daca29f6742b0f16cc36fc34e9b07ee3fac4be4802f0a0b9",
+      "published_sha256": "3d91f455bd8281d9daca29f6742b0f16cc36fc34e9b07ee3fac4be4802f0a0b9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/freeze_group5_N1_public_runtime_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\freeze_group5_N1_public_runtime_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2850,
+      "original_sha256": "2c86a312f4c7fcae1696e56d3242954e7a1d1f4a5ac392e10903c245f98b1bb7",
+      "published_sha256": "2c86a312f4c7fcae1696e56d3242954e7a1d1f4a5ac392e10903c245f98b1bb7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/group5_public_runtime_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\group5_public_runtime_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8249,
+      "original_sha256": "8985f44315717cbc80d21f137589d6af6a8892a897c60b39e8cdaafdd2d07311",
+      "published_sha256": "8985f44315717cbc80d21f137589d6af6a8892a897c60b39e8cdaafdd2d07311",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\plan.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 11631,
+      "original_sha256": "b6c4ae0ddbc015cc61c29614eecad5ecbf9a5145ec874f5ce50f9e3fc5935d07",
+      "published_sha256": "b6c4ae0ddbc015cc61c29614eecad5ecbf9a5145ec874f5ce50f9e3fc5935d07",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/runtime/failed_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\runtime\\failed_natural_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 168,
+      "original_sha256": "78591ff480e8abfbfabef2ef3e638b352568cce50ce3402f85ab913c98101e78",
+      "published_sha256": "78591ff480e8abfbfabef2ef3e638b352568cce50ce3402f85ab913c98101e78",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/runtime/fresh_physical.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\runtime\\fresh_physical.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3137,
+      "original_sha256": "188c43ce0ac23b462f6bfa9f37bcddcf519d897139124eeaf4dcd97a7c83d80d",
+      "published_sha256": "188c43ce0ac23b462f6bfa9f37bcddcf519d897139124eeaf4dcd97a7c83d80d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1880,
+      "original_sha256": "99d13cf053e5af58e9a09ba9a871239aa4c6fc1cb6c50071c3f6dda2109e0f1c",
+      "published_sha256": "99d13cf053e5af58e9a09ba9a871239aa4c6fc1cb6c50071c3f6dda2109e0f1c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/wrapper.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\wrapper.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/wrapper.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\wrapper.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 902,
+      "original_sha256": "e1c379e5c540b08e90d78430c63e0b3f99f5ce4485b7b607263a310f09c17044",
+      "published_sha256": "e1c379e5c540b08e90d78430c63e0b3f99f5ce4485b7b607263a310f09c17044",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/g5_N1_public_runtime_20261010T112547Z/wrapper_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\g5_N1_public_runtime_20261010T112547Z\\wrapper_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 83,
+      "original_sha256": "afb8550dc96e8df771b3c17ba09f4dc2468f13a082e03324f64c251758208d17",
+      "published_sha256": "afb8550dc96e8df771b3c17ba09f4dc2468f13a082e03324f64c251758208d17",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_runtime_network_failure_20261010/remote_exact_original_inventory.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\remote_exact_original_inventory.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1534,
+      "original_sha256": "8aa019eb0cf71f150a050d3669b0112ea19211900e7fe2d0f5962e474359d06d",
+      "published_sha256": "8aa019eb0cf71f150a050d3669b0112ea19211900e7fe2d0f5962e474359d06d",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_careflow0_formal100_dispatch_20261010/actual_dispatch_preservation.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5careflow100_plan_20261010T044701Z\\dispatch_public\\actual_dispatch_preservation.json",
       "kind": "group5_actual_evidence_and_source",

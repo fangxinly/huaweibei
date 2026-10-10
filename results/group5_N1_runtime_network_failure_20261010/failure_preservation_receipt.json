@@ -1,0 +1,21 @@
+{
+  "status": "N1_PUBLIC_RUNTIME_NETWORK_FAILURE_ORIGINAL_SAVED",
+  "actual_UTC": "2026-10-10T11:36:53.919982+00:00",
+  "original_failure": {
+    "exit": 1,
+    "actual_UTC": "2026-10-10T11:27:36.515035+00:00",
+    "error_type": "RemoteDisconnected",
+    "message": "Remote end closed connection without response"
+  },
+  "original_remote": "/data/coding/g5_N1_public_runtime_20261010T112547Z",
+  "all_captured_original_bytes_matched_remote_SHA": true,
+  "members": 12,
+  "new_approval_rejection": false,
+  "new_training_inference_score": 0,
+  "models_created": 0,
+  "assets_zip_bytes": 0,
+  "offline_install_dispatched": false,
+  "healthy_task_stopped": false,
+  "failed_first_SCP_capture_preserved": true,
+  "next": "Only a separately frozen unchanged-public-archive SCP transport may replace the failed HTTP download; original failure and source remain."
+}
