@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-10T11:28:11.916098+00:00",
+  "archive": "/data/coding/g5careflow1_native_20261010T112228Z/complete_actual_careflow_fold1_native_original.zip",
+  "archive_SHA": "eac6efecc3f84505524a577666ef014c197d77cc5536e95daaeb555cecb174dd",
+  "bytes": 2231387008,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 49
+}

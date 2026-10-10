@@ -1,0 +1,59 @@
+{
+  "original_numeric_evidence_in_unchanged_Release": [
+    {
+      "path": "complete_native_preservation_metadata.zip",
+      "bytes": 7873787,
+      "SHA": "31c331773b2ec7c8f14a867b8f12b1a2c5c1ee2718374030a5519350b5eece6c"
+    },
+    {
+      "path": "original/out/FIT_orders.npy",
+      "bytes": 1195328,
+      "SHA": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+    },
+    {
+      "path": "original/out/FIT_targets.npy",
+      "bytes": 6104,
+      "SHA": "59cc6c45f1f9e9788784a2675a8f208c9c9623bd3af124c35c04b0fe440a4fc2"
+    },
+    {
+      "path": "original/out/INNER_dummy_predictions.npz",
+      "bytes": 19368,
+      "SHA": "01f1100b605c733610c3723d0e052701f21d6f297a8520f24355ef1943b5364c"
+    },
+    {
+      "path": "original/source/orders_fold0.npy",
+      "bytes": 1195328,
+      "SHA": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+    },
+    {
+      "path": "original/source/orders_fold1.npy",
+      "bytes": 1195328,
+      "SHA": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+    },
+    {
+      "path": "original/source/orders_fold2.npy",
+      "bytes": 1188928,
+      "SHA": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5"
+    },
+    {
+      "path": "original/source/orders_fold3.npy",
+      "bytes": 1187328,
+      "SHA": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69"
+    },
+    {
+      "path": "original/source/orders_fold4.npy",
+      "bytes": 1188928,
+      "SHA": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+    }
+  ],
+  "original_archive_SHA": "eac6efecc3f84505524a577666ef014c197d77cc5536e95daaeb555cecb174dd",
+  "complete_original_GitHub_restoration": {
+    "actual_UTC": "2026-10-10T12:10:37.018519+00:00",
+    "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+    "destination": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_careflow1_native_capture_20261010T114232Z\\GitHub_restored_complete_original.zip",
+    "whole_SHA": "eac6efecc3f84505524a577666ef014c197d77cc5536e95daaeb555cecb174dd",
+    "bytes": 2231387008,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 49
+  }
+}

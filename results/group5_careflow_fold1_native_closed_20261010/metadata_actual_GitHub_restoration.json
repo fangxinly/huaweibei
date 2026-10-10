@@ -1,0 +1,9 @@
+{
+  "actual_UTC": "2026-10-10T12:11:40.199108+00:00",
+  "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+  "destination": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\GitHub_restored_native_metadata.zip",
+  "whole_SHA": "31c331773b2ec7c8f14a867b8f12b1a2c5c1ee2718374030a5519350b5eece6c",
+  "bytes": 7873787,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 54
+}

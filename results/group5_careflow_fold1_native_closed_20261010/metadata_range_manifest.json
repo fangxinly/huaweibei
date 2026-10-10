@@ -1,0 +1,14 @@
+{
+  "schema": "GROUP5_CONTIGUOUS_ORIGINAL_V1",
+  "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\metadata\\complete_native_preservation_metadata.zip",
+  "bytes": 7873787,
+  "whole_SHA": "31c331773b2ec7c8f14a867b8f12b1a2c5c1ee2718374030a5519350b5eece6c",
+  "parts": [
+    {
+      "name": "group5-careflow-fold1-native-closed-31c331773b2e.zip.part0000",
+      "offset": 0,
+      "bytes": 7873787,
+      "SHA": "31c331773b2ec7c8f14a867b8f12b1a2c5c1ee2718374030a5519350b5eece6c"
+    }
+  ]
+}

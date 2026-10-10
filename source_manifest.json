@@ -3765,6 +3765,456 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/Release_ranges_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\Release_ranges_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2456,
+      "original_sha256": "e65065ad76b98ac8d0c6de9d8fe7f4b9a8e6098508c547f6f8c3413f276ae647",
+      "published_sha256": "e65065ad76b98ac8d0c6de9d8fe7f4b9a8e6098508c547f6f8c3413f276ae647",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/actual_GitHub_restoration.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\actual_GitHub_restoration.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 473,
+      "original_sha256": "4b7fc91b28a19d3c68a4487e7e13fc05c0a6ac73bcd02f5ed317fa33dbec2d9c",
+      "published_sha256": "4b7fc91b28a19d3c68a4487e7e13fc05c0a6ac73bcd02f5ed317fa33dbec2d9c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/binary_original_Release_scope.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\binary_original_Release_scope.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2243,
+      "original_sha256": "b6a72972cc2e07dc2181b80b671da89c700602bd0d0c52b84c92b06c6a10ceb5",
+      "published_sha256": "b6a72972cc2e07dc2181b80b671da89c700602bd0d0c52b84c92b06c6a10ceb5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/local_original_verification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\local_original_verification.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 241,
+      "original_sha256": "1d329f492c7dd01fdf79eb3370d3482b33c215b431931410b6130be127e11a17",
+      "published_sha256": "1d329f492c7dd01fdf79eb3370d3482b33c215b431931410b6130be127e11a17",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/metadata_Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\metadata_Release_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 678,
+      "original_sha256": "328f9f7d8875ef4b721b329ca8791d8775dae680b130f0a4a15f4e3615f9777b",
+      "published_sha256": "328f9f7d8875ef4b721b329ca8791d8775dae680b130f0a4a15f4e3615f9777b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/metadata_actual_GitHub_restoration.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\metadata_actual_GitHub_restoration.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 448,
+      "original_sha256": "b7dad100e711fc6861cf49ae441961e667176f362477040b039e5984ba9f379f",
+      "published_sha256": "b7dad100e711fc6861cf49ae441961e667176f362477040b039e5984ba9f379f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/metadata_range_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\metadata_range_manifest.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 553,
+      "original_sha256": "0c0873be6d6ae5669e63a996fbf4418f206c7b8c3a8c805e94583a9ac21d4ed5",
+      "published_sha256": "0c0873be6d6ae5669e63a996fbf4418f206c7b8c3a8c805e94583a9ac21d4ed5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/CPU_audit.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\CPU_audit.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 27,
+      "original_sha256": "4d0ea70d6e44d6edef7cf1ca9f3229db3d901d9fc188ae66caa660f4d3256e1a",
+      "published_sha256": "4d0ea70d6e44d6edef7cf1ca9f3229db3d901d9fc188ae66caa660f4d3256e1a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/CPU_audit_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\CPU_audit_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 65,
+      "original_sha256": "bb406fb86d2fa4db4bc78a52b80358259a76ee9130afe29b4d20c5f990f9d2af",
+      "published_sha256": "bb406fb86d2fa4db4bc78a52b80358259a76ee9130afe29b4d20c5f990f9d2af",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/CPU_audit_wrapper.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\CPU_audit_wrapper.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 805,
+      "original_sha256": "d68fdb726756c0fb3a3b309ccdef8d81faa98539e2715b8a391c0fbd750c6006",
+      "published_sha256": "d68fdb726756c0fb3a3b309ccdef8d81faa98539e2715b8a391c0fbd750c6006",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/CPU_exit_observed.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\CPU_exit_observed.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 69,
+      "original_sha256": "ce81b978e40e44832b48379bb728414091171a0bbd6a31355d91fcd0880f7b6a",
+      "published_sha256": "ce81b978e40e44832b48379bb728414091171a0bbd6a31355d91fcd0880f7b6a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/careflow1_precheck.once",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\careflow1_precheck.once",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 184,
+      "original_sha256": "0475911556018639cd0f8e460ee1a96e49e645e93d2a27ce276a35eda179b34e",
+      "published_sha256": "0475911556018639cd0f8e460ee1a96e49e645e93d2a27ce276a35eda179b34e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/completion_capture_actual.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\completion_capture_actual.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 195,
+      "original_sha256": "3290714add1b02d2caa48a7b84861d3ade2f45af6b8a17ae7e858015677939d9",
+      "published_sha256": "3290714add1b02d2caa48a7b84861d3ade2f45af6b8a17ae7e858015677939d9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 825,
+      "original_sha256": "6b417df47190229f31a06fa20db8e55120ac315ee433afeb17688ecc660c236f",
+      "published_sha256": "6b417df47190229f31a06fa20db8e55120ac315ee433afeb17688ecc660c236f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/freeze_group5_careflow1_native_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\freeze_group5_careflow1_native_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3639,
+      "original_sha256": "d50df0a6c009d911968b804fd98ad408dc189dba32fc284a35195640c73a7aef",
+      "published_sha256": "d50df0a6c009d911968b804fd98ad408dc189dba32fc284a35195640c73a7aef",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/independent_CPU_audit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\independent_CPU_audit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3700,
+      "original_sha256": "f1ecfa5de1b3f1647657db9a80744151c4c6646ae771b79c2897637a5bde2abb",
+      "published_sha256": "f1ecfa5de1b3f1647657db9a80744151c4c6646ae771b79c2897637a5bde2abb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/member_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\member_manifest.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6614,
+      "original_sha256": "d5910dd4ce251239240b015e26b69dd00764fe1c92b827272e7fd176ff7a529e",
+      "published_sha256": "d5910dd4ce251239240b015e26b69dd00764fe1c92b827272e7fd176ff7a529e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/out/actual_stage_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\out\\actual_stage_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 45405,
+      "original_sha256": "93e9b9b85a1dfb353a6fcb7abbf7e052c5a47dc17c16e9be0a5e68fd912b4897",
+      "published_sha256": "93e9b9b85a1dfb353a6fcb7abbf7e052c5a47dc17c16e9be0a5e68fd912b4897",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/out/construction.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\out\\construction.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 43749,
+      "original_sha256": "5026b5eec87dbfe8e6c187e9399fefdec0215a1393c456ea5b764d1309ff3a83",
+      "published_sha256": "5026b5eec87dbfe8e6c187e9399fefdec0215a1393c456ea5b764d1309ff3a83",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/out/fresh_physical.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\out\\fresh_physical.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3024,
+      "original_sha256": "a663ce902024298f0150562bf03bd400fc90a9fd7e7225e2b7d2930232b696af",
+      "published_sha256": "a663ce902024298f0150562bf03bd400fc90a9fd7e7225e2b7d2930232b696af",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/out/natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\out\\natural_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 121,
+      "original_sha256": "2eeb26a2a57bb186652be7db11fb26e0fe3b84dd79521f348f78d6d9ef48b699",
+      "published_sha256": "2eeb26a2a57bb186652be7db11fb26e0fe3b84dd79521f348f78d6d9ef48b699",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\plan.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6519,
+      "original_sha256": "02d0e24c1f9bc385160468bd21f448926b6435e5949ed466d9fd67d1f6a41da3",
+      "published_sha256": "02d0e24c1f9bc385160468bd21f448926b6435e5949ed466d9fd67d1f6a41da3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/anchored_flow.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\anchored_flow.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5818,
+      "original_sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+      "published_sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/careflow_train_dev_author_components_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\careflow_train_dev_author_components_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 11852,
+      "original_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "published_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/encoder_adapter.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\encoder_adapter.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3867,
+      "original_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "published_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/finite_single_token_reader_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\finite_single_token_reader_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2184,
+      "original_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "published_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/fixed_flow_components_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\fixed_flow_components_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2137,
+      "original_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "published_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/fold_contract.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\fold_contract.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6700,
+      "original_sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+      "published_sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_direct_CPU_audit_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_direct_CPU_audit_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8236,
+      "original_sha256": "881db3cedcdf3803a6cea672d42ad1db2feae19659724816f08cf00f22362ec1",
+      "published_sha256": "881db3cedcdf3803a6cea672d42ad1db2feae19659724816f08cf00f22362ec1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_direct_runtime_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_direct_runtime_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 14758,
+      "original_sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86",
+      "published_sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_direct_runtime_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_direct_runtime_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 16430,
+      "original_sha256": "5f3e1a23ff0f890a5600cee01784bfdf9d5a05b2155cfe372c9ec724e26d0aa6",
+      "published_sha256": "5f3e1a23ff0f890a5600cee01784bfdf9d5a05b2155cfe372c9ec724e26d0aa6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_epoch_resume_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_epoch_resume_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3913,
+      "original_sha256": "d6e2d743cd2449b3eb038749ab74c6268446e6429441d42d48ab5e0be39c9774",
+      "published_sha256": "d6e2d743cd2449b3eb038749ab74c6268446e6429441d42d48ab5e0be39c9774",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_fresh_direct_session_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_fresh_direct_session_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8524,
+      "original_sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7",
+      "published_sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_release_transport_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_release_transport_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 10893,
+      "original_sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+      "published_sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_teacher_optimizer_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_teacher_optimizer_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 764,
+      "original_sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81",
+      "published_sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/group5_test_selected_contract_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\group5_test_selected_contract_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5151,
+      "original_sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+      "published_sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/legacy_flow_model.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\legacy_flow_model.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 15003,
+      "original_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "published_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/minimal_fixed_flow_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\minimal_fixed_flow_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4555,
+      "original_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "published_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/official_fulltrain_dev_guard_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\official_fulltrain_dev_guard_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3113,
+      "original_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "published_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/paired_fulltrain_session_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\paired_fulltrain_session_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8569,
+      "original_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "published_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/sentiment_metrics_careflow_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\sentiment_metrics_careflow_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3027,
+      "original_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "published_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/source/split.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\source\\split.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 390933,
+      "original_sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+      "published_sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 20679,
+      "original_sha256": "2f295127266ad2bc2273d7e14206ca9e066706a820e3952dd5d81740d2f8e18c",
+      "published_sha256": "2f295127266ad2bc2273d7e14206ca9e066706a820e3952dd5d81740d2f8e18c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/wrapper.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\wrapper.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/wrapper.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\wrapper.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1235,
+      "original_sha256": "070504c6d62cfb9e5cb9a131913cded62d6661fd1bf518048e84eb2ee06bb374",
+      "published_sha256": "070504c6d62cfb9e5cb9a131913cded62d6661fd1bf518048e84eb2ee06bb374",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/original/wrapper_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\original\\wrapper_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 84,
+      "original_sha256": "d69247e155276c6f49eaa30816faa0f8514276ef4a7b68e3f3f4a98fd8adf77e",
+      "published_sha256": "d69247e155276c6f49eaa30816faa0f8514276ef4a7b68e3f3f4a98fd8adf77e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/preserve_group5_native_original_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\preserve_group5_native_original_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8489,
+      "original_sha256": "232ae347345ad34da7a17de406b075ca939785819cecde14478e16ba04dc14dc",
+      "published_sha256": "232ae347345ad34da7a17de406b075ca939785819cecde14478e16ba04dc14dc",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/qualification_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\qualification_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4590,
+      "original_sha256": "758446c3e6b4ac1fe0f522010c5133eb143f488cfb6b1f8c3d31478baf113b9d",
+      "published_sha256": "758446c3e6b4ac1fe0f522010c5133eb143f488cfb6b1f8c3d31478baf113b9d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/range_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\range_manifest.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1468,
+      "original_sha256": "459ad8e7391137e1ddfaafe6915ab1850e9c189a1ca314637f4cb207c7f73765",
+      "published_sha256": "459ad8e7391137e1ddfaafe6915ab1850e9c189a1ca314637f4cb207c7f73765",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_careflow_fold1_native_closed_20261010/remote_original_archive_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_careflow-fold1_20261010T115235Z\\text_publication\\remote_original_archive_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 350,
+      "original_sha256": "b6f3d034832a6ce6e08a50525acca791232e3406ab853ba07ad933af7cef4376",
+      "published_sha256": "b6f3d034832a6ce6e08a50525acca791232e3406ab853ba07ad933af7cef4376",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_careflow_native_complete_20261010/capture/Release_ranges_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_complete_20261010T044358Z\\metadata\\capture\\Release_ranges_receipt.json",
       "kind": "group5_actual_evidence_and_source",
