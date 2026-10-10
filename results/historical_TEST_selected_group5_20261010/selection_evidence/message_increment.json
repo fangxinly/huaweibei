@@ -1,0 +1,503 @@
+{
+  "status": "FIXED_NEW_UPGRADE_VAL_TEST_FIVE_METRICS_COMPLETE",
+  "actual_UTC": "2026-10-08T05:19:24.975442+00:00",
+  "pid": 18085,
+  "fullargv": [
+    "/data/coding/multimodal_flow_public_20261007T141430Z/.venv/bin/python",
+    "/data/coding/anchored_VAL_TEST_eval_20261008T051335Z/score_roles.py",
+    "--plan",
+    "/data/coding/anchored_VAL_TEST_eval_20261008T051335Z/official_roles_score_protocol.json",
+    "--plan-sha",
+    "652e03641ecaca99e0818000ddbcb671d511ae67662246ebcf4fb1fcf36dc8e5",
+    "--bundle",
+    "/data/coding/anchored_VAL_TEST_eval_20261008T051335Z",
+    "--assets",
+    "/data/coding/multimodal_flow_public_20261007T141430Z",
+    "--out",
+    "/data/coding/anchored_VAL_TEST_score_B_20261008T051335Z/out",
+    "--prediction",
+    "/data/coding/anchored_VAL_TEST_predictions_20261008T051335Z.npz"
+  ],
+  "prediction_SHA": "93d968fbfec695d740a5eaf2d98b479205cf96fbd4a9808f8b577d65ae8ff106",
+  "adapter_state_SHA": "a39ed93522dd8dfce09ac07cc848ee4dd7533d8dc76709bb0ca353da45b2ac63",
+  "roles": {
+    "VAL": {
+      "rows": 229,
+      "videos": 10,
+      "training_overlap": {
+        "fit": 135,
+        "inner": 34,
+        "outer": 60
+      },
+      "metrics": {
+        "new_fixed20_upgrade": {
+          "overall": {
+            "Acc7": 0.6681222707423581,
+            "Acc2": 0.9675925925925926,
+            "F1": 0.9676541323600147,
+            "MAE": 0.3544933257063273,
+            "Corr": 0.9417190655643404,
+            "MSE": 0.31254978249604015,
+            "Has0_Acc2": 0.9301310043668122,
+            "Has0_F1": 0.9306697978367986,
+            "samples": 229,
+            "nonzero_samples": 216,
+            "zero_label_samples": 13,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                90,
+                2
+              ],
+              [
+                5,
+                119
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                90,
+                2
+              ],
+              [
+                14,
+                123
+              ]
+            ]
+          },
+          "weak": {
+            "Acc7": 0.7619047619047619,
+            "Acc2": 0.9436619718309859,
+            "F1": 0.9437291475402494,
+            "MAE": 0.31230533998903065,
+            "Corr": 0.7248774734264763,
+            "MSE": 0.2956598185273051,
+            "Has0_Acc2": 0.8452380952380952,
+            "Has0_F1": 0.846938775510204,
+            "samples": 84,
+            "nonzero_samples": 71,
+            "zero_label_samples": 13,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                32,
+                1
+              ],
+              [
+                3,
+                35
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                32,
+                1
+              ],
+              [
+                12,
+                39
+              ]
+            ]
+          },
+          "strong": {
+            "Acc7": 0.6137931034482759,
+            "Acc2": 0.9793103448275862,
+            "F1": 0.9793367800840844,
+            "MAE": 0.37893326225979573,
+            "Corr": 0.9636901750580883,
+            "MSE": 0.32233431334689355,
+            "Has0_Acc2": 0.9793103448275862,
+            "Has0_F1": 0.9793367800840844,
+            "samples": 145,
+            "nonzero_samples": 145,
+            "zero_label_samples": 0,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                58,
+                1
+              ],
+              [
+                2,
+                84
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                58,
+                1
+              ],
+              [
+                2,
+                84
+              ]
+            ]
+          }
+        },
+        "same_flow_messages_off": {
+          "overall": {
+            "Acc7": 0.6244541484716157,
+            "Acc2": 0.9675925925925926,
+            "F1": 0.9676541323600147,
+            "MAE": 0.37450959091786473,
+            "Corr": 0.9379189062092763,
+            "MSE": 0.3324286981703145,
+            "Has0_Acc2": 0.9301310043668122,
+            "Has0_F1": 0.9306697978367986,
+            "samples": 229,
+            "nonzero_samples": 216,
+            "zero_label_samples": 13,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                90,
+                2
+              ],
+              [
+                5,
+                119
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                90,
+                2
+              ],
+              [
+                14,
+                123
+              ]
+            ]
+          },
+          "weak": {
+            "Acc7": 0.7142857142857143,
+            "Acc2": 0.9436619718309859,
+            "F1": 0.9437291475402494,
+            "MAE": 0.3327595126992535,
+            "Corr": 0.7190163949643984,
+            "MSE": 0.3397682494419637,
+            "Has0_Acc2": 0.8452380952380952,
+            "Has0_F1": 0.846938775510204,
+            "samples": 84,
+            "nonzero_samples": 71,
+            "zero_label_samples": 13,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                32,
+                1
+              ],
+              [
+                3,
+                35
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                32,
+                1
+              ],
+              [
+                12,
+                39
+              ]
+            ]
+          },
+          "strong": {
+            "Acc7": 0.5724137931034483,
+            "Acc2": 0.9793103448275862,
+            "F1": 0.9793367800840844,
+            "MAE": 0.39869584312726714,
+            "Corr": 0.9608367643364449,
+            "MSE": 0.32817682019225564,
+            "Has0_Acc2": 0.9793103448275862,
+            "Has0_F1": 0.9793367800840844,
+            "samples": 145,
+            "nonzero_samples": 145,
+            "zero_label_samples": 0,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                58,
+                1
+              ],
+              [
+                2,
+                84
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                58,
+                1
+              ],
+              [
+                2,
+                84
+              ]
+            ]
+          }
+        }
+      },
+      "weak_count": 84,
+      "strong_count": 145
+    },
+    "TEST": {
+      "rows": 685,
+      "videos": 31,
+      "training_overlap": {
+        "fit": 436,
+        "inner": 88,
+        "outer": 161
+      },
+      "metrics": {
+        "new_fixed20_upgrade": {
+          "overall": {
+            "Acc7": 0.6759124087591241,
+            "Acc2": 0.9526717557251908,
+            "F1": 0.9525860262184287,
+            "MAE": 0.3663267807722309,
+            "Corr": 0.9251693251331076,
+            "MSE": 0.3652542314579091,
+            "Has0_Acc2": 0.9372262773722628,
+            "Has0_F1": 0.9369934921932042,
+            "samples": 685,
+            "nonzero_samples": 655,
+            "zero_label_samples": 30,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                366,
+                12
+              ],
+              [
+                19,
+                258
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                366,
+                12
+              ],
+              [
+                31,
+                276
+              ]
+            ]
+          },
+          "weak": {
+            "Acc7": 0.7764705882352941,
+            "Acc2": 0.8977777777777778,
+            "F1": 0.8976562799204981,
+            "MAE": 0.2796964071764081,
+            "Corr": 0.739368424586495,
+            "MSE": 0.2570742419277003,
+            "Has0_Acc2": 0.8627450980392157,
+            "Has0_F1": 0.862960519110474,
+            "samples": 255,
+            "nonzero_samples": 225,
+            "zero_label_samples": 30,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                107,
+                9
+              ],
+              [
+                14,
+                95
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                107,
+                9
+              ],
+              [
+                26,
+                113
+              ]
+            ]
+          },
+          "strong": {
+            "Acc7": 0.6162790697674418,
+            "Acc2": 0.9813953488372092,
+            "F1": 0.9813750163480627,
+            "MAE": 0.4177006069744049,
+            "Corr": 0.9409289951349723,
+            "MSE": 0.42940748106303284,
+            "Has0_Acc2": 0.9813953488372092,
+            "Has0_F1": 0.9813750163480627,
+            "samples": 430,
+            "nonzero_samples": 430,
+            "zero_label_samples": 0,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                259,
+                3
+              ],
+              [
+                5,
+                163
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                259,
+                3
+              ],
+              [
+                5,
+                163
+              ]
+            ]
+          }
+        },
+        "same_flow_messages_off": {
+          "overall": {
+            "Acc7": 0.6627737226277373,
+            "Acc2": 0.9511450381679389,
+            "F1": 0.9510429115001273,
+            "MAE": 0.3897578194071233,
+            "Corr": 0.921943641114522,
+            "MSE": 0.3850911884562821,
+            "Has0_Acc2": 0.92992700729927,
+            "Has0_F1": 0.9295798399299575,
+            "samples": 685,
+            "nonzero_samples": 655,
+            "zero_label_samples": 30,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                366,
+                12
+              ],
+              [
+                20,
+                257
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                366,
+                12
+              ],
+              [
+                36,
+                271
+              ]
+            ]
+          },
+          "weak": {
+            "Acc7": 0.7803921568627451,
+            "Acc2": 0.8933333333333333,
+            "F1": 0.8931684371861952,
+            "MAE": 0.2954120161742264,
+            "Corr": 0.7341150509838356,
+            "MSE": 0.28651496721507375,
+            "Has0_Acc2": 0.8431372549019608,
+            "Has0_F1": 0.8431903273120271,
+            "samples": 255,
+            "nonzero_samples": 225,
+            "zero_label_samples": 30,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                107,
+                9
+              ],
+              [
+                15,
+                94
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                107,
+                9
+              ],
+              [
+                31,
+                108
+              ]
+            ]
+          },
+          "strong": {
+            "Acc7": 0.5930232558139535,
+            "Acc2": 0.9813953488372092,
+            "F1": 0.9813750163480627,
+            "MAE": 0.4457070748126784,
+            "Corr": 0.9385054200636966,
+            "MSE": 0.44354918012258,
+            "Has0_Acc2": 0.9813953488372092,
+            "Has0_F1": 0.9813750163480627,
+            "samples": 430,
+            "nonzero_samples": 430,
+            "zero_label_samples": 0,
+            "exact_zero_predictions": 0,
+            "correlation_defined": true,
+            "nonzero_confusion_matrix": [
+              [
+                259,
+                3
+              ],
+              [
+                5,
+                163
+              ]
+            ],
+            "haszero_confusion_matrix": [
+              [
+                259,
+                3
+              ],
+              [
+                5,
+                163
+              ]
+            ]
+          }
+        }
+      },
+      "weak_count": 255,
+      "strong_count": 430
+    }
+  },
+  "metric_semantics": {
+    "Acc7": "All rows: clip predictions and labels to [-3,3], NumPy round (half to even), exact class match.",
+    "Acc2": "Exclude labels exactly equal to 0; classify prediction >=0 and label >=0.",
+    "F1": "Same nonzero rows and binary thresholds; class-support-weighted F1, not macro or positive-class-only F1.",
+    "MAE": "All rows, original unclipped regression predictions.",
+    "Corr": "All rows, Pearson correlation; undefined for a constant vector or fewer than 2 rows.",
+    "Has0_Acc2_and_F1": "Additional all-row binary metrics; neutral label belongs to the nonnegative class.",
+    "units": "Acc7, Acc2 and F1 stored as fractions; display as percentages. Corr fraction, MAE original sentiment scale.",
+    "precision": "Independent CPU float64 aggregation; no rounding, clipping or calibration of regression predictions."
+  },
+  "independent_arithmetic_max_errors": {
+    "VAL": {
+      "new_fixed20_upgrade": 1.1102230246251565e-16,
+      "same_flow_messages_off": 0.0
+    },
+    "TEST": {
+      "new_fixed20_upgrade": 1.1102230246251565e-16,
+      "same_flow_messages_off": 5.551115123125783e-16
+    }
+  },
+  "no_training_or_checkpoint_selection": true,
+  "all_five_same_fixed_checkpoint": true,
+  "original_test_overlap_in_training_disclosed": true,
+  "not_independent_official_benchmark": true
+}

@@ -1,0 +1,165 @@
+{
+  "actual_UTC": "2026-10-10T02:33:43.557519+00:00",
+  "human_requests": [
+    "test表现最好的几次",
+    "全数据约 93 视频五折",
+    "把内容都上传github"
+  ],
+  "candidate_selection_uses_historical_TEST": true,
+  "new_blind_test": false,
+  "criterion": "Retain three official-TEST nondominated representatives across all five saved metrics, plus the strongest overlapping pooled message architecture, and required CaReFlow",
+  "complete_historical_search_claimed": false,
+  "roster": [
+    {
+      "method": "anchored_message20",
+      "label": "原 AnchoredFlow + 固定20轮消息增量",
+      "historical_TEST": {
+        "Acc7": 0.6759124087591241,
+        "Acc2": 0.9526717557251908,
+        "F1": 0.9525860262184287,
+        "MAE": 0.3663267807722309,
+        "Corr": 0.9251693251331076
+      },
+      "historical_scope": "POOLED_FOLD0_DESCRIPTIVE_WITH_FIT_AND_INNER_OVERLAP",
+      "historical_TEST_overlap": {
+        "fit": 436,
+        "inner": 88,
+        "outer": 161
+      },
+      "source_family": "anchored_message",
+      "selection_reason": "Best apparent historical TEST scores; overlap explicitly retained"
+    },
+    {
+      "method": "old_fixed_A",
+      "label": "旧固定 A / finite fixed",
+      "historical_TEST": {
+        "Acc7": 0.454014598540146,
+        "Acc2": 0.8839694656488549,
+        "F1": 0.883912339989042,
+        "MAE": 0.6426522682482091,
+        "Corr": 0.8480804855878568
+      },
+      "historical_scope": "OFFICIAL_SPLIT_TEST",
+      "source_family": "old_fixed",
+      "selection_reason": "Best official-split Acc2/F1/Corr among the selected in-house methods"
+    },
+    {
+      "method": "factorized_aux",
+      "label": "新 A / factorized_aux",
+      "historical_TEST": {
+        "Acc7": 0.4686131386861314,
+        "Acc2": 0.8809160305343512,
+        "F1": 0.8807329455189361,
+        "MAE": 0.6381757583333193,
+        "Corr": 0.8409977851337935
+      },
+      "historical_scope": "OFFICIAL_SPLIT_TEST",
+      "source_family": "latest_AB",
+      "selection_reason": "Official-split classification and regression tradeoff; not dominated by old A or new B"
+    },
+    {
+      "method": "regression_aux",
+      "label": "新 B / regression_aux",
+      "historical_TEST": {
+        "Acc7": 0.4832116788321168,
+        "Acc2": 0.8748091603053435,
+        "F1": 0.8746166863147791,
+        "MAE": 0.6355054317422918,
+        "Corr": 0.8424081379817006
+      },
+      "historical_scope": "OFFICIAL_SPLIT_TEST",
+      "source_family": "latest_AB",
+      "selection_reason": "Best official-split MAE and Acc7 among these in-house finalists"
+    },
+    {
+      "method": "careflow",
+      "label": "CaReFlow",
+      "historical_TEST": {
+        "Acc7": 0.5065693430656935,
+        "Acc2": 0.8763358778625954,
+        "F1": 0.8761118749578298,
+        "MAE": 0.619535293923368,
+        "Corr": 0.851188467828589
+      },
+      "historical_scope": "OFFICIAL_SPLIT_TEST",
+      "source_family": "author",
+      "selection_reason": "Required baseline"
+    }
+  ],
+  "excluded": [
+    {
+      "method": "old_B",
+      "historical_TEST": {
+        "Acc7": 0.45255474452554745,
+        "Acc2": 0.8748091603053435,
+        "F1": 0.874924918631531,
+        "MAE": 0.646404536160892,
+        "Corr": 0.8472996123189929
+      },
+      "dominated_by": "old_fixed_A",
+      "same_historical_evaluation_scope": true,
+      "all_five_checked": true
+    },
+    {
+      "method": "old_C2",
+      "historical_TEST": {
+        "Acc7": 0.4481751824817518,
+        "Acc2": 0.8824427480916031,
+        "F1": 0.8824141044265824,
+        "MAE": 0.6433985106211945,
+        "Corr": 0.8478958811786723
+      },
+      "dominated_by": "old_fixed_A",
+      "same_historical_evaluation_scope": true,
+      "all_five_checked": true
+    },
+    {
+      "method": "minimal_fixed_F",
+      "historical_TEST": {
+        "Acc7": 0.47883211678832116,
+        "Acc2": 0.8717557251908397,
+        "F1": 0.8719297709923665,
+        "MAE": 0.643699787470111,
+        "Corr": 0.8421795950890434
+      },
+      "dominated_by": "regression_aux",
+      "same_historical_evaluation_scope": true,
+      "all_five_checked": true
+    }
+  ],
+  "apparent_pooled_scores_not_ranked_as_independent_official_TEST": true,
+  "no_old_weights_or_cached_teacher_may_be_reused": true,
+  "original_once_tokens_untouched": true,
+  "saved_evidence": {
+    "fixed_models.json": {
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\所有固定模型VAL_TEST五项实际对齐结果.json",
+      "SHA": "5dba1666e9552a368f13fb1f900916f30bf89593d775ec9b214d343746f5baa7",
+      "bytes": 32385
+    },
+    "message_increment.json": {
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\anchored_VAL_TEST_review_20261008T052013Z\\actual_VAL_TEST_five_metrics.json",
+      "SHA": "9ff239ed5d4d172d7998f01250617835c6ecf4782de919614ec169144927a389",
+      "bytes": 14300
+    },
+    "latest_AB.json": {
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\AB_official_five_complete_saved_actual_20261009T180914Z\\actual_verified_results.json",
+      "SHA": "1af2415718ae3f182340f2f4af1a9f01bb402cc698a7b73bf70397bf459e58e4",
+      "bytes": 37004
+    },
+    "old_preparation.json": {
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_flow_preparation_20261007T084136Z\\preparation_protocol.json",
+      "SHA": "7bfde5a4b819e390d884e3136fedf0b577360bcb99cbad6d0603d6a610814406",
+      "bytes": 8758
+    },
+    "old_fixed_A_training.json": {
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\finite_formal_plan_v1.json",
+      "SHA": "69dbd2997aaacebfa6d7d579bc594bd27a0e4fd5b99b2affa6335febb0e529af",
+      "bytes": 15530
+    },
+    "message_training.json": {
+      "origin": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\anchored_increment_source_20261008T024739Z\\increment_train_protocol.json",
+      "SHA": "47d7963d1007ff04b06e33db6945be8728dc9f7e5324e06bd86d769751fae43d",
+      "bytes": 9853
+    }
+  }
+}

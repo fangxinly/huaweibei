@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "status": "HUMAN_TEST_SELECTED_POOLED_GROUP5_DESIGN_FIXED_EXECUTION_NOT_QUALIFIED",
+  "actual_UTC": "2026-10-10T02:33:43.557519+00:00",
+  "execution_enabled": false,
+  "methods": [
+    "anchored_message20",
+    "old_fixed_A",
+    "factorized_aux",
+    "regression_aux",
+    "careflow"
+  ],
+  "method_fold_outputs": 25,
+  "explicit_training_stages": 35,
+  "end_to_end_parent_teacher_and_direct_stages": 25,
+  "added_head_or_message_stages": 10,
+  "formal_design_new_human_authorization": true,
+  "inherited_TRAIN_only_next_step_superseded_for_this_new_comparison": true,
+  "all_original_results_and_once_contracts_preserved": true,
+  "exploratory_historical_TEST_selected_repartitioned_CV": true,
+  "not_five_independent_seeds": true,
+  "data_scope": {
+    "rows": 2195,
+    "video_groups": 93,
+    "original_roles": {
+      "train_ids": 1281,
+      "dev_ids": 229,
+      "test_ids": 685
+    },
+    "split_SHA": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+    "raw_input_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+    "input_identity_parent_SHA": "c5bd3d65e1d87a275e2627de9f80336a2188801fb73bbf67fbb3f494d0e3224d",
+    "unknown_upstream_recipe_units_sentinels_precision_exposure": true
+  },
+  "task_seed": 128,
+  "batch_size": 32,
+  "drop_last": false,
+  "eval_batch_size": 128,
+  "selection": "Separate within-outer-fold video INNER; strict earliest minimum sample-weighted FP64 MSE over100. Fixed-final20 message stage has no further epoch selection.",
+  "method_preservation": "Original architecture/objectives/LR preserved. Fresh random task initialization and public encoder for every fold. Normalize own models on FIT only; preserve and disclose author per-batch normalization. Per-fold new schedules use actual tail-inclusive update count.",
+  "old_A_teacher": "Fresh same-fold teacher from public pretraining; prior fullTRAIN teacher, fitted scales and cached coordinates forbidden. Original teacher/adaptation pipeline needs an additional qualified fold constructor; do not substitute another teacher.",
+  "message_parent": "Fresh AnchoredFlow100 INNER-selected parent for the same fold; freeze parent then fixed20 message-only stage. Original best36/20 checkpoints forbidden.",
+  "inner_scope": "INNER may select each fold parent and final checkpoint; no OUTER-based tuning. No claimed nested search correction for historical candidate selection.",
+  "scoring": "Freeze and preserve all25 final OUTER predictions plus model/optimizer/scheduler/RNG/orders/stats/source/identities and independent CPU checks before one new pooled OOF evaluation per method. Report all5 metrics, per-fold mean/SD and concatenated OOF. No outer-result-based queue edits.",
+  "folds": [
+    {
+      "fold": 0,
+      "fit": 1494,
+      "inner": 264,
+      "outer": 437,
+      "videos": {
+        "fit": 64,
+        "inner": 11,
+        "outer": 18
+      },
+      "steps_per_100_epoch_stage": 4700,
+      "steps_per_message20_stage": 940
+    },
+    {
+      "fold": 1,
+      "fit": 1494,
+      "inner": 266,
+      "outer": 435,
+      "videos": {
+        "fit": 63,
+        "inner": 12,
+        "outer": 18
+      },
+      "steps_per_100_epoch_stage": 4700,
+      "steps_per_message20_stage": 940
+    },
+    {
+      "fold": 2,
+      "fit": 1486,
+      "inner": 268,
+      "outer": 441,
+      "videos": {
+        "fit": 64,
+        "inner": 10,
+        "outer": 19
+      },
+      "steps_per_100_epoch_stage": 4700,
+      "steps_per_message20_stage": 940
+    },
+    {
+      "fold": 3,
+      "fit": 1484,
+      "inner": 270,
+      "outer": 441,
+      "videos": {
+        "fit": 64,
+        "inner": 10,
+        "outer": 19
+      },
+      "steps_per_100_epoch_stage": 4700,
+      "steps_per_message20_stage": 940
+    },
+    {
+      "fold": 4,
+      "fit": 1486,
+      "inner": 268,
+      "outer": 441,
+      "videos": {
+        "fit": 61,
+        "inner": 13,
+        "outer": 19
+      },
+      "steps_per_100_epoch_stage": 4700,
+      "steps_per_message20_stage": 940
+    }
+  ],
+  "queue": [
+    {
+      "fold": 0,
+      "stage": "parent",
+      "method": "anchored_parent",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 0,
+      "stage": "final",
+      "method": "anchored_message20",
+      "parent": "anchored_parent:fold0",
+      "epochs": 20,
+      "expected_updates": 940,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 0,
+      "stage": "teacher",
+      "method": "old_A_teacher",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 0,
+      "stage": "final",
+      "method": "old_fixed_A",
+      "parent": "old_A_teacher:fold0",
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 0,
+      "stage": "final",
+      "method": "factorized_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 0,
+      "stage": "final",
+      "method": "regression_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 0,
+      "stage": "final",
+      "method": "careflow",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "parent",
+      "method": "anchored_parent",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "final",
+      "method": "anchored_message20",
+      "parent": "anchored_parent:fold1",
+      "epochs": 20,
+      "expected_updates": 940,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "teacher",
+      "method": "old_A_teacher",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "final",
+      "method": "old_fixed_A",
+      "parent": "old_A_teacher:fold1",
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "final",
+      "method": "factorized_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "final",
+      "method": "regression_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 1,
+      "stage": "final",
+      "method": "careflow",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "parent",
+      "method": "anchored_parent",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "final",
+      "method": "anchored_message20",
+      "parent": "anchored_parent:fold2",
+      "epochs": 20,
+      "expected_updates": 940,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "teacher",
+      "method": "old_A_teacher",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "final",
+      "method": "old_fixed_A",
+      "parent": "old_A_teacher:fold2",
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "final",
+      "method": "factorized_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "final",
+      "method": "regression_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 2,
+      "stage": "final",
+      "method": "careflow",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "parent",
+      "method": "anchored_parent",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "final",
+      "method": "anchored_message20",
+      "parent": "anchored_parent:fold3",
+      "epochs": 20,
+      "expected_updates": 940,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "teacher",
+      "method": "old_A_teacher",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "final",
+      "method": "old_fixed_A",
+      "parent": "old_A_teacher:fold3",
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "final",
+      "method": "factorized_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "final",
+      "method": "regression_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 3,
+      "stage": "final",
+      "method": "careflow",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "parent",
+      "method": "anchored_parent",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "final",
+      "method": "anchored_message20",
+      "parent": "anchored_parent:fold4",
+      "epochs": 20,
+      "expected_updates": 940,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "teacher",
+      "method": "old_A_teacher",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "final",
+      "method": "old_fixed_A",
+      "parent": "old_A_teacher:fold4",
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "final",
+      "method": "factorized_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "final",
+      "method": "regression_aux",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    },
+    {
+      "fold": 4,
+      "stage": "final",
+      "method": "careflow",
+      "parent": null,
+      "epochs": 100,
+      "expected_updates": 4700,
+      "old_task_checkpoint_reuse": false,
+      "status": "NOT_DISPATCHED",
+      "once_consumed": false,
+      "requires_same_fold_parent": true
+    }
+  ],
+  "complete_queue_updates": 145700,
+  "storage": {
+    "human_authorization": "把内容都上传github",
+    "repository": "fangxinly/huaweibei",
+    "existing_release_tag": "autonomous-flow-health-20261008",
+    "permanent_repository": "Source, protocols, IDs, hashes, receipts, summaries",
+    "permanent_release": "Exact original complete checkpoint/capture ZIP bytes, split into sub2GiB ranges when necessary, plus reassembly manifest and whole/archive/member SHA",
+    "upload_chunk_bytes": 536870912,
+    "delete_old_evidence": false,
+    "all25_D_full_state_reservation_required": false,
+    "actual_serial_staging_capacity_required": true,
+    "remote_original_keep_until_GitHub_complete_digest_and_restore_verified": true,
+    "original_ZIP_permanent_preservation_in_GitHub_required": true,
+    "CPU_available_RAM_min_bytes": 6442450944,
+    "C_floor_bytes": 209715200,
+    "D_floor_bytes": 41943040,
+    "available_C_bytes": 7532146688,
+    "available_D_bytes": 3246882816,
+    "capacity_estimate_is_not_capture": true,
+    "checkpoint_estimate_parent_reference_SHA": "7bfde5a4b819e390d884e3136fedf0b577360bcb99cbad6d0603d6a610814406",
+    "estimated_full_states_25_bytes": 92700000000,
+    "extra_head_caches_and_prechecks_and_transfer_margin_not_included": true,
+    "streaming_transport_and_restoration_still_need_qualification": true
+  },
+  "pending": [
+    "New multi-method fold training/teacher/message constructors and scorer",
+    "Source/synthetic/native3step/fullcheckpoint CPU qualification",
+    "Fresh batch5 UUID/fullargv/runtime/assets/RAM/remote and serial staging space",
+    "Measured stage queue time + at least2h actual save/transfer reserve before lease end",
+    "New GitHub chunk upload and restoration qualification without SSH credentials in files/argv",
+    "Separate precheck/train/score execution plans and fresh once locks"
+  ],
+  "no_new_data_array_or_target_decode": true,
+  "no_new_fit_inference_scoring_SSH": true,
+  "local_source_manifest": {
+    "group5_test_selected_contract_v1.py": {
+      "SHA": "42a0fbba2983cabccc7fba329268ea077e33dd83529a0cca39680432aa9bccb9",
+      "bytes": 5147
+    },
+    "group_reference/anchored_flow.py": {
+      "SHA": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+      "bytes": 5818
+    },
+    "group_reference/careflow_train_dev_author_components_candidate.py": {
+      "SHA": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "bytes": 11852
+    },
+    "group_reference/encoder_adapter.py": {
+      "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "bytes": 3867
+    },
+    "group_reference/finite_single_token_reader_v1.py": {
+      "SHA": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "bytes": 2184
+    },
+    "group_reference/fixed_flow_components_candidate.py": {
+      "SHA": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "bytes": 2137
+    },
+    "group_reference/fold_contract.py": {
+      "SHA": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+      "bytes": 6700
+    },
+    "group_reference/fold_cpu_audit.py": {
+      "SHA": "8d158e36f688aaa024cf9e315ebe06ef64430a178fd1e6ba4a50085297a7f71e",
+      "bytes": 8220
+    },
+    "group_reference/fold_evidence.py": {
+      "SHA": "361871aead6bededfd877e8422d70e91e8aa3506ba43d0f0fd7b92d4ebe7973f",
+      "bytes": 10324
+    },
+    "group_reference/fold_runtime.py": {
+      "SHA": "2d486c80b54f1775729833bbf9d370a0931539a9ecb5d2c5774ace813726c762",
+      "bytes": 17083
+    },
+    "group_reference/fold_score.py": {
+      "SHA": "86bca960ed111c2b3425a360340935bc81e814b035382776f36b9547503778a0",
+      "bytes": 7383
+    },
+    "group_reference/fold_session.py": {
+      "SHA": "ae1171eaadd30c8eaed6e294ce82199d857dc69da1319218a5ebe522ef014b5f",
+      "bytes": 4809
+    },
+    "group_reference/legacy_flow_model.py": {
+      "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "bytes": 15003
+    },
+    "group_reference/minimal_fixed_flow_v2.py": {
+      "SHA": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "bytes": 4555
+    },
+    "group_reference/native_fixture_runner.py": {
+      "SHA": "630a30b9ea114f76f96c8b54047c0f3e5487fe24c0aeda1eea94f39b87e21cd9",
+      "bytes": 6846
+    },
+    "group_reference/official_fulltrain_dev_guard_candidate.py": {
+      "SHA": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "bytes": 3113
+    },
+    "group_reference/orders_fold0.npy": {
+      "SHA": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163",
+      "bytes": 1195328
+    },
+    "group_reference/orders_fold1.npy": {
+      "SHA": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd",
+      "bytes": 1195328
+    },
+    "group_reference/orders_fold2.npy": {
+      "SHA": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5",
+      "bytes": 1188928
+    },
+    "group_reference/orders_fold3.npy": {
+      "SHA": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69",
+      "bytes": 1187328
+    },
+    "group_reference/orders_fold4.npy": {
+      "SHA": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a",
+      "bytes": 1188928
+    },
+    "group_reference/paired_fulltrain_session_candidate.py": {
+      "SHA": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "bytes": 8569
+    },
+    "group_reference/parents/input_identity_A.json": {
+      "SHA": "c5bd3d65e1d87a275e2627de9f80336a2188801fb73bbf67fbb3f494d0e3224d",
+      "bytes": 59959
+    },
+    "group_reference/parents/paired_fulltrain_execution_plan.json": {
+      "SHA": "8dc4093ae64a61018fee0781d250b40e0ecf26fe11b6c9feb8529fd4ef1a95eb",
+      "bytes": 9591
+    },
+    "group_reference/prepare.py": {
+      "SHA": "669c2b573961b68f4f116eec77c7d42421871142307221c30b2b29c5c31bd208",
+      "bytes": 7205
+    },
+    "group_reference/sentiment_metrics_careflow_v1.py": {
+      "SHA": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "bytes": 3027
+    },
+    "group_reference/split.json": {
+      "SHA": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+      "bytes": 390933
+    },
+    "group_reference/test_fold_contract.py": {
+      "SHA": "32ec5635241d73cde9edcd47b803f6ff4707982b0b0625211f97696d59638ed3",
+      "bytes": 7872
+    },
+    "latest_AB_reference/anchored_flow.py": {
+      "SHA": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76",
+      "bytes": 6334
+    },
+    "latest_AB_reference/candidate_adapter.py": {
+      "SHA": "71128a8c3b567a963d555d9dadabccd775a312363380da9a12301d85bf8dacab",
+      "bytes": 2510
+    },
+    "latest_AB_reference/controlled_flow.py": {
+      "SHA": "5325d0488e570a4ec3861e4dc57a785bc8d3adeeecec6b48fc908894bdfd3774",
+      "bytes": 4548
+    },
+    "latest_AB_reference/incremental_message.py": {
+      "SHA": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd",
+      "bytes": 4171
+    },
+    "latest_AB_reference/official_upgrade.py": {
+      "SHA": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9",
+      "bytes": 3554
+    },
+    "latest_AB_reference/polarity_intensity_flow.py": {
+      "SHA": "ae8efef94c267b82c0aecf241c63da6ed255854493983b1ea666c5b5e302b741",
+      "bytes": 5968
+    },
+    "message_reference/cache_original.py": {
+      "SHA": "bebec2a02de151a3c66c12d5d87932947753b22d7e06898033423b7268bbd0d1",
+      "bytes": 5959
+    },
+    "message_reference/incremental_message.py": {
+      "SHA": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd",
+      "bytes": 4171
+    },
+    "message_reference/train_increment.py": {
+      "SHA": "29a0a5b307f7106b57a873fc3aab943cd255afbc49c2d7c3aea03e5e3aa31fe1",
+      "bytes": 5907
+    },
+    "old_fixed_reference/counterfactual_flow_model.py": {
+      "SHA": "50a0e652a1502ed7a06b58e5876a90aecf4e1435b5d5154043b76eabc806655b",
+      "bytes": 6841
+    },
+    "old_fixed_reference/encoder_adapter.py": {
+      "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "bytes": 3867
+    },
+    "old_fixed_reference/finite_task_risk_feedback_v1.py": {
+      "SHA": "793c0dbfb218093c0b2b6695a36a266286a33b82b76008814aa2d222174b78cb",
+      "bytes": 5854
+    },
+    "old_fixed_reference/finite_task_risk_runtime_v1.py": {
+      "SHA": "c0b331a3e8c9519b72a8e621ee1028bf3900ed42c7cf19f1a6ff49645584e32d",
+      "bytes": 2608
+    },
+    "old_fixed_reference/legacy_flow_model.py": {
+      "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "bytes": 15003
+    },
+    "old_fixed_reference/run_counterfactual_v5.py": {
+      "SHA": "2b74376ec59de09977734a7ae5e237033b817212b0f035b96a601c424c71fc0b",
+      "bytes": 15004
+    },
+    "old_fixed_reference/soft_vector_runtime_v1.py": {
+      "SHA": "20afa67f43c4abd9417b145afca98a7b5b7dcbb85f6232f1311ede11e364305d",
+      "bytes": 5370
+    },
+    "old_fixed_reference/task_gradient_vector_candidate_v3.py": {
+      "SHA": "f8f171e49c57846ec99ea9395a2f2ae1f2d74e1c03f02cbb391b37eeef63447b",
+      "bytes": 5533
+    },
+    "old_fixed_reference/train_finite_task_risk_v1.py": {
+      "SHA": "9a8519ebc19d006bfd53e5113915cd7a31190bd97d7dc6ae804c6d0ccec86d6c",
+      "bytes": 8729
+    }
+  }
+}

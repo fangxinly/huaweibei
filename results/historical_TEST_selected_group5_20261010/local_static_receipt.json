@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-10T02:33:45.401909+00:00",
+  "scope": "Saved metrics/IDs/source AST only",
+  "historical_metrics_recomputed": false,
+  "source_AST_passed_files": 38,
+  "exact_split_regenerated": true,
+  "outer_rows_once": true,
+  "video_disjoint_FIT_INNER_OUTER": true,
+  "original_dataset_or_labels_loaded": false,
+  "torch_runtime_used": false,
+  "design_SHA": "8ca87e928c78a419dcfa23a4c9c775298e380e872df44f709c52f042310c8702"
+}

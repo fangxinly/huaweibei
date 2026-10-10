@@ -1,0 +1,15 @@
+{
+  "actual_UTC": "2026-10-10T02:35:21.709373+00:00",
+  "status": "NEW_GROUP5_SCOPE_RESOURCE_RELEASE_CONTRACT_SYNTHETIC_PASS",
+  "synthetic_only": true,
+  "adversarial_checks_passed": 18,
+  "historical_teacher_crossfold_outer_label_unverified_parent_rejected": true,
+  "preparation_dispatch_rejected": true,
+  "stale_uuid_compute_RAM_space_lease_rejected": true,
+  "release_missing_duplicate_gap_wrong_digest_rejected": true,
+  "actual_native_model_or_chunk_upload_qualified": false,
+  "training_once_consumed": false,
+  "no_task_arrays_labels_models_or_SSH_loaded": true,
+  "design_SHA": "8ca87e928c78a419dcfa23a4c9c775298e380e872df44f709c52f042310c8702",
+  "contract_SHA": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090"
+}
