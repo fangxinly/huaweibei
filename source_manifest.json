@@ -1920,6 +1920,33 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_formal_progress_policy_block_20261010/exact_policy_failure_and_prior_observation.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_formal_progress_policy_block_20261010T045258Z\\metadata\\exact_policy_failure_and_prior_observation.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1560,
+      "original_sha256": "ee54fc2c94cf18366415ff7a26d860a9e88dcbde0863040fbfcfd157fe19b7f7",
+      "published_sha256": "ee54fc2c94cf18366415ff7a26d860a9e88dcbde0863040fbfcfd157fe19b7f7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_formal_progress_policy_block_20261010/prior_original_dispatch_preservation_pointer.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_formal_progress_policy_block_20261010T045258Z\\metadata\\prior_original_dispatch_preservation_pointer.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3795,
+      "original_sha256": "ae23438e443f110fa2c9aee7ad60036930c2460bf1f65fbe850ded0dc450ef6c",
+      "published_sha256": "ae23438e443f110fa2c9aee7ad60036930c2460bf1f65fbe850ded0dc450ef6c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_formal_progress_policy_block_20261010/save_group5_progress_policy_block_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_formal_progress_policy_block_20261010T045258Z\\metadata\\save_group5_progress_policy_block_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4249,
+      "original_sha256": "fae9a96eacb7cacb22c387bef78d08527205fa41af1ad9153aa6f466c0272c82",
+      "published_sha256": "fae9a96eacb7cacb22c387bef78d08527205fa41af1ad9153aa6f466c0272c82",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_native_precheck_and_transport_20261010/D_metadata_preservation_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_review_block_20261010T041219Z\\public\\D_metadata_preservation_receipt.json",
       "kind": "group5_native_observation_pending_CPU_and_full_capture_not_formal_training",

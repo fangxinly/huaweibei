@@ -1,0 +1,32 @@
+{
+  "status": "NEW_READ_ONLY_FORMAL_PROGRESS_QUERY_AUTO_APPROVAL_REJECTED",
+  "recorded_actual_UTC": "2026-10-10T04:52:58.842412+00:00",
+  "action": "write_stdin SSH23105 read original wrapper exit/failure/history and last FIT step",
+  "SSH_session": 23105,
+  "exact_error": "write_stdin rejected: approval required by policy, but AskForApproval is set to Never",
+  "remote_execution_confirmed": false,
+  "authentication_failure": false,
+  "training_failure_observed": false,
+  "remote_training_stopped": false,
+  "healthy_task_interrupted": false,
+  "remote_root": "/data/coding/g5careflow100_20261010T043810Z",
+  "last_confirmed_original_dispatch": {
+    "child": 2302,
+    "actual_UTC": "2026-10-10T04:47:40.128116+00:00"
+  },
+  "last_prior_terminal_observation": {
+    "actual_UTC": "2026-10-10T04:50:37.332036+00:00",
+    "completed_history_epoch": 2,
+    "FIT_updates": 141,
+    "FIT_epoch": 3,
+    "FIT_batch": 47,
+    "complete_epoch_state_bytes": 2965811069,
+    "observation_origin": "Existing previous-turn terminal output, not a new remote capture; no full checkpoint SHA asserted"
+  },
+  "new_remote_capture": false,
+  "current_training_state_after_denial_unknown": true,
+  "next_action": "No remote query/retry, splitting, tool/command/connection change until a human instruction after this rejection or permission-state change. Keep healthy training untouched; independent local work allowed.",
+  "final_outputs_completed": 0,
+  "formal_once_consumed": true,
+  "do_not_repeat_training_or_native_precheck": true
+}
