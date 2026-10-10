@@ -1,0 +1,23 @@
+最新Oct10实际UTC12:14优先：人类继续授权的历史TEST最好四方案+CaReFlow、全2195条/93视频五折仍在进行，探索性重新划分CV非新盲测。当前已保存1/25组未评分OUTER预测，五项评分0/25，完整35训练阶段未完成。
+
+CaReFlow fold0原child2302正式100轮/4700更新已自然0，INNER全行FP64 MSE严格最早选81。独立原状态CPU审核自然0；原完整ZIPc6b04b2d575181ceebe9daafd65ab41b2624b1f96a150c548b5ec6a9bf22a852/2978140883B/265成员与GitHub六512MiB片真实整件下载还原SHA/CRC/unique/exactset闭合。完整原件永久远端/Release保留，仅明确新临时运输/还原副本核SHA后清理。437条OUTER标签未数值解码/未评分，不重训重推理重评分。D g5careflow0_complete_20261010T112022Z，GitHub564c7003fc431be5a85d8471d65485461beb238c；12.4MB回执大小及数值文件误入文本发布器两次本地失败原文已留存，既定分片和文本/数值范围修复后保存闭合，非训练/审批失败。
+
+CaReFlow fold1仅新native3和独立CPU审核自然0；原ZIPeac6efecc3f84505524a577666ef014c197d77cc5536e95daaeb555cecb174dd/2231387008B/49成员，GitHub五片实际整件还原UTC12:10:37过，UTC12:11:55 metadata整件还原/GitHubf6c4e766139343d540b14c49383a2d285926fa29闭合。D g5_native_careflow-fold1_20261010T115235Z，pointer work/group5_careflow1_native_capture_pointer.json。该native once已消费，禁止重复；不是正式fold1训练/外折评分。初态44d9e43a/RNG23edd15b与fold0公共初态同SHA。
+
+实测下一完整CaReFlow阶段门：目标native保守FIT7896.063433s；原fold0完整dispatch→wrapper自然退出5794.46768s，FIT3650.98884696s，非FIT2143.47883304s；取max(完整参考×1.55,目标FIT+参考非FIT×1.10)向上整分=10260s，另加至少7200s真实保存余量。UTC12:14:25当前保守租期剩15392.732s，少于17460s，未冻结/dispatch正式fold1，未消费新train once，不降门、不启动无法保存的队列。原第一版以result receipt而非自然退出为末端的估计完整保留，修正后预算和不派发决定均未变。C/D空间当时6884036608/93011968B，仍须执行前<=5min fresh；不得把本地静态计划当执行。已向人类询问新有效节点/端口/UUID/实际租期，尚无答复，不重复索要，不从沉默或普通继续推断延长。当前不续租释放关机强杀或停止健康任务。
+
+最新接续D root g5_continuation_no_new_lease_20261010T121428Z，完整准备/实测门ZIP70cfb1eac0f7882739736ae53b395dd7885a2e32d1256036e51e856a54554800全SHA/CRC/unique/exactset及Release digest过；D bare exactblob GitHub5672c98f1d7d6bb50c2e9d76b6aeea131955abd1过，D/C同字节。work/group5_current_continuation_pointer.json与group5_careflow_next_gate_pointer.json接续。复合消息/旧A运行器、CPU审核、25结果统一评分源码已保存为准备；复合完整epoch恢复helper尚未集成runtime，原runtime仍拒resume。此前各10项合成history/评分反例通过，不冒完整模型/Adam/RNG/CUDA恢复或25结果资格；无需重复仅为日志补录。无新数组标签解码/模型fit推理评分、正式once消费。可继续不依赖新租期的有界本地代码/合成资格工作，完整原生或训练仍需具体科学范围/来源/源码/新once/资源门。
+
+N1独立公开runtime UTC11:41:43自然0：SCP固定同字节公共资产/全部成员CRC/25版本过，仅隔离离线安装，无模型或任务数组/训练/推理/评分。N1原HTTP RemoteDisconnected自然1及0B ZIP完整保留，非审批拒绝。小原元数据ZIP09de04a7e9ea7fa5d58986d3845e165a8d816c7638db597b3a3d07758cc8bdae/26成员已Release/GitHub62aafb88c7583c13a0874a781a4f03a464e7ecba保存。首个误含已公开common/wheels副本的新元数据原ZIPc004a2ce8df57985b02401a1dd1057a6d38d67b6f41ff21f5be9b530a68b14ec未重传，完整远端与新本地运输副本保留。该新运输副本核SHA由C移回D释放临时空间，second_relocation回执已保存；旧原件不移动删除，不冒该冗余大ZIP已整件GitHub发布。
+
+候选固定anchored_message20/old_fixed_A/factorized_aux/regression_aux/careflow，25最终外折/实际35训练阶段。无标签splitSHA1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48；outer437/435/441/441/441，FIT/INNER/OUTER视频隔离。100轮batch32含尾批/eval128、全INNER FP64 MSE严格最早选模，公共预训练初态和各折FIT统计；CaReFlow原按批归一化。消息新同折Anchored100父后固定20、不用INNER选消息；旧A新同折原教师100后原100增量，不复用历史全数据教师。消息历史TEST含FIT/INNER重叠继续披露，不按新OUTER结果变候选/队列/参数。
+
+每轮先短读C:/Users/21234/Documents/Codex/2026-10-05/ni/outputs/研究接续状态.md最新短段、自主优化实际接续.json、研究建议交流接续.json，再短读D:/CodexBackups/selective_flow_20261003_1105/candidate_posttrain_lowC_20261009T005229Z/D_current_research_state.json、D_preservation_receipt.json、GitHub_publication_receipt.json。只最新相关键/短摘要，勿递归输出长历史。最新D/原证据优先，旧lowC失败历史保留。原10min ACTIVE保持，不新建任务/子代理/聊天/自动化、不浏览器UI/改设置。未变/无行动/仅准备静默，只实质结果/新失败/必要人类行动通知。
+
+batch5仅原人类24h租期：N1 REDACTED_SERVER_HOST.invalid:53423 UUIDGPU-cf38498b-a118-7e1a-45f1-0b5502b36cde；N2 REDACTED_SERVER_HOST.invalid:53439 UUIDGPU-5c35273d-8d80-5183-be46-0c9107d57373；N3 REDACTED_SERVER_HOST.invalid:53449 UUIDGPU-4e64fc9f-5481-c32d-3fd4-e16a3a9a7198。保守N1/N2 Oct10UTC16:30:58（北京时间Oct11 00:30:58），N3 UTC16:47:25，非平台确认。执行前<=5min fresh UUID/fullargv/compute/source/assets/runtime/RAM/空间/完成和执行+至少2h保存余量。当前N2 SSH7670/N1 SSH39320此前成功，不能当fresh；23105/45985/10764/19826/10986/31293等Unknown永久禁复用，batch4永久禁连。已完成SCP/上传/恢复进程不当健康任务。仅真实password提示用本聊天匹配原人类凭据，禁凭据文件/argv/猜测/混用/重复索要。
+
+04:52及更早审批拒绝经其后人类继续/profile变化已合法同协议恢复，仅历史；本轮无新审批拒绝，不冒底层审批修复。任何新自动审阅拒绝原文先保存，此后不得拆命令/换工具连接或反复重试绕过；等该新拒绝之后人类/权限变化，只本地独立工作。Unknown非认证失败或审批拒绝。D write/network权限此前仅turn范围，不能冒永久授权。
+
+GitHub长期保存已授权免120GiB全D同时保留前提：源码/报告/index从D shared bare publication.git exactblob正常推送，以D最新publication receipt实际commit为准，C旧HEAD禁硬推；新完整ZIP/模型恢复进Release512MiB片<2GiB，单片和整件SHA/CRC/member/unique/exactset与实际整件下载还原过才清理明确新临时副本。旧A/B及reproducibility九件永保留不删重传重压缩。大PT仅新临时目录解出核SHA直接读，实际CPU可用RAM6GiB门过后审核，仅明确新临时PT可移除；C200MiB/D40MiB门不降，不关别人进程删旧冻源或绕过旧pip拒绝。actualclock真实退出→原receipt→ZIP SHA/CRC/unique/member，禁静态冒capture回填。
+
+所有旧A/B100/4000逻辑更新及额外重放、CPU4000/一次五项/异节点复核、原TRAIN ridge五折/支持诊断once已完永久保留，禁止重复。A仅Acc2/F1提高、B五项落后，无整体五项胜出/机制/稳定显著收益；历史TEST已见。所有已完成建议full_reply_received真，不轮询重发。上游中心化/单位/哨兵/精度/曝光及当前SHA生成链仍未知，停止无身份锚点邻仓扩张。旧features全TRAIN监督/统计非严格管线OOF；旧2195pooled禁TRAIN-only，与新全数据CV区分。

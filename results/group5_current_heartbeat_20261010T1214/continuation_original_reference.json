@@ -1,0 +1,20 @@
+{
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_continuation_no_new_lease_20261010T121428Z",
+  "proof": {
+    "actual_UTC": "2026-10-10T12:14:29.106141+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_continuation_no_new_lease_20261010T121428Z\\payload\\complete_current_continuation_original.zip",
+    "archive_SHA": "70cfb1eac0f7882739736ae53b395dd7885a2e32d1256036e51e856a54554800",
+    "bytes": 125146,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 18
+  },
+  "github": {
+    "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+    "actual_UTC": "2026-10-10T12:14:44.464759+00:00",
+    "commit": "5672c98f1d7d6bb50c2e9d76b6aeea131955abd1",
+    "parent_commit": "f6c4e766139343d540b14c49383a2d285926fa29",
+    "files": 19,
+    "all_published_blobs_verified": true,
+    "C_checkout_not_modified": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "actual_UTC": "2026-10-10T12:17:37.917589+00:00",
+  "status": "EXISTING_HEARTBEAT_CURRENT_PROMPT_VERIFIED_SCHEDULE_UNCHANGED",
+  "automation_id": "automation",
+  "name": "多模态流研究与P4租期保存",
+  "active": true,
+  "interval_minutes": 10,
+  "target_thread_id": "01a109db-b31a-78d3-82f7-282321c5bf58",
+  "prompt_SHA": "492f2c588d28c9164b4b15f5a029ef5fc680c339c991c31b22e01c837ebf74b1",
+  "actual_TOML_SHA": "2f8f3512aa36781424550aa087a170196179fd397b84daa3872544b44ff21990",
+  "old_prompt_SHA": "37d57555712f2e402cf9faa22bcdf058ec3d02b84f37f9b8d4529b9635b0d67a",
+  "original_schedule_target_name_and_other_fields_unchanged": true,
+  "no_new_automation_or_chat": true,
+  "latest_preparation_original_SHA": "70cfb1eac0f7882739736ae53b395dd7885a2e32d1256036e51e856a54554800",
+  "current_formal_outputs_preserved_unscored": 1,
+  "current_outer_scores": 0,
+  "new_train_dispatch": false,
+  "human_new_lease_question_pending": true,
+  "quiet_on_unchanged_or_preparation": true
+}

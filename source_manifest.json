@@ -4620,6 +4620,44 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_current_heartbeat_20261010T1214/actual_automation_verification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_continuation_no_new_lease_20261010T121428Z\\heartbeat_continuation_closure\\actual_automation_verification.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1010,
+      "original_sha256": "39b438fedbb6a74c0c31a55f7a46c7070ed94c01bfc4437465bf534d96e2c696",
+      "published_sha256": "39b438fedbb6a74c0c31a55f7a46c7070ed94c01bfc4437465bf534d96e2c696",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_current_heartbeat_20261010T1214/actual_prompt.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_continuation_no_new_lease_20261010T121428Z\\heartbeat_continuation_closure\\actual_prompt.txt",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7909,
+      "original_sha256": "b0f0579a166a95725edd90bdc3c3e848c4620d92c22f544e806cc2f142a30d5f",
+      "published_sha256": "722917b9f375d2c180d10193db9d2f30d5323681c61aad512a24ca80645d882b",
+      "sanitizations": {
+        "server_endpoint": 3
+      }
+    },
+    {
+      "path": "results/group5_current_heartbeat_20261010T1214/continuation_original_reference.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_continuation_no_new_lease_20261010T121428Z\\heartbeat_continuation_closure\\continuation_original_reference.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 898,
+      "original_sha256": "e0ef19ccbcd828b981981fb42b0654c85f542acc10ef5a3c47012c321ddacda8",
+      "published_sha256": "e0ef19ccbcd828b981981fb42b0654c85f542acc10ef5a3c47012c321ddacda8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_current_heartbeat_20261010T1214/preserve_group5_heartbeat_state_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_continuation_no_new_lease_20261010T121428Z\\heartbeat_continuation_closure\\preserve_group5_heartbeat_state_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4246,
+      "original_sha256": "a4e69078f331f3286426bdb26a958e92f87a9ce4d494e109776350d033ee1527",
+      "published_sha256": "a4e69078f331f3286426bdb26a958e92f87a9ce4d494e109776350d033ee1527",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_formal_progress_policy_block_20261010/exact_policy_failure_and_prior_observation.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_formal_progress_policy_block_20261010T045258Z\\metadata\\exact_policy_failure_and_prior_observation.json",
       "kind": "group5_actual_evidence_and_source",
