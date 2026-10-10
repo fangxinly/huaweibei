@@ -1,0 +1,33 @@
+{
+  "proof": {
+    "actual_UTC": "2026-10-10T13:15:20.322901+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_future_nodes_saved_20261010T131519Z\\payload\\complete_future_nodes_preparation_original.zip",
+    "archive_SHA": "75bd55e03517def5ad8672a5291591b8b960deb003ef3040332bc3cb1f54653f",
+    "bytes": 138284,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 17,
+    "D_exact_copy_verified": true,
+    "D_verification_UTC": "2026-10-10T13:15:45.569087+00:00"
+  },
+  "human_availability": {
+    "observed_record_UTC": "2026-10-10T13:15:19.830709+00:00",
+    "human_answer": "24小时后提供新节点",
+    "preceding_clarification": "Current nodes extended, or provide new nodes after24h?",
+    "interpretation": "Human will provide new nodes after24h; current N1/N2/N3 leases are not extended.",
+    "exact_future_node_arrival_not_confirmed": true,
+    "new_endpoints_ports_UUID_or_actual_lease_not_yet_supplied": true,
+    "current_leases_extended": false,
+    "renewal_or_purchase_authorized": false,
+    "future_timing_is_not_a_valid_new_lease_or_execution_proof": true,
+    "repeat_lease_question_now": false
+  },
+  "github": {
+    "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+    "actual_UTC": "2026-10-10T13:15:59.600699+00:00",
+    "commit": "e009e55c17ae6de72beddefed161e0fb59a8891a",
+    "parent_commit": "01c02ef2f845163cb7ec61ba40f33db85c3e49f9",
+    "files": 18,
+    "all_published_blobs_verified": true,
+    "C_checkout_not_modified": true
+  }
+}

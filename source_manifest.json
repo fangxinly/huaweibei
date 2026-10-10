@@ -4838,6 +4838,35 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_future_nodes_saved_20261010T131519Z_heartbeat/actual_heartbeat_verification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_future_nodes_saved_20261010T131519Z\\heartbeat_closure\\actual_heartbeat_verification.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 690,
+      "original_sha256": "96ca28e93867f4848c91129ec69b5a851eae9c7ba6835e7dbdeec3b72550452e",
+      "published_sha256": "96ca28e93867f4848c91129ec69b5a851eae9c7ba6835e7dbdeec3b72550452e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_future_nodes_saved_20261010T131519Z_heartbeat/actual_prompt.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_future_nodes_saved_20261010T131519Z\\heartbeat_closure\\actual_prompt.txt",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8890,
+      "original_sha256": "f095080d854daf52d7767ccabceb0cdedaa55b68e1131cdc3a30a05c40909bc7",
+      "published_sha256": "ead6828dae9255a6ac6a06d8311b8e6696580eaae795f8695e6e48daa7df6d34",
+      "sanitizations": {
+        "server_endpoint": 3
+      }
+    },
+    {
+      "path": "results/group5_future_nodes_saved_20261010T131519Z_heartbeat/source_preparation_and_human_reference.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_future_nodes_saved_20261010T131519Z\\heartbeat_closure\\source_preparation_and_human_reference.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1558,
+      "original_sha256": "1243174e32162fdaf3c81f4166cd421ff969be942a8e5453d25264f6e8b1b8e5",
+      "published_sha256": "1243174e32162fdaf3c81f4166cd421ff969be942a8e5453d25264f6e8b1b8e5",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_human_continue_progress_20261010/actual_progress_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_human_resume_progress_20261010T045836Z\\metadata\\actual_progress_receipt.json",
       "kind": "group5_actual_evidence_and_source",
