@@ -894,6 +894,78 @@
       "sanitizations": {}
     },
     {
+      "path": "results/TRAIN_support_independent_review_20261010/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\D_preservation_receipt.json",
+      "kind": "saved_support_independent_review",
+      "bytes": 361,
+      "original_sha256": "8d7392d9e884d2dadfd6e6d25924a99269e2f056195acf5f76e08add87f69770",
+      "published_sha256": "8d7392d9e884d2dadfd6e6d25924a99269e2f056195acf5f76e08add87f69770",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\Release_receipt.json",
+      "kind": "saved_support_independent_review",
+      "bytes": 700,
+      "original_sha256": "af32dc95b84bd6466ce6c45d6a7e7072436736e83033a792cd8575d6971fc485",
+      "published_sha256": "af32dc95b84bd6466ce6c45d6a7e7072436736e83033a792cd8575d6971fc485",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/TRAIN支持范围诊断_独立数学与科学边界_20261010.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\TRAIN支持范围诊断_独立数学与科学边界_20261010.md",
+      "kind": "saved_support_independent_review",
+      "bytes": 12908,
+      "original_sha256": "13b04da22b96be3ee5d282186fc385044dc5a57202d9127111eb40aea3bf1ee1",
+      "published_sha256": "13b04da22b96be3ee5d282186fc385044dc5a57202d9127111eb40aea3bf1ee1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/TRAIN支持诊断独立审阅_20261010.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\TRAIN支持诊断独立审阅_20261010.json",
+      "kind": "saved_support_independent_review",
+      "bytes": 30653,
+      "original_sha256": "77eb4ce95aa92b84534f5c3c8360e27e892d1118afa8670b4dc14ffb1b93004b",
+      "published_sha256": "77eb4ce95aa92b84534f5c3c8360e27e892d1118afa8670b4dc14ffb1b93004b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/audit_saved_TRAIN_support_batch_20261010.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\audit_saved_TRAIN_support_batch_20261010.py",
+      "kind": "saved_support_independent_review",
+      "bytes": 9224,
+      "original_sha256": "711c0c01731502070c1fa8357316b092d74215cf641f10a88ee0008726aed632",
+      "published_sha256": "711c0c01731502070c1fa8357316b092d74215cf641f10a88ee0008726aed632",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/independent_decision.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\independent_decision.json",
+      "kind": "saved_support_independent_review",
+      "bytes": 1936,
+      "original_sha256": "dfefc9ad288e47569e5fb736c5ea7811563af459627cc3f3fc801d678090125f",
+      "published_sha256": "dfefc9ad288e47569e5fb736c5ea7811563af459627cc3f3fc801d678090125f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/publish_TRAIN_support_review_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\publish_TRAIN_support_review_v1.py",
+      "kind": "saved_support_independent_review",
+      "bytes": 5675,
+      "original_sha256": "445101e14af0290669b2767d95fc5c8b5f1458ae31ba5b481c96b2e1a9ae1094",
+      "published_sha256": "445101e14af0290669b2767d95fc5c8b5f1458ae31ba5b481c96b2e1a9ae1094",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_support_independent_review_20261010/save_TRAIN_support_complete_review_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\public_source_and_summary\\save_TRAIN_support_complete_review_v1.py",
+      "kind": "saved_support_independent_review",
+      "bytes": 6359,
+      "original_sha256": "b28b6644cc073ac5d2058617cd52a6d3ebb790e865f4ddc320fc0c18ee2ad1f1",
+      "published_sha256": "b28b6644cc073ac5d2058617cd52a6d3ebb790e865f4ddc320fc0c18ee2ad1f1",
+      "sanitizations": {}
+    },
+    {
       "path": "results/VAL_actual_predictions.csv",
       "origin": "preserved_result/VAL_actual_predictions.csv",
       "kind": "prediction_data",

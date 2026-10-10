@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T01:00:46.437577+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_complete_review_actual_20261010T005527Z\\complete_actual_support_independent_review_original.zip",
+  "source_SHA": "744d7ebb15b2d1d9376aaaa5b975d6e639c98e3e1b5781a2926a2648420d75b6",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "TRAIN-support-independent-review-original-20261010T005527Z.zip",
+  "id": 626627054,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/TRAIN-support-independent-review-original-20261010T005527Z.zip",
+  "remote_digest_verified": true
+}

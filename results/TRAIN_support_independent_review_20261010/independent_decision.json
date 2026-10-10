@@ -1,0 +1,24 @@
+{
+  "actual_UTC": "2026-10-10T00:55:27.284828+00:00",
+  "full_report_and_JSON_read": true,
+  "report_SHA": "13b04da22b96be3ee5d282186fc385044dc5a57202d9127111eb40aea3bf1ee1",
+  "review_JSON_SHA": "77eb4ce95aa92b84534f5c3c8360e27e892d1118afa8670b4dc14ffb1b93004b",
+  "input_original_SHA": "0f45efd12ff9a52361727018cd12c5aa4e08236aaea6c04b5be1910e791309ba",
+  "selected_saved_records_independently_matched": true,
+  "adopted": [
+    "Fixed representation/fit states demonstrably amplify held values; same error-concentration video identity remains descriptive",
+    "Positive unit rescaling leaves Z invariant if active status unchanged; an absolute scale number alone is not evidence of bad channels",
+    "Scale sensitivity across original fit subsets is described, not a learning curve or proof of general distribution shift",
+    "All missingness-ratio columns inactive/zero coefficient; actual nonfinite count0 excludes this pipeline NaN/Inf replacement as the direct route for these specific terms",
+    "Labels were not indexed or numerically decoded; original pickle bytes and old supervised coefficients are not label-free or unsupervised",
+    "The two maximal-term rows have2 word-aligned timepoints; this is exploratory motivation, not deletion or causal evidence"
+  ],
+  "unresolved": [
+    "Raw channel semantics/units/precision/upstream normalization and exposure scope",
+    "Whether per-segment centering creates theoretically near-zero means; hypothetical only",
+    "Net error attribution, independent replication, task information and new method benefit"
+  ],
+  "decision": "Keep all original rows/videos/folds/lambda/predictions and negative results. Prioritize provenance evidence for any later separately fixed question. No new real diagnostic, learning, threshold/lambda modification or TEST-based rescue authorized by this review.",
+  "no_new_array_decode_fit_score": true,
+  "overall_research_complete": false
+}
