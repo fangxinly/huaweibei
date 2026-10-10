@@ -1,0 +1,55 @@
+{
+  "actual_UTC": "2026-10-10T01:57:51.594695+00:00",
+  "full_report_JSON_persistence_receipt_and_new_proposal_read": true,
+  "original_files": {
+    "归一化配方来源_独立审阅_20261010.txt": {
+      "SHA": "ef16c132096109827fb2bf17e753f24b0a4db6e5eaa2d400ecf19bd98372611f",
+      "bytes": 5532
+    },
+    "归一化配方来源_独立审阅_20261010.json": {
+      "SHA": "bd52ab82da7215c141d686a64f460de829d4dc545dc66099d90206178d38c95c",
+      "bytes": 1459
+    },
+    "归一化配方来源_落盘回执_20261010.json": {
+      "SHA": "f26b921da1590415e3920cd3a0e352ca22c02c0a386a821478e7d2ebae2e6278",
+      "bytes": 1145
+    },
+    "有界证据增量_收益归因与嵌套交叉拟合协议_20261010.md": {
+      "SHA": "d2f1c212180b112383503c04b1bd2a9784017582f57b50cd91c6372233615327",
+      "bytes": 11790
+    },
+    "有界证据增量_协议状态_20261010.json": {
+      "SHA": "5de09b9df04f80bd8e8f4febce5f05a28fb121ac258b42d429615475114dec4b",
+      "bytes": 1231
+    }
+  },
+  "input_source_ZIP_SHA": "c3f0c4e5371663314fc682aaa4556b8b4ebcd427c4619fda52d974ee4f3d83ce",
+  "source_SHA_and_AST_independently_checked": true,
+  "accepted_source": [
+    "MAG example whole-input reduction is not channel-wise temporal centering; actual call granularity unknown",
+    "MAG isinf assignment catches both signs before isneginf; example limitation only, not current MOSI cause",
+    "MISA cache can bypass generation; inner tuple difference requires a conversion chain rather than proving non-ancestry",
+    "Identity, generating recipe and upstream exposure are distinct closure states",
+    "Stop unanchored neighboring-repository expansion; reopen on direct current-SHA generator/converter evidence"
+  ],
+  "accepted_proposal_as_analysis_only": [
+    "Projection guarantee requires confirmed target support; clipping gains must be separated from modality gains",
+    "For exact ridge minimizer J(gamma)<=J(0)=Q implies norm<=sqrt(Q/lambda), hence abs(q-b)<=B*sqrt(5Q/lambda)",
+    "Complete nested video isolation must cover base models, calibration, selection and shadow construction; global OOF table slices are insufficient",
+    "Shadow training uses AV but inference uses text; beating a finite shadow does not identify conditional MI or PID",
+    "Zero candidate does not guarantee outer-fold benefit; overlap of folds is not independent replication"
+  ],
+  "deferred": [
+    "Separate fully fixed estimator question with legal input provenance, explicit candidate budget, exact source/synthetic qualification and fresh resource/once gates",
+    "No new code implementation, real arrays, fits, solves, scoring or remote diagnostic in this review"
+  ],
+  "unresolved": [
+    "Current SHA-bound generator/conversion lineage",
+    "Normalization axis, units, sentinels, precision and exposure of current inputs",
+    "Predictive gain, uncertainty and mechanism of proposed bounded estimator"
+  ],
+  "main_decision": "Close this bounded public-source inquiry with unknown provenance. Preserve proposal as advice only, neither preregistered nor frozen. Keep all original rows, folds, lambda, predictions and negative results; no TEST-based rescue.",
+  "current_dataset_decode_fit_solve_score_SSH": 0,
+  "all_completed_once_untouched": true,
+  "whole_research_complete": false
+}

@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T01:58:07.681601+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\complete_actual_recipe_independent_review_original.zip",
+  "source_SHA": "aa12b656387d8b3392ce589e97178493df0e5f5fce28954d3d4f8b2e8d24cc45",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "TRAIN-recipe-complete-review-original-20261010T015751Z.zip",
+  "id": 626729031,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/TRAIN-recipe-complete-review-original-20261010T015751Z.zip",
+  "remote_digest_verified": true
+}

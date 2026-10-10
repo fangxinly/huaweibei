@@ -1,0 +1,21 @@
+{
+  "date_Asia_Shanghai": "2026-10-10",
+  "original_content_hash_verified_at_UTC": "2026-10-10 01:49:10 UTC",
+  "status": "ORIGINAL_INLINE_CONTENT_PERSISTED_HASH_VERIFIED",
+  "historical_persistence_fields_preserved": true,
+  "historical_fields_note": "The original report and JSON accurately describe the earlier read-only session. They are preserved byte for byte; this separate receipt records their later persistence.",
+  "report": {
+    "path": "C:/Users/21234/Documents/Codex/2026-10-06/multimodal-flow-research-review/outputs/归一化配方来源_独立审阅_20261010.txt",
+    "sha256": "ef16c132096109827fb2bf17e753f24b0a4db6e5eaa2d400ecf19bd98372611f",
+    "bytes": 5532
+  },
+  "json": {
+    "path": "C:/Users/21234/Documents/Codex/2026-10-06/multimodal-flow-research-review/outputs/归一化配方来源_独立审阅_20261010.json",
+    "sha256": "bd52ab82da7215c141d686a64f460de829d4dc545dc66099d90206178d38c95c",
+    "bytes": 1459
+  },
+  "new_source_audit_performed": false,
+  "new_dataset_decode_fit_solve_score_support_GPU_SSH_or_contact": false,
+  "main_source_modified": false,
+  "original_negative_results_modified": false
+}

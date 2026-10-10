@@ -1,0 +1,23 @@
+{
+  "date_Asia_Shanghai": "2026-10-10",
+  "status": "ANALYSIS_ONLY_PROPOSAL_NOT_EXECUTED_NOT_PREREGISTERED",
+  "document_path": "C:/Users/21234/Documents/Codex/2026-10-06/multimodal-flow-research-review/outputs/有界证据增量_收益归因与嵌套交叉拟合协议_20261010.md",
+  "increment_dimensions": 5,
+  "primary_loss_if_executed": "ROW_MEAN_SQUARED_ERROR",
+  "secondary_loss_if_executed": "MAE_AND_EQUAL_VIDEO_MSE_DESCRIPTIVE",
+  "projection_support_condition_required": true,
+  "bounded_increment_theorem": "For an exact minimizer with lambda>0, abs(q-b)<=B*sqrt(5*Q/lambda). If y,b are in [-B,B], Q<=4.",
+  "full_pipeline_nested_video_cross_fitting_required": true,
+  "global_OOF_table_slicing_sufficient": false,
+  "shadow_training_uses_AV": true,
+  "shadow_inference_uses_AV": false,
+  "shadow_victory_proves_conditional_information": false,
+  "zero_candidate_guarantees_outer_risk_nonincrease": false,
+  "lambda_grid_frozen": false,
+  "text_calibrator_candidates_frozen": false,
+  "search_budget_frozen": false,
+  "generating_recipe_closed": false,
+  "upstream_exposure_closed": false,
+  "new_dataset_decode_fit_solve_score_support_GPU_SSH_or_contact": false,
+  "original_results_or_main_source_modified": false
+}

@@ -840,6 +840,96 @@
       "sanitizations": {}
     },
     {
+      "path": "results/TRAIN_recipe_independent_review_20261010/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\D_preservation_receipt.json",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 415,
+      "original_sha256": "8742b8415bc8ded68a82812ab72aaeced0224edce152d70d60da7d251599a60e",
+      "published_sha256": "8742b8415bc8ded68a82812ab72aaeced0224edce152d70d60da7d251599a60e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\Release_receipt.json",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 694,
+      "original_sha256": "284fde80090ea5af0381c6879debf11770419510aa573a15687223297e49e1ee",
+      "published_sha256": "284fde80090ea5af0381c6879debf11770419510aa573a15687223297e49e1ee",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/independent_decision.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\independent_decision.json",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 3296,
+      "original_sha256": "13b0bf6713443a969ee5064245cb80b4c2dc2417b0f54b933a5cd39a36ba82f6",
+      "published_sha256": "13b0bf6713443a969ee5064245cb80b4c2dc2417b0f54b933a5cd39a36ba82f6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/save_publish_recipe_review_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\save_publish_recipe_review_v1.py",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 14982,
+      "original_sha256": "1ab0ff201708e6c401246abb14cc6d99170da700accdf10377108b05c615af94",
+      "published_sha256": "1ab0ff201708e6c401246abb14cc6d99170da700accdf10377108b05c615af94",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/归一化配方来源_独立审阅_20261010.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\归一化配方来源_独立审阅_20261010.json",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 1459,
+      "original_sha256": "bd52ab82da7215c141d686a64f460de829d4dc545dc66099d90206178d38c95c",
+      "published_sha256": "bd52ab82da7215c141d686a64f460de829d4dc545dc66099d90206178d38c95c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/归一化配方来源_独立审阅_20261010.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\归一化配方来源_独立审阅_20261010.txt",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 5532,
+      "original_sha256": "ef16c132096109827fb2bf17e753f24b0a4db6e5eaa2d400ecf19bd98372611f",
+      "published_sha256": "ef16c132096109827fb2bf17e753f24b0a4db6e5eaa2d400ecf19bd98372611f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/归一化配方来源_落盘回执_20261010.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\归一化配方来源_落盘回执_20261010.json",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 1145,
+      "original_sha256": "f26b921da1590415e3920cd3a0e352ca22c02c0a386a821478e7d2ebae2e6278",
+      "published_sha256": "f26b921da1590415e3920cd3a0e352ca22c02c0a386a821478e7d2ebae2e6278",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/有界证据增量_协议状态_20261010.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\有界证据增量_协议状态_20261010.json",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 1231,
+      "original_sha256": "5de09b9df04f80bd8e8f4febce5f05a28fb121ac258b42d429615475114dec4b",
+      "published_sha256": "5de09b9df04f80bd8e8f4febce5f05a28fb121ac258b42d429615475114dec4b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/有界证据增量_收益归因与嵌套交叉拟合协议_20261010.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\有界证据增量_收益归因与嵌套交叉拟合协议_20261010.md",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 11790,
+      "original_sha256": "d2f1c212180b112383503c04b1bd2a9784017582f57b50cd91c6372233615327",
+      "published_sha256": "d2f1c212180b112383503c04b1bd2a9784017582f57b50cd91c6372233615327",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_recipe_independent_review_20261010/来源审核收口与方案资格.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_complete_review_actual_20261010T015751Z\\public_source_and_summary\\来源审核收口与方案资格.md",
+      "kind": "saved_recipe_independent_review_unexecuted_proposal",
+      "bytes": 1647,
+      "original_sha256": "5d6f75dbec4e7b478ce0a163be03e6f27e2687b94932a5815f4b16e698f23670",
+      "published_sha256": "5d6f75dbec4e7b478ce0a163be03e6f27e2687b94932a5815f4b16e698f23670",
+      "sanitizations": {}
+    },
+    {
       "path": "results/TRAIN_recipe_scope_20261010/fetch_MAG_recipe_PR10_v1.py",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\raw_TRAIN_recipe_source_actual_20261010T013059Z\\public_source_and_summary\\fetch_MAG_recipe_PR10_v1.py",
       "kind": "cited_public_source_association",
