@@ -1,0 +1,50 @@
+{
+  "all_other_source_AST_identical": true,
+  "changed_function": "fetch",
+  "HTTP_download_removed": true,
+  "no_new_task_array_or_label_decode": true,
+  "scientific_dispatch": 0,
+  "private_offline_install_contract_unchanged": true,
+  "previous_failure_preserved": {
+    "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z",
+    "publication_root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_failure_publication_20261010T113654Z",
+    "proof": {
+      "actual_UTC": "2026-10-10T11:36:54.023778+00:00",
+      "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\complete_actual_N1_runtime_network_failure.zip",
+      "archive_SHA": "0a95a0e21a886a9d53221d4d8d326ac4afb7aad26285e82743d88e02aa3d69a0",
+      "bytes": 62343,
+      "all_member_SHA_CRC_unique_exact_set_passed": true,
+      "members": 15
+    },
+    "receipt": {
+      "status": "N1_PUBLIC_RUNTIME_NETWORK_FAILURE_ORIGINAL_SAVED",
+      "actual_UTC": "2026-10-10T11:36:53.919982+00:00",
+      "original_failure": {
+        "exit": 1,
+        "actual_UTC": "2026-10-10T11:27:36.515035+00:00",
+        "error_type": "RemoteDisconnected",
+        "message": "Remote end closed connection without response"
+      },
+      "original_remote": "/data/coding/g5_N1_public_runtime_20261010T112547Z",
+      "all_captured_original_bytes_matched_remote_SHA": true,
+      "members": 12,
+      "new_approval_rejection": false,
+      "new_training_inference_score": 0,
+      "models_created": 0,
+      "assets_zip_bytes": 0,
+      "offline_install_dispatched": false,
+      "healthy_task_stopped": false,
+      "failed_first_SCP_capture_preserved": true,
+      "next": "Only a separately frozen unchanged-public-archive SCP transport may replace the failed HTTP download; original failure and source remain."
+    },
+    "github": {
+      "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+      "actual_UTC": "2026-10-10T11:37:07.302219+00:00",
+      "commit": "f33dfb8154e558e3a1f0281cae6356ce4c794492",
+      "parent_commit": "043213f8e8f45afd8b8e0b434e2526f598ceb16c",
+      "files": 14,
+      "all_published_blobs_verified": true,
+      "C_checkout_not_modified": true
+    }
+  }
+}

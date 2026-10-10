@@ -1,0 +1,11 @@
+{
+  "actual_UTC": "2026-10-10T11:41:21.878467+00:00",
+  "pid": 573,
+  "argv": [
+    "/data/miniconda/envs/torch/bin/python",
+    "-m",
+    "venv",
+    "--system-site-packages",
+    "/data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv"
+  ]
+}

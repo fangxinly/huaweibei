@@ -1560,6 +1560,276 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_N1_public_runtime_complete_20261010/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\Release_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 600,
+      "original_sha256": "621cd163ee1ed92bbc5e752684e39592f3e931c3d870c3696040fed332108ef4",
+      "published_sha256": "621cd163ee1ed92bbc5e752684e39592f3e931c3d870c3696040fed332108ef4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/capture_scope.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\capture_scope.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 265,
+      "original_sha256": "451c692d9fd6fb7e934a13943e524e5276a66dd203e55e5d0d58e750e3469b9d",
+      "published_sha256": "451c692d9fd6fb7e934a13943e524e5276a66dd203e55e5d0d58e750e3469b9d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 450,
+      "original_sha256": "9c85d95d347783abad110ae5d4c97c5f6576662ea179cf9958b4a613b36c0830",
+      "published_sha256": "9c85d95d347783abad110ae5d4c97c5f6576662ea179cf9958b4a613b36c0830",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/first_redundant_capture_original_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\first_redundant_capture_original_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 343,
+      "original_sha256": "f5a604c9fe2351ad50437c5b322328459642c7927f085a6f6bce0408c113da7f",
+      "published_sha256": "f5a604c9fe2351ad50437c5b322328459642c7927f085a6f6bce0408c113da7f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/freeze_group5_N1_prestaged_runtime_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\freeze_group5_N1_prestaged_runtime_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5048,
+      "original_sha256": "8bdc078d41dd8ddd9000eb0fa892b2e527199f5159b6a76f40a5b95c29867ffb",
+      "published_sha256": "8bdc078d41dd8ddd9000eb0fa892b2e527199f5159b6a76f40a5b95c29867ffb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/group5_public_runtime_prestaged_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\group5_public_runtime_prestaged_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7909,
+      "original_sha256": "9dcfc2956988a6c86023fe5c6e893a6bcef340b8816b065acb7cc54c0998b82c",
+      "published_sha256": "9dcfc2956988a6c86023fe5c6e893a6bcef340b8816b065acb7cc54c0998b82c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/member_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\member_manifest.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3476,
+      "original_sha256": "25b130f857fd8612d236a4b9bd80f0961e688cc549ba860b60c98062e257a253",
+      "published_sha256": "25b130f857fd8612d236a4b9bd80f0961e688cc549ba860b60c98062e257a253",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\plan.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 12033,
+      "original_sha256": "cc5f553da512562ce2f90e1c2c55d23b1f4afb85a3da4f639499e64c9d6533a2",
+      "published_sha256": "cc5f553da512562ce2f90e1c2c55d23b1f4afb85a3da4f639499e64c9d6533a2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/fresh_physical.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\fresh_physical.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3178,
+      "original_sha256": "1202740ebb3815200335ae9c76fe1de51241b9dc6f59cd0d1d21c954bca6221e",
+      "published_sha256": "1202740ebb3815200335ae9c76fe1de51241b9dc6f59cd0d1d21c954bca6221e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\natural_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 68,
+      "original_sha256": "b3a47487c486eb3b0a6ba07b9789e35ba768587f3d0c5b0561dfc84d0731cb27",
+      "published_sha256": "b3a47487c486eb3b0a6ba07b9789e35ba768587f3d0c5b0561dfc84d0731cb27",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/offline_install_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\offline_install_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 456,
+      "original_sha256": "f150d27b5849b802db90bf756482405549f3c4519947be4d3162d3ab16ba27e3",
+      "published_sha256": "f150d27b5849b802db90bf756482405549f3c4519947be4d3162d3ab16ba27e3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/offline_install_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\offline_install_natural_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 477,
+      "original_sha256": "e5a5d7e14f3fd94fe1228d9a2f3cf09aef4dfd38ccbf48c0666c678490e30a9a",
+      "published_sha256": "e5a5d7e14f3fd94fe1228d9a2f3cf09aef4dfd38ccbf48c0666c678490e30a9a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/offline_install_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\offline_install_stderr.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/offline_install_stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\offline_install_stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7329,
+      "original_sha256": "517cd96a29446ed64748694adfadef50f161bd6d567f2543ef3710afab90ef83",
+      "published_sha256": "517cd96a29446ed64748694adfadef50f161bd6d567f2543ef3710afab90ef83",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/runtime_original_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\runtime_original_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3788,
+      "original_sha256": "6aad04066678e0d557c549d2fa8f43fe95d6d3fde4811c4a821e977ce97f7180",
+      "published_sha256": "6aad04066678e0d557c549d2fa8f43fe95d6d3fde4811c4a821e977ce97f7180",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/venv_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\venv_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 264,
+      "original_sha256": "0d29dd8a88bb05f5c63b7ebdde6495e572c66d3561f63adad0f9654792ac2af5",
+      "published_sha256": "0d29dd8a88bb05f5c63b7ebdde6495e572c66d3561f63adad0f9654792ac2af5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/venv_natural_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\venv_natural_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 285,
+      "original_sha256": "4336068a37bfd4c912469deff60be43009d66f91107f752dd1c7e4a293952b62",
+      "published_sha256": "4336068a37bfd4c912469deff60be43009d66f91107f752dd1c7e4a293952b62",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/venv_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\venv_stderr.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/venv_stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\venv_stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/wheels/linux_dependency_closure.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\wheels\\linux_dependency_closure.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2746,
+      "original_sha256": "0aeee6dadafb9429db46aa314e24b0b707ab386e0aac8c955f5dd6cf8119f718",
+      "published_sha256": "0aeee6dadafb9429db46aa314e24b0b707ab386e0aac8c955f5dd6cf8119f718",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/wheels/offline_requirements.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\wheels\\offline_requirements.txt",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 450,
+      "original_sha256": "a72f9be4acf3abe823c39f7ff53e95e2fc0577392fbc0455bec0a8d6429b0e2a",
+      "published_sha256": "a72f9be4acf3abe823c39f7ff53e95e2fc0577392fbc0455bec0a8d6429b0e2a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/runtime/wheels/wheel_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\runtime\\wheels\\wheel_manifest.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6565,
+      "original_sha256": "b3e881240a8bb2420c42b85bd9303ed0a49cbfdedddf81bd0414a588d43d63cb",
+      "published_sha256": "b3e881240a8bb2420c42b85bd9303ed0a49cbfdedddf81bd0414a588d43d63cb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/static_source_scope.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\static_source_scope.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2312,
+      "original_sha256": "b1641b54357e63af3f1a2cf98aeb4c56e264f23544514edbee48f4fe283962c9",
+      "published_sha256": "b1641b54357e63af3f1a2cf98aeb4c56e264f23544514edbee48f4fe283962c9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/wrapper.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\wrapper.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/wrapper.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\wrapper.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 924,
+      "original_sha256": "a2894a55c4eb8c97a5fb746373c30c75dc930fb1f56e9c19b9e854b2b9d4eaa7",
+      "published_sha256": "a2894a55c4eb8c97a5fb746373c30c75dc930fb1f56e9c19b9e854b2b9d4eaa7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/original/wrapper_exit.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\original\\wrapper_exit.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 83,
+      "original_sha256": "7e9a490b260b991b44cd5e935d7ae068e0f4d67c7e71e4bc66e4a3d42ac80a00",
+      "published_sha256": "7e9a490b260b991b44cd5e935d7ae068e0f4d67c7e71e4bc66e4a3d42ac80a00",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/preserve_group5_N1_runtime_complete_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\preserve_group5_N1_runtime_complete_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3771,
+      "original_sha256": "1549f3c9a94db633d568c70edfedcf1d2988b165ca3b53d7fbfae372e04d9314",
+      "published_sha256": "1549f3c9a94db633d568c70edfedcf1d2988b165ca3b53d7fbfae372e04d9314",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/qualification_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\qualification_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5002,
+      "original_sha256": "0f8f76cfcabb7b3033f6f3a3cbd7a42b6f58ce22ad76689e65cf1cc3b3f92030",
+      "published_sha256": "0f8f76cfcabb7b3033f6f3a3cbd7a42b6f58ce22ad76689e65cf1cc3b3f92030",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_N1_public_runtime_complete_20261010/remote_original_archive_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\remote_original_archive_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 335,
+      "original_sha256": "f15c053523572e6dbe25580af9671d49a4ab154893f94d4d4ef5216b2ccd7779",
+      "published_sha256": "f15c053523572e6dbe25580af9671d49a4ab154893f94d4d4ef5216b2ccd7779",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_N1_runtime_network_failure_20261010/failure_preservation_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_network_failure_20261010T112954Z\\failure_preservation_receipt.json",
       "kind": "group5_actual_evidence_and_source",

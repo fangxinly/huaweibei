@@ -1,0 +1,178 @@
+{
+  "actual_utc": "2026-10-06T14:09:31.374881+00:00",
+  "source": "OFFICIAL_PYPI_PIP_DOWNLOAD_CP310_MANYLINUX2014_ONLY_BINARY",
+  "wheel_files": {
+    "certifi-2026.7.22-py3-none-any.whl": {
+      "bytes": 136983,
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    "charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl": {
+      "bytes": 271105,
+      "sha256": "8a893cc101149f80a653f82062ebc95b34525a2614382e1da5458fe7c6997249",
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    "colorama-0.4.6-py2.py3-none-any.whl": {
+      "bytes": 25335,
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "name": "colorama",
+      "version": "0.4.6"
+    },
+    "filelock-3.15.4-py3-none-any.whl": {
+      "bytes": 16159,
+      "sha256": "6ca1fffae96225dab4c6eaf1c4f4f28cd2568d3ec2a44e15a08520504de468e7",
+      "name": "filelock",
+      "version": "3.15.4"
+    },
+    "fsspec-2026.9.0-py3-none-any.whl": {
+      "bytes": 221738,
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "name": "fsspec",
+      "version": "2026.9.0"
+    },
+    "hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": {
+      "bytes": 4464663,
+      "sha256": "d62671bb130879cef0ee4c9ebe47a14af6c66ec53e6d84dc15936e5ffdfac82f",
+      "name": "hf-xet",
+      "version": "1.6.0"
+    },
+    "huggingface_hub-0.36.2-py3-none-any.whl": {
+      "bytes": 566395,
+      "sha256": "48f0c8eac16145dfce371e9d2d7772854a4f591bcb56c9cf548accf531d54270",
+      "name": "huggingface-hub",
+      "version": "0.36.2"
+    },
+    "idna-3.20-py3-none-any.whl": {
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "name": "idna",
+      "version": "3.20"
+    },
+    "joblib-1.4.2-py3-none-any.whl": {
+      "bytes": 301817,
+      "sha256": "06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6",
+      "name": "joblib",
+      "version": "1.4.2"
+    },
+    "numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 18240889,
+      "sha256": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f",
+      "name": "numpy",
+      "version": "1.26.4"
+    },
+    "packaging-24.1-py3-none-any.whl": {
+      "bytes": 53985,
+      "sha256": "5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124",
+      "name": "packaging",
+      "version": "24.1"
+    },
+    "pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl": {
+      "bytes": 770293,
+      "sha256": "9c7708761fccb9397fe64bbc0395abcae8c4bf7b0eac081e12b809bf47700d0b",
+      "name": "pyyaml",
+      "version": "6.0.3"
+    },
+    "regex-2026.9.29-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": {
+      "bytes": 797591,
+      "sha256": "edf06545875f3efa31560d94121e95c7fd70d98b1dfedc0157097d79b13b52ea",
+      "name": "regex",
+      "version": "2026.9.29"
+    },
+    "requests-2.32.3-py3-none-any.whl": {
+      "bytes": 64928,
+      "sha256": "70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6",
+      "name": "requests",
+      "version": "2.32.3"
+    },
+    "safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 516040,
+      "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+      "name": "safetensors",
+      "version": "0.8.0"
+    },
+    "scikit_learn-1.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 13347241,
+      "sha256": "3a686885a4b3818d9e62904d91b57fa757fc2bed3e465c8b177be652f4dd37c8",
+      "name": "scikit-learn",
+      "version": "1.5.2"
+    },
+    "scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 38577335,
+      "sha256": "f26264b282b9da0952a024ae34710c2aff7d27480ee91a2e82b7b7073c24722f",
+      "name": "scipy",
+      "version": "1.13.1"
+    },
+    "sentencepiece-0.1.99-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 1298584,
+      "sha256": "019e7535108e309dae2b253a75834fc3128240aa87c00eb80732078cdc182588",
+      "name": "sentencepiece",
+      "version": "0.1.99"
+    },
+    "threadpoolctl-3.5.0-py3-none-any.whl": {
+      "bytes": 18414,
+      "sha256": "56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467",
+      "name": "threadpoolctl",
+      "version": "3.5.0"
+    },
+    "tokenizers-0.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 3577319,
+      "sha256": "40b6a4c78da863ff26dbd5ad9a8ecc33d8a8d97b535172601cf00aee9d7ce9ce",
+      "name": "tokenizers",
+      "version": "0.15.2"
+    },
+    "tqdm-4.66.5-py3-none-any.whl": {
+      "bytes": 78351,
+      "sha256": "90279a3770753eafc9194a0364852159802111925aa30eb3f9d85b0e805ac7cd",
+      "name": "tqdm",
+      "version": "4.66.5"
+    },
+    "transformers-4.37.2-py3-none-any.whl": {
+      "bytes": 8402584,
+      "sha256": "595a8b12a1fcc4ad0ced49ce206c58e17be68c85d7aee3d7546d04a32c910d2e",
+      "name": "transformers",
+      "version": "4.37.2"
+    },
+    "typing_extensions-4.16.0-py3-none-any.whl": {
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "name": "typing-extensions",
+      "version": "4.16.0"
+    },
+    "urllib3-2.8.0-py3-none-any.whl": {
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "name": "urllib3",
+      "version": "2.8.0"
+    }
+  },
+  "exact_versions": {
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.2",
+    "colorama": "0.4.6",
+    "filelock": "3.15.4",
+    "fsspec": "2026.9.0",
+    "hf-xet": "1.6.0",
+    "huggingface-hub": "0.36.2",
+    "idna": "3.20",
+    "joblib": "1.4.2",
+    "numpy": "1.26.4",
+    "packaging": "24.1",
+    "pyyaml": "6.0.3",
+    "regex": "2026.9.29",
+    "requests": "2.32.3",
+    "safetensors": "0.8.0",
+    "scikit-learn": "1.5.2",
+    "scipy": "1.13.1",
+    "sentencepiece": "0.1.99",
+    "threadpoolctl": "3.5.0",
+    "tokenizers": "0.15.2",
+    "tqdm": "4.66.5",
+    "transformers": "4.37.2",
+    "typing-extensions": "4.16.0",
+    "urllib3": "2.8.0"
+  },
+  "not_installed_on_Windows": true,
+  "GPU_scientific_precheck": false
+}

@@ -1,0 +1,63 @@
+Looking in links: /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/certifi-2026.7.22-py3-none-any.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/colorama-0.4.6-py2.py3-none-any.whl
+Requirement already satisfied: filelock==3.15.4 in /data/miniconda/envs/torch/lib/python3.10/site-packages (from -r /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/offline_requirements.txt (line 4)) (3.15.4)
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/fsspec-2026.9.0-py3-none-any.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/huggingface_hub-0.36.2-py3-none-any.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/idna-3.20-py3-none-any.whl
+Requirement already satisfied: joblib==1.4.2 in /data/miniconda/envs/torch/lib/python3.10/site-packages (from -r /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/offline_requirements.txt (line 9)) (1.4.2)
+Requirement already satisfied: numpy==1.26.4 in /data/miniconda/envs/torch/lib/python3.10/site-packages (from -r /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/offline_requirements.txt (line 10)) (1.26.4)
+Requirement already satisfied: packaging==24.1 in /data/miniconda/envs/torch/lib/python3.10/site-packages (from -r /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/offline_requirements.txt (line 11)) (24.1)
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/regex-2026.9.29-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Requirement already satisfied: requests==2.32.3 in /data/miniconda/envs/torch/lib/python3.10/site-packages (from -r /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/offline_requirements.txt (line 14)) (2.32.3)
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/scikit_learn-1.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/sentencepiece-0.1.99-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Requirement already satisfied: threadpoolctl==3.5.0 in /data/miniconda/envs/torch/lib/python3.10/site-packages (from -r /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/offline_requirements.txt (line 19)) (3.5.0)
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/tokenizers-0.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/tqdm-4.66.5-py3-none-any.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/transformers-4.37.2-py3-none-any.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/typing_extensions-4.16.0-py3-none-any.whl
+Processing ./g5_N1_prestaged_runtime_20261010T113812Z/runtime/wheels/urllib3-2.8.0-py3-none-any.whl
+Installing collected packages: sentencepiece, urllib3, typing-extensions, transformers, tqdm, tokenizers, scipy, scikit-learn, safetensors, regex, pyyaml, idna, huggingface-hub, hf-xet, fsspec, colorama, charset-normalizer, certifi
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.2.2
+    Not uninstalling urllib3 at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'urllib3'. No files were found to uninstall.
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.12.2
+    Not uninstalling typing-extensions at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'typing_extensions'. No files were found to uninstall.
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.66.4
+    Not uninstalling tqdm at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'tqdm'. No files were found to uninstall.
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.14.0
+    Not uninstalling scipy at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'scipy'. No files were found to uninstall.
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 1.5.1
+    Not uninstalling scikit-learn at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'scikit-learn'. No files were found to uninstall.
+  Attempting uninstall: idna
+    Found existing installation: idna 3.7
+    Not uninstalling idna at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'idna'. No files were found to uninstall.
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2024.6.1
+    Not uninstalling fsspec at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'fsspec'. No files were found to uninstall.
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 3.3.2
+    Not uninstalling charset-normalizer at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'charset-normalizer'. No files were found to uninstall.
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2024.7.4
+    Not uninstalling certifi at /data/miniconda/envs/torch/lib/python3.10/site-packages, outside environment /data/coding/g5_N1_prestaged_runtime_20261010T113812Z/runtime/public/.venv
+    Can't uninstall 'certifi'. No files were found to uninstall.
+Successfully installed certifi-2026.7.22 charset-normalizer-3.5.2 colorama-0.4.6 fsspec-2026.9.0 hf-xet-1.6.0 huggingface-hub-0.36.2 idna-3.20 pyyaml-6.0.3 regex-2026.9.29 safetensors-0.8.0 scikit-learn-1.5.2 scipy-1.13.1 sentencepiece-0.1.99 tokenizers-0.15.2 tqdm-4.66.5 transformers-4.37.2 typing-extensions-4.16.0 urllib3-2.8.0

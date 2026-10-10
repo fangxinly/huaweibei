@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T11:50:36.871111+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_small_complete_20261010T114906Z\\complete_actual_N1_runtime_small_metadata.zip",
+  "source_SHA": "09de04a7e9ea7fa5d58986d3845e165a8d816c7638db597b3a3d07758cc8bdae",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "group5-N1-runtime-complete-09de04a7e9ea.zip",
+  "id": 627842966,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-N1-runtime-complete-09de04a7e9ea.zip",
+  "remote_digest_verified": true
+}
