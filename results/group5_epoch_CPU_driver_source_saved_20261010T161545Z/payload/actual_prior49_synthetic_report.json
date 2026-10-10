@@ -1,0 +1,214 @@
+{
+  "status": "PREPARED_STOPPED_EPOCH_CPU_DRIVER_SYNTHETIC_GATE_PASS",
+  "actual_UTC": "2026-10-10T16:13:39.349412+00:00",
+  "passed_cases": 49,
+  "cases": [
+    {
+      "case": "synthetic_only_metadata_positive",
+      "passed": true,
+      "real_evidence": false
+    },
+    {
+      "case": "preparation_not_execution",
+      "passed": true
+    },
+    {
+      "case": "string_execution_flag",
+      "passed": true
+    },
+    {
+      "case": "boolean_fold",
+      "passed": true
+    },
+    {
+      "case": "direct_method",
+      "passed": true
+    },
+    {
+      "case": "different_origin_fold",
+      "passed": true
+    },
+    {
+      "case": "origin_unfrozen",
+      "passed": true
+    },
+    {
+      "case": "resume_chain",
+      "passed": true
+    },
+    {
+      "case": "numeric_false_resume",
+      "passed": true
+    },
+    {
+      "case": "historical_task_weights",
+      "passed": true
+    },
+    {
+      "case": "boolean_exit",
+      "passed": true
+    },
+    {
+      "case": "wrong_original_child",
+      "passed": true
+    },
+    {
+      "case": "consumed_train_token",
+      "passed": true
+    },
+    {
+      "case": "recovery_claim",
+      "passed": true
+    },
+    {
+      "case": "target_decode_scope",
+      "passed": true
+    },
+    {
+      "case": "changed_original_source",
+      "passed": true
+    },
+    {
+      "case": "missing_transitive_source",
+      "passed": true
+    },
+    {
+      "case": "changed_asset_SHA",
+      "passed": true
+    },
+    {
+      "case": "no_whole_restoration",
+      "passed": true
+    },
+    {
+      "case": "wrong_archive_SHA",
+      "passed": true
+    },
+    {
+      "case": "wrong_manifest_binding",
+      "passed": true
+    },
+    {
+      "case": "duplicate_member",
+      "passed": true
+    },
+    {
+      "case": "member_escape",
+      "passed": true
+    },
+    {
+      "case": "checkpoint_not_in_archive",
+      "passed": true
+    },
+    {
+      "case": "checkpoint_size_mismatch",
+      "passed": true
+    },
+    {
+      "case": "no_human_lease",
+      "passed": true
+    },
+    {
+      "case": "lease_node_mismatch",
+      "passed": true
+    },
+    {
+      "case": "lease_end_mismatch",
+      "passed": true
+    },
+    {
+      "case": "stale_actual_capture",
+      "passed": true
+    },
+    {
+      "case": "future_actual_capture",
+      "passed": true
+    },
+    {
+      "case": "wrong_physical_UUID",
+      "passed": true
+    },
+    {
+      "case": "nonempty_compute",
+      "passed": true
+    },
+    {
+      "case": "missing_fullargv",
+      "passed": true
+    },
+    {
+      "case": "runtime_mismatch",
+      "passed": true
+    },
+    {
+      "case": "files_not_verified",
+      "passed": true
+    },
+    {
+      "case": "RAM_floor",
+      "passed": true
+    },
+    {
+      "case": "C_floor",
+      "passed": true
+    },
+    {
+      "case": "D_floor",
+      "passed": true
+    },
+    {
+      "case": "stale_local_space",
+      "passed": true
+    },
+    {
+      "case": "remote_space",
+      "passed": true
+    },
+    {
+      "case": "boolean_budget",
+      "passed": true
+    },
+    {
+      "case": "nonfinite_budget",
+      "passed": true
+    },
+    {
+      "case": "insufficient_lease",
+      "passed": true
+    },
+    {
+      "case": "original_live_child",
+      "passed": true
+    },
+    {
+      "case": "actual_inert_entry_rejected_before_physical_commands_or_token",
+      "passed": true
+    },
+    {
+      "case": "source_path_../escape.py",
+      "passed": true
+    },
+    {
+      "case": "source_path_/absolute.py",
+      "passed": true
+    },
+    {
+      "case": "source_path_C:/escape.py",
+      "passed": true
+    },
+    {
+      "case": "source_path_escape\\module.py",
+      "passed": true
+    }
+  ],
+  "source_SHA": "0968212c177ed72c5f7b5417440f2cd71ae00183108207971054cfde5316e9b8",
+  "scope": "Standard-library synthetic metadata plus inert entry rejection; no original model/tensor audit",
+  "source_gates_precede_once_and_auditor_import": true,
+  "actual_audit_plan_frozen": false,
+  "actual_new_node_lease_received": false,
+  "scientific_imports": false,
+  "task_array_or_target_decode": false,
+  "real_original_checkpoint_CPU_audit": false,
+  "CPU_CUDA_recovery_qualification": false,
+  "new_actual_audit_once_consumed": false
+}

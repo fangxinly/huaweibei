@@ -1,0 +1,18 @@
+{
+  "record_UTC": "2026-10-10T16:15:45.092491+00:00",
+  "prior_check": {
+    "tool_chunk_id": "9c4e72",
+    "exit_code": 0,
+    "passed_cases": 49
+  },
+  "final_check": {
+    "tool_chunk_id": "76bcbf",
+    "exit_code": 0,
+    "passed_cases": 51
+  },
+  "reason_for_final_check": "Source review added complete original Torch/NumPy runtime inventory and two counterexamples.",
+  "no_test_rerun_for_preservation": true,
+  "no_invented_exact_exit_timestamp": true,
+  "prior_source_is_explicit_reconstruction_not_capture": true,
+  "prior_source_SHA_matches_original_report": true
+}

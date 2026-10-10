@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T16:16:03.766988+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z\\payload\\complete_CPU_driver_source_original.zip",
+  "source_SHA": "ea44e855333e781ab6be978b72e0ff2891972826b2e41c0bcc7f7faf5036fb9e",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "group5-stopped-epoch-CPU-driver-source-ea44e855333e.zip",
+  "id": 628405633,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-stopped-epoch-CPU-driver-source-ea44e855333e.zip",
+  "remote_digest_verified": true
+}

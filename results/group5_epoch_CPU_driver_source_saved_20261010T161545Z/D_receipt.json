@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T16:15:45.554625+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z\\payload\\complete_CPU_driver_source_original.zip",
+  "archive_SHA": "ea44e855333e781ab6be978b72e0ff2891972826b2e41c0bcc7f7faf5036fb9e",
+  "bytes": 107610,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 16,
+  "D_exact_copy_verified": true,
+  "D_verification_UTC": "2026-10-10T16:15:56.965584+00:00"
+}

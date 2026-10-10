@@ -1,0 +1,34 @@
+{
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z",
+  "proof": {
+    "actual_UTC": "2026-10-10T13:45:53.074444+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z\\payload\\complete_epoch_CPU_source_original.zip",
+    "archive_SHA": "2c21a5e61885a86465bb1c2bec3640b86ab35bea6558e12297b8392658c91f22",
+    "bytes": 72167,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 12,
+    "D_exact_copy_verified": true,
+    "D_verification_UTC": "2026-10-10T13:46:04.883127+00:00"
+  },
+  "github": {
+    "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+    "actual_UTC": "2026-10-10T13:47:32.382777+00:00",
+    "commit": "33c56332a0e2969cd476b2a50b268b4a2bf7e0c8",
+    "parent_commit": "192c920c8b7e67e26f67756984b4c4279f972e4b",
+    "files": 4,
+    "all_published_blobs_verified": true,
+    "C_checkout_not_modified": true
+  },
+  "human_availability": {
+    "observed_record_UTC": "2026-10-10T13:15:19.830709+00:00",
+    "human_answer": "24小时后提供新节点",
+    "preceding_clarification": "Current nodes extended, or provide new nodes after24h?",
+    "interpretation": "Human will provide new nodes after24h; current N1/N2/N3 leases are not extended.",
+    "exact_future_node_arrival_not_confirmed": true,
+    "new_endpoints_ports_UUID_or_actual_lease_not_yet_supplied": true,
+    "current_leases_extended": false,
+    "renewal_or_purchase_authorized": false,
+    "future_timing_is_not_a_valid_new_lease_or_execution_proof": true,
+    "repeat_lease_question_now": false
+  }
+}

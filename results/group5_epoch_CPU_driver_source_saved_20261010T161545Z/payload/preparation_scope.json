@@ -1,0 +1,17 @@
+{
+  "actual_UTC": "2026-10-10T16:15:45.092491+00:00",
+  "status": "STOPPED_EPOCH_CPU_DRIVER_SOURCE_PREPARATION_ONLY",
+  "independent_CPU_driver_source_implemented": true,
+  "actual_audit_plan_frozen": false,
+  "full_transitive_execution_capsule_assembly_pending": true,
+  "actual_original_checkpoint_CPU_audit": false,
+  "CPU_CUDA_recovery_qualification": false,
+  "metadata_synthetic_cases_passed": 51,
+  "scientific_imports": false,
+  "task_array_or_target_decode": false,
+  "new_actual_audit_or_training_or_score_once_consumed": false,
+  "outputs_preserved_unscored": 1,
+  "outer_scores": 0,
+  "current_leases_unchanged": true,
+  "new_valid_node_details_not_received": true
+}

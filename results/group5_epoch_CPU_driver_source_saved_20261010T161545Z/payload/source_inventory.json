@@ -1,0 +1,37 @@
+[
+  {
+    "name": "group5_stopped_epoch_CPU_driver_v1.py",
+    "SHA": "a92ec9d7434431de99df652d72d6b0d864b72647b09551e7fa3a4ad9b0797576",
+    "bytes": 13156
+  },
+  {
+    "name": "check_group5_stopped_epoch_CPU_driver_v1.py",
+    "SHA": "742837bd578cf9ae294fa3f52973129c7a1c493677b182ae62b792478da4ff15",
+    "bytes": 10389
+  },
+  {
+    "name": "group5_composite_stopped_epoch_CPU_audit_v1.py",
+    "SHA": "7070353ea7c8543377ba98b8de44e38adcb5da674c7615f31d6e5cf256b1fc59",
+    "bytes": 14838
+  },
+  {
+    "name": "group5_composite_epoch_resume_v2.py",
+    "SHA": "0d3859b230e7b556b8b321badbb40d8b7e1460296f957519c693defa83a335fa",
+    "bytes": 7216
+  },
+  {
+    "name": "group5_release_transport_v1.py",
+    "SHA": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+    "bytes": 10893
+  },
+  {
+    "name": "group5_test_selected_contract_v1.py",
+    "SHA": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+    "bytes": 5151
+  },
+  {
+    "name": "preserve_group5_epoch_CPU_driver_source_v1.py",
+    "SHA": "37841083fbf58719a8d0e2a43c984615a6b22dd9282a8b95f908dde2920ab99f",
+    "bytes": 12446
+  }
+]
