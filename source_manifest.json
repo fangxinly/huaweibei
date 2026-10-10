@@ -4820,6 +4820,35 @@
       "sanitizations": {}
     },
     {
+      "path": "results/group5_epoch_CPU_driver_source_saved_20261010T161545Z_heartbeat/actual_automation_verification.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z\\heartbeat_closure\\actual_automation_verification.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 527,
+      "original_sha256": "f431990fcb1ac449d87a6f9798b422114bba9a827e1ecfe506e1dd0be4b54534",
+      "published_sha256": "f431990fcb1ac449d87a6f9798b422114bba9a827e1ecfe506e1dd0be4b54534",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/group5_epoch_CPU_driver_source_saved_20261010T161545Z_heartbeat/actual_prompt.txt",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z\\heartbeat_closure\\actual_prompt.txt",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 12372,
+      "original_sha256": "4518125b11dbac2f97534d77a0159cf5a061155fa0abd59411f9579797c131c1",
+      "published_sha256": "20a2b0c9d4784d26da44a47ed9ae0fd2cd112277c146199e3eb8c404c2220203",
+      "sanitizations": {
+        "server_endpoint": 3
+      }
+    },
+    {
+      "path": "results/group5_epoch_CPU_driver_source_saved_20261010T161545Z_heartbeat/preparation_reference.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_driver_source_saved_20261010T161545Z\\heartbeat_closure\\preparation_reference.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1634,
+      "original_sha256": "bc87d78bc6db1f4914baf2bf65d09baeedf67c64caa83aa797972a7aa2092d42",
+      "published_sha256": "bc87d78bc6db1f4914baf2bf65d09baeedf67c64caa83aa797972a7aa2092d42",
+      "sanitizations": {}
+    },
+    {
       "path": "results/group5_epoch_CPU_source_saved_20261010T134552Z/actual_final34_synthetic_report.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\group5_epoch_CPU_source_saved_20261010T134552Z\\payload\\actual_final34_synthetic_report.json",
       "kind": "group5_actual_evidence_and_source",

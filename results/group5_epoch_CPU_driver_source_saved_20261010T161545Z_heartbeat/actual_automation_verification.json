@@ -1,0 +1,12 @@
+{
+  "status": "EXISTING_HEARTBEAT_DRIVER_PREPARATION_CURRENT_PROMPT_SCHEDULE_UNCHANGED",
+  "actual_UTC": "2026-10-10T16:17:10.453171+00:00",
+  "prompt_SHA": "c6f42d443f09ea24ca3a89d613d4a9c08f29303e13024decbb7a6d5eb69916bf",
+  "actual_TOML_SHA": "a7b94eaf6155f1355ccaf29114a22bb210597b71d3e77a0952f0678f508553fc",
+  "id": "automation",
+  "active": true,
+  "rrule_unchanged": true,
+  "target_and_other_fields_unchanged": true,
+  "no_new_automation_or_chat": true,
+  "no_new_original_training_audit_or_score": true
+}
