@@ -1,0 +1,11 @@
+{
+  "actual_UTC": "2026-10-10T00:42:47.297532+00:00",
+  "human_action": "\u7ee7\u7eed",
+  "previous_session": 10986,
+  "previous_tool_result": "write_stdin failed: Unknown process id 10986",
+  "previous_session_permanently_unusable": true,
+  "new_same_endpoint_session": 19826,
+  "actual_password_prompt_and_authentication_observed": true,
+  "diagnostic_not_dispatched": true,
+  "prior_policy_rejection_preserved": true
+}

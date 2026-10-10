@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T00:46:01.384169+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\complete_actual_TRAIN_support_original.zip",
+  "source_SHA": "0f45efd12ff9a52361727018cd12c5aa4e08236aaea6c04b5be1910e791309ba",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "raw-TRAIN-saved-fit-support-original-20261010T004351Z.zip",
+  "id": 626601311,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/raw-TRAIN-saved-fit-support-original-20261010T004351Z.zip",
+  "remote_digest_verified": true
+}

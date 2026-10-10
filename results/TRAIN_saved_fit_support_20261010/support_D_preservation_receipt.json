@@ -1,0 +1,33 @@
+{
+  "actual_UTC": "2026-10-10T00:45:46.177301+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\complete_actual_TRAIN_support_original.zip",
+  "archive_SHA": "0f45efd12ff9a52361727018cd12c5aa4e08236aaea6c04b5be1910e791309ba",
+  "archive_bytes": 770769,
+  "content_members": 28,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "natural_exit": 0,
+  "plan_SHA": "f8f15becbda09b3188232fd69df3f0f6b5596a689b674a9cb27566c14d9d2fe7",
+  "result": {
+    "status": "TRAIN_SAVED_FIT_SUPPORT_DESCRIPTION_COMPLETE",
+    "actual_UTC": "2026-10-10T00:43:51.009365+00:00",
+    "rows": 1281,
+    "videos": 52,
+    "paths": 4,
+    "fold_paths": 20,
+    "max_original_prediction_reconstruction_error": 0.0,
+    "TRAIN_labels_decoded": 0,
+    "VAL_TEST_numeric_decode": false,
+    "new_solve_fit_score": false,
+    "primary_results_changed": false,
+    "source_units_and_missing_sentinel_unknown": true,
+    "no_causal_or_information_claim": true,
+    "input_SHA": {
+      "data": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+      "rows": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+      "states": "b50f61d9f3189be5836a7905c176e27432fae8be1a91ff6c55df65e20bafeacc",
+      "fits": "efbe0fcb6fc74f8ba9f19b92a39ea378d20b548b4d9a89f679610989a11af73e",
+      "predictions": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+      "protocol": "a6ddff8e47e835890291f8b1e97ad835f5e80b7376a012d9f65844ed956aaa5a"
+    }
+  }
+}

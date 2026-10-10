@@ -750,6 +750,150 @@
       "sanitizations": {}
     },
     {
+      "path": "results/TRAIN_saved_fit_support_20261010/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\Release_receipt.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 667,
+      "original_sha256": "83f16b04d7ab928cc83417c3ee3c351063b6b13d6b1d350446ed357371ae4008",
+      "published_sha256": "83f16b04d7ab928cc83417c3ee3c351063b6b13d6b1d350446ed357371ae4008",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/TRAIN_raw_conditional_ridge_core_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\TRAIN_raw_conditional_ridge_core_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 3517,
+      "original_sha256": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+      "published_sha256": "3b72dc84834dea0f14af1d6e5d60f9509d758e1a9f14aa7ec02bec734afd10de",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/TRAIN_raw_probe_driver_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\TRAIN_raw_probe_driver_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 11653,
+      "original_sha256": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+      "published_sha256": "1efc3451338fe6ec7e0f4f0df94dc844eca921b246fdd3b855733b0e7f8d1ea4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/TRAIN_saved_fit_support_diagnostic_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\TRAIN_saved_fit_support_diagnostic_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 10927,
+      "original_sha256": "c77b42e3921b754decfde7e3ab25740ec5cd145d7f3dad934f6b1ae2b5d885b2",
+      "published_sha256": "c77b42e3921b754decfde7e3ab25740ec5cd145d7f3dad934f6b1ae2b5d885b2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/TRAIN原拟合状态支持诊断结果.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\TRAIN原拟合状态支持诊断结果.md",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 2190,
+      "original_sha256": "571edf62d5cbb05a276bef1963a7e5953c53292a4dc7fd2fd9faf4331f013fb7",
+      "published_sha256": "571edf62d5cbb05a276bef1963a7e5953c53292a4dc7fd2fd9faf4331f013fb7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/capture_TRAIN_support_diagnostic_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\capture_TRAIN_support_diagnostic_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 1650,
+      "original_sha256": "0f8a906ff6f4ea034f0074affa48bebb35d86f43e1bfa150fa4460c0053bdb87",
+      "published_sha256": "0f8a906ff6f4ea034f0074affa48bebb35d86f43e1bfa150fa4460c0053bdb87",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/capture_member_manifest.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\capture_member_manifest.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 1094,
+      "original_sha256": "ab6d540fd4edf3533243342d2fb6cffa37c11e90d7d1e63c09a3b792ecb6458b",
+      "published_sha256": "ab6d540fd4edf3533243342d2fb6cffa37c11e90d7d1e63c09a3b792ecb6458b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/completion_metadata_D_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\completion_metadata_D_receipt.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 366,
+      "original_sha256": "5ff1ab5980ce14e1cbfddc0882d40e2ec441fa0762659b849410f2f316e4a533",
+      "published_sha256": "5ff1ab5980ce14e1cbfddc0882d40e2ec441fa0762659b849410f2f316e4a533",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/execution_plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\execution_plan.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 2301,
+      "original_sha256": "f8f15becbda09b3188232fd69df3f0f6b5596a689b674a9cb27566c14d9d2fe7",
+      "published_sha256": "f8f15becbda09b3188232fd69df3f0f6b5596a689b674a9cb27566c14d9d2fe7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/finalize_TRAIN_support_retry_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\finalize_TRAIN_support_retry_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 6133,
+      "original_sha256": "d009d50b2aece2b2f7970234dd6f349819b6e54a8cdb0484b1395b08bf183f84",
+      "published_sha256": "d009d50b2aece2b2f7970234dd6f349819b6e54a8cdb0484b1395b08bf183f84",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/frozen_support_protocol.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\frozen_support_protocol.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 1777,
+      "original_sha256": "a6ddff8e47e835890291f8b1e97ad835f5e80b7376a012d9f65844ed956aaa5a",
+      "published_sha256": "a6ddff8e47e835890291f8b1e97ad835f5e80b7376a012d9f65844ed956aaa5a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/publish_TRAIN_support_completion_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\publish_TRAIN_support_completion_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 5587,
+      "original_sha256": "e3a15ecb3f6a03998e5477959c8ff190311ef633e36c408585ba01deedd5dbe8",
+      "published_sha256": "e3a15ecb3f6a03998e5477959c8ff190311ef633e36c408585ba01deedd5dbe8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/raw_TRAIN_capture_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\raw_TRAIN_capture_v1.py",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 2597,
+      "original_sha256": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+      "published_sha256": "5d538f3f3f56d88883f5b34b6311e557abbb96621c8bf134962459a2506f9ca8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/retry_session_observation.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\retry_session_observation.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 431,
+      "original_sha256": "f05363b85b09b4e171158314577bab175074127e2a5561163b351d8450f7f4ca",
+      "published_sha256": "f05363b85b09b4e171158314577bab175074127e2a5561163b351d8450f7f4ca",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/saved_support_independent_summary.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\saved_support_independent_summary.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 8217,
+      "original_sha256": "2ba95404726db0aebb6dbfb68264a70801b08b19b91dccafb5c7349ffd9c2dcd",
+      "published_sha256": "2ba95404726db0aebb6dbfb68264a70801b08b19b91dccafb5c7349ffd9c2dcd",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/TRAIN_saved_fit_support_20261010/support_D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_final100_actual_20261009T012656Z\\TRAIN_support_retry_actual_20261010T004247Z\\public_source_and_summary\\support_D_preservation_receipt.json",
+      "kind": "saved_support_source_or_analysis",
+      "bytes": 1580,
+      "original_sha256": "ab8c5a8a400c00b06b4223ed5eae70bd4ff853f0df74dfa89afebc46838a157d",
+      "published_sha256": "ab8c5a8a400c00b06b4223ed5eae70bd4ff853f0df74dfa89afebc46838a157d",
+      "sanitizations": {}
+    },
+    {
       "path": "results/VAL_actual_predictions.csv",
       "origin": "preserved_result/VAL_actual_predictions.csv",
       "kind": "prediction_data",

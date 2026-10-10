@@ -1,0 +1,26 @@
+{
+  "actual_UTC": "2026-10-09T20:11:36.114426+00:00",
+  "role": "SEPARATE_TRAIN_SAVED_FIT_SUPPORT_NO_FIT_SCORE_LABELS",
+  "scientific_question": "Do saved fit scales and coefficients map held-video summary features to unusually large standardized support or individual prediction terms?",
+  "hypothesis_not_established": "The largest held-video errors may accompany large held-feature/fit-scale ratios; this cannot establish upstream cause or modality information absence",
+  "fixed_scope": "All1281 TRAIN rows/52 videos/5 original folds/all four original paths and20 original saved fits",
+  "input_raw_SHA": "5c3cc6ab6b43c97d3e34b9767b456d8e48f9bc5cc6f02089292a29d0e0aafd4b",
+  "original_fold_SHA": "de6fe050428bf21ca5be8a17791d39140676510a93c110021ff264df05be42b9",
+  "original_state_SHA": "b50f61d9f3189be5836a7905c176e27432fae8be1a91ff6c55df65e20bafeacc",
+  "original_prediction_SHA": "b6ad9f459632e0740dabcba5f870c613cf3a5c803308e0ef277bec5182552b54",
+  "prespecified_outputs": [
+    "All channel fit raw min/max/mean/saved scale/coefficient and held min/max/max abs standardized support/contribution",
+    "Every held video max standardized support/max coefficient term and counts above absZ10/100/1000",
+    "All TRAIN row-channel raw nonfinite and finite-zero counts, without assigning sentinel meaning",
+    "Same-source numerical consistency and original saved prediction reconstruction only"
+  ],
+  "never": [
+    "Read labels or VAL/TEST numeric arrays",
+    "Solve/refit/change lambda/features/folds/predictions",
+    "Calculate MSE or exclusion/alternative scoring",
+    "Remove or reweight extreme videos",
+    "Infer MI/PID, causal shift or known missing-value semantics"
+  ],
+  "source_unit_and_upstream_scope_unknown": true,
+  "no_new_automatic_task": true
+}
