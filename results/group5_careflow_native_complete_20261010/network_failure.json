@@ -1,0 +1,13 @@
+{
+  "recorded_actual_UTC": "2026-10-10T04:36:12.833781+00:00",
+  "process_session": 39807,
+  "natural_exit": 1,
+  "error_type": "TimeoutError",
+  "exact_error": "The read operation timed out",
+  "failure_location": "group5_release_transport_v1.py:206 blocks(stream); ssl socket read",
+  "original_bytes_retained": true,
+  "partial_bytes": 184549376,
+  "partial_SHA": "0e33908f80c4d7b1ed8a4d3d7db01345c1a95687d44912bc2a458382003595c3",
+  "five_uploaded_parts_digest_passed": true,
+  "not_approval_rejection": true
+}

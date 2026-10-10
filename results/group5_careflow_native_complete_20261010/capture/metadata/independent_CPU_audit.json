@@ -1,0 +1,53 @@
+{
+  "status": "INDEPENDENT_CPU_ORIGINAL_DIRECT_STATE_AUDIT_PASS",
+  "actual_UTC": "2026-10-10T04:18:25.756274+00:00",
+  "checkpoint_SHA": "8883bc80222c968c61d6a3cd40d5f8eb4a17fe8ddc8149557da431cce627bb71",
+  "bytes": 2223516942,
+  "method": "careflow",
+  "fold": 0,
+  "updates": 3,
+  "model_tensors": 329,
+  "Adam_owned_tensors": 323,
+  "absent_unused_tensors": [
+    "dberta.pooler.dense.bias",
+    "dberta.pooler.dense.weight"
+  ],
+  "source_SHA": {
+    "anchored_flow.py": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+    "careflow_train_dev_author_components_candidate.py": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+    "encoder_adapter.py": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "finite_single_token_reader_v1.py": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "fixed_flow_components_candidate.py": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+    "fold_contract.py": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+    "group5_direct_runtime_v1.py": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86",
+    "group5_fresh_direct_session_v1.py": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7",
+    "group5_release_transport_v1.py": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+    "group5_teacher_optimizer_v1.py": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81",
+    "group5_test_selected_contract_v1.py": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+    "legacy_flow_model.py": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "minimal_fixed_flow_v2.py": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "official_fulltrain_dev_guard_candidate.py": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+    "orders_fold0.npy": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163",
+    "orders_fold1.npy": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd",
+    "orders_fold2.npy": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5",
+    "orders_fold3.npy": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69",
+    "orders_fold4.npy": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a",
+    "paired_fulltrain_session_candidate.py": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+    "sentiment_metrics_careflow_v1.py": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "split.json": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48"
+  },
+  "exact_plan_SHA": "598dcd8ef0d80f1e10eb8f59b26ae296669af1e1a0f7ca266f6b522541026119",
+  "original_native_exit": 0,
+  "CPU_available_RAM_bytes": 115571855360,
+  "new_solve_fit_score_or_outer_label_decode": false,
+  "argv": [
+    "/data/coding/batch5_continue_actual_20261009T163550Z/N2_public_runtime_actual_20261009T174820Z/.venv/bin/python",
+    "/data/coding/g5native_20261010T032338Z/group5_direct_CPU_audit_v1.py",
+    "--root",
+    "/data/coding/g5native_20261010T032338Z",
+    "--plan-sha",
+    "598dcd8ef0d80f1e10eb8f59b26ae296669af1e1a0f7ca266f6b522541026119",
+    "--out",
+    "/data/coding/g5native_20261010T032338Z/independent_CPU_audit.json"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T04:44:54.984965+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_complete_20261010T044358Z\\metadata\\complete_native_preservation_metadata.zip",
+  "source_SHA": "23f5ec8457721e4da9daec1c25fa47b9a4ce0a7a311f335ca5dd4b1adb647236",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "group5-real-native-closed-23f5ec845772.zip",
+  "id": 627021898,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-real-native-closed-23f5ec845772.zip",
+  "remote_digest_verified": true
+}

@@ -1,0 +1,777 @@
+[
+  {
+    "name": "CPU_audit.log",
+    "bytes": 27,
+    "sha256": "4d0ea70d6e44d6edef7cf1ca9f3229db3d901d9fc188ae66caa660f4d3256e1a"
+  },
+  {
+    "name": "CPU_exit_observed.json",
+    "bytes": 133,
+    "sha256": "de50c4000110e05e766a4bdd34d3b05e9d8855c3ea5db262525b401188bcd819"
+  },
+  {
+    "name": "careflow0_precheck.once",
+    "bytes": 184,
+    "sha256": "ac5eb2967c6912eb05d71f3b12d0e009d8fc69256694a019c6d788bbbcab09e1"
+  },
+  {
+    "name": "dispatch.json",
+    "bytes": 724,
+    "sha256": "cbfc8f0bc37073b2a9f6e1169b5090e0f0bf2489d8d2c1c032be24541336dc30"
+  },
+  {
+    "name": "group5_direct_CPU_audit_v1.py",
+    "bytes": 5137,
+    "sha256": "cd43c26116b0880c2be9d74d3e0fc1ff9d3fa0855e3ec59fe40b3d3376d2906f"
+  },
+  {
+    "name": "independent_CPU_audit.json",
+    "bytes": 3354,
+    "sha256": "ffe84d6a3601ccc385aaa7fc9e28198c4e45578e65e753ab9c3623970e6453ea"
+  },
+  {
+    "name": "out/FIT_orders.npy",
+    "bytes": 1195328,
+    "sha256": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+  },
+  {
+    "name": "out/FIT_targets.npy",
+    "bytes": 6104,
+    "sha256": "cc61a01a7e6fa4a938f99f6c37216e37c3974e9d9ce936b801c14e9106664acc"
+  },
+  {
+    "name": "out/INNER_dummy_predictions.npz",
+    "bytes": 19232,
+    "sha256": "dcf4b9acc75bcff1160910e151297462ad73bcb0fd3bbcc2f52d17526d62a662"
+  },
+  {
+    "name": "out/actual_stage_receipt.json",
+    "bytes": 44921,
+    "sha256": "197a5c9e30dfed866db45fca9f012557cf5f55b3ed299c91414cb69bc1c4d605"
+  },
+  {
+    "name": "out/construction.json",
+    "bytes": 43275,
+    "sha256": "1471b60bb5bd4092a2e2edbec14fa926fe125630d0a1648bedc0f795ef9f6d7c"
+  },
+  {
+    "name": "out/fresh_physical.json",
+    "bytes": 2992,
+    "sha256": "c5fdfe9b6cf0487ba309fb22de36db333734ab3bacbb8687b08faa2549954827"
+  },
+  {
+    "name": "out/natural_exit.json",
+    "bytes": 121,
+    "sha256": "e5b0fd6af9d2388e2d527c5a02194f63f62f63139f6b4f3bc1631dbc0c8ea47f"
+  },
+  {
+    "name": "out/precheck_full.pt",
+    "bytes": 2223516942,
+    "sha256": "8883bc80222c968c61d6a3cd40d5f8eb4a17fe8ddc8149557da431cce627bb71"
+  },
+  {
+    "name": "plan.json",
+    "bytes": 5833,
+    "sha256": "598dcd8ef0d80f1e10eb8f59b26ae296669af1e1a0f7ca266f6b522541026119"
+  },
+  {
+    "name": "source/anchored_parent/anchored_flow.py",
+    "bytes": 5818,
+    "sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065"
+  },
+  {
+    "name": "source/anchored_parent/careflow_train_dev_author_components_candidate.py",
+    "bytes": 11852,
+    "sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6"
+  },
+  {
+    "name": "source/anchored_parent/encoder_adapter.py",
+    "bytes": 3867,
+    "sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  {
+    "name": "source/anchored_parent/finite_single_token_reader_v1.py",
+    "bytes": 2184,
+    "sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311"
+  },
+  {
+    "name": "source/anchored_parent/fixed_flow_components_candidate.py",
+    "bytes": 2137,
+    "sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92"
+  },
+  {
+    "name": "source/anchored_parent/fold_contract.py",
+    "bytes": 6700,
+    "sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f"
+  },
+  {
+    "name": "source/anchored_parent/group5_direct_runtime_v1.py",
+    "bytes": 14758,
+    "sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86"
+  },
+  {
+    "name": "source/anchored_parent/group5_fresh_direct_session_v1.py",
+    "bytes": 8524,
+    "sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7"
+  },
+  {
+    "name": "source/anchored_parent/group5_release_transport_v1.py",
+    "bytes": 10893,
+    "sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  {
+    "name": "source/anchored_parent/group5_teacher_optimizer_v1.py",
+    "bytes": 764,
+    "sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81"
+  },
+  {
+    "name": "source/anchored_parent/group5_test_selected_contract_v1.py",
+    "bytes": 5151,
+    "sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090"
+  },
+  {
+    "name": "source/anchored_parent/legacy_flow_model.py",
+    "bytes": 15003,
+    "sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3"
+  },
+  {
+    "name": "source/anchored_parent/minimal_fixed_flow_v2.py",
+    "bytes": 4555,
+    "sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  {
+    "name": "source/anchored_parent/official_fulltrain_dev_guard_candidate.py",
+    "bytes": 3113,
+    "sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7"
+  },
+  {
+    "name": "source/anchored_parent/orders_fold0.npy",
+    "bytes": 1195328,
+    "sha256": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+  },
+  {
+    "name": "source/anchored_parent/orders_fold1.npy",
+    "bytes": 1195328,
+    "sha256": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+  },
+  {
+    "name": "source/anchored_parent/orders_fold2.npy",
+    "bytes": 1188928,
+    "sha256": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5"
+  },
+  {
+    "name": "source/anchored_parent/orders_fold3.npy",
+    "bytes": 1187328,
+    "sha256": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69"
+  },
+  {
+    "name": "source/anchored_parent/orders_fold4.npy",
+    "bytes": 1188928,
+    "sha256": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+  },
+  {
+    "name": "source/anchored_parent/paired_fulltrain_session_candidate.py",
+    "bytes": 8569,
+    "sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72"
+  },
+  {
+    "name": "source/anchored_parent/sentiment_metrics_careflow_v1.py",
+    "bytes": 3027,
+    "sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  {
+    "name": "source/anchored_parent/split.json",
+    "bytes": 390933,
+    "sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48"
+  },
+  {
+    "name": "source/assemble_group5_pipeline_v1.py",
+    "bytes": 5131,
+    "sha256": "38984eec85cdfe64826d0a59f0b36917d736277ca6ca95daa36b08f431a6afc1"
+  },
+  {
+    "name": "source/careflow/__pycache__/group5_release_transport_v1.cpython-310.pyc",
+    "bytes": 10302,
+    "sha256": "8278677e19d738d726c3ae8edd6ead2cf7f3edb084b1f1a35abea4f7011d756d"
+  },
+  {
+    "name": "source/careflow/anchored_flow.py",
+    "bytes": 5818,
+    "sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065"
+  },
+  {
+    "name": "source/careflow/careflow_train_dev_author_components_candidate.py",
+    "bytes": 11852,
+    "sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6"
+  },
+  {
+    "name": "source/careflow/encoder_adapter.py",
+    "bytes": 3867,
+    "sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  {
+    "name": "source/careflow/finite_single_token_reader_v1.py",
+    "bytes": 2184,
+    "sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311"
+  },
+  {
+    "name": "source/careflow/fixed_flow_components_candidate.py",
+    "bytes": 2137,
+    "sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92"
+  },
+  {
+    "name": "source/careflow/fold_contract.py",
+    "bytes": 6700,
+    "sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f"
+  },
+  {
+    "name": "source/careflow/group5_direct_runtime_v1.py",
+    "bytes": 14758,
+    "sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86"
+  },
+  {
+    "name": "source/careflow/group5_fresh_direct_session_v1.py",
+    "bytes": 8524,
+    "sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7"
+  },
+  {
+    "name": "source/careflow/group5_release_transport_v1.py",
+    "bytes": 10893,
+    "sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  {
+    "name": "source/careflow/group5_teacher_optimizer_v1.py",
+    "bytes": 764,
+    "sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81"
+  },
+  {
+    "name": "source/careflow/group5_test_selected_contract_v1.py",
+    "bytes": 5151,
+    "sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090"
+  },
+  {
+    "name": "source/careflow/legacy_flow_model.py",
+    "bytes": 15003,
+    "sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3"
+  },
+  {
+    "name": "source/careflow/minimal_fixed_flow_v2.py",
+    "bytes": 4555,
+    "sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  {
+    "name": "source/careflow/official_fulltrain_dev_guard_candidate.py",
+    "bytes": 3113,
+    "sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7"
+  },
+  {
+    "name": "source/careflow/orders_fold0.npy",
+    "bytes": 1195328,
+    "sha256": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+  },
+  {
+    "name": "source/careflow/orders_fold1.npy",
+    "bytes": 1195328,
+    "sha256": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+  },
+  {
+    "name": "source/careflow/orders_fold2.npy",
+    "bytes": 1188928,
+    "sha256": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5"
+  },
+  {
+    "name": "source/careflow/orders_fold3.npy",
+    "bytes": 1187328,
+    "sha256": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69"
+  },
+  {
+    "name": "source/careflow/orders_fold4.npy",
+    "bytes": 1188928,
+    "sha256": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+  },
+  {
+    "name": "source/careflow/paired_fulltrain_session_candidate.py",
+    "bytes": 8569,
+    "sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72"
+  },
+  {
+    "name": "source/careflow/sentiment_metrics_careflow_v1.py",
+    "bytes": 3027,
+    "sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  {
+    "name": "source/careflow/split.json",
+    "bytes": 390933,
+    "sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48"
+  },
+  {
+    "name": "source/check_group5_transport_v1.py",
+    "bytes": 3634,
+    "sha256": "5f0e657eb17dce6ef101767a29234b961970d49a7f1f8c268ccfea3c6115be2b"
+  },
+  {
+    "name": "source/factorized_aux/anchored_flow.py",
+    "bytes": 6334,
+    "sha256": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76"
+  },
+  {
+    "name": "source/factorized_aux/candidate_adapter.py",
+    "bytes": 2510,
+    "sha256": "71128a8c3b567a963d555d9dadabccd775a312363380da9a12301d85bf8dacab"
+  },
+  {
+    "name": "source/factorized_aux/careflow_train_dev_author_components_candidate.py",
+    "bytes": 11852,
+    "sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6"
+  },
+  {
+    "name": "source/factorized_aux/controlled_flow.py",
+    "bytes": 4548,
+    "sha256": "5325d0488e570a4ec3861e4dc57a785bc8d3adeeecec6b48fc908894bdfd3774"
+  },
+  {
+    "name": "source/factorized_aux/encoder_adapter.py",
+    "bytes": 3867,
+    "sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  {
+    "name": "source/factorized_aux/finite_single_token_reader_v1.py",
+    "bytes": 2184,
+    "sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311"
+  },
+  {
+    "name": "source/factorized_aux/fixed_flow_components_candidate.py",
+    "bytes": 2137,
+    "sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92"
+  },
+  {
+    "name": "source/factorized_aux/fold_contract.py",
+    "bytes": 6700,
+    "sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f"
+  },
+  {
+    "name": "source/factorized_aux/group5_direct_runtime_v1.py",
+    "bytes": 14758,
+    "sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86"
+  },
+  {
+    "name": "source/factorized_aux/group5_fresh_direct_session_v1.py",
+    "bytes": 8524,
+    "sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7"
+  },
+  {
+    "name": "source/factorized_aux/group5_release_transport_v1.py",
+    "bytes": 10893,
+    "sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  {
+    "name": "source/factorized_aux/group5_teacher_optimizer_v1.py",
+    "bytes": 764,
+    "sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81"
+  },
+  {
+    "name": "source/factorized_aux/group5_test_selected_contract_v1.py",
+    "bytes": 5151,
+    "sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090"
+  },
+  {
+    "name": "source/factorized_aux/incremental_message.py",
+    "bytes": 4171,
+    "sha256": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd"
+  },
+  {
+    "name": "source/factorized_aux/legacy_flow_model.py",
+    "bytes": 15003,
+    "sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3"
+  },
+  {
+    "name": "source/factorized_aux/minimal_fixed_flow_v2.py",
+    "bytes": 4555,
+    "sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  {
+    "name": "source/factorized_aux/official_fulltrain_dev_guard_candidate.py",
+    "bytes": 3113,
+    "sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7"
+  },
+  {
+    "name": "source/factorized_aux/official_upgrade.py",
+    "bytes": 3554,
+    "sha256": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9"
+  },
+  {
+    "name": "source/factorized_aux/orders_fold0.npy",
+    "bytes": 1195328,
+    "sha256": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+  },
+  {
+    "name": "source/factorized_aux/orders_fold1.npy",
+    "bytes": 1195328,
+    "sha256": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+  },
+  {
+    "name": "source/factorized_aux/orders_fold2.npy",
+    "bytes": 1188928,
+    "sha256": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5"
+  },
+  {
+    "name": "source/factorized_aux/orders_fold3.npy",
+    "bytes": 1187328,
+    "sha256": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69"
+  },
+  {
+    "name": "source/factorized_aux/orders_fold4.npy",
+    "bytes": 1188928,
+    "sha256": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+  },
+  {
+    "name": "source/factorized_aux/paired_fulltrain_session_candidate.py",
+    "bytes": 8569,
+    "sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72"
+  },
+  {
+    "name": "source/factorized_aux/polarity_intensity_flow.py",
+    "bytes": 5968,
+    "sha256": "ae8efef94c267b82c0aecf241c63da6ed255854493983b1ea666c5b5e302b741"
+  },
+  {
+    "name": "source/factorized_aux/sentiment_metrics_careflow_v1.py",
+    "bytes": 3027,
+    "sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  {
+    "name": "source/factorized_aux/split.json",
+    "bytes": 390933,
+    "sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48"
+  },
+  {
+    "name": "source/group5_release_transport_v1.py",
+    "bytes": 10893,
+    "sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  {
+    "name": "source/group5_teacher_optimizer_origin.json",
+    "bytes": 322,
+    "sha256": "eddda03787118987f3e76a6d486239ce81eafc86a070b7d2f46d5c1e40aa4c65"
+  },
+  {
+    "name": "source/group5_teacher_optimizer_v1.py",
+    "bytes": 764,
+    "sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81"
+  },
+  {
+    "name": "source/member_manifest.json",
+    "bytes": 19409,
+    "sha256": "4a750ea97c3217a48ac8d95c6ab8a32113f4c37aaa8a2c0abeb209354551406b"
+  },
+  {
+    "name": "source/old_A_teacher/anchored_flow.py",
+    "bytes": 5818,
+    "sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065"
+  },
+  {
+    "name": "source/old_A_teacher/careflow_train_dev_author_components_candidate.py",
+    "bytes": 11852,
+    "sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6"
+  },
+  {
+    "name": "source/old_A_teacher/counterfactual_flow_model.py",
+    "bytes": 6841,
+    "sha256": "50a0e652a1502ed7a06b58e5876a90aecf4e1435b5d5154043b76eabc806655b"
+  },
+  {
+    "name": "source/old_A_teacher/encoder_adapter.py",
+    "bytes": 3867,
+    "sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  {
+    "name": "source/old_A_teacher/finite_single_token_reader_v1.py",
+    "bytes": 2184,
+    "sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311"
+  },
+  {
+    "name": "source/old_A_teacher/fixed_flow_components_candidate.py",
+    "bytes": 2137,
+    "sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92"
+  },
+  {
+    "name": "source/old_A_teacher/fold_contract.py",
+    "bytes": 6700,
+    "sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f"
+  },
+  {
+    "name": "source/old_A_teacher/group5_direct_runtime_v1.py",
+    "bytes": 14758,
+    "sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86"
+  },
+  {
+    "name": "source/old_A_teacher/group5_fresh_direct_session_v1.py",
+    "bytes": 8524,
+    "sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7"
+  },
+  {
+    "name": "source/old_A_teacher/group5_release_transport_v1.py",
+    "bytes": 10893,
+    "sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  {
+    "name": "source/old_A_teacher/group5_teacher_optimizer_v1.py",
+    "bytes": 764,
+    "sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81"
+  },
+  {
+    "name": "source/old_A_teacher/group5_test_selected_contract_v1.py",
+    "bytes": 5151,
+    "sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090"
+  },
+  {
+    "name": "source/old_A_teacher/legacy_flow_model.py",
+    "bytes": 15003,
+    "sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3"
+  },
+  {
+    "name": "source/old_A_teacher/minimal_fixed_flow_v2.py",
+    "bytes": 4555,
+    "sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  {
+    "name": "source/old_A_teacher/official_fulltrain_dev_guard_candidate.py",
+    "bytes": 3113,
+    "sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7"
+  },
+  {
+    "name": "source/old_A_teacher/orders_fold0.npy",
+    "bytes": 1195328,
+    "sha256": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+  },
+  {
+    "name": "source/old_A_teacher/orders_fold1.npy",
+    "bytes": 1195328,
+    "sha256": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+  },
+  {
+    "name": "source/old_A_teacher/orders_fold2.npy",
+    "bytes": 1188928,
+    "sha256": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5"
+  },
+  {
+    "name": "source/old_A_teacher/orders_fold3.npy",
+    "bytes": 1187328,
+    "sha256": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69"
+  },
+  {
+    "name": "source/old_A_teacher/orders_fold4.npy",
+    "bytes": 1188928,
+    "sha256": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+  },
+  {
+    "name": "source/old_A_teacher/paired_fulltrain_session_candidate.py",
+    "bytes": 8569,
+    "sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72"
+  },
+  {
+    "name": "source/old_A_teacher/sentiment_metrics_careflow_v1.py",
+    "bytes": 3027,
+    "sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  {
+    "name": "source/old_A_teacher/split.json",
+    "bytes": 390933,
+    "sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48"
+  },
+  {
+    "name": "source/regression_aux/anchored_flow.py",
+    "bytes": 6334,
+    "sha256": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76"
+  },
+  {
+    "name": "source/regression_aux/candidate_adapter.py",
+    "bytes": 2510,
+    "sha256": "71128a8c3b567a963d555d9dadabccd775a312363380da9a12301d85bf8dacab"
+  },
+  {
+    "name": "source/regression_aux/careflow_train_dev_author_components_candidate.py",
+    "bytes": 11852,
+    "sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6"
+  },
+  {
+    "name": "source/regression_aux/controlled_flow.py",
+    "bytes": 4548,
+    "sha256": "5325d0488e570a4ec3861e4dc57a785bc8d3adeeecec6b48fc908894bdfd3774"
+  },
+  {
+    "name": "source/regression_aux/encoder_adapter.py",
+    "bytes": 3867,
+    "sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  {
+    "name": "source/regression_aux/finite_single_token_reader_v1.py",
+    "bytes": 2184,
+    "sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311"
+  },
+  {
+    "name": "source/regression_aux/fixed_flow_components_candidate.py",
+    "bytes": 2137,
+    "sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92"
+  },
+  {
+    "name": "source/regression_aux/fold_contract.py",
+    "bytes": 6700,
+    "sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f"
+  },
+  {
+    "name": "source/regression_aux/group5_direct_runtime_v1.py",
+    "bytes": 14758,
+    "sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86"
+  },
+  {
+    "name": "source/regression_aux/group5_fresh_direct_session_v1.py",
+    "bytes": 8524,
+    "sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7"
+  },
+  {
+    "name": "source/regression_aux/group5_release_transport_v1.py",
+    "bytes": 10893,
+    "sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  {
+    "name": "source/regression_aux/group5_teacher_optimizer_v1.py",
+    "bytes": 764,
+    "sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81"
+  },
+  {
+    "name": "source/regression_aux/group5_test_selected_contract_v1.py",
+    "bytes": 5151,
+    "sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090"
+  },
+  {
+    "name": "source/regression_aux/incremental_message.py",
+    "bytes": 4171,
+    "sha256": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd"
+  },
+  {
+    "name": "source/regression_aux/legacy_flow_model.py",
+    "bytes": 15003,
+    "sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3"
+  },
+  {
+    "name": "source/regression_aux/minimal_fixed_flow_v2.py",
+    "bytes": 4555,
+    "sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  {
+    "name": "source/regression_aux/official_fulltrain_dev_guard_candidate.py",
+    "bytes": 3113,
+    "sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7"
+  },
+  {
+    "name": "source/regression_aux/official_upgrade.py",
+    "bytes": 3554,
+    "sha256": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9"
+  },
+  {
+    "name": "source/regression_aux/orders_fold0.npy",
+    "bytes": 1195328,
+    "sha256": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163"
+  },
+  {
+    "name": "source/regression_aux/orders_fold1.npy",
+    "bytes": 1195328,
+    "sha256": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd"
+  },
+  {
+    "name": "source/regression_aux/orders_fold2.npy",
+    "bytes": 1188928,
+    "sha256": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5"
+  },
+  {
+    "name": "source/regression_aux/orders_fold3.npy",
+    "bytes": 1187328,
+    "sha256": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69"
+  },
+  {
+    "name": "source/regression_aux/orders_fold4.npy",
+    "bytes": 1188928,
+    "sha256": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a"
+  },
+  {
+    "name": "source/regression_aux/paired_fulltrain_session_candidate.py",
+    "bytes": 8569,
+    "sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72"
+  },
+  {
+    "name": "source/regression_aux/polarity_intensity_flow.py",
+    "bytes": 5968,
+    "sha256": "ae8efef94c267b82c0aecf241c63da6ed255854493983b1ea666c5b5e302b741"
+  },
+  {
+    "name": "source/regression_aux/sentiment_metrics_careflow_v1.py",
+    "bytes": 3027,
+    "sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  {
+    "name": "source/regression_aux/split.json",
+    "bytes": 390933,
+    "sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48"
+  },
+  {
+    "name": "source/source_receipt.json",
+    "bytes": 384,
+    "sha256": "a48891e999db8624c87fa9c6fd667d4d105a3b61a151e3efe67ae760f0ce7af1"
+  },
+  {
+    "name": "source/transport/actual_remote_restoration.json",
+    "bytes": 425,
+    "sha256": "6398a9eb34ff56eaa5d60083f9b9982e398cc3264b81458e404a98a9763ad11d"
+  },
+  {
+    "name": "source/transport/local_qualification.json",
+    "bytes": 745,
+    "sha256": "bcde3019d8a3378d788cb6fbabbe6f70dab6825d63dc493d28afce13c14980bd"
+  },
+  {
+    "name": "source/transport/manifest.json",
+    "bytes": 1334,
+    "sha256": "fcc9445ff4cde9c67156919fbf52f3eabae80c749a1a62f4a93e2721facac4f6"
+  },
+  {
+    "name": "source/transport/qualification.json",
+    "bytes": 3736,
+    "sha256": "5ad1b261e5046f0d254ab875079eca88710f7bc0c2321e8b9c7c88d3206ffeb9"
+  },
+  {
+    "name": "source/transport/remote_upload_receipt.json",
+    "bytes": 2347,
+    "sha256": "87403468ad7709bf4053ca7705f128b4a6f795772e12dc2bb2abc8204bcccb72"
+  },
+  {
+    "name": "source/进度.md",
+    "bytes": 366,
+    "sha256": "488d7720e0ad21560bcc23919213ee4a25cea5fe9555d6ce606c274d8e771284"
+  },
+  {
+    "name": "source.zip",
+    "bytes": 32387717,
+    "sha256": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666"
+  },
+  {
+    "name": "stdout.log",
+    "bytes": 20679,
+    "sha256": "2f295127266ad2bc2273d7e14206ca9e066706a820e3952dd5d81740d2f8e18c"
+  },
+  {
+    "name": "wrapper.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "wrapper.py",
+    "bytes": 1071,
+    "sha256": "644f2edfbbd5405bd2abda3c877c67fe12fb13176dea6fb8c9b6f7c240299ef5"
+  },
+  {
+    "name": "wrapper_exit.json",
+    "bytes": 135,
+    "sha256": "e31bcbabae66dcd93fb819a4658fb122abe12fc6c6e2c3dba782a5d8c9083d7c"
+  }
+]

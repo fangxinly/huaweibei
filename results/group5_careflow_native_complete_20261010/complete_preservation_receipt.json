@@ -1,0 +1,227 @@
+{
+  "status": "REAL_NATIVE_PRECHECK_CPU_AND_FULL_RELEASE_RESTORE_CLOSED",
+  "actual_UTC": "2026-10-10T04:44:46.500353+00:00",
+  "original_archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_complete_20261010T044358Z\\complete_actual_careflow_fold0_precheck_original.zip",
+  "archive_SHA": "5cd62bb5993bd8f47d6d2f6ddf15d752d78b86414e1ed625d2766312d0b7ef01",
+  "bytes": 2289681404,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "actual_GitHub_restoration": {
+    "status": "RELEASE_FULL_ORIGINAL_RANGE_CONTINUED_SHA_ZIP_VERIFIED",
+    "actual_UTC": "2026-10-10T04:39:56.083985+00:00",
+    "original_SHA": "5cd62bb5993bd8f47d6d2f6ddf15d752d78b86414e1ed625d2766312d0b7ef01",
+    "existing_prefix_bytes": 184549376,
+    "existing_prefix_SHA": "0e33908f80c4d7b1ed8a4d3d7db01345c1a95687d44912bc2a458382003595c3",
+    "ranges": [
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+        "start": 184549376,
+        "end": 251658239,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+        "start": 251658240,
+        "end": 318767103,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+        "start": 318767104,
+        "end": 385875967,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+        "start": 385875968,
+        "end": 452984831,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+        "start": 452984832,
+        "end": 520093695,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+        "start": 520093696,
+        "end": 536870911,
+        "bytes": 16777216
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 0,
+        "end": 67108863,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 67108864,
+        "end": 134217727,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 134217728,
+        "end": 201326591,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 201326592,
+        "end": 268435455,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 268435456,
+        "end": 335544319,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 335544320,
+        "end": 402653183,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 402653184,
+        "end": 469762047,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+        "start": 469762048,
+        "end": 536870911,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 0,
+        "end": 67108863,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 67108864,
+        "end": 134217727,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 134217728,
+        "end": 201326591,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 201326592,
+        "end": 268435455,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 268435456,
+        "end": 335544319,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 335544320,
+        "end": 402653183,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 402653184,
+        "end": 469762047,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+        "start": 469762048,
+        "end": 536870911,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 0,
+        "end": 67108863,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 67108864,
+        "end": 134217727,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 134217728,
+        "end": 201326591,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 201326592,
+        "end": 268435455,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 268435456,
+        "end": 335544319,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 335544320,
+        "end": 402653183,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 402653184,
+        "end": 469762047,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+        "start": 469762048,
+        "end": 536870911,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0004",
+        "start": 0,
+        "end": 67108863,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0004",
+        "start": 67108864,
+        "end": 134217727,
+        "bytes": 67108864
+      },
+      {
+        "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0004",
+        "start": 134217728,
+        "end": 142197755,
+        "bytes": 7980028
+      }
+    ],
+    "downloaded_bytes": 2289681404,
+    "destination": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_native_capture_20261010T041826Z\\GitHub_restored_complete_original.zip",
+    "whole_SHA": "5cd62bb5993bd8f47d6d2f6ddf15d752d78b86414e1ed625d2766312d0b7ef01",
+    "bytes": 2289681404,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 155
+  },
+  "original_PT_SHA": "8883bc80222c968c61d6a3cd40d5f8eb4a17fe8ddc8149557da431cce627bb71",
+  "formal_training_started": false,
+  "final_outputs_completed": 0,
+  "new_temporary_restored_duplicate_removed": true,
+  "original_relocated_C_to_D_verified": true,
+  "old_originals_untouched": true
+}

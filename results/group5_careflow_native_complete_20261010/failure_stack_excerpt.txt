@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "work/publish_group5_real_precheck_v1.py", line 29, in main
+    result=restore(manifest,json.loads((root/'Release_ranges_receipt.json').read_bytes()),root/'GitHub_restored_complete_original.zip')
+  File "work/group5_release_transport_v1.py", line 206, in restore
+    for data in blocks(stream):
+  File "work/group5_release_transport_v1.py", line 34, in blocks
+    data = stream.read(BLOCK if length is None else min(BLOCK, length))
+  File "http/client.py", line 494, in read
+    s = self.fp.read(amt)
+  File "socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+  File "ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+  File "ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out

@@ -1,0 +1,52 @@
+{
+  "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+  "actual_UTC": "2026-10-10T04:30:25.600478+00:00",
+  "whole_SHA": "5cd62bb5993bd8f47d6d2f6ddf15d752d78b86414e1ed625d2766312d0b7ef01",
+  "parts": [
+    {
+      "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+      "bytes": 536870912,
+      "digest": "sha256:e513bc598cca89279f882a20d14f01a8c1fe5117ac400266f094dbd5aa741c67",
+      "state": "uploaded",
+      "id": 626983724,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0000",
+      "offset": 0
+    },
+    {
+      "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+      "bytes": 536870912,
+      "digest": "sha256:117d9d5c6b3d7a3e9da6e955459a17039c742a7f5827da0e909246f048e9ddea",
+      "state": "uploaded",
+      "id": 626987187,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0001",
+      "offset": 536870912
+    },
+    {
+      "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+      "bytes": 536870912,
+      "digest": "sha256:311123a6ecbf9cec8e35b7d5ec4320b583f2f780b547da20f18674d199294a60",
+      "state": "uploaded",
+      "id": 626990595,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0002",
+      "offset": 1073741824
+    },
+    {
+      "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+      "bytes": 536870912,
+      "digest": "sha256:444a2e26d0bf23755dacba09fa20d6f9fea617802482c8499bf4d155b0e92f1f",
+      "state": "uploaded",
+      "id": 626993612,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0003",
+      "offset": 1610612736
+    },
+    {
+      "name": "group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0004",
+      "bytes": 142197756,
+      "digest": "sha256:5efc9fc2c5db3f8e6e443b463d0673c54976840ddeeb45d29ee20a37967191a7",
+      "state": "uploaded",
+      "id": 626996245,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-careflow-fold0-native-precheck-5cd62bb5993b.zip.part0004",
+      "offset": 2147483648
+    }
+  ]
+}
