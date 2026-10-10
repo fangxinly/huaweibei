@@ -1,0 +1,24 @@
+{
+  "actual_UTC": "2026-10-10T03:16:21.749457+00:00",
+  "local": {
+    "actual_UTC": "2026-10-10T03:16:21.747950+00:00",
+    "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+    "destination": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5transport_20261010T031621Z\\local_restored.zip",
+    "whole_SHA": "6dc74f25d95239ec998181a4e952731640f688e611a074e1372fce894cffacb0",
+    "bytes": 2097814,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 2
+  },
+  "negative_checks": [
+    "missing",
+    "duplicate",
+    "wrong_SHA",
+    "wrong_size",
+    "starter",
+    "gap",
+    "overlap",
+    "download_corruption"
+  ],
+  "scientific_execution": false,
+  "real_network_qualified": false
+}

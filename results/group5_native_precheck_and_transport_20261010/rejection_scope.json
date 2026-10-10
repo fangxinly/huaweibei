@@ -1,0 +1,14 @@
+{
+  "recorded_actual_UTC": "2026-10-10T04:12:19.813558+00:00",
+  "failure_timestamp_not_reconstructed": true,
+  "tool": "write_stdin",
+  "session_id": 23105,
+  "action": "Upload separate CPU audit source and invoke CPU-only original checkpoint audit",
+  "exact_error": "write_stdin rejected: terminal input and permission details are too large to review safely; use a smaller input or start a new terminal with fewer grants",
+  "remote_execution_confirmed": false,
+  "CPU_audit_executed": false,
+  "authentication_failure": false,
+  "smaller_input_or_other_connection_not_attempted": true,
+  "later_human_or_permission_change_required_before_remote_retry": true,
+  "record_origin": "Exact rejection text retained across context compaction; no full original failed tool object available"
+}

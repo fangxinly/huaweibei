@@ -1,0 +1,1 @@
+write_stdin rejected: terminal input and permission details are too large to review safely; use a smaller input or start a new terminal with fewer grants

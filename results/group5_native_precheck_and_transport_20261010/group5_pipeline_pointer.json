@@ -1,0 +1,33 @@
+{
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5pipe_20261010T032228Z",
+  "source_root": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5pipe_20261010T032228Z\\source",
+  "proof": {
+    "actual_UTC": "2026-10-10T03:22:30.458671+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5pipe_20261010T032228Z\\source\\source.zip",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "bytes": 32387717,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 133
+  },
+  "Release": {
+    "remote_digest_verified": true,
+    "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+    "whole_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "range_receipt": {
+      "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+      "actual_UTC": "2026-10-10T03:22:38.944541+00:00",
+      "whole_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+      "parts": [
+        {
+          "name": "group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+          "bytes": 32387717,
+          "digest": "sha256:f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+          "state": "uploaded",
+          "id": 626882569,
+          "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+          "offset": 0
+        }
+      ]
+    }
+  }
+}

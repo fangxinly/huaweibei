@@ -1,0 +1,38 @@
+{
+  "schema": "GROUP5_CONTIGUOUS_ORIGINAL_V1",
+  "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5transport_20261010T031621Z\\fixture\\original.zip",
+  "bytes": 2097814,
+  "whole_SHA": "6dc74f25d95239ec998181a4e952731640f688e611a074e1372fce894cffacb0",
+  "parts": [
+    {
+      "name": "group5-transport-fixture-6dc74f25d952.part0000",
+      "offset": 0,
+      "bytes": 524288,
+      "SHA": "f77859a2a65f9255c408c3dd4d23ef00dbdbaaca727ad4cd2a3be4bcb897fb00"
+    },
+    {
+      "name": "group5-transport-fixture-6dc74f25d952.part0001",
+      "offset": 524288,
+      "bytes": 524288,
+      "SHA": "379df68f85eb0c7362d86e896c869f06ecc0f052eaed4b1e04b4ffd1e00f8704"
+    },
+    {
+      "name": "group5-transport-fixture-6dc74f25d952.part0002",
+      "offset": 1048576,
+      "bytes": 524288,
+      "SHA": "379df68f85eb0c7362d86e896c869f06ecc0f052eaed4b1e04b4ffd1e00f8704"
+    },
+    {
+      "name": "group5-transport-fixture-6dc74f25d952.part0003",
+      "offset": 1572864,
+      "bytes": 524288,
+      "SHA": "379df68f85eb0c7362d86e896c869f06ecc0f052eaed4b1e04b4ffd1e00f8704"
+    },
+    {
+      "name": "group5-transport-fixture-6dc74f25d952.part0004",
+      "offset": 2097152,
+      "bytes": 662,
+      "SHA": "477aa54ff3190847ff31f82503ad3de13a2072f172660c4f2ee1a25df94851a6"
+    }
+  ]
+}

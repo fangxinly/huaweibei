@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T04:13:45.168393+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_native_review_block_20261010T041219Z\\complete_actual_native_precheck_block_metadata.zip",
+  "source_SHA": "e3c59de2fe077b7d4d851e08e68e205356d4984483f3c04fd097ff3c5b4beb9f",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "group5-native-review-block-e3c59de2fe07.zip",
+  "id": 626966448,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-native-review-block-e3c59de2fe07.zip",
+  "remote_digest_verified": true
+}

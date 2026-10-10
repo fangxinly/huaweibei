@@ -1,0 +1,86 @@
+{
+  "status": "SYNTHETIC_RELEASE_RANGES_FULL_DOWNLOAD_RESTORED",
+  "actual_UTC": "2026-10-10T03:16:34.767471+00:00",
+  "original": {
+    "actual_UTC": "2026-10-10T03:16:21.687732+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5transport_20261010T031621Z\\fixture\\original.zip",
+    "archive_SHA": "6dc74f25d95239ec998181a4e952731640f688e611a074e1372fce894cffacb0",
+    "bytes": 2097814,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 2
+  },
+  "remote": {
+    "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+    "actual_UTC": "2026-10-10T03:16:29.026944+00:00",
+    "whole_SHA": "6dc74f25d95239ec998181a4e952731640f688e611a074e1372fce894cffacb0",
+    "parts": [
+      {
+        "name": "group5-transport-fixture-6dc74f25d952.part0000",
+        "bytes": 524288,
+        "digest": "sha256:f77859a2a65f9255c408c3dd4d23ef00dbdbaaca727ad4cd2a3be4bcb897fb00",
+        "state": "uploaded",
+        "id": 626872086,
+        "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-transport-fixture-6dc74f25d952.part0000",
+        "offset": 0
+      },
+      {
+        "name": "group5-transport-fixture-6dc74f25d952.part0001",
+        "bytes": 524288,
+        "digest": "sha256:379df68f85eb0c7362d86e896c869f06ecc0f052eaed4b1e04b4ffd1e00f8704",
+        "state": "uploaded",
+        "id": 626872111,
+        "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-transport-fixture-6dc74f25d952.part0001",
+        "offset": 524288
+      },
+      {
+        "name": "group5-transport-fixture-6dc74f25d952.part0002",
+        "bytes": 524288,
+        "digest": "sha256:379df68f85eb0c7362d86e896c869f06ecc0f052eaed4b1e04b4ffd1e00f8704",
+        "state": "uploaded",
+        "id": 626872151,
+        "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-transport-fixture-6dc74f25d952.part0002",
+        "offset": 1048576
+      },
+      {
+        "name": "group5-transport-fixture-6dc74f25d952.part0003",
+        "bytes": 524288,
+        "digest": "sha256:379df68f85eb0c7362d86e896c869f06ecc0f052eaed4b1e04b4ffd1e00f8704",
+        "state": "uploaded",
+        "id": 626872189,
+        "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-transport-fixture-6dc74f25d952.part0003",
+        "offset": 1572864
+      },
+      {
+        "name": "group5-transport-fixture-6dc74f25d952.part0004",
+        "bytes": 662,
+        "digest": "sha256:477aa54ff3190847ff31f82503ad3de13a2072f172660c4f2ee1a25df94851a6",
+        "state": "uploaded",
+        "id": 626872210,
+        "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-transport-fixture-6dc74f25d952.part0004",
+        "offset": 2097152
+      }
+    ]
+  },
+  "restored": {
+    "actual_UTC": "2026-10-10T03:16:34.767471+00:00",
+    "status": "RELEASE_FULL_ORIGINAL_RESTORED_SHA_ZIP_VERIFIED",
+    "destination": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5transport_20261010T031621Z\\actual_remote_restored.zip",
+    "whole_SHA": "6dc74f25d95239ec998181a4e952731640f688e611a074e1372fce894cffacb0",
+    "bytes": 2097814,
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 2
+  },
+  "negative_checks": [
+    "missing",
+    "duplicate",
+    "wrong_SHA",
+    "wrong_size",
+    "starter",
+    "gap",
+    "overlap",
+    "download_corruption"
+  ],
+  "part_bytes_for_real_checkpoints": 536870912,
+  "actual_large_checkpoint_or_CPU_qualification": false,
+  "scientific_execution": false
+}

@@ -1,0 +1,16 @@
+{
+  "status": "ALL_RANGES_REMOTE_DIGEST_VERIFIED_RESTORE_PENDING",
+  "actual_UTC": "2026-10-10T03:22:38.944541+00:00",
+  "whole_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+  "parts": [
+    {
+      "name": "group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+      "bytes": 32387717,
+      "digest": "sha256:f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+      "state": "uploaded",
+      "id": 626882569,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/group5-direct-teacher-runtime-f37d3ebfcb26.zip.part0000",
+      "offset": 0
+    }
+  ]
+}
