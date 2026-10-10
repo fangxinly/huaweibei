@@ -1,0 +1,37 @@
+{
+  "actual_UTC": "2026-10-10T12:14:28.730452+00:00",
+  "status": "PREPARATION_PRESERVED_NO_NEW_FORMAL_TRAIN_DISPATCH",
+  "methods": [
+    "anchored_message20",
+    "old_fixed_A",
+    "factorized_aux",
+    "regression_aux",
+    "careflow"
+  ],
+  "rows": 2195,
+  "videos": 93,
+  "final_method_fold_outputs_required": 25,
+  "training_stages_required": 35,
+  "preserved_unscored_method_fold_predictions": 1,
+  "outer_score_outputs": 0,
+  "historical_TEST_selected_exploratory_repartition_CV": true,
+  "new_blind_test": false,
+  "source_AST_passed_files": 9,
+  "scientific_source_imported": false,
+  "new_dataset_array_or_target_decode": false,
+  "new_model_fit_inference_score": false,
+  "new_training_or_scoring_once_consumed": false,
+  "prior_tool_observations": {
+    "composite_history_10_synthetic_cases_passed": true,
+    "pooled_score_10_synthetic_cases_passed": true,
+    "scope": "Earlier tool executions in this turn, not new executions or reconstructed original receipts."
+  },
+  "composite_full_model_Adam_RNG_resume_executed": false,
+  "composite_CUDA_resume_executed": false,
+  "composite_resume_helper_integrated_into_runtime": false,
+  "composite_runtime_v1_continues_to_reject_resume": true,
+  "composite_native_and_parent_original_qualification_pending": true,
+  "all_25_original_scoring_preflight_not_passed": true,
+  "human_new_valid_lease_question_already_pending": true,
+  "no_inferred_extension_or_renewal": true
+}

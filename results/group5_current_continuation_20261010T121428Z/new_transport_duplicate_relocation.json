@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-10T12:14:08.322417+00:00",
+  "from_new_transport_copy": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\group5_N1_first_redundant_capture_preserved_20261010T1150Z\\complete_actual_N1_public_runtime_metadata.zip",
+  "to_new_transport_copy": "D:\\CodexBackups\\selective_flow_20261003_1105\\g5_N1_runtime_complete_20261010T114358Z\\new_first_capture_returned_after_native_closure.zip",
+  "whole_SHA": "c004a2ce8df57985b02401a1dd1057a6d38d67b6f41ff21f5be9b530a68b14ec",
+  "bytes": 447928462,
+  "exact_bytes_verified_before_source_temporary_copy_removed": true,
+  "remote_original_unchanged": true,
+  "old_originals_not_moved_or_removed": true
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "group5_composite_components_v1.py",
+    "SHA": "faaae726d6eb9418f0bbcc7960bf4135159387a1ab9b66333978909a30a288b4",
+    "bytes": 10508
+  },
+  {
+    "name": "group5_composite_runtime_v1.py",
+    "SHA": "a60e9c466aaef0ec791dc4218b5461d3baa16654bb5d6bb98d6c0eb766d481e9",
+    "bytes": 21445
+  },
+  {
+    "name": "group5_composite_CPU_audit_v1.py",
+    "SHA": "4560414d7fa47c16531de901d4d01bddf733e851b3af02f8545e299f2da4c746",
+    "bytes": 10178
+  },
+  {
+    "name": "group5_composite_epoch_resume_v1.py",
+    "SHA": "127aae5d3480d053d787aad8dd7926e4c98614d64a8bc8d1988a0badfaa7a9b6",
+    "bytes": 5666
+  },
+  {
+    "name": "check_group5_composite_resume_history_v1.py",
+    "SHA": "bc4dc27f4374e6adb7a3c2de34908442ea3198c51c711f542dd7f4b967eb49fa",
+    "bytes": 1370
+  },
+  {
+    "name": "group5_pooled_score_v1.py",
+    "SHA": "c7b7af91ee1155bbacca08e59d2e419943a771dd637cdfc76aa63a8c424f02ce",
+    "bytes": 13336
+  },
+  {
+    "name": "check_group5_pooled_score_v1.py",
+    "SHA": "b3d457facaa308b0afd242186a86a169ed6f7e5d19a1b8aca0c042475dbbe5b0",
+    "bytes": 7052
+  },
+  {
+    "name": "freeze_group5_careflow_after_native_v1.py",
+    "SHA": "3b4bf6778a02465231fa4d273421b2853a445f6501b515da8d29e2a736dfa466",
+    "bytes": 7065
+  },
+  {
+    "name": "preserve_group5_current_continuation_v1.py",
+    "SHA": "e61a2c3ced1fce4dc6e70dcee05fc5fc921ea180d2eef84506032ea5c85559f9",
+    "bytes": 9350
+  }
+]

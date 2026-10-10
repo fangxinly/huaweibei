@@ -1,0 +1,8 @@
+{
+  "original_gate_retained_unchanged": true,
+  "reason": "Initial estimate ended at the result receipt. The current gate includes the original complete observed wrapper lifetime through natural exit.",
+  "current_total_stage_budget_seconds": 10260,
+  "original_total_stage_budget_seconds": 10260,
+  "dispatch_decision_changed": false,
+  "new_scientific_execution": false
+}
