@@ -1,0 +1,13 @@
+这是最终 TEST 的流程准备，未冻结执行源、未访问 TEST entry/ID/标签、未执行推理或评分。
+
+固定研究方法仍是 minimal_fixed_F 的直接终端输出，固定 CaReFlow 对照仍是这批预先指定的作者配置。各自只用共同 DEV 批 MSE strict minimum、平局最早选出的整模型：F 第89轮，CaReFlow 第93轮。不能由后续 DEV 五项或 TEST 更换 checkpoint、阈值、读出、结构、seed、供体、归一化或预训练资产。旧201的九读出不参与此正式比较。
+
+前置依赖是双方四个真实完成门：原GPU自然0、D整selected和resume全文件SHA/CRC/唯一、异节点B原CPU整model/Adam/scheduler/RNG/4000订单/100DEV预测历史审核自然0及完整capture联合、各自fresh公共实例载入整selected的229行无标签dummy0/7/state/allRNG严格重放自然0与D联合。两个方法均完成后，将真实训练joint、fresh joint、selected whole SHA、来源runtime和公共资产SHA写入新完整最终协议；当前这些未来完成证据不能提前填成通过。
+
+最终协议需单独冻结所有执行源、输入/标签守卫、原作者预处理、固定batch128并保留尾批、全部官方TEST行的ID和原顺序/尺度验证、预算和一次评分规则。使用原固定mosi.pkl文件SHA与双方相同公共资产，不丢弃neutral、不按视频或行挑子集。TEST input-only阶段只使用feature和ID、dummy标签；显式记录trusted整pickle反序列化可能物化其他角色字节。真实TEST标签应只在双方唯一输出物理SHA冻结并完整保存核验后作一次共同评分。不能声称历史TEST从未被访问：旧baseline runner在DEV选择后曾访问一次TEST。
+
+全部五项必须共享每个方法的同一个checkpoint和预测：Acc7 clip-round全行；Acc2/F1排除真值恰0、预测>=0为正、support-weighted F1；MAE与Pearson用原始未裁剪值。统一FP64聚合，四项更高且MAE更低，使用未舍入结果严格判断，任何一项不满足都不能报告五项超过。必须完整报告双方五项和所有失败项；不能把不同模型的最佳指标拼在一起。
+
+资源门仍要求可信第二租期预算、5分钟内原UUID/compute/fullargv/source/assets/完成/空间实际证据和执行加至少2小时保存余量。第二租期保守结束为2026-10-07 UTC13:30，属于执行假设，未获平台确认。09:30/11:30/13:00强化动态保存仍待实际执行，已经完成的原件不能重跑或重传冒新的capture。
+
+这批共同100轮/4000更新、顺序、选模规则可匹配；架构参数量和真实耗时仍不同，不冒相同容量、论文原配方、稳定5seed或全新独立确认。F选模MSE较差只是一项已探索DEV结果，不由此改方案，也不以MSE代替五指标。当前源和协议还未正式冻结；完成保存后才可进行最终执行源与守卫审核。

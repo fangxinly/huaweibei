@@ -1,0 +1,7 @@
+固定作者公开 MOSI 缓存的 TEST 零标签身份实际完成：A child3521 UTC04:10:56.415690自然0，B原CPU child32123 UTC04:14:45.917733自然0。双方1281 TRAIN/229 DEV/685 TEST原ID、完整行序、词级输入布局及原输入摘要严格一致；未索引任何角色标签，未生成TEST预测或做模型前向。trusted整pickle可能物化所有角色字节，不冒安全沙箱或历史TEST从未访问。
+
+A原capture child3638实际04:11:43.993233 COMPLETE、04:11:44.022002自然0，共20成员；B原capture32191实际04:15:39.699857 COMPLETE、04:15:39.728667自然0，共22成员。两侧receipt-first D完整ZIP SHA/CRC/唯一/所有原成员/source/fullargv/PID/自然退出/原native UUID、空compute、全公共资产、空间和保存余量联合通过。B关联的是A真实D保存原件 SHA，不是人工JSON假资格；不是CPU模型前向。大模型没有重下载或改写。
+
+来源短证据已原样保存：CaReFlow作者commit5c9f9c7...的README和datasets/download_datasets.sh字节与原official_manifest一致；download脚本内MOSI Dropbox URL与原download_manifest相同，记录数据SHA5c3cc6.../14158784字节，并与本轮A/B原公共整资产实际SHA核验一致。因此固定比较使用作者提供的1281/229/685预处理缓存，不能换旧1284/229/686预提取特征数据或把两版本横比。这里未证明原始SDK全部ID覆盖或论文未舍入预测等价。
+
+本批A SSH92518/SFTP92679、B SSH11700/SFTP2696全部明确exit/bye实际0，关闭ID禁复用；C未fresh，不冒三机实时。两个固定best F89/C93与已选模DEV五项负结果不变。下一步按真实共同685 ID、原作者batch128保尾批与固定直接输出，另冻完整模型还原/推理/原CPU数组审核/自然capture/D保存/一次共同五项评分来源。最终预测和真实TEST标签评分未执行，整体五项全面超过以及租期09:30/11:30/13:00实际强化保存未完成。

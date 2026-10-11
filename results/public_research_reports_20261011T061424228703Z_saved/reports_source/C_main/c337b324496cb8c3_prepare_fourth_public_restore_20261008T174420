@@ -1,0 +1,37 @@
+"""Prepare this lease's public-only restoration; never start training."""
+import ast, hashlib, json, shutil, zipfile
+from pathlib import Path
+BASE = Path(__file__).resolve().parents[1]
+ROOT = BASE / 'work/fourth_public_restore_20261008T174420Z'
+ROOT.mkdir(exist_ok=False)
+sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
+old = json.loads(Path('D:/CodexBackups/selective_flow_20261003_1105/third_lease_public_restore_20261007T141430Z/third_lease_public_restore_plan.json').read_text(encoding='utf-8-sig'))
+source = (BASE / 'work/restore_third_lease_public.py').read_text(encoding='utf-8-sig')
+source = source.replace('THIRD_LEASE_PUBLIC_ASSETS_PRIVATE_RUNTIME_COMPLETE', 'FOURTH_LEASE_PUBLIC_ASSETS_PRIVATE_RUNTIME_COMPLETE')
+source = source.replace("assert not compute.strip()", "assert not compute.strip()\nassert shutil.disk_usage('/data').free >= 8*1024**3\nassert (datetime.datetime.fromisoformat(plan['conservative_lease_end_UTC'])-datetime.datetime.now(datetime.timezone.utc)).total_seconds() > 7200+1800")
+ast.parse(source)
+(ROOT/'restore_public.py').write_text(source, encoding='utf-8')
+plan = {
+    'status': 'FOURTH_LEASE_PUBLIC_ONLY_RESTORE_FROZEN_NO_TRAINING',
+    'actualclock_preparation_UTC': '2026-10-08 17:44:20 UTC',
+    'public_archive_SHA': '9ba39814c6969667ab4b256f6718d839328c44d33142ade4a0a64c7725affa8d',
+    'wheel_archive_SHA': '735be36344370cc3e2119ad6da5e62e60ff538bfc84374d5d92d04ef9100ed39',
+    'asset_sha256': old['asset_sha256'],
+    'runtime_exact_versions': old['runtime_exact_versions'],
+    'public_root': '/data/coding/multimodal_flow_public_20261008T174420Z',
+    'remote_record_prefix': '/data/coding/fourth_public_restore_20261008T174420Z',
+    'restore_source_SHA': sha(ROOT/'restore_public.py'),
+    'conservative_lease_end_UTC': '2026-10-09T15:00:00+00:00',
+    'lease_end_platform_confirmed': False,
+    'nodes': {'A': {'uuid': 'GPU-cf38498b-a118-7e1a-45f1-0b5502b36cde'}},
+    'old_task_weights_restored': False,
+    'labels_decoded': False,
+    'training_authorized_by_this_plan': False,
+    'old_restore_plan_execution_fields_reused': False,
+}
+(ROOT/'public_restore_plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
+with zipfile.ZipFile(ROOT/'source.zip','x',zipfile.ZIP_DEFLATED) as z:
+    for n in ('restore_public.py','public_restore_plan.json'): z.write(ROOT/n,n)
+with zipfile.ZipFile(ROOT/'source.zip') as z:
+    assert z.testzip() is None and len(set(z.namelist())) == len(z.namelist())
+print(json.dumps({'root':str(ROOT),'source_SHA':plan['restore_source_SHA'],'plan_SHA':sha(ROOT/'public_restore_plan.json'),'zip_SHA':sha(ROOT/'source.zip')}))

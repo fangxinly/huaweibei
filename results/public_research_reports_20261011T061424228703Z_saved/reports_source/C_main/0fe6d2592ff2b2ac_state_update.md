@@ -1,0 +1,2 @@
+最新本地数学/原CSV实核 2026-10-08 12:11:14 UTC：先读《负gain几何与线性对照实际接续.json》及negative_gain_review_20261008T120614Z报告/补充说明。四历史FIT/INNER CSV原SHA过，负gain四行MSE/w*复现；best36 INNER gain-.8055668 vs事后w*-.4007926，多.03347877 MSE；FIT固定无约束权重迁移INNER MAE.6286086/仅校准b.6301674/原p.640391，皆历史已选模诊断，非官方VALTEST/真实OOF/新独立确认，不择部署。MSE二阶相关与Pearson分开；c<a为凸混合精确判据，负权重不自动证明无信息，旧b非文本/同流p0。新线性对照源（无约束1参数/校准2参数/校准+剩余delta3参数）本地NumPy合成自然0，视频/CAL泄漏拒绝，纯仿射delta退回校准；未原Torch/真实OOF/新VALTEST，原residual_direction_v2冻源不改。小件D完整SHA/ZIPCRC/唯一原件保存；C约1.10GB/D.344GB，保守租期14:00已不足完整队列+2h保存，不启动训练/续租/额外删旧件；原10min及整体未完成保持。以下历史。
+

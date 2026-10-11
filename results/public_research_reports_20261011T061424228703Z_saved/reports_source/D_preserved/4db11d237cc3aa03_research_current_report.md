@@ -1,0 +1,5 @@
+A 的100轮/4000逻辑更新完整归档已通过异节点C审核：345 Adam状态均为4000，100轮严格earliest选模复核，第73轮CPUflow最大误差3.337860107421875e-06。审核原包SHA5161a0a4dd40ef5db0267973bb43d1d1ff90a8378b3641e545cc2b843055dfd2，完整D及Release保存。
+A 同选定checkpoint官方VAL229/TEST685输入预测于UTC08:25:45自然0；NPZ SHA ece085400c2c80ac8b42f238b719a4c7ee8553ff4fe2fa7bb818d6e73f159d4f，原包SHA404c0991ecc2c89d98ffdcf0abac4ad4fdcdcff82f1e6eb1da9ef214408d7f6e，D+Release保存；C原数组字节审核832自然0，真实标签未参与，全部参数/RNG未变。
+A 五项stage仅冻结并上传source，UTC14:42原远端只读确认score root及once token均不存在，没有实际评分结果。
+B 新Range820于UTC08:34:50自然1，连续三次HTTP网络错误；最后分片收到268435456/346223606字节，还差77788150字节。失败原ZIP SHA301805083f0113ee1a9a008ea18b377b5e19c6d4a6e9b6b462b4be15f4156a06完整D SHA/CRC/unique/member通过，未完成CPU审核。
+保守租期UTC15:00/北京时间23:00来自人类24h，非平台确认。当前不足执行加2h保存余量，未启动新远端阶段，不续租/释放/关机。所有已完成训练完整原ZIP及Release仍保留。新正式VAL/TEST五项、两臂比较、总体超过及全数据视频五折未完成；选模MSE不当MAE，TEST不择结构。额外实际重放A3493/B3473仍披露，非独立重复。

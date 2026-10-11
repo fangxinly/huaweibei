@@ -1,0 +1,7 @@
+固定作者TEST685双方完整预测、原CPU数组、完整capture/D联合与一次共同五项源码协议已冻结，15合成测试和真实父证据/源码计划门均自然0，全原件已D SHA/CRC/唯一保存。
+
+未进行远程执行、实际TEST模型前向或真标签评分。固定F89/C93、batch128保留45尾批，两次dummy0/7同输入不训练；25运行时版本与公共资产须fresh真实复核。双方物理预测完整D+异节点CPU捕获联合过后，才另绑两预测SHA并持久一次标签intent评分，失败保留并停止，不改nonce/根/读出/模型。历史TEST访问不抹去；这是作者685行缓存共同固定比较，不声称原始SDK686/论文未舍入原预测或稳定5seed。
+
+D：D:\CodexBackups\selective_flow_20261003_1105\paired_final_TEST_pipeline_frozen_20261007T043535Z
+execution plan SHA：f41d05150d5ff1522c45508869981ea9e878aa75327e79f8a6895a0323ef62b6
+seal SHA：11803123b6c5fd9c5daf6ccc5fa29f4981e4c5f787f2473781c927448e1dfb90

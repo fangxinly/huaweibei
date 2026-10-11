@@ -1,0 +1,52 @@
+# 多模态情感流模型研究接续
+
+## 最新状态优先：2026-10-05北京时间10:57
+
+本轮fresh重新认证仅A/B/C三P4，02:56:35Z实际28/30/27轮；PID5265/5579/9328完整argv仍一致，GPU UUID正确、6298/6300/6300MiB、99/97/100%，compute非空。新history严格扩展025210Z，所有源/协议/初始SHA/100批次订单/训练目标恒等式通过独立本地审核。最新证明`门控条件流运行核验_20261005025635Z.json`；下一previous为 work/live_20261005025635Z。训练正常、无完成结论，不重复启动任务。none门仍0，state/task约±0.014；这些仅中途观察，不能提前选胜者。远端空闲空间38.49/40.21/37.00GB，本地C5.245GB/D0.997GB。未来新weights仍D一/C两，每次再实查。六条fresh连接已全部exit/bye且真实exit0，证明`监管连接关闭核验_20261005025635Z.json`。本轮新snapshot/proofs/最终状态另存D新目录并逐文件SHA核验；未重复传旧大weights。
+
+本turn六条交互连接已明确exit/bye并真实exit_code0关闭，证明`接续连接关闭核验.json`；未停止detach健康训练，后续须fresh认证，不复用以下历史sessionID。93份新增小metadata/源码已保存D:/CodexBackups/selective_flow_20261003_1105/continuation_20261005T0253Z/metadata.zip，13,958,717bytes，SHA0e8e968a7e830a96dd1fcbe6e34f317e841d3ca1ce3f24b52bf9c942b78ebac0。D所有ZIP成员/原文件核验通过，独立B节点 /data/coding/selective_flow/continuation_preservation_20261005T0253Z CPU全ZIP和93成员SHA也通过；已下载目标proof与本地manifest逐项相符，见`接续资料独立保存核验.json`。该ZIP捕获于关闭连接前；此后的关闭证明、最终状态和目标receipt另追加保存在D，勿声称这些晚生成文件已被该ZIP覆盖。
+
+02:52:07–10Z最新实际snapshot：A none18轮、B state19轮、C task18轮，三个原启动PID仍匹配完整argv，GPU6298/6300/6300MiB、99/97/82%，history相对024444Z严格扩展；源/协议/初始化/全部订单/目标恒等式核验通过。最新证明`门控条件流运行核验_20261005025210Z.json`，最新capture目录 work/live_20261005025210Z。下一次previous用此新目录。最终性能与未来完整weights未验证。
+
+已有十分钟heartbeat automation已实际迁到当前聊天，ACTIVE，target_thread_id正确；原169809字符prompt缩为1081字符，读取UTF8 TOML核对成功。旧automation-2仍PAUSED。最新状态文档和小metadata将在本turn附加保存，连接关闭证明另存；日常不变状态静默，实质结果/失败/必要用户行动才通知。
+
+旧seed91811三份新完整权重的本地与独立租期节点七文件SHA已全部通过，详见`新增三份权重保存核验.json`。新冻结诊断已完成：default/off重放逐点一致，完整模型state和checkpoint SHA不变；本地全部数组与平方误差恒等式审核通过。文档`条件流实验分析.md`与`条件流实验核验与诊断.json`记录实际结果。
+
+新的门控v3已完成真实GPU检查与本地独立核验，随后实际启动100轮训练：A none PID5265（02:43:29.670951Z），B state5579（02:43:30.776216Z），C task9328（02:43:31.924901Z）。只有这三个新run在训练，勿重复启动。seed91812，每接收模态一个tanh门，初始化0，同构三参数；门进入第二Euler步及原FM/backward目标。它是优化对照，非逐样本贡献/冲突真值。旧seed91811与新seed91812不能直接做门控的公平比较，新匹配none控制才有效。
+
+当前新远端根：/data/coding/selective_flow/inflow_gated_v3_deployment_20261005T0241Z，run_none|state|task。本地源在当前工作区 work/inflow_gated_v3_20261005T0241Z；plan.json预写预算与限制。整模型初始SHA0fd75bc483805cc495c6427897ecb75863fe30e3e3cb47542409f72d5e677c7c；流模块849ee16039c19e2fabd229102a824ec6d185f29f914a17ccd36a94b546825958；订单8eb6e1577f0a8c407aab9f0d6c9dee22ec6bb96a20496e7ea8fec798334d529b。四源run_inflow_conditions_v3.py SHA36bf6bfbf21eff0f9748d944357acef9df340b7022994447835b50a9f97e8f54；conditional_flow_model.py bbbfbe8cbbdfd5031170ab4dcced2e323bf2b923241286bf9109ce6a748fa1ec；legacy/encoder与旧源字节一致。
+
+实际02:44:44Z首次snapshot三组均2轮，A6298MiB97%/B6300MiB99%/C6300MiB80%，实际完整argv、训练PID、非空compute、source、初始化、100订单、protocol、weighted objective/observer恒等式均由 work/audit_gated_snapshot.py 严格通过。none门0；state/task门已有约1e-5量级非零学习。2轮不是最终性能。
+
+最新capture工具远端 /data/coding/selective_flow/capture_continuation_v1_20261005T0245Z.py SHAab4837fbf62c5fdda9fbf7738cae5745082c4a703132bdb9c54b480530c8d6d7，当前work/capture_continuation.py同SHA。CLI Bpy script --stamp新唯一UTC。捕获v2、v3、诊断、轮转新独立权重副本metadata，不含任何完整.pt。旧研究根最后保存仍另用原 outputs/parallel_gpu_20261003_1800/capture_repeat_live_20261004T0658Z.py（SHAeacbc5e3b7ad2122a3d7d2017ecfa96220497ab335b5687c48836f9048743c0a）；需读原源码参数和新snapshot实际核验，不能用旧live预期审核已完成旧任务。
+
+最新本地snapshot目录 work/live_20261005024444Z/{a,b,c}/snapshot.zip,proof.json。下一routine先fresh新capture下载到新目录，再 `BUNDLED_PYTHON work/audit_gated_snapshot.py --directory 新目录 --stage live --previous work/live_20261005024444Z --out 新proof`；真实100完成改complete而非live，三个新的--checkpoint-a/b/c参数需本地完整新.pt。完成阶段工具已AST并在live分支实际使用；complete分支尚未用于未来数据，不称未来已通过。完成后提取新6metadata+新weight、流式全SHA/100minselection/官方229/allmetrics，再独立轮转exact7files CPU目标SHA，下载proof与source manifest逐项核验。
+
+本地空间最近C约5.25GB/D约1.01GB；每次fresh查。未来三新大weights优先D一份/C两份，保留所有已存旧文件，不删除腾空间。小metadata/CPU保存与训练并行。原三个fresh SSH/SFTP仍暂时开着，本turn结束前明确exit/bye；不得把旧sessionID当跨turn可信连接。
+
+总体research与lease-final仍未完成。新门控仍可能退化为无条件，梯度小不代表有效；完成后先分析门值、训练差异和dev净效用，再决定有依据的下一实验，不能提前五seed确认或TEST选模型。原需求是在流中识别任务相关共享/补充/干扰并反馈后续流；全球三标量门只回答优化问题。
+
+接续自聊天 Summarize multimodal emotion studies（01a0f6eb-6bf5-71e2-96f0-176b880d6a53）。当前聊天 01a109db-b31a-78d3-82f7-282321c5bf58。原聊天因169985字符heartbeat反复上下文溢出；历史不能重新整段注入。
+
+原研究工作区：C:/Users/21234/Documents/Codex/2026-10-01/1-zhang-s-yang-y-chen。主要新源：outputs/own_flow_v6_followup/inflow_conditions_v2_20261004T2140Z。用户授权持续自主研究、数学推导、实验、结果分析和动态保存；允许有效自定义模型，不要求始终从V6起步。用户选定MOSI官方划分、五随机种子，而非重新划分五折。
+
+北京时间2026-10-05 10:24重新实查旧seed91811三台P4：none/state/task均100轮完成，完成marker存在、无Traceback、旧训练PID退出、当时compute为空、GPU0MiB。随后新seed91812已启动，当前GPU忙。实际snapshot非原子；每个文件稳定读取并核验。
+
+本地新保存根 D:/CodexBackups/selective_flow_20261003_1105/inflow_conditions_20261005022433Z。a,b完整best.pt在各node/run，c完整best.pt在 C:/Users/21234/Documents/Codex/2026-10-05/ni/work/inflow_conditions_20261005022433Z/c/best.pt。三份各743476486bytes已流式全SHA通过。每个node/completion_audit.json核验100轮最小devbatchMSE选模、旧2210history严格prefix、固定源/初始化/所有100批次订单、官方229标签及所有default/off指标。独立租期副本rotate A←B/B←C/C←A已经完成目标CPU七文件全SHA核验并下载proof。
+
+探索性开发集结果：none best46 MAE0.5897007585/MSE0.70372856；state best80 MAE0.6204770207/MSE0.74274501；task best81 MAE0.6273192167/MSE0.75449023。同权重条件关闭：state MAE0.62194771/MSE0.7311340；task MAE0.62560540/MSE0.74319735。单seed91811且mode绑定node，不能称稳定劣势、语义识别或SOTA。state条件小幅改善MAE但恶化MSE，task关闭略好；后续优先分析逐例变化及后续速度场条件利用机制，不直接五seed扩展失败候选。
+
+节点（仅这三台可连接）：
+- A REDACTED_SERVER_HOST.invalid:53439/root，GPU-5902bbd4-2328-0822-777c-1311d53ee5a3。
+- B REDACTED_SERVER_HOST.invalid:53450/root，GPU-c65ea6c9-c9b4-d2d8-a1ab-5867662ed26d。
+- C REDACTED_SERVER_HOST.invalid:53442/root，GPU-2a0c83a4-0a1a-494d-6e80-0c756fb075aa。
+
+凭据不写文件。通过原聊天read_thread读取人类turn 01a105a5-9780-72d3-80b4-0ba2bd29eed0中的两条人类消息；一条含A/B/N，另一条含C。定位可从cursor rolloutOrdinal24234每次10turn向前读取约数页，过滤heartbeat，不输出凭据。只在新SSH/SFTP真实password提示后经write_stdin输入原人类凭据；禁password文件/自动提示程序/猜测。原有hostkey已存在。
+
+远端B=/data/coding/selective_flow/strong_baselines；Python=B/.venv/bin/python，原训练根 /data/coding/selective_flow/inflow_conditions_v2_deployment_20261004T2140Z/run_none|state|task。原capture脚本 /data/coding/selective_flow/capture_inflow_conditions_v1_20261004T2145Z.py SHA0068941e39c608254eb6430934fc3d8d86fe63c8f32ce7cee8b6f8dca22ffbfb。本地原F/audit_inflow_complete_v1.py与verify_inflow_independent_copy_v1.py已读并使用前者，后者仍待目标CPU实际审核。
+
+截至本记录：SSH A18052/B15039/C38033；SFTP A58133/B82321/C20976。仅在本turn临时使用，后续先核对是否关闭，不盲重试旧session。租期最终保存Oct5北京时间13:40/14:10/14:30未完成；14:40为人类估计非平台测量。N/R已final不得再连接，旧P4地址也不重试。旧namedcapture与新inflowcapture必须组合保存。
+
+所有文件/旧84完整权重/旧60测试/20V8测试/已完成旧诊断保留，不重复重训重传。不得删除、续租、关机、停止健康训练；不改健康任务冻结协议；不用TEST挑结构。新试验仅TRAIN1281/dev229，pickle容器虽含TEST也不索引转换TEST。普通任务预测不是关系真值，参数相同不等于信息容量相同，receiver混合块不等于原来源。新旧模型身份区分，.9–1.0冻结特征原型不能当官方CaReFlow失败证据。无subagents、浏览器UI或设置修改。
+
+保持有效GPU研究工作；若前置诊断实际未完成，明确依赖，不用重复任务填卡。备份/CPU审核可与合法GPU诊断并行。所有授权研究、报告及最终租期动态保存均完成前整体不能称完成。新监管保持原10分钟频率，日常状态不通知；仅实质结果、失败或必要用户行动通知。

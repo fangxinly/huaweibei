@@ -1,0 +1,30 @@
+from pathlib import Path
+import json,hashlib,datetime,ast,zipfile,shutil
+w=Path(__file__).resolve().parent;r=w/'group_teacher_plan_20261005T1650Z';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+runtime=(w/'group_teacher_runtime_v1.py').read_text().replace(" for n in removed:delattr(core,n)"," for n in removed:delattr(core,n)\n # The custom scalar forward never calls the author's pooler. Remove it\n # before optimizer construction instead of claiming gradients on unused tensors.\n delattr(core,'pooler')")
+target=w/'group_teacher_runtime_v2.py';assert not target.exists();target.write_text(runtime,encoding='utf-8');ast.parse(runtime)
+source=(w/'check_group_teacher_v1.py').read_text().replace('from group_teacher_runtime_v1','from group_teacher_runtime_v2').replace("out=a.root/'precheck_v1'","out=a.root/'precheck_v2'").replace('group_teacher_plan_v2.json','group_teacher_plan_v3.json').replace('group_teacher_runtime_v1.py','group_teacher_runtime_v2.py')
+needle="batch=row_batch(fit,data.ids['fit'],orders[0,:32]);model.eval()"
+source=source.replace(needle,"""old_state=torch.load(a.root/'precheck_v1/initial_full_checkpoint.pt',map_location='cpu')
+assert set(old_state)-set(model.state_dict())=={'dberta.pooler.dense.weight','dberta.pooler.dense.bias'}
+assert all(torch.equal(value.cpu(),old_state[name]) for name,value in model.state_dict().items())
+del old_state
+"""+needle)
+source=source.replace("cp=out/'initial_full_checkpoint.pt'","with np.load(a.root/'precheck_v1/initial_replay_predictions.npz',allow_pickle=False) as old:\n assert np.array_equal(old['fit_row_ids'],orders[0,:32]);old_forward_error=float(np.max(np.abs(old['prediction']-pred.cpu().numpy())));assert old_forward_error==0\ncp=out/'initial_full_checkpoint.pt'")
+source=source.replace(" assert all(p.grad is None or torch.isfinite(p.grad).all() for p in model.parameters());opt.step();sched.step();torch.cuda.synchronize();update_seconds.append(time.monotonic()-tick);gradients.append(current)"," assert all(p.requires_grad and p.grad is not None and torch.isfinite(p.grad).all() for p in model.parameters());opt.step();sched.step();torch.cuda.synchronize();update_seconds.append(time.monotonic()-tick);gradients.append(current)")
+source=source.replace("seed=91818,fit_rows", "seed=91818,all_retained_parameter_gradients_finite=True,retained_parameter_tensors=len(list(model.parameters())),removed_unused_pooler_names=['dberta.pooler.dense.weight','dberta.pooler.dense.bias'],all_other_initial_tensors_equal_v1=True,original_v1_initial_prediction_error=old_forward_error,fit_rows")
+target=w/'check_group_teacher_v2.py';assert not target.exists();target.write_text(source,encoding='utf-8');ast.parse(source)
+plan=json.loads((r/'group_teacher_plan_v2.json').read_text());plan.update(version=3,parent_plan_sha256=sha(r/'group_teacher_plan_v2.json'),frozen_revision_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),revision_reason='Three actual GPU all-parameter gradient inspections found only unused author pooler weight/bias have no gradient; remove unused pooler before optimizer, retain prior failure logs and frozen v1 sources. No formal teacher training had started.',source_sha256={'group_teacher_runtime_v2.py':sha(w/'group_teacher_runtime_v2.py'),'check_group_teacher_v2.py':sha(w/'check_group_teacher_v2.py')},transport_dependency='Normal fresh SSH/SFTP command route actually succeeded Oct6 UTC; no tool internals changed.',preflight_budget='New v2 four-update mechanism plus all retained parameters finite gradients, exact other-initial-tensor identity and v1 forward replay; all three actual receipts required before formal100.')
+target=r/'group_teacher_plan_v3.json';assert not target.exists();target.write_text(json.dumps(plan,indent=2),encoding='utf-8')
+audit=(w/'audit_group_teacher_mechanism_receipts_v1.py').read_text().replace('group_teacher_plan_v2.json','group_teacher_plan_v3.json').replace('precheck_v1','precheck_v2').replace('check_group_teacher_v1.py','check_group_teacher_v2.py').replace('group_teacher_runtime_v1.py','group_teacher_runtime_v2.py')
+audit=audit.replace(" assert r['outer_access_denied'] is True", " assert r['all_retained_parameter_gradients_finite'] and r['retained_parameter_tensors']==291 and r['all_other_initial_tensors_equal_v1'] and r['original_v1_initial_prediction_error']==0\n assert r['outer_access_denied'] is True")
+(w/'audit_group_teacher_mechanism_receipts_v2.py').write_text(audit,encoding='utf-8');ast.parse(audit)
+cap=(w/'capture_soft_vector_v17.py').read_text().replace('capture_soft_vector_v17.py','capture_soft_vector_v18.py').replace("'check_group_teacher_v1.py','train_group_teacher_v1.py'","'check_group_teacher_v1.py','check_group_teacher_v2.py','check_group_teacher_all_gradients_v1.py','train_group_teacher_v1.py'").replace("teacher/'precheck_v1/receipt.json'","teacher/'precheck_v2/receipt.json'")
+(w/'capture_soft_vector_v18.py').write_text(cap,encoding='utf-8');ast.parse(cap)
+(w/'audit_soft_snapshot_v18.py').write_text((w/'audit_soft_snapshot_v17.py').read_text(encoding='utf-8').replace('capture_soft_vector_v17.py','capture_soft_vector_v18.py'),encoding='utf-8')
+files=[w/'group_teacher_runtime_v2.py',w/'check_group_teacher_v2.py',r/'group_teacher_plan_v3.json',w/'audit_group_teacher_mechanism_receipts_v2.py']
+with zipfile.ZipFile(w/'group_teacher_precheck_revision_v2.zip','x',zipfile.ZIP_DEFLATED) as z:
+ for f in files:z.write(f,f.name)
+ z.writestr('revision_manifest.json',json.dumps({f.name:{'sha256':sha(f),'bytes':f.stat().st_size} for f in files},indent=2))
+result=dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),status='UNUSED_POOLER_REMOVAL_NEW_CANDIDATE_FROZEN_NOT_GPU_EXECUTED',plan_sha256=sha(target),capture18_sha256=sha(w/'capture_soft_vector_v18.py'),revision_bundle_sha256=sha(w/'group_teacher_precheck_revision_v2.zip'),sources={f.name:sha(f) for f in files},old_source_unchanged=True)
+(w.parent/'outputs/视频隔离教师无梯度pooler修订冻结.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result))
