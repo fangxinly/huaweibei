@@ -1,0 +1,46 @@
+{
+  "assembled_actual_UTC": "2026-10-11T17:11:42.163666+00:00",
+  "status": "RESEARCH_SCHEMES_ORGANIZED_NO_NEW_TRAINING",
+  "latest_user_instruction": "算了 你还是整理清楚到目前位置 所有的方案吧",
+  "final_method_fold_groups_planned": 25,
+  "training_stages_planned": 35,
+  "frozen_unscored_outer_prediction_groups": 1,
+  "scored_outer_groups": 0,
+  "careflow_fold0_formal100_complete": true,
+  "careflow_fold1_native3_complete": true,
+  "careflow_fold1_formal100_complete": false,
+  "new_node_formal_dispatched": false,
+  "new_node_train_once_consumed": false,
+  "local_training_started": false,
+  "composite_CPU_and_CPU_CUDA_resume_actual_qualification_passed": false,
+  "source_only_synthetic_checks_not_native_qualification": true,
+  "first_formal_wrapper_before_scientific_import_path_failure": "原失败保留；修正plan未派发。",
+  "no_scientific_rerun_or_new_label_decoding_in_this_summary": true,
+  "original_sources": [
+    {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_careflow0_complete_pointer.json",
+      "SHA256": "1f10d3666142a5026fb90be2a50db1fc2fb4fc45b62fb5ac443bdb5fe53e4e44",
+      "bytes": 6267
+    },
+    {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_careflow1_native_capture_pointer.json",
+      "SHA256": "baddcd3525d5c8166217da6f5b55f5df3cf76f68f6658d0016b7958e4b5a77be",
+      "bytes": 5902
+    },
+    {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\new_node23668_formal_pointer.json",
+      "SHA256": "13798d672a0712bcf7e5d9ec60d8996dc9737acf6827c17347e5783b8ec2db3b",
+      "bytes": 7004
+    },
+    {
+      "path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_stopped_CPU_capsule_pointer.json",
+      "SHA256": "689bb0466d4ddae1f44d7bcb20e343dcfc530e3debe25457af4232a67c2d61b6",
+      "bytes": 3981
+    },
+    {
+      "path": "D:\\CodexBackups\\selective_flow_20261003_1105\\candidate_posttrain_lowC_20261009T005229Z\\D_current_research_state.json",
+      "SHA256": "a6709aa3464d114fa9ebaac49be9395ba8587e63be81e5023d021d54801ced20",
+      "bytes": 1140196
+    }
+  ]
+}

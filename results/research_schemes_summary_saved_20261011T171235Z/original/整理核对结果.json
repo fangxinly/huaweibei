@@ -1,0 +1,14 @@
+{
+  "actual_UTC": "2026-10-11T17:11:42.163666+00:00",
+  "scheme_navigation_S01_to_S55_exact": true,
+  "all_used_evidence_links_resolved": true,
+  "reference_copies_SHA_verified": true,
+  "historical_zip_exact_SHA_verified": true,
+  "historical_mapping_count": 1745,
+  "historical_unique_public_paths": 1401,
+  "source_mapping_rows": 947,
+  "source_only_no_scientific_rerun": true,
+  "new_formal_dispatch_false_verified": true,
+  "new_formal_once_false_verified": true,
+  "summary_credential_sanitizer_no_changes": true
+}

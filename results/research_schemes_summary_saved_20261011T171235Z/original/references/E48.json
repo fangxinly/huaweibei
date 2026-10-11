@@ -1,0 +1,36 @@
+{
+  "excerpt_only": true,
+  "status_fields": {
+    "status": "CURRENT_FIXED_UPGRADE_VAL229_TEST685_FIVE_COMPLETE_D_OTHER_NODE_CPU",
+    "actualclock_UTC": "2026-10-08 05:20:13 UTC",
+    "SHA_CRC_unique": true,
+    "not_independent_official_benchmark": true,
+    "whole_goal_complete": false,
+    "session_closure_pending": false,
+    "all_four_connections_closed_natural0": true,
+    "D_remaining_bytes": 2233462784
+  },
+  "metric_records": [
+    {
+      "original_JSON_path": "/roles/VAL/new_five",
+      "numeric_metrics": {
+        "Acc7": 0.6681222707423581,
+        "Acc2": 0.9675925925925926,
+        "F1": 0.9676541323600147,
+        "MAE": 0.3544933257063273,
+        "Corr": 0.9417190655643404
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/new_five",
+      "numeric_metrics": {
+        "Acc7": 0.6759124087591241,
+        "Acc2": 0.9526717557251908,
+        "F1": 0.9525860262184287,
+        "MAE": 0.3663267807722309,
+        "Corr": 0.9251693251331076
+      }
+    }
+  ],
+  "note": "只摘原JSON中指标及状态；未重算科学结果，完整结构仍由原件SHA绑定。"
+}

@@ -1,0 +1,14 @@
+{
+  "actual_UTC": "2026-10-11T17:12:35.662689+00:00",
+  "scheme_count": 55,
+  "evidence_count": 48,
+  "user_instruction": "算了 你还是整理清楚到目前位置 所有的方案吧",
+  "no_new_training_dispatch": true,
+  "no_new_inference_or_scoring": true,
+  "no_model_or_label_array_decode": true,
+  "completed_once_unchanged": true,
+  "formal_train_once_not_consumed": true,
+  "C_checkout_HEAD_not_changed": true,
+  "full_raw_chat_not_claimed_included": true,
+  "purpose": "公开研究方案、报告与源码的可移植总整理；完整聊天私有归档另存。"
+}

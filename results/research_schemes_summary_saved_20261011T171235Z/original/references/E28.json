@@ -1,0 +1,214 @@
+{
+  "excerpt_only": true,
+  "status_fields": {
+    "actualclock_UTC": "2026-10-08 11:22:05 UTC",
+    "phase": "OFFICIAL_ALIGNED_UPGRADE_TRAIN_VAL_TEST_FIVE_AND_PRESERVATION_COMPLETE_NEGATIVE_RESULT",
+    "current_upgrade_official_VAL_TEST_five_complete": true,
+    "full_state_D_other_node_CPU_complete": true,
+    "whole_goal_complete": false,
+    "full_fivefold_complete": false,
+    "all_five_strict_superiority_achieved": false,
+    "no_additional_deletion": true,
+    "clock_is_local_seal_not_remote_capture": true
+  },
+  "metric_records": [
+    {
+      "original_JSON_path": "/roles/VAL/new",
+      "numeric_metrics": {
+        "Acc7": 0.5021834061135371,
+        "Acc2": 0.875,
+        "F1": 0.875084801400591,
+        "MAE": 0.5972565370388166,
+        "Corr": 0.8658304219847903,
+        "MSE": 0.6885038867074985,
+        "Has0_Acc2": 0.8427947598253275,
+        "Has0_F1": 0.8438690693001232,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/VAL/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.5021834061135371,
+        "Acc2": 0.8796296296296297,
+        "F1": 0.8796296296296297,
+        "MAE": 0.598636532112891,
+        "Corr": 0.8646881396185387,
+        "MSE": 0.6898163273165865,
+        "Has0_Acc2": 0.8471615720524017,
+        "Has0_F1": 0.8481297928101498,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/VAL/careflow",
+      "numeric_metrics": {
+        "Acc7": 0.4978165938864629,
+        "Acc2": 0.8796296296296297,
+        "F1": 0.8792475014697237,
+        "MAE": 0.6045238262758688,
+        "Corr": 0.8594938469285841,
+        "MSE": 0.7200654767787426,
+        "Has0_Acc2": 0.8427947598253275,
+        "Has0_F1": 0.8435171876768766,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/VAL/new_minus_careflow",
+      "numeric_metrics": {
+        "Acc7": 0.0043668122270741905,
+        "Acc2": -0.00462962962962965,
+        "F1": -0.004162700069132774,
+        "MAE": -0.00726728923705211,
+        "Corr": 0.006336575056206217
+      }
+    },
+    {
+      "original_JSON_path": "/roles/VAL/groups/weak",
+      "numeric_metrics": {
+        "Acc7": 0.44047619047619047,
+        "Acc2": 0.704225352112676,
+        "F1": 0.704460794618457,
+        "MAE": 0.683322984414796,
+        "Corr": 0.49878481815853504,
+        "MSE": 0.7770435284037479,
+        "Has0_Acc2": 0.6428571428571429,
+        "Has0_F1": 0.6469434455704478,
+        "samples": 84,
+        "nonzero_samples": 71,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/VAL/groups/strong",
+      "numeric_metrics": {
+        "Acc7": 0.5379310344827586,
+        "Acc2": 0.9586206896551724,
+        "F1": 0.9586206896551724,
+        "MAE": 0.5473973537313527,
+        "Corr": 0.9205557439691526,
+        "MSE": 0.6372119563455334,
+        "Has0_Acc2": 0.9586206896551724,
+        "Has0_F1": 0.9586206896551724,
+        "samples": 145,
+        "nonzero_samples": 145,
+        "zero_label_samples": 0,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/new",
+      "numeric_metrics": {
+        "Acc7": 0.46131386861313867,
+        "Acc2": 0.8717557251908397,
+        "F1": 0.8714876426878345,
+        "MAE": 0.6506160153742254,
+        "Corr": 0.8251816144469359,
+        "MSE": 0.8276006005946378,
+        "Has0_Acc2": 0.8481751824817518,
+        "Has0_F1": 0.847259125867033,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.4759124087591241,
+        "Acc2": 0.8732824427480916,
+        "F1": 0.8731216910161325,
+        "MAE": 0.6526996189714783,
+        "Corr": 0.8246193467051313,
+        "MSE": 0.8334389485218677,
+        "Has0_Acc2": 0.8510948905109489,
+        "Has0_F1": 0.8503571598511597,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/careflow",
+      "numeric_metrics": {
+        "Acc7": 0.5065693430656935,
+        "Acc2": 0.8763358778625954,
+        "F1": 0.8761118749578298,
+        "MAE": 0.619535293923368,
+        "Corr": 0.851188467828589,
+        "MSE": 0.7062478886626934,
+        "Has0_Acc2": 0.8569343065693431,
+        "Has0_F1": 0.8562255065236631,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/new_minus_careflow",
+      "numeric_metrics": {
+        "Acc7": -0.04525547445255479,
+        "Acc2": -0.004580152671755711,
+        "F1": -0.00462423226999531,
+        "MAE": 0.031080721450857385,
+        "Corr": -0.026006853381653094
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/groups/weak",
+      "numeric_metrics": {
+        "Acc7": 0.48627450980392156,
+        "Acc2": 0.7288888888888889,
+        "F1": 0.7271045872860755,
+        "MAE": 0.6049810370832097,
+        "Corr": 0.5307214841977355,
+        "MSE": 0.6261715180911739,
+        "Has0_Acc2": 0.6823529411764706,
+        "Has0_F1": 0.6802966879635749,
+        "samples": 255,
+        "nonzero_samples": 225,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/roles/TEST/groups/strong",
+      "numeric_metrics": {
+        "Acc7": 0.44651162790697674,
+        "Acc2": 0.9465116279069767,
+        "F1": 0.9466953206544639,
+        "MAE": 0.6776786187793626,
+        "Corr": 0.8688343274679807,
+        "MSE": 0.9470527309164595,
+        "Has0_Acc2": 0.9465116279069767,
+        "Has0_F1": 0.9466953206544639,
+        "samples": 430,
+        "nonzero_samples": 430,
+        "zero_label_samples": 0,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/diagnosis",
+      "numeric_metrics": {
+        "old_fixed_F_TEST_MAE": 0.643699787470111,
+        "new_minus_old_TEST_MAE": 0.0069162279041143915
+      }
+    }
+  ],
+  "note": "只摘原JSON中指标及状态；未重算科学结果，完整结构仍由原件SHA绑定。"
+}

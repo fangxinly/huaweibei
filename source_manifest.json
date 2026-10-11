@@ -23685,6 +23685,537 @@
       "sanitizations": {}
     },
     {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\D_preservation_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 399,
+      "original_sha256": "51a09ed1959a2e319e3f5bac01469eb492108b95fa840284890e4e8a11ea3684",
+      "published_sha256": "51a09ed1959a2e319e3f5bac01469eb492108b95fa840284890e4e8a11ea3684",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/GitHub_restoration.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\GitHub_restoration.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 156,
+      "original_sha256": "8565062e9349ce58165fe4a9425fd71f2b211b4e12f62ffa09c9bf9cf744fdf0",
+      "published_sha256": "8565062e9349ce58165fe4a9425fd71f2b211b4e12f62ffa09c9bf9cf744fdf0",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\Release_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 617,
+      "original_sha256": "cc3f237fd8e605bf0f4002d398b2b77fc1a2ef8cc3d0e7970ce9824cf0c8d7d6",
+      "published_sha256": "cc3f237fd8e605bf0f4002d398b2b77fc1a2ef8cc3d0e7970ce9824cf0c8d7d6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/README_在Linux阅读.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\README_在Linux阅读.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1020,
+      "original_sha256": "e28fbe1f4a3d1162071f5795f883ecfb7fd4fe931574d69b4c77b6bc49056fd1",
+      "published_sha256": "e28fbe1f4a3d1162071f5795f883ecfb7fd4fe931574d69b4c77b6bc49056fd1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E01.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E01.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4084,
+      "original_sha256": "3dddac6436fd0dbd989ed482623225d584e53eea89b588cacefea4ac73b1e592",
+      "published_sha256": "3dddac6436fd0dbd989ed482623225d584e53eea89b588cacefea4ac73b1e592",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E02.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E02.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3973,
+      "original_sha256": "5f5f384699fdd07d5bc20d97143d8ed1164cc0c5e7ecb769a75e0511b3f9a9a9",
+      "published_sha256": "5f5f384699fdd07d5bc20d97143d8ed1164cc0c5e7ecb769a75e0511b3f9a9a9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E03.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E03.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5080,
+      "original_sha256": "a8cb6cd62eea34284559fee706358562d1199102a572e86410fc24047ce7f865",
+      "published_sha256": "a8cb6cd62eea34284559fee706358562d1199102a572e86410fc24047ce7f865",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E04.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E04.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6865,
+      "original_sha256": "1a07d27ac7133078b6fb6f82d99d5282a1470af16adb4655b798689ee03acec8",
+      "published_sha256": "1a07d27ac7133078b6fb6f82d99d5282a1470af16adb4655b798689ee03acec8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E05.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E05.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 17486,
+      "original_sha256": "ca37f6de3b867abe6224697d2b0762b138a4e5c2ca2bc1ccc8f118eb4925d751",
+      "published_sha256": "ca37f6de3b867abe6224697d2b0762b138a4e5c2ca2bc1ccc8f118eb4925d751",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E06.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E06.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8385,
+      "original_sha256": "476be1456bec228068dd52cb0fefaad785c3f07f0b0afbf83719178b0e8a6818",
+      "published_sha256": "476be1456bec228068dd52cb0fefaad785c3f07f0b0afbf83719178b0e8a6818",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E07.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E07.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5435,
+      "original_sha256": "f70be64b549c11de1eafe4f0603aefcfceed4dd743761f370aca3334223c11d9",
+      "published_sha256": "f70be64b549c11de1eafe4f0603aefcfceed4dd743761f370aca3334223c11d9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E08.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E08.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8879,
+      "original_sha256": "f1056d2f32e45636cfcb6d1bd93d448a6537f0ad0af3d65e708b527fab92794a",
+      "published_sha256": "f1056d2f32e45636cfcb6d1bd93d448a6537f0ad0af3d65e708b527fab92794a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E09.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E09.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 9776,
+      "original_sha256": "4d4042db8cc0b67bbf24d61463d173941d7d5065ab84101f598cf2ef0d251629",
+      "published_sha256": "4d4042db8cc0b67bbf24d61463d173941d7d5065ab84101f598cf2ef0d251629",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E10.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E10.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7504,
+      "original_sha256": "3e10089638b0ed89c5781caa9045dbae407898c7ee8b5d710e778b278b3512db",
+      "published_sha256": "3e10089638b0ed89c5781caa9045dbae407898c7ee8b5d710e778b278b3512db",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E11.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E11.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6912,
+      "original_sha256": "71d6a0c0eb9ef2270528ad5bad1ada1e5eae489d13d8311f3c4d7ab3a602d71e",
+      "published_sha256": "71d6a0c0eb9ef2270528ad5bad1ada1e5eae489d13d8311f3c4d7ab3a602d71e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E12.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E12.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5758,
+      "original_sha256": "68e64d7e04975ca952c8ff5fff091fa3b8bc046730c289193728651bdd928b0b",
+      "published_sha256": "68e64d7e04975ca952c8ff5fff091fa3b8bc046730c289193728651bdd928b0b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E13.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E13.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4871,
+      "original_sha256": "73a068614c82dca3ea2777fe0d8ff28c52c9f3468bbdcf3d0edb2bd6bcf778b5",
+      "published_sha256": "73a068614c82dca3ea2777fe0d8ff28c52c9f3468bbdcf3d0edb2bd6bcf778b5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E14.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E14.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3745,
+      "original_sha256": "ba070804c670e2e9384dc25af9dd3e7afdce73f9dc45015523c61cca176a71a6",
+      "published_sha256": "ba070804c670e2e9384dc25af9dd3e7afdce73f9dc45015523c61cca176a71a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E15.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E15.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5492,
+      "original_sha256": "f1abddcde147aaa530ac7aa8f3bda5942c9a326dd85376820713f1d3b534753e",
+      "published_sha256": "f1abddcde147aaa530ac7aa8f3bda5942c9a326dd85376820713f1d3b534753e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E16.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E16.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3735,
+      "original_sha256": "406ea9744451849adf327dc39102407c3e2ba5fc9430c418b2887163da00d07f",
+      "published_sha256": "406ea9744451849adf327dc39102407c3e2ba5fc9430c418b2887163da00d07f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E17.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E17.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4118,
+      "original_sha256": "de81b38d04c5c932511fd7cf6ace074e720abc932e7753aaceff9324d21f3997",
+      "published_sha256": "de81b38d04c5c932511fd7cf6ace074e720abc932e7753aaceff9324d21f3997",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E18.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E18.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6112,
+      "original_sha256": "b0fdcf372fbf9a39d841b3c2f7c7433bdff0af0bac98fc9d6012382e890ebb37",
+      "published_sha256": "b0fdcf372fbf9a39d841b3c2f7c7433bdff0af0bac98fc9d6012382e890ebb37",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E19.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E19.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5255,
+      "original_sha256": "8dd1281607146c7e56fc1db4fccecbb7ee76e29ff8b70b04397b31da3b35a02e",
+      "published_sha256": "8dd1281607146c7e56fc1db4fccecbb7ee76e29ff8b70b04397b31da3b35a02e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E20.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E20.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4827,
+      "original_sha256": "bc034aa36efe61d82570600956e683440b397b799b2bb565987025284df462f4",
+      "published_sha256": "bc034aa36efe61d82570600956e683440b397b799b2bb565987025284df462f4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E21.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E21.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5070,
+      "original_sha256": "c865349ee0918a40e0da794fbe85765fce92d8a8a7511edf190f838ba8d43db1",
+      "published_sha256": "c865349ee0918a40e0da794fbe85765fce92d8a8a7511edf190f838ba8d43db1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E22.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E22.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7704,
+      "original_sha256": "8f8bc4d65b6c60417915e02d555d6e63b74da92618e824b7cf75c9bdddbdfce3",
+      "published_sha256": "8f8bc4d65b6c60417915e02d555d6e63b74da92618e824b7cf75c9bdddbdfce3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E23.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E23.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2429,
+      "original_sha256": "608e6ca6fed4ddd5142990dfa931abf51d93325d394a1b37be9e24eed1b324fc",
+      "published_sha256": "608e6ca6fed4ddd5142990dfa931abf51d93325d394a1b37be9e24eed1b324fc",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E24.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E24.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6204,
+      "original_sha256": "ad53b251441d4db83471500b1e9d7f91368e579a281aa4983b44fac4d87da46e",
+      "published_sha256": "ad53b251441d4db83471500b1e9d7f91368e579a281aa4983b44fac4d87da46e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E25.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E25.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4719,
+      "original_sha256": "8fc96634b7f68a5b31680cbf6b366160cb7b7b0595a44ea3a29eeda190bdb7e5",
+      "published_sha256": "8fc96634b7f68a5b31680cbf6b366160cb7b7b0595a44ea3a29eeda190bdb7e5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E26.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E26.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1552,
+      "original_sha256": "458001a9ad4e0f55bb54249d844afd6de9935db939f638e164551bf171e0ed76",
+      "published_sha256": "458001a9ad4e0f55bb54249d844afd6de9935db939f638e164551bf171e0ed76",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E27.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E27.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2619,
+      "original_sha256": "7b04e57a2e9e5f26f0fab1e03a3ed7d436a21af7b22bd42793830ef12b2d594b",
+      "published_sha256": "7b04e57a2e9e5f26f0fab1e03a3ed7d436a21af7b22bd42793830ef12b2d594b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E28.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E28.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6621,
+      "original_sha256": "80a57fa448379028e60a55810644d525c9e6d5da78e96458e22797c11c6fa807",
+      "published_sha256": "80a57fa448379028e60a55810644d525c9e6d5da78e96458e22797c11c6fa807",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E29.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E29.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3119,
+      "original_sha256": "c077e9815b50a6e04db625db81978d7e9892f2ca7af33645de1646681972ee18",
+      "published_sha256": "c077e9815b50a6e04db625db81978d7e9892f2ca7af33645de1646681972ee18",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E30.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E30.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 9177,
+      "original_sha256": "fcc8401302e4a7db5d5c62934fb6ef33a5c02a00e07708d618ac352a534f3b1f",
+      "published_sha256": "fcc8401302e4a7db5d5c62934fb6ef33a5c02a00e07708d618ac352a534f3b1f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E31.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E31.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2702,
+      "original_sha256": "73b5cbbee3b22ae68ac0a921b4ea023600b90722d167863a6c75fdf02414a010",
+      "published_sha256": "73b5cbbee3b22ae68ac0a921b4ea023600b90722d167863a6c75fdf02414a010",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E32.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E32.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6264,
+      "original_sha256": "07d0b650342ee9d8847aeeb7ef84582bdca080324d779cf68daca63a12edefe2",
+      "published_sha256": "07d0b650342ee9d8847aeeb7ef84582bdca080324d779cf68daca63a12edefe2",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E33.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E33.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 9312,
+      "original_sha256": "94039df769119c0f270ff7cf0b9455f8f96caf887e997e7cf90d0ab392eb3fcd",
+      "published_sha256": "94039df769119c0f270ff7cf0b9455f8f96caf887e997e7cf90d0ab392eb3fcd",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E34.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E34.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2754,
+      "original_sha256": "f0192af3a86b9356d5c488a1dd44c4779dbd80a6c61b62a2cc22c36df00b17b5",
+      "published_sha256": "f0192af3a86b9356d5c488a1dd44c4779dbd80a6c61b62a2cc22c36df00b17b5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E35.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E35.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2192,
+      "original_sha256": "9199d7520547111a890841331f5826ba96ebb06bc190d83f7d86d63360c42edf",
+      "published_sha256": "9199d7520547111a890841331f5826ba96ebb06bc190d83f7d86d63360c42edf",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E36.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E36.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3248,
+      "original_sha256": "811ad9a329a0539ab722d826e338003d0f9f48e4a57401d194e0e6ae947c45d6",
+      "published_sha256": "811ad9a329a0539ab722d826e338003d0f9f48e4a57401d194e0e6ae947c45d6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E37.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E37.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2439,
+      "original_sha256": "d81928ce7d7fbc52c5d0ee5524fef735c990b894298b839a47e7e57f9a9f9603",
+      "published_sha256": "d81928ce7d7fbc52c5d0ee5524fef735c990b894298b839a47e7e57f9a9f9603",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E38.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E38.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3658,
+      "original_sha256": "5486d9c7ef8169984cb2f6f43d0fe88703683151aa9b8e96796e2fef0242e967",
+      "published_sha256": "5486d9c7ef8169984cb2f6f43d0fe88703683151aa9b8e96796e2fef0242e967",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E39.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E39.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2862,
+      "original_sha256": "ef5b1c62ae28c4b9fedb76e6fb4c826c90d0b01326ba8addde8b6efe8b544a5c",
+      "published_sha256": "ef5b1c62ae28c4b9fedb76e6fb4c826c90d0b01326ba8addde8b6efe8b544a5c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E40.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E40.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4286,
+      "original_sha256": "3c7b4f25155f6c80f55cb11a268c884e26b5004ca908f21ea8812efcbc15ba16",
+      "published_sha256": "3c7b4f25155f6c80f55cb11a268c884e26b5004ca908f21ea8812efcbc15ba16",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E41.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E41.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1214,
+      "original_sha256": "d2a443a8c9bbb72ea16dfb338cd590598a3509d41a296be8c1f2660c717f1a0b",
+      "published_sha256": "d2a443a8c9bbb72ea16dfb338cd590598a3509d41a296be8c1f2660c717f1a0b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E42.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E42.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2190,
+      "original_sha256": "571edf62d5cbb05a276bef1963a7e5953c53292a4dc7fd2fd9faf4331f013fb7",
+      "published_sha256": "571edf62d5cbb05a276bef1963a7e5953c53292a4dc7fd2fd9faf4331f013fb7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E43.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E43.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4183,
+      "original_sha256": "e4819455477e71840667d4da932a7df8a1bc52a85fdcd720548184d21f22eee4",
+      "published_sha256": "e4819455477e71840667d4da932a7df8a1bc52a85fdcd720548184d21f22eee4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E44.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E44.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3750,
+      "original_sha256": "d547b9d691dc93393b29a459cd16ab8e6a46fcd13963fe61d2eaa2e267fc97e4",
+      "published_sha256": "d547b9d691dc93393b29a459cd16ab8e6a46fcd13963fe61d2eaa2e267fc97e4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E45.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E45.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7238,
+      "original_sha256": "26e33497d4d9b2341b2ac6461047b45b57a9ab0e31e6b0f856361d6bd460451c",
+      "published_sha256": "26e33497d4d9b2341b2ac6461047b45b57a9ab0e31e6b0f856361d6bd460451c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E46.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E46.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7177,
+      "original_sha256": "2c8d2ea317963e60f6af3da1a095305329dd5b253afb01b2b26ab71812feb170",
+      "published_sha256": "2c8d2ea317963e60f6af3da1a095305329dd5b253afb01b2b26ab71812feb170",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E47.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E47.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2567,
+      "original_sha256": "d90b339ae964dc870520abe6bc1e9eaa3d57d26207b66526117ef46f664c5f40",
+      "published_sha256": "d90b339ae964dc870520abe6bc1e9eaa3d57d26207b66526117ef46f664c5f40",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/references/E48.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\references\\E48.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1107,
+      "original_sha256": "5dd318e3c2245727a21a4dc7a6e1be1edce82098ffcbbff72c05ababfa8b20c8",
+      "published_sha256": "5dd318e3c2245727a21a4dc7a6e1be1edce82098ffcbbff72c05ababfa8b20c8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/历史文件映射.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\历史文件映射.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 789843,
+      "original_sha256": "d6442d6e05a3d585911a5db7e2757258c389af2686b2ac634ffe593f0c38eb74",
+      "published_sha256": "d6442d6e05a3d585911a5db7e2757258c389af2686b2ac634ffe593f0c38eb74",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/整理打包源码.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\整理打包源码.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 15548,
+      "original_sha256": "d090cedfe3f1c246af62fe7e0b27e78a144062fb7f952f39f99162428c045c71",
+      "published_sha256": "d090cedfe3f1c246af62fe7e0b27e78a144062fb7f952f39f99162428c045c71",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/整理核对结果.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\整理核对结果.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 535,
+      "original_sha256": "0a570fcbd36885c70a4356ad5a528ca2855f12028e490a373d4f47f63248d5fb",
+      "published_sha256": "0a570fcbd36885c70a4356ad5a528ca2855f12028e490a373d4f47f63248d5fb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/方案源码入口.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\方案源码入口.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 125106,
+      "original_sha256": "99597d17da8c09f54065baf09c2afd06e08a2f58ae1ff3800c3f40ff05db3985",
+      "published_sha256": "99597d17da8c09f54065baf09c2afd06e08a2f58ae1ff3800c3f40ff05db3985",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/方案证据索引.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\方案证据索引.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 34191,
+      "original_sha256": "1307591bc0db6f16f05df8895da2ea42917e586d13f51254e69b9e4d1bf5ce83",
+      "published_sha256": "1307591bc0db6f16f05df8895da2ea42917e586d13f51254e69b9e4d1bf5ce83",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/本次整理范围.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\本次整理范围.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 593,
+      "original_sha256": "87b3ce79be47cf8e6b0a6d87935380d8410752b96bc22cb1233a84d8cee3f2d4",
+      "published_sha256": "87b3ce79be47cf8e6b0a6d87935380d8410752b96bc22cb1233a84d8cee3f2d4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/research_schemes_summary_saved_20261011T171235Z/original/研究方案总览.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\research_schemes_summary_saved_20261011T171235Z\\text_publication\\original\\研究方案总览.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 41460,
+      "original_sha256": "4e3a622c94f736c789af757cba366701f0c133a9310cb8f6a5dec53b0529d493",
+      "published_sha256": "4e3a622c94f736c789af757cba366701f0c133a9310cb8f6a5dec53b0529d493",
+      "sanitizations": {}
+    },
+    {
       "path": "results/upload_score_reproduction.json",
       "origin": "release_publication_finalization",
       "kind": "publication_result",

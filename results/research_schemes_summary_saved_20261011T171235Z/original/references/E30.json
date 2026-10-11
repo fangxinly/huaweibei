@@ -1,0 +1,289 @@
+{
+  "excerpt_only": true,
+  "status_fields": {
+    "status": "A_B_OFFICIAL_FIVE_ONCE_AND_OTHER_NODE_ORIGINAL_NPZ_VERIFIED",
+    "actual_UTC": "2026-10-09T18:10:44.391374+00:00",
+    "all_five_exceeded": false,
+    "A_TEST_Acc2_F1_only_point_improvement": true,
+    "B_TEST_all_five_below_fixed_CaReFlow": true,
+    "TEST_previously_seen": true,
+    "no_new_blind_TEST_or_selection_on_TEST": true,
+    "extra_replay_cost_A3493_B3473_separate": true,
+    "new_training_or_inference_repetition": false,
+    "full_data_video_fivefold_not_complete": true,
+    "overall_research_not_complete": true
+  },
+  "metric_records": [
+    {
+      "original_JSON_path": "/A_other_node_original/result/roles/VAL/new",
+      "numeric_metrics": {
+        "Acc7": 0.47161572052401746,
+        "Acc2": 0.8888888888888888,
+        "F1": 0.8880997474747474,
+        "MAE": 0.5934321316666739,
+        "Corr": 0.8635775796997227
+      }
+    },
+    {
+      "original_JSON_path": "/A_other_node_original/result/roles/VAL/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.47161572052401746,
+        "Acc2": 0.8888888888888888,
+        "F1": 0.8880997474747474,
+        "MAE": 0.5934402608682755,
+        "Corr": 0.8635723035334018
+      }
+    },
+    {
+      "original_JSON_path": "/A_other_node_original/result/roles/TEST/new",
+      "numeric_metrics": {
+        "Acc7": 0.4686131386861314,
+        "Acc2": 0.8809160305343512,
+        "F1": 0.8807329455189361,
+        "MAE": 0.6381757583333193,
+        "Corr": 0.8409977851337935
+      }
+    },
+    {
+      "original_JSON_path": "/A_other_node_original/result/roles/TEST/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.4686131386861314,
+        "Acc2": 0.8809160305343512,
+        "F1": 0.8807329455189361,
+        "MAE": 0.638171882661277,
+        "Corr": 0.840996736336161
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/VAL/new",
+      "numeric_metrics": {
+        "Acc7": 0.4847161572052402,
+        "Acc2": 0.8888888888888888,
+        "F1": 0.8885361552028219,
+        "MAE": 0.6009184160558547,
+        "Corr": 0.8593062225627304,
+        "MSE": 0.7236382056919867,
+        "Has0_Acc2": 0.8558951965065502,
+        "Has0_F1": 0.8564620807279206,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/VAL/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.4847161572052402,
+        "Acc2": 0.8888888888888888,
+        "F1": 0.8885361552028219,
+        "MAE": 0.5990832279391555,
+        "Corr": 0.8591679536203926,
+        "MSE": 0.7230952317503404,
+        "Has0_Acc2": 0.8558951965065502,
+        "Has0_F1": 0.8564620807279206,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/VAL/careflow",
+      "numeric_metrics": {
+        "Acc7": 0.4978165938864629,
+        "Acc2": 0.8796296296296297,
+        "F1": 0.8792475014697237,
+        "MAE": 0.6045238262758688,
+        "Corr": 0.8594938469285841,
+        "MSE": 0.7200654767787426,
+        "Has0_Acc2": 0.8427947598253275,
+        "Has0_F1": 0.8435171876768766,
+        "samples": 229,
+        "nonzero_samples": 216,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/VAL/new_minus_careflow",
+      "numeric_metrics": {
+        "Acc7": -0.013100436681222682,
+        "Acc2": 0.00925925925925919,
+        "F1": 0.009288653733098173,
+        "MAE": -0.003605410220014038,
+        "Corr": -0.00018762436585373354
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/VAL/groups/weak",
+      "numeric_metrics": {
+        "Acc7": 0.42857142857142855,
+        "Acc2": 0.7605633802816901,
+        "F1": 0.758140423190835,
+        "MAE": 0.6736027976675403,
+        "Corr": 0.55357696419155,
+        "MSE": 0.7787309529641727,
+        "Has0_Acc2": 0.6904761904761905,
+        "Has0_F1": 0.693002915451895,
+        "samples": 84,
+        "nonzero_samples": 71,
+        "zero_label_samples": 13,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/VAL/groups/strong",
+      "numeric_metrics": {
+        "Acc7": 0.5172413793103449,
+        "Acc2": 0.9517241379310345,
+        "F1": 0.951785820196197,
+        "MAE": 0.5588116018808094,
+        "Corr": 0.9135011951603974,
+        "MSE": 0.6917224072722374,
+        "Has0_Acc2": 0.9517241379310345,
+        "Has0_F1": 0.951785820196197,
+        "samples": 145,
+        "nonzero_samples": 145,
+        "zero_label_samples": 0,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/TEST/new",
+      "numeric_metrics": {
+        "Acc7": 0.4832116788321168,
+        "Acc2": 0.8748091603053435,
+        "F1": 0.8746166863147791,
+        "MAE": 0.6355054317422918,
+        "Corr": 0.8424081379817006,
+        "MSE": 0.7605160621461805,
+        "Has0_Acc2": 0.8613138686131386,
+        "Has0_F1": 0.8607995757756836,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/TEST/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.48175182481751827,
+        "Acc2": 0.8748091603053435,
+        "F1": 0.8746166863147791,
+        "MAE": 0.6343636171049336,
+        "Corr": 0.8426270917253406,
+        "MSE": 0.7578964085436498,
+        "Has0_Acc2": 0.8613138686131386,
+        "Has0_F1": 0.8607995757756836,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/TEST/careflow",
+      "numeric_metrics": {
+        "Acc7": 0.5065693430656935,
+        "Acc2": 0.8763358778625954,
+        "F1": 0.8761118749578298,
+        "MAE": 0.619535293923368,
+        "Corr": 0.851188467828589,
+        "MSE": 0.7062478886626934,
+        "Has0_Acc2": 0.8569343065693431,
+        "Has0_F1": 0.8562255065236631,
+        "samples": 685,
+        "nonzero_samples": 655,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/TEST/new_minus_careflow",
+      "numeric_metrics": {
+        "Acc7": -0.023357664233576658,
+        "Acc2": -0.0015267175572518665,
+        "F1": -0.00149518864305076,
+        "MAE": 0.015970137818923758,
+        "Corr": -0.00878032984688848
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/TEST/groups/weak",
+      "numeric_metrics": {
+        "Acc7": 0.5098039215686274,
+        "Acc2": 0.7377777777777778,
+        "F1": 0.7370281103235897,
+        "MAE": 0.6301732676103711,
+        "Corr": 0.5638903290541589,
+        "MSE": 0.668782518758064,
+        "Has0_Acc2": 0.7176470588235294,
+        "Has0_F1": 0.7177425891616488,
+        "samples": 255,
+        "nonzero_samples": 225,
+        "zero_label_samples": 30,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_author_five/result/roles/TEST/groups/strong",
+      "numeric_metrics": {
+        "Acc7": 0.46744186046511627,
+        "Acc2": 0.9465116279069767,
+        "F1": 0.9465943048872643,
+        "MAE": 0.6386675290763378,
+        "Corr": 0.8906151854240576,
+        "MSE": 0.8149161867135518,
+        "Has0_Acc2": 0.9465116279069767,
+        "Has0_F1": 0.9465943048872643,
+        "samples": 430,
+        "nonzero_samples": 430,
+        "zero_label_samples": 0,
+        "exact_zero_predictions": 0
+      }
+    },
+    {
+      "original_JSON_path": "/B_other_node_five/result/roles/VAL/new",
+      "numeric_metrics": {
+        "Acc7": 0.4847161572052402,
+        "Acc2": 0.8888888888888888,
+        "F1": 0.8885361552028219,
+        "MAE": 0.6009184160558547,
+        "Corr": 0.8593062225627298
+      }
+    },
+    {
+      "original_JSON_path": "/B_other_node_five/result/roles/VAL/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.4847161572052402,
+        "Acc2": 0.8888888888888888,
+        "F1": 0.8885361552028219,
+        "MAE": 0.5990832279391555,
+        "Corr": 0.8591679536203933
+      }
+    },
+    {
+      "original_JSON_path": "/B_other_node_five/result/roles/TEST/new",
+      "numeric_metrics": {
+        "Acc7": 0.4832116788321168,
+        "Acc2": 0.8748091603053435,
+        "F1": 0.8746166863147791,
+        "MAE": 0.6355054317422918,
+        "Corr": 0.8424081379817001
+      }
+    },
+    {
+      "original_JSON_path": "/B_other_node_five/result/roles/TEST/messages_off",
+      "numeric_metrics": {
+        "Acc7": 0.48175182481751827,
+        "Acc2": 0.8748091603053435,
+        "F1": 0.8746166863147791,
+        "MAE": 0.6343636171049336,
+        "Corr": 0.84262709172534
+      }
+    }
+  ],
+  "note": "只摘原JSON中指标及状态；未重算科学结果，完整结构仍由原件SHA绑定。"
+}
