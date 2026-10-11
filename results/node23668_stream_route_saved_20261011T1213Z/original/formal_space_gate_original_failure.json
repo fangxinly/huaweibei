@@ -1,0 +1,1 @@
+{"tool_chunk":"60a95b","exit_code":1,"failed_assertion":"free['C']>=required_C and free['D']>=40*1024**2","required_C_bytes":3670016000,"D_floor_bytes":41943040,"formal_plan_not_created":true,"training_dispatched":false,"new_training_once_consumed":false}

@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-11T12:09:28.040804+00:00",
+  "status": "PUBLIC_RANGE_DOWNLOAD_SHA_VERIFIED",
+  "bytes": 107136,
+  "SHA": "e9e37223723ab723c15dc3948fbccad79f48ee0da7f6526f2613d46ae773dd90",
+  "original_url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node23668-stream-route-20261011T1208Z-e9e37223723a.zip.part0000",
+  "local_payload_disk_bytes": 0
+}

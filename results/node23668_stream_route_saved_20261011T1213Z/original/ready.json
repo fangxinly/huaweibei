@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-11T12:07:54.739420+00:00",
+  "pid": 35332,
+  "port": 51009,
+  "bind": "127.0.0.1",
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "source_SHA": "b300d0a2b67fb6a190a871e4d63d6642c5b1e0157aed257ec49870ae9b5be0a8",
+  "credentials_in_memory_only": true
+}

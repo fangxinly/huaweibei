@@ -1,0 +1,31 @@
+{
+  "UTC": "2026-10-11T12:08:39.325528+00:00",
+  "positive": true,
+  "negative": [
+    {
+      "case": "gap",
+      "rejected": true
+    },
+    {
+      "case": "bad_SHA",
+      "rejected": true
+    },
+    {
+      "case": "wrong_repo",
+      "rejected": true
+    },
+    {
+      "case": "unauthorized",
+      "rejected": true
+    },
+    {
+      "case": "unsafe_name",
+      "rejected": true
+    },
+    {
+      "case": "whole_size",
+      "rejected": true
+    }
+  ],
+  "scientific_execution": false
+}

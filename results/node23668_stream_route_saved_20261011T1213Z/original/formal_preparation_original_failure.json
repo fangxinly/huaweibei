@@ -1,0 +1,1 @@
+{"tool_chunk":"2b23fa","natural_exit":1,"failed_assertion":"p['runtime_versions']==receipt['versions'] and p['asset_SHA']==receipt['assets_SHA']","runtime_preservation_completed":true,"formal_plan_not_created":true,"training_dispatched":false,"new_training_once_consumed":false}

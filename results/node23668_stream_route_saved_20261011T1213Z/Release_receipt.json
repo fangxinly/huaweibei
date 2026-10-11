@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-11T12:12:52.156903+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_stream_route_saved_20261011T1213Z\\original\\node23668-actual-small-stream-route.zip",
+  "source_SHA": "57432b5c2a5b24288d45eb251f009b08adfeb29548e5888d3deb7d9092672101",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "node23668-actual-small-stream-route-57432b5c2a5b.zip",
+  "id": 630662544,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node23668-actual-small-stream-route-57432b5c2a5b.zip",
+  "remote_digest_verified": true
+}

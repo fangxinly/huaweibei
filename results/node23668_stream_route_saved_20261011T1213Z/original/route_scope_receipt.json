@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-11T12:12:24.710091+00:00",
+  "status": "ACTUAL_SMALL_STREAMING_ROUTE_PASS_FULL_MODEL_NOT_YET_CREATED",
+  "qualified_bytes": 107136,
+  "whole_SHA": "e9e37223723ab723c15dc3948fbccad79f48ee0da7f6526f2613d46ae773dd90",
+  "no_local_model_staging": true,
+  "GPU_scientific_execution_not_a_transport_claim": true,
+  "C_free": 3170848768,
+  "D_free": 8494379008,
+  "relay_pid": 35332,
+  "reverse_ssh_session": 63516
+}
