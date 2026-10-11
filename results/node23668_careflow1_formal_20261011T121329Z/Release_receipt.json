@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-11T12:13:42.198174+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\payload\\node23668-careflow1-formal-frozen-plan.zip",
+  "source_SHA": "63a8e6b1bfbf3d4ffe9458894895e1cb2845847137e1e517537bf75a18ecb748",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "node23668-careflow1-formal-frozen-plan-63a8e6b1bfbf.zip",
+  "id": 630664229,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node23668-careflow1-formal-frozen-plan-63a8e6b1bfbf.zip",
+  "remote_digest_verified": true
+}

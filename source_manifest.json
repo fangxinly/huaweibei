@@ -6997,6 +6997,267 @@
       "sanitizations": {}
     },
     {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\D_preservation_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 400,
+      "original_sha256": "25451ddd78fbf7e709233ff50a0929310a7040d988d273f2084f6c62bfceaa08",
+      "published_sha256": "25451ddd78fbf7e709233ff50a0929310a7040d988d273f2084f6c62bfceaa08",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/GitHub_restoration.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\GitHub_restoration.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 156,
+      "original_sha256": "734855d9ba6e0fe167a6ccc8cc1323a23df3ee21032bd10201d4219edd3afe4a",
+      "published_sha256": "734855d9ba6e0fe167a6ccc8cc1323a23df3ee21032bd10201d4219edd3afe4a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\Release_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 628,
+      "original_sha256": "9dac3c46a667f2d4561693d59105bb8bb33f4eb6e9ae143c121a334dbc45f73b",
+      "published_sha256": "9dac3c46a667f2d4561693d59105bb8bb33f4eb6e9ae143c121a334dbc45f73b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/freeze_plan_original.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\freeze_plan_original.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 9563,
+      "original_sha256": "5a1861bef4b6a381c5262f4c99150386c9a1095309adb69eac54866b8be5a045",
+      "published_sha256": "5a1861bef4b6a381c5262f4c99150386c9a1095309adb69eac54866b8be5a045",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/native_precheck_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\native_precheck_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 45405,
+      "original_sha256": "93e9b9b85a1dfb353a6fcb7abbf7e052c5a47dc17c16e9be0a5e68fd912b4897",
+      "published_sha256": "93e9b9b85a1dfb353a6fcb7abbf7e052c5a47dc17c16e9be0a5e68fd912b4897",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\plan.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 9450,
+      "original_sha256": "496e1819bbeb72b8969e66c8fa3a1c53e6989d11158c861513f5a987ec9614a0",
+      "published_sha256": "496e1819bbeb72b8969e66c8fa3a1c53e6989d11158c861513f5a987ec9614a0",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/runtime_original_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\runtime_original_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3263,
+      "original_sha256": "4e0b944218913407592639dc353787b4b724876e80bbf6c96601f7cea629b381",
+      "published_sha256": "4e0b944218913407592639dc353787b4b724876e80bbf6c96601f7cea629b381",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/anchored_flow.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\anchored_flow.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5818,
+      "original_sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+      "published_sha256": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/careflow_train_dev_author_components_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\careflow_train_dev_author_components_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 11852,
+      "original_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "published_sha256": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/encoder_adapter.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\encoder_adapter.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3867,
+      "original_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "published_sha256": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/finite_single_token_reader_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\finite_single_token_reader_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2184,
+      "original_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "published_sha256": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/fixed_flow_components_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\fixed_flow_components_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2137,
+      "original_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "published_sha256": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/fold_contract.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\fold_contract.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 6700,
+      "original_sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+      "published_sha256": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_direct_CPU_audit_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_direct_CPU_audit_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8236,
+      "original_sha256": "881db3cedcdf3803a6cea672d42ad1db2feae19659724816f08cf00f22362ec1",
+      "published_sha256": "881db3cedcdf3803a6cea672d42ad1db2feae19659724816f08cf00f22362ec1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_direct_runtime_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_direct_runtime_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 14758,
+      "original_sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86",
+      "published_sha256": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_direct_runtime_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_direct_runtime_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 16430,
+      "original_sha256": "5f3e1a23ff0f890a5600cee01784bfdf9d5a05b2155cfe372c9ec724e26d0aa6",
+      "published_sha256": "5f3e1a23ff0f890a5600cee01784bfdf9d5a05b2155cfe372c9ec724e26d0aa6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_epoch_resume_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_epoch_resume_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3913,
+      "original_sha256": "d6e2d743cd2449b3eb038749ab74c6268446e6429441d42d48ab5e0be39c9774",
+      "published_sha256": "d6e2d743cd2449b3eb038749ab74c6268446e6429441d42d48ab5e0be39c9774",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_fresh_direct_session_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_fresh_direct_session_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8524,
+      "original_sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7",
+      "published_sha256": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_release_transport_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_release_transport_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 10893,
+      "original_sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+      "published_sha256": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_teacher_optimizer_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_teacher_optimizer_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 764,
+      "original_sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81",
+      "published_sha256": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/group5_test_selected_contract_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\group5_test_selected_contract_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5151,
+      "original_sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+      "published_sha256": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/legacy_flow_model.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\legacy_flow_model.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 15003,
+      "original_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "published_sha256": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/minimal_fixed_flow_v2.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\minimal_fixed_flow_v2.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 4555,
+      "original_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "published_sha256": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/official_fulltrain_dev_guard_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\official_fulltrain_dev_guard_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3113,
+      "original_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "published_sha256": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/paired_fulltrain_session_candidate.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\paired_fulltrain_session_candidate.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 8569,
+      "original_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "published_sha256": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/sentiment_metrics_careflow_v1.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\sentiment_metrics_careflow_v1.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3027,
+      "original_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "published_sha256": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/source/split.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\source\\split.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 390933,
+      "original_sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+      "published_sha256": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/stream_route_original_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\stream_route_original_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1368,
+      "original_sha256": "ede14905a49851bf1489c746a3fc72254bdb4e91ff6c1f6f51d36c0372b964ed",
+      "published_sha256": "ede14905a49851bf1489c746a3fc72254bdb4e91ff6c1f6f51d36c0372b964ed",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node23668_careflow1_formal_20261011T121329Z/original/supervisor.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\text_publication\\original\\supervisor.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7951,
+      "original_sha256": "2e27483fb9db0d8e3b16bcf059d543263f4ef1987f5ef8934c1daecd4986a988",
+      "published_sha256": "2e27483fb9db0d8e3b16bcf059d543263f4ef1987f5ef8934c1daecd4986a988",
+      "sanitizations": {}
+    },
+    {
       "path": "results/node23668_runtime_complete_20261011T120022Z/D_preservation_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_runtime_complete_20261011T120022Z\\text_publication\\D_preservation_receipt.json",
       "kind": "group5_actual_evidence_and_source",

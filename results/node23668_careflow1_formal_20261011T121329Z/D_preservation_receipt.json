@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-11T12:13:30.371575+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_careflow1_formal_20261011T121329Z\\payload\\node23668-careflow1-formal-frozen-plan.zip",
+  "archive_SHA": "63a8e6b1bfbf3d4ffe9458894895e1cb2845847137e1e517537bf75a18ecb748",
+  "bytes": 6567968,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 31
+}
