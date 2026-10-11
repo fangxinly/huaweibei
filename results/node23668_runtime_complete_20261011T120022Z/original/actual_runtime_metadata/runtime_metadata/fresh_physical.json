@@ -1,0 +1,20 @@
+{
+  "actual_UTC": "2026-10-11T11:51:33.192731+00:00",
+  "GPU_UUID": "GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198",
+  "compute": "",
+  "cgroup_memory_max": 48318382080,
+  "cgroup_memory_current": 1299197952,
+  "available_RAM_bytes": 47019184128,
+  "remote_free_bytes": 52759109632,
+  "fullargv": "PID   PPID COMMAND\n     1      0 bash /init/boot/boot.sh\n  1120      1 /bin/supervisord -c /init/supervisor/supervisor.ini\n  1137   1120 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n  1138   1120 /root/miniconda3/bin/python /root/miniconda3/bin/jupyter-lab --allow-root --config=/init/jupyter/jupyter_config.py\n  1139   1120 /root/miniconda3/bin/python /root/miniconda3/bin/tensorboard --host 0.0.0.0 --port 6007 --logdir /root/tf-logs\n  1141   1120 proxy -c /init/proxy/proxy-hot-backup.ini\n  1142   1120 autopanel serve --work-dir=/root/autodl-tmp --cache-dir=/root/autodl-tmp\n  1143   1120 proxy -c /init/proxy/proxy.ini\n  1197   1139 /root/miniconda3/lib/python3.10/site-packages/tensorboard_data_server/bin/server --logdir=/root/tf-logs --reload=5 --samples-per-plugin= --port=0 --port-file=/tmp/tensorboard_data_server_m7x4bxd5/port --die-after-stdin --error-file=/tmp/tensorboard_data_server_m7x4bxd5/startup_error\n  1506   1137 sshd: root@pts/0\n  1521   1506 -bash\n  1895      1 /root/miniconda3/bin/python -I -S -B /root/autodl-tmp/ni_node23668_20261011T114428Z/canonical_runtime_wrapper.py\n  1896   1895 /root/miniconda3/bin/python -I -S -B /root/autodl-tmp/ni_node23668_20261011T114428Z/new_node_23668_public_runtime.py --plan /root/autodl-tmp/ni_node23668_20261011T114428Z/canonical_dispatch_plan.json --plan-sha 87c210ffaaade533931673038d47a4b0337034dddf8b6be161ba656aa84b81c7 --root /root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical\n  1901   1896 ps -eo pid,ppid,args --width 10000",
+  "argv": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/new_node_23668_public_runtime.py",
+    "--plan",
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/canonical_dispatch_plan.json",
+    "--plan-sha",
+    "87c210ffaaade533931673038d47a4b0337034dddf8b6be161ba656aa84b81c7",
+    "--root",
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical"
+  ]
+}

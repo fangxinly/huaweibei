@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-11T12:00:27.754167+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\node23668_runtime_complete_20261011T120022Z\\original\\node23668-exact-public-runtime-original.zip",
+  "source_SHA": "9d85e545fae5a7a6f7cd97c9b71e3f28330f80eac524e2123d2fa71414e62d1a",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "node23668-exact-public-runtime-original-9d85e545fae5.zip",
+  "id": 630637748,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node23668-exact-public-runtime-original-9d85e545fae5.zip",
+  "remote_digest_verified": true
+}

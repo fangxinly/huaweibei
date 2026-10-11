@@ -1,0 +1,12 @@
+{
+  "actual_UTC": "2026-10-11T11:57:05.589200+00:00",
+  "pid": 2045,
+  "argv": [
+    "/root/miniconda3/bin/python",
+    "-m",
+    "venv",
+    "--system-site-packages",
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical/.venv"
+  ],
+  "natural_exit": 0
+}

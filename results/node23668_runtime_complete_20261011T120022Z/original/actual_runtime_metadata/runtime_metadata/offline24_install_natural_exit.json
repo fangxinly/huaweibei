@@ -1,0 +1,18 @@
+{
+  "actual_UTC": "2026-10-11T11:57:17.954648+00:00",
+  "pid": 2052,
+  "argv": [
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical/.venv/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--no-cache-dir",
+    "--no-index",
+    "--find-links",
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical/wheels",
+    "--no-deps",
+    "-r",
+    "/root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical/wheels/offline_requirements.txt"
+  ],
+  "natural_exit": 0
+}

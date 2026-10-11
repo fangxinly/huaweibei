@@ -1,0 +1,7 @@
+Processing ./autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical/torch-2.1.0+cu121-cp310-cp310-linux_x86_64.whl
+Installing collected packages: torch
+  Attempting uninstall: torch
+    Found existing installation: torch 2.1.2+cu121
+    Not uninstalling torch at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical/.venv
+    Can't uninstall 'torch'. No files were found to uninstall.
+Successfully installed torch-2.1.0+cu121
