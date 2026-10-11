@@ -1,0 +1,52 @@
+python -I -S -B - <<'PREFLIGHT'
+import os, sys, json, pathlib, subprocess, datetime, platform, shutil, re
+
+def run(argv):
+    try:
+        p=subprocess.run(argv,capture_output=True,text=True,timeout=25)
+        return {'argv':argv,'exit_code':p.returncode,'stdout':p.stdout.strip(),'stderr':p.stderr.strip()}
+    except Exception as e:
+        return {'argv':argv,'error':type(e).__name__+': '+str(e)}
+
+def clean(argv):
+    out=[]; hide=False
+    for a in argv:
+        if hide:
+            out.append('[REDACTED]'); hide=False; continue
+        if re.search(r'(?i)(password|passwd|token|secret|api[_-]?key|credential)',a):
+            if '=' in a: out.append(a.split('=',1)[0]+'=[REDACTED]')
+            else: out.append(a); hide=True
+        else: out.append(a)
+    return out
+
+procs=[]
+for d in pathlib.Path('/proc').iterdir():
+    if not d.name.isdigit(): continue
+    try:
+        argv=[x.decode(errors='replace') for x in (d/'cmdline').read_bytes().split(b'\0') if x]
+        if not argv: continue
+        if argv[0].endswith('bash') and '-c' in argv: argv=clean(argv)
+        procs.append({'pid':int(d.name),'argv':clean(argv)})
+    except (OSError,PermissionError): pass
+mem={}
+for l in pathlib.Path('/proc/meminfo').read_text().splitlines():
+    if l.startswith(('MemTotal:','MemAvailable:','SwapTotal:','SwapFree:')):
+        k,v=l.split(':',1); mem[k]=v.strip()
+versions={}
+for base in [pathlib.Path(sys.prefix)/'lib',pathlib.Path('/root/miniconda3/lib')]:
+    for lib in base.glob('python*/site-packages'):
+        for dist in lib.glob('*.dist-info/METADATA'):
+            try:
+                name=version=None
+                for line in dist.read_text(errors='replace').splitlines():
+                    if line.startswith('Name: '): name=line[6:]
+                    elif line.startswith('Version: '): version=line[9:]
+                    if name and version: break
+                if name and version: versions[name]=version
+            except OSError: pass
+res={'kind':'NEW_NODE_READ_ONLY_PREFLIGHT_NO_SCIENTIFIC_IMPORT','observed_UTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'hostname':platform.node(),'python':sys.version,'executable':sys.executable,'platform':platform.platform(),'cpu_count':os.cpu_count(),'meminfo':mem,'disks':{p:dict(zip(['total','used','free'],shutil.disk_usage(p))) for p in ['/','/root/autodl-tmp']},'gpu':run(['nvidia-smi','--query-gpu=index,uuid,name,memory.total,memory.free,driver_version','--format=csv,noheader,nounits']),'compute':run(['nvidia-smi','--query-compute-apps=pid,process_name,gpu_uuid,used_gpu_memory','--format=csv,noheader,nounits']),'process_argv':sorted(procs,key=lambda x:x['pid']),'installed_metadata_versions_without_import':versions,'data_disk_immediate_entries':[p.name for p in pathlib.Path('/root/autodl-tmp').iterdir()],'lease_expiry_from_human':None,'no_install_training_inference_scoring_or_once':True}
+print('PREFLIGHT_JSON_BEGIN')
+print(json.dumps(res,ensure_ascii=False,sort_keys=True))
+print('PREFLIGHT_JSON_END')
+PREFLIGHT
+

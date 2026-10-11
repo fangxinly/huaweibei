@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-11T11:54:24.375499+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\new_node23668_setup_20261011T115414Z\\original\\complete_new_node_setup_original.zip",
+  "source_SHA": "a8b27ae51252dc6c658c34ea5a8cbeb08cc58a3acf1cb176ecbd297ecfb0dd6e",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "new-node23668-setup-a8b27ae51252.zip",
+  "id": 630626041,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/new-node23668-setup-a8b27ae51252.zip",
+  "remote_digest_verified": true
+}

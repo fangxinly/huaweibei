@@ -1,0 +1,56 @@
+{
+  "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\new_node_23668_preflight_20261011T114221Z",
+  "local_root": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\new_node_23668_preflight_20261011T114221Z",
+  "receipt": {
+    "recorded_UTC": "2026-10-11T11:42:21.960026+00:00",
+    "status": "NEW_HUMAN_NODE_DIRECT_SSH_READ_ONLY_PASSED_RUNTIME_NOT_QUALIFIED",
+    "endpoint": {
+      "host": "connect.cqa1.seetacloud.com",
+      "port": 23668,
+      "user": "root"
+    },
+    "GPU_UUID": "GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198",
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "total_VRAM_MiB": 22528,
+    "free_VRAM_MiB_at_probe": 22001,
+    "cgroup_memory_max_bytes": 48318382080,
+    "cgroup_memory_current_bytes": 354447360,
+    "cgroup_cpu_quota": "1200000 100000",
+    "host_meminfo_is_not_container_limit": true,
+    "human_available_lease_reply": "30小时",
+    "human_duration_seconds": 108000,
+    "conservative_lease_anchor_UTC": "2026-10-11T11:40:34.029520+00:00",
+    "conservative_lease_end_UTC": "2026-10-12T17:40:34.029520+00:00",
+    "lease_platform_confirmed": false,
+    "hostkey_ED25519_SHA256": "y2DhrdHAWfTCoY9uLz0ve3EzTKYtWNBBWm80QUTOkXg",
+    "fresh_new_SSH_session_id": 54898,
+    "preflight_tool_chunk": "4d7c08",
+    "cgroup_and_observed_natural_exit_tool_chunk": "750177",
+    "preflight_natural_exit": 0,
+    "cgroup_supplement_natural_exit": 0,
+    "terminal_normalization": "Removed original Windows PTY wrapping control sequence plus its repeated boundary character; original tool payload retained",
+    "base_environment_mismatch": {
+      "torch": "2.1.2+cu121",
+      "numpy": "1.26.3"
+    },
+    "existing_completed_training_native_audits_scores_once_not_repeated": true,
+    "new_runtime_install_task_arrays_models_training_inference_scoring_once": 0,
+    "old_expired_nodes_not_connected": true,
+    "new_node_can_be_used_as_direct_target": true,
+    "jump_forwarding_not_configured": true,
+    "no_password_or_private_key_saved": true,
+    "outputs_preserved_unscored": 1,
+    "outer_scores": 0,
+    "local_root": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\new_node_23668_preflight_20261011T114221Z",
+    "D_root": "D:\\CodexBackups\\selective_flow_20261003_1105\\new_node_23668_preflight_20261011T114221Z"
+  },
+  "D_proof": {
+    "actual_UTC": "2026-10-11T11:42:22.172508+00:00",
+    "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\new_node_23668_preflight_20261011T114221Z\\complete_new_node_preflight_original.zip",
+    "bytes": 12726,
+    "whole_SHA": "7feee4471e60dc7c616b9404ecf3f252af382583b55d0aaeaebb6d8f27fc4b0d",
+    "members": 9,
+    "D_all_bytes_SHA_CRC_unique_exactset_passed": true
+  },
+  "new_scientific_stage_dispatched": false
+}

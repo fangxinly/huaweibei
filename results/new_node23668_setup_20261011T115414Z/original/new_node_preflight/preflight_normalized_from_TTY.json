@@ -1,0 +1,294 @@
+{
+  "compute": {
+    "argv": [
+      "nvidia-smi",
+      "--query-compute-apps=pid,process_name,gpu_uuid,used_gpu_memory",
+      "--format=csv,noheader,nounits"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "cpu_count": 128,
+  "data_disk_immediate_entries": [
+    ".autodl"
+  ],
+  "disks": {
+    "/": {
+      "free": 32157364224,
+      "total": 32212254720,
+      "used": 54890496
+    },
+    "/root/autodl-tmp": {
+      "free": 53687078912,
+      "total": 53687091200,
+      "used": 12288
+    }
+  },
+  "executable": "/root/miniconda3/bin/python",
+  "gpu": {
+    "argv": [
+      "nvidia-smi",
+      "--query-gpu=index,uuid,name,memory.total,memory.free,driver_version",
+      "--format=csv,noheader,nounits"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "0, GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198, NVIDIA GeForce RTX 2080 Ti, 22528, 22001, 595.71.05"
+  },
+  "hostname": "autodl-container-8964458727-f91e5c57",
+  "installed_metadata_versions_without_import": {
+    "Babel": "2.14.0",
+    "Jinja2": "3.1.2",
+    "Markdown": "3.5.1",
+    "MarkupSafe": "2.1.3",
+    "PySocks": "1.7.1",
+    "PyYAML": "6.0.1",
+    "Pygments": "2.17.2",
+    "Send2Trash": "1.8.2",
+    "Werkzeug": "3.0.1",
+    "absl-py": "2.0.0",
+    "anyio": "4.2.0",
+    "argon2-cffi": "23.1.0",
+    "argon2-cffi-bindings": "21.2.0",
+    "arrow": "1.3.0",
+    "asttokens": "2.4.1",
+    "async-lru": "2.0.4",
+    "attrs": "23.2.0",
+    "beautifulsoup4": "4.12.2",
+    "bleach": "6.1.0",
+    "cachetools": "5.3.2",
+    "certifi": "2022.12.7",
+    "cffi": "1.15.1",
+    "charset-normalizer": "2.0.4",
+    "comm": "0.2.1",
+    "conda-content-trust": "0.1.3",
+    "conda-package-handling": "1.9.0",
+    "contourpy": "1.2.0",
+    "cryptography": "38.0.1",
+    "cycler": "0.12.1",
+    "debugpy": "1.8.0",
+    "decorator": "5.1.1",
+    "defusedxml": "0.7.1",
+    "exceptiongroup": "1.2.0",
+    "executing": "2.0.1",
+    "fastjsonschema": "2.19.1",
+    "filelock": "3.13.1",
+    "fonttools": "4.47.0",
+    "fqdn": "1.5.1",
+    "fsspec": "2023.12.2",
+    "google-auth": "2.26.1",
+    "google-auth-oauthlib": "1.2.0",
+    "grpcio": "1.60.0",
+    "idna": "3.4",
+    "ipykernel": "6.28.0",
+    "ipython": "8.20.0",
+    "ipywidgets": "8.1.1",
+    "isoduration": "20.11.0",
+    "jedi": "0.19.1",
+    "json5": "0.9.14",
+    "jsonpointer": "2.4",
+    "jsonschema": "4.20.0",
+    "jsonschema-specifications": "2023.12.1",
+    "jupyter-events": "0.9.0",
+    "jupyter-lsp": "2.2.1",
+    "jupyter_client": "8.6.0",
+    "jupyter_core": "5.7.1",
+    "jupyter_server": "2.12.2",
+    "jupyter_server_terminals": "0.5.1",
+    "jupyterlab": "4.0.10",
+    "jupyterlab-language-pack-zh-CN": "4.0.post6",
+    "jupyterlab-widgets": "3.0.9",
+    "jupyterlab_pygments": "0.3.0",
+    "jupyterlab_server": "2.25.2",
+    "kiwisolver": "1.4.5",
+    "matplotlib": "3.8.2",
+    "matplotlib-inline": "0.1.6",
+    "mistune": "3.0.2",
+    "mpmath": "1.3.0",
+    "nbclient": "0.9.0",
+    "nbconvert": "7.14.0",
+    "nbformat": "5.9.2",
+    "nest-asyncio": "1.5.8",
+    "networkx": "3.2.1",
+    "notebook_shim": "0.2.3",
+    "numpy": "1.26.3",
+    "oauthlib": "3.2.2",
+    "overrides": "7.4.0",
+    "packaging": "23.2",
+    "pandocfilters": "1.5.0",
+    "parso": "0.8.3",
+    "pexpect": "4.9.0",
+    "pillow": "10.2.0",
+    "platformdirs": "4.1.0",
+    "pluggy": "1.0.0",
+    "prometheus-client": "0.19.0",
+    "prompt-toolkit": "3.0.43",
+    "protobuf": "4.23.4",
+    "psutil": "5.9.7",
+    "ptyprocess": "0.7.0",
+    "pure-eval": "0.2.2",
+    "pyOpenSSL": "22.0.0",
+    "pyasn1": "0.5.1",
+    "pyasn1-modules": "0.3.0",
+    "pycosat": "0.6.4",
+    "pycparser": "2.21",
+    "pyparsing": "3.1.1",
+    "python-dateutil": "2.8.2",
+    "python-json-logger": "2.0.7",
+    "pyzmq": "25.1.2",
+    "referencing": "0.32.1",
+    "requests": "2.31.0",
+    "requests-oauthlib": "1.3.1",
+    "rfc3339-validator": "0.1.4",
+    "rfc3986-validator": "0.1.1",
+    "rpds-py": "0.16.2",
+    "rsa": "4.9",
+    "ruamel.yaml": "0.17.21",
+    "ruamel.yaml.clib": "0.2.6",
+    "six": "1.16.0",
+    "sniffio": "1.3.0",
+    "soupsieve": "2.5",
+    "stack-data": "0.6.3",
+    "supervisor": "4.2.5",
+    "sympy": "1.12",
+    "tensorboard": "2.15.1",
+    "tensorboard-data-server": "0.7.2",
+    "terminado": "0.18.0",
+    "tinycss2": "1.2.1",
+    "tomli": "2.0.1",
+    "toolz": "0.12.0",
+    "torch": "2.1.2+cu121",
+    "torchvision": "0.16.2+cu121",
+    "tornado": "6.4",
+    "tqdm": "4.64.1",
+    "traitlets": "5.14.1",
+    "triton": "2.1.0",
+    "types-python-dateutil": "2.8.19.20240106",
+    "typing_extensions": "4.9.0",
+    "uri-template": "1.3.0",
+    "urllib3": "1.26.13",
+    "wcwidth": "0.2.13",
+    "webcolors": "1.13",
+    "webencodings": "0.5.1",
+    "websocket-client": "1.7.0",
+    "widgetsnbextension": "4.0.9"
+  },
+  "kind": "NEW_NODE_READ_ONLY_PREFLIGHT_NO_SCIENTIFIC_IMPORT",
+  "lease_expiry_from_human": null,
+  "meminfo": {
+    "MemAvailable": "467033564 kB",
+    "MemTotal": "527951604 kB",
+    "SwapFree": "0 kB",
+    "SwapTotal": "0 kB"
+  },
+  "no_install_training_inference_scoring_or_once": true,
+  "observed_UTC": "2026-10-11T11:40:34.029520+00:00",
+  "platform": "Linux-5.15.0-107-generic-x86_64-with-glibc2.35",
+  "process_argv": [
+    {
+      "argv": [
+        "bash",
+        "/init/boot/boot.sh"
+      ],
+      "pid": 1
+    },
+    {
+      "argv": [
+        "/bin/supervisord",
+        "-c",
+        "/init/supervisor/supervisor.ini"
+      ],
+      "pid": 1120
+    },
+    {
+      "argv": [
+        "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+      ],
+      "pid": 1137
+    },
+    {
+      "argv": [
+        "/root/miniconda3/bin/python",
+        "/root/miniconda3/bin/jupyter-lab",
+        "--allow-root",
+        "--config=/init/jupyter/jupyter_config.py"
+      ],
+      "pid": 1138
+    },
+    {
+      "argv": [
+        "/root/miniconda3/bin/python",
+        "/root/miniconda3/bin/tensorboard",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "6007",
+        "--logdir",
+        "/root/tf-logs"
+      ],
+      "pid": 1139
+    },
+    {
+      "argv": [
+        "proxy",
+        "-c",
+        "/init/proxy/proxy-hot-backup.ini"
+      ],
+      "pid": 1141
+    },
+    {
+      "argv": [
+        "autopanel",
+        "serve",
+        "--work-dir=/root/autodl-tmp",
+        "--cache-dir=/root/autodl-tmp"
+      ],
+      "pid": 1142
+    },
+    {
+      "argv": [
+        "proxy",
+        "-c",
+        "/init/proxy/proxy.ini"
+      ],
+      "pid": 1143
+    },
+    {
+      "argv": [
+        "/root/miniconda3/lib/python3.10/site-packages/tensorboard_data_server/bin/server",
+        "--logdir=/root/tf-logs",
+        "--reload=5",
+        "--samples-per-plugin=",
+        "--port=0",
+        "--port-file=/tmp/tensorboard_data_server_m7x4bxd5/port",
+        "--die-after-stdin",
+        "--error-file=/tmp/tensorboard_data_server_m7x4bxd5/startup_error"
+      ],
+      "pid": 1197
+    },
+    {
+      "argv": [
+        "sshd: root@pts/0"
+      ],
+      "pid": 1506
+    },
+    {
+      "argv": [
+        "-bash"
+      ],
+      "pid": 1521
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-S",
+        "-B",
+        "-"
+      ],
+      "pid": 1560
+    }
+  ],
+  "python": "3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0]"
+}

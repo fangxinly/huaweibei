@@ -1,0 +1,16 @@
+{
+  "root": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\new_node_23668_runtime_prepared_20261011T114428Z",
+  "remote_root": "/root/autodl-tmp/ni_node23668_20261011T114428Z",
+  "plan_SHA": "4a3181d86207b89ca6517b759cabbc3e9cc8a14934b540a74fc1e62fa32b5575",
+  "source_SHA": "1d02fd4b541860b08a456637cae0c1eb76811e38c7ec0dfaef26281fbee16f4b",
+  "original_local_common": "D:\\CodexBackups\\selective_flow_20261003_1105\\new_p4_assets_20261005T1220Z\\common_assets.zip",
+  "original_local_wheels": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\second_lease_linux_wheels_20261006T1401Z.zip",
+  "created_UTC": "2026-10-11T11:44:29.339092+00:00",
+  "dispatch_plan_SHA": "b1190fe97e3249c5e29fe0a64244c968d2ef70037bc72c4ab540a3f9512d2b0b",
+  "dispatch_plan_local": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\new_node_23668_runtime_prepared_20261011T114428Z\\dispatch_plan.json",
+  "wrapper_SHA": "eef112b72d439d48502407b09c3a89e6d52d424a5262b6f7e4f4ae6393131044",
+  "canonical_dispatch_plan_SHA": "87c210ffaaade533931673038d47a4b0337034dddf8b6be161ba656aa84b81c7",
+  "canonical_runtime_root": "/root/autodl-tmp/ni_node23668_20261011T114428Z/runtime_canonical",
+  "first_runtime_attempt_natural_exit": 1,
+  "first_runtime_failure_capture_SHA": "00d6e97beb50a2a5e800aa0adc20df3c09c8b4fdc7326e2f755db8e792faf8d2"
+}

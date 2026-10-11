@@ -1,0 +1,15 @@
+printf 'FIRST_PREFLIGHT_NATURAL_EXIT=%s\n' "$?"
+python -I -S -B - <<'CGROUP_PROBE'
+import pathlib,json,datetime,os,base64
+paths=['/proc/self/cgroup','/sys/fs/cgroup/memory.max','/sys/fs/cgroup/memory.current','/sys/fs/cgroup/cpu.max','/sys/fs/cgroup/cpuset.cpus.effective','/sys/fs/cgroup/memory/memory.limit_in_bytes','/sys/fs/cgroup/memory/memory.usage_in_bytes','/sys/fs/cgroup/cpu/cpu.cfs_quota_us','/sys/fs/cgroup/cpu/cpu.cfs_period_us']
+r={'kind':'CGROUP_LIMITS_SUPPLEMENT','observed_UTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'affinity_cpu_count':len(os.sched_getaffinity(0)),'read_only':True,'values':{}}
+for p in paths:
+    try:r['values'][p]=pathlib.Path(p).read_text().strip()
+    except OSError:r['values'][p]=None
+s=base64.b64encode(json.dumps(r,sort_keys=True).encode()).decode()
+print('CGROUP_JSON_BASE64_BEGIN')
+for i in range(0,len(s),60):print('B64:'+s[i:i+60])
+print('CGROUP_JSON_BASE64_END')
+CGROUP_PROBE
+printf 'CGROUP_PREFLIGHT_NATURAL_EXIT=%s\n' "$?"
+

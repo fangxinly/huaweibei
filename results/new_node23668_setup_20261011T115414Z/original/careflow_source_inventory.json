@@ -1,0 +1,196 @@
+[
+  {
+    "name": "anchored_flow.py",
+    "SHA": "63fc491a8006466f497306668b7444ba845d325e641b82bbf8e9856e8c040065",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/anchored_flow.py",
+    "member_CRC": 3544705494,
+    "bytes": 5818
+  },
+  {
+    "name": "careflow_train_dev_author_components_candidate.py",
+    "SHA": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/careflow_train_dev_author_components_candidate.py",
+    "member_CRC": 1625132852,
+    "bytes": 11852
+  },
+  {
+    "name": "encoder_adapter.py",
+    "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/encoder_adapter.py",
+    "member_CRC": 415666450,
+    "bytes": 3867
+  },
+  {
+    "name": "finite_single_token_reader_v1.py",
+    "SHA": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/finite_single_token_reader_v1.py",
+    "member_CRC": 4285628727,
+    "bytes": 2184
+  },
+  {
+    "name": "fixed_flow_components_candidate.py",
+    "SHA": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/fixed_flow_components_candidate.py",
+    "member_CRC": 1108036714,
+    "bytes": 2137
+  },
+  {
+    "name": "fold_contract.py",
+    "SHA": "e4cab856b29cbc9870798f48b33a6d64bdeee1f20f7e78be5f806e06ab1a647f",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/fold_contract.py",
+    "member_CRC": 1321210827,
+    "bytes": 6700
+  },
+  {
+    "name": "group5_direct_runtime_v1.py",
+    "SHA": "fd95baf73e2352798fd39e197284bc50f890cff30dad98f64d6014e9e7928e86",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/group5_direct_runtime_v1.py",
+    "member_CRC": 2307418104,
+    "bytes": 14758
+  },
+  {
+    "name": "group5_fresh_direct_session_v1.py",
+    "SHA": "b2f8a9dc0239f43821e0dacd1bcefadc157be5baa6f1c9550f21b2e71795ffe7",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/group5_fresh_direct_session_v1.py",
+    "member_CRC": 2917164140,
+    "bytes": 8524
+  },
+  {
+    "name": "group5_release_transport_v1.py",
+    "SHA": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/group5_release_transport_v1.py",
+    "member_CRC": 64420821,
+    "bytes": 10893
+  },
+  {
+    "name": "group5_teacher_optimizer_v1.py",
+    "SHA": "2cf033375cf4f36906d1d90c9f953b3b40481f2723a6990431fbd578372c0c81",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/group5_teacher_optimizer_v1.py",
+    "member_CRC": 87576368,
+    "bytes": 764
+  },
+  {
+    "name": "group5_test_selected_contract_v1.py",
+    "SHA": "435cd516020a9b3d2976e8485d0c14675e24cd99432b368323caf18ddb62a090",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/group5_test_selected_contract_v1.py",
+    "member_CRC": 2981376844,
+    "bytes": 5151
+  },
+  {
+    "name": "legacy_flow_model.py",
+    "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/legacy_flow_model.py",
+    "member_CRC": 3318186810,
+    "bytes": 15003
+  },
+  {
+    "name": "minimal_fixed_flow_v2.py",
+    "SHA": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/minimal_fixed_flow_v2.py",
+    "member_CRC": 2615408605,
+    "bytes": 4555
+  },
+  {
+    "name": "official_fulltrain_dev_guard_candidate.py",
+    "SHA": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/official_fulltrain_dev_guard_candidate.py",
+    "member_CRC": 145302693,
+    "bytes": 3113
+  },
+  {
+    "name": "orders_fold0.npy",
+    "SHA": "76e1cd9e686553ebd0802198c84ab966ce288f704c08e43d8f73ac02fd6a2163",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/orders_fold0.npy",
+    "member_CRC": 1591227208,
+    "bytes": 1195328
+  },
+  {
+    "name": "orders_fold1.npy",
+    "SHA": "9735346f7e6ac051d7e3b0541223ab41811cc38bb8f0052037afadee7a3bf9bd",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/orders_fold1.npy",
+    "member_CRC": 1744108839,
+    "bytes": 1195328
+  },
+  {
+    "name": "orders_fold2.npy",
+    "SHA": "3a444c1ec94654437480190f58b78ba6385769fc49e7717e0887ecf17283bdb5",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/orders_fold2.npy",
+    "member_CRC": 1050276749,
+    "bytes": 1188928
+  },
+  {
+    "name": "orders_fold3.npy",
+    "SHA": "23982cab488b686bb15bcfbb2be4e3158cd750faf0512a1539f0b37d8a564f69",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/orders_fold3.npy",
+    "member_CRC": 3247077096,
+    "bytes": 1187328
+  },
+  {
+    "name": "orders_fold4.npy",
+    "SHA": "0b116303eb7117a81533ee8c8ac64870137a197aab3071c44d8444a171b0291a",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/orders_fold4.npy",
+    "member_CRC": 2839581840,
+    "bytes": 1188928
+  },
+  {
+    "name": "paired_fulltrain_session_candidate.py",
+    "SHA": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/paired_fulltrain_session_candidate.py",
+    "member_CRC": 3619554273,
+    "bytes": 8569
+  },
+  {
+    "name": "sentiment_metrics_careflow_v1.py",
+    "SHA": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/sentiment_metrics_careflow_v1.py",
+    "member_CRC": 2360011385,
+    "bytes": 3027
+  },
+  {
+    "name": "split.json",
+    "SHA": "1b49d2e3d4f790c3c88e1412f139f2b523396f8f4d755d270863700f5dc1ac48",
+    "archive_SHA": "f37d3ebfcb26b9f6a145ae79a8c0fc62c961646b198d0858f9289c5ccf58b666",
+    "member": "careflow/split.json",
+    "member_CRC": 3105066752,
+    "bytes": 390933
+  },
+  {
+    "name": "group5_direct_runtime_v2.py",
+    "SHA": "5f3e1a23ff0f890a5600cee01784bfdf9d5a05b2155cfe372c9ec724e26d0aa6",
+    "original_path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_direct_runtime_v2.py",
+    "bytes": 16430
+  },
+  {
+    "name": "group5_epoch_resume_v1.py",
+    "SHA": "d6e2d743cd2449b3eb038749ab74c6268446e6429441d42d48ab5e0be39c9774",
+    "original_path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_epoch_resume_v1.py",
+    "bytes": 3913
+  },
+  {
+    "name": "group5_direct_CPU_audit_v2.py",
+    "SHA": "881db3cedcdf3803a6cea672d42ad1db2feae19659724816f08cf00f22362ec1",
+    "original_path": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_direct_CPU_audit_v2.py",
+    "bytes": 8236
+  }
+]
