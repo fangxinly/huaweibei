@@ -1,0 +1,17 @@
+{
+  "schema": "GROUP5_CONTIGUOUS_ORIGINAL_V1",
+  "path": "/root/autodl-tmp/ni_node20631_20261012T152116Z/publication_route_original/complete_original.zip",
+  "bytes": 904,
+  "whole_SHA": "569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b",
+  "parts": [
+    {
+      "name": "node20631-publication-route-569962a38c7a.part0000",
+      "offset": 0,
+      "bytes": 904,
+      "SHA": "569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b"
+    }
+  ],
+  "repository": "fangxinly/huaweibei",
+  "tag": "autonomous-flow-health-20261008",
+  "publication_authorized": true
+}

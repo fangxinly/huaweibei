@@ -1,0 +1,47 @@
+{
+  "actual_UTC": "2026-10-12T15:21:16.015789+00:00",
+  "hostname": "autodl-container-8964458727-914a9cca",
+  "python": "/root/miniconda3/bin/python",
+  "python_version": "3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0]",
+  "GPU": "NVIDIA GeForce RTX 2080 Ti, GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198, 22528, 22001, 0, 595.71.05\n",
+  "compute": "",
+  "process_fullargv": "   PID ELAPSED COMMAND\n     1     275 bash /init/boot/boot.sh\n  1120     273 /bin/supervisord -c /init/supervisor/supervisor.ini\n  1138     273 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n  1141     273 /root/miniconda3/bin/python /root/miniconda3/bin/jupyter-lab --allow-root --config=/init/jupyter/jupyter_config.py\n  1142     273 autopanel serve --work-dir=/root/autodl-tmp --cache-dir=/root/autodl-tmp\n  1143     273 /root/miniconda3/bin/python /root/miniconda3/bin/tensorboard --host 0.0.0.0 --port 6007 --logdir /root/tf-logs\n  1144     273 proxy -c /init/proxy/proxy.ini\n  1145     273 proxy -c /init/proxy/proxy-hot-backup.ini\n  1201     273 /root/miniconda3/lib/python3.10/site-packages/tensorboard_data_server/bin/server --logdir=/root/tf-logs --reload=5 --samples-per-plugin= --port=0 --port-file=/tmp/tensorboard_data_server_jmyqxgkv/port --die-after-stdin --error-file=/tmp/tensorboard_data_server_jmyqxgkv/startup_error\n  1585      55 sshd: root@pts/0\n  1616      24 -bash\n  1652       1 python -\n  1657       0 ps -eo pid,etimes,args\n",
+  "meminfo": "MemTotal:       527951604 kB\nMemFree:        13222612 kB\nMemAvailable:   466326500 kB\nBuffers:          403856 kB\nCached:         439140748 kB\nSwapCached:            0 kB\nActive:         118737844 kB\nInactive:       363177172 kB\nActive(anon):     922824 kB\nInactive(anon): 42940764 kB\nActive(file):   117815020 kB\nInactive(file): 320236408 kB\nUnevictable:       27780 kB\nMlocked:           27780 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:               204 kB\nWriteback:           648 kB\nAnonPages:      42399320 kB\nMapped:          2793100 kB\nShmem:           1496952 kB\nKReclaimable:   18478484 kB\nSlab:           23241776 kB\nSReclaimable:   18478484 kB\nSUnreclaim:      4763292 kB\nKernelStack:      113744 kB\nPageTables:       175416 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    263975800 kB\nCommitted_AS:   85033940 kB\nVmallocTotal:   13743895347199 kB\nVmallocUsed:      506600 kB\nVmallocChunk:          0 kB\nPercpu:           215552 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:    27167700 kB\nDirectMap2M:    333166592 kB\nDirectMap1G:    178257920 kB\n",
+  "cgroup": {
+    "memory.max": "48318382080\n",
+    "memory.current": "359686144\n",
+    "cpu.max": "1200000 100000\n"
+  },
+  "disk": {
+    "/": {
+      "total": 32212254720,
+      "used": 54648832,
+      "free": 32157605888
+    },
+    "/root/autodl-tmp": {
+      "total": 53687091200,
+      "used": 20480,
+      "free": 53687070720
+    }
+  },
+  "top_level": {
+    "/root/autodl-tmp": [
+      ".autodl"
+    ],
+    "/root": [
+      ".bashrc",
+      ".profile",
+      "autodl-tmp",
+      "autodl-pub",
+      "tf-logs",
+      ".ssh",
+      ".jupyter",
+      ".condarc",
+      ".local",
+      ".ipython",
+      ".cache",
+      "miniconda3",
+      ".conda"
+    ]
+  }
+}

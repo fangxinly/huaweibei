@@ -1,0 +1,11 @@
+{
+  "actual_UTC": "2026-10-12T15:42:28.934762+00:00",
+  "pid": 2292,
+  "argv": [
+    "/root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python",
+    "-B",
+    "-c",
+    "import importlib.metadata as im,json,torch,numpy,transformers,sentencepiece,scipy,sklearn; print(json.dumps({'versions':{n:im.version(n) for n in ['certifi', 'charset-normalizer', 'colorama', 'filelock', 'fsspec', 'hf-xet', 'huggingface-hub', 'idna', 'joblib', 'numpy', 'packaging', 'pyyaml', 'regex', 'requests', 'safetensors', 'scikit-learn', 'scipy', 'sentencepiece', 'threadpoolctl', 'tokenizers', 'tqdm', 'transformers', 'typing-extensions', 'urllib3', 'torch']},'CUDA_available':torch.cuda.is_available(),'CUDA_version':torch.version.cuda,'GPU_name':torch.cuda.get_device_name(0)},sort_keys=True))"
+  ],
+  "natural_exit": 0
+}

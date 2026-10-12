@@ -1,0 +1,75 @@
+Looking in links: /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/certifi-2026.7.22-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/colorama-0.4.6-py2.py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/filelock-3.15.4-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/fsspec-2026.9.0-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/huggingface_hub-0.36.2-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/idna-3.20-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/joblib-1.4.2-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/packaging-24.1-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/regex-2026.9.29-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/requests-2.32.3-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/scikit_learn-1.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/sentencepiece-0.1.99-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/threadpoolctl-3.5.0-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/tokenizers-0.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/tqdm-4.66.5-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/transformers-4.37.2-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/typing_extensions-4.16.0-py3-none-any.whl
+Processing ./autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/wheels/urllib3-2.8.0-py3-none-any.whl
+Installing collected packages: sentencepiece, urllib3, typing-extensions, transformers, tqdm, tokenizers, threadpoolctl, scipy, scikit-learn, safetensors, requests, regex, pyyaml, packaging, numpy, joblib, idna, huggingface-hub, hf-xet, fsspec, filelock, colorama, charset-normalizer, certifi
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.26.13
+    Not uninstalling urllib3 at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'urllib3'. No files were found to uninstall.
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.9.0
+    Not uninstalling typing-extensions at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'typing_extensions'. No files were found to uninstall.
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.64.1
+    Not uninstalling tqdm at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'tqdm'. No files were found to uninstall.
+  Attempting uninstall: requests
+    Found existing installation: requests 2.31.0
+    Not uninstalling requests at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'requests'. No files were found to uninstall.
+  Attempting uninstall: pyyaml
+    Found existing installation: PyYAML 6.0.1
+    Not uninstalling pyyaml at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'PyYAML'. No files were found to uninstall.
+  Attempting uninstall: packaging
+    Found existing installation: packaging 23.2
+    Not uninstalling packaging at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'packaging'. No files were found to uninstall.
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.3
+    Not uninstalling numpy at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'numpy'. No files were found to uninstall.
+  Attempting uninstall: idna
+    Found existing installation: idna 3.4
+    Not uninstalling idna at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'idna'. No files were found to uninstall.
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2023.12.2
+    Not uninstalling fsspec at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'fsspec'. No files were found to uninstall.
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.13.1
+    Not uninstalling filelock at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'filelock'. No files were found to uninstall.
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 2.0.4
+    Not uninstalling charset-normalizer at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'charset-normalizer'. No files were found to uninstall.
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2022.12.7
+    Not uninstalling certifi at /root/miniconda3/lib/python3.10/site-packages, outside environment /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv
+    Can't uninstall 'certifi'. No files were found to uninstall.
+Successfully installed certifi-2026.7.22 charset-normalizer-3.5.2 colorama-0.4.6 filelock-3.15.4 fsspec-2026.9.0 hf-xet-1.6.0 huggingface-hub-0.36.2 idna-3.20 joblib-1.4.2 numpy-1.26.4 packaging-24.1 pyyaml-6.0.3 regex-2026.9.29 requests-2.32.3 safetensors-0.8.0 scikit-learn-1.5.2 scipy-1.13.1 sentencepiece-0.1.99 threadpoolctl-3.5.0 tokenizers-0.15.2 tqdm-4.66.5 transformers-4.37.2 typing-extensions-4.16.0 urllib3-2.8.0

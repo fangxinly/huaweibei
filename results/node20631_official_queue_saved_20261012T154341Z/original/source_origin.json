@@ -1,0 +1,146 @@
+{
+  "anchored_flow.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\anchored_flow.py",
+    "SHA": "1917996d1bbb311ed108894aed39f7375d26ee6358e5b362ff593e00adedae76"
+  },
+  "audit_official.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\audit_official.py",
+    "SHA": "136fe4b13393b5bffd380fd6ee3c17cfdae38be8f93c43fcf9521f2dffc95e2b"
+  },
+  "candidate_adapter.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\candidate_adapter.py",
+    "SHA": "71128a8c3b567a963d555d9dadabccd775a312363380da9a12301d85bf8dacab"
+  },
+  "careflow_train_dev_author_components_candidate.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\careflow_train_dev_author_components_candidate.py",
+    "SHA": "c243eeb53f2126ea96e93341872a028d6abc3b95e9ae91b5b7346627c00f6ac6"
+  },
+  "common.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\common.py",
+    "SHA": "576f3c5961a47938a3a5c4113108ca139db870ef88a3df8b98fd4dc95cdbe3e6"
+  },
+  "common_budget_selection_candidate.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\common_budget_selection_candidate.py",
+    "SHA": "9cb0fd95a2f89464f9e19a0142cb710a9adf363a26f9419d478b031a231ca1de"
+  },
+  "controlled_flow.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\controlled_flow.py",
+    "SHA": "5325d0488e570a4ec3861e4dc57a785bc8d3adeeecec6b48fc908894bdfd3774"
+  },
+  "encoder_adapter.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\encoder_adapter.py",
+    "SHA": "149e01229c3e5550cc5d9c7342217a8e63dbed4a3089067b3564e55c247a199f"
+  },
+  "finite_single_token_reader_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\finite_single_token_reader_v1.py",
+    "SHA": "f5faaf7dee3bcfc5e9f0953889a17c0f68ef972fd56db7c1e6522aef0c619311"
+  },
+  "fixed_flow_components_candidate.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\fixed_flow_components_candidate.py",
+    "SHA": "30a7853f90edbef6e75e3f9100f5caf77250abf764d84ed4546bf42a741f9a92"
+  },
+  "incremental_message.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\incremental_message.py",
+    "SHA": "cb2db1a07129db6be3dff768494ff0c32cdcb306db1990dd6361de33a65b4dcd"
+  },
+  "infer_official.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\infer_official.py",
+    "SHA": "9f2ffc3485487995b317a01e4e3b00d2b04e67f9955fd3f8ffd50552be3f2108"
+  },
+  "legacy_flow_model.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\legacy_flow_model.py",
+    "SHA": "640a7eddddc72e098ed7ac552e8942aaddb301c6df8240d53c3060bc7431a1a3"
+  },
+  "minimal_fixed_flow_v2.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\minimal_fixed_flow_v2.py",
+    "SHA": "0f64dea25c522c6c8415297cc329e97cf484b6cbba499fe4e22b9db2c39a5a8c"
+  },
+  "official_fulltrain_dev_guard_candidate.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\official_fulltrain_dev_guard_candidate.py",
+    "SHA": "53009c09a273c8699a5be8c9dc5629d1308a813083a996a13f9840ea3560b9a7"
+  },
+  "official_upgrade.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\official_upgrade.py",
+    "SHA": "5362ac8f6db7bd9f95fe614162abcdf4d5c5a160b20ad633f57ee3175e5ed5c9"
+  },
+  "paired_fulltrain_session_candidate.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\paired_fulltrain_session_candidate.py",
+    "SHA": "053a3c69c9b86562fa64a49c2106388383418af9b5e6a626f6cf6d2d51fcec72"
+  },
+  "polarity_intensity_flow.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\polarity_intensity_flow.py",
+    "SHA": "ae8efef94c267b82c0aecf241c63da6ed255854493983b1ea666c5b5e302b741"
+  },
+  "precheck16.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\precheck16.py",
+    "SHA": "9ed1c49db99a9d60852222a5c720fd1d26a6bdfb932528366b8400bf659b4154"
+  },
+  "qualify_health_components_v2.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\qualify_health_components_v2.py",
+    "SHA": "532cc237a6b132f08ca02442975a5ec4c7b1de428219b7a47f1fe31509bf3ac5"
+  },
+  "qualify_resume_official_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\qualify_resume_official_v1.py",
+    "SHA": "18864ecf201026758877a2a5887c2ae8c20d03c09be702032534b5776419663e"
+  },
+  "restore_public.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\restore_public.py",
+    "SHA": "4b2b9dc5fdd38513a5a908b6eb999bcdddf09d645abcdc50c6f7354af2f895e8"
+  },
+  "resume_official_mse100_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\resume_official_mse100_v1.py",
+    "SHA": "e80d01e07f129b05f3323763740088526c9eeb54e14ce6895a1dee7f93a916e6"
+  },
+  "run_candidate_native_capture_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\run_candidate_native_capture_v1.py",
+    "SHA": "5b77cfab3dc2261ab5030b82bc6d1a118d6e015d7fa6054ff1d55159f8b6bc39"
+  },
+  "run_prefix16_capture_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\run_prefix16_capture_v1.py",
+    "SHA": "256ac8191bf7a609ff3e917078b402c6fc9434ed53110cfb9e923b5deeea629b"
+  },
+  "run_resumed100_capture_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\run_resumed100_capture_v1.py",
+    "SHA": "6c679d2869128c987259d6e759bc36cfbd398973eba266625760a6c79545c0a8"
+  },
+  "score_official.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\score_official.py",
+    "SHA": "7cb7e77b3aff9a9f4f6ccfdc49848e542f04b1d778d9cb1f8f86056ca221830d"
+  },
+  "sentiment_metrics_careflow_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\sentiment_metrics_careflow_v1.py",
+    "SHA": "a91e46693d8a690e20240a39232c9b63287d7c7fc6148711bb474e6b6e9b99a6"
+  },
+  "training_health_components_v2.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\training_health_components_v2.py",
+    "SHA": "0cb3b901d30b63bfbb7f08f773e372213d77ff5a99d4e80073a520e6704cf8ab"
+  },
+  "training_health_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\training_health_v1.py",
+    "SHA": "63afc114909192afede5f4837b2d46338991e87bc177882d14c265687557d71e"
+  },
+  "train_official.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\polarity_intensity_factorized_aux_qualified_20261008T203626Z\\train_official.py",
+    "SHA": "31547fe7179a467f3c60b164f5f5e9f2fae115b54b6885a45aaf1b1310c42b18"
+  },
+  "node20631_train_seed_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\node20631_train_seed_v1.py",
+    "SHA": "246a480ddbcf62aaf778cea574b8ba25c35ae07b035bcbfad165d098e6d25398"
+  },
+  "node20631_CPU_audit_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\node20631_CPU_audit_v1.py",
+    "SHA": "a5b98138f5d6b6b014700e65e6578578e6f79d73d2a26c2c20650296997a561b"
+  },
+  "node20631_parallel_supervisor_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\node20631_parallel_supervisor_v1.py",
+    "SHA": "0e595922418426e7a5f8b55dc379a564843bcdc088781c13ec2f430346867264"
+  },
+  "group5_release_transport_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\group5_release_transport_v1.py",
+    "SHA": "de1cbbb4c21843a98a7f21d08e950636e08f3c68a4be9eeff6ad52763467a74b"
+  },
+  "node23668_remote_release_stream_v1.py": {
+    "original": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\work\\node23668_remote_release_stream_v1.py",
+    "SHA": "bca308e056a045fde03ef475206da65bd8719dcfd3f240c4271e1c705ed70506"
+  }
+}

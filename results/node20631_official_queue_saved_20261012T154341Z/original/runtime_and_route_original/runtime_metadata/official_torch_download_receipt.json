@@ -1,0 +1,15 @@
+{
+  "start_UTC": "2026-10-12T15:36:40.394966+00:00",
+  "actual_UTC": "2026-10-12T15:41:43.053181+00:00",
+  "official_reference": {
+    "official_index": "https://download.pytorch.org/whl/cu121/torch/",
+    "wheel_link_with_original_SHA": "https://download.pytorch.org/whl/cu121/torch-2.1.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=0d4e8c52a1fcf5ed6cfc256d9a370fcf4360958fc79d0b08a51d55e70914df46",
+    "actual_UTC": "2026-10-11T11:43:07.047926+00:00",
+    "first_official_mirror_HTTP403_original_capture_SHA": "00d6e97beb50a2a5e800aa0adc20df3c09c8b4fdc7326e2f755db8e792faf8d2",
+    "canonical_HEAD_actual_UTC": "2026-10-11T11:51:03.806460+00:00",
+    "canonical_HEAD_Content_Length": 2200630334
+  },
+  "bytes": 2200630334,
+  "SHA": "0d4e8c52a1fcf5ed6cfc256d9a370fcf4360958fc79d0b08a51d55e70914df46",
+  "CRC_unique": true
+}

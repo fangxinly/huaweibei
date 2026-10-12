@@ -1,0 +1,31 @@
+{
+  "actual_UTC": "2026-10-12T15:39:37.156651+00:00",
+  "status": "FULL_ORIGINAL_RELEASE_STREAM_RESTORED_VERIFIED",
+  "whole_SHA": "569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b",
+  "bytes": 904,
+  "parts": [
+    {
+      "actual_UTC": "2026-10-12T15:39:32.064587+00:00",
+      "status": "REMOTE_RANGE_DIGEST_VERIFIED",
+      "whole_SHA": "569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b",
+      "part": {
+        "bytes": 904,
+        "name": "node20631-publication-route-569962a38c7a.part0000",
+        "offset": 0,
+        "SHA": "569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b"
+      },
+      "streamed_bytes": 904,
+      "streamed_SHA": "569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b",
+      "id": 634202101,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node20631-publication-route-569962a38c7a.part0000",
+      "remote_digest": "sha256:569962a38c7ae6a13dd67732ca4d95b2c357f00680a09a2eacd1026bc9bcd28b",
+      "local_payload_disk_bytes": 0,
+      "credential_remained_local": true
+    }
+  ],
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 2,
+  "no_local_payload_staging": true,
+  "GitHub_credential_not_present_on_remote": true,
+  "original_and_restoration_retained": true
+}

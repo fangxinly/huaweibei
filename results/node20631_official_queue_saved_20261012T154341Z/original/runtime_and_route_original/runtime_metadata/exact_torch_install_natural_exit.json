@@ -1,0 +1,15 @@
+{
+  "actual_UTC": "2026-10-12T15:42:26.335300+00:00",
+  "pid": 2277,
+  "argv": [
+    "/root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--no-cache-dir",
+    "--no-index",
+    "--no-deps",
+    "/root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/torch-2.1.0+cu121-cp310-cp310-linux_x86_64.whl"
+  ],
+  "natural_exit": 0
+}
