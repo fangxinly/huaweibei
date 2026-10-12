@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-12T15:52:06.188757+00:00",
+  "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration1_saved_20261012T155205Z\\payload\\node20631-VAL-only-iteration1-frozen-plan.zip",
+  "archive_SHA": "22fc09abb3c9599bd5d141a8d0571e03c6cb5dd3c1200806cd5924f32a1263d6",
+  "bytes": 530645,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 53
+}

@@ -1,0 +1,54 @@
+{
+  "root": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\node20631_official_queue_prepared_20261012T153806Z",
+  "source": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\node20631_official_queue_prepared_20261012T153806Z\\source",
+  "bundle": "C:\\Users\\21234\\Documents\\Codex\\2026-10-05\\ni\\outputs\\node20631_official_queue_prepared_20261012T153806Z\\source_bundle.zip",
+  "bundle_SHA": "eb09d118f00736a6245583e16d0713eefa94d386cecd19ec25e0e0fd22f9ecf0",
+  "prepared_plan_SHA": "9860c04c2fe0468a9def3aa7ead41ff10d1deaf3249b4bc18eb07efb9c047e08",
+  "remote": "/root/autodl-tmp/ni_node20631_20261012T152116Z/official_queue",
+  "training_dispatched": false,
+  "once_consumed": false,
+  "frozen_root": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_official_queue_saved_20261012T154341Z",
+  "payload": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_official_queue_saved_20261012T154341Z\\payload",
+  "plan_SHA": "cc6b9605c1ef04c989b312188b9b1af545a1ae6a0f5e97eb361917c0882cae00",
+  "python": "/root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python",
+  "assets_root": "/root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/public",
+  "runtime_passed": true,
+  "runtime_original_capture_SHA": "ea6183d6f4aac94e54ea4aa8002949fd0c917d0fa87f50c119b84ed216dc53c7",
+  "preservation": {
+    "root": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_official_queue_saved_20261012T154341Z",
+    "proof": {
+      "actual_UTC": "2026-10-12T15:43:42.623552+00:00",
+      "archive": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_official_queue_saved_20261012T154341Z\\payload\\node20631-official-five-seed-frozen-plan.zip",
+      "archive_SHA": "12a5a3a157b70f9b9613eb6d72382edc58707e27e07a16b73a37b5bf8750ee3f",
+      "bytes": 635409,
+      "all_member_SHA_CRC_unique_exact_set_passed": true,
+      "members": 90
+    },
+    "Release": {
+      "actual_UTC": "2026-10-12T15:43:53.426616+00:00",
+      "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_official_queue_saved_20261012T154341Z\\payload\\node20631-official-five-seed-frozen-plan.zip",
+      "source_SHA": "12a5a3a157b70f9b9613eb6d72382edc58707e27e07a16b73a37b5bf8750ee3f",
+      "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+      "name": "node20631-official-five-seed-frozen-plan-12a5a3a157b7.zip",
+      "id": 634213418,
+      "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node20631-official-five-seed-frozen-plan-12a5a3a157b7.zip",
+      "remote_digest_verified": true
+    },
+    "GitHub": {
+      "status": "D_BARE_GROUP5_EXACT_BLOB_GITHUB_VERIFIED",
+      "actual_UTC": "2026-10-12T15:44:37.996473+00:00",
+      "commit": "1930d8f4d03d187e0f1bd913c180c10efb50384c",
+      "parent_commit": "3fcd7d7f8dcf0726fb2bccad0d896bf1ed4dec92",
+      "files": 89,
+      "all_published_blobs_verified": true,
+      "C_checkout_not_modified": true
+    },
+    "actual_restoration": {
+      "all_member_SHA_CRC_unique_exact_set_passed": true,
+      "members": 90
+    }
+  },
+  "lease_end_UTC": "2026-10-13T21:21:16.015789+00:00",
+  "Release_relay_root": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_release_relay_20261012T1540Z",
+  "Release_remote_port": 18770
+}

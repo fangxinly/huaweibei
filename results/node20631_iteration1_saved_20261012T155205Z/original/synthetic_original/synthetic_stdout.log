@@ -1,0 +1,1 @@
+{"scope": "NEW_SMALL_SYNTHETIC_CPU_ONLY_NO_TASK_ARRAYS_OR_PRETRAINED_MODEL", "variants": [{"residual": false, "finite_all_gradients": true, "dummy_padding_state_RNG_invariance": true, "gate_range_passed": true}, {"residual": true, "finite_all_gradients": true, "dummy_padding_state_RNG_invariance": true, "gate_range_passed": true}]}
