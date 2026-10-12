@@ -1,0 +1,39 @@
+{
+  "actual_UTC": "2026-10-12T15:59:29.870467+00:00",
+  "protocol": "OFFICIAL_FIXED_SPLIT_VAL_ONLY_ITERATION",
+  "planned_jobs": 3,
+  "pending": [],
+  "active": [
+    {
+      "key": "careflow_seed4",
+      "pid": 2742,
+      "seed": 4,
+      "method": "careflow"
+    },
+    {
+      "key": "adaptive_gated_aux_seed4",
+      "pid": 2855,
+      "seed": 4,
+      "method": "adaptive_gated_aux"
+    },
+    {
+      "key": "adaptive_gated_residual_seed4",
+      "pid": 2966,
+      "seed": 4,
+      "method": "adaptive_gated_residual"
+    }
+  ],
+  "finished": [],
+  "pending_sealed": [],
+  "physical": {
+    "actual_UTC": "2026-10-12T15:59:29.965740+00:00",
+    "GPU": "GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198, 8426, 100",
+    "cgroup_maximum": 48318382080,
+    "cgroup_current": 25924870144,
+    "available_container_RAM": 22393511936,
+    "remote_free": 35491209216,
+    "compute": "2742, /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python, 4576\n2855, /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python, 4498\n2966, /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python, 4498"
+  },
+  "failure_hold": false,
+  "TEST_cannot_change_queue": true
+}

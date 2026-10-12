@@ -1,0 +1,122 @@
+[
+  {
+    "actual_UTC": "2026-10-12T15:54:58.053930+00:00",
+    "epoch": 1,
+    "steps": 40,
+    "TRAIN_loss": 2.5109805524349214,
+    "VAL_batch_MSE": 2.834671292781472,
+    "best_epoch": 1,
+    "best_VAL_batch_MSE": 2.834671292781472,
+    "seconds": 24.88547807186842,
+    "omitted_rows": [
+      1146
+    ],
+    "prediction_SHA": "95f73b07d02a89cfb6abc64853bf6cc625bd717bfb93b5367a2e45f8fa43246f",
+    "state_SHA": "d8f68f8c01b661a4d277a453d33fe48a8ff25dd8e6b0da9dbc2ac78e0a2fff45"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:55:37.300227+00:00",
+    "epoch": 2,
+    "steps": 80,
+    "TRAIN_loss": 2.471872326731682,
+    "VAL_batch_MSE": 2.8341036083324544,
+    "best_epoch": 2,
+    "best_VAL_batch_MSE": 2.8341036083324544,
+    "seconds": 31.693690632935613,
+    "omitted_rows": [
+      556
+    ],
+    "prediction_SHA": "fba2a7dfb52f87b7dc6879d7fd085f76bd5742f9a89581e83a3e481e440a0dc4",
+    "state_SHA": "8912ab790fc6c01aaa81efbb4727ca676e35370f5f34533447a48d87b8889ec2"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:56:09.733316+00:00",
+    "epoch": 3,
+    "steps": 120,
+    "TRAIN_loss": 2.426553839445114,
+    "VAL_batch_MSE": 2.833401679179691,
+    "best_epoch": 3,
+    "best_VAL_batch_MSE": 2.833401679179691,
+    "seconds": 32.43235968798399,
+    "omitted_rows": [
+      201
+    ],
+    "prediction_SHA": "74e4f2f1eea42ac906011313c180f34f87d3e58be1157447e0ef6abdaee710e8",
+    "state_SHA": "37748cb226ead57b1a4557235bdceac2504ec1a7d32bcf7f2ed2663b0a65a368"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:56:45.668132+00:00",
+    "epoch": 4,
+    "steps": 160,
+    "TRAIN_loss": 2.40423920750618,
+    "VAL_batch_MSE": 2.828146378088773,
+    "best_epoch": 4,
+    "best_VAL_batch_MSE": 2.828146378088773,
+    "seconds": 35.93403109209612,
+    "omitted_rows": [
+      261
+    ],
+    "prediction_SHA": "1a9160846fcb682d04b2fe76379e424e421c46bab3824141004d605696735abd",
+    "state_SHA": "c0205aa9ad35a00d55d172270395db91b4523efa86927edf354a3bfc06019387"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:57:21.430521+00:00",
+    "epoch": 5,
+    "steps": 200,
+    "TRAIN_loss": 2.367291897535324,
+    "VAL_batch_MSE": 2.8156823615704583,
+    "best_epoch": 5,
+    "best_VAL_batch_MSE": 2.8156823615704583,
+    "seconds": 35.76161849265918,
+    "omitted_rows": [
+      952
+    ],
+    "prediction_SHA": "5fc82293e433758a63f7597085649d016fa5e912b4f0d416658d318e035b4324",
+    "state_SHA": "52d424d4f8be6d8de9a52ffcf36e8074b7b5cde485138eb7d0c50a650c2c7897"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:57:57.841412+00:00",
+    "epoch": 6,
+    "steps": 240,
+    "TRAIN_loss": 2.3422878980636597,
+    "VAL_batch_MSE": 2.79628026724844,
+    "best_epoch": 6,
+    "best_VAL_batch_MSE": 2.79628026724844,
+    "seconds": 36.410109559074044,
+    "omitted_rows": [
+      256
+    ],
+    "prediction_SHA": "3d9d3b0e04fb48f71d1571e9b35b6da3cd9771ddcda9d196ef194faebbb81442",
+    "state_SHA": "ce093339d8230688c8bdf1e8d08d5116261505b6724e44530f7679a7fa782078"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:58:30.134495+00:00",
+    "epoch": 7,
+    "steps": 280,
+    "TRAIN_loss": 2.3086566805839537,
+    "VAL_batch_MSE": 2.7646163264015673,
+    "best_epoch": 7,
+    "best_VAL_batch_MSE": 2.7646163264015673,
+    "seconds": 32.29222376272082,
+    "omitted_rows": [
+      1192
+    ],
+    "prediction_SHA": "e25bfe81e7cf67d70c77e89cf5cf8716e177f9b34f788d4c2354fb45fcd61254",
+    "state_SHA": "52b4c39d90f0fb7be067d77161a1d6f7ca5eb11f554e877071afe4c6c96c9068"
+  },
+  {
+    "actual_UTC": "2026-10-12T15:59:06.336548+00:00",
+    "epoch": 8,
+    "steps": 320,
+    "TRAIN_loss": 2.262275043129921,
+    "VAL_batch_MSE": 2.721300758556619,
+    "best_epoch": 8,
+    "best_VAL_batch_MSE": 2.721300758556619,
+    "seconds": 36.20122146606445,
+    "omitted_rows": [
+      843
+    ],
+    "prediction_SHA": "d975b2aa9eb9a92d38bc02e75f1f7d6771aaa8521427206d060bbb966facb9bd",
+    "state_SHA": "1123a45ca0643d1fda8075806d697a65d290cd4466208fdaed2f3f7b3968661b"
+  }
+]

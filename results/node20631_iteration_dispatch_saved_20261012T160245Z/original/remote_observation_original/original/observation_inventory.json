@@ -1,0 +1,262 @@
+{
+  "actual_UTC": "2026-10-12T15:59:36.675639+00:00",
+  "scope": "LIVE_TRAINING_SMALL_METADATA_OBSERVATION_NOT_COMPLETE_RUN",
+  "snapshots_are_individually_observed_not_atomic_group": true,
+  "source_files": [
+    {
+      "name": "root/plan.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/plan.json",
+      "bytes": 64193,
+      "SHA": "881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c",
+      "read_completed_UTC": "2026-10-12T15:59:36.676307+00:00"
+    },
+    {
+      "name": "root/actual_pre_dispatch_original.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/actual_pre_dispatch_original.json",
+      "bytes": 2034,
+      "SHA": "21a1049aabeed338e587825c5966903963ebea785d6cf18dfc36604867511a29",
+      "read_completed_UTC": "2026-10-12T15:59:36.676473+00:00"
+    },
+    {
+      "name": "root/supervisor_wrapper_original.py",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/supervisor_wrapper_original.py",
+      "bytes": 995,
+      "SHA": "586b29de57a34988a7ece443f50f7aec8b0a689bd636c64c161138e01084aa73",
+      "read_completed_UTC": "2026-10-12T15:59:36.676587+00:00"
+    },
+    {
+      "name": "root/supervisor_actual_dispatch.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/supervisor_actual_dispatch.json",
+      "bytes": 434,
+      "SHA": "fa85b03ad25b2c3f173e119900eb5b7bf49872a4b4192e1ef11c86d98f1e77fb",
+      "read_completed_UTC": "2026-10-12T15:59:36.676697+00:00"
+    },
+    {
+      "name": "root/supervisor.once",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/supervisor.once",
+      "bytes": 32,
+      "SHA": "2d7061257cf8a410bcb86bf80b26d732ca5224e7ea849fa9a1e91933b8477a54",
+      "read_completed_UTC": "2026-10-12T15:59:36.676804+00:00"
+    },
+    {
+      "name": "root/fresh_dispatch_physical.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/fresh_dispatch_physical.json",
+      "bytes": 272,
+      "SHA": "f0d86082b2f62ad83abcaa609edf3fabce95d0200d4bdcc46e318cab6fd901d4",
+      "read_completed_UTC": "2026-10-12T15:59:36.676959+00:00"
+    },
+    {
+      "name": "root/queue_status.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/queue_status.json",
+      "bytes": 1266,
+      "SHA": "d6e77c758cc5bbf0f9152c895978af813352b9a8a9c056cbe9cd623896598c91",
+      "read_completed_UTC": "2026-10-12T15:59:36.677073+00:00"
+    },
+    {
+      "name": "root/supervisor_stdout.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/supervisor_stdout.log",
+      "bytes": 0,
+      "SHA": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "read_completed_UTC": "2026-10-12T15:59:36.677180+00:00"
+    },
+    {
+      "name": "root/supervisor_stderr.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/supervisor_stderr.log",
+      "bytes": 0,
+      "SHA": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "read_completed_UTC": "2026-10-12T15:59:36.677273+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/actual_dispatch.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/actual_dispatch.json",
+      "bytes": 5351,
+      "SHA": "2f8928ecdf374367a8ac7be9097c3a9497678a81bc0796929d475fc71dea5370",
+      "read_completed_UTC": "2026-10-12T15:59:36.677615+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/out/train.once",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out/train.once",
+      "bytes": 173,
+      "SHA": "eb3dfc3a92c4a3c7285e3099f7dac31d98d8dda3822553cb7d13576708ba546c",
+      "read_completed_UTC": "2026-10-12T15:59:36.677760+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/out/construction.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out/construction.json",
+      "bytes": 37686,
+      "SHA": "65a341c60ccf8958b1da43057d081ddff86b01beb56e519c4ca70c98376a1f16",
+      "read_completed_UTC": "2026-10-12T15:59:36.678685+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/out/health.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out/health.json",
+      "bytes": 260,
+      "SHA": "c54b45498f1bb69c9d02cd955d52e0faae80bd3a4ce7887c5a1096520dd0a809",
+      "read_completed_UTC": "2026-10-12T15:59:36.678839+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/out/progress.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out/progress.json",
+      "bytes": 456,
+      "SHA": "82dfc7fc6fbe7bf9887024ca723bc22c29e1c7147f396889281390605a41ba40",
+      "read_completed_UTC": "2026-10-12T15:59:36.678960+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/out/history.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out/history.json",
+      "bytes": 3907,
+      "SHA": "a6045273f954dfea58c429204416f4130c88fade8b9a3d050f3f961f9b49dbfe",
+      "read_completed_UTC": "2026-10-12T15:59:36.679082+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/out/checkpoint_receipt.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out/checkpoint_receipt.json",
+      "bytes": 195,
+      "SHA": "12bbba30a54029717e706766872a75531c5c952f40abf287905bc4de0b49bec7",
+      "read_completed_UTC": "2026-10-12T15:59:36.679194+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/train_stdout.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/train_stdout.log",
+      "bytes": 3408,
+      "SHA": "b72758b002115c85c1a781f07aadc3addbc21af6b2f916f8fa8fb180bac8f724",
+      "read_completed_UTC": "2026-10-12T15:59:36.679388+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_aux_seed4/train_stderr.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/train_stderr.log",
+      "bytes": 20513,
+      "SHA": "83ba154754c4510478e66bb4e9dbdcd696743f18d687aeabfa73fce89c3e3cb4",
+      "read_completed_UTC": "2026-10-12T15:59:36.679540+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/actual_dispatch.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/actual_dispatch.json",
+      "bytes": 5469,
+      "SHA": "f4f6a461998bb6c47725ff3f842c9cd9240ad91f1c3f17f6168afa3c81d70bad",
+      "read_completed_UTC": "2026-10-12T15:59:36.679719+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/out/train.once",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out/train.once",
+      "bytes": 178,
+      "SHA": "f32ce7e87bac12525a8e31205a698f85c17d4b3a5001f9de529fcd9c6a65c09d",
+      "read_completed_UTC": "2026-10-12T15:59:36.679836+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/out/construction.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out/construction.json",
+      "bytes": 37691,
+      "SHA": "1ee195271dc1b9188417677d12bff62cc4e77e5eca01b79fcf45f8b8d0890c66",
+      "read_completed_UTC": "2026-10-12T15:59:36.680009+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/out/health.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out/health.json",
+      "bytes": 265,
+      "SHA": "ac527399e5be78d172969594ec3cc2abdf198f5cc78c56cf08206417a72aac35",
+      "read_completed_UTC": "2026-10-12T15:59:36.680130+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/out/progress.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out/progress.json",
+      "bytes": 460,
+      "SHA": "c5541659e88ecd2e0534789770ca7cacbf2c0497cf2645ed75e747df6750fcc0",
+      "read_completed_UTC": "2026-10-12T15:59:36.680240+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/out/history.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out/history.json",
+      "bytes": 3426,
+      "SHA": "1bb6def6f38d547f315e7e0a4a5e7ba1e9ec9bd2f2ea85b5682573348f209c1e",
+      "read_completed_UTC": "2026-10-12T15:59:36.680359+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/out/checkpoint_receipt.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out/checkpoint_receipt.json",
+      "bytes": 195,
+      "SHA": "32dd694d87ba725ac99fc17dab66719d01179c7e69673623fc41b97b5ab9030d",
+      "read_completed_UTC": "2026-10-12T15:59:36.680473+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/train_stdout.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/train_stdout.log",
+      "bytes": 2990,
+      "SHA": "75d60736be2525136187f4fbf2498c5dbb834417e67c214fe9521716424f08e0",
+      "read_completed_UTC": "2026-10-12T15:59:36.680660+00:00"
+    },
+    {
+      "name": "jobs/adaptive_gated_residual_seed4/train_stderr.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/train_stderr.log",
+      "bytes": 20513,
+      "SHA": "83ba154754c4510478e66bb4e9dbdcd696743f18d687aeabfa73fce89c3e3cb4",
+      "read_completed_UTC": "2026-10-12T15:59:36.680803+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/actual_dispatch.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/actual_dispatch.json",
+      "bytes": 5225,
+      "SHA": "8a4a3737acd1dfb5157adc3995b70cbce7a825418f5e492c1db6704ae3291b2e",
+      "read_completed_UTC": "2026-10-12T15:59:36.680968+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/out/train.once",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out/train.once",
+      "bytes": 163,
+      "SHA": "4174c1f74f8fd38caafc7671357ef67058461612026cbdaf1925ef45b2ecea39",
+      "read_completed_UTC": "2026-10-12T15:59:36.681082+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/out/construction.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out/construction.json",
+      "bytes": 37656,
+      "SHA": "52f3cb48e345cd3c232bbd52fc632fedfdec26ce66317ceabc859f66928b43e9",
+      "read_completed_UTC": "2026-10-12T15:59:36.681259+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/out/health.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out/health.json",
+      "bytes": 318,
+      "SHA": "10d237a2365587f3480430d15fd9e4e175840b8cc864f858b909bf0ee163aac8",
+      "read_completed_UTC": "2026-10-12T15:59:36.681371+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/out/progress.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out/progress.json",
+      "bytes": 461,
+      "SHA": "b64f0d60c55e51a01270d386923c6b1c27799e73d90953332c5f94f43687afe6",
+      "read_completed_UTC": "2026-10-12T15:59:36.681758+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/out/history.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out/history.json",
+      "bytes": 5874,
+      "SHA": "b9aba7f6f8868b9ceb4b92e2a8f34a4d9e8c2c806a6d3c6cf5abed7600237dd6",
+      "read_completed_UTC": "2026-10-12T15:59:36.681939+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/out/checkpoint_receipt.json",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out/checkpoint_receipt.json",
+      "bytes": 197,
+      "SHA": "a0344e1e4dd682facbacea24e4cf4041560b55f0649116c748fed526dd127916",
+      "read_completed_UTC": "2026-10-12T15:59:36.682062+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/train_stdout.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/train_stdout.log",
+      "bytes": 5123,
+      "SHA": "80b0c0ed360d46579912f890764caa1030929fede3a698787435add4b9c689ab",
+      "read_completed_UTC": "2026-10-12T15:59:36.682260+00:00"
+    },
+    {
+      "name": "jobs/careflow_seed4/train_stderr.log",
+      "source": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/train_stderr.log",
+      "bytes": 20714,
+      "SHA": "587381a73d4148fd44100b23a03b702e0aa26ca6e5115cc2e17109823dbcc3f8",
+      "read_completed_UTC": "2026-10-12T15:59:36.682407+00:00"
+    }
+  ],
+  "model_arrays_decoded": false,
+  "training_restarted": false,
+  "new_scientific_once_consumed_by_capture": false
+}

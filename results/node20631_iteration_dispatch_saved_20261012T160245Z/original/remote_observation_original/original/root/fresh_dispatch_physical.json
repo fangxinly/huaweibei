@@ -1,0 +1,9 @@
+{
+  "actual_UTC": "2026-10-12T15:53:44.418408+00:00",
+  "GPU": "GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198, 22001, 0",
+  "cgroup_maximum": 48318382080,
+  "cgroup_current": 9387503616,
+  "available_container_RAM": 38930878464,
+  "remote_free": 44812861440,
+  "compute": ""
+}

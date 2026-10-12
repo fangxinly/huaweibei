@@ -7213,6 +7213,393 @@
       "sanitizations": {}
     },
     {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/D_preservation_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\D_preservation_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 423,
+      "original_sha256": "733add7a858e295fdcaf334e2268e1c7126cf56a0f7f7bad093481ce79e68045",
+      "published_sha256": "733add7a858e295fdcaf334e2268e1c7126cf56a0f7f7bad093481ce79e68045",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/GitHub_restoration.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\GitHub_restoration.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 156,
+      "original_sha256": "5a503f16f74536fc8072b87aefb310bca9db76d131bcae6be5a399f0473d0ca6",
+      "published_sha256": "5a503f16f74536fc8072b87aefb310bca9db76d131bcae6be5a399f0473d0ca6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/Release_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\Release_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 684,
+      "original_sha256": "3bdbe280eae2c2d18408fd6510db857859545301a8a61824b9fc93193de18f1a",
+      "published_sha256": "3bdbe280eae2c2d18408fd6510db857859545301a8a61824b9fc93193de18f1a",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/observed_execution_summary.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\observed_execution_summary.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 7825,
+      "original_sha256": "31da88e97f3517ca802146cef1d4e4f06ffd179ddc2a45aeefd2b4db4a40a612",
+      "published_sha256": "31da88e97f3517ca802146cef1d4e4f06ffd179ddc2a45aeefd2b4db4a40a612",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/preserve_observation_original.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\preserve_observation_original.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 9135,
+      "original_sha256": "b7013fe6e5fc9a7aaafac5d5ee9714b03fd5d02152ec2917bb993fc856c1015c",
+      "published_sha256": "b7013fe6e5fc9a7aaafac5d5ee9714b03fd5d02152ec2917bb993fc856c1015c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/capture_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\capture_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 375,
+      "original_sha256": "d55264b3d4b296f24a6b6478561f666a9611092f403a56ab8fa9ec8dd2f67d33",
+      "published_sha256": "d55264b3d4b296f24a6b6478561f666a9611092f403a56ab8fa9ec8dd2f67d33",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/capture_transport_failure_observed.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\capture_transport_failure_observed.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 388,
+      "original_sha256": "a4f5615ae6dace431511486bba0ec90ad4d44a0c4d40fd6a0142f5134024f68d",
+      "published_sha256": "a4f5615ae6dace431511486bba0ec90ad4d44a0c4d40fd6a0142f5134024f68d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/actual_physical_observation.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\actual_physical_observation.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3273,
+      "original_sha256": "7361c264db521a37f5357f80af7ebb7d9790d69a5a191d7686f522254f833d34",
+      "published_sha256": "7361c264db521a37f5357f80af7ebb7d9790d69a5a191d7686f522254f833d34",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/capture_observation_original.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\capture_observation_original.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3157,
+      "original_sha256": "06b84dbd4bb3d7ce77a75cdb76ffdd17ba89b7c9e691b73ccdb31176fca777a1",
+      "published_sha256": "06b84dbd4bb3d7ce77a75cdb76ffdd17ba89b7c9e691b73ccdb31176fca777a1",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/actual_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\actual_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5351,
+      "original_sha256": "2f8928ecdf374367a8ac7be9097c3a9497678a81bc0796929d475fc71dea5370",
+      "published_sha256": "2f8928ecdf374367a8ac7be9097c3a9497678a81bc0796929d475fc71dea5370",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/out/checkpoint_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\out\\checkpoint_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 195,
+      "original_sha256": "12bbba30a54029717e706766872a75531c5c952f40abf287905bc4de0b49bec7",
+      "published_sha256": "12bbba30a54029717e706766872a75531c5c952f40abf287905bc4de0b49bec7",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/out/construction.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\out\\construction.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 37686,
+      "original_sha256": "65a341c60ccf8958b1da43057d081ddff86b01beb56e519c4ca70c98376a1f16",
+      "published_sha256": "65a341c60ccf8958b1da43057d081ddff86b01beb56e519c4ca70c98376a1f16",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/out/health.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\out\\health.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 260,
+      "original_sha256": "c54b45498f1bb69c9d02cd955d52e0faae80bd3a4ce7887c5a1096520dd0a809",
+      "published_sha256": "c54b45498f1bb69c9d02cd955d52e0faae80bd3a4ce7887c5a1096520dd0a809",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/out/history.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\out\\history.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3907,
+      "original_sha256": "a6045273f954dfea58c429204416f4130c88fade8b9a3d050f3f961f9b49dbfe",
+      "published_sha256": "a6045273f954dfea58c429204416f4130c88fade8b9a3d050f3f961f9b49dbfe",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/out/progress.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\out\\progress.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 456,
+      "original_sha256": "82dfc7fc6fbe7bf9887024ca723bc22c29e1c7147f396889281390605a41ba40",
+      "published_sha256": "82dfc7fc6fbe7bf9887024ca723bc22c29e1c7147f396889281390605a41ba40",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/train_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\train_stderr.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 20513,
+      "original_sha256": "83ba154754c4510478e66bb4e9dbdcd696743f18d687aeabfa73fce89c3e3cb4",
+      "published_sha256": "83ba154754c4510478e66bb4e9dbdcd696743f18d687aeabfa73fce89c3e3cb4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_aux_seed4/train_stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_aux_seed4\\train_stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3408,
+      "original_sha256": "b72758b002115c85c1a781f07aadc3addbc21af6b2f916f8fa8fb180bac8f724",
+      "published_sha256": "b72758b002115c85c1a781f07aadc3addbc21af6b2f916f8fa8fb180bac8f724",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/actual_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\actual_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5469,
+      "original_sha256": "f4f6a461998bb6c47725ff3f842c9cd9240ad91f1c3f17f6168afa3c81d70bad",
+      "published_sha256": "f4f6a461998bb6c47725ff3f842c9cd9240ad91f1c3f17f6168afa3c81d70bad",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/out/checkpoint_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\out\\checkpoint_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 195,
+      "original_sha256": "32dd694d87ba725ac99fc17dab66719d01179c7e69673623fc41b97b5ab9030d",
+      "published_sha256": "32dd694d87ba725ac99fc17dab66719d01179c7e69673623fc41b97b5ab9030d",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/out/construction.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\out\\construction.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 37691,
+      "original_sha256": "1ee195271dc1b9188417677d12bff62cc4e77e5eca01b79fcf45f8b8d0890c66",
+      "published_sha256": "1ee195271dc1b9188417677d12bff62cc4e77e5eca01b79fcf45f8b8d0890c66",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/out/health.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\out\\health.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 265,
+      "original_sha256": "ac527399e5be78d172969594ec3cc2abdf198f5cc78c56cf08206417a72aac35",
+      "published_sha256": "ac527399e5be78d172969594ec3cc2abdf198f5cc78c56cf08206417a72aac35",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/out/history.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\out\\history.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 3426,
+      "original_sha256": "1bb6def6f38d547f315e7e0a4a5e7ba1e9ec9bd2f2ea85b5682573348f209c1e",
+      "published_sha256": "1bb6def6f38d547f315e7e0a4a5e7ba1e9ec9bd2f2ea85b5682573348f209c1e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/out/progress.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\out\\progress.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 460,
+      "original_sha256": "c5541659e88ecd2e0534789770ca7cacbf2c0497cf2645ed75e747df6750fcc0",
+      "published_sha256": "c5541659e88ecd2e0534789770ca7cacbf2c0497cf2645ed75e747df6750fcc0",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/train_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\train_stderr.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 20513,
+      "original_sha256": "83ba154754c4510478e66bb4e9dbdcd696743f18d687aeabfa73fce89c3e3cb4",
+      "published_sha256": "83ba154754c4510478e66bb4e9dbdcd696743f18d687aeabfa73fce89c3e3cb4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/adaptive_gated_residual_seed4/train_stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\adaptive_gated_residual_seed4\\train_stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2990,
+      "original_sha256": "75d60736be2525136187f4fbf2498c5dbb834417e67c214fe9521716424f08e0",
+      "published_sha256": "75d60736be2525136187f4fbf2498c5dbb834417e67c214fe9521716424f08e0",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/actual_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\actual_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5225,
+      "original_sha256": "8a4a3737acd1dfb5157adc3995b70cbce7a825418f5e492c1db6704ae3291b2e",
+      "published_sha256": "8a4a3737acd1dfb5157adc3995b70cbce7a825418f5e492c1db6704ae3291b2e",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/out/checkpoint_receipt.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\out\\checkpoint_receipt.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 197,
+      "original_sha256": "a0344e1e4dd682facbacea24e4cf4041560b55f0649116c748fed526dd127916",
+      "published_sha256": "a0344e1e4dd682facbacea24e4cf4041560b55f0649116c748fed526dd127916",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/out/construction.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\out\\construction.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 37656,
+      "original_sha256": "52f3cb48e345cd3c232bbd52fc632fedfdec26ce66317ceabc859f66928b43e9",
+      "published_sha256": "52f3cb48e345cd3c232bbd52fc632fedfdec26ce66317ceabc859f66928b43e9",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/out/health.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\out\\health.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 318,
+      "original_sha256": "10d237a2365587f3480430d15fd9e4e175840b8cc864f858b909bf0ee163aac8",
+      "published_sha256": "10d237a2365587f3480430d15fd9e4e175840b8cc864f858b909bf0ee163aac8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/out/history.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\out\\history.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5874,
+      "original_sha256": "b9aba7f6f8868b9ceb4b92e2a8f34a4d9e8c2c806a6d3c6cf5abed7600237dd6",
+      "published_sha256": "b9aba7f6f8868b9ceb4b92e2a8f34a4d9e8c2c806a6d3c6cf5abed7600237dd6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/out/progress.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\out\\progress.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 461,
+      "original_sha256": "b64f0d60c55e51a01270d386923c6b1c27799e73d90953332c5f94f43687afe6",
+      "published_sha256": "b64f0d60c55e51a01270d386923c6b1c27799e73d90953332c5f94f43687afe6",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/train_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\train_stderr.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 20714,
+      "original_sha256": "587381a73d4148fd44100b23a03b702e0aa26ca6e5115cc2e17109823dbcc3f8",
+      "published_sha256": "587381a73d4148fd44100b23a03b702e0aa26ca6e5115cc2e17109823dbcc3f8",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/jobs/careflow_seed4/train_stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\jobs\\careflow_seed4\\train_stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 5123,
+      "original_sha256": "80b0c0ed360d46579912f890764caa1030929fede3a698787435add4b9c689ab",
+      "published_sha256": "80b0c0ed360d46579912f890764caa1030929fede3a698787435add4b9c689ab",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/observation_inventory.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\observation_inventory.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 13136,
+      "original_sha256": "139d8ce55bbec05f2e6178310f128f013c8169905dbc7d0403b3b70d876d7cc5",
+      "published_sha256": "139d8ce55bbec05f2e6178310f128f013c8169905dbc7d0403b3b70d876d7cc5",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/actual_pre_dispatch_original.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\actual_pre_dispatch_original.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 2034,
+      "original_sha256": "21a1049aabeed338e587825c5966903963ebea785d6cf18dfc36604867511a29",
+      "published_sha256": "21a1049aabeed338e587825c5966903963ebea785d6cf18dfc36604867511a29",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/fresh_dispatch_physical.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\fresh_dispatch_physical.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 272,
+      "original_sha256": "f0d86082b2f62ad83abcaa609edf3fabce95d0200d4bdcc46e318cab6fd901d4",
+      "published_sha256": "f0d86082b2f62ad83abcaa609edf3fabce95d0200d4bdcc46e318cab6fd901d4",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/plan.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\plan.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 64193,
+      "original_sha256": "881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c",
+      "published_sha256": "881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/queue_status.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\queue_status.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 1266,
+      "original_sha256": "d6e77c758cc5bbf0f9152c895978af813352b9a8a9c056cbe9cd623896598c91",
+      "published_sha256": "d6e77c758cc5bbf0f9152c895978af813352b9a8a9c056cbe9cd623896598c91",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/supervisor_actual_dispatch.json",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\supervisor_actual_dispatch.json",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 434,
+      "original_sha256": "fa85b03ad25b2c3f173e119900eb5b7bf49872a4b4192e1ef11c86d98f1e77fb",
+      "published_sha256": "fa85b03ad25b2c3f173e119900eb5b7bf49872a4b4192e1ef11c86d98f1e77fb",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/supervisor_stderr.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\supervisor_stderr.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/supervisor_stdout.log",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\supervisor_stdout.log",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/remote_observation_original/original/root/supervisor_wrapper_original.py",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\remote_observation_original\\original\\root\\supervisor_wrapper_original.py",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 995,
+      "original_sha256": "586b29de57a34988a7ece443f50f7aec8b0a689bd636c64c161138e01084aa73",
+      "published_sha256": "586b29de57a34988a7ece443f50f7aec8b0a689bd636c64c161138e01084aa73",
+      "sanitizations": {}
+    },
+    {
+      "path": "results/node20631_iteration_dispatch_saved_20261012T160245Z/original/实际训练与方法迭代.md",
+      "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\text_publication\\original\\实际训练与方法迭代.md",
+      "kind": "group5_actual_evidence_and_source",
+      "bytes": 933,
+      "original_sha256": "546dd522c122c951115503f5e7bc4c5646957697e453632b3eec50d102a96d80",
+      "published_sha256": "546dd522c122c951115503f5e7bc4c5646957697e453632b3eec50d102a96d80",
+      "sanitizations": {}
+    },
+    {
       "path": "results/node20631_official_queue_saved_20261012T154341Z/D_preservation_receipt.json",
       "origin": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_official_queue_saved_20261012T154341Z\\text_publication\\D_preservation_receipt.json",
       "kind": "group5_actual_evidence_and_source",

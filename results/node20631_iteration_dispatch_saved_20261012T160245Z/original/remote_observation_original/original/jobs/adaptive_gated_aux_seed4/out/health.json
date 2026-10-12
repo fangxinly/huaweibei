@@ -1,0 +1,11 @@
+{
+  "actual_UTC": "2026-10-12T15:59:04.033534+00:00",
+  "seed": 4,
+  "method": "adaptive_gated_aux",
+  "step": 320,
+  "allocated": 3065702912,
+  "reserved": 4456448000,
+  "peak_allocated": 3991816704,
+  "peak_reserved": 4456448000,
+  "missing_gradients": []
+}

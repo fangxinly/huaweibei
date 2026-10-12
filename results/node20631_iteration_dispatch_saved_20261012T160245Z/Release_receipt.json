@@ -1,0 +1,10 @@
+{
+  "actual_UTC": "2026-10-12T16:02:55.965946+00:00",
+  "source": "D:\\CodexBackups\\selective_flow_20261003_1105\\node20631_iteration_dispatch_saved_20261012T160245Z\\payload\\node20631-iteration1-three-active-original-observation.zip",
+  "source_SHA": "44bc520dadec026c4b59bbbd9d57ecc08ea3ecfc11e0b340b93be6b9c1313318",
+  "status": "PUBLICATION_REMOTE_DIGEST_VERIFIED",
+  "name": "node20631-iteration1-three-active-original-observation-44bc520dadec.zip",
+  "id": 634262700,
+  "url": "https://github.com/fangxinly/huaweibei/releases/download/autonomous-flow-health-20261008/node20631-iteration1-three-active-original-observation-44bc520dadec.zip",
+  "remote_digest_verified": true
+}

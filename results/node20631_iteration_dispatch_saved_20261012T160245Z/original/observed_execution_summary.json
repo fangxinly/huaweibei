@@ -1,0 +1,137 @@
+{
+  "actual_saved_UTC": "2026-10-12T16:02:45.616212+00:00",
+  "observation_UTC": "2026-10-12T15:59:36.675639+00:00",
+  "plan_SHA": "881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c",
+  "protocol": "OFFICIAL_FIXED_SPLIT_VAL_ONLY_ITERATION",
+  "jobs": [
+    {
+      "key": "careflow_seed4",
+      "pid": 2742,
+      "seed": 4,
+      "method": "careflow",
+      "dispatch_UTC": "2026-10-12T15:53:44.611667+00:00",
+      "once_UTC": "2026-10-12T15:53:45.295541+00:00",
+      "health": {
+        "actual_UTC": "2026-10-12T15:59:34.317903+00:00",
+        "seed": 4,
+        "method": "careflow",
+        "step": 480,
+        "allocated": 3044124160,
+        "reserved": 4538236928,
+        "peak_allocated": 3970749440,
+        "peak_reserved": 4538236928,
+        "missing_gradients": [
+          "dberta.pooler.dense.weight",
+          "dberta.pooler.dense.bias"
+        ]
+      },
+      "progress_observed": {
+        "actual_UTC": "2026-10-12T15:59:36.525302+00:00",
+        "epoch": 12,
+        "steps": 480,
+        "TRAIN_loss": 2.3651051074266434,
+        "VAL_batch_MSE": 2.662854857549336,
+        "best_epoch": 12,
+        "best_VAL_batch_MSE": 2.662854857549336,
+        "seconds": 35.237428365275264,
+        "omitted_rows": [
+          1186
+        ],
+        "prediction_SHA": "4308405937af6ee5680217fe6dd0faef341e266ab229ef4f26f8dd5ebf7f3bc4",
+        "state_SHA": "a68a7577abfec88df30ebb84fe87e79bc283d9fa69cd3e6c737bf835e690b157"
+      },
+      "training_complete": false
+    },
+    {
+      "key": "adaptive_gated_aux_seed4",
+      "pid": 2855,
+      "seed": 4,
+      "method": "adaptive_gated_aux",
+      "dispatch_UTC": "2026-10-12T15:54:25.278442+00:00",
+      "once_UTC": "2026-10-12T15:54:25.961827+00:00",
+      "health": {
+        "actual_UTC": "2026-10-12T15:59:04.033534+00:00",
+        "seed": 4,
+        "method": "adaptive_gated_aux",
+        "step": 320,
+        "allocated": 3065702912,
+        "reserved": 4456448000,
+        "peak_allocated": 3991816704,
+        "peak_reserved": 4456448000,
+        "missing_gradients": []
+      },
+      "progress_observed": {
+        "actual_UTC": "2026-10-12T15:59:06.336548+00:00",
+        "epoch": 8,
+        "steps": 320,
+        "TRAIN_loss": 2.262275043129921,
+        "VAL_batch_MSE": 2.721300758556619,
+        "best_epoch": 8,
+        "best_VAL_batch_MSE": 2.721300758556619,
+        "seconds": 36.20122146606445,
+        "omitted_rows": [
+          843
+        ],
+        "prediction_SHA": "d975b2aa9eb9a92d38bc02e75f1f7d6771aaa8521427206d060bbb966facb9bd",
+        "state_SHA": "1123a45ca0643d1fda8075806d697a65d290cd4466208fdaed2f3f7b3968661b"
+      },
+      "training_complete": false
+    },
+    {
+      "key": "adaptive_gated_residual_seed4",
+      "pid": 2966,
+      "seed": 4,
+      "method": "adaptive_gated_residual",
+      "dispatch_UTC": "2026-10-12T15:55:05.945818+00:00",
+      "once_UTC": "2026-10-12T15:55:06.602149+00:00",
+      "health": {
+        "actual_UTC": "2026-10-12T15:59:23.612003+00:00",
+        "seed": 4,
+        "method": "adaptive_gated_residual",
+        "step": 280,
+        "allocated": 3065722880,
+        "reserved": 4456448000,
+        "peak_allocated": 3991836672,
+        "peak_reserved": 4456448000,
+        "missing_gradients": []
+      },
+      "progress_observed": {
+        "actual_UTC": "2026-10-12T15:59:25.210740+00:00",
+        "epoch": 7,
+        "steps": 280,
+        "TRAIN_loss": 1.3742477372288704,
+        "VAL_batch_MSE": 1.8020942851187547,
+        "best_epoch": 7,
+        "best_VAL_batch_MSE": 1.8020942851187547,
+        "seconds": 34.48920232895762,
+        "omitted_rows": [
+          1192
+        ],
+        "prediction_SHA": "8f2e16e36c4170c8c6f2035311763902368521e3046e7c9de5973554d3ac3cde",
+        "state_SHA": "e1568f76f15cfff8832d278425b137fcd3e679841fbc151215eb8b66750f80d9"
+      },
+      "training_complete": false
+    }
+  ],
+  "physical": {
+    "actual_UTC": "2026-10-12T15:59:36.682551+00:00",
+    "GPU": "GPU-e5ee2aee-86ad-49e1-58f5-f0d319129198, 13576, 8426, 100",
+    "compute": "2742, /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python, 4576\n2855, /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python, 4498\n2966, /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python, 4498",
+    "owned_process_fullargv": "   PID   PPID                  STARTED STAT COMMAND\n  2731      1 Mon Oct 12 23:53:43 2026 Ss   python -B /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/supervisor_wrapper_original.py\n  2733   2731 Mon Oct 12 23:53:43 2026 S    /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python -B /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source/node20631_iteration_supervisor_v1.py --root /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1 --plan-sha 881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c\n  2742   2733 Mon Oct 12 23:53:43 2026 Sl   /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python -B /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source/node20631_train_iteration_v1.py --plan /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/plan.json --plan-sha 881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c --bundle /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source --assets /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/public --out /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/careflow_seed4/out --method careflow --seed 4\n  2855   2733 Mon Oct 12 23:54:24 2026 Sl   /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python -B /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source/node20631_train_iteration_v1.py --plan /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/plan.json --plan-sha 881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c --bundle /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source --assets /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/public --out /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_aux_seed4/out --method adaptive_gated_aux --seed 4\n  2966   2733 Mon Oct 12 23:55:04 2026 Sl   /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/.venv/bin/python -B /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source/node20631_train_iteration_v1.py --plan /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/plan.json --plan-sha 881fefe63b403f9c94e38328a34e47842773d4672b6b61a96500e2e60cf5474c --bundle /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/source --assets /root/autodl-tmp/ni_node20631_20261012T152116Z/direct_staged_runtime/runtime/public --out /root/autodl-tmp/ni_node20631_20261012T152116Z/iteration1/jobs/adaptive_gated_residual_seed4/out --method adaptive_gated_residual --seed 4\n",
+    "cgroup_maximum": 48318382080,
+    "cgroup_current": 25934680064,
+    "cgroup_available": 22383702016,
+    "remote_free": 35490791424
+  },
+  "raw_observation_archive_SHA": "cf9bc6547b000eba5601d3855c515ccc3f77ef1ad16d9435ed919f5d54b6e1d2",
+  "raw_observation_verification": {
+    "all_member_SHA_CRC_unique_exact_set_passed": true,
+    "members": 39
+  },
+  "training_complete": false,
+  "CPU_final_audit_complete": false,
+  "full_model_Release_restoration_complete": false,
+  "TEST_inference_or_scoring_performed": false,
+  "old_fivefold_and15queue_not_started": true,
+  "metadata_capture_path_failure_preserved_and_corrected": true
+}

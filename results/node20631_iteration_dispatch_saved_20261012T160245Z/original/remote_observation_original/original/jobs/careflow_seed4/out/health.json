@@ -1,0 +1,14 @@
+{
+  "actual_UTC": "2026-10-12T15:59:34.317903+00:00",
+  "seed": 4,
+  "method": "careflow",
+  "step": 480,
+  "allocated": 3044124160,
+  "reserved": 4538236928,
+  "peak_allocated": 3970749440,
+  "peak_reserved": 4538236928,
+  "missing_gradients": [
+    "dberta.pooler.dense.weight",
+    "dberta.pooler.dense.bias"
+  ]
+}

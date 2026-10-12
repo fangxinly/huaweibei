@@ -1,0 +1,8 @@
+{
+  "actual_UTC": "2026-10-12T16:00:01.423415+00:00",
+  "archive": "/root/autodl-tmp/ni_node20631_20261012T152116Z/iteration_observation_20261012T155936Z/original/complete_observation_original.zip",
+  "archive_SHA": "cf9bc6547b000eba5601d3855c515ccc3f77ef1ad16d9435ed919f5d54b6e1d2",
+  "bytes": 319689,
+  "all_member_SHA_CRC_unique_exact_set_passed": true,
+  "members": 39
+}
